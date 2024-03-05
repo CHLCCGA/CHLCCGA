@@ -1,6 +1,5 @@
 ![Header](./github-header-image.png)
-<h1 align="center">Hi 👋, I'm Xinyu Geng</h1>
-<h3 align="center">A Engineer from China fascinated with cutting-edge technologies & Philosophy</h3>
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chlccga" alt="chlccga" /></a> </p>
 
