@@ -1,4 +1,4 @@
-
+![Header](./github-header-image.png)
 <h1 align="center">Hi 👋, I'm Xinyu Geng</h1>
 <h3 align="center">A Engineer from China fascinated with cutting-edge technologies & Philosophy</h3>
 
@@ -13,5 +13,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chlccga&show_icons=true&locale=en&layout=compact" alt="chlccga" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chlccga&show_icons=true&locale=en" alt="chlccga" /></p>
-
-
