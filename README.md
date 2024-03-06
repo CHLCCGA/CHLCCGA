@@ -58,86 +58,106 @@
     <summary>Machine Learning</summary>
     <ul>
       <li>
-        <strong> <a href=" ">01.ML basic</a>
+        <strong> <a href="https://github.com/CHLCCGA/01.ML-basic">01.ML basic</a>
       </li>
       <li>
-        <strong><a href=" ">02.Matrix(derivation & lsm)</a>
+        <strong><a href="https://github.com/CHLCCGA/02.Matrix-derivation-lsm-">02.Matrix(derivation & lsm)</a>
       </li>
       <li>
-        <strong></strong> <a href="">03.Linear Regression</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/03.Linear-Regression">03.Linear Regression</a>
       </li>
       <li>
-        <strong> <a href=" ">04.Logistic Regression</a>
+        <strong> <a href="https://github.com/CHLCCGA/04.Logistic-Regression">04.Logistic Regression</a>
       </li>
       <li>
-        <strong><a href=" ">05.Classification model & model evaluation</a>
+        <strong><a href="https://github.com/CHLCCGA/05.Classification-model-model-evaluation">05.Classification model & model evaluation</a>
       </li>
       <li>
-        <strong></strong> <a href="">06.Scikit-Learn</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/06.Scikit-Learn">06.Scikit-Learn</a>
       </li>
       <li>
-        <strong> <a href=" ">07.Clustering model</a>
+        <strong> <a href="https://github.com/CHLCCGA/07.Clustering-model">07.Clustering model</a>
       </li>
       <li>
-        <strong><a href=" ">08.Decision Tree</a>
+        <strong><a href="https://github.com/CHLCCGA/08.Decision-Tree">08.Decision Tree</a>
       </li>
       <li>
-        <strong></strong> <a href="">09.bagging & Random Forest</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/09.bagging-Random-Forest">09.bagging & Random Forest</a>
       </li>
       <li>
-        <strong> <a href=" ">10.HPO Grid OPT & Bayesian OPT</a>
+        <strong> <a href="https://github.com/CHLCCGA/10.HPO-Grid-OPT-Bayesian-OPT">10.HPO Grid OPT & Bayesian OPT</a>
       </li>
       <li>
-        <strong><a href=" ">11.AdaBoost</a>
+        <strong><a href="https://github.com/CHLCCGA/11.AdaBoost">11.AdaBoost</a>
       </li>
       <li>
-        <strong></strong> <a href="">12.GBDT</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/12.GBDT">12.GBDT</a>
       </li>  
       <li>
-        <strong></strong> <a href="">13.XGBoost</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/13.XGBoost">13.XGBoost</a>
       </li> 
       <li>
-        <strong></strong> <a href="">14.LightGBM</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/14.LightGBM">14.LightGBM</a>
       </li> 
       <li>
-        <strong></strong> <a href="">15.CatBoost</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/15.CatBoost">15.CatBoost</a>
       </li>
       <li>
         <strong></strong> <a href="">Practice</a>
-      </li>
-          
-      <li>
-        <strong>项目2:</strong> 该项目探索了 [主题]，采用 [技术]，并包含以下子项目：
-        <ul>
-          <li><strong>子项目2.1:</strong> 详细描述子项目2.1，相关链接： [链接]。</li>
-          <li><strong>子项目2.2:</strong> 详细描述子项目2.2，相关链接： [链接]。</li>
-        </ul>
-      </li>
-      <li>
-        <strong>项目3:</strong> 该项目致力于 [目标]，采用了 [方法]，取得了 [成果]。
-      </li>
-    </ul>
-    
+      </li>         
+    </ul>    
   </details>
 
 
   <details>
     <summary>Deep Learning</summary>
-    <ul>
+    <ul>      
       <li>
-        <strong>项目1:</strong> 该项目的目标是 [目标]，通过 [方法] 取得了 [成果]。
+        <strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/tree/main">01. NN based onTorch</a></strong> create a basic neural network using PyTorch：
+        <ul>
+          <li><strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/blob/main/NN%20Classification.ipynb">NN Classification</a></strong> </li>
+          <li><strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/blob/main/NN%20Rregresstion.ipynb">NN Rregresstion</a></strong> </li>
+        </ul>
+      </li>      
+      <li>
+        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <ul>
+          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Practice</a></strong> </li>
+        </ul>
       </li>
       <li>
         <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
         <ul>
-          <li><strong>子项目2.1:</strong> 详细描述子项目2.1，相关链接： [链接]。</li>
-          <li><strong>子项目2.2:</strong> 详细描述子项目2.2，相关链接： [链接]。</li>
+          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Practice</a></strong> </li>
         </ul>
       </li>
       <li>
-        <strong>项目3:</strong> 该项目专注于 [目标]，使用了 [方法]，并取得了 [成果]。
+        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <ul>
+          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Practice</a></strong> </li>
+        </ul>
+      </li>
+      <li>
+        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <ul>
+          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Practice</a></strong> </li>
+        </ul>
+      </li>
+      <li>
+        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <ul>
+          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Practice</a></strong> </li>
+        </ul>
       </li>
     </ul>
+
+
+    
   </details>
 
   <details>
