@@ -48,6 +48,55 @@
 | <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CHLCCGA&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Xinyu's github stats" /></a> | <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHLCCGA&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
+
+
+
+<details>
+  <summary>点击展开折叠列表</summary>
+  
+  <details>
+    <summary>Machine Learning</summary>
+    <ul>
+      <li>
+        <strong>项目1:</strong> 该项目旨在解决 [相关问题]，采用 <a href="https://www.bilibili.com/">方法</a>，取得了 [成果]。
+      </li>
+      <li>
+        <strong>项目2:</strong> 该项目探索了 [主题]，采用 [技术]，并包含以下子项目：
+        <ul>
+          <li><strong>子项目2.1:</strong> 详细描述子项目2.1，相关链接： [链接]。</li>
+          <li><strong>子项目2.2:</strong> 详细描述子项目2.2，相关链接： [链接]。</li>
+        </ul>
+      </li>
+      <li>
+        <strong>项目3:</strong> 该项目致力于 [目标]，采用了 [方法]，取得了 [成果]。
+      </li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Deep Learning</summary>
+    <ul>
+      <li>
+        <strong>项目1:</strong> 该项目的目标是 [目标]，通过 [方法] 取得了 [成果]。
+      </li>
+      <li>
+        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <ul>
+          <li><strong>子项目2.1:</strong> 详细描述子项目2.1，相关链接： [链接]。</li>
+          <li><strong>子项目2.2:</strong> 详细描述子项目2.2，相关链接： [链接]。</li>
+        </ul>
+      </li>
+      <li>
+        <strong>项目3:</strong> 该项目专注于 [目标]，使用了 [方法]，并取得了 [成果]。
+      </li>
+    </ul>
+  </details>
+</details>
+
+
+
+
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
