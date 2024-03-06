@@ -58,52 +58,60 @@
     <summary>Machine Learning</summary>
     <ul>
       <li>
-        <strong> <a href="https://github.com/CHLCCGA/01.ML-basic">01.ML basic</a>
+        <strong> <a href="https://github.com/CHLCCGA/01.ML-basic">01.ML basic</a>--go through the machine learning process
       </li>
       <li>
-        <strong><a href="https://github.com/CHLCCGA/02.Matrix-derivation-lsm-">02.Matrix(derivation & lsm)</a>
+        <strong><a href="https://github.com/CHLCCGA/02.Matrix-derivation-lsm-">02.Matrix(derivation & lsm)</a>--performing matrix calculations using NumPy
       </li>
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/03.Linear-Regression">03.Linear Regression</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/03.Linear-Regression">03.Linear Regression</a>--go through the linear regression process
       </li>
       <li>
-        <strong> <a href="https://github.com/CHLCCGA/04.Logistic-Regression">04.Logistic Regression</a>
+        <strong> <a href="https://github.com/CHLCCGA/04.Logistic-Regression">04.Logistic Regression</a>--go through the logistic regression process
       </li>
       <li>
-        <strong><a href="https://github.com/CHLCCGA/05.Classification-model-model-evaluation">05.Classification model & model evaluation</a>
+        <strong><a href="https://github.com/CHLCCGA/05.Classification-model-model-evaluation">05.Classification model & model evaluation</a>--concepts of classification model decision boundaries and model evaluation
       </li>
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/06.Scikit-Learn">06.Scikit-Learn</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/06.Scikit-Learn">06.Scikit-Learn</a>--use Scikit-Learn as a tool for building and evaluating machine learning models
       </li>
       <li>
-        <strong> <a href="https://github.com/CHLCCGA/07.Clustering-model">07.Clustering model</a>
+        <strong> <a href="https://github.com/CHLCCGA/07.Clustering-model">07.Clustering model</a>--explore clustering models, specifically focusing on KMeans and DBSCAN
+        <ul>
+          <li><strong><a href="https://github.com/CHLCCGA/07.Clustering-model/blob/main/07_1_unsupervised_learning_%26_K-means.ipynb">07_1_unsupervised_learning_&_K-means</a></strong> </li>
+          <li><strong><a href="https://github.com/CHLCCGA/07.Clustering-model/blob/main/07_2_mini-batch_k-means_%26_DBSCAN.ipynb">07_2_mini-batch_k-means_&_DBSCAN</a></strong> </li>
+        </ul>
+      </li>     
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/08.Decision-Tree">08.Decision Tree</a>--Decision Trees & some of the specific algorithms associated with them: ID3 (Iterative Dichotomiser 3), C4.5, and CART (Classification and Regression Trees)
       </li>
       <li>
-        <strong><a href="https://github.com/CHLCCGA/08.Decision-Tree">08.Decision Tree</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/09.bagging-Random-Forest">09.bagging & Random Forest</a>--Ensemble Learning, Bagging, and Random Forests
       </li>
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/09.bagging-Random-Forest">09.bagging & Random Forest</a>
+        <strong> <a href="https://github.com/CHLCCGA/10.HPO-Grid-OPT-Bayesian-OPT">10.HPO Grid OPT & Bayesian OPT</a>--Hyperparameter Optimization (HPO) using Grid Search, Random Search, and Bayesian Optimization 
+        <ul>
+          <li><strong><a href="https://github.com/CHLCCGA/10.HPO-Grid-OPT-Bayesian-OPT/blob/main/10_1_Hyperparameter_Opt_Grid_Opt.ipynb">10_1_Hyperparameter_Opt_Grid_Opt</a></strong> </li>
+          <li><strong><a href="https://github.com/CHLCCGA/10.HPO-Grid-OPT-Bayesian-OPT/blob/main/10_2_Hyperparameter_Opt_Bayesian_Opt.ipynb">10_2_Hyperparameter_Opt_Bayesian_Opt</a></strong> </li>
+        </ul>
+      </li>          
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/11.AdaBoost">11.AdaBoost</a>--AdaBoost (Adaptive Boosting)
       </li>
       <li>
-        <strong> <a href="https://github.com/CHLCCGA/10.HPO-Grid-OPT-Bayesian-OPT">10.HPO Grid OPT & Bayesian OPT</a>
-      </li>
-      <li>
-        <strong><a href="https://github.com/CHLCCGA/11.AdaBoost">11.AdaBoost</a>
-      </li>
-      <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/12.GBDT">12.GBDT</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/12.GBDT">12.GBDT</a>--discuss the loss functions used in GBDT and optimizing GBDT using Tree-structured Parzen Estimators (TPE) 
       </li>  
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/13.XGBoost">13.XGBoost</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/13.XGBoost">13.XGBoost</a>--using XGBoost for regression and classification, exploring the concepts of three estimators and DART (Dropouts meet Multiple Additive Regression Trees), Structure Score, Gain of Structure Score, and XGBoost hyperparameter optimization using Tree-structured Parzen Estimators (TPE)
       </li> 
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/14.LightGBM">14.LightGBM</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/14.LightGBM">14.LightGBM</a>--explore LightGBM, including Exclusive Feature Bundling(EFB), Gradient-based One-Side Sampling(GOSS), common hyperparameters, and the process of hyperparameter optimization for LightGBM
       </li> 
       <li>
-        <strong></strong> <a href="https://github.com/CHLCCGA/15.CatBoost">15.CatBoost</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/15.CatBoost">15.CatBoost</a>--CatBoost, a gradient boosting library designed for categorical feature support
       </li>
       <li>
-        <strong></strong> <a href="">Practice</a>
+        <strong></strong> <a href="https://github.com/CHLCCGA/Practice">Practice</a>--Practice
       </li>         
     </ul>    
   </details>
