@@ -135,10 +135,18 @@
         <strong><a href="https://github.com/CHLCCGA/03.-Training-image-classification-model">03. Training-image-classification-model </a></strong>--image classification model based on classic architecture
       </li>
       <li>
-        <strong><a href="">onTorch</a></strong> create a basic neural network using PyTorch：
+        <strong><a href="">04. OpenCV</a></strong> create a basic neural network using PyTorch：
         <ul>
-          <li><strong><a href="">Classification</a></strong> </li>
-          <li><strong><a href="">Rregresstion</a></strong> </li>
+          <li><strong><a href="">1. Basic image operations & processing</a></strong> </li>
+          <li><strong><a href="">2. Template-Matching-OCR</a></strong> </li>
+          <li><strong><a href="">3. Scan</a></strong> </li>
+          <li><strong><a href="">4. Image Feature</a></strong> </li>
+          <li><strong><a href="">5. ImageStich</a></strong> </li>
+          <li><strong><a href="">6. park</a></strong> </li>          
+          <li><strong><a href="">7. answer sheet</a></strong> </li>
+          <li><strong><a href="">8. Background modeling &optical flow estimation</a></strong> </li>
+          <li><strong><a href="">9. DNN in opencv</a></strong> </li>
+          <li><strong><a href="">10. CNN</a></strong> </li>      
         </ul>
       </li>
       <li>
