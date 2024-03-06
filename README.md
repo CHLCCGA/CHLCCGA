@@ -1,5 +1,5 @@
 ![Header](./github-header-image.png)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=40&duration=2499&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&lines=Hello+there!+Thanks+for+stopping+by+my+page.+;Take+a+look+around+and+discover+more+about+;who+I+am+and+what+I'm+passionate+about+%3AD)](https://git.io/typing-svg)
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chlccga" alt="chlccga" /></a> </p>
 
