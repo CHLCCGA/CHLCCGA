@@ -1,5 +1,5 @@
 ![Header](./github-header-image.png)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=40&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&lines=Hello+there!+Thanks+for+stopping+by+my+page.+;Take+a+look+around+and+discover+more+about+;who+I+am+and+what+I'm+passionate+about+%3AD)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=40&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&height=70&lines=Hello+there!+Thanks+for+stopping+by+my+page.+;Take+a+look+around+and+discover+more+about+;who+I+am+and+what+I'm+passionate+about+%3AD)](https://git.io/typing-svg)
 
 <h1 align="center"> 
   <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
@@ -45,7 +45,7 @@
 </p>
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7899&center=true&vCenter=true&random=false&width=1249&height=100&lines=What+I've+Done;Check+Out+My+Work)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7899&center=true&vCenter=true&random=false&width=1249&height=70&lines=What+I've+Done;Check+Out+My+Work)](https://git.io/typing-svg)
 
 <details>
   <summary> 👉CLICK HERE👈</summary>
@@ -258,7 +258,7 @@
 
 </details>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&height=100&lines=Check+Out+My+Ongoing+Learning;See+What's+My+Next+Learning+Steps)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&height=70&lines=Check+Out+My+Ongoing+Learning;See+What's+My+Next+Learning+Steps)](https://git.io/typing-svg)
 
 
 | <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CHLCCGA&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Xinyu's github stats" /></a> | <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHLCCGA&layout=compact&theme=buefy&hide_border=true" /></a> |
