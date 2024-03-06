@@ -17,3 +17,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
 </picture>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=48&duration=2499&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&lines=Thanks+for+your+visit!)](https://git.io/typing-svg)
