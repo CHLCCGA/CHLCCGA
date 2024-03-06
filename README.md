@@ -135,7 +135,7 @@
         <strong><a href="https://github.com/CHLCCGA/03.-Training-image-classification-model">03. Training-image-classification-model </a></strong>--image classification model based on classic architecture
       </li>
       <li>
-        <strong><a href="">04. OpenCV</a></strong> create a basic neural network using PyTorch：
+        <strong><a href="">04. OpenCV</a></strong> 
         <ul>
           <li><strong><a href="">1. Basic image operations & processing</a></strong> </li>
           <li><strong><a href="">2. Template-Matching-OCR</a></strong> </li>
@@ -150,12 +150,50 @@
         </ul>
       </li>
       <li>
-        <strong><a href="">onTorch</a></strong> create a basic neural network using PyTorch：
+        <strong><a href="">05. transformer & resnet</a></strong>
+        <ul>
+          <li><strong><a href="">Medical-Transformer</a></strong> </li>
+          <li><strong><a href="">MedMNIST-resnet</a></strong> </li>
+        </ul>
+      </li> 
+      <li>
+        <strong><a href="">06. Classic Project for Object Detection</a></strong>
+        <ul>
+          <li><strong><a href="">DETR</a></strong> </li>
+          <li><strong><a href="">EfficientDet</a></strong> </li>
+          <li><strong><a href="">YOLO（PyTorch）</a></strong> </li>
+          <li><strong><a href="">yolov7-main</a></strong> </li>          
+        </ul>
+      </li>    
+      <li>
+        <strong><a href="">07. NLP Basic</a></strong>
         <ul>
           <li><strong><a href="">Classification</a></strong> </li>
           <li><strong><a href="">Rregresstion</a></strong> </li>
         </ul>
-      </li>      
+      </li>    
+      <li>
+        <strong><a href="">08. Sentiment Analysis with LSTM</a></strong>
+        <ul>
+          <li><strong><a href="">Classification</a></strong> </li>
+          <li><strong><a href="">Rregresstion</a></strong> </li>
+        </ul>
+      </li>    
+      <li>
+        <strong><a href="">09. BERT</a></strong>
+        <ul>
+          <li><strong><a href="">Classification</a></strong> </li>
+          <li><strong><a href="">Rregresstion</a></strong> </li>
+        </ul>
+      </li>    
+        <strong><a href="">10. HuggingFace</a></strong>
+        <ul>
+          <li><strong><a href="">Classification</a></strong> </li>
+          <li><strong><a href="">Rregresstion</a></strong> </li>
+        </ul>
+      </li>    
+
+  
     </ul>
 
 
