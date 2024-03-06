@@ -50,9 +50,9 @@
 
 
 
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7899&center=true&vCenter=true&random=false&width=1249&height=100&lines=What+I've+Done;Check+Out+My+Work)](https://git.io/typing-svg)
 <details>
-  <summary>点击展开折叠列表</summary>
+  <summary>CLICK HERE</summary>
   
   <details>
     <summary>Machine Learning</summary>
