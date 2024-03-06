@@ -53,7 +53,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7899&center=true&vCenter=true&random=false&width=1249&height=100&lines=What+I've+Done;Check+Out+My+Work)](https://git.io/typing-svg)
 
 <details>
-  <summary>CLICK HERE</summary>
+  <summary> 👉CLICK HERE👈</summary>
 
   <details>
     <summary>Machine Learning</summary>
@@ -122,47 +122,32 @@
     <summary>Deep Learning</summary>
     <ul>      
       <li>
-        <strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/tree/main">01. NN based onTorch</a></strong> create a basic neural network using PyTorch：
+        <strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/tree/main">01. NN based onTorch</a></strong> --create a basic neural network using PyTorch：
         <ul>
           <li><strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/blob/main/NN%20Classification.ipynb">NN Classification</a></strong> </li>
           <li><strong><a href="https://github.com/CHLCCGA/01.-NN-based-onTorch/blob/main/NN%20Rregresstion.ipynb">NN Rregresstion</a></strong> </li>
         </ul>
       </li>      
       <li>
-        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <strong><a href="https://github.com/CHLCCGA/02.-CNN">02. CNN</a></strong> --go through the process of building a Convolutional Neural Network
+      </li>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/03.-Training-image-classification-model">03. Training-image-classification-model </a></strong>--image classification model based on classic architecture
+      </li>
+      <li>
+        <strong><a href="">onTorch</a></strong> create a basic neural network using PyTorch：
         <ul>
-          <li><strong><a href="">Practice</a></strong> </li>
-          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Classification</a></strong> </li>
+          <li><strong><a href="">Rregresstion</a></strong> </li>
         </ul>
       </li>
       <li>
-        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
+        <strong><a href="">onTorch</a></strong> create a basic neural network using PyTorch：
         <ul>
-          <li><strong><a href="">Practice</a></strong> </li>
-          <li><strong><a href="">Practice</a></strong> </li>
+          <li><strong><a href="">Classification</a></strong> </li>
+          <li><strong><a href="">Rregresstion</a></strong> </li>
         </ul>
-      </li>
-      <li>
-        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
-        <ul>
-          <li><strong><a href="">Practice</a></strong> </li>
-          <li><strong><a href="">Practice</a></strong> </li>
-        </ul>
-      </li>
-      <li>
-        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
-        <ul>
-          <li><strong><a href="">Practice</a></strong> </li>
-          <li><strong><a href="">Practice</a></strong> </li>
-        </ul>
-      </li>
-      <li>
-        <strong>项目2:</strong> 该项目涉及 [主题]，采用 [技术]，包含以下子项目：
-        <ul>
-          <li><strong><a href="">Practice</a></strong> </li>
-          <li><strong><a href="">Practice</a></strong> </li>
-        </ul>
-      </li>
+      </li>      
     </ul>
 
 
