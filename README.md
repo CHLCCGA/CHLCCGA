@@ -1,51 +1,53 @@
-![Header](./github-header-image.png)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=40&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&height=70&lines=Hello+there!+Thanks+for+stopping+by+my+page.+;Take+a+look+around+and+discover+more+about+;who+I+am+and+what+I'm+passionate+about+%3AD)](https://git.io/typing-svg)
+[![MasterHead](https://img.freepik.com/premium-vector/machine-learning-banner-web-icon-set-data-mining-algorithm-neural-network_35632-107.jpg?w=2000)](https://github.com/CHLCCGA)
 
-<h1 align="center"> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> 
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-</h1>
+<div align="center">
+<h1> 🌟Hey! Nice to see you. Welcome!<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/></h1>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chlccga" alt="chlccga" /></a> </p>
+<h3 align="center">I'm Xinyu, from <b>China</b><img src="https://cdn-icons-gif.flaticon.com/15574/15574401.gif" width="25" style="position:relative;top:5px"/>, currently living in <b>Warsaw</b><img src="https://cdn-icons-png.flaticon.com/128/16268/16268647.png" width="25" style="position:relative;top:5px" />.
+</h3>
+<h3 align="center">Craving For AI Knowledge</h3>
+
+![](https://img.shields.io/badge/Focus-Artificial_Intelligence-BE2EDD)![](https://img.shields.io/badge/Role-Data_Analyst-20B2AA)
+
+</div>
 
 
-<h3 align="left">Languages and Tools:</h3>
+- <img src="https://cdn-icons-gif.flaticon.com/11681/11681570.gif" width="25" style="position:relative;top:4px"/> I’m currently working on [Capgemini](https://www.capgemini.com/)
+- <img src="https://cdn-icons-gif.flaticon.com/17465/17465874.gif" width="25" style="position:relative;top:4px"/> I’m currently learning **Graph Neural Network, LLMs**
+- <img src="https://cdn-icons-gif.flaticon.com/15353/15353536.gif" width="25" style="position:relative;top:4px"/> I’m looking for something new or creating some project.
+- <img src="https://cdn-icons-gif.flaticon.com/13311/13311763.gif" width="25" style="position:relative;top:7px"/> I'm also interested in competitive programming.
+- <img src="https://cdn-icons-gif.flaticon.com/15568/15568198.gif" width="25" style="position:relative;top:6px"/> How to reach me **gengjiaxinyu@gmail.com**
+
+
+<h3 align="left">Connect with me</h3>
 <p align="left">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/238200431-3c16d4f2-b757-4c70-8f42-43d5dddd2c36.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/238200437-de038172-e903-4951-926c-755878deb0b4.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/238200433-3fb2cdf6-8920-462e-87a4-95af376418aa.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="70"><img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="70">
-</p>
+<a href="https://www.linkedin.com/in/xinyu-geng/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+<a href="https://www.kaggle.com/chlccga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" height="30" width="40" /></a>
+<a href="https://leetcode.com/u/gengjiaxinyu/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" /></a>
+<a href="mailto:gengjiaxinyu@gmail.com" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png" height="30" width="30" /></a>
 
-<p align="left">
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>   
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> 
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>  
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>  
-  <a href="https://www.haskell.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg" alt="haskell" width="40" height="40"/> </a> 
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  
 </p>
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7899&center=true&vCenter=true&random=false&width=1249&height=70&lines=What+I've+Done;Check+Out+My+Work)](https://git.io/typing-svg)
 
 <details>
-  <summary> 👉CLICK HERE👈</summary>
+  <summary style="font-size: 20px; font-weight: bold; "><img src="https://cdn-icons-gif.flaticon.com/12404/12404075.gif" width="25" style="position:relative;top:4px"/>Things I code with</summary>
+
+#### 👨‍💻 Programming and Markup Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)
+#### 🧰 Frameworks and Libraries
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E.svg?style=for-the-badge&logo=HuggingFace&logoColor=white)![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)![PyG](https://img.shields.io/badge/PyG-%23150458.svg?style=for-the-badge&logo=PyG&logoColor=white)![scikit-learn](https://img.shields.io/badge/scikit--learn-%234285F4.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)![OpenCV](https://img.shields.io/badge/opencv-%235C1F87.svg?style=for-the-badge&logo=opencv&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ff0077.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+#### 🗄️ Databases and Cloud Hosting
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+#### 💻 Software and Tools
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)![Jupyter Notebook](https://img.shields.io/badge/jupyter-FE7A16.svg?style=for-the-badge&logo=jupyter&logoColor=white)![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+</details>
+
+
+
+<details>
+  <summary style="font-size: 20px; font-weight: bold;"> <img src="https://cdn-icons-gif.flaticon.com/17905/17905671.gif" width="25" style="position:relative;top:5px"/>Featured Projects</summary>
 
   <details>
     <summary>Machine Learning</summary>
@@ -253,13 +255,85 @@
     </ul>
   </details>
 
+
+
+  <details>
+    <summary><a href="https://github.com/CHLCCGA/Kaggle">Kaggle</a></summary>
+    <ul>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/Kaggle/tree/main/lap">lap</a></strong>--Loan Approval Prediction 820/3858 (Playground S4 Ep10)
+      </li>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/Kaggle/tree/main/ttn/ttn">ttn</a></strong>--Titanic
+      </li> 
+    </ul>
+  </details>
+
+  <details>
+    <summary><a href="https://github.com/CHLCCGA/TimeSeries">TimeSeries</a></summary>
+    <ul>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/TimeSeries/blob/main/ARIMA.ipynb">ARIMA</a></strong>--autoregressive integrated moving average model
+      </li>
+    </ul>
+  </details>
+
+
+  <details>
+    <summary><a href="https://github.com/CHLCCGA/LLM?tab=readme-ov-file">LLM</a></summary>
+      <div class="explanation">Theoretical Framework and Practical Applications of Fine-Tuning</div>
+    <ul>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/LLM/tree/main/01.transformers">01.transformers</a></strong>
+      </li>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/LLM/tree/main/02.quantization">02.quantization</a></strong>
+      </li>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/LLM/tree/main/03.peft">03.peft</a></strong>
+      </li>
+      <li>
+        <strong><a href="https://github.com/CHLCCGA/LLM/tree/main/04.llama">04.llama</a></strong>
+      </li>      
+    </ul>
+  </details>
+
+
+  <details>
+    <summary><a href="https://github.com/CHLCCGA/LBGCN">LBGCN</a></summary>Master's Thesis:
+      <div class="explanation">Enhancing Text Classification with LLM-Augmented BertGCN and Advanced Machine Learning Techniques</div>
+  </details>
+
+
+  <details>
+    <summary><a href="https://github.com/CHLCCGA/Feature-Engineering">Feature-Engineering</a></summary>
+    <ul>
+      <li>
+        <strong><a href="">1.EDA</a></strong>
+      </li>
+      <li>
+        <strong><a href="">2.Data Encoding</a></strong>
+      </li>
+      <li>
+        <strong><a href="">3.1 Feature derivation and feature screening</a></strong>
+      </li>
+      <li>
+        <strong><a href="">3.2 (1) Batch Feature Creation</a></strong>
+      </li>
+      <li>
+        <strong><a href="">3.2 (2)Feature Generation Practice</a></strong>
+      </li>
+      <li>
+        <strong><a href="">3.3.1 Feature Filter</a></strong>
+      </li>
+      <li>
+        <strong><a href="">3.3.2 RFE & RFECV</a></strong>
+      </li>      
+    </ul>
+  </details>
+
 </details>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&height=70&lines=Check+Out+My+Ongoing+Learning;See+What's+My+Next+Learning+Steps)](https://git.io/typing-svg)
-
-
-| <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=CHLCCGA&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Xinyu's github stats" /></a> | <a href="https://github.com/CHLCCGA/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHLCCGA&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
 
 
 <picture>
@@ -268,4 +342,4 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
 </picture>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&size=48&duration=2499&pause=1000&color=F1FFC9&background=3A7B99&center=true&vCenter=true&random=false&width=1249&lines=Thanks+for+your+visit!)](https://git.io/typing-svg)
+
