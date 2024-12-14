@@ -25,7 +25,6 @@
 <a href="https://www.kaggle.com/chlccga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" height="30" width="40" /></a>
 <a href="https://leetcode.com/u/gengjiaxinyu/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" /></a>
 <a href="mailto:gengjiaxinyu@gmail.com" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png" height="30" width="30" style="position:relative;top:3px;left:7px" /></a>
-
 </p>
 
 
@@ -346,7 +345,7 @@
 ### Statistics<img src="https://cdn-icons-gif.flaticon.com/18545/18545245.gif" width="30" style="position:relative;top:4px"/>
 
 <div align="center">
-  <img height="153em" width="6000" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CHLCCGA&theme=nord_dark"/>
+  <img height="153em" width="1000" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CHLCCGA&theme=nord_dark"/>
   <img height="130em" width="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHLCCGA&theme=cobalt"/>
   <img height="130em" width="400" src="https://github-profile-trophy.vercel.app/?username=CHLCCGA&row=1&column=3&theme=nord"/>
 </div>
