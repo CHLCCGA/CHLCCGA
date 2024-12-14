@@ -343,12 +343,18 @@
 
 </details>
 
+### Statistics<img src="https://cdn-icons-gif.flaticon.com/18545/18545245.gif" width="30" style="position:relative;top:4px"/>
 
+<div align="center">
+  <img height="153em" width="6000" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CHLCCGA&theme=nord_dark"/>
+  <img height="130em" width="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHLCCGA&theme=cobalt"/>
+  <img height="130em" width="400" src="https://github-profile-trophy.vercel.app/?username=CHLCCGA&row=1&column=3&theme=nord"/>
+</div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CHLCCGA/CHLCCGA/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CHLCCGA/CHLCCGA/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CHLCCGA/CHLCCGA/output/github-contribution-grid-snake.svg">
 </picture>
 
 
