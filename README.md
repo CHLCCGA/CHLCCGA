@@ -255,6 +255,7 @@
       <li>
         <strong><a href="">LeetCode</a></strong>
       </li>
+      <li>
         <strong><a href="">linux</a></strong>
       </li>
       <li>
@@ -263,6 +264,7 @@
       <li>
         <strong><a href="">Nnmpy+Pandas+Matplotlib</a></strong>
       </li>
+      <li>
         <strong><a href="">SQL</a></strong>
       </li>
       <li>
