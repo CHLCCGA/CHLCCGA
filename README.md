@@ -21,8 +21,8 @@
 
 <h3 align="left">Connect with me<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Saluting%20Face.png" alt="Saluting Face" width="25" height="25" style="position:relative;top:5px;" /></h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/xinyu-geng/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=whit" height="40" width="64" /></a>
-<a href="https://www.kaggle.com/chlccga" target="blank"><img align="center" src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" height="40" width="64" /></a>
+<a href="https://www.linkedin.com/in/xinyu-geng/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=blue" height="40" width="64" /></a>
+<a href="https://www.kaggle.com/chlccga" target="blank"><img align="center" src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&color=skyblue" height="40" width="64" /></a>
 <a href="https://leetcode.com/u/gengjiaxinyu/" target="blank"><img align="center" src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="40" width="64" /></a>
 <a href="mailto:gengjiaxinyu@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" width="64" /></a>
 </p>
