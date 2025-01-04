@@ -23,8 +23,9 @@
 <p align="left">
 <a href="https://www.linkedin.com/in/xinyu-geng/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=blue" height="40" width="64" /></a>
 <a href="https://www.kaggle.com/chlccga" target="blank"><img align="center" src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&color=skyblue" height="40" width="64" /></a>
-<a href="https://leetcode.com/u/gengjiaxinyu/" target="blank"><img align="center" src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="40" width="64" /></a>
-<a href="mailto:gengjiaxinyu@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" width="64" /></a>
+<a href="https://leetcode.com/u/gengjiaxinyu/" target="blank"><img align="center" src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" height="40" width="80" /></a>
+<a href="mailto:gengjiaxinyu@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" width="74" /></a>
+<a href="https://www.instagram.com/8mnas/" target="blank"><img align="center" src="https://img.shields.io/badge/Ins-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" height="40" width="67" /></a>
 </p>
 
 
