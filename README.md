@@ -232,6 +232,14 @@
     </ul>   
   </details>
   
+  <details>
+    <summary style="margin-left: 30px;"><a href="https://github.com/CHLCCGA/Selfie_FLUX.1-dev_LoRA">Selfie_FLUX.1-dev_LoRA</a></summary>
+    <ul>
+        <li><strong><a href="https://github.com/CHLCCGA/Selfie_FLUX.1-dev_LoRA/blob/main/Selfie_FLUX.1-dev_LoRA.ipynb">Selfie_FLUX.1-dev_LoRA</a></strong>--fine-tune a FLUX.1-dev with LoRA, Text-To-Image.</li>
+        <li><strong><a href="https://github.com/CHLCCGA/Selfie_FLUX.1-dev_LoRA/blob/main/selfie.png">Generated photos here</a></strong></li>
+    </ul>
+  </details>
+
 
   <details>
     <summary style="margin-left: 30px;"><a href="https://github.com/CHLCCGA/TimeSeries">TimeSeries</a></summary>
@@ -303,7 +311,7 @@
 
   
   <details>
-    <summary style="margin-left: 30px;"><strong>Django Project</strong></summary>
+    <summary style="margin-left: 30px;"><strong><a href="https://github.com/CHLCCGA/Django-Project">Django Project</a></strong></summary>
     <ul>
       <li>
         <strong><a href="https://github.com/CHLCCGA/Django-Project">DjangoProject</a></strong>
