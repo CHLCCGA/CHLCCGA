@@ -12,8 +12,8 @@
 </div>
 
 
-- <img src="https://cdn-icons-gif.flaticon.com/11681/11681570.gif" width="25" style="position:relative;top:4px"/> I’m currently working on [Capgemini](https://www.capgemini.com/)
-- <img src="https://cdn-icons-gif.flaticon.com/17465/17465874.gif" width="25" style="position:relative;top:4px"/> I’m currently learning **Graph Neural Network, LLMs**
+- <img src="https://cdn-icons-gif.flaticon.com/11681/11681570.gif" width="25" style="position:relative;top:4px"/> I’m currently working on [Capgemini](https://www.capgemini.com/).
+- <img src="https://cdn-icons-gif.flaticon.com/17465/17465874.gif" width="25" style="position:relative;top:4px"/> I’m currently learning **GNN, LLMs, Efficient and Scalable AI.**
 - <img src="https://cdn-icons-gif.flaticon.com/15353/15353536.gif" width="25" style="position:relative;top:4px"/> I’m looking for something new or creating some project.
 - <img src="https://cdn-icons-gif.flaticon.com/13311/13311763.gif" width="25" style="position:relative;top:7px"/> I'm also interested in competitive programming.
 - <img src="https://cdn-icons-gif.flaticon.com/15568/15568198.gif" width="25" style="position:relative;top:6px"/> How to reach me **gengjiaxinyu@gmail.com**
