@@ -351,7 +351,7 @@
 
 </details>
 
-### Statistics<img src="https://cdn-icons-gif.flaticon.com/18545/18545245.gif" width="30" style="position:relative;top:4px"/>
+### Stats<img src="https://cdn-icons-gif.flaticon.com/18545/18545245.gif" width="30" style="position:relative;top:4px"/>
 
 <div align="center">
   <img height="153em" width="1000" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CHLCCGA&theme=nord_dark"/>
