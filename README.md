@@ -57,6 +57,17 @@
   </details>
 
 
+<details>
+    <summary style="margin-left: 30px;"><a href="https://github.com/CHLCCGA/LLM?tab=readme-ov-file">RL+LLM</a></summary>
+      <div class="explanation">RL 4 LLM</div>
+    <ul>
+      <li>
+        <strong><a href="">01.</a></strong>
+      </li>    
+    </ul>
+  </details>
+
+  
   <details>
     <summary style="margin-left: 30px;"><a href="https://github.com/CHLCCGA/LLM?tab=readme-ov-file">LLM</a></summary>
       <div class="explanation">Theoretical Framework and Practical Applications of Fine-Tuning</div>
