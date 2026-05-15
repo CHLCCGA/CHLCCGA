@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=DA7756&width=620&lines=PhD+Researcher+%C2%B7+AI+Security;Red-teamer+%C2%B7+Agent+Builder;LLM+Adversarial+Robustness)](https://git.io/typing-svg)
 
-# Xinyu Geng &nbsp;&middot;&nbsp; 耿佳鑫
+# Xinyu Geng &nbsp;&middot;&nbsp; 耿新宇
 
 🎓 PhD Researcher @ AGH University of Krakow &nbsp;|&nbsp; 🔐 LLMs under Adversarial Attacks<br/>
 📍 Warsaw, Poland &nbsp;|&nbsp; 📧 gengjiaxinyu@gmail.com
