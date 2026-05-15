@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-card.svg?v=2" alt="Xinyu Geng profile card" width="800"/>
+<img src="assets/profile-card.svg?v=3" alt="Xinyu Geng profile card" width="800"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=DA7756&width=620&lines=PhD+Researcher+%C2%B7+AI+Security;Red-teamer+%C2%B7+Agent+Builder;LLM+Adversarial+Robustness)](https://git.io/typing-svg)
 
@@ -26,12 +26,6 @@
 
 ---
 
-<table><tr>
-<td valign="top" width="320">
-<img src="assets/claude-thinking.svg" alt="Claude thinking about AI security research" width="300"/>
-</td>
-<td valign="top">
-
 ## Featured Projects
 
 | Project | Description | Tech |
@@ -42,9 +36,6 @@
 | [Kaggle Loan Prediction](https://github.com/CHLCCGA/Kaggle/tree/main/lap) | Top 22% (820/3858), ensemble methods | XGBoost &middot; sklearn |
 
 📚 More: [view all repositories](https://github.com/CHLCCGA?tab=repositories)
-
-</td>
-</tr></table>
 
 ---
 
