@@ -1,30 +1,12 @@
 #!/usr/bin/env python3
-"""Generate GitHub profile card SVG with dynamic GitHub trending repos."""
+"""Generate GitHub profile card SVG with dynamic AI news and GitHub trending."""
 
 import urllib.request
 import json
 import datetime
 import os
 import html
-
-# ── Tips (rotate by day-of-year) ─────────────────────────────────────────────
-TIPS = [
-    ("Adversarial Robustness",
-     "Map the full attack surface",
-     "before red-teaming your LLM."),
-    ("Prompt Injection",
-     "Indirect injections via tool",
-     "output are the blind spot."),
-    ("Multi-Agent Security",
-     "Every agent hop introduces",
-     "a new trust boundary."),
-    ("Jailbreak Defense",
-     "Representation engineering",
-     "outperforms prompt filtering."),
-    ("LLM Evaluation",
-     "Benchmark on adversarial sets,",
-     "not just standard benchmarks."),
-]
+import xml.etree.ElementTree as ET
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def esc(text: str) -> str:
@@ -37,11 +19,32 @@ def trunc(text: str, n: int) -> str:
 def stars_fmt(n: int) -> str:
     return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
 
-# ── Fetch trending ─────────────────────────────────────────────────────────────
+# ── Fetch AI news (HuggingFace blog RSS) ─────────────────────────────────────
+def fetch_ai_news():
+    url = "https://huggingface.co/blog/feed.xml"
+    req = urllib.request.Request(url)
+    req.add_header("User-Agent", "CHLCCGA-profile-card/1.0")
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            root = ET.parse(resp).getroot()
+            items = root.findall(".//item")[:3]
+            titles = [trunc(esc((i.findtext("title") or "").strip()), 32) for i in items]
+            return titles if len(titles) == 3 else None
+    except Exception as e:
+        print(f"Warning: AI news fetch failed ({e}), using placeholders.")
+        return None
+
+AI_NEWS_FALLBACK = [
+    "LLM robustness benchmarks drop",
+    "New multimodal safety dataset",
+    "Agentic attack surfaces paper",
+]
+
+# ── Fetch GitHub trending ─────────────────────────────────────────────────────
 def fetch_trending():
     since = (datetime.date.today() - datetime.timedelta(days=2)).isoformat()
     url = (
-        f"https://api.github.com/search/repositories"
+        "https://api.github.com/search/repositories"
         f"?q=created:>{since}&sort=stars&order=desc&per_page=3"
     )
     req = urllib.request.Request(url)
@@ -55,7 +58,7 @@ def fetch_trending():
             items = json.loads(resp.read()).get("items", [])[:3]
             return [(r["full_name"], r["stargazers_count"]) for r in items]
     except Exception as e:
-        print(f"Warning: could not fetch trending ({e}), using placeholders.")
+        print(f"Warning: trending fetch failed ({e}), using placeholders.")
         return [
             ("anthropics/claude-code", 12300),
             ("huggingface/smollm3", 8700),
@@ -63,40 +66,51 @@ def fetch_trending():
         ]
 
 # ── SVG generation ─────────────────────────────────────────────────────────────
-def generate_svg(trending) -> str:
-    # Rotate tip daily
-    tip_idx = datetime.date.today().timetuple().tm_yday % len(TIPS)
-    tip_title, tip_l1, tip_l2 = TIPS[tip_idx]
-
-    # Trending lines (right-pad to 3)
+def generate_svg(ai_news, trending) -> str:
+    # Trending lines
     t = [f"★{stars_fmt(s)}  {trunc(esc(name), 25)}" for name, s in trending]
     while len(t) < 3:
         t.append("")
 
-    # Palette (Claude Code terminal)
+    # AI news lines
+    n = ai_news if ai_news else AI_NEWS_FALLBACK
+    while len(n) < 3:
+        n.append("")
+
+    # Palette
     BG     = "#0D0D0D"
     BORDER = "#DA7756"
     ACCENT = "#DA7756"
     TEXT   = "#E0E0E0"
     DIM    = "#6E6E6E"
-    DARK   = "#1A0800"
+    DOG    = "#C8855A"   # warm tan/brown dog body
+    EAR    = "#9A6030"   # darker brown for ears + legs
+    DEYE   = "#2D1000"   # very dark brown for eyes/nose
 
-    # ── pixel mascot rects (9-pixel-wide grid, each pixel=8px, centered at x=230) ──
-    # Head center at x=230 → starts at x=194, width=72
-    mascot = f"""
-  <!-- antennae -->
-  <rect x="210" y="62" width="8" height="9" fill="{ACCENT}"/>
-  <rect x="242" y="62" width="8" height="9" fill="{ACCENT}"/>
-  <!-- head solid block -->
-  <rect x="194" y="71" width="72" height="20" fill="{ACCENT}"/>
-  <!-- eyes (dark overlay) -->
-  <rect x="209" y="78" width="14" height="11" fill="{DARK}"/>
-  <rect x="237" y="78" width="14" height="11" fill="{DARK}"/>
+    # ── pixel dog (centered at x=230) ─────────────────────────────────────────
+    # Body width=72, x=194..266; each pixel-unit ≈ 8px
+    dog = f"""
+  <!-- floppy ears (hang from sides of head) -->
+  <rect x="182" y="66" width="14" height="32" fill="{EAR}"/>
+  <rect x="264" y="66" width="14" height="32" fill="{EAR}"/>
+  <!-- head block -->
+  <rect x="194" y="62" width="72" height="38" fill="{DOG}"/>
+  <!-- left eye -->
+  <rect x="208" y="74" width="12" height="12" fill="{DEYE}"/>
+  <rect x="210" y="75" width="4"  height="4"  fill="white" opacity="0.45"/>
+  <!-- right eye -->
+  <rect x="240" y="74" width="12" height="12" fill="{DEYE}"/>
+  <rect x="242" y="75" width="4"  height="4"  fill="white" opacity="0.45"/>
+  <!-- nose -->
+  <rect x="225" y="89" width="10" height="8"  fill="{DEYE}"/>
   <!-- body -->
-  <rect x="194" y="91" width="72" height="18" fill="{ACCENT}"/>
-  <!-- feet -->
-  <rect x="194" y="109" width="22" height="9" fill="{ACCENT}"/>
-  <rect x="244" y="109" width="22" height="9" fill="{ACCENT}"/>"""
+  <rect x="200" y="100" width="60" height="18" fill="{DOG}"/>
+  <!-- tail (stub right side, angled up) -->
+  <rect x="258" y="92" width="10" height="16" fill="{EAR}"/>
+  <rect x="264" y="85" width="8"  height="10" fill="{EAR}"/>
+  <!-- front legs -->
+  <rect x="200" y="118" width="18" height="10" fill="{EAR}"/>
+  <rect x="242" y="118" width="18" height="10" fill="{EAR}"/>"""
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210">
   <!-- background -->
@@ -105,9 +119,9 @@ def generate_svg(trending) -> str:
   <rect x="1" y="1" width="798" height="208" rx="7" fill="none" stroke="{BORDER}" stroke-width="1.5"/>
 
   <!-- title bar -->
-  <line x1="8"   y1="14" x2="155" y2="14" stroke="{ACCENT}" stroke-width="1"/>
-  <text x="160"  y="19" font-family="Courier New,Courier,monospace" font-size="11.5" fill="{ACCENT}" font-weight="bold">Claude Code \xb7 Xinyu&#39;s GitHub</text>
-  <line x1="380" y1="14" x2="792" y2="14" stroke="{ACCENT}" stroke-width="1"/>
+  <line x1="8"   y1="14" x2="130" y2="14" stroke="{ACCENT}" stroke-width="1"/>
+  <text x="135"  y="19" font-family="Courier New,Courier,monospace" font-size="11.5" fill="{ACCENT}" font-weight="bold">Xinyu Geng \xb7 PhD Researcher \xb7 AI Security</text>
+  <line x1="435" y1="14" x2="792" y2="14" stroke="{ACCENT}" stroke-width="1"/>
   <line x1="1"   y1="26" x2="799" y2="26" stroke="{BORDER}" stroke-width="0.7" opacity="0.35"/>
 
   <!-- vertical divider -->
@@ -117,40 +131,37 @@ def generate_svg(trending) -> str:
   <line x1="460" y1="118" x2="799" y2="118" stroke="{BORDER}" stroke-width="0.6" opacity="0.35"/>
 
   <!-- ══════════ LEFT PANEL ══════════ -->
-
-  <!-- welcome -->
   <text x="230" y="52" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="13"
         fill="{TEXT}" font-weight="bold">Welcome back, Xinyu!</text>
-{mascot}
+{dog}
   <!-- links -->
-  <text x="230" y="135" text-anchor="middle"
+  <text x="230" y="138" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="10.5" fill="{ACCENT}">shin-resume.vercel.app</text>
-  <text x="230" y="152" text-anchor="middle"
+  <text x="230" y="155" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="10.5" fill="{DIM}">github.com/CHLCCGA</text>
-  <text x="230" y="169" text-anchor="middle"
+  <text x="230" y="172" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="10.5" fill="{DIM}">linkedin.com/in/xinyu-geng</text>
-  <text x="230" y="186" text-anchor="middle"
-        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{DIM}">AGH Krakow \xb7 PhD Researcher</text>
-  <text x="230" y="203" text-anchor="middle"
+  <text x="230" y="189" text-anchor="middle"
+        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{DIM}">AGH Krakow \xb7 PhD</text>
+  <text x="230" y="205" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="10" fill="{DIM}">LLMs under Adversarial Attacks</text>
 
   <!-- ══════════ RIGHT PANEL ══════════ -->
 
-  <!-- tips heading -->
+  <!-- AI news heading -->
   <text x="474" y="45"
         font-family="Courier New,Courier,monospace" font-size="11.5"
-        fill="{ACCENT}" font-weight="bold">Research Tips</text>
+        fill="{ACCENT}" font-weight="bold">AI News</text>
   <text x="474" y="63"
-        font-family="Courier New,Courier,monospace" font-size="10.5"
-        fill="{TEXT}" font-weight="bold">{esc(tip_title)}</text>
+        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{TEXT}">{n[0]}</text>
   <text x="474" y="79"
-        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{TEXT}">{esc(tip_l1)}</text>
+        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{TEXT}">{n[1]}</text>
   <text x="474" y="95"
-        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{TEXT}">{esc(tip_l2)}</text>
+        font-family="Courier New,Courier,monospace" font-size="10.5" fill="{TEXT}">{n[2]}</text>
   <text x="474" y="110"
         font-family="Courier New,Courier,monospace" font-size="9.5"
-        fill="{DIM}" font-style="italic">/research-notes for more</text>
+        fill="{DIM}" font-style="italic">via huggingface.co/blog</text>
 
   <!-- trending heading -->
   <text x="474" y="136"
@@ -170,8 +181,9 @@ def generate_svg(trending) -> str:
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
+    ai_news  = fetch_ai_news()
     trending = fetch_trending()
-    svg = generate_svg(trending)
+    svg = generate_svg(ai_news, trending)
     out = os.path.normpath(
         os.path.join(os.path.dirname(__file__), "..", "assets", "profile-card.svg")
     )
