@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-card.svg" alt="Xinyu Geng profile card" width="800"/>
+<img src="assets/profile-card.svg?v=2" alt="Xinyu Geng profile card" width="800"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=DA7756&width=620&lines=PhD+Researcher+%C2%B7+AI+Security;Red-teamer+%C2%B7+Agent+Builder;LLM+Adversarial+Robustness)](https://git.io/typing-svg)
 
