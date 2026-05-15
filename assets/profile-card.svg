@@ -1,4 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210">
+  <defs>
+    <!-- two identical rainbow cycles → seamless loop when gradient shifts by 230px -->
+    <linearGradient id="hallo-rainbow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="460" y2="0">
+      <stop offset="0%"    stop-color="#ff0000"/>
+      <stop offset="8.3%"  stop-color="#ff9900"/>
+      <stop offset="16.6%" stop-color="#ffff00"/>
+      <stop offset="25%"   stop-color="#00dd44"/>
+      <stop offset="33.3%" stop-color="#0099ff"/>
+      <stop offset="41.6%" stop-color="#bb00ff"/>
+      <stop offset="50%"   stop-color="#ff0000"/>
+      <stop offset="58.3%" stop-color="#ff9900"/>
+      <stop offset="66.6%" stop-color="#ffff00"/>
+      <stop offset="75%"   stop-color="#00dd44"/>
+      <stop offset="83.3%" stop-color="#0099ff"/>
+      <stop offset="91.6%" stop-color="#bb00ff"/>
+      <stop offset="100%"  stop-color="#ff0000"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="0,0;-230,0"
+                        dur="2s" repeatCount="indefinite" calcMode="linear"/>
+    </linearGradient>
+  </defs>
   <!-- background -->
   <rect width="800" height="210" rx="8" fill="#0D0D0D"/>
   <!-- border -->
@@ -19,7 +40,7 @@
   <!-- ══════════ LEFT PANEL ══════════ -->
   <text x="230" y="90" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="36"
-        fill="#E0E0E0" font-weight="bold">Hallo!</text>
+        fill="url(#hallo-rainbow)" font-weight="bold">Hallo!</text>
   <!-- links -->
   <text x="230" y="138" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="10.5" fill="#DA7756">shin-resume.vercel.app</text>
