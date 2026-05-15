@@ -83,34 +83,53 @@ def generate_svg(ai_news, trending) -> str:
     ACCENT = "#DA7756"
     TEXT   = "#E0E0E0"
     DIM    = "#6E6E6E"
-    DOG    = "#C8855A"   # warm tan/brown dog body
-    EAR    = "#9A6030"   # darker brown for ears + legs
-    DEYE   = "#2D1000"   # very dark brown for eyes/nose
+    DOG    = "#F2F2F2"   # white dog body
+    EAR    = "#CCCCCC"   # light gray ears / legs / tail
+    DEYE   = "#444444"   # dark gray eyes / nose
 
-    # ── pixel dog (centered at x=230) ─────────────────────────────────────────
-    # Body width=72, x=194..266; each pixel-unit ≈ 8px
+    # ── pixel dog: white, animated (centered at x=230) ────────────────────────
+    # Body width=72, x=194..266; tail pivot base ≈ (262, 108)
     dog = f"""
-  <!-- floppy ears (hang from sides of head) -->
-  <rect x="182" y="66" width="14" height="32" fill="{EAR}"/>
-  <rect x="264" y="66" width="14" height="32" fill="{EAR}"/>
-  <!-- head block -->
-  <rect x="194" y="62" width="72" height="38" fill="{DOG}"/>
-  <!-- left eye -->
-  <rect x="208" y="74" width="12" height="12" fill="{DEYE}"/>
-  <rect x="210" y="75" width="4"  height="4"  fill="white" opacity="0.45"/>
-  <!-- right eye -->
-  <rect x="240" y="74" width="12" height="12" fill="{DEYE}"/>
-  <rect x="242" y="75" width="4"  height="4"  fill="white" opacity="0.45"/>
-  <!-- nose -->
-  <rect x="225" y="89" width="10" height="8"  fill="{DEYE}"/>
-  <!-- body -->
-  <rect x="200" y="100" width="60" height="18" fill="{DOG}"/>
-  <!-- tail (stub right side, angled up) -->
-  <rect x="258" y="92" width="10" height="16" fill="{EAR}"/>
-  <rect x="264" y="85" width="8"  height="10" fill="{EAR}"/>
-  <!-- front legs -->
-  <rect x="200" y="118" width="18" height="10" fill="{EAR}"/>
-  <rect x="242" y="118" width="18" height="10" fill="{EAR}"/>"""
+  <!-- whole dog: gentle side sway -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0,0;1,0;0,0;-1,0;0,0"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      dur="3s" repeatCount="indefinite"/>
+    <!-- floppy ears -->
+    <rect x="182" y="66" width="14" height="32" fill="{EAR}"/>
+    <rect x="264" y="66" width="14" height="32" fill="{EAR}"/>
+    <!-- head -->
+    <rect x="194" y="62" width="72" height="38" fill="{DOG}"/>
+    <!-- left eye -->
+    <rect x="208" y="74" width="12" height="12" fill="{DEYE}"/>
+    <rect x="210" y="75" width="4"  height="4"  fill="white" opacity="0.5"/>
+    <!-- right eye -->
+    <rect x="240" y="74" width="12" height="12" fill="{DEYE}"/>
+    <rect x="242" y="75" width="4"  height="4"  fill="white" opacity="0.5"/>
+    <!-- blink: cover eyes with head color -->
+    <rect x="208" y="74" width="12" height="12" fill="{DOG}" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.83;0.85;0.90;0.92;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="240" y="74" width="12" height="12" fill="{DOG}" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.83;0.85;0.90;0.92;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- nose -->
+    <rect x="225" y="89" width="10" height="8" fill="{DEYE}"/>
+    <!-- body -->
+    <rect x="200" y="100" width="60" height="18" fill="{DOG}"/>
+    <!-- legs -->
+    <rect x="200" y="118" width="18" height="10" fill="{EAR}"/>
+    <rect x="242" y="118" width="18" height="10" fill="{EAR}"/>
+    <!-- wagging tail: rotates around base (262,108) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+                        values="-30,262,108;0,262,108;30,262,108;0,262,108;-30,262,108"
+                        keyTimes="0;0.25;0.5;0.75;1"
+                        dur="0.7s" repeatCount="indefinite"/>
+      <rect x="256" y="88" width="12" height="22" fill="{EAR}"/>
+    </g>
+  </g>"""
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210">
   <!-- background -->
