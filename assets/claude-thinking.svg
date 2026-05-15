@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="90" viewBox="0 0 300 90" role="img" aria-labelledby="title desc">
+  <title id="title">Claude thinking pixel character</title>
+  <desc id="desc">A coral pixel character with a thought bubble cycling through AI security research phrases.</desc>
+  <rect x="4" y="4" width="72" height="72" rx="10" fill="#DA7756"/>
+  <rect x="14" y="14" width="52" height="44" rx="6" fill="#F9EDE4"/>
+  <rect x="22" y="26" width="10" height="10" rx="2" fill="#2D1810">
+    <animate attributeName="height" values="10;10;1;10;10" keyTimes="0;0.85;0.90;0.95;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="26;26;30;26;26" keyTimes="0;0.85;0.90;0.95;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="48" y="26" width="10" height="10" rx="2" fill="#2D1810">
+    <animate attributeName="height" values="10;10;1;10;10" keyTimes="0;0.85;0.90;0.95;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="26;26;30;26;26" keyTimes="0;0.85;0.90;0.95;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M28 46 Q40 54 52 46" stroke="#2D1810" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="0" y="26" width="8" height="16" rx="3" fill="#C4644A"/>
+  <rect x="72" y="26" width="8" height="16" rx="3" fill="#C4644A"/>
+
+  <rect x="30" y="76" width="24" height="8" fill="#6B3A2A"/>
+  <rect x="18" y="82" width="48" height="4" fill="#4A2A20"/>
+  <rect x="72" y="58" width="22" height="18" rx="2" fill="#3D2E2A"/>
+  <rect x="76" y="62" width="14" height="9" fill="#8CC8FF"/>
+
+  <circle cx="88" cy="66" r="3" fill="#DA7756" opacity="0.5"/>
+  <circle cx="99" cy="54" r="4.5" fill="#DA7756" opacity="0.65"/>
+  <circle cx="113" cy="42" r="6" fill="#DA7756" opacity="0.8"/>
+  <rect x="120" y="4" width="172" height="70" rx="14" fill="#FFF8F5" stroke="#DA7756" stroke-width="2"/>
+
+  <text x="206" y="43" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#8B3A1A">
+    adversarial attack...
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.23;0.27;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="206" y="43" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#8B3A1A" opacity="0">
+    jailbreak attempt?
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.23;0.27;0.48;0.52;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="206" y="43" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#8B3A1A" opacity="0">
+    red-teaming LLMs...
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.23;0.48;0.52;0.73;0.77;0.78;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="206" y="43" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#8B3A1A" opacity="0">
+    thinking deeply...
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0" keyTimes="0;0.23;0.48;0.52;0.73;0.77;0.81;0.97;0.99;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+</svg>

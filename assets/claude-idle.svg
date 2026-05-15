@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="120" viewBox="0 0 80 120" role="img" aria-labelledby="title desc">
+  <title id="title">Claude idle pixel character</title>
+  <desc id="desc">A coral pixel character standing guard with blinking eyes and a gentle sway.</desc>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+                      values="0,0;1,0;0,0;-1,0;0,0"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      dur="2.5s" repeatCount="indefinite"/>
+    <rect x="20" y="6" width="40" height="36" rx="8" fill="#DA7756"/>
+    <rect x="27" y="13" width="26" height="22" rx="4" fill="#F9EDE4"/>
+    <rect x="31" y="19" width="7" height="7" rx="1" fill="#2D1810">
+      <animate attributeName="height" values="7;7;1;7;7" keyTimes="0;0.87;0.91;0.95;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="19;19;22;19;19" keyTimes="0;0.87;0.91;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="42" y="19" width="7" height="7" rx="1" fill="#2D1810">
+      <animate attributeName="height" values="7;7;1;7;7" keyTimes="0;0.87;0.91;0.95;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="19;19;22;19;19" keyTimes="0;0.87;0.91;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M33 29 Q40 34 47 29" stroke="#2D1810" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="22" y="44" width="36" height="34" rx="4" fill="#DA7756"/>
+    <rect x="8" y="46" width="14" height="9" rx="3" fill="#C4644A"/>
+    <rect x="58" y="46" width="14" height="9" rx="3" fill="#C4644A"/>
+    <rect x="22" y="76" width="14" height="30" rx="4" fill="#C4644A"/>
+    <rect x="44" y="76" width="14" height="30" rx="4" fill="#C4644A"/>
+    <rect x="17" y="104" width="22" height="7" rx="3" fill="#2D1810"/>
+    <rect x="41" y="104" width="22" height="7" rx="3" fill="#2D1810"/>
+  </g>
+</svg>
