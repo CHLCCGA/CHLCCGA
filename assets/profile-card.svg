@@ -19,7 +19,7 @@
   <!-- ══════════ LEFT PANEL ══════════ -->
   <text x="230" y="52" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="13"
-        fill="#E0E0E0" font-weight="bold">Welcome back, Xinyu!</text>
+        fill="#E0E0E0" font-weight="bold">Hallo!</text>
 
   <!-- whole dog: gentle side sway -->
   <g>

@@ -152,7 +152,7 @@ def generate_svg(ai_news, trending) -> str:
   <!-- ══════════ LEFT PANEL ══════════ -->
   <text x="230" y="52" text-anchor="middle"
         font-family="Courier New,Courier,monospace" font-size="13"
-        fill="{TEXT}" font-weight="bold">Welcome back, Xinyu!</text>
+        fill="{TEXT}" font-weight="bold">Hallo!</text>
 {dog}
   <!-- links -->
   <text x="230" y="138" text-anchor="middle"
