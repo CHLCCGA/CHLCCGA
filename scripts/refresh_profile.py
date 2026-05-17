@@ -259,3 +259,33 @@ def update_readme_papers(papers: list[dict]) -> str:
             f"and '{_PAPERS_END}' on their own lines"
         )
     return _PAPERS_RE.sub(new_block, readme)
+
+
+def main(dry_run: bool = False) -> None:
+    status = load_status()
+    weather = fetch_weather()
+    gh = fetch_github_stats()
+
+    svg = render_svg(status, weather, gh)
+    new_readme = update_readme_papers(status["papers"])
+
+    if dry_run:
+        print("=== status-card.svg ===")
+        print(svg)
+        print()
+        print("=== README.md (after papers injection) ===")
+        print(new_readme)
+        return
+
+    SVG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    SVG_PATH.write_text(svg, encoding="utf-8")
+    README_PATH.write_text(new_readme, encoding="utf-8")
+    print(f"wrote {SVG_PATH.relative_to(REPO_ROOT)}")
+    print(f"wrote {README_PATH.relative_to(REPO_ROOT)}")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dry-run", action="store_true", help="print outputs to stdout without writing files")
+    args = parser.parse_args()
+    main(dry_run=args.dry_run)
