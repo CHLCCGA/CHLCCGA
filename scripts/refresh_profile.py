@@ -140,3 +140,91 @@ def fetch_github_stats() -> Optional[GithubStats]:
         streak_days=_streak_from_dates(push_dates),
         last_commit_relative=_relative_time(last_push_utc),
     )
+
+
+_SVG_TEMPLATE = """\
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="Xinyu Geng status card">
+  <style>
+    .bg            {{ fill: #FAFAF7; }}
+    .text-primary  {{ fill: #1A1A1A; font-family: Georgia, 'Times New Roman', serif; }}
+    .text-muted    {{ fill: #6B6B6B; font-family: Georgia, 'Times New Roman', serif; }}
+    .mono          {{ fill: #1A1A1A; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
+    .mono-muted    {{ fill: #6B6B6B; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
+    .accent        {{ fill: #2F4858; }}
+    @media (prefers-color-scheme: dark) {{
+      .bg           {{ fill: #0F1014; }}
+      .text-primary {{ fill: #E8E8E2; }}
+      .text-muted   {{ fill: #8A8A85; }}
+      .mono         {{ fill: #E8E8E2; }}
+      .mono-muted   {{ fill: #8A8A85; }}
+      .accent       {{ fill: #8FA8B5; }}
+    }}
+  </style>
+
+  <rect class="bg" width="640" height="240"/>
+
+  <!-- Title block -->
+  <text x="320" y="48" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
+  <text x="320" y="72" text-anchor="middle" class="text-muted"   font-size="13">PhD · AI Security · AGH Krakow</text>
+
+  <!-- Divider: ◆ ── ◇ ── ◆  (center ◇ breathes) -->
+  <text x="320" y="98" text-anchor="middle" font-size="14" class="text-muted" letter-spacing="3">
+    <tspan class="accent">◆</tspan>
+    <tspan>──</tspan>
+    <tspan class="accent" opacity="0.3">◇<animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></tspan>
+    <tspan>──</tspan>
+    <tspan class="accent">◆</tspan>
+  </text>
+
+  <!-- Data rows -->
+  <text x="100" y="134" class="mono-muted" font-size="13">⤷ now</text>
+  <text x="195" y="134" class="mono"       font-size="13">{now}</text>
+
+  <text x="100" y="160" class="mono-muted" font-size="13">⤷ reading</text>
+  <text x="195" y="160" class="mono"       font-size="13">{reading}</text>
+
+  <text x="100" y="186" class="mono-muted" font-size="13">⤷ warsaw</text>
+  <text x="195" y="186" class="mono"       font-size="13">{warsaw}</text>
+
+  <text x="100" y="212" class="mono-muted" font-size="13">⤷ github</text>
+  <text x="195" y="212" class="mono"       font-size="13">{github}</text>
+
+  <!-- Live indicator (bottom right) -->
+  <text x="590" y="228" class="accent"     font-size="12" font-weight="bold">·<animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></text>
+  <text x="600" y="228" class="mono-muted" font-size="10">live</text>
+</svg>
+"""
+
+
+def _truncate(text: str, max_chars: int = 48) -> str:
+    """Trim text to fit inside the card without overflowing."""
+    return text if len(text) <= max_chars else text[: max_chars - 1].rstrip() + "…"
+
+
+def render_svg(
+    status: dict,
+    weather: Optional[tuple[float, str]],
+    gh: Optional[GithubStats],
+) -> str:
+    """Return the complete SVG string."""
+    # Warsaw value: "14:23 CET · ☁ 12°C"  (weather optional)
+    warsaw = format_warsaw_time()
+    if weather is not None:
+        temp, glyph = weather
+        warsaw = f"{warsaw} · {glyph} {round(temp)}°C"
+
+    # GitHub value: "12d streak · last commit 2h ago" or "(offline)"
+    if gh is None:
+        github_value = "(offline)"
+    elif gh.streak_days == 0:
+        github_value = f"last commit {gh.last_commit_relative}"
+    else:
+        github_value = f"{gh.streak_days}d streak · last commit {gh.last_commit_relative}"
+
+    return _SVG_TEMPLATE.format(
+        now=_truncate(status["now"]),
+        reading=_truncate(status["reading"]),
+        warsaw=warsaw,
+        github=github_value,
+    )
