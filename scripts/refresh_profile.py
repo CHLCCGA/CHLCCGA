@@ -80,3 +80,63 @@ def fetch_weather() -> Optional[tuple[float, str]]:
     if temp is None or code is None:
         return None
     return (temp, _WEATHER_GLYPHS.get(code, "·"))
+
+
+@dataclass
+class GithubStats:
+    streak_days: int
+    last_commit_relative: str   # e.g. "2h ago", "3d ago"
+
+
+def _relative_time(then_utc: datetime) -> str:
+    """Format a UTC datetime as relative-from-now."""
+    delta = datetime.now(timezone.utc) - then_utc
+    if delta.days >= 1:
+        return f"{delta.days}d ago"
+    hours = delta.seconds // 3600
+    if hours >= 1:
+        return f"{hours}h ago"
+    minutes = max(delta.seconds // 60, 1)
+    return f"{minutes}m ago"
+
+
+def _streak_from_dates(push_dates_utc: list[date]) -> int:
+    """Count consecutive days backwards from the most recent push date."""
+    if not push_dates_utc:
+        return 0
+    sorted_dates = sorted(set(push_dates_utc), reverse=True)
+    streak = 1
+    prev = sorted_dates[0]
+    for d in sorted_dates[1:]:
+        if (prev - d).days == 1:
+            streak += 1
+            prev = d
+        else:
+            break
+    return streak
+
+
+def fetch_github_stats() -> Optional[GithubStats]:
+    """Pull the last 100 public events for the user and compute streak + last push."""
+    url = f"https://api.github.com/users/{GITHUB_USER}/events/public?per_page=100"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "refresh_profile/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            events = json.loads(resp.read())
+    except Exception as e:
+        print(f"warning: github fetch failed: {e}", file=sys.stderr)
+        return None
+
+    pushes = [e for e in events if e.get("type") == "PushEvent"]
+    if not pushes:
+        return GithubStats(streak_days=0, last_commit_relative="no commits")
+
+    last_push_utc = datetime.fromisoformat(pushes[0]["created_at"].replace("Z", "+00:00"))
+    push_dates = [
+        datetime.fromisoformat(e["created_at"].replace("Z", "+00:00")).date()
+        for e in pushes
+    ]
+    return GithubStats(
+        streak_days=_streak_from_dates(push_dates),
+        last_commit_relative=_relative_time(last_push_utc),
+    )
