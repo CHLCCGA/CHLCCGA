@@ -1,0 +1,35 @@
+name: refresh-profile
+
+on:
+  schedule:
+    - cron: '0 22 * * *'    # daily at 22:00 UTC (≈ midnight Warsaw)
+  push:
+    paths:
+      - 'data/status.yaml'
+      - 'scripts/refresh_profile.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Regenerate SVG and README papers block
+        run: python scripts/refresh_profile.py
+
+      - name: Commit changes if any
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: daily profile refresh"
+          file_pattern: "assets/status-card.svg README.md"
