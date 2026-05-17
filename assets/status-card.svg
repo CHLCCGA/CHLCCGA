@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="Xinyu Geng status card">
+  <style>
+    .bg            { fill: #FAFAF7; }
+    .text-primary  { fill: #1A1A1A; font-family: Georgia, 'Times New Roman', serif; }
+    .text-muted    { fill: #6B6B6B; font-family: Georgia, 'Times New Roman', serif; }
+    .mono          { fill: #1A1A1A; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }
+    .mono-muted    { fill: #6B6B6B; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }
+    .accent        { fill: #2F4858; }
+    @media (prefers-color-scheme: dark) {
+      .bg           { fill: #0F1014; }
+      .text-primary { fill: #E8E8E2; }
+      .text-muted   { fill: #8A8A85; }
+      .mono         { fill: #E8E8E2; }
+      .mono-muted   { fill: #8A8A85; }
+      .accent       { fill: #8FA8B5; }
+    }
+  </style>
+
+  <rect class="bg" width="640" height="240"/>
+
+  <!-- Title block -->
+  <text x="320" y="48" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
+  <text x="320" y="72" text-anchor="middle" class="text-muted"   font-size="13">PhD · AI Security · AGH Krakow</text>
+
+  <!-- Divider: ◆ ── ◇ ── ◆  (center ◇ breathes) -->
+  <text x="320" y="98" text-anchor="middle" font-size="14" class="text-muted" letter-spacing="3">
+    <tspan class="accent">◆</tspan>
+    <tspan>──</tspan>
+    <tspan class="accent" opacity="0.3">◇<animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></tspan>
+    <tspan>──</tspan>
+    <tspan class="accent">◆</tspan>
+  </text>
+
+  <!-- Data rows -->
+  <text x="100" y="134" class="mono-muted" font-size="13">⤷ now</text>
+  <text x="195" y="134" class="mono"       font-size="13">jailbreak transferability across MoE models</text>
+
+  <text x="100" y="160" class="mono-muted" font-size="13">⤷ reading</text>
+  <text x="195" y="160" class="mono"       font-size="13">Sleeper Agents · Hubinger et al. (2024)</text>
+
+  <text x="100" y="186" class="mono-muted" font-size="13">⤷ warsaw</text>
+  <text x="195" y="186" class="mono"       font-size="13">15:40 CEST · ☂ 9°C</text>
+
+  <text x="100" y="212" class="mono-muted" font-size="13">⤷ github</text>
+  <text x="195" y="212" class="mono"       font-size="13">1d streak · last commit 1d ago</text>
+
+  <!-- Live indicator (bottom right) -->
+  <text x="590" y="228" class="accent"     font-size="12" font-weight="bold">·<animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></text>
+  <text x="600" y="228" class="mono-muted" font-size="10">live</text>
+</svg>
