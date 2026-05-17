@@ -1,5 +1,5 @@
 now: "jailbreak transferability across MoE models"
-reading: "Sleeper Agents · Hubinger et al. (2024)"
+reading: auto   # 'auto' = top trending paper from alphaxiv.org; or set a literal string to override
 papers:
   - { status: "wip",          title: "Jailbreak transferability across MoE" }
   - { status: "wip",          title: "Multi-agent prompt injection" }

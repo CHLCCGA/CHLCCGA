@@ -142,6 +142,52 @@ def fetch_github_stats() -> Optional[GithubStats]:
     )
 
 
+def fetch_alphaxiv_trending() -> Optional[str]:
+    """Scrape alphaxiv.org homepage for the top trending paper.
+
+    Returns a display string like 'Title · First Author et al.', or None on failure.
+    The homepage is SSR'd Next.js — paper data is in the rendered HTML.
+    """
+    try:
+        req = urllib.request.Request(
+            "https://www.alphaxiv.org/",
+            headers={"User-Agent": "refresh_profile/1.0", "Accept-Encoding": "gzip"},
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw = resp.read()
+            if resp.headers.get("Content-Encoding") == "gzip":
+                import gzip
+                raw = gzip.decompress(raw)
+            html = raw.decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"warning: alphaxiv fetch failed: {e}", file=sys.stderr)
+        return None
+
+    href_m = re.search(r'href="/?abs/(\d{4}\.\d{4,5})"', html)
+    if not href_m:
+        return None
+
+    window = html[href_m.end():href_m.end() + 4000]
+    title_m = re.search(
+        r'<div class="tiptap html-renderer[^"]*font-bold[^"]*"[^>]*>([^<]+)</div>',
+        window,
+    )
+    if not title_m:
+        return None
+    title = title_m.group(1).strip()
+
+    author_m = re.search(
+        r'<div class="flex items-center gap-1\.5 font-normal"[^>]*type="button"[^>]*>([^<]+)</div>',
+        window[title_m.end():],
+    )
+    if author_m:
+        combined = f"{title} · {author_m.group(1).strip()} et al."
+        # If combined overflows the card, drop the author tail rather than chop the title mid-word
+        if len(combined) <= 60:
+            return combined
+    return title
+
+
 _SVG_TEMPLATE = """\
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="Xinyu Geng status card">
@@ -197,9 +243,20 @@ _SVG_TEMPLATE = """\
 """
 
 
-def _truncate(text: str, max_chars: int = 48) -> str:
-    """Trim text to fit inside the card without overflowing."""
+def _truncate(text: str, max_chars: int = 62) -> str:
+    """Trim text to fit inside the card without overflowing.
+
+    62 chars fits comfortably in 445px (640 viewBox - x=195 start) at 13px monospace.
+    """
     return text if len(text) <= max_chars else text[: max_chars - 1].rstrip() + "…"
+
+
+def _resolve_reading(yaml_value: str) -> str:
+    """If reading is 'auto', fetch top trending paper from alphaxiv; else use literal."""
+    if (yaml_value or "").strip().lower() == "auto":
+        fetched = fetch_alphaxiv_trending()
+        return fetched if fetched else "(offline)"
+    return yaml_value
 
 
 def render_svg(
@@ -224,7 +281,7 @@ def render_svg(
 
     return _SVG_TEMPLATE.format(
         now=_truncate(status["now"]),
-        reading=_truncate(status["reading"]),
+        reading=_truncate(_resolve_reading(status["reading"])),
         warsaw=warsaw,
         github=github_value,
     )
