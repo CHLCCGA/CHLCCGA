@@ -228,3 +228,34 @@ def render_svg(
         warsaw=warsaw,
         github=github_value,
     )
+
+
+_PAPERS_START = "<!-- papers:start -->"
+_PAPERS_END   = "<!-- papers:end -->"
+_PAPERS_RE    = re.compile(
+    rf"{re.escape(_PAPERS_START)}.*?{re.escape(_PAPERS_END)}",
+    re.DOTALL,
+)
+
+
+def _format_papers_block(papers: list[dict]) -> str:
+    """Render the papers list as the markdown that goes between markers."""
+    lines = [_PAPERS_START]
+    for p in papers:
+        status_label = p["status"]
+        title = p["title"]
+        lines.append(f"- **▸ {status_label}** — {title}")
+    lines.append(_PAPERS_END)
+    return "\n".join(lines)
+
+
+def update_readme_papers(papers: list[dict]) -> str:
+    """Replace the papers block inside README.md. Returns the new README content."""
+    readme = README_PATH.read_text(encoding="utf-8")
+    new_block = _format_papers_block(papers)
+    if not _PAPERS_RE.search(readme):
+        raise RuntimeError(
+            f"papers markers not found in README.md; expected '{_PAPERS_START}' "
+            f"and '{_PAPERS_END}' on their own lines"
+        )
+    return _PAPERS_RE.sub(new_block, readme)
