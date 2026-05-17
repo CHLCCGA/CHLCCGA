@@ -142,10 +142,16 @@ def fetch_github_stats() -> Optional[GithubStats]:
     )
 
 
-def fetch_alphaxiv_trending() -> Optional[str]:
+@dataclass
+class TrendingPaper:
+    display: str       # title or "title · first_author et al."
+    arxiv_id: str      # e.g. "2605.15188"
+
+
+def fetch_alphaxiv_trending() -> Optional[TrendingPaper]:
     """Scrape alphaxiv.org homepage for the top trending paper.
 
-    Returns a display string like 'Title · First Author et al.', or None on failure.
+    Returns TrendingPaper(display, arxiv_id), or None on failure.
     The homepage is SSR'd Next.js — paper data is in the rendered HTML.
     """
     try:
@@ -166,6 +172,7 @@ def fetch_alphaxiv_trending() -> Optional[str]:
     href_m = re.search(r'href="/?abs/(\d{4}\.\d{4,5})"', html)
     if not href_m:
         return None
+    arxiv_id = href_m.group(1)
 
     window = html[href_m.end():href_m.end() + 4000]
     title_m = re.search(
@@ -176,6 +183,7 @@ def fetch_alphaxiv_trending() -> Optional[str]:
         return None
     title = title_m.group(1).strip()
 
+    display = title
     author_m = re.search(
         r'<div class="flex items-center gap-1\.5 font-normal"[^>]*type="button"[^>]*>([^<]+)</div>',
         window[title_m.end():],
@@ -184,8 +192,9 @@ def fetch_alphaxiv_trending() -> Optional[str]:
         combined = f"{title} · {author_m.group(1).strip()} et al."
         # If combined overflows the card, drop the author tail rather than chop the title mid-word
         if len(combined) <= 60:
-            return combined
-    return title
+            display = combined
+
+    return TrendingPaper(display=display, arxiv_id=arxiv_id)
 
 
 _SVG_TEMPLATE = """\
@@ -251,20 +260,13 @@ def _truncate(text: str, max_chars: int = 62) -> str:
     return text if len(text) <= max_chars else text[: max_chars - 1].rstrip() + "…"
 
 
-def _resolve_reading(yaml_value: str) -> str:
-    """If reading is 'auto', fetch top trending paper from alphaxiv; else use literal."""
-    if (yaml_value or "").strip().lower() == "auto":
-        fetched = fetch_alphaxiv_trending()
-        return fetched if fetched else "(offline)"
-    return yaml_value
-
-
 def render_svg(
     status: dict,
     weather: Optional[tuple[float, str]],
     gh: Optional[GithubStats],
+    reading: str,
 ) -> str:
-    """Return the complete SVG string."""
+    """Return the complete SVG string. `reading` is already resolved (yaml literal or alphaxiv)."""
     # Warsaw value: "14:23 CET · ☁ 12°C"  (weather optional)
     warsaw = format_warsaw_time()
     if weather is not None:
@@ -281,7 +283,7 @@ def render_svg(
 
     return _SVG_TEMPLATE.format(
         now=_truncate(status["now"]),
-        reading=_truncate(_resolve_reading(status["reading"])),
+        reading=_truncate(reading),
         warsaw=warsaw,
         github=github_value,
     )
@@ -318,19 +320,61 @@ def update_readme_papers(papers: list[dict]) -> str:
     return _PAPERS_RE.sub(new_block, readme)
 
 
+_CARD_HREF_START = "<!-- card-href:start -->"
+_CARD_HREF_END   = "<!-- card-href:end -->"
+_CARD_HREF_RE    = re.compile(
+    rf"{re.escape(_CARD_HREF_START)}.*?{re.escape(_CARD_HREF_END)}",
+    re.DOTALL,
+)
+
+
+def _format_card_href(card_url: str) -> str:
+    """The clickable image block: <a href><img></a> with markers around it."""
+    return (
+        f'{_CARD_HREF_START}'
+        f'<a href="{card_url}"><img src="assets/status-card.svg" alt="Xinyu Geng — status card" /></a>'
+        f'{_CARD_HREF_END}'
+    )
+
+
+def update_card_href(readme: str, card_url: str) -> str:
+    """Replace the wrapped <a><img></a> block so the card links to the current paper."""
+    if not _CARD_HREF_RE.search(readme):
+        raise RuntimeError(
+            f"card-href markers not found in README.md; expected '{_CARD_HREF_START}' "
+            f"and '{_CARD_HREF_END}'"
+        )
+    return _CARD_HREF_RE.sub(_format_card_href(card_url), readme)
+
+
 def main(dry_run: bool = False) -> None:
     status = load_status()
     weather = fetch_weather()
     gh = fetch_github_stats()
 
-    svg = render_svg(status, weather, gh)
+    # Resolve reading: 'auto' triggers alphaxiv fetch (string + arxiv id); else use literal
+    yaml_reading = (status.get("reading") or "").strip()
+    trending: Optional[TrendingPaper] = None
+    if yaml_reading.lower() == "auto":
+        trending = fetch_alphaxiv_trending()
+        reading_str = trending.display if trending else "(offline)"
+    else:
+        reading_str = yaml_reading
+
+    card_url = (
+        f"https://www.alphaxiv.org/abs/{trending.arxiv_id}"
+        if trending else "https://www.alphaxiv.org/"
+    )
+
+    svg = render_svg(status, weather, gh, reading_str)
     new_readme = update_readme_papers(status["papers"])
+    new_readme = update_card_href(new_readme, card_url)
 
     if dry_run:
         print("=== status-card.svg ===")
         print(svg)
         print()
-        print("=== README.md (after papers injection) ===")
+        print("=== README.md (after papers + card-href injection) ===")
         print(new_readme)
         return
 
@@ -339,6 +383,8 @@ def main(dry_run: bool = False) -> None:
     README_PATH.write_text(new_readme, encoding="utf-8")
     print(f"wrote {SVG_PATH.relative_to(REPO_ROOT)}")
     print(f"wrote {README_PATH.relative_to(REPO_ROOT)}")
+    if trending:
+        print(f"card -> https://www.alphaxiv.org/abs/{trending.arxiv_id}")
 
 
 if __name__ == "__main__":
