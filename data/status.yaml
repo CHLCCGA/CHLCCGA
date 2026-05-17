@@ -1,0 +1,6 @@
+now: "jailbreak transferability across MoE models"
+reading: "Sleeper Agents · Hubinger et al. (2024)"
+papers:
+  - { status: "wip",          title: "Jailbreak transferability across MoE" }
+  - { status: "wip",          title: "Multi-agent prompt injection" }
+  - { status: "under review", title: "Eval harness for safety alignment" }
