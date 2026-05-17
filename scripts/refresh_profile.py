@@ -42,3 +42,41 @@ def format_warsaw_time() -> str:
     """Return current Warsaw time as 'HH:MM CET' or 'HH:MM CEST'."""
     now = datetime.now(WARSAW_TZ)
     return now.strftime("%H:%M %Z")
+
+
+# Open-Meteo WMO weather codes → single glyph.
+# Source: https://open-meteo.com/en/docs (under "weather_code")
+_WEATHER_GLYPHS = {
+    0: "☀",                                                       # clear sky
+    1: "⛅", 2: "⛅", 3: "⛅",                              # partly cloudy
+    45: "☁", 48: "☁",                                         # fog
+    51: "☂", 53: "☂", 55: "☂",                           # drizzle
+    56: "☂", 57: "☂",                                         # freezing drizzle
+    61: "☂", 63: "☂", 65: "☂",                           # rain
+    66: "☂", 67: "☂",                                         # freezing rain
+    71: "❄", 73: "❄", 75: "❄", 77: "❄",             # snow
+    80: "☂", 81: "☂", 82: "☂",                           # rain showers
+    85: "❄", 86: "❄",                                         # snow showers
+    95: "☂", 96: "☂", 99: "☂",                           # thunderstorm
+}
+
+
+def fetch_weather() -> Optional[tuple[float, str]]:
+    """Return (temperature_celsius, glyph) for Warsaw, or None on failure."""
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        "?latitude=52.23&longitude=21.01&current=temperature_2m,weather_code"
+    )
+    try:
+        with urllib.request.urlopen(url, timeout=10) as resp:
+            payload = json.loads(resp.read())
+    except Exception as e:
+        print(f"warning: weather fetch failed: {e}", file=sys.stderr)
+        return None
+
+    current = payload.get("current", {})
+    temp = current.get("temperature_2m")
+    code = current.get("weather_code")
+    if temp is None or code is None:
+        return None
+    return (temp, _WEATHER_GLYPHS.get(code, "·"))
