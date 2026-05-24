@@ -27,12 +27,12 @@ Multi-agent AI security · LLM evaluation
 
 *updated 2026-05-24*
 
-▸ La Cucina di Justyna - 新意大利餐厅
-▸ House of Schnitzel - 炸肉排专门店
+▸ 乌克兰网红违规驾车遭禁入波兰
+▸ 华沙奇幻与魔法大会
+▸ ONNI Bakery Cafe — 韩式烘焙坊
 ▸ Orange 华沙音乐节
-▸ 波兰导演获戛纳电影节最佳导演奖
-▸ 波兰首批 F-35 战斗机抵达
-▸ 波兰球员 Pajor 赢欧冠女足决赛
+▸ 波兰政府承认国外同性婚姻合法
+▸ 美国向波兰增派 5000 名士兵
 
 <!--news:end-->
 
