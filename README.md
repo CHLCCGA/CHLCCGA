@@ -21,6 +21,14 @@ Multi-agent AI security · LLM evaluation
 - **◇ rl-safety** — RL with safety reward models
 - **◇ pipeline** — transformer pipeline framework
 
+#### ──── news ────
+
+<!--news:start-->
+*next refresh: Monday morning · 等待首次跑*
+<!--news:end-->
+
+⤷ [Full digest →](NEWS.md)
+
 #### ──── elsewhere ────
 
 [github](https://github.com/CHLCCGA) · [linkedin](https://www.linkedin.com/in/xinyu-geng/) · [cv](https://shin-resume.vercel.app) · [kaggle](https://www.kaggle.com/chlccga)
