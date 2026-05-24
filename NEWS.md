@@ -8,5 +8,4 @@
 
 This file is auto-generated weekly by a Claude Code remote routine. It summarizes news from 8 Warsaw and Poland sources into 5 sections (Warsaw Now / Cool Finds / New Spots / Upcoming Events / Poland Brief), in Chinese, with proper nouns kept in original languages.
 
-Structured JSON snapshots live under [
-ews/data/](news/data/). The last 12 weeks are retained.
+Structured JSON snapshots live under [`news/data/`](news/data/). The last 12 weeks are retained.
