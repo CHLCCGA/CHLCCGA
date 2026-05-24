@@ -24,7 +24,16 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 
 <!--news:start-->
-*next refresh: Monday morning · 等待首次跑*
+
+*updated 2026-05-24*
+
+▸ La Cucina di Justyna - 新意大利餐厅
+▸ House of Schnitzel - 炸肉排专门店
+▸ Orange 华沙音乐节
+▸ 波兰导演获戛纳电影节最佳导演奖
+▸ 波兰首批 F-35 战斗机抵达
+▸ 波兰球员 Pajor 赢欧冠女足决赛
+
 <!--news:end-->
 
 ⤷ [Full digest →](NEWS.md)
