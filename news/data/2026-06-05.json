@@ -1,0 +1,93 @@
+[
+  {
+    "id": "9260135879",
+    "category": "poland_brief",
+    "title_zh": "波兰要求建立常设美国军事基地",
+    "title_original": "Poland Formally Requests New Permanent US Military Base",
+    "summary_zh": "波兰要求建立常设美国军基地；美国承诺增派5000部队",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/06/03/poland-formally-requests-new-permanent-us-military-base/",
+    "published_date": "2026-06-03",
+    "event_date": null,
+    "venue": null,
+    "tags": ["military", "us-relations", "defense"]
+  },
+  {
+    "id": "c5b128edeb",
+    "category": "poland_brief",
+    "title_zh": "乌克兰就UPA命名争议与波兰对话",
+    "title_original": "Ukraine Seeks Dialogue Over Military Unit Named After UPA",
+    "summary_zh": "乌克兰外长呼吁与波兰就UPA命名争议进行建设性对话",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/06/03/ukraine-seeks-dialogue-with-poland-over-naming-of-military-unit-after-group-responsible-for-massacres/",
+    "published_date": "2026-06-03",
+    "event_date": null,
+    "venue": null,
+    "tags": ["diplomacy", "history", "ukraine-relations"]
+  },
+  {
+    "id": "681ac7332f",
+    "category": "poland_brief",
+    "title_zh": "波兰批准小学禁止手机法案",
+    "title_original": "Polish Government Approves Primary School Phone Ban",
+    "summary_zh": "政府批准立法禁止小学生全天使用手机和智能手表",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/06/02/polish-government-approves-primary-school-phone-ban-and-stronger-porn-age-checks/",
+    "published_date": "2026-06-02",
+    "event_date": null,
+    "venue": null,
+    "tags": ["education", "policy", "mobile"]
+  },
+  {
+    "id": "9cfa09c675",
+    "category": "poland_brief",
+    "title_zh": "法国总统感谢InPost在法国投资",
+    "title_original": "Macron Thanks Poland's InPost for €500M Investment",
+    "summary_zh": "马克龙赞扬InPost追加投资5亿欧元；预期创造750个工作岗位",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/06/02/macron-thanks-polands-inpost-for-new-e500m-investment-in-france/",
+    "published_date": "2026-06-02",
+    "event_date": null,
+    "venue": null,
+    "tags": ["business", "investment", "france"]
+  },
+  {
+    "id": "da3b8cd299",
+    "category": "warsaw_now",
+    "title_zh": "圣体节游行庆祝波兰天主教盛典",
+    "title_original": "Corpus Christi processions mark Catholic feast day across Poland",
+    "summary_zh": "波兰天主教会在圣体圣血节期间举行传统游行庆祝活动，信众沿街巡游。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7789/Artykul/3694880",
+    "published_date": "2026-06-04",
+    "event_date": null,
+    "venue": null,
+    "tags": ["religion", "culture", "celebration"]
+  },
+  {
+    "id": "10a95e2e69",
+    "category": "cool_finds",
+    "title_zh": "乌克兰批准发掘沃林地区波兰受害者遗骸",
+    "title_original": "Ukraine approves exhumations of Polish victims on Volhynia",
+    "summary_zh": "乌克兰当局批准考古工作以寻回历史冲突中波兰人的遗骸；涉及二战期间历史伤痕的修复。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3695010",
+    "published_date": "2026-06-04",
+    "event_date": null,
+    "venue": null,
+    "tags": ["history", "archaeology", "diplomacy"]
+  },
+  {
+    "id": "7d42f1e418",
+    "category": "poland_brief",
+    "title_zh": "波兰支持对俄罗斯人实施签证限制",
+    "title_original": "Poland backs visa restrictions on Russians, limits on Ukraine war-age refugee protection",
+    "summary_zh": "波兰政府支持更严格的签证政策和调整与冲突相关难民保护措施",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3694906",
+    "published_date": "2026-06-04",
+    "event_date": null,
+    "venue": null,
+    "tags": ["politics", "diplomacy", "russia"]
+  }
+]
