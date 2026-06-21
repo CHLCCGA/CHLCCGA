@@ -1,39 +1,49 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-06-19 (Europe/Warsaw) · 覆盖 2026-06-16 — 2026-06-19
-> 数据源：4 个站点 · 本期 10 条 · [JSON](news/data/2026-06-19.json)
+> 自动生成于 2026-06-21 (Europe/Warsaw) · 覆盖 2026-06-18 — 2026-06-21
+> 数据源：8 个站点 · 本期 11 条 · [JSON](news/data/2026-06-21.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰逮捕俄反对派人士谋杀案嫌疑人**
-36岁格鲁吉亚护照持有人在华沙附近被捕，涉嫌谋杀俄政治讽刺漫画家Semyon Skrepetsky；当局怀疑背后有国家支持。
-*Notes From Poland · 2026-06-18 · [原文 →](https://notesfrompoland.com/2026/06/18/poland-detains-suspect-in-murder-of-russian-dissident-saying-evidence-points-to-political-assassination/)*
+**波兰总统撤销泽连斯基荣誉称号**
+波兰总统因乌克兰军队以曾屠杀波兰人的组织命名决定撤销泽连斯基荣誉。
+*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/polish-president-decides-to-strip-zelensky-of-honour-for-naming-unit-after-group-that-massacred-poles/)*
 
-**总统赞扬波兰部队北约军演表现**
-总统在俄罗斯边界附近北约军事演习现场视察并称赞波兰军队表现。
-*Polskie Radio · 2026-06-18 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3699456)*
+**法国右翼领导人巴代拉访波兰**
+法国右翼政党领导人巴代拉访问波兰，与总统及反对派会面，视察白俄罗斯边界。
+*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/french-nationalist-leader-bardella-visits-poland-to-meet-president-opposition-and-observe-belarus-border/)*
+
+**波兰寻求乌克兰和平谈判席位**
+波兰争取在乌克兰和平谈判中获得参与席位。
+*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/9766/Artykul/3700347)*
+
+**波兰遭暴雨和极端高温侵袭**
+波兰多地遭遇恶劣暴雨天气和极端高温。
+*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700302)*
+
+**乌克兰军队以UPA命名部队引波兰不满**
+乌克兰军事部队以UPA命名，波兰对此表示不满，因历史冲突。
+*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700342)*
+
+**图斯克批评撤销泽连斯基最高荣誉决定**
+波兰前总理图斯克批评政府撤销泽连斯基最高荣誉的决定。
+*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700269)*
 
 ---
 
 ## ◇ Cool Finds
 
-**德国归还波兰二战掠夺文物**
-14世纪中世纪手稿及16世纪国王西吉斯蒙德一世戒指被归还，见证历史和解。
-*Notes From Poland · 2026-06-17 · [原文 →](https://notesfrompoland.com/2026/06/17/germany-returns-artefacts-looted-in-wwii-to-poland/)*
+**波兰发现2700年前青铜时代古剑**
+金属探测爱好者在波兰发现一把距今2700年的青铜时代古剑。
+*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/detectorist-finds-2700-year-old-bronze-age-sword-in-poland/)*
 
 ---
 
 ## ▸ New Spots
 
-**Baba Jaga - 沃拉新开波兰菜馆 （Wola）**
-Kamil Kraszewski旗下Bambino集团新项目，五月开业，主厨Sebastian Zeger特色菜包括白芦笋、干酪及传统波兰风味。
-*Warsaw Foodie · 2026-06-18 · [原文 →](https://warsawfoodie.pl/2026/06/baba-jaga-nowa-restauracja-z-kuchnia-polska-na-woli/)*
-
-**Wilcza 43 Bistro & Wine - 中城新酒吧 （Śródmieście）**
-五月中旬开业，位于Śródmieście区Wilcza街，店主Bartłomiej Machnik与主厨Wit Szychowski联手打造当季食材原创波兰菜。
-*Warsaw Foodie · 2026-06-17 · [原文 →](https://warsawfoodie.pl/2026/06/wilcza-43-bistro-wine-nowe-bistro-z-autorska-kuchnia-polska/)*
+*（本期无）*
 
 ---
 
@@ -45,15 +55,14 @@ Kamil Kraszewski旗下Bambino集团新项目，五月开业，主厨Sebastian Ze
 
 ## · Poland Brief
 
-- **波兰投资1100万助力ElevenLabs建AI中心** (Notes From Poland, 6/18)
-- **波兰与德国签署防务合作协议** (Notes From Poland, 6/17)
-- **波兰政府批准燃油企业暴利税** (Notes From Poland, 6/17)
-- **富士康协议：波兰将建芯片厂及电车产能** (Polskie Radio, 6/16)
-- **油价下跌，波兰取消燃油税削减** (Polskie Radio, 6/16)
+- **波兰家庭财富指数创欧盟纪录新高** (Notes From Poland, 6/19)
+- **波兰承认外国同性婚姻合法性探讨** (Notes From Poland, 6/19)
+- **波兰12000所学校将配备AI实验室** (Notes From Poland, 6/19)
+- **波兰总理呼吁政治对手勿加深分裂** (Polskie Radio, 6/20)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn (outside window) · ✅ Polskie Radio · ❌ In Your Pocket (403) · ❌ Warsaw Now (403) · ❌ MyGuide Warsaw (403) · ❌ InterNations (unavailable)
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠️ Usta Magazyn (old feed) · ✅ Polskie Radio · ❌ In Your Pocket (403) · ❌ Warsaw Now (403) · ❌ My Guide Warsaw (403) · ❌ InterNations (timeout)
 
