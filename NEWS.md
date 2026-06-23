@@ -1,49 +1,41 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-06-21 (Europe/Warsaw) · 覆盖 2026-06-18 — 2026-06-21
-> 数据源：8 个站点 · 本期 11 条 · [JSON](news/data/2026-06-21.json)
+> 自动生成于 2026-06-23 (Europe/Warsaw) · 覆盖 2026-06-20 — 2026-06-23
+> 数据源：8 个站点 · 本期 10 条 · [JSON](news/data/2026-06-23.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰总统撤销泽连斯基荣誉称号**
-波兰总统因乌克兰军队以曾屠杀波兰人的组织命名决定撤销泽连斯基荣誉。
-*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/polish-president-decides-to-strip-zelensky-of-honour-for-naming-unit-after-group-that-massacred-poles/)*
+**波兰与乌克兰历史争端升级**
+波兰与乌克兰因WWII大屠杀历史纠葛陷入外交危机，泽连斯基任命以UPA组织命名的军事部队引发波兰不满。
+*Notes From Poland · 6/22 · [原文 →](https://notesfrompoland.com/2026/06/22/poland-and-ukraines-historical-dispute-how-did-we-get-here-and-where-do-we-go-now/)*
 
-**法国右翼领导人巴代拉访波兰**
-法国右翼政党领导人巴代拉访问波兰，与总统及反对派会面，视察白俄罗斯边界。
-*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/french-nationalist-leader-bardella-visits-poland-to-meet-president-opposition-and-observe-belarus-border/)*
+**图斯克警告两国冲突为战略错误**
+波兰前总理兼总理图斯克警告，两国领导人冲突只会利好俄罗斯，呼吁双方缓和。
+*Notes From Poland · 6/21 · [原文 →](https://notesfrompoland.com/2026/06/21/conflict-between-polish-and-ukrainian-presidents-a-strategic-mistake-warns-tusk/)*
 
-**波兰寻求乌克兰和平谈判席位**
-波兰争取在乌克兰和平谈判中获得参与席位。
-*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/9766/Artykul/3700347)*
+**泽连斯基指控波兰总统出于政治目的升级冲突**
+乌克兰总统指责波兰撤销其最高荣誉的决定系出于政治考量。
+*Polskie Radio · 6/22 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700704)*
 
-**波兰遭暴雨和极端高温侵袭**
-波兰多地遭遇恶劣暴雨天气和极端高温。
-*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700302)*
-
-**乌克兰军队以UPA命名部队引波兰不满**
-乌克兰军事部队以UPA命名，波兰对此表示不满，因历史冲突。
-*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700342)*
-
-**图斯克批评撤销泽连斯基最高荣誉决定**
-波兰前总理图斯克批评政府撤销泽连斯基最高荣誉的决定。
-*Polskie Radio · 2026-06-20 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700269)*
+**波兰—乌克兰紧张局势升级**
+泽连斯基被撤销波兰最高荣誉后，两国紧张关系进一步恶化。
+*Polskie Radio · 6/21 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700443)*
 
 ---
 
 ## ◇ Cool Finds
 
-**波兰发现2700年前青铜时代古剑**
-金属探测爱好者在波兰发现一把距今2700年的青铜时代古剑。
-*Notes From Poland · 2026-06-19 · [原文 →](https://notesfrompoland.com/2026/06/19/detectorist-finds-2700-year-old-bronze-age-sword-in-poland/)*
+*（本期无）*
 
 ---
 
 ## ▸ New Spots
 
-*（本期无）*
+**Shoku Ramen —— 莫科托夫新开日式拉面馆**
+五月新开业，提供快速亚洲午餐，每周四菜选项加汤或小菜。
+*Warsaw Foodie · 6/22 · 莫科托夫 · [原文 →](https://warsawfoodie.pl/2026/06/shoku-ramen-nowy-ramen-bar-na-mokotowie/)*
 
 ---
 
@@ -55,14 +47,14 @@
 
 ## · Poland Brief
 
-- **波兰家庭财富指数创欧盟纪录新高** (Notes From Poland, 6/19)
-- **波兰承认外国同性婚姻合法性探讨** (Notes From Poland, 6/19)
-- **波兰12000所学校将配备AI实验室** (Notes From Poland, 6/19)
-- **波兰总理呼吁政治对手勿加深分裂** (Polskie Radio, 6/20)
+- **波兰立法保护记者免受SLAPP诉讼** (Notes From Poland, 6/22)
+- **波兰外长称曾就俄军入侵提前预警乌克兰** (Polskie Radio, 6/22)
+- **波兰总统称移民非解决人口问题之策** (Polskie Radio, 6/22)
+- **波兰五月就业下降但工资上涨** (Polskie Radio, 6/22)
+- **波兰五月工业产值同比增长4.1%** (Polskie Radio, 6/22)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ⚠️ Usta Magazyn (old feed) · ✅ Polskie Radio · ❌ In Your Pocket (403) · ❌ Warsaw Now (403) · ❌ My Guide Warsaw (403) · ❌ InterNations (timeout)
-
+✅ notesfrompoland.com/feed · ✅ warsawfoodie.pl/feed · ❌ ustamagazyn.pl/feed (verification blocked) · ✅ polskieradio.pl/395 · ❌ inyourpocket.com/warsaw/events (403) · ❌ warsawnow.pl (403) · ❌ myguidewarsaw.com/events (403) · ⚠ internations.org (unreachable)
