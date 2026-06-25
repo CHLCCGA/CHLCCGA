@@ -1,27 +1,27 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-06-23 (Europe/Warsaw) · 覆盖 2026-06-20 — 2026-06-23
-> 数据源：8 个站点 · 本期 10 条 · [JSON](news/data/2026-06-23.json)
+> 自动生成于 2026-06-25 (Europe/Warsaw) · 覆盖 2026-06-22 — 2026-06-25
+> 数据源：8 个站点 · 本期 13 条 · [JSON](news/data/2026-06-25.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰与乌克兰历史争端升级**
-波兰与乌克兰因WWII大屠杀历史纠葛陷入外交危机，泽连斯基任命以UPA组织命名的军事部队引发波兰不满。
-*Notes From Poland · 6/22 · [原文 →](https://notesfrompoland.com/2026/06/22/poland-and-ukraines-historical-dispute-how-did-we-get-here-and-where-do-we-go-now/)*
+**乌克兰总统泽连斯基将缺席在波兰举行的乌克兰复兴会议**
+泽连斯基因军事部队以曾屠杀波兰平民的UPA组织命名事件，宣布缺席在格但斯克举行的乌克兰复兴会议。乌克兰总理将率代表团出席。
+*Notes From Poland · 6/23 · [原文 →](https://notesfrompoland.com/2026/06/23/zelensky-set-to-skip-ukraine-recovery-conference-in-poland-amid-diplomatic-dispute/)*
 
-**图斯克警告两国冲突为战略错误**
-波兰前总理兼总理图斯克警告，两国领导人冲突只会利好俄罗斯，呼吁双方缓和。
-*Notes From Poland · 6/21 · [原文 →](https://notesfrompoland.com/2026/06/21/conflict-between-polish-and-ukrainian-presidents-a-strategic-mistake-warns-tusk/)*
+**波兰天主教会历史最大规模性虐待赔偿案开审**
+法庭审理一个具有里程碑意义的赔偿案，受害者寻求从克拉科夫总教区获得2000万兹罗提赔偿。案件突显教会领导对早期虐待举报的制度性失误。
+*Notes From Poland · 6/23 · [原文 →](https://notesfrompoland.com/2026/06/23/largest-ever-sex-abuse-compensation-case-against-polands-catholic-church-begins/)*
 
-**泽连斯基指控波兰总统出于政治目的升级冲突**
-乌克兰总统指责波兰撤销其最高荣誉的决定系出于政治考量。
-*Polskie Radio · 6/22 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700704)*
+**波兰总理下令监督华沙医院医疗事故调查** （Warsaw）
+波兰总理下令对华沙医院医疗失误指控的调查进行监督。
+*Polskie Radio · 6/24 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3701827)*
 
-**波兰—乌克兰紧张局势升级**
-泽连斯基被撤销波兰最高荣誉后，两国紧张关系进一步恶化。
-*Polskie Radio · 6/21 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3700443)*
+**波兰与乌克兰陷入记忆政治纠葛**
+波兰与乌克兰围绕历史诠释陷入恶性循环，两国政治立场冲突加深。
+*Polskie Radio · 6/24 · [原文 →](https://www.polskieradio.pl/395/9766/Artykul/3701589)*
 
 ---
 
@@ -33,9 +33,9 @@
 
 ## ▸ New Spots
 
-**Shoku Ramen —— 莫科托夫新开日式拉面馆**
-五月新开业，提供快速亚洲午餐，每周四菜选项加汤或小菜。
-*Warsaw Foodie · 6/22 · 莫科托夫 · [原文 →](https://warsawfoodie.pl/2026/06/shoku-ramen-nowy-ramen-bar-na-mokotowie/)*
+**Nami Sushi & Dim Sum —— 中央火车站附近新开日式寿司和中式馄饨店** （Oboźna）
+欧博日那街新开业的餐饮店，结合日本寿司手卷与亚洲馄饨，街边美食概念。
+*Warsaw Foodie · 6/24 · [原文 →](https://warsawfoodie.pl/2026/06/nami-sushi-dim-sum-nowe-miejsce-z-sushi-i-chinskimi-pierozkami-przy-oboznej/)*
 
 ---
 
@@ -47,14 +47,17 @@
 
 ## · Poland Brief
 
-- **波兰立法保护记者免受SLAPP诉讼** (Notes From Poland, 6/22)
-- **波兰外长称曾就俄军入侵提前预警乌克兰** (Polskie Radio, 6/22)
-- **波兰总统称移民非解决人口问题之策** (Polskie Radio, 6/22)
-- **波兰五月就业下降但工资上涨** (Polskie Radio, 6/22)
-- **波兰五月工业产值同比增长4.1%** (Polskie Radio, 6/22)
+- **波兰将建第三个液化天然气码头成为地区能源枢纽** (Notes From Poland, 6/24)
+- **匈牙利新总理马扎尔与波兰复兴维谢格拉德集团** (Notes From Poland, 6/24)
+- **波兰劳动力市场不如看起来那么差** (Notes From Poland, 6/24)
+- **对美国和特朗普的负面看法在波兰继续上升** (Notes From Poland, 6/23)
+- **图斯克：西方团结对欧洲未来至关重要** (Polskie Radio, 6/24)
+- **欧洲遭遇破纪录热浪 波兰启动紧急应对** (Polskie Radio, 6/24)
+- **波兰五月失业率下降至5.9%** (Polskie Radio, 6/24)
+- **联合国指责以色列在加沙蓄意杀害虐待儿童** (Polskie Radio, 6/25)
 
 ---
 
 ### Sources this run
 
-✅ notesfrompoland.com/feed · ✅ warsawfoodie.pl/feed · ❌ ustamagazyn.pl/feed (verification blocked) · ✅ polskieradio.pl/395 · ❌ inyourpocket.com/warsaw/events (403) · ❌ warsawnow.pl (403) · ❌ myguidewarsaw.com/events (403) · ⚠ internations.org (unreachable)
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn (no items) · ✅ Polskie Radio · ❌ In Your Pocket (403) · ❌ Warsaw Now (403) · ❌ My Guide Warsaw (403) · ❌ InterNations (unable to fetch)

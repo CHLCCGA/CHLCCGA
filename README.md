@@ -25,14 +25,14 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-06-23*
+*updated 2026-06-25*
 
-▸ 波兰与乌克兰历史争端升级
-▸ Shoku Ramen —— 莫科托夫新开日式拉面馆
-▸ 波兰立法保护记者免受SLAPP诉讼
-▸ 波兰外长称曾就俄军入侵提前预警乌克兰
-▸ 波兰总统称移民非解决人口问题之策
-▸ 波兰五月就业下降但工资上涨
+▸ 波兰将建第三个液化天然气码头
+▸ 泽连斯基缺席乌克兰复兴会议
+▸ Nami Sushi & Dim Sum 新店开业
+▸ 波兰与乌克兰陷入记忆政治纠葛
+▸ 匈牙利复兴维谢格拉德集团
+▸ 欧洲破纪录热浪波兰启动应对
 
 ⤷ [Full digest →](NEWS.md)
 <!--news:end-->
