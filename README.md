@@ -25,14 +25,12 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-06-25*
+*updated 2026-06-27*
 
-▸ 波兰将建第三个液化天然气码头
-▸ 泽连斯基缺席乌克兰复兴会议
-▸ Nami Sushi & Dim Sum 新店开业
-▸ 波兰与乌克兰陷入记忆政治纠葛
-▸ 匈牙利复兴维谢格拉德集团
-▸ 欧洲破纪录热浪波兰启动应对
+▸ 俄罗斯计划制造"波兰象征"挑衅以加剧波乌矛盾
+▸ 波兰食品巨头Maspex收购乌克兰领先饮料品牌
+▸ Marumi —— 克鲁查街新开亚洲地中海风味餐厅
+▸ 波兰单人家庭比例超三分之一
 
 ⤷ [Full digest →](NEWS.md)
 <!--news:end-->
