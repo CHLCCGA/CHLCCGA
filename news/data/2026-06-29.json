@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b30e94f277",
+    "category": "poland_brief",
+    "title_zh": "波兰创造历史最高温纪录40.5°C热浪横扫欧洲",
+    "title_original": "Poland Records Highest Ever Temperature as European Heatwave Moves East",
+    "summary_zh": "波兰录得有史以来最高温度40.5°C，创纪录高温热浪扫过欧洲。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/06/28/poland-records-highest-ever-temperature-as-european-heatwave-moves-east/",
+    "published_date": "2026-06-28",
+    "event_date": null,
+    "venue": null,
+    "tags": ["weather", "climate", "heatwave"]
+  },
+  {
+    "id": "c53944f590",
+    "category": "poland_brief",
+    "title_zh": "波兰寻求交换乌克兰无人机技术购MiG-29战机",
+    "title_original": "Poland wants Ukrainian drone tech in exchange for MiG-29 jets: deputy PM",
+    "summary_zh": "波兰副总理兼国防部长表示，波兰期望以提供乌克兰MiG-29战机换取乌方无人机技术。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3702911",
+    "published_date": "2026-06-28",
+    "event_date": null,
+    "venue": null,
+    "tags": ["military", "ukraine", "diplomacy"]
+  },
+  {
+    "id": "232fa6f3ed",
+    "category": "warsaw_now",
+    "title_zh": "波兰军事演习模拟战略港口夺回作战",
+    "title_original": "Military drills simulate recapture of strategic Polish port",
+    "summary_zh": "波兰进行军事演习，模拟战术性收复重要港口设施。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3702873",
+    "published_date": "2026-06-28",
+    "event_date": null,
+    "venue": "Poland",
+    "tags": ["military", "drills", "defense"]
+  },
+  {
+    "id": "5ed18f5053",
+    "category": "poland_brief",
+    "title_zh": "波兰1956年波兹南6月事件70周年纪念日",
+    "title_original": "Sunday marks 70th anniversary of the 1956 Poznań June protests",
+    "summary_zh": "纪念70年前发生在波兹南的反共主义抗争历史里程碑。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3702876",
+    "published_date": "2026-06-28",
+    "event_date": null,
+    "venue": "Poznań",
+    "tags": ["history", "anniversary", "commemoration"]
+  },
+  {
+    "id": "24fa0d63d5",
+    "category": "poland_brief",
+    "title_zh": "波兰遭遇极端热浪恐引发暴雨雷暴",
+    "title_original": "Extreme heatwave hits Poland, violent storms may follow",
+    "summary_zh": "波兰面临极端高温，气象部门警告可能随后出现严重雷暴天气。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3702865",
+    "published_date": "2026-06-28",
+    "event_date": null,
+    "venue": null,
+    "tags": ["weather", "climate", "emergency"]
+  },
+  {
+    "id": "2866dd2161",
+    "category": "warsaw_now",
+    "title_zh": "乌克兰复兴会议在波兰达成近200项协议",
+    "title_original": "Nearly 200 deals made at Ukraine recovery conference in Poland, organisers say",
+    "summary_zh": "政府、企业和国际机构在波兰两日重建会议上敲定约200项协议。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3702621",
+    "published_date": "2026-06-26",
+    "event_date": null,
+    "venue": "Poland",
+    "tags": ["ukraine", "conference", "reconstruction"]
+  }
+]
