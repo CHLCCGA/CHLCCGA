@@ -1,39 +1,29 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-08-01 (Europe/Warsaw) · 覆盖 2026-07-29 — 2026-08-01
-> 数据源：8 个站点 · 本期 12 条 · [JSON](news/data/2026-08-01.json)
+> 自动生成于 2026-08-03 (Europe/Warsaw) · 覆盖 2026-07-31 — 2026-08-03
+> 数据源：8 个站点 · 本期 7 条 · [JSON](news/data/2026-08-03.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**俄罗斯导弹坠毁波兰携带重大炸药物料**
-波兰当局确认俄罗斯Kh-101巡航导弹侵犯领空并在卢布林地区坠毁，滑行约100公里波兰领土，俄罗斯对乌克兰密集轰炸期间发生。
-*Notes From Poland · 2026-07-31 · [原文 →](https://notesfrompoland.com/2026/07/31/russian-missile-that-crashed-in-poland-carried-significant-amount-of-explosive-material/)*
-
-**波兰议会纪念1944年华沙起义战士**
-波兰议会举行纪念活动，悼念1944年华沙起义中牺牲的战士和平民。
-*Polskie Radio · 2026-07-31 · [原文 →](https://www.polskieradio.pl/395/7789/Artykul/3714679)*
-
-**波兰防长反驳俄导弹侵犯领空批评**
-波兰国防部长为俄罗斯导弹侵入波兰领空事件进行辩护。
-*Polskie Radio · 2026-07-31 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3714694)*
-
-**波兰副总理说明导弹提醒延迟原因**
-波兰副总理解释为何导弹进入领空时未立即发出公众警报。
-*Polskie Radio · 2026-07-31 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3714677)*
+*（本期无）*
 
 ---
 
 ## ◇ Cool Finds
 
-**波兰驱逐在奥斯维辛行纳粹礼的外国人**
-一名34岁哥伦比亚公民因在奥斯维辛比尔肯考集中营遗址进行纳粹礼并宣传纳粹主义被判驱逐并禁入波兰及申根区五年。
-*Notes From Poland · 2026-07-31 · [原文 →](https://notesfrompoland.com/2026/07/31/poland-to-deport-foreigner-who-performed-nazi-salute-at-auschwitz-museum/)*
+**肖邦音乐会在拉齐恩基公园免费上演**
+著名古典音乐系列讲座在华沙皇家公园举行，免费面向公众。
+*warsawnow.pl · 2026-08-03 · [原文 →](https://warsawnow.pl/darmo/koncerty-chopinowskie/)*
 
-**失落Dwurnik作品将在华沙亮相**
-失传已久的波兰艺术家Dwurnik作品将首次在华沙展出。
-*Polskie Radio · 2026-07-31 · [原文 →](https://www.polskieradio.pl/395/7791/Artykul/3713259)*
+**华沙免费博物馆完整指南**
+华沙所有免费及特定时段免费入场的博物馆完整列表和相关信息。
+*warsawnow.pl · 2026-08-03 · [原文 →](https://warsawnow.pl/darmo/muzea-darmo-warszawa/)*
+
+**波兰人首次成功游泳横渡160公里波罗的海**
+波兰运动员巴特沃米·库布科夫斯基第五次尝试成功，成为首个游泳穿越瑞典与波兰之间160公里波罗的海路线的人，同时为慈善事业筹集巨资。
+*Notes From Poland · 2026-08-02 · [原文 →](https://notesfrompoland.com/2026/08/02/pole-becomes-first-person-to-swim-160km-baltic-sea-route-between-sweden-and-poland/)*
 
 ---
 
@@ -45,22 +35,27 @@
 
 ## ⤷ Upcoming Events
 
-**波兰和摇滚音乐节创纪录安保开幕** · 7月31日
-波兰著名音乐节Pol'and'Rock以创纪录的安全措施和医疗支持隆重开幕。 · Poland
-*Polskie Radio · [原文 →](https://www.polskieradio.pl/395/7791/Artykul/3714587)*
+**Plaża Wawer 2026音乐节及夏日活动** · 8月3日
+华沙浪漫海滩举办暑假活动，包括免费音乐会、露天电影院和家庭活动。 · Plaża Wawer, Warsaw
+*warsawnow.pl · [原文 →](https://warsawnow.pl/plaza-wawer-2026-darmowe-koncerty-kino-plenerowe-i-rodzinne-atrakcje-na-plazy-romantycznej/)*
+
+**Sejmowe Lato Filmowe 2026 - 议会夏日电影节** · 8月3日
+波兰议会举办的夏日露天电影放映活动。 · Polish Parliament, Warsaw
+*warsawnow.pl · [原文 →](https://warsawnow.pl/sejmowe-lato-filmowe-2026/)*
+
+**电影节：肖邦国家剧院露天放映** · 8月3日
+皇家公园的露天电影院，放映古典与现代电影作品。 · Łazienki Królewskie, Warsaw
+*warsawnow.pl · [原文 →](https://warsawnow.pl/kino-plenerowe-w-lazienkach-krolewskich/)*
 
 ---
 
 ## · Poland Brief
 
-- **加拿大公司出价75亿欧元收购波兰便利店连锁Żabka** (Notes From Poland, 7/31)
-- **波兰禁止小学生使用智能手机** (Notes From Poland, 7/31)
-- **波兰加入欧盟野火应急响应** (Polskie Radio, 7/31)
-- **波兰足球队晋级欧洲联赛第三轮** (Polskie Radio, 7/31)
-- **波兰通胀率7月达3%** (Polskie Radio, 7/31)
+- **波兰反对党分裂可能助力推翻图斯克政府** (Notes From Poland, 7/31)
 
 ---
 
 ### Sources this run
 
-✅ notesfrompoland.com · ✅ warsawfoodie.pl · ✅ ustamagazyn.pl · ✅ polskieradio.pl · ❌ inyourpocket.com (403) · ❌ warsawnow.pl (403) · ❌ myguidewarsaw.com (403) · ❌ internations.org (unable to fetch)
+✅ notesfrompoland.com · ❌ warsawfoodie.pl (empty) · ❌ ustamagazyn.pl (empty) · ✅ polskieradio.pl · ❌ inyourpocket.com (403) · ✅ warsawnow.pl · ❌ myguidewarsaw.com (403) · ⚠ internations.org (paywall)
+

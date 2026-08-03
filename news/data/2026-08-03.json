@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0c6f9e9136",
+    "category": "upcoming_events",
+    "title_zh": "Plaża Wawer 2026音乐节及夏日活动",
+    "title_original": "Plaża Wawer 2026 - Free Concerts, Open-Air Cinema and Family Activities at Warsaw's Romantic Beach",
+    "summary_zh": "华沙浪漫海滩举办暑假活动，包括免费音乐会、露天电影院和家庭活动。",
+    "source_name": "warsawnow.pl",
+    "source_url": "https://warsawnow.pl/plaza-wawer-2026-darmowe-koncerty-kino-plenerowe-i-rodzinne-atrakcje-na-plazy-romantycznej/",
+    "published_date": "2026-08-03",
+    "event_date": "2026-08-03",
+    "venue": "Plaża Wawer, Warsaw",
+    "tags": ["音乐", "电影", "家庭", "免费"]
+  },
+  {
+    "id": "d81697f924",
+    "category": "upcoming_events",
+    "title_zh": "Sejmowe Lato Filmowe 2026 - 议会夏日电影节",
+    "title_original": "Sejmowe Lato Filmowe 2026 - Parliamentary Summer Cinema",
+    "summary_zh": "波兰议会举办的夏日露天电影放映活动。",
+    "source_name": "warsawnow.pl",
+    "source_url": "https://warsawnow.pl/sejmowe-lato-filmowe-2026/",
+    "published_date": "2026-08-03",
+    "event_date": "2026-08-03",
+    "venue": "Polish Parliament, Warsaw",
+    "tags": ["电影", "文化", "免费"]
+  },
+  {
+    "id": "569220a48a",
+    "category": "upcoming_events",
+    "title_zh": "电影节：肖邦国家剧院露天放映",
+    "title_original": "Open-air cinema in Łazienki Park",
+    "summary_zh": "皇家公园的露天电影院，放映古典与现代电影作品。",
+    "source_name": "warsawnow.pl",
+    "source_url": "https://warsawnow.pl/kino-plenerowe-w-lazienkach-krolewskich/",
+    "published_date": "2026-08-03",
+    "event_date": "2026-08-03",
+    "venue": "Łazienki Królewskie, Warsaw",
+    "tags": ["电影", "露天", "免费"]
+  },
+  {
+    "id": "07c60dbb10",
+    "category": "cool_finds",
+    "title_zh": "肖邦音乐会在拉齐恩基公园免费上演",
+    "title_original": "Chopin Concerts in Łazienki Park",
+    "summary_zh": "著名古典音乐系列讲座在华沙皇家公园举行，免费面向公众。",
+    "source_name": "warsawnow.pl",
+    "source_url": "https://warsawnow.pl/darmo/koncerty-chopinowskie/",
+    "published_date": "2026-08-03",
+    "event_date": "2026-08-03",
+    "venue": "Łazienki Królewskie, Warsaw",
+    "tags": ["古典音乐", "肖邦", "免费"]
+  },
+  {
+    "id": "4f6b365dea",
+    "category": "cool_finds",
+    "title_zh": "华沙免费博物馆完整指南",
+    "title_original": "Museums for Free - Warsaw",
+    "summary_zh": "华沙所有免费及特定时段免费入场的博物馆完整列表和相关信息。",
+    "source_name": "warsawnow.pl",
+    "source_url": "https://warsawnow.pl/darmo/muzea-darmo-warszawa/",
+    "published_date": "2026-08-03",
+    "event_date": null,
+    "venue": "Warsaw",
+    "tags": ["博物馆", "免费", "文化", "指南"]
+  },
+  {
+    "id": "26d2c61897",
+    "category": "cool_finds",
+    "title_zh": "波兰人首次成功游泳横渡160公里波罗的海",
+    "title_original": "Pole becomes first person to swim 160km Baltic Sea route between Sweden and Poland",
+    "summary_zh": "波兰运动员巴特沃米·库布科夫斯基第五次尝试成功，成为首个游泳穿越瑞典与波兰之间160公里波罗的海路线的人，同时为慈善事业筹集巨资。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/02/pole-becomes-first-person-to-swim-160km-baltic-sea-route-between-sweden-and-poland/",
+    "published_date": "2026-08-02",
+    "event_date": null,
+    "venue": "Baltic Sea",
+    "tags": ["运动", "波兰", "马拉松"]
+  },
+  {
+    "id": "4fbb1a50f5",
+    "category": "poland_brief",
+    "title_zh": "波兰反对党分裂可能助力推翻图斯克政府",
+    "title_original": "The split in Poland's opposition could help them unseat Tusk's government [Opinion]",
+    "summary_zh": "反对党分裂可能通过提供温和中右翼选择来拓宽吸引力。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/07/31/the-split-in-polands-opposition-could-help-them-unseat-tusks-government-opinion/",
+    "published_date": "2026-07-31",
+    "event_date": null,
+    "venue": null,
+    "tags": ["政治"]
+  }
+]
