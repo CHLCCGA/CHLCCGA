@@ -1,0 +1,80 @@
+[
+  {
+    "id": "84026362ce",
+    "category": "poland_brief",
+    "title_zh": "波兰第二次启动电网应急容量措施应对热浪",
+    "title_original": "Poland invokes emergency grid capacity powers for second time in three days amid heatwave",
+    "summary_zh": "波兰电网运营商为应对创纪录高温天气，在三天内第二次启动应急措施。今年已触发三次，为历史罕见。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/06/poland-invokes-emergency-grid-capacity-powers-for-second-time-in-three-days-amid-heatwave/",
+    "published_date": "2026-08-06",
+    "event_date": null,
+    "venue": null,
+    "tags": ["能源", "天气", "高温"]
+  },
+  {
+    "id": "485cde3964",
+    "category": "poland_brief",
+    "title_zh": "波兰法院确认扣留反对党竞选资金",
+    "title_original": "Polish top court confirms withholding funds from opposition PiS party over campaign finance irregularities",
+    "summary_zh": "波兰最高法院维持对反对党PiS因竞选财务违规而扣押资金的决定。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/06/polish-top-court-confirms-withholding-funds-from-opposition-pis-party-over-campaign-finance-irregularities/",
+    "published_date": "2026-08-06",
+    "event_date": null,
+    "venue": null,
+    "tags": ["政治", "法律", "选举"]
+  },
+  {
+    "id": "66f7de6c2f",
+    "category": "poland_brief",
+    "title_zh": "波兰检察机关结束十年图斯克叛国调查",
+    "title_original": "Polish prosecutors end 10-year treason investigation into Tusk over Smolensk air disaster",
+    "summary_zh": "波兰检察机关宣布结束针对总理图斯克长达十年的叛国指控调查。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/06/polish-prosecutors-end-10-year-treason-investigation-into-tusk-over-smolensk-air-disaster/",
+    "published_date": "2026-08-06",
+    "event_date": null,
+    "venue": null,
+    "tags": ["政治", "法律", "历史"]
+  },
+  {
+    "id": "cadea437ea",
+    "category": "poland_brief",
+    "title_zh": "波兰呼吁欧盟拒绝非法移民居留权",
+    "title_original": "Poland calls for EU to deny residence to migrants who enter illegally",
+    "summary_zh": "波兰要求欧盟对非法入境移民实施严格的居留限制政策。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/05/poland-calls-for-eu-to-deny-residence-to-migrants-who-enter-illegally/",
+    "published_date": "2026-08-05",
+    "event_date": null,
+    "venue": null,
+    "tags": ["移民", "欧盟", "政策"]
+  },
+  {
+    "id": "7d8e3ec11a",
+    "category": "cool_finds",
+    "title_zh": "爱德华·德武尔尼克美术展——骄傲与羞愧",
+    "title_original": "Edward Dwurnik. Pride and Shame Exhibition",
+    "summary_zh": "展览聚焦艺术家七八九十年代的作品，展示其运动员与工人两大主题系列。",
+    "source_name": "Usta Magazyn",
+    "source_url": "https://ustamagazyn.pl/2026/08/english-duma-i-wstyd-dwurnika/",
+    "published_date": "2026-08-06",
+    "event_date": null,
+    "venue": "Museum Sztuki Nowoczesnej w Warszawie",
+    "tags": ["艺术", "展览", "美术馆"]
+  },
+  {
+    "id": "f6475b57c4",
+    "category": "new_spots",
+    "title_zh": "华沙虎——融合东方与现代主义的新餐厅",
+    "title_original": "Warszawski Tygrys - New Restaurant at Plac Konstytucji",
+    "summary_zh": "华沙Konstytucji广场新开业餐厅，融合城市现代主义与远东美食灵感，菜系大胆创意。",
+    "source_name": "Usta Magazyn",
+    "source_url": "https://ustamagazyn.pl/2026/08/tygrys-z-konstytucji/",
+    "published_date": "2026-08-06",
+    "event_date": null,
+    "venue": "Plac Konstytucji, Warszawa",
+    "tags": ["餐饮", "新开业", "亚洲融合"]
+  }
+]
