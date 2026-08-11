@@ -1,21 +1,25 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-08-09 (Europe/Warsaw) · 覆盖 2026-08-06 — 2026-08-09
-> 数据源：8 个站点 · 本期 5 条 · [JSON](news/data/2026-08-09.json)
+> 自动生成于 2026-08-11 (Europe/Warsaw) · 覆盖 2026-08-08 — 2026-08-11
+> 数据源：8 个站点 · 本期 7 条 · [JSON](news/data/2026-08-11.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰参议院否决历史研究所所长提名**
-参议院以50票对38票拒绝批准政府提名的历史研究所所长人选，导致执政联盟罕见分裂。
-*Notes From Poland · 2026-08-07 · [原文 →](https://notesfrompoland.com/2026/08/07/candidate-to-lead-polish-state-history-institute-rejected-in-rare-clash-between-houses-of-parliament/)*
+*（本期无）*
 
 ---
 
 ## ◇ Cool Finds
 
-*（本期无）*
+**克拉科夫跻身欧洲Z世代最佳城市前十**
+克拉科夫在欧洲Z世代最佳城市评选中进入前十名。
+*Polskie Radio · 8/10 · [原文 →](https://www.polskieradio.pl/395/7789/Artykul/3718234,porto-rated-europes-best-city-for-gen-z-polands-krakow-lands-in-top-10)*
+
+**日全食将扫过冰岛西班牙，波兰可见日偏食**
+日全食将扫过冰岛和西班牙，波兰将观测到日偏食。
+*Polskie Radio · 8/10 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3718002,total-solar-eclipse-to-sweep-across-iceland-spain-poland-to-see-partial-phase)*
 
 ---
 
@@ -33,14 +37,14 @@
 
 ## · Poland Brief
 
-- **波兰发掘二战大屠杀遗骨** (Notes From Poland, 8/8)
-- **波兰石油巨头Orlen创纪录利润** (Notes From Poland, 8/7)
-- **波兰新政党提议父母补助金应对人口危机** (Notes From Poland, 8/7)
-- **波兰反对党提议驱逐无合法就业乌克兰男性** (Notes From Poland, 8/7)
+- **卡钦斯基呼吁纳夫罗茨基总统统一波兰右翼** (Notes From Poland, 8/10)
+- **波兰25城市举行反抗反乌克兰暴力抗议** (Notes From Poland, 8/10)
+- **欧盟为波兰疫后复兴计划拨款83亿欧元** (Polskie Radio, 8/10)
+- **波兰推出首艘新一代护卫舰加快海军现代化** (Polskie Radio, 8/10)
+- **西方调整对卢卡申科政权态度给白俄罗斯反对派新挑战** (Polskie Radio, 8/11)
 
 ---
 
 ### Sources this run
 
-✅ notesfrompoland.com · ✅ ustamagazyn.pl · ⚠ warsawfoodie.pl (无更新) · ❌ polskieradio.pl (未获URL) · ❌ inyourpocket.com (403) · ❌ warsawnow.pl (403) · ❌ myguidewarsaw.com (403) · ❌ internations.org (连接失败)
-
+✅ notesfrompoland.com · ✅ warsawfoodie.pl · ✅ ustamagazyn.pl · ✅ polskieradio.pl · ❌ inyourpocket.com (403) · ❌ warsawnow.pl (403) · ❌ myguidewarsaw.com (403) · ❌ internations.org (unable)

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ef87d57795",
+    "category": "poland_brief",
+    "title_zh": "卡钦斯基呼吁纳夫罗茨基总统统一波兰右翼",
+    "title_original": "Kaczyński appeals to President Nawrocki to unify Poland's right-wing opposition ahead of elections",
+    "summary_zh": "许多人认为纳夫罗茨基可作为统一分裂右翼的象征人物。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/10/kaczynski-appeals-to-president-nawrocki-to-unify-polands-right-wing-opposition-ahead-of-elections/",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["politics", "election", "opposition"]
+  },
+  {
+    "id": "e6d95a8f99",
+    "category": "poland_brief",
+    "title_zh": "波兰25城市举行反抗反乌克兰暴力抗议",
+    "title_original": "Protests against anti-Ukrainian violence held in 25 Polish cities",
+    "summary_zh": "警方数据显示，波兰针对乌克兰人的仇恨犯罪今年上升30%。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/10/protests-against-anti-ukrainianian-violence-held-in-25-polish-cities/",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["social", "ukraine", "protest"]
+  },
+  {
+    "id": "cd7a19981b",
+    "category": "poland_brief",
+    "title_zh": "欧盟为波兰疫后复兴计划拨款83亿欧元",
+    "title_original": "EU clears €8.3 billion tranche for Poland's post-pandemic recovery plan",
+    "summary_zh": "欧盟通过了波兰疫后恢复计划的83亿欧元资金拨款。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3718307,eu-clears-€83-billion-tranche-for-polands-postpandemic-recovery-plan",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["eu", "economy", "funding"]
+  },
+  {
+    "id": "2a5432ce5e",
+    "category": "cool_finds",
+    "title_zh": "克拉科夫跻身欧洲Z世代最佳城市前十",
+    "title_original": "Porto rated Europe's best city for Gen Z, Poland's Kraków lands in top 10",
+    "summary_zh": "克拉科夫在欧洲Z世代最佳城市评选中进入前十名。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7789/Artykul/3718234,porto-rated-europes-best-city-for-gen-z-polands-krakow-lands-in-top-10",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["culture", "city-life", "young-people"]
+  },
+  {
+    "id": "15976001af",
+    "category": "poland_brief",
+    "title_zh": "波兰推出首艘新一代护卫舰加快海军现代化",
+    "title_original": "Poland launches first new-generation frigate in largest navy modernization program",
+    "summary_zh": "波兰推出首艘新一代护卫舰，这是其最大规模海军现代化项目的一部分。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3718158,poland-launches-first-newgeneration-frigate-in-largest-navy-modernization-program",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["defense", "military", "technology"]
+  },
+  {
+    "id": "67381e8f06",
+    "category": "cool_finds",
+    "title_zh": "日全食将扫过冰岛西班牙，波兰可见日偏食",
+    "title_original": "Total solar eclipse to sweep across Iceland, Spain; Poland to see partial phase",
+    "summary_zh": "日全食将扫过冰岛和西班牙，波兰将观测到日偏食。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3718002,total-solar-eclipse-to-sweep-across-iceland-spain-poland-to-see-partial-phase",
+    "published_date": "2026-08-10",
+    "event_date": null,
+    "venue": null,
+    "tags": ["astronomy", "science", "event"]
+  },
+  {
+    "id": "969e172bf6",
+    "category": "poland_brief",
+    "title_zh": "西方调整对卢卡申科政权态度给白俄罗斯反对派新挑战",
+    "title_original": "Belarus opposition faces shifting Western approach to Lukashenko",
+    "summary_zh": "西方国家对卢卡申科政权的态度调整给白俄罗斯反对派带来新挑战。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7785/Artykul/3718111,belarus-opposition-faces-shifting-western-approach-to-lukashenko",
+    "published_date": "2026-08-11",
+    "event_date": null,
+    "venue": null,
+    "tags": ["geopolitics", "belarus", "diplomacy"]
+  }
+]
