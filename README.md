@@ -24,15 +24,14 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 
 <!--news:start-->
+*updated 2026-08-12*
 
-*updated 2026-08-11*
-
-▸ 西方调整对卢卡申科政权态度给白俄罗斯反对派新挑战
-▸ 日全食将扫过冰岛西班牙，波兰可见日偏食
-▸ 波兰推出首艘新一代护卫舰加快海军现代化
-▸ 欧盟为波兰疫后复兴计划拨款83亿欧元
-▸ 波兰25城市举行反抗反乌克兰暴力抗议
-▸ 卡钦斯基呼吁纳夫罗茨基总统统一波兰右翼
+▸ Mother bear and cubs spotted on busy hiking trail in Poland
+▸ Gorzkie święta
+▸ Negative views of Polish-Ukrainian relations reach highest…
+▸ Tylko jedna noc
+▸ Pejzaż w kolorze sepii
+▸ Kandydaci Śmierci (Documentary)
 
 <!--news:end-->
 
