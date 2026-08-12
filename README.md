@@ -26,12 +26,12 @@ Multi-agent AI security · LLM evaluation
 <!--news:start-->
 *updated 2026-08-12*
 
-▸ Mother bear and cubs spotted on busy hiking trail in Poland
-▸ Gorzkie święta
-▸ Negative views of Polish-Ukrainian relations reach highest…
-▸ Tylko jedna noc
-▸ Pejzaż w kolorze sepii
-▸ Kandydaci Śmierci (Documentary)
+▸ 波兰迎来日偏食与英仙座流星雨之夜
+▸ 波兰揭幕海军现代化项目首艘护卫舰
+▸ 民调显示波兰民众对波乌关系的消极看法创新高
+▸ 日偏食与流星雨免费观测活动
+▸ 《Kandydaci Śmierci》纪录片特映
+▸ 皇家公园肖邦室外音乐会
 
 <!--news:end-->
 

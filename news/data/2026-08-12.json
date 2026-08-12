@@ -1,340 +1,189 @@
 [
   {
-    "id": "44c60f00bb",
-    "category": "poland_brief",
-    "title_zh": "Negative views of Polish-Ukrainian relations reach highest level on record in Poland",
-    "title_original": "Negative views of Polish-Ukrainian relations reach highest level on record in Poland",
-    "summary_zh": "",
-    "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/12/negative-views-of-polish-ukrainian-relations-reach-highest-level-on-record-in-poland/",
+    "id": "90b0abc0aa",
+    "category": "warsaw_now",
+    "title_zh": "波兰迎来日偏食与英仙座流星雨之夜",
+    "title_original": "Poles gear up for night of shooting stars after solar eclipse",
+    "summary_zh": "8月12日日偏食后，波兰将迎来英仙座流星雨。这是一场难得的天文观测盛事，天气允许的情况下，夜间将有大量流星掠过天空。",
+    "source_name": "Polish Radio",
+    "source_url": "https://www.polskieradio.pl/395/7789/Artykul/3719377,poles-gear-up-for-night-of-shooting-stars-after-solar-eclipse",
     "published_date": "2026-08-12",
     "event_date": null,
     "venue": null,
-    "tags": []
+    "tags": [
+      "天文",
+      "日蚀",
+      "流星雨"
+    ]
   },
   {
     "id": "2cd12e6231",
     "category": "poland_brief",
-    "title_zh": "Poland unveils first warship under major naval modernisation programme",
+    "title_zh": "波兰揭幕海军现代化项目首艘护卫舰",
     "title_original": "Poland unveils first warship under major naval modernisation programme",
-    "summary_zh": "",
+    "summary_zh": "波兰推出其雄心勃勃的海军现代化计划中的首艘新型护卫舰。这一项目是波兰加强波罗的海防御能力的关键举措，展现了国家对海防的战略投资。",
     "source_name": "Notes From Poland",
     "source_url": "https://notesfrompoland.com/2026/08/12/poland-unveils-first-warship-under-major-naval-modernisation-programme/",
     "published_date": "2026-08-12",
     "event_date": null,
     "venue": null,
-    "tags": []
+    "tags": [
+      "海军",
+      "国防",
+      "现代化"
+    ]
   },
   {
-    "id": "a63b2e7006",
+    "id": "44c60f00bb",
     "category": "poland_brief",
-    "title_zh": "Negative views of Poland's justice system have grown under Tusk government",
-    "title_original": "Negative views of Poland's justice system have grown under Tusk government",
-    "summary_zh": "",
+    "title_zh": "民调显示波兰民众对波乌关系的消极看法创新高",
+    "title_original": "Negative views of Polish-Ukrainian relations reach highest level on record",
+    "summary_zh": "最新民调数据显示，波兰民众对波乌关系持负面态度的比例达到历史新高。这反映出当前两国关系面临的复杂挑战，可能涉及移民、历史认知等问题。",
     "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/12/negative-views-of-polands-justice-system-have-grown-under-tusk-government-finds-state-pollster/",
+    "source_url": "https://notesfrompoland.com/2026/08/12/negative-views-of-polish-ukrainian-relations-reach-highest-level-on-record-in-poland/",
     "published_date": "2026-08-12",
     "event_date": null,
     "venue": null,
-    "tags": []
+    "tags": [
+      "民调",
+      "国际关系",
+      "波乌关系"
+    ]
   },
   {
-    "id": "c76033b03f",
-    "category": "poland_brief",
-    "title_zh": "Indians and Colombians now third and fourth largest groups of foreign workers in Poland",
-    "title_original": "Indians and Colombians now third and fourth largest groups of foreign workers in Poland",
-    "summary_zh": "",
-    "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/11/indians-and-colombians-now-third-and-fourth-largest-groups-of-foreign-workers-in-poland/",
-    "published_date": "2026-08-11",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "c39992b2de",
-    "category": "cool_finds",
-    "title_zh": "Mother bear and cubs spotted on busy hiking trail in Poland",
-    "title_original": "Mother bear and cubs spotted on busy hiking trail in Poland",
-    "summary_zh": "",
-    "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/11/mother-bear-and-cubs-spotted-on-busy-hiking-trail-in-poland/",
-    "published_date": "2026-08-11",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "ef87d57795",
-    "category": "poland_brief",
-    "title_zh": "Kaczyński appeals to President Nawrocki to unify Poland's right-wing opposition ahead of elections",
-    "title_original": "Kaczyński appeals to President Nawrocki to unify Poland's right-wing opposition ahead of elections",
-    "summary_zh": "",
-    "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/10/kaczynski-appeals-to-president-nawrocki-to-unify-polands-right-wing-opposition-ahead-of-elections/",
-    "published_date": "2026-08-10",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "e6d95a8f99",
-    "category": "poland_brief",
-    "title_zh": "Protests against anti-Ukrainian violence held in 25 Polish cities",
-    "title_original": "Protests against anti-Ukrainian violence held in 25 Polish cities",
-    "summary_zh": "",
-    "source_name": "Notes From Poland",
-    "source_url": "https://notesfrompoland.com/2026/08/10/protests-against-anti-ukrainianian-violence-held-in-25-polish-cities/",
-    "published_date": "2026-08-10",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "59552a762c",
-    "category": "poland_brief",
-    "title_zh": "Poles to see partial solar eclipse at sunset",
-    "title_original": "Poles to see partial solar eclipse at sunset",
-    "summary_zh": "Polish news",
-    "source_name": "Polskie Radio",
-    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3719165",
-    "published_date": "2026-08-12",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "38a4a81d4b",
-    "category": "poland_brief",
-    "title_zh": "Poland's Deputy Defense Minister comments on caution incident",
-    "title_original": "Poland's Deputy Defense Minister comments on caution incident",
-    "summary_zh": "Polish news",
-    "source_name": "Polskie Radio",
-    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3719243",
-    "published_date": "2026-08-12",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "4522ad74ac",
-    "category": "poland_brief",
-    "title_zh": "Poland aims to be maritime power",
-    "title_original": "Poland aims to be maritime power",
-    "summary_zh": "Polish news",
-    "source_name": "Polskie Radio",
-    "source_url": "https://www.polskieradio.pl/395/7786/Artykul/3719159",
-    "published_date": "2026-08-12",
-    "event_date": null,
-    "venue": null,
-    "tags": []
-  },
-  {
-    "id": "330e06407e",
+    "id": "47b53202c7",
     "category": "upcoming_events",
-    "title_zh": "Wielkie Serca – Spektakle w Multimedialnym Parku Fontann",
-    "title_original": "Wielkie Serca – Spektakle w Multimedialnym Parku Fontann",
-    "summary_zh": "Free or low-cost event",
-    "source_name": "waw4free.pl",
-    "source_url": "https://waw4free.pl/wydarzenie-150549-wielkie-serca-spektakle-w-multimedialnym-parku-fontann-2026",
+    "title_zh": "日偏食与流星雨免费观测活动",
+    "title_original": "Zaćmienie Słońca i Noc Spadających Gwiazd",
+    "summary_zh": "今晚在华沙可观测日偏食现象，随后英仙座流星雨将照亮夜空。Śródmieście 区举办的免费观测活动是与朋友和家人共同体验天文奇观的完美机会。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-156860-zacmienie-slonca-i-noc-spadajacych-gwiazd",
     "published_date": "2026-08-12",
-    "event_date": "2026-08-14",
+    "event_date": "2026-08-12",
     "venue": "Śródmieście",
     "tags": [
-      "free",
-      "event"
-    ]
-  },
-  {
-    "id": "09e150f8c3",
-    "category": "upcoming_events",
-    "title_zh": "Chopin Concert at Royal Łazienki",
-    "title_original": "Chopin Concert at Royal Łazienki",
-    "summary_zh": "Free or low-cost event",
-    "source_name": "waw4free.pl",
-    "source_url": "https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-16",
-    "venue": "Śródmieście",
-    "tags": [
-      "free",
-      "event"
-    ]
-  },
-  {
-    "id": "1a0a7453bd",
-    "category": "upcoming_events",
-    "title_zh": "Outdoor Cinema at Park Pięciu Sióstr",
-    "title_original": "Outdoor Cinema at Park Pięciu Sióstr",
-    "summary_zh": "Free or low-cost event",
-    "source_name": "waw4free.pl",
-    "source_url": "https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-18",
-    "venue": "Ochota",
-    "tags": [
-      "free",
-      "event"
-    ]
-  },
-  {
-    "id": "84db1c1c39",
-    "category": "cool_finds",
-    "title_zh": "João Maria Gusmão: Śladami Białego Tygrysa",
-    "title_original": "João Maria Gusmão: Śladami Białego Tygrysa",
-    "summary_zh": "Art exhibition",
-    "source_name": "Zachęta National Gallery",
-    "source_url": "https://zacheta.art.pl/pl/wystawy/joao-maria-gusmao-sladami-bialego-tygrysa",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-28",
-    "venue": "Zachęta",
-    "tags": [
-      "exhibition",
-      "art"
-    ]
-  },
-  {
-    "id": "cd3119e27f",
-    "category": "upcoming_events",
-    "title_zh": "22. Festiwal Chopin i jego Europa",
-    "title_original": "22. Festiwal Chopin i jego Europa",
-    "summary_zh": "Classical music concert",
-    "source_name": "Filharmonia Narodowa",
-    "source_url": "https://filharmonia.pl/repertuar/koncert-laureatow-chopin-avenue-amp-string-avenue",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-23",
-    "venue": "Filharmonia Narodowa",
-    "tags": [
-      "music",
-      "concert"
-    ]
-  },
-  {
-    "id": "c33bd05c2b",
-    "category": "upcoming_events",
-    "title_zh": "Klasycznie na trawie - Outdoor Concert",
-    "title_original": "Klasycznie na trawie - Outdoor Concert",
-    "summary_zh": "Classical music concert",
-    "source_name": "Filharmonia Narodowa",
-    "source_url": "https://filharmonia.pl/repertuar/-klasycznie-na-trawie-2026",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-30",
-    "venue": "Filharmonia Narodowa",
-    "tags": [
-      "music",
-      "concert"
-    ]
-  },
-  {
-    "id": "b7967378c4",
-    "category": "upcoming_events",
-    "title_zh": "Ukrainian Freedom Orchestra Concert",
-    "title_original": "Ukrainian Freedom Orchestra Concert",
-    "summary_zh": "Concert or performance",
-    "source_name": "Teatr Wielki",
-    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/ukrainian-freedom-orchestra-swiadectwo-niezlomnosci/termin/2026-08-16_18-00/",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-16",
-    "venue": "Teatr Wielki",
-    "tags": [
-      "performance",
-      "concert"
-    ]
-  },
-  {
-    "id": "04e6b06510",
-    "category": "upcoming_events",
-    "title_zh": "Nocą na starym rynku - Festiwal Warszawa Singera",
-    "title_original": "Nocą na starym rynku - Festiwal Warszawa Singera",
-    "summary_zh": "Concert or performance",
-    "source_name": "Teatr Wielki",
-    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/noca-na-starym-rynku/termin/2026-08-30_19-00/",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-30",
-    "venue": "Teatr Wielki",
-    "tags": [
-      "performance",
-      "concert"
-    ]
-  },
-  {
-    "id": "ac78e32a08",
-    "category": "upcoming_events",
-    "title_zh": "Gorzkie święta",
-    "title_original": "Gorzkie święta",
-    "summary_zh": "Art film screening",
-    "source_name": "Kinoteka",
-    "source_url": "https://kinoteka.pl/film/gorzkie-swieta/",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-12",
-    "venue": "Kinoteka",
-    "tags": [
-      "film",
-      "cinema"
-    ]
-  },
-  {
-    "id": "547c46ce5c",
-    "category": "upcoming_events",
-    "title_zh": "Tylko jedna noc",
-    "title_original": "Tylko jedna noc",
-    "summary_zh": "Art film screening",
-    "source_name": "Kinoteka",
-    "source_url": "https://kinoteka.pl/film/tylko-jedna-noc/",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-12",
-    "venue": "Kinoteka",
-    "tags": [
-      "film",
-      "cinema"
-    ]
-  },
-  {
-    "id": "eebd383ea9",
-    "category": "upcoming_events",
-    "title_zh": "Pejzaż w kolorze sepii",
-    "title_original": "Pejzaż w kolorze sepii",
-    "summary_zh": "Art film screening",
-    "source_name": "Kinoteka",
-    "source_url": "https://kinoteka.pl/film/pejzaz-w-kolorze-sepii/",
-    "published_date": "2026-08-12",
-    "event_date": "2026-08-12",
-    "venue": "Kinoteka",
-    "tags": [
-      "film",
-      "cinema"
+      "免费",
+      "天文活动",
+      "自然现象"
     ]
   },
   {
     "id": "796163a82d",
     "category": "upcoming_events",
-    "title_zh": "Kandydaci Śmierci (Documentary)",
-    "title_original": "Kandydaci Śmierci (Documentary)",
-    "summary_zh": "Art film screening",
+    "title_zh": "《Kandydaci Śmierci》纪录片特映（英文字幕）",
+    "title_original": "Kandydaci Śmierci [napisy EN]",
+    "summary_zh": "文化宫电影院今晚放映纪录片《Kandydaci Śmierci》，配英文字幕。这是该影院对艺术纪录电影的系列特别展映，为观众带来深刻的视听体验。",
     "source_name": "Kinoteka",
     "source_url": "https://kinoteka.pl/film/kandydaci-smierci-napisy-en/",
     "published_date": "2026-08-12",
     "event_date": "2026-08-12",
     "venue": "Kinoteka",
     "tags": [
-      "film",
-      "cinema"
+      "纪录片",
+      "艺术电影",
+      "特映"
     ]
   },
   {
     "id": "9b6720e8ad",
     "category": "poland_brief",
-    "title_zh": "Fake Friend Scams: Security Warning",
-    "title_original": "Fake Friend Scams: Security Warning",
-    "summary_zh": "Cybersecurity alert",
+    "title_zh": "警惕\"假朋友\"诈骗：冒充亲友的高速转账骗局",
+    "title_original": "Falszywy znajomy, prawdziwe straty. Nie daj się nabrać na szybki przelew",
+    "summary_zh": "国家网络安全研究院发布警告，诈骗分子冒充朋友或亲属发起紧急转账请求。受害者往往在未经验证身份的情况下仓促转账，造成资金损失。务必在转账前通过其他方式确认对方身份。",
     "source_name": "NASK",
     "source_url": "https://www.nask.pl/aktualnosci/falszywy-znajomy-prawdziwe-straty-nie-daj-sie-nabrac-na-szybki-przelew",
     "published_date": "2026-08-12",
     "event_date": null,
     "venue": null,
     "tags": [
-      "security",
-      "cybersecurity"
+      "网络安全",
+      "诈骗预警",
+      "金融安全"
+    ]
+  },
+  {
+    "id": "c39992b2de",
+    "category": "cool_finds",
+    "title_zh": "波兰热门登山路线惊现母熊与幼熊",
+    "title_original": "Mother bear and cubs spotted on busy hiking trail in Poland",
+    "summary_zh": "一只母熊和幼熊近日在波兰一条繁忙的登山步道上现身，引发登山爱好者的广泛关注。野生动物专家提醒户外活动参与者要保持警惕，与熊保持安全距离，避免意外冲突。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/11/mother-bear-and-cubs-spotted-on-busy-hiking-trail-in-poland/",
+    "published_date": "2026-08-11",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "野生动物",
+      "登山",
+      "自然"
+    ]
+  },
+  {
+    "id": "a7593097f9",
+    "category": "upcoming_events",
+    "title_zh": "波英双语知识竞赛之夜（酒吧竞答赛）",
+    "title_original": "POL-ENG Super Quiz Warsaw (PUB QUIZ)",
+    "summary_zh": "8月15日在华沙举办的双语知识竞赛，考验参赛者的波兰文和英文知识。活动在轻松的酒吧氛围中进行，适合对语言和知识竞答感兴趣的各位。赛后还有社交机会。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/gebeurtenis-156663-pol-eng-super-quiz-warsaw-pub-quiz",
+    "published_date": "2026-08-12",
+    "event_date": "2026-08-15",
+    "venue": "Śródmieście",
+    "tags": [
+      "免费",
+      "语言",
+      "竞赛活动"
+    ]
+  },
+  {
+    "id": "09e150f8c3",
+    "category": "upcoming_events",
+    "title_zh": "皇家公园肖邦室外音乐会",
+    "title_original": "Koncert Chopinowski w Łazienkach Królewskich",
+    "summary_zh": "8月16日，皇家公园（Łazienki Królewskie）将举办免费肖邦音乐会，分别在12:00和16:00各演一场。这是夏季在公园享受古典音乐、纪念肖邦音乐遗产的完美方式。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00",
+    "published_date": "2026-08-12",
+    "event_date": "2026-08-16",
+    "venue": "Łazienki Królewskie",
+    "tags": [
+      "免费",
+      "古典音乐",
+      "室外活动"
+    ]
+  },
+  {
+    "id": "9df26f1ecb",
+    "category": "upcoming_events",
+    "title_zh": "第22届《肖邦与欧洲》国际音乐节开幕",
+    "title_original": "22. Festiwal \"Chopin i jego Europa\"",
+    "summary_zh": "国家爱乐乐团将于8月23日至25日举办第22届肖邦音乐节。蒙特利尔交响乐团、钢琴大师Rafael Payare等国际艺术家将献演精彩节目，这是对肖邦音乐遗产的国际性庆典。",
+    "source_name": "Filharmonia Narodowa",
+    "source_url": "https://filharmonia.pl/repertuar/22-festiwal-chopin-i-jego-europa-893578652",
+    "published_date": "2026-08-12",
+    "event_date": "2026-08-23",
+    "venue": "Filharmonia",
+    "tags": [
+      "音乐节",
+      "肖邦",
+      "国际音乐"
+    ]
+  },
+  {
+    "id": "b7967378c4",
+    "category": "upcoming_events",
+    "title_zh": "乌克兰自由管弦乐团音乐会：不屈的证言",
+    "title_original": "Ukrainian Freedom Orchestra: świadectwo niezłomności",
+    "summary_zh": "大剧院将于8月16日上演乌克兰自由管弦乐团音乐会。该乐团由乌克兰音乐家组成，通过旋律与力量展现乌克兰人民在战争中的坚韧精神和对文化尊严的执着追求。",
+    "source_name": "Teatr Wielki",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/ukrainian-freedom-orchestra-swiadectwo-niezlomnosci/termin/2026-08-16_18-00/",
+    "published_date": "2026-08-12",
+    "event_date": "2026-08-16",
+    "venue": "Sala Moniuszki",
+    "tags": [
+      "音乐会",
+      "乌克兰",
+      "文化"
     ]
   }
 ]
