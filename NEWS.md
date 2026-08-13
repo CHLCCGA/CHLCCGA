@@ -1,27 +1,31 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-08-12 (Europe/Warsaw) · 覆盖 2026-08-09 — 2026-08-12
-> 数据源：15 个站点 · 本期 11 条 · [JSON](news/data/2026-08-12.json)
+> 自动生成于 2026-08-13 (Europe/Warsaw) · 覆盖 2026-08-10 — 2026-08-13
+> 数据源：13 个站点（1 个超时） · 本期 13 条 · [JSON](news/data/2026-08-13.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰迎来日偏食与英仙座流星雨之夜**
-
-8月12日日偏食后，波兰将迎来英仙座流星雨。这是一场难得的天文观测盛事，天气允许的情况下，夜间将有大量流星掠过天空。
-
-*Polish Radio · 2026-08-12 · [原文 →](https://www.polskieradio.pl/395/7789/Artykul/3719377,poles-gear-up-for-night-of-shooting-stars-after-solar-eclipse)*
+**波兰可观测日偏食**
+波兰在日落时分可观测到日偏食现象，是一次难得的天文事件。
+*Polish Radio · 2026-08-12 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3719165)*
 
 ---
 
 ## ◇ Cool Finds
 
-**波兰热门登山路线惊现母熊与幼熊**
+**朱拉·舒斯特「树脂·太阳纺织」多媒体装置展 · 7月17日 起**
+7 月 17 日至 9 月 27 日，波兰艺术家朱拉·舒斯特在 Zachęta 首个个人展览，通过多媒体装置探讨人类灵性与科技的关系。
+*Zachęta · 2026-08-13 · [原文 →](https://zacheta.art.pl/pl/wystawy/jura-shust-zywica-splot-sloneczny)*
 
-一只母熊和幼熊近日在波兰一条繁忙的登山步道上现身，引发登山爱好者的广泛关注。野生动物专家提醒户外活动参与者要保持警惕，与熊保持安全距离，避免意外冲突。
+**「扎根而居」——Zachęta 当代艺术展 · 8月1日 起**
+8 月 1 日至 10 月 11 日在 Zachęta 空间展出，展现当代艺术创作的多元视角。
+*Zachęta · 2026-08-13 · [原文 →](https://zacheta.art.pl/pl/wystawy/dom-na-korzeniach)*
 
-*Notes From Poland · 2026-08-11 · [原文 →](https://notesfrompoland.com/2026/08/11/mother-bear-and-cubs-spotted-on-busy-hiking-trail-in-poland/)*
+**伊姆兰·佩雷塔「要么无人要么所有人」展览 · 7月17日 起**
+7 月 17 日至 10 月 4 日在 CSW Ujazdowski 展出艺术家 Imran Perretta 的作品。
+*CSW Zamek Ujazdowski · 2026-08-13 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/nikt-albo-wszyscy)*
 
 ---
 
@@ -33,54 +37,40 @@
 
 ## ⤷ Upcoming Events
 
-**日偏食与流星雨免费观测活动** · 8月12日
+**「炎炎夏日」派对夜（Ale Sztuka）** · 8月14日
+8 月 14 日在 Ale Sztuka 举办的夏日派对活动，免费入场。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-156993)*
 
-今晚在华沙可观测日偏食现象，随后英仙座流星雨将照亮夜空。Śródmieście 区举办的免费观测活动是与朋友和家人共同体验天文奇观的完美机会。 · Śródmieście
+**儿童与家长体育训练营（3-5 岁）** · 8月15日
+8 月 15 日在 Bemowo 区举办的免费体育训练活动，为 3-5 岁儿童及其家长设计。 · Bemowo
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-157142)*
 
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-156860-zacmienie-slonca-i-noc-spadajacych-gwiazd)*
+**五姐妹公园露天电影** · 8月18日
+8 月 18 日晚 21:00 在 Ochota 区五姐妹公园放映的免费露天电影。 · Ochota
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-150719)*
 
-**《Kandydaci Śmierci》纪录片特映（英文字幕）** · 8月12日
+**经典在草坪上：爱乐乐团露天音乐会** · 8月30日
+8 月 30 日中午 12:00，国家爱乐乐团在雕塑博物馆公园举办的免费露天古典音乐会。 · Muzeum Rzeźby im. Xawerego Dunikowskiego
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/-klasycznie-na-trawie-2026)*
 
-文化宫电影院今晚放映纪录片《Kandydaci Śmierci》，配英文字幕。这是该影院对艺术纪录电影的系列特别展映，为观众带来深刻的视听体验。 · Kinoteka
-
-*Kinoteka · [原文 →](https://kinoteka.pl/film/kandydaci-smierci-napisy-en/)*
-
-**波英双语知识竞赛之夜（酒吧竞答赛）** · 8月15日
-
-8月15日在华沙举办的双语知识竞赛，考验参赛者的波兰文和英文知识。活动在轻松的酒吧氛围中进行，适合对语言和知识竞答感兴趣的各位。赛后还有社交机会。 · Śródmieście
-
-*waw4free · [原文 →](https://waw4free.pl/gebeurtenis-156663-pol-eng-super-quiz-warsaw-pub-quiz)*
-
-**皇家公园肖邦室外音乐会** · 8月16日
-
-8月16日，皇家公园（Łazienki Królewskie）将举办免费肖邦音乐会，分别在12:00和16:00各演一场。这是夏季在公园享受古典音乐、纪念肖邦音乐遗产的完美方式。 · Łazienki Królewskie
-
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00)*
-
-**乌克兰自由管弦乐团音乐会：不屈的证言** · 8月16日
-
-大剧院将于8月16日上演乌克兰自由管弦乐团音乐会。该乐团由乌克兰音乐家组成，通过旋律与力量展现乌克兰人民在战争中的坚韧精神和对文化尊严的执着追求。 · Sala Moniuszki
-
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/ukrainian-freedom-orchestra-swiadectwo-niezlomnosci/termin/2026-08-16_18-00/)*
-
-**第22届《肖邦与欧洲》国际音乐节开幕** · 8月23日
-
-国家爱乐乐团将于8月23日至25日举办第22届肖邦音乐节。蒙特利尔交响乐团、钢琴大师Rafael Payare等国际艺术家将献演精彩节目，这是对肖邦音乐遗产的国际性庆典。 · Filharmonia
-
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/22-festiwal-chopin-i-jego-europa-893578652)*
+**「古城夜色」华沙歌手音乐节闭幕音乐会** · 8月30日
+8 月 30 日晚 19:00 在 Sala Moniuszki 举办的第 23 届华沙歌手犹太文化节闭幕音乐会。 · Sala Moniuszki
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/nocna-na-starym-rynku-festiwal-warszawa-singera/)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰揭幕海军现代化项目首艘护卫舰** — 波兰推出其雄心勃勃的海军现代化计划中的首艘新型护卫舰。这一项目是波兰加强波罗的海防御能力的关键举措，展现了国家对海防的战略投资。 (Notes From Poland, 8/12)
+- **波兰投诉 Starlink 排除其欧洲漫游区域** — 波兰对 Starlink 卫星网络将其排除在欧洲漫游区域外提出投诉，涉及对国家通信权益的保护问题。 (Notes From Poland, 8/12)
 
-- **民调显示波兰民众对波乌关系的消极看法创新高** — 最新民调数据显示，波兰民众对波乌关系持负面态度的比例达到历史新高。这反映出当前两国关系面临的复杂挑战，可能涉及移民、历史认知等问题。 (Notes From Poland, 8/12)
+- **波兰海军删除含中国机器人视频后引发安全担忧** — 波兰海军因安全顾虑，删除了一段含有中国机器人的视频。这一事件引起了对国防设施网络安全的关注。 (Polish Radio, 8/12)
 
-- **警惕"假朋友"诈骗：冒充亲友的高速转账骗局** — 国家网络安全研究院发布警告，诈骗分子冒充朋友或亲属发起紧急转账请求。受害者往往在未经验证身份的情况下仓促转账，造成资金损失。务必在转账前通过其他方式确认对方身份。 (NASK, 8/12)
+- **波兰证实发生大规模个人数据泄露事件** — 波兰官方确认发生了一起大规模个人数据泄露事件，影响范围广泛。 (Polish Radio, 8/12)
+
+- **波兰农民因在公路上耕种被控最高监禁 10 年** — 一名波兰农民因在公路上耕种而面临最高 10 年的监禁指控，引发关于农民权益与法律的讨论。 (Polish Radio, 8/12)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ warsawfoodie.pl · ✅ ustamagazyn.pl · ✅ Polish Radio · ✅ waw4free · ❌ kultura.um.warszawa.pl (403) · ❌ transport.um.warszawa.pl (403) · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR (brak zdarzeń)
+✅ Notes From Poland · ✅ Warsaw Foodie (old) · ✅ Ustamagazyn (old) · ✅ Polskie Radio · ✅ waw4free · ✅ Muzeum Narodowe (no items) · ✅ Zachęta · ✅ CSW Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK (old) · ⚠ IDEAS NCBR (timeout)
