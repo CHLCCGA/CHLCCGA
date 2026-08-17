@@ -1,0 +1,114 @@
+[
+  {
+    "id": "f69f57e5a7",
+    "category": "poland_brief",
+    "title_zh": "波兰客运车匈牙利坠毁，12 人遇难",
+    "title_original": "Twelve killed as Polish coach crashes in Hungary",
+    "summary_zh": "一辆载有波兰天主教朝圣者的客运车在匈牙利发生严重车祸，造成 12 人死亡。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/16/twelve-killed-as-polish-coach-crashes-in-hungary/",
+    "published_date": "2026-08-16",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "transportation",
+      "accident"
+    ]
+  },
+  {
+    "id": "e9e329286d",
+    "category": "upcoming_events",
+    "title_zh": "POLONIA 剧院和 OCH 剧院露天演出",
+    "title_original": "Przedstawienia plenerowe Teatru POLONIA i OCH-Teatru",
+    "summary_zh": "两家华沙剧院携手呈现露天剧场演出季，为夏日提供免费或低价文化活动。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/wydarzenie-155184-przedstawienia-plenerowe-teatru-polonia-i-och-teatru",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-20",
+    "venue": "POLONIA Theater, Warsaw",
+    "tags": [
+      "theater",
+      "free"
+    ]
+  },
+  {
+    "id": "87f5056418",
+    "category": "upcoming_events",
+    "title_zh": "华沙起义历史行走：切尔尼亚科夫河滨战役",
+    "title_original": "Spacer Sladami Powstania Warszawskiego - walki na Powislu Czerniakowskim i desant \"berlingowcow\"",
+    "summary_zh": "由历史导游带领的华沙起义历史行走路线，重点关注切尔尼亚科夫河滨的战役。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/wydarzenie-155919-spacer-sladami-powstania-warszawskiego-walki-na-powislu-czerniakowskim-i-desant-berlingowcow",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-23",
+    "venue": "Warsaw",
+    "tags": [
+      "history",
+      "walking tour"
+    ]
+  },
+  {
+    "id": "e1d99adb3e",
+    "category": "upcoming_events",
+    "title_zh": "Koneser 脱口秀 2026：SynMojegoTaty & Bartek Toczek",
+    "title_original": "Koneser Stand-upu 2026 | SynMojegoTaty, Bartek Toczek",
+    "summary_zh": "波兰喜剧演员在 Koneser 文化中心举办脱口秀表演。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/gebeurtenenie-153906-koneser-stand-upu-2026-synmojegotaty-bartek-toczek",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-29",
+    "venue": "Koneser, Warsaw",
+    "tags": [
+      "comedy",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "80cdb31353",
+    "category": "upcoming_events",
+    "title_zh": "KINO LETNIE LOLKA 电影放映：奥斯卡之夜 2026",
+    "title_original": "KINO LETNIE LOLKA - Oscarowe Srody 2026",
+    "summary_zh": "夏日露天电影院 KINO LETNIE LOLKA 放映获奖电影专题。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/wydarzenie-153407-kino-letnie-lolka-oscarowe-srody-2026",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-20",
+    "venue": "KINO LETNIE LOLKA, Warsaw",
+    "tags": [
+      "cinema",
+      "free"
+    ]
+  },
+  {
+    "id": "2186283aa2",
+    "category": "upcoming_events",
+    "title_zh": "比埃拉尼亚丰收节 2026",
+    "title_original": "Bielanskie Dozynki 2026",
+    "summary_zh": "比埃拉尼亚社区传统丰收节庆典，展示民俗文化和本地美食。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/wydarzenie-157163-bielanskie-dozynki-2026",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-24",
+    "venue": "Bielany, Warsaw",
+    "tags": [
+      "festival",
+      "free"
+    ]
+  },
+  {
+    "id": "1a0a7453bd",
+    "category": "upcoming_events",
+    "title_zh": "五姐妹公园露天电影放映",
+    "title_original": "KINO PLENEROWE w Parku Pieciu Siostr",
+    "summary_zh": "在位于华沙市中心的五姐妹公园举行露天电影放映活动。",
+    "source_name": "WAW4free",
+    "source_url": "https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr",
+    "published_date": "2026-08-17",
+    "event_date": "2026-08-22",
+    "venue": "Piec Siostr Park, Warsaw",
+    "tags": [
+      "cinema",
+      "free"
+    ]
+  }
+]

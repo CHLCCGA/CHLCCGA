@@ -1,31 +1,19 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-08-13 (Europe/Warsaw) · 覆盖 2026-08-10 — 2026-08-13
-> 数据源：13 个站点（1 个超时） · 本期 13 条 · [JSON](news/data/2026-08-13.json)
+> 自动生成于 2026-08-17 (Europe/Warsaw) · 覆盖 2026-08-14 — 2026-08-17
+> 数据源：13 个站点 · 本期 7 条 · [JSON](news/data/2026-08-17.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰可观测日偏食**
-波兰在日落时分可观测到日偏食现象，是一次难得的天文事件。
-*Polish Radio · 2026-08-12 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3719165)*
+*（本期无）*
 
 ---
 
 ## ◇ Cool Finds
 
-**朱拉·舒斯特「树脂·太阳纺织」多媒体装置展 · 7月17日 起**
-7 月 17 日至 9 月 27 日，波兰艺术家朱拉·舒斯特在 Zachęta 首个个人展览，通过多媒体装置探讨人类灵性与科技的关系。
-*Zachęta · 2026-08-13 · [原文 →](https://zacheta.art.pl/pl/wystawy/jura-shust-zywica-splot-sloneczny)*
-
-**「扎根而居」——Zachęta 当代艺术展 · 8月1日 起**
-8 月 1 日至 10 月 11 日在 Zachęta 空间展出，展现当代艺术创作的多元视角。
-*Zachęta · 2026-08-13 · [原文 →](https://zacheta.art.pl/pl/wystawy/dom-na-korzeniach)*
-
-**伊姆兰·佩雷塔「要么无人要么所有人」展览 · 7月17日 起**
-7 月 17 日至 10 月 4 日在 CSW Ujazdowski 展出艺术家 Imran Perretta 的作品。
-*CSW Zamek Ujazdowski · 2026-08-13 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/nikt-albo-wszyscy)*
+*（本期无）*
 
 ---
 
@@ -37,40 +25,39 @@
 
 ## ⤷ Upcoming Events
 
-**「炎炎夏日」派对夜（Ale Sztuka）** · 8月14日
-8 月 14 日在 Ale Sztuka 举办的夏日派对活动，免费入场。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-156993)*
+**POLONIA 剧院和 OCH 剧院露天演出** · 8月20日
+两家华沙剧院携手呈现露天剧场演出季，为夏日提供免费或低价文化活动。
+*WAW4free · [原文 →](https://waw4free.pl/wydarzenie-155184-przedstawienia-plenerowe-teatru-polonia-i-och-teatru)*
 
-**儿童与家长体育训练营（3-5 岁）** · 8月15日
-8 月 15 日在 Bemowo 区举办的免费体育训练活动，为 3-5 岁儿童及其家长设计。 · Bemowo
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-157142)*
+**五姐妹公园露天电影放映** · 8月22日
+在位于华沙市中心的五姐妹公园举行露天电影放映活动。
+*WAW4free · [原文 →](https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr)*
 
-**五姐妹公园露天电影** · 8月18日
-8 月 18 日晚 21:00 在 Ochota 区五姐妹公园放映的免费露天电影。 · Ochota
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-150719)*
+**华沙起义历史行走：切尔尼亚科夫河滨战役** · 8月23日
+由历史导游带领的华沙起义历史行走路线，重点关注切尔尼亚科夫河滨的战役。
+*WAW4free · [原文 →](https://waw4free.pl/wydarzenie-155919-spacer-sladami-powstania-warszawskiego-walki-na-powislu-czerniakowskim-i-desant-berlingowcow)*
 
-**经典在草坪上：爱乐乐团露天音乐会** · 8月30日
-8 月 30 日中午 12:00，国家爱乐乐团在雕塑博物馆公园举办的免费露天古典音乐会。 · Muzeum Rzeźby im. Xawerego Dunikowskiego
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/-klasycznie-na-trawie-2026)*
+**比埃拉尼亚丰收节 2026** · 8月24日
+比埃拉尼亚社区传统丰收节庆典，展示民俗文化和本地美食。
+*WAW4free · [原文 →](https://waw4free.pl/wydarzenie-157163-bielanskie-dozynki-2026)*
 
-**「古城夜色」华沙歌手音乐节闭幕音乐会** · 8月30日
-8 月 30 日晚 19:00 在 Sala Moniuszki 举办的第 23 届华沙歌手犹太文化节闭幕音乐会。 · Sala Moniuszki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/nocna-na-starym-rynku-festiwal-warszawa-singera/)*
+**KINO LETNIE LOLKA 电影放映：奥斯卡之夜 2026** · 8月20日
+夏日露天电影院 KINO LETNIE LOLKA 放映获奖电影专题。
+*WAW4free · [原文 →](https://waw4free.pl/wydarzenie-153407-kino-letnie-lolka-oscarowe-srody-2026)*
+
+**Koneser 脱口秀 2026：SynMojegoTaty & Bartek Toczek** · 8月29日
+波兰喜剧演员在 Koneser 文化中心举办脱口秀表演。
+*WAW4free · [原文 →](https://waw4free.pl/my-event-153906)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰投诉 Starlink 排除其欧洲漫游区域** — 波兰对 Starlink 卫星网络将其排除在欧洲漫游区域外提出投诉，涉及对国家通信权益的保护问题。 (Notes From Poland, 8/12)
-
-- **波兰海军删除含中国机器人视频后引发安全担忧** — 波兰海军因安全顾虑，删除了一段含有中国机器人的视频。这一事件引起了对国防设施网络安全的关注。 (Polish Radio, 8/12)
-
-- **波兰证实发生大规模个人数据泄露事件** — 波兰官方确认发生了一起大规模个人数据泄露事件，影响范围广泛。 (Polish Radio, 8/12)
-
-- **波兰农民因在公路上耕种被控最高监禁 10 年** — 一名波兰农民因在公路上耕种而面临最高 10 年的监禁指控，引发关于农民权益与法律的讨论。 (Polish Radio, 8/12)
+- **波兰客运车匈牙利坠毁，12 人遇难** — 一辆载有波兰天主教朝圣者的客运车在匈牙利发生严重车祸，造成 12 人死亡。(Notes From Poland, 8/16)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie (old) · ✅ Ustamagazyn (old) · ✅ Polskie Radio · ✅ waw4free · ✅ Muzeum Narodowe (no items) · ✅ Zachęta · ✅ CSW Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK (old) · ⚠ IDEAS NCBR (timeout)
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazine · ✅ Polskie Radio · ✅ WAW4free · ✅ MNW · ❌ Zacheta · ✅ Ujazdowski · ✅ Filharmonia · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ✅ IDEAS NCBR
+
