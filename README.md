@@ -25,14 +25,14 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-08-17*
+*updated 2026-08-19*
 
-▸ 波兰客运车匈牙利坠毁，12 人遇难
-▸ POLONIA 剧院和 OCH 剧院露天演出
-▸ 五姐妹公园露天电影放映
-▸ 华沙起义历史行走：切尔尼亚科夫河滨战役
-▸ 比埃拉尼亚丰收节 2026
-▸ KINO LETNIE LOLKA 电影放映：奥斯卡之夜
+▸ 波兰总理证实政治逃犯在俄占摩尔多瓦地区
+▸ 波兰大巴在匈牙利高速公路坠毁致12人丧生
+▸ 俄罗斯反对派人士在华沙身亡
+▸ 足球明星莱万多夫斯基与演员艾森伯格携手宣传波兰
+▸ 《伟大之心》多媒体喷泉公园表演
+▸ Koneser 脱口秀2026：SynMojegoTaty与Bartek Toczek
 
 <!--news:end-->
 
