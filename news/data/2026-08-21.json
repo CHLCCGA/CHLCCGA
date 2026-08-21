@@ -1,0 +1,289 @@
+[
+  {
+    "id": "9d7d7103dd",
+    "category": "poland_brief",
+    "title_zh": "波兰测试 250 公里/小时高速列车",
+    "title_original": "Poland tests 250 km/h train speeds for planned cuts to intercity journey times",
+    "summary_zh": "波兰测试高速列车技术，以缩短城际旅程时间。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/20/poland-tests-250-km-h-train-speeds-for-planned-cuts-to-intercity-journey-times",
+    "published_date": "2026-08-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "poland",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "aff69f5a7f",
+    "category": "poland_brief",
+    "title_zh": "波兰政府提议中产减税计划",
+    "title_original": "Polish government proposes middle-class tax cuts funded by increased rates for wealthy",
+    "summary_zh": "波兰政府提议通过提高富人税率来为中产阶级减税。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/19/polish-government-proposes-middle-class-tax-cuts-funded-by-increased-rates-for-wealthy",
+    "published_date": "2026-08-19",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "poland",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "8a896c1d94",
+    "category": "warsaw_now",
+    "title_zh": "波兰启动特色旅游宣传活动",
+    "title_original": "Poland launches tourism campaign featuring Lewandowski, Eisenberg and Rubik",
+    "summary_zh": "波兰推出以莱万多夫斯基、艾森伯格和魔方为主题的旅游宣传活动。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/19/poland-launches-tourism-campaign-featuring-lewandowski-eisenberg-and-rubik",
+    "published_date": "2026-08-19",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "warsaw",
+      "news"
+    ]
+  },
+  {
+    "id": "77c94efb09",
+    "category": "warsaw_now",
+    "title_zh": "华沙起义老兵、社会活动家万达去世",
+    "title_original": "Warsaw Uprising veteran and activist Wanda Traczyk-Stawska dies aged 99",
+    "summary_zh": "著名社会活动家、华沙起义老兵万达·特拉茨基克-斯塔夫斯卡去世，享年 99 岁。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/19/warsaw-uprising-veteran-and-activist-wanda-traczyk-stawska-dies-aged-99",
+    "published_date": "2026-08-19",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "warsaw",
+      "news"
+    ]
+  },
+  {
+    "id": "4ef46741ee",
+    "category": "poland_brief",
+    "title_zh": "波兰确信逃亡反对派政治人物身在亲俄分离地区",
+    "title_original": "Poland \"99% sure\" fugitive opposition politician is in pro-Russian breakaway region",
+    "summary_zh": "波兰政府称 99% 确信逃亡反对派人士身在亲俄分离区域。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/18/poland-99-sure-fugitive-opposition-politician-is-in-pro-russian-breakaway-region",
+    "published_date": "2026-08-18",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "poland",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "a2da81fb44",
+    "category": "upcoming_events",
+    "title_zh": "第六届扎布科夫斯基街头美食节",
+    "title_original": "VI Ząbkowski Festiwal Streetfoodu x Zakończenie Wakacji",
+    "summary_zh": "街头美食节及暑期闭幕庆典，8 月 28 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-156632-vi-zabkowski-festiwal-streetfoodu-x-zakonczenie-wakacji",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-28",
+    "venue": "华沙周边",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "1a0a7453bd",
+    "category": "upcoming_events",
+    "title_zh": "五姐妹公园露天电影放映",
+    "title_original": "KINO PLENEROWE w Parku Pięciu Sióstr",
+    "summary_zh": "露天电影放映，8 月 25 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-25",
+    "venue": "Ochota",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "25ebde3224",
+    "category": "upcoming_events",
+    "title_zh": "LOLKA 夏季影院——奥斯卡系列放映",
+    "title_original": "KINO LETNIE LOLKA - Oscarowe Środy 2026",
+    "summary_zh": "奥斯卡获奖作品系列放映，8 月 26 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/ereignis-153407-kino-letnie-lolka-oscarowe-srody-2026",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-26",
+    "venue": "Ochota",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "e9e329286d",
+    "category": "upcoming_events",
+    "title_zh": "POLONIA 剧院和 OCH 剧院露天演出",
+    "title_original": "Przedstawienia plenerowe Teatru POLONIA i OCH-Teatru",
+    "summary_zh": "露天剧场演出，8 月 30 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-155184-przedstawienia-plenerowe-teatru-polonia-i-och-teatru",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-30",
+    "venue": "Ochota",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "e6ac0e8f2c",
+    "category": "upcoming_events",
+    "title_zh": "Koneser 脱口秀之夜",
+    "title_original": "Koneser Stand-upu 2026 | Adam Sobaniec, Kamil Kozieł",
+    "summary_zh": "脱口秀表演，8 月 23 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-153908-koneser-stand-upu-2026-adam-sobaniec-kamil-koziel",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-23",
+    "venue": "Praga-Północ",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "2c9ae0da21",
+    "category": "upcoming_events",
+    "title_zh": "暑期结束——华夫饼节庆",
+    "title_original": "End of Summer - Święto Gofra",
+    "summary_zh": "华夫饼节庆活动，8 月 23 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-156685-end-of-summer-swieto-gofra",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-23",
+    "venue": "Praga-Południe",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "09e150f8c3",
+    "category": "upcoming_events",
+    "title_zh": "皇家浴场肖邦音乐会",
+    "title_original": "Koncert Chopinowski w Łazienkach Królewskich [godz. 12:00 i 16:00]",
+    "summary_zh": "肖邦音乐会，8 月 23 日，每日两场（12:00 和 16:00）。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-23",
+    "venue": "皇家浴场",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "330e06407e",
+    "category": "upcoming_events",
+    "title_zh": "《伟大的心灵》——多媒体喷泉公园演出",
+    "title_original": "„Wielkie Serca\" – spektakle w Multimedialnym Parku Fontann 2026",
+    "summary_zh": "演出在多媒体喷泉公园举行，8 月 22 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-150549-wielkie-serca-spektakle-w-multimedialnym-parku-fontann-2026",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-22",
+    "venue": "中城区",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "07011bbbcf",
+    "category": "upcoming_events",
+    "title_zh": "我的第一件和服——儿童开放训练课",
+    "title_original": "Moje pierwsze kimono – Otwarty trening dla dzieci 3–5 lat",
+    "summary_zh": "为 3-5 岁儿童开放的和服穿着训练课程，8 月 22 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-157438-moje-pierwsze-kimono-otwarty-trening-dla-dzieci-3-5-lat-my-first-kimono-open-training-for-kids-aged-3-5",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-22",
+    "venue": "Bemowo",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "25aeb6a09d",
+    "category": "upcoming_events",
+    "title_zh": "跳入草地——新马戏艺术初级工作坊",
+    "title_original": "Wpadnij na łąkę | O tym jak można się ruszać, żeby sprawiać radość innym – warsztaty ze sztuki nowego cyrku dla początkujących",
+    "summary_zh": "新马戏艺术初级工作坊，8 月 25 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-154525-wpadnij-na-lake-o-tym-jak-mozna-sie-ruszac-zeby-sprawiac-radosc-innym-warsztaty-ze-sztuki-nowego-cyrku-dla-poczatkujacych",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-25",
+    "venue": "中城区",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "e1d99adb3e",
+    "category": "upcoming_events",
+    "title_zh": "Koneser 脱口秀之夜",
+    "title_original": "Koneser Stand-upu 2026 | SynMojegoTaty, Bartek Toczek",
+    "summary_zh": "脱口秀表演，8 月 22 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-153906-koneser-stand-upu-2026-synmojegotaty-bartek-toczek",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-22",
+    "venue": "Praga-Północ",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  },
+  {
+    "id": "2186283aa2",
+    "category": "upcoming_events",
+    "title_zh": "比耶兰收获节庆 2026",
+    "title_original": "Bielańskie Dożynki 2026",
+    "summary_zh": "地方收获节庆活动，8 月 22 日。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-157163-bielanskie-dozynki-2026",
+    "published_date": "2026-08-21",
+    "event_date": "2026-08-22",
+    "venue": "Bielany",
+    "tags": [
+      "event",
+      "warsaw",
+      "免费"
+    ]
+  }
+]
