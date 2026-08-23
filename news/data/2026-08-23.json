@@ -1,0 +1,132 @@
+[
+  {
+    "id": "6ed9026758",
+    "category": "warsaw_now",
+    "title_zh": "波兰法律与公正党分裂引发政治局势变化",
+    "title_original": "How will the Law and Justice split affect Polish politics?",
+    "summary_zh": "执政的法律与公正党内部出现分裂，引发对波兰政治格局的担忧。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/21/how-will-the-law-and-justice-split-affect-polish-politics/",
+    "published_date": "2026-08-21",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "政治",
+      "波兰"
+    ]
+  },
+  {
+    "id": "dd989ecb37",
+    "category": "warsaw_now",
+    "title_zh": "波兰民间组织呼吁内政官员退出宪法法院候选人竞争",
+    "title_original": "Polish NGOs urge PM's right-hand man to withdraw constitutional court candidacy",
+    "summary_zh": "波兰非政府组织对总理亲近助手的宪法法院提名表示反对。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/21/polish-ngos-urge-pms-right-hand-man-to-withdraw-constitutional-court-candidacy/",
+    "published_date": "2026-08-21",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "宪法",
+      "政治",
+      "NGO"
+    ]
+  },
+  {
+    "id": "7055e704ed",
+    "category": "warsaw_now",
+    "title_zh": "波兰召见以色列大使抗议加沙援助人员遇害调查被终止",
+    "title_original": "Poland summons Israeli ambassador over discontinued investigation into killing of Gaza aid workers",
+    "summary_zh": "波兰就以色列停止对加沙援助人员遇害案件的调查提出外交抗议。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/21/poland-summons-israeli-ambassador-over-discontinued-investigation-into-killing-of-gaza-aid-workers/",
+    "published_date": "2026-08-21",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "外交",
+      "人道"
+    ]
+  },
+  {
+    "id": "ccb094dba1",
+    "category": "warsaw_now",
+    "title_zh": "波兰新任形象大使因存在错误且可能由AI生成的报告引发批评",
+    "title_original": "New official tasked with promoting Poland criticised over error-strewn, potentially AI-generated report",
+    "summary_zh": "波兰新任国家形象推广官因提交的文件存在错误且疑为AI生成而遭批评。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/21/new-official-tasked-with-promoting-poland-criticised-over-error-strewn-potentially-ai-generated-report/",
+    "published_date": "2026-08-21",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "AI",
+      "政策"
+    ]
+  },
+  {
+    "id": "c2ab7ba916",
+    "category": "warsaw_now",
+    "title_zh": "波兰测试时速250公里高铁以缩短城市间通勤时间",
+    "title_original": "Poland tests 250 km/h train speeds for planned cuts to intercity journey times",
+    "summary_zh": "波兰开展高速列车测试，目标是显著缩短城市间交通时间。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/20/poland-tests-250-km-h-train-speeds-for-planned-cuts-to-intercity-journey-times/",
+    "published_date": "2026-08-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "交通",
+      "铁路"
+    ]
+  },
+  {
+    "id": "54d392d314",
+    "category": "new_spots",
+    "title_zh": "Warszawska Smażalnia Ryb 炸鱼吧新开业",
+    "title_original": "Warszawska Smażalnia Ryb – nowy bar mleczny dla miłośników ryb",
+    "summary_zh": "华沙新开一家传统风格的炸鱼餐厅，专营新鲜炸鱼。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/08/warszawska-smazalnia-ryb-nowy-bar-mleczny-dla-milosnikow-ryb/",
+    "published_date": "2026-08-21",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "餐饮",
+      "波兰菜"
+    ]
+  },
+  {
+    "id": "3baddff811",
+    "category": "new_spots",
+    "title_zh": "Kicia Bistro：Wola 区新亚洲菜餐厅",
+    "title_original": "Kicia Bistro – nowe azjatyckie miejsce na Woli",
+    "summary_zh": "Wola 区新开亚洲菜餐厅 Kicia Bistro，提供亚洲风味美食。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/08/kicia-bistro-nowe-azjatyckie-miejsce-na-woli/",
+    "published_date": "2026-08-20",
+    "event_date": null,
+    "venue": "Wola",
+    "tags": [
+      "餐饮",
+      "亚洲菜"
+    ]
+  },
+  {
+    "id": "ed9b45415b",
+    "category": "poland_brief",
+    "title_zh": "AI 如何影响学生的人际关系",
+    "title_original": "Od kodu do relacji. Jak AI wpływa na uczniów?",
+    "summary_zh": "波兰网络安全研究院发布关于人工智能对学生影响的分析。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci",
+    "published_date": "2026-08-23",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "AI",
+      "教育",
+      "研究"
+    ]
+  }
+]
