@@ -25,13 +25,14 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-08-25*
+*updated 2026-08-27*
 
-▸ 波兰承认外国同性婚姻新规正式生效
-▸ 乌克兰建立民族英雄纪念殿堂，波兰就历史纪念提出警告
-▸ 美国短跑明星寻求改籍代表波兰
-▸ Moc Vegan Bistro — 萨斯基-圭皮亚的亚洲素食新餐厅
-▸ Marea Ristorante — 波维斯乌的新意大利餐厅
+▸ 华沙将安装无人机检测系统
+▸ João Maria Gusmão：《追踪白虎》摄影展
+▸ Frango：葡萄牙烧鸡餐厅
+▸ DJ Zimny Gulasz 露天迪斯科舞会
+▸ 美国向波兰边防军提供无人机和热成像设备
+▸ 《根之家》当代艺术展
 
 <!--news:end-->
 
