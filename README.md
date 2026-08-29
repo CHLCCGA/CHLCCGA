@@ -25,14 +25,14 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-08-27*
+*updated 2026-08-29*
 
-▸ 华沙将安装无人机检测系统
-▸ João Maria Gusmão：《追踪白虎》摄影展
-▸ Frango：葡萄牙烧鸡餐厅
-▸ DJ Zimny Gulasz 露天迪斯科舞会
-▸ 美国向波兰边防军提供无人机和热成像设备
-▸ 《根之家》当代艺术展
+▸ 波兰公布 2027 年预算案，财政赤字保持在 GDP 的 7.1%
+▸ 波兰奥委会主席因与破产加密公司关联被拘留
+▸ 尤拉·舒斯特《树脂·太阳编织》装置艺术展
+▸ Papa Lee's Bakery & Bistro：台湾风味餐厅
+▸ 肖邦与欧洲音乐节·匹兹堡交响乐团专场
+▸ 《苦涩假日》·佩德罗·阿尔莫多瓦新作
 
 <!--news:end-->
 
