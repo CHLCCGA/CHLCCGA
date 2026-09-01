@@ -1,0 +1,223 @@
+[
+  {
+    "id": "a9b1fb725e",
+    "category": "warsaw_now",
+    "title_zh": "波兰调查无人机工厂火灾是否涉及外国情报机构",
+    "title_original": "Poland investigates potential \"foreign intelligence\" involvement in fire at drone plant",
+    "summary_zh": "波兰当局正在调查斯卡日斯科-卡米恩纳无人机工厂发生的火灾事件，怀疑可能涉及外国情报部门。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/31/poland-investigates-potential-foreign-intelligence-involvement-in-fire-at-drone-plant/",
+    "published_date": "2026-08-31",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "security",
+      "military",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "5756609ac9",
+    "category": "warsaw_now",
+    "title_zh": "波兰二战遇难者在乌克兰重新安葬",
+    "title_original": "Polish WWII massacre victims reburied in Ukraine at ceremony attended by officials from both countries",
+    "summary_zh": "波兰与乌克兰两国官员共同参加二战大屠杀遇难者重新安葬仪式，纪念历史伤痛。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/08/31/polish-wwii-massacre-victims-reburied-in-ukraine-at-ceremony-attended-by-officials-from-both-countries/",
+    "published_date": "2026-08-31",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "history",
+      "wwii",
+      "memorial",
+      "ukraine"
+    ]
+  },
+  {
+    "id": "eaecf9d4b0",
+    "category": "warsaw_now",
+    "title_zh": "波兰在新学年禁用中小学生智能手机",
+    "title_original": "Poland bans smartphones in primary schools as new academic year begins",
+    "summary_zh": "波兰政府出台全国政策，在新学年禁止学生在小学携带和使用智能手机。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3726016",
+    "published_date": "2026-08-31",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "education",
+      "policy"
+    ]
+  },
+  {
+    "id": "e848fa73b8",
+    "category": "poland_brief",
+    "title_zh": "波兰特种部队进行战术训练与无人机部署演练",
+    "title_original": "Polish special forces train to penetrate enemy lines, deploy drones",
+    "summary_zh": "波兰特种部队进行穿透敌防线和无人机部署训练，测试战术能力。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3725917",
+    "published_date": "2026-08-31",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "military",
+      "defense",
+      "training"
+    ]
+  },
+  {
+    "id": "6de50752e7",
+    "category": "cool_finds",
+    "title_zh": "《成长》展览",
+    "title_original": "Dojrzewanie (Maturation)",
+    "summary_zh": "探讨当代艺术如何描绘从童年到成年的过渡时期。展期至 9 月 20 日。",
+    "source_name": "Zachęta",
+    "source_url": "https://zacheta.art.pl/pl/wystawy/dojrzewanie",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-01",
+    "venue": "Zachęta (国家画廊)",
+    "tags": [
+      "contemporary-art",
+      "exhibition"
+    ]
+  },
+  {
+    "id": "bbb5c963d7",
+    "category": "cool_finds",
+    "title_zh": "《根上之家》艺术项目",
+    "title_original": "Dom na korzeniach (House on Roots)",
+    "summary_zh": "扎切塔美术馆项目空间呈现的装置展览，展期至 10 月 11 日。",
+    "source_name": "Zachęta",
+    "source_url": "https://zacheta.art.pl/pl/wystawy/dom-na-korzeniach",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-01",
+    "venue": "Zachęta – Miejsce Projektów",
+    "tags": [
+      "art-project",
+      "installation",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "98eaf29f35",
+    "category": "cool_finds",
+    "title_zh": "《既非水亦非陆地》装置艺术展",
+    "title_original": "Nie woda nie ziemia",
+    "summary_zh": "当代艺术中心呈现的创新装置艺术展览，展期至 9 月 27 日。",
+    "source_name": "CSW Zamek Ujazdowski",
+    "source_url": "https://www.u-jazdowski.pl/program/wystawy/nie-woda-nie-ziemia",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-01",
+    "venue": "CSW Zamek Ujazdowski",
+    "tags": [
+      "contemporary-art",
+      "installation",
+      "exhibition"
+    ]
+  },
+  {
+    "id": "6db9a388d0",
+    "category": "upcoming_events",
+    "title_zh": "户外电影节——放映《8 英里》",
+    "title_original": "Kino plenerowe – \"8 Mila\"",
+    "summary_zh": "阿尔特艺术中心主办的户外影院活动，免费放映美国经典电影。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-157921-kino-plenerowe-8-mila",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-03",
+    "venue": "Ale Sztuka (Śródmieście)",
+    "tags": [
+      "free-event",
+      "outdoor-cinema",
+      "film"
+    ]
+  },
+  {
+    "id": "186cf5e296",
+    "category": "upcoming_events",
+    "title_zh": "回到校园·贝莫沃免费家庭日",
+    "title_original": "Back to School na Bemowie",
+    "summary_zh": "贝莫沃区举办的免费家庭活动，包括健康讲座与安妮·达布罗夫斯卡音乐会。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-157591-back-to-school-na-bemowie",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-05",
+    "venue": "Bemowo",
+    "tags": [
+      "free-event",
+      "family-activity",
+      "concert"
+    ]
+  },
+  {
+    "id": "f852ff9f77",
+    "category": "upcoming_events",
+    "title_zh": "芭蕾舞晚会",
+    "title_original": "Gala baletowa (Ballet Gala)",
+    "summary_zh": "波兰国家芭蕾舞团及客座艺术家联合演出，展示经典芭蕾艺术。",
+    "source_name": "Teatr Wielki – Opera Narodowa",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/gala-baletowa/",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-12",
+    "venue": "Teatr Wielki (大剧院)",
+    "tags": [
+      "ballet",
+      "performance",
+      "opera-house"
+    ]
+  },
+  {
+    "id": "011ee62c9e",
+    "category": "upcoming_events",
+    "title_zh": "《机器人舞蹈》芭蕾演出",
+    "title_original": "Androidy (Ballet)",
+    "summary_zh": "波兰国家芭蕾舞团上演现代芭蕾作品，由普热梅斯瓦夫·齐克和罗伯特·博恩达拉编舞。",
+    "source_name": "Teatr Wielki – Opera Narodowa",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/androidy/",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-17",
+    "venue": "Teatr Wielki",
+    "tags": [
+      "ballet",
+      "contemporary-dance",
+      "performance"
+    ]
+  },
+  {
+    "id": "4cb75f70ea",
+    "category": "upcoming_events",
+    "title_zh": "《时代的人》电影放映",
+    "title_original": "Człowiek epoki (Man of the Epoch)",
+    "summary_zh": "电影文化宫艺术影院特别放映，展现艺术电影的创新视角。",
+    "source_name": "Kinoteka",
+    "source_url": "https://kinoteka.pl/film/czlowiek-epoki/",
+    "published_date": "2026-09-01",
+    "event_date": "2026-09-01",
+    "venue": "Kinoteka (文化科学宫)",
+    "tags": [
+      "art-film",
+      "special-screening",
+      "documentary-style"
+    ]
+  },
+  {
+    "id": "014539c680",
+    "category": "poland_brief",
+    "title_zh": "我们所需的解决方案——NASK 科技转移日论坛",
+    "title_original": "Rozwiązania, których potrzebujemy. Przed nami NASK Transfer Technology Day",
+    "summary_zh": "国家网络安全研究院召开技术转移日活动，讨论深度伪造、网络攻击等当代威胁的防护方案。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci/rozwiazania-ktorych-potrzebujemy-przed-nami-nask-transfer-technology-day",
+    "published_date": "2026-08-31",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "cybersecurity",
+      "technology",
+      "deepfakes",
+      "research"
+    ]
+  }
+]

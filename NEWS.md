@@ -1,82 +1,80 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-08-31 (Europe/Warsaw) · 覆盖 2026-08-28 — 2026-08-31
-> 数据源：13 个站点 · 本期 15 条 · [JSON](news/data/2026-08-31.json)
+> 自动生成于 2026-09-01 (Europe/Warsaw) · 覆盖 2026-08-29 — 2026-09-01
+> 数据源：13 个站点 · 本期 13 条 · [JSON](news/data/2026-09-01.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**波兰调查无人机工厂火灾是否涉及外国情报机构**
+波兰当局正在调查斯卡日斯科-卡米恩纳无人机工厂发生的火灾事件，怀疑可能涉及外国情报部门。
+*Notes From Poland · 2026-08-31 · [原文 →](https://notesfrompoland.com/2026/08/31/poland-investigates-potential-foreign-intelligence-involvement-in-fire-at-drone-plant/)*
+
+**波兰二战遇难者在乌克兰重新安葬**
+波兰与乌克兰两国官员共同参加二战大屠杀遇难者重新安葬仪式，纪念历史伤痛。
+*Notes From Poland · 2026-08-31 · [原文 →](https://notesfrompoland.com/2026/08/31/polish-wwii-massacre-victims-reburied-in-ukraine-at-ceremony-attended-by-officials-from-both-countries/)*
+
+**波兰在新学年禁用中小学生智能手机**
+波兰政府出台全国政策，在新学年禁止学生在小学携带和使用智能手机。
+*Polskie Radio · 2026-08-31 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3726016)*
 
 ---
 
 ## ◇ Cool Finds
 
-**瓦伊达大师百年诞辰回顾展映**
-Kinoteka放映修复版波兰大师安德烈·瓦伊达经典佳作，纪念其百年诞辰。
-*Kinoteka · 2026-08-31 · [原文 →](https://kinoteka.pl/film/kronika-wypadkow-milosnych-wajda-re-wizje-przeglad-filmow-andrzeja-wajdy-w-100-rocznice-urodzin/)*
+**《成长》展览 · 9月1日 起**
+探讨当代艺术如何描绘从童年到成年的过渡时期。展期至 9 月 20 日。
+*Zachęta · [原文 →](https://zacheta.art.pl/pl/wystawy/dojrzewanie)*
 
-**《攻壳机动队》艺术放映**
-Kinoteka放映动画杰作《攻壳机动队》，探讨人工智能时代的意识与认同问题。
-*Kinoteka · 2026-08-31 · [原文 →](https://kinoteka.pl/film/ghost-in-the-shell/)*
+**《根上之家》艺术项目 · 9月1日 起**
+扎切塔美术馆项目空间呈现的装置展览，展期至 10 月 11 日。
+*Zachęta · [原文 →](https://zacheta.art.pl/pl/wystawy/dom-na-korzeniach)*
+
+**《既非水亦非陆地》装置艺术展 · 9月1日 起**
+当代艺术中心呈现的创新装置艺术展览，展期至 9 月 27 日。
+*CSW Zamek Ujazdowski · [原文 →](https://www.u-jazdowski.pl/program/wystawy/nie-woda-nie-ziemia)*
 
 ---
 
 ## ▸ New Spots
 
-**Nostra：焦点街新意大利餐厅**（Foksal）
-焦点街新开意大利餐厅，提供金枪鱼他他、牛肉汁浓汤、松露面食等菜肴。
-*Warsaw Foodie · 2026-08-30 · [原文 →](https://warsawfoodie.pl/2026/08/nostra-nowa-wloska-restauracja-przy-foksal/)*
-
-**Salon Flaner：战前华沙风味食堂**（Hotel Flaner）
-Flaner酒店新餐厅，主打战前华沙传统波兰菜，菜单包括华沙牛肚汤、龙虾浓汤和蒸麦粥。
-*Warsaw Foodie · 2026-08-29 · [原文 →](https://warsawfoodie.pl/2026/08/salon-flaner-nowa-restauracja-z-tradycyjna-kuchnia-polska-inspirowana-przedwojenna-warszawa/)*
+*（本期无）*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**华沙地下抵抗历史导览** · 9月1日
-由导游带领，探寻二战时期华沙地下抵抗运动的遗迹，接受自愿捐款。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-157889-akcja-pod-arsenalem-i-inne-akcje-polskiego-podziemia-spacer-z-przewodnikiem)*
+**《时代的人》电影放映** · 9月1日
+电影文化宫艺术影院特别放映，展现艺术电影的创新视角。 · Kinoteka (文化科学宫)
+*Kinoteka · [原文 →](https://kinoteka.pl/film/czlowiek-epoki/)*
 
-**第23届贝莫沃街头美食节** · 9月4日
-贝莫沃区街头美食节与返校活动合二为一，汇集各地街头美食小贩。 · Bemowo
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-157056-xxiii-bemowski-festiwal-streetfoodu-x-back-to-school)*
+**户外电影节——放映《8 英里》** · 9月3日
+阿尔特艺术中心主办的户外影院活动，免费放映美国经典电影。 · Ale Sztuka (Śródmieście)
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-157921-kino-plenerowe-8-mila)*
 
-**贝莫沃返校家庭健康野餐音乐会** · 9月5日
-贝莫沃区家庭健康野餐活动，邀请歌手Ani Dąbrowska献唱，设有教学工坊。 · Bemowo
-*waw4free · [原文 →](https://waw4free.pl/wydarzenia-157591-back-to-school-na-bemowie-rodzinny-piknik-prozdrowotny-koncert-ani-dabrowskiej)*
+**回到校园·贝莫沃免费家庭日** · 9月5日
+贝莫沃区举办的免费家庭活动，包括健康讲座与安妮·达布罗夫斯卡音乐会。 · Bemowo
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-157591-back-to-school-na-bemowie)*
 
-**比亚瓦尼夏日告别音乐季** · 9月5日
-比亚瓦尼区夏日告别庆典，汇集音乐演出与创意工坊。 · Bielany
-*waw4free · [原文 →](https://waw4free.pl/gebeurtenienie-157749-zegnaj-lato-na-bielanach-2026)*
+**芭蕾舞晚会** · 9月12日
+波兰国家芭蕾舞团及客座艺术家联合演出，展示经典芭蕾艺术。 · Teatr Wielki (大剧院)
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/gala-baletowa/)*
 
-**第22届肖邦与欧洲音乐节·室内音乐会** · 8月31日
-国家爱乐推出肖邦音乐节，小提琴家Anna Geniushene与钢琴家Lukas Geniušas献艺。 · Sala Koncertowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/22-festiwal-chopin-i-jego-europa-320263742)*
-
-**第22届肖邦与欧洲音乐节·交响音乐会** · 9月1日
-荷兰皇家音乐厅管弦乐团与指挥Santtu-Matias Rouvali及钢琴家Vikingur Olafsson献演。 · Sala Koncertowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/22-festiwal-chopin-i-jego-europa-774822926)*
+**《机器人舞蹈》芭蕾演出** · 9月17日
+波兰国家芭蕾舞团上演现代芭蕾作品，由普热梅斯瓦夫·齐克和罗伯特·博恩达拉编舞。 · Teatr Wielki
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/androidy/)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰国际形象无需官方推销** — 官方推广成效平平，却因国家在国际事务中的成功获得空前媒体关注。 (Notes From Poland, 8/29)
+- **波兰特种部队进行战术训练与无人机部署演练** — 波兰特种部队进行穿透敌防线和无人机部署训练，测试战术能力。 (Polskie Radio, 8/31)
 
-- **波兰核武共享政策引发府院分歧** — 政府与总统府就北约核武共享计划产生争议，双方对波兰是否应参与核武部署立场不同。 (Notes From Poland, 8/28)
-
-- **波兰财长争取二十国集团常任席位** — 波兰财政部长在北卡州金融会议上推进波兰争取G20常任成员资格。 (Polskie Radio, 8/31)
-
-- **波兰隆重安葬沃尔尼亚大屠杀遇难者** — 二战时期沃尔尼亚大屠杀的55名遇难者举行隆重安葬仪式。 (Polskie Radio, 8/30)
-
-- **波兰领导人警告俄罗斯可能挑衅北约** — 波兰领导层向北约盟友通报俄罗斯可能采取挑衅行动的风险。 (Polskie Radio, 8/29)
+- **我们所需的解决方案——NASK 科技转移日论坛** — 国家网络安全研究院召开技术转移日活动，讨论深度伪造、网络攻击等当代威胁的防护方案。 (NASK, 8/31)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Ustamagazyn · ✅ Polskie Radio · ✅ waw4free · ✅ MNW · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠️ IDEAS NCBR
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Ustamagazyn · ✅ Polskie Radio · ✅ waw4free.pl · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki – Opera Narodowa · ✅ Kinoteka · ✅ NASK · ⚠️ IDEAS NCBR
