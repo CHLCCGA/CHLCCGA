@@ -1,86 +1,72 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-09-05 (Europe/Warsaw) · 覆盖 2026-09-02 — 2026-09-05
-> 数据源：13 个站点 · 本期 16 条 · [JSON](news/data/2026-09-05.json)
+> 自动生成于 2026-09-07 (Europe/Warsaw) · 覆盖 2026-09-04 — 2026-09-07
+> 数据源：13 个站点 · 本期 12 条 · [JSON](news/data/2026-09-07.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰最老电列车恢复运行**
-63年历史的奶奶号电列车经过翻新后，于9月重返华沙近郊塔乌茨克-莫斯特乌夫卡线路周末服务。列车配备了现代化监控系统和新型卫生设施。
-*Notes From Poland · 2026-09-04 · [原文 →](https://notesfrompoland.com/2026/09/04/polands-oldest-operating-electric-train-63-year-old-granny-returns-to-the-tracks-after-a-refurb/)*
-
-**总理助手当选宪法法院法官**
-议会选举了前政府部长马切伊·贝雷克担任宪法法院法官，虽遭联盟反对。总统纳瓦罗茨基可能拒绝其宣誓。
-*Notes From Poland · 2026-09-04 · [原文 →](https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/)*
-
-**议会任命宪法法院新法官**
-经过激烈讨论后，波兰议会任命了新的宪法法院法官。
-*Polskie Radio · 2026-09-04 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3727626)*
-
-**波兰允许地方禁止短租民宿**
-政府批准法案允许当地社区和业主协会禁止Airbnb等短期租赁。措施旨在缓解住房压力，计划2028年全面实施。
-*Notes From Poland · 2026-09-03 · [原文 →](https://notesfrompoland.com/2026/09/03/poland-moves-to-allow-local-communities-to-ban-short-term-rentals/)*
-
-**NASK免费推出编程和机器人工坊**
-国家网络安全研究院NASK通过数字可能性俱乐部为全国儿童提供免费编程、机器人和人工智能教育工坊。
-*NASK · 2026-09-03 · [原文 →](https://www.nask.pl/aktualnosci/programowanie-i-robotyka-dla-kazdego-darmowe-warsztaty-z-nask)*
+*（本期无）*
 
 ---
 
 ## ◇ Cool Finds
 
-**爱、死亡与在米亚斯玛营成长**
-戛纳电影节参展作品，视觉绝佳的电影化作品，探讨对电影的热爱如何改变人生。
-*Kinoteka · [原文 →](https://kinoteka.pl/film/milosc-smierc-i-dojrzewanie-w-camp-miasma/)*
+**白俄艺术家 Jura Shust 首次波兰个展** · 7月17日 起
+白俄艺术家在 Zacheta 国家画廊举办首次波兰个展。展览至 9 月 27 日。
+*Zacheta · [原文 →](https://zacheta.art.pl/pl/wystawy/jura-shust-zywica-splot-sloneczny)*
 
-**泰国文化日在真淳食市集**
-9月6日主题活动，展示从街头小食到家常菜的正宗泰国美食，汇聚获泰国精选认证的餐厅。
-*Warsaw Foodie · [原文 →](https://warsawfoodie.pl/2026/09/dzien-kultury-tajlandii-na-targu-sniadaniowym-6-wrzesnia/)*
+**当代艺术中心展览即将谢幕** · 4月25日 起
+CSW Zamek Ujazdowski 的大型展览将于 9 月 27 日闭幕。
+*CSW Zamek Ujazdowski · [原文 →](https://www.u-jazdowski.pl/program/wystawy/nie-woda-nie-ziemia)*
 
 ---
 
 ## ▸ New Spots
 
-**Harvest波兰季节料理新餐厅（Powiśle）**
-电力城堡新开波兰餐厅，主打季节菜单，包括牛肉塔塔尔、油腌鲱鱼、家禽肝脏、鹅肉馄饨等传统菜肴。
-*Warsaw Foodie · [原文 →](https://warsawfoodie.pl/2026/09/harvest-nowa-restauracja-z-kuchnia-polska-w-elektrowni-powisle/)*
+**Harvest：传统波兰菜新餐厅**（Elektrownia Powisle）
+新开业于 Elektrownia Powisle 的餐厅以季节性波兰传统菜肴为主。
+*Warsaw Foodie · 2026-09-04 · [原文 →](https://warsawfoodie.pl/2026/09/harvest/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**格罗霍夫导览散步** · 09月06日
-南城区导览散步活动，采纳自愿捐款制。 · Praga-Południe
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-158197)*
+**维瓦尔第与我** · 9月7日
+传记剧情片讲述天才小提琴手与作曲家维瓦尔第相遇的故事。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/vivaldi-i-ja/)*
 
-**皇家浴场肖邦钢琴音乐会** · 09月06日
-皇家浴场公园古典钢琴音乐会。 · Łazienki Królewskie
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-152770)*
+**陌生人** · 9月7日
+特别放映场次，犯罪题材剧情片。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/obcy/)*
 
-**维兰欧音乐节2026** · 09月11日
-维兰欧地区音乐节，由Bajm、Zalia、Roxie、Kuba等乐队献演。 · Wilanów
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-157640)*
+**维兰欧夫节音乐会** · 9月11日
+维兰欧夫区庆典音乐会，邀请 Bajm、Zalia 等乐队表演。 · Wilanov
+*waw4free.pl · [原文 →](https://waw4free.pl/events/dni-wilanowa/)*
 
-**安卓人芭蕾** · 09月17日
-两幕芭蕾舞剧，编舞Zych与Bondara合作编排。 · Teatr Wielki – Opera Narodowa
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/androidy/termin/2026-09-17_19-00/)*
+**告别夏日节** · 9月12日
+普拉哈-南区夏日告别活动，包括儿童项目、派对和音乐会。 · Praga-Poludnie
+*waw4free.pl · [原文 →](https://waw4free.pl/events/pozegnanie-lata/)*
 
-**第69届华沙秋天音乐节开幕式** · 09月18日
-国家爱乐乐团开幕演出，由NOSPR乐团受邀出演。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/69-warszawska-jesien-inauguracja)*
+**大剧院芭蕾舞晚会** · 9月12日
+大剧院新演季开幕芭蕾舞晚会，9 月 12-13 日上演。 · Teatr Wielki
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/gala-baletowa/)*
+
+**华沙之秋音乐节开幕** · 9月18日
+国家爱乐乐团举办第 69 届当代音乐节开幕音乐会。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/69-warszawska-jesien/)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰亮相2027年清州工艺双年展** — 波兰将担任2027年第15届清州国际工艺双年展的荣誉嘉宾，这是世界顶级当代工艺展。 (Polskie Radio, 09/05)
-- **波兰失业率欧盟第二低** — 波兰7月失业率3.4%，为欧盟成员国第二低。 (Polskie Radio, 09/04)
-- **波兰驻俄大使表示声援德国** — 波兰传唤俄大使，谴责俄罗斯在德国基础设施上的恐怖活动。 (Notes From Poland, 09/03)
+- **波兰开始用废水冷却电厂应对干旱** — 该举措旨在降低淡水使用量，提高电力系统抵抗力。 (Notes From Poland, 9/4)
+- **波兰平权官员建议同性伴侣共同税务申报** — 波兰平等权益官员提出新建议，允许同性伴侣共同申报。 (Polskie Radio, 9/6)
+- **波兰钢铁生产商赴布鲁塞尔参加欧洲抗议** — 波兰钢铁生产行业将参加布鲁塞尔的抗议活动。 (Polskie Radio, 9/6)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Polskie Radio · ✅ Waw4Free · ✅ National Museum · ⚠ Zachęta · ⚠ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazine · ✅ Polskie Radio · ✅ waw4free.pl · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR (no events)
