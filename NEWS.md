@@ -1,72 +1,103 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-09-07 (Europe/Warsaw) · 覆盖 2026-09-04 — 2026-09-07
-> 数据源：13 个站点 · 本期 12 条 · [JSON](news/data/2026-09-07.json)
+> 自动生成于 2026-09-09 (Europe/Warsaw) · 覆盖 2026-09-06 — 2026-09-09
+> 数据源：13 个站点 · 本期 15 条 · [JSON](news/data/2026-09-09.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**机器人在华沙科技部前示威，呼吁加强AI监管**
+
+约30台机器人在波兰数字事务部前举行示威，呼吁加强对AI和自动化的监管。组织者表示需要更广泛的公众讨论新技术对劳动力市场的影响。
+
+*Notes From Poland · 2026-09-08 · [原文 →](https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/)*
 
 ---
 
 ## ◇ Cool Finds
 
-**白俄艺术家 Jura Shust 首次波兰个展** · 7月17日 起
-白俄艺术家在 Zacheta 国家画廊举办首次波兰个展。展览至 9 月 27 日。
-*Zacheta · [原文 →](https://zacheta.art.pl/pl/wystawy/jura-shust-zywica-splot-sloneczny)*
-
-**当代艺术中心展览即将谢幕** · 4月25日 起
-CSW Zamek Ujazdowski 的大型展览将于 9 月 27 日闭幕。
-*CSW Zamek Ujazdowski · [原文 →](https://www.u-jazdowski.pl/program/wystawy/nie-woda-nie-ziemia)*
+*（本期无）*
 
 ---
 
 ## ▸ New Spots
 
-**Harvest：传统波兰菜新餐厅**（Elektrownia Powisle）
-新开业于 Elektrownia Powisle 的餐厅以季节性波兰传统菜肴为主。
-*Warsaw Foodie · 2026-09-04 · [原文 →](https://warsawfoodie.pl/2026/09/harvest/)*
+**Masuda Chaho——百年日式茶馆在华沙开业**
+
+拥有百年历史的日本茶馆品牌Masuda Chaho在华沙开设新餐厅，提供宇治抹茶和日本料理。
+
+*Warsaw Foodie · 2026-09-08 · [原文 →](https://warsawfoodie.pl/2026/09/masuda-chaho-nowa-japonska-herbaciarnia-i-restauracja/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**维瓦尔第与我** · 9月7日
-传记剧情片讲述天才小提琴手与作曲家维瓦尔第相遇的故事。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/vivaldi-i-ja/)*
+**《洛基恐怖秀》纪念放映** · 0909日
 
-**陌生人** · 9月7日
-特别放映场次，犯罪题材剧情片。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/obcy/)*
+Kinoteka将放映经典邪教电影《洛基恐怖秀》特别纪念版，向传奇演员Tim Curry致敬。 · Kinoteka
 
-**维兰欧夫节音乐会** · 9月11日
-维兰欧夫区庆典音乐会，邀请 Bajm、Zalia 等乐队表演。 · Wilanov
-*waw4free.pl · [原文 →](https://waw4free.pl/events/dni-wilanowa/)*
+*Kinoteka · [原文 →](https://kinoteka.pl/film/rocky-horror-picture-show-pokaz-ku-pamieci-tima-curryego-kultowe-klasyki-od-splatfilmfest/)*
 
-**告别夏日节** · 9月12日
-普拉哈-南区夏日告别活动，包括儿童项目、派对和音乐会。 · Praga-Poludnie
-*waw4free.pl · [原文 →](https://waw4free.pl/events/pozegnanie-lata/)*
+**《终结者2：审判日》35周年纪念特别放映** · 0909日
 
-**大剧院芭蕾舞晚会** · 9月12日
-大剧院新演季开幕芭蕾舞晚会，9 月 12-13 日上演。 · Teatr Wielki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/gala-baletowa/)*
+Kinoteka放映《终结者2：审判日》35周年纪念特别版，采用修复画质。 · Kinoteka
 
-**华沙之秋音乐节开幕** · 9月18日
-国家爱乐乐团举办第 69 届当代音乐节开幕音乐会。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/69-warszawska-jesien/)*
+*Kinoteka · [原文 →](https://kinoteka.pl/film/terminator-2-dzien-sadu-35-rocznica/)*
+
+**展览开幕：60年代华沙及周边地区** · 0911日
+
+展览《那些年：60年代的华沙及周边》开幕，展示1960年代华沙的历史照片和资料。 · Śródmieście
+
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-158444-wernisaz-wystawy-pt-tamte-lata-warszawa-i-okolice-w-latach-60)*
+
+**多媒体喷泉公园《伟大的心灵》表演** · 0911日
+
+《伟大的心灵》多媒体表演将在多媒体喷泉公园上演，晚上20:30开始。 · Multimedialny Park Fontann, Śródmieście
+
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-150549-wielkie-serca-spektakle-w-multimedialnym-parku-fontann-2026)*
+
+**Praga-Południe夏日告别派对** · 0912日
+
+Praga-Południe区将举办告别夏日活动，下午14:00开始。 · Praga-Południe
+
+*waw4free.pl · [原文 →](https://waw4free.pl/evenimente-157295-pozegnanie-lata-na-pradze-poludnie)*
+
+**手工艺品交易会《拯救创意》** · 0912日
+
+《拯救创意》手工艺品交易会在Śródmieście举办，免费入场，包括工作坊和趣味活动。 · Śródmieście
+
+*waw4free.pl · [原文 →](https://waw4free.pl/Wydarzenia-157944-targi-rekodziela-ratujmy-tworczosc-darmowy-wstep-warsztaty-atrakcje)*
+
+**大芭蕾舞晚会** · 0912日
+
+大剧院呈现芭蕾舞晚会，邀请观众欣赏古典芭蕾精选作品。 · Teatr Wielki
+
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/gala-baletowa/termin/2026-09-12_19-00/)*
+
+**肖邦音乐节多场演出** · 0913日
+
+皇家温泉公园将举办肖邦钢琴音乐会，时间12:00，免费入场。 · Łazienki Królewskie, Śródmieście
+
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00)*
+
+**华沙秋季音乐节第69届开幕音乐会** · 0918日
+
+第69届华沙秋季音乐节开幕音乐会由指挥Marzena Diakun执棒，展示当代古典音乐作品。 · Filharmonia Narodowa
+
+*Filharmonia Narodowa · [原文 →](https://www.filharmonia.pl/repertuar/69-warszawska-jesien-inauguracja)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰开始用废水冷却电厂应对干旱** — 该举措旨在降低淡水使用量，提高电力系统抵抗力。 (Notes From Poland, 9/4)
-- **波兰平权官员建议同性伴侣共同税务申报** — 波兰平等权益官员提出新建议，允许同性伴侣共同申报。 (Polskie Radio, 9/6)
-- **波兰钢铁生产商赴布鲁塞尔参加欧洲抗议** — 波兰钢铁生产行业将参加布鲁塞尔的抗议活动。 (Polskie Radio, 9/6)
+- **波兰总统提议新的加密货币监管法案** — 卡罗尔·纳夫罗茨基总统提议对加密货币进行新的监管，涵盖风险控制和消费者保护。 (Polskie Radio, 09/08)
+- **波兰天然气储量领先欧盟，未来可能须与他国共享** — 波兰目前欧盟天然气库存最多，但未来在能源危机时可能需要与其他欧盟成员国共享储备。 (Polskie Radio, 09/08)
+- **波兰将获得欧盟7.9亿欧元复苏基金** — 波兰被批准获得欧盟复苏和韧性基金中的7.9亿欧元，用于经济恢复和结构改革。 (Polskie Radio, 09/07)
+- **开学季网络安全提醒：家长需与孩子谈论网络威胁** — 网络安全研究所NASK发布开学季网络安全建议，提醒家长和教育工作者在新学年伊始与孩子讨论网络威胁、欺凌和不当内容等问题。 (NASK, 09/08)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazine · ✅ Polskie Radio · ✅ waw4free.pl · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR (no events)
+✅ notes from poland · ✅ warsaw foodie · ✅ usta magazyn · ✅ polskie radio · ✅ waw4free · ❌ muzeum narodowe · ❌ zachęta · ❌ u-jazdowski · ✅ filharmonia · ✅ teatr wielki · ✅ kinoteka · ✅ nask · ⚠ ideas ncbr
