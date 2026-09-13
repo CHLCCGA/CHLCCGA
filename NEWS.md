@@ -1,74 +1,82 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-09-11 (Europe/Warsaw) · 覆盖 2026-09-08 — 2026-09-11
-> 数据源：13 个站点 · 本期 12 条 · [JSON](news/data/2026-09-11.json)
+> 自动生成于 2026-09-13 (Europe/Warsaw) · 覆盖 2026-09-10 — 2026-09-13
+> 数据源：13 个站点 · 本期 14 条 · [JSON](news/data/2026-09-13.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**图斯克：欧盟前景由华沙、布达佩斯等决定**
-波兰总理 Donald Tusk 表示，中欧国家将重塑欧盟未来。
-*Polskie Radio · 2026-09-10 · [原文 →](https://www.polskieradio.pl/395/7785/Artykul/3730019)*
-
-**维斯瓦河水位创历史新低**
-华沙维斯瓦河水位跌至历史最低。
-*Polskie Radio · 2026-09-10 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3729680)*
+**维斯瓦河水位创新低**
+华沙维斯瓦河水位跌至历史新低。
+*Polskie Radio · 2026-09-10 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3729680,warsaws-vistula-river-drops-to-lowest-level-on-record)*
 
 ---
 
 ## ◇ Cool Finds
 
-**Jura Shust《树脂·太阳神经丛》展览 · 7月17日 起**
-白俄罗斯艺术家 Jura Shust 在波兰首次个展，探索灵性与科技的融合。展期至 9 月 27 日。
-*Zachęta · [原文 →](https://zacheta.art.pl/pl/wystawy/jura-shust-zywica-splot-sloneczny)*
+**门采尔策展导览（国家博物馆）**
+国家博物馆举办关于19世纪画家门采尔的策展导览。
+*Muzeum Narodowe · 2026-09-13 · [原文 →](https://www.mnw.art.pl/wydarzenia/kalendarium/9357,20,1,wydarzenie.html)*
 
-**《它碰到我的额头，感到灼痛，可能发烧了》展览 · 6月20日 起**
-当代艺术中心城堡的展览，展期至 9 月 20 日。
-*CSW Zamek Ujazdowski · [原文 →](https://www.u-jazdowski.pl/program/wystawy/dotyka-czola-czuje-jak-pali-prawdopodobnie-ma-goraczke)*
+**《Yintah》电影放映及讨论**
+Kinoteka影院放映艺术电影《Yintah》，并组织观众讨论。
+*Kinoteka · 2026-09-13 · [原文 →](https://kinoteka.pl/film/yintah-dyskusja-festiwal-skrzyzowania-kultur/)*
+
+**《Audiencja》电影放映**
+Kinoteka影院放映艺术电影《Audiencja》。
+*Kinoteka · 2026-09-13 · [原文 →](https://kinoteka.pl/film/audiencja-kinoteka-kultury-i-sztuki/)*
+
+**《森林字典》展览（国家画廊）**
+国家画廊举办《森林字典》艺术展，探索自然与艺术的关系。
+*Zacheta · 2026-09-13 · [原文 →](https://zacheta.art.pl/pl/kalendarz/slownik-lasu)*
 
 ---
 
 ## ▸ New Spots
 
-**Charlotte Bouillon 餐厅开业（Złota）**
-Charlotte Bouillon 新餐厅在 Złota 街开业。
-*Warsaw Foodie · 2026-09-09 · [原文 →](https://warsawfoodie.pl/2026/09/charlotte-bouillon-nowy-lokal-otworzyl-sie-przy-zlotej/)*
+**第24届Bemowski街头美食节 · Bemowo区**
+Bemowo区举办第24届街头美食节，汇聚各种美食摊位和餐饮创意。
+*Waw4Free · 2026-09-18 · [原文 →](https://waw4free.pl/gospodarin-158447-xxiv-bemowski-festiwal-streetfoodu)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**《告诉我你的感受》特别放映** · 9月11日
-Kinoteka 艺术电影院特别放映会。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/powiedz-mi-co-czujesz/)*
+**芭蕾舞晚会** · 9月13日
+国家歌剧院芭蕾舞团献演芭蕾舞晚会。 · Teatr Wielki
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/gala-baletowa/termin/2026-09-13_18-00/)*
 
-**芭蕾舞盛典** · 9月12日
-波兰国家芭蕾团及客座舞蹈艺术家演出。9 月 12-13 日在大剧院呈献。 · Teatr Wielki (Sala Moniuszki)
-*Teatr Wielki - Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/gala-baletowa)*
+**露天电影（五姐妹公园）** · 9月15日
+五姐妹公园举办露天电影放映活动。 · Ochota区（五姐妹公园）
+*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr)*
 
-**Chopin 音乐会在皇家浴场公园** · 9月13日
-Łazienki 皇家公园 Chopin 音乐会，9 月 13 日。 · Łazienki Królewskie
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-152770-koncert-chopinowski-w-lazienkach-krolewskich-godz-12-00-i-16-00)*
+**《人造人》芭蕾舞剧** · 9月17日
+国家歌剧院上演当代芭蕾舞剧《人造人》，多场演出。 · 大剧院－国家歌剧院
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/androidy/termin/2026-09-17_19-00/)*
 
-**第 69 届《华沙秋日》音乐节开幕音乐会** · 9月18日
-波兰国家广播管弦乐团 Marzena Diakun 指挥，9 月 18 日在国家爱乐厅演出。 · Filharmonia Narodowa
+**华沙秋季音乐节开幕式** · 9月18日
+第69届华沙秋季国际音乐节开幕演出。 · 国家爱乐厅
 *Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/69-warszawska-jesien-inauguracja)*
 
-**第 69 届《华沙秋日》音乐节闭幕音乐会** · 9月26日
-国家爱乐乐团携指挥家 Julien Masmondet、钢琴家 Ellen Ugelvik，9 月 26 日呈献闭幕音乐会。 · Filharmonia Narodowa
+**《吉赛尔》芭蕾舞剧** · 9月24日
+国家歌剧院上演古典芭蕾舞剧《吉赛尔》。 · 大剧院－国家歌剧院
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/giselle/termin/2026-09-24_19-00/)*
+
+**华沙秋季音乐节闭幕音乐会** · 9月26日
+第69届华沙秋季国际音乐节闭幕音乐会。 · 国家爱乐厅
 *Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/69-warszawska-jesien-koncert-finalowy)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰火车司机罢工抗议** — 列车司机在铁路道口致命事故后宣布缓行抗议。 (Notes From Poland, 9/10)
+- **波兰2025年发放欧盟第三多移民居住证** — 波兰2025年发放的居住证数量为欧盟第三最多，但连续第四年下降。 (Notes From Poland, 9/12)
 
-- **NASK 论数字安全未来** — 波兰网络安全研究院在第 35 届经济论坛讨论数字化时代的防护。 (NASK, 9/10)
+- **波兰公开“熊”型战车和星链竞争产品** — 波兰政府公布了 Bear 战斗车辆和卫星通讯竞争产品的开发进展。 (Polskie Radio, 9/11)
 
 ---
 
 ### Sources this run
 
-✅ notesfrompoland.com/feed/ · ✅ warsawfoodie.pl/feed/ · ✅ ustamagazyn.pl/feed/ · ✅ polskieradio.pl/395 · ✅ waw4free.pl · ✅ mnw.art.pl · ✅ zacheta.art.pl · ✅ u-jazdowski.pl · ✅ filharmonia.pl · ✅ teatrwielki.pl · ✅ kinoteka.pl · ✅ nask.pl · ⚠ ideas-ncbr.pl
+✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ✅ Polskie Radio · ✅ Waw4Free · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR

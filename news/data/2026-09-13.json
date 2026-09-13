@@ -1,0 +1,235 @@
+[
+  {
+    "id": "0e2b9894ee",
+    "category": "warsaw_now",
+    "title_zh": "维斯瓦河水位创新低",
+    "title_original": "Warsaw's Vistula River drops to lowest level on record",
+    "summary_zh": "华沙维斯瓦河水位跌至历史新低。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3729680,warsaws-vistula-river-drops-to-lowest-level-on-record",
+    "published_date": "2026-09-10",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "环境",
+      "华沙",
+      "水资源"
+    ]
+  },
+  {
+    "id": "1d4951cb0d",
+    "category": "poland_brief",
+    "title_zh": "波兰2025年发放欧盟第三多移民居住证",
+    "title_original": "Poland issued EU's third most residence permits to immigrants in 2025",
+    "summary_zh": "波兰2025年发放的居住证数量为欧盟第三最多，但连续第四年下降。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/12/poland-issued-eus-third-most-residence-permits-to-immigrants-in-2025/",
+    "published_date": "2026-09-12",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "移民政策",
+      "波兰"
+    ]
+  },
+  {
+    "id": "2b9e13a35d",
+    "category": "poland_brief",
+    "title_zh": "波兰公开“熊”型战车和星链竞争产品",
+    "title_original": "Poland's Tusk unveils 'Bear' combat vehicle, Starlink rival",
+    "summary_zh": "波兰政府公布了 Bear 战斗车辆和卫星通讯竞争产品的开发进展。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3730327,polands-tusk-unveils-bear-combat-vehicle-starlink-rival",
+    "published_date": "2026-09-11",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "国防技术",
+      "波兰"
+    ]
+  },
+  {
+    "id": "aad9d529b4",
+    "category": "upcoming_events",
+    "title_zh": "芭蕾舞晚会",
+    "title_original": "Gala baletowa",
+    "summary_zh": "国家歌剧院芭蕾舞团献演芭蕾舞晚会。",
+    "source_name": "Teatr Wielki",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/gala-baletowa/termin/2026-09-13_18-00/",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-13",
+    "venue": "Teatr Wielki",
+    "tags": [
+      "舞蹈",
+      "表演"
+    ]
+  },
+  {
+    "id": "1a0a7453bd",
+    "category": "upcoming_events",
+    "title_zh": "露天电影（五姐妹公园）",
+    "title_original": "KINO PLENEROWE w Parku Pięciu Sióstr",
+    "summary_zh": "五姐妹公园举办露天电影放映活动。",
+    "source_name": "Waw4Free",
+    "source_url": "https://waw4free.pl/wydarzenie-150719-kino-plenerowe-w-parku-pieciu-siostr",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-15",
+    "venue": "Ochota区（五姐妹公园）",
+    "tags": [
+      "电影",
+      "露天活动",
+      "免费"
+    ]
+  },
+  {
+    "id": "d91bbaf113",
+    "category": "cool_finds",
+    "title_zh": "门采尔策展导览（国家博物馆）",
+    "title_original": "OPROWADZANIE KURATORSKIE / Adolph Menzel (1815–1905). Niestrudzony obserwator",
+    "summary_zh": "国家博物馆举办关于19世纪画家门采尔的策展导览。",
+    "source_name": "Muzeum Narodowe",
+    "source_url": "https://www.mnw.art.pl/wydarzenia/kalendarium/9357,20,1,wydarzenie.html",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-13",
+    "venue": "国家博物馆",
+    "tags": [
+      "艺术",
+      "展览导览",
+      "绘画"
+    ]
+  },
+  {
+    "id": "6128047c9b",
+    "category": "upcoming_events",
+    "title_zh": "华沙秋季音乐节开幕式",
+    "title_original": "69. Warszawska Jesien - inauguracja festiwalu",
+    "summary_zh": "第69届华沙秋季国际音乐节开幕演出。",
+    "source_name": "Filharmonia Narodowa",
+    "source_url": "https://filharmonia.pl/repertuar/69-warszawska-jesien-inauguracja",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-18",
+    "venue": "国家爱乐厅",
+    "tags": [
+      "音乐节",
+      "古典音乐",
+      "华沙秋季"
+    ]
+  },
+  {
+    "id": "1bc98faa13",
+    "category": "upcoming_events",
+    "title_zh": "《人造人》芭蕾舞剧",
+    "title_original": "Androidy",
+    "summary_zh": "国家歌剧院上演当代芭蕾舞剧《人造人》，多场演出。",
+    "source_name": "Teatr Wielki",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/androidy/termin/2026-09-17_19-00/",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-17",
+    "venue": "大剧院－国家歌剧院",
+    "tags": [
+      "舞蹈",
+      "芭蕾",
+      "当代"
+    ]
+  },
+  {
+    "id": "77912f8d6a",
+    "category": "cool_finds",
+    "title_zh": "《Yintah》电影放映及讨论",
+    "title_original": "Yintah + dyskusja | Festiwal Skrzyzowania Kultur",
+    "summary_zh": "Kinoteka影院放映艺术电影《Yintah》，并组织观众讨论。",
+    "source_name": "Kinoteka",
+    "source_url": "https://kinoteka.pl/film/yintah-dyskusja-festiwal-skrzyzowania-kultur/",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-13",
+    "venue": "Kinoteka",
+    "tags": [
+      "电影",
+      "艺术片",
+      "讨论"
+    ]
+  },
+  {
+    "id": "e2f33b1b4a",
+    "category": "cool_finds",
+    "title_zh": "《Audiencja》电影放映",
+    "title_original": "Audiencja | Kinoteka Kultury i Sztuki",
+    "summary_zh": "Kinoteka影院放映艺术电影《Audiencja》。",
+    "source_name": "Kinoteka",
+    "source_url": "https://kinoteka.pl/film/audiencja-kinoteka-kultury-i-sztuki/",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-13",
+    "venue": "Kinoteka",
+    "tags": [
+      "电影",
+      "艺术片"
+    ]
+  },
+  {
+    "id": "a2e29b553b",
+    "category": "new_spots",
+    "title_zh": "第24届Bemowski街头美食节",
+    "title_original": "XXIV Bemowski Festiwal Streetfoodu",
+    "summary_zh": "Bemowo区举办第24届街头美食节，汇聚各种美食摊位和餐饮创意。",
+    "source_name": "Waw4Free",
+    "source_url": "https://waw4free.pl/gospodarin-158447-xxiv-bemowski-festiwal-streetfoodu",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-18",
+    "venue": "Bemowo区",
+    "tags": [
+      "美食",
+      "街头美食",
+      "节日"
+    ]
+  },
+  {
+    "id": "0a2b165a07",
+    "category": "upcoming_events",
+    "title_zh": "《吉赛尔》芭蕾舞剧",
+    "title_original": "Giselle",
+    "summary_zh": "国家歌剧院上演古典芭蕾舞剧《吉赛尔》。",
+    "source_name": "Teatr Wielki",
+    "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/giselle/termin/2026-09-24_19-00/",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-24",
+    "venue": "大剧院－国家歌剧院",
+    "tags": [
+      "舞蹈",
+      "芭蕾",
+      "古典"
+    ]
+  },
+  {
+    "id": "3f71b270c9",
+    "category": "cool_finds",
+    "title_zh": "《森林字典》展览（国家画廊）",
+    "title_original": "Slownik lasu",
+    "summary_zh": "国家画廊举办《森林字典》艺术展，探索自然与艺术的关系。",
+    "source_name": "Zacheta",
+    "source_url": "https://zacheta.art.pl/pl/kalendarz/slownik-lasu",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-13",
+    "venue": "Zacheta国家画廊",
+    "tags": [
+      "艺术展览",
+      "自然",
+      "艺术"
+    ]
+  },
+  {
+    "id": "3c3c215a7d",
+    "category": "upcoming_events",
+    "title_zh": "华沙秋季音乐节闭幕音乐会",
+    "title_original": "69. Warszawska Jesien - Koncert finalowy",
+    "summary_zh": "第69届华沙秋季国际音乐节闭幕音乐会。",
+    "source_name": "Filharmonia Narodowa",
+    "source_url": "https://filharmonia.pl/repertuar/69-warszawska-jesien-koncert-finalowy",
+    "published_date": "2026-09-13",
+    "event_date": "2026-09-26",
+    "venue": "国家爱乐厅",
+    "tags": [
+      "音乐节",
+      "古典音乐"
+    ]
+  }
+]
