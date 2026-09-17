@@ -1,0 +1,121 @@
+[
+  {
+    "id": "51e1d881d4",
+    "category": "warsaw_now",
+    "title_zh": "欧洲各国第一夫人将齐聚波兰",
+    "title_original": "European first ladies, Melania Trump to meet in Poland this autumn",
+    "summary_zh": "波兰第一夫人计划在秋季举办欧洲各国第一夫人的集会，并邀请美国第一夫人梅拉尼娅·特朗普出席。",
+    "source_name": "Polish Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3730467",
+    "published_date": "2026-09-17",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "diplomacy",
+      "politics"
+    ]
+  },
+  {
+    "id": "551ed4a0e7",
+    "category": "poland_brief",
+    "title_zh": "中国首次超越德国成为波兰最大进口来源国",
+    "title_original": "China overtakes Germany as Poland's biggest source of imports for first time",
+    "summary_zh": "中国如今成为波兰最大的进口来源国，首次取代德国。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/16/china-overtakes-germany-as-polands-biggest-source-of-imports-for-first-time/",
+    "published_date": "2026-09-16",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "trade",
+      "economy",
+      "china"
+    ]
+  },
+  {
+    "id": "18cd56fa0f",
+    "category": "poland_brief",
+    "title_zh": "波兰总理批评前政府与委内瑞拉的失败石油交易",
+    "title_original": "Polish PM condemns \"disgrace\" of failed Venezuela oil deal under former government",
+    "summary_zh": "波兰总理谴责前任政府与委内瑞拉进行的失败石油交易。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/15/polish-pm-condemns-disgrace-of-failed-venezuela-oil-deal-under-former-government-following-ft-report/",
+    "published_date": "2026-09-15",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "politics",
+      "energy",
+      "government"
+    ]
+  },
+  {
+    "id": "e87cba777d",
+    "category": "poland_brief",
+    "title_zh": "波兰纪念苏联二战入侵 87 周年",
+    "title_original": "Poland marks 87 years since WWII Soviet invasion",
+    "summary_zh": "波兰各地举办纪念活动，悼念二战期间苏联入侵波兰。",
+    "source_name": "Polish Radio",
+    "source_url": "https://www.polskieradio.pl/395/7789/Artykul/3728723",
+    "published_date": "2026-09-17",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "history",
+      "wwii",
+      "commemoration"
+    ]
+  },
+  {
+    "id": "baaaad8771",
+    "category": "poland_brief",
+    "title_zh": "NASK 举办儿童网络安全会议，纪念\"更安全互联网日\"20 周年",
+    "title_original": "Conference on Internet Safety for Children, 20 Years of Safer Internet",
+    "summary_zh": "国家网络安全研究院举办会议纪念\"更安全互联网日\"20 周年讨论儿童网络安全。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci/czy-dorosli-nadazaja-za-swiatem-dzieci-dwadziescia-lat-safer-internet",
+    "published_date": "2026-09-16",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "cybersecurity",
+      "children",
+      "internet-safety"
+    ]
+  },
+  {
+    "id": "fb734e2152",
+    "category": "upcoming_events",
+    "title_zh": "复古汽车展",
+    "title_original": "Retro(gara)żówka - Retro Car Show",
+    "summary_zh": "华沙中心区举办复古汽车展，展示经典老爷车。",
+    "source_name": "waw4free.pl",
+    "source_url": "https://waw4free.pl/wydarzenie-158727-retro-gara-zowka",
+    "published_date": "2026-09-17",
+    "event_date": "2026-09-19",
+    "venue": "Śródmieście, Warsaw",
+    "tags": [
+      "cars",
+      "retro",
+      "automotive",
+      "free"
+    ]
+  },
+  {
+    "id": "b1d93ea3dd",
+    "category": "upcoming_events",
+    "title_zh": "国家博物馆夜间特别开放",
+    "title_original": "National Museum After Hours Evening",
+    "summary_zh": "国家博物馆将在常规开放时间外举办特别夜间参观项目。",
+    "source_name": "Muzeum Narodowe",
+    "source_url": "https://www.mnw.art.pl/wydarzenia/kalendarium/",
+    "published_date": "2026-09-17",
+    "event_date": "2026-09-25",
+    "venue": "Muzeum Narodowe, Warsaw",
+    "tags": [
+      "museum",
+      "art",
+      "evening-event"
+    ]
+  }
+]
