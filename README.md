@@ -24,18 +24,16 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 
 <!--news:start-->
+*updated 2026-09-21*
 
-*updated 2026-09-19*
-
-▸ 华沙启动电动滑板车停放管制巡逻
-▸ 《非水非土》展览
-▸ 尤拉·舒斯特《树脂·太阳丛》展
-▸ 第 15 届航空研究所之夜·欧洲科学之夜
-▸ 波兰加入欧洲反导防御联盟
-▸ 圣塞巴斯蒂安美食大会 2026
+▸ "网络游骑兵"在波兰国家公园追捕违规者
+▸ 美国诺贝尔奖得主获得波兰公民身份
+▸ 宫廷号角与其他魔力
+▸ POL-ENG 超级问答竞赛第8场
+▸ 《无人或全体》展览
+▸ Supper Bar 葡萄酒吧（Żoliborz）
 
 ⤷ [Full digest →](NEWS.md)
-
 <!--news:end-->
 
 ⤷ [Full digest →](NEWS.md)
