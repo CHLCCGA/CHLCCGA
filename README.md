@@ -24,16 +24,18 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 
 <!--news:start-->
-*updated 2026-09-21*
 
-▸ "网络游骑兵"在波兰国家公园追捕违规者
-▸ 美国诺贝尔奖得主获得波兰公民身份
-▸ 宫廷号角与其他魔力
-▸ POL-ENG 超级问答竞赛第8场
-▸ 《无人或全体》展览
-▸ Supper Bar 葡萄酒吧（Żoliborz）
+*updated 2026-09-23*
+
+▸ 波兰逮捕计划恐怖袭击的新纳粹青年
+▸ 白俄人权活动家获扬·卡尔斯基奖章
+▸ Barbara Kasten 摄影展《后抽象》
+▸ Schabowy 在 Saska Kepa 开设新分店
+▸ 华沙秋天音乐节闭幕音乐会
+▸ 英文酒吧问答竞赛第 8 期
 
 ⤷ [Full digest →](NEWS.md)
+
 <!--news:end-->
 
 ⤷ [Full digest →](NEWS.md)
