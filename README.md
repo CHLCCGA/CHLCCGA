@@ -25,20 +25,18 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-09-23*
+*updated 2026-09-25*
 
-▸ 波兰逮捕计划恐怖袭击的新纳粹青年
-▸ 白俄人权活动家获扬·卡尔斯基奖章
-▸ Barbara Kasten 摄影展《后抽象》
-▸ Schabowy 在 Saska Kepa 开设新分店
-▸ 华沙秋天音乐节闭幕音乐会
-▸ 英文酒吧问答竞赛第 8 期
+▸ 波兰星链地面站遭纵火
+▸ 波兰与白罗斯谋求关系缓和
+▸ 泽连斯基谴责波兰修道院刀伤事件
+▸ 波兰宪法法院官员被控妨碍法院运作
+▸ Niby: 团结大街新开创意酒吧
+▸ 鱼：精神的罗盘创意餐厅
 
 ⤷ [Full digest →](NEWS.md)
 
 <!--news:end-->
-
-⤷ [Full digest →](NEWS.md)
 
 #### ──── elsewhere ────
 

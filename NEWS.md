@@ -1,53 +1,56 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-09-23 (Europe/Warsaw) · 覆盖 2026-09-20 — 2026-09-23
-> 数据源：13 个站点 · 本期 15 条 · [JSON](news/data/2026-09-23.json)
+> 自动生成于 2026-09-25 (Europe/Warsaw) · 覆盖 2026-09-22 — 2026-09-25
+> 数据源：13 个站点 · 本期 8 条 · [JSON](news/data/2026-09-25.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰逮捕计划恐怖袭击的新纳粹青年**
-波兰安全机构逮捕一名计划对清真寺和学校发起恐怖袭击的青年。
-*Notes From Poland · 2026-09-22 · [原文 →](https://notesfrompoland.com/2026/09/22/poland-detains-neo-nazi-youth-planning-terrorist-attack-on-mosque-and-school/)*
+**波兰星链地面站遭纵火**
+位于波兰的 Starlink 卫星互联网地面站遭遇火灾，警方初步怀疑是纵火。
+*Notes From Poland · 2026-09-24 · [原文 →](https://notesfrompoland.com/2026/09/24/starlink-ground-stati)*
 
-**白俄人权活动家获扬·卡尔斯基奖章**
-波兰-白俄罗斯人权活动家 Poczobut 因在独裁统治下坚持自由而获颁扬·卡尔斯基奖章。
-*Polskie Radio · 2026-09-22 · [原文 →](https://www.polskieradio.pl/395/7789/Artykul/3734095)*
-
-**波兰排球队闯入欧洲半决赛**
-波兰排球队以 3:0 战胜德国队，闯入欧洲男子排球锦标赛半决赛。
-*Polskie Radio · 2026-09-22 · [原文 →](https://www.polskieradio.pl/395/7790/Artykul/3734317)*
+**波兰与白罗斯谋求关系缓和**
+波兰和白罗斯外交部长举行会议，旨在改善两国关系。
+*Notes From Poland · 2026-09-23 · [原文 →](https://notesfrompoland.com/2026/09/23/poland-and-belarus-se)*
 
 ---
 
 ## ◇ Cool Finds
 
-**Barbara Kasten 摄影展《后抽象》 · 7月16日起**
-美国摄影艺术家 Barbara Kasten 在国家画廊 Zacheta 举办作品展，展期至 10 月 25 日。
-*Zacheta · 2026-09-23 · [原文 →](https://zacheta.art.pl/pl/wystawy/barbara-kasten-postabstrakcja-wystawa-w-narodowym-muzeum-szt)*
+**泽连斯基谴责波兰修道院刀伤事件**
+乌克兰总统泽连斯基公开谴责一起在波兰修道院发生的刀伤事件，该事件致一名神父死亡、多人受伤。
+*Notes From Poland · 2026-09-24 · [原文 →](https://notesfrompoland.com/2026/09/24/zelensky-condemns-kni)*
 
-**《根上的家》艺术展 · 8月1日起**
-国家画廊 Zacheta 推出当代艺术展《根上的家》，展期至 10 月 11 日。
-*Zacheta · 2026-09-23 · [原文 →](https://zacheta.art.pl/pl/wystawy/dom-na-korzeniach)*
+**波兰宪法法院官员被控妨碍法院运作**
+波兰宪法法院多名官员因涉嫌阻止法院正常运作而被起诉。
+*Notes From Poland · 2026-09-24 · [原文 →](https://notesfrompoland.com/2026/09/24/polish-constitutional)*
 
 ---
 
 ## ▸ New Spots
 
-**Schabowy 在 Saska Kepa 开设新分店（Saska Kepa）**
-传统波兰餐厅 Schabowy 在 Saska Kepa 区开设新地点，供应经典波兰菜肴。
-*Warsaw Foodie · 2026-09-21 · [原文 →](https://warsawfoodie.pl/2026/09/schabowy-w-nowej-lokalizacji-na-saskiej-kepie/)*
+**Niby: 团结大街新开创意酒吧**
+团结大街（Aleja Solidarnosci）新开一家融咖啡厅和餐厅于一体的场所，名叫 Niby。
+*Warsaw Foodie · 2026-09-24 · [原文 →](https://warsawfoodie.pl/2026/09/niby-niby-kawiarnia-niby-res)*
 
-**Supper Bar 酒吧在 Zoliborz 开业（Zoliborz）**
-Supper Bar 葡萄酒酒吧在 Zoliborz 区开业，主打葡萄酒和热狗。
-*Warsaw Foodie · 2026-09-20 · [原文 →](https://warsawfoodie.pl/2026/09/supper-bar-wine-bar-z-hot-dogami-na-zoliborzu/)*
+**鱼：精神的罗盘创意餐厅**
+专业美食杂志推荐的新餐厅，以海鲜和创意烹饪著称。
+*Usta Magazyn · 2026-09-24 · [原文 →](https://ustamagazyn.pl/2026/09/ryba-duchowy-kompas/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**欧洲科学之夜·航空研究所** · 9月25日
+*（本期无）*
+
+---
+
+## · Poland Brief
+
+- **波兰总统办公室高级官员被逮捕** — 波兰总统办公室一名高级官员因涉嫌违法被逮捕。 (Notes From Poland, 9/23)
+- **美国在波兰建立新军事基地** — 美国在波兰建立新军事基地。 (Notes From Poland, 9/23)
 航空研究所举办欧洲科学之夜活动，提供讲座、展览和工作坊。 · Instytut Lotnictwa
 *waw4free · [原文 →](https://waw4free.pl/gebeurtenis-158974-15-noc-w-instytucie-lotnictwa-europejska-noc-nauki)*
 

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "2149d99ca9",
+    "category": "warsaw_now",
+    "title_zh": "波兰星链地面站遭纵火",
+    "title_original": "Starlink ground station in Poland hit by fire in suspected arson",
+    "summary_zh": "位于波兰的 Starlink 卫星互联网地面站遭遇火灾，警方初步怀疑是纵火。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/24/starlink-ground-stati",
+    "published_date": "2026-09-24",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "infrastructure",
+      "security"
+    ]
+  },
+  {
+    "id": "d225e6b3f6",
+    "category": "warsaw_now",
+    "title_zh": "波兰与白罗斯谋求关系缓和",
+    "title_original": "Poland and Belarus seek thaw in relations as foreign ministers meet",
+    "summary_zh": "波兰和白罗斯外交部长举行会议，旨在改善两国关系。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/23/poland-and-belarus-se",
+    "published_date": "2026-09-23",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "diplomacy",
+      "belarus"
+    ]
+  },
+  {
+    "id": "07d92320fa",
+    "category": "cool_finds",
+    "title_zh": "泽连斯基谴责波兰修道院刀伤事件",
+    "title_original": "Zelensky condemns knife attack by Ukrainian at Polish abbey",
+    "summary_zh": "乌克兰总统泽连斯基公开谴责一起在波兰修道院发生的刀伤事件，该事件致一名神父死亡、多人受伤。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/24/zelensky-condemns-kni",
+    "published_date": "2026-09-24",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "safety",
+      "ukraine"
+    ]
+  },
+  {
+    "id": "92044a98fa",
+    "category": "cool_finds",
+    "title_zh": "波兰宪法法院官员被控妨碍法院运作",
+    "title_original": "Polish constitutional court officials charged with preventing court from operating",
+    "summary_zh": "波兰宪法法院多名官员因涉嫌阻止法院正常运作而被起诉。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/24/polish-constitutional",
+    "published_date": "2026-09-24",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "law",
+      "politics"
+    ]
+  },
+  {
+    "id": "2335ec5fde",
+    "category": "new_spots",
+    "title_zh": "Niby: 团结大街新开创意酒吧",
+    "title_original": "Niby – niby kawiarnia, niby restauracja w alei Solidarnosci",
+    "summary_zh": "团结大街（Aleja Solidarnosci）新开一家融咖啡厅和餐厅于一体的场所，名叫 Niby。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/09/niby-niby-kawiarnia-niby-res",
+    "published_date": "2026-09-24",
+    "event_date": null,
+    "venue": "Aleja Solidarnosci",
+    "tags": [
+      "cafe",
+      "restaurant",
+      "new"
+    ]
+  },
+  {
+    "id": "949ee15c1c",
+    "category": "new_spots",
+    "title_zh": "鱼：精神的罗盘创意餐厅",
+    "title_original": "Ryba, duchowy kompas",
+    "summary_zh": "专业美食杂志推荐的新餐厅，以海鲜和创意烹饪著称。",
+    "source_name": "Usta Magazyn",
+    "source_url": "https://ustamagazyn.pl/2026/09/ryba-duchowy-kompas/",
+    "published_date": "2026-09-24",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "restaurant",
+      "seafood",
+      "new"
+    ]
+  },
+  {
+    "id": "e1554c5295",
+    "category": "poland_brief",
+    "title_zh": "波兰总统办公室高级官员被逮捕",
+    "title_original": "Senior Polish presidential official detained amid investigation",
+    "summary_zh": "波兰总统办公室一名高级官员因涉嫌违法被逮捕。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/23/senior-polish-preside",
+    "published_date": "2026-09-23",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "politics",
+      "investigation"
+    ]
+  },
+  {
+    "id": "a615f6832c",
+    "category": "poland_brief",
+    "title_zh": "美国在波兰建立新军事基地",
+    "title_original": "New US Fort Trump military base in Poland confirmed",
+    "summary_zh": "美国在波兰建立新军事基地。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/09/23/new-us-fort-trump-mil",
+    "published_date": "2026-09-23",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "military",
+      "us-poland"
+    ]
+  }
+]
