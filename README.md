@@ -25,14 +25,14 @@ Multi-agent AI security · LLM evaluation
 
 <!--news:start-->
 
-*updated 2026-09-25*
+*updated 2026-09-27*
 
-▸ 波兰星链地面站遭纵火
-▸ 波兰与白罗斯谋求关系缓和
-▸ 泽连斯基谴责波兰修道院刀伤事件
-▸ 波兰宪法法院官员被控妨碍法院运作
-▸ Niby: 团结大街新开创意酒吧
-▸ 鱼：精神的罗盘创意餐厅
+▸ Kokoro Ramen & Matcha Bistro(瓦拉区)
+▸ Fado(普若日纳街)
+▸ Niby(团结大街)
+▸ 俄罗斯谴责波兰城市移除苏军纪念碑
+▸ 波兰总统反对特朗普邀普京参加二十国峰会
+▸ 波兰向跨国同性伴侣扩大税收权利
 
 ⤷ [Full digest →](NEWS.md)
 
