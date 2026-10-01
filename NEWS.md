@@ -1,27 +1,23 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-09-29 (Europe/Warsaw) · 覆盖 2026-09-26 — 2026-09-29
-> 数据源：13 个站点 · 本期 18 条 · [JSON](news/data/2026-09-29.json)
+> 自动生成于 2026-10-01 (Europe/Warsaw) · 覆盖 2026-09-28 — 2026-10-01
+> 数据源：13 个站点 · 本期 9 条 · [JSON](news/data/2026-10-01.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**波兰城市移除苏军纪念碑，俄罗斯指责为"野蛮行为"**
-俄罗斯政府谴责波兰某城市拆除了苏军感恩纪念碑，称这是一种野蛮行为。
-*Notes From Poland · 2026-09-26 · [原文 →](https://notesfrompoland.com/2026/09/26/russia-condemns-polish-citys-barbaric-removal-of-monument-of-gratitude-to-the-red-army/)*
+**流亡反对派政治家获准安全返回波兰**
+波兰当局同意一名流亡在外的反对派政治家安全回国。
+*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/fugitive-opposition-politician-granted-safe-passage-to-return-to-poland-against-former-party/)*
 
-**波兰维京贸易中心附近发现九世纪阿拉伯银币**
-考古人员在波兰维京时代的贸易中心附近发现了九世纪的阿拉伯银币。
-*Notes From Poland · 2026-09-28 · [原文 →](https://notesfrompoland.com/2026/09/28/ninth-century-arabic-silver-coins-found-near-viking-trading-centre-in-poland/)*
+**波兰议会议长为服役八年的导盲犬举办退休仪式**
+波兰议会议长为一只服役八年的导盲犬举办正式退休仪式。
+*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/speaker-of-polish-parliament-signs-off-on-service-dogs-retirement-after-eight-years/)*
 
-**克拉科夫市长选举进入第二轮，独立候选人 Gibała 暂领先**
-克拉科夫市长选举中，独立候选人 Gibała 获得领先票数，选举将进入第二轮投票。
-*Polskie Radio · 2026-09-28 · [原文 →](https://www.polskieradio.pl/395/7784/Artykul/3736178)*
-
-**华沙起义老兵 Ryszard Kniaź 去世，享年 99 岁**
-曾参加华沙起义的老兵 Ryszard Kniaź 去世，享年 99 岁。
-*Polskie Radio · 2026-09-28 · [原文 →](https://www.polskieradio.pl/395/7789/Artykul/3736458)*
+**美国驻波兰大使为克拉科夫的美波中心揭幕**
+美国驻波兰大使在克拉科夫为新建的美波中心主持揭幕仪式。
+*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/us-ambassador-inaugurates-planned-polish-american-centre-at-krakows-kosciuszko-monument/)*
 
 ---
 
@@ -33,46 +29,38 @@
 
 ## ▸ New Spots
 
-*（本期无）*
+**Il Pastaiolo——新绫芭士涅街（Nowy Świat）的意大利餐厅** （新绫芭士涅街）
+意大利面专门餐厅 Il Pastaiolo 在华沙中心新绫芭士涅街开业。
+*Warsaw Foodie · 2026-09-30 · [原文 →](https://warsawfoodie.pl/2026/09/pastaiolo-nowa-wloska-restauracja-na-nowym-swiecie/)*
+
+**芝士汉堡新地 The Zulaa 在沃拉区开业** （沃拉区）
+专做 smash burger 的 The Zulaa 在华沙沃拉区（Wola）推出。
+*Warsaw Foodie · 2026-09-30 · [原文 →](https://warsawfoodie.pl/2026/09/the-zulaa-nowy-adres-dla-fanow-smash-burgerow-na-woli/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**攻壳机动队** · 9月29日
-科幻动画电影《攻壳机动队》今日放映。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/ghost-in-the-shell/)*
+**《共同梦想》首演——Hoteloko Company 舞台剧** · 10月2日
+Hoteloko Company 剧团推出新舞台剧《共同梦想》的首演。 · Warsaw
+*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159250-premiera-shared-dreams-hoteloko-company/)*
 
-**终结者 2: 审判日（35 周年修复版）** · 9月29日
-科幻动作电影《终结者 2: 审判日》35 周年修复版在 Kinoteka 放映。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/terminator-2-dzien-sadu-35-rocznica/)*
+**普拉哈秋季音乐节——Alicja Majewska 与 Włodzimierz Korc 演出** · 10月3日
+普拉哈（Praga）秋季艺术节在教堂举办，邀请爵士歌手 Alicja Majewska 和钢琴家 Włodzimierz Korc 演出。 · 普拉哈
+*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159242-praska-jesien-w-swiatyniach-alicja-majewska/)*
 
-**我们在演奏什么？— Andrzej Sułek 专场** · 10月2日
-国家爱乐乐团 10 月 2 日举行 Andrzej Sułek 与 Bartosz Michałowski 参与的专场音乐会。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/-o-czym-gramy-andrzej-sulek-20261002)*
-
-**2026/2027 艺术季开幕音乐会** · 10月2日
-国家爱乐乐团 10 月 2 日举行 2026/2027 艺术季开幕音乐会，由 Krzysztof Urbański 指挥。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/inauguracja-sezonu-artystycznego-2026-2027)*
+**「认真观看」摄影工作坊——与 Filip Springer 探寻本地性** · 10月5日
+摄影师 Filip Springer 主讲工作坊，帮助学员通过摄影发现华沙的本地特色。 · Warsaw
+*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159493-uwazne-spojrzenie-warsztaty-z-filipem-springerem/)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰主动提议为乌克兰提供爱国者导弹生产基地** — 波兰政府主动提议为乌克兰建立爱国者导弹生产设施，支持乌… (Notes From Poland, 9/28)
-- **遭刀伤波兰神父吁勿将罪责归咎乌克兰民族** — 一名在刀伤事件中受伤的波兰神父呼吁民众不要将此事归咎于… (Notes From Poland, 9/28)
-- **波兰为外国同性婚姻扩展税收权益** — 波兰政府决定向在国外结婚的同性伴侣扩展税收权益。 (Notes From Poland, 9/25)
-- **检察机关撤销对瓦文萨被控谎报共产党合作身份的案件** — 波兰检察机关已撤销指控 Wałęsa 就共产党合作身份… (Notes From Poland, 9/25)
-- **波兰发布应对空中袭击指南并警告俄罗斯威胁** — 波兰政府发布了应对空中袭击的防卫指南，并就俄罗斯的军事… (Notes From Poland, 9/25)
-- **俄无人机在乌克兰靠近波兰边界处坠毁** — 一架俄罗斯无人机在乌克兰靠近波兰边境的 Dorohus… (Polskie Radio, 9/28)
-- **白俄罗斯男子在波兰因策划破坏活动被判刑** — 波兰法院判处一名白俄罗斯籍男子因策划破坏活动而受罚。 (Polskie Radio, 9/28)
-- **波兰将改变击落可疑外国飞行器的规则** — 波兰政府宣布将修改关于击落可疑境外飞行器的规定。 (Polskie Radio, 9/28)
-- **波兰内务部长称 Starlink 基站火灾是破坏活动** — 波兰内务部长称最近发生的 Starlink 基站火灾是… (Polskie Radio, 9/28)
-- **波兰启动心理援助热线 116 123 推广活动** — 波兰网络安全研究院 NASK 启动推广心理援助热线 1… (NASK, 9/28)
+- **波兰通胀率升至 4%，燃料价格飙升** — 波兰九月通胀率达到 4%，主要受燃料价格上升驱动。 (Notes From Poland, 9/30)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Polskie Radio · ❌ Warsawfoodie.pl · ❌ Ustamagazyn.pl · ✅ Waw4free · ✅ MNW · ✅ Zachęta · ✅ U-jazdowski · ✅ Filharmonia · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠️ IDEAS NCBR
-
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ❌ Polskie Radio · ❌ Waw4Free · ❌ MNW · ❌ Zachęta · ⚠️ CSW Ujazdowski · ❌ Filharmonia · ❌ Teatr Wielki · ❌ Kinoteka · ❌ NASK · ❌ IDEAS NCBR
