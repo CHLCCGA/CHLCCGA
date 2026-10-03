@@ -24,15 +24,14 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 
 <!--news:start-->
+*updated 2026-10-03*
 
-*updated 2026-10-01*
-
-▸ 流亡反对派政治家获准安全返回波兰
-▸ 波兰议会议长为服役八年的导盲犬举办退休仪式
-▸ 波兰通胀率升至 4%，燃料价格飙升
-▸ 美国驻波兰大使为克拉科夫的美波中心揭幕
-▸ Il Pastaiolo——新绫芭士涅街（Nowy Świat）的意大利餐厅
-▸ 芝士汉堡新地 The Zulaa 在沃拉区开业
+▸ 华沙美食指南
+▸ Rondo 贝果店：Powiślu 新开业
+▸ 乌尔申诺夫街头美食节闭幕式
+▸ 斯卡日舍夫斯基公园导览步行
+▸ 人工智能时代的信息验证讲座
+▸ 萨斯卡肯帕区导览步行
 
 ⤷ [Full digest →](NEWS.md)
 

@@ -1,66 +1,70 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-01 (Europe/Warsaw) · 覆盖 2026-09-28 — 2026-10-01
-> 数据源：13 个站点 · 本期 9 条 · [JSON](news/data/2026-10-01.json)
+> 自动生成于 2026-10-03 (Europe/Warsaw) · 覆盖 2026-09-30 — 2026-10-03
+> 数据源：13 个站点 · 本期 10 条 · [JSON](news/data/2026-10-03.json)
 
 ---
 
 ## ◆ Warsaw Now
 
-**流亡反对派政治家获准安全返回波兰**
-波兰当局同意一名流亡在外的反对派政治家安全回国。
-*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/fugitive-opposition-politician-granted-safe-passage-to-return-to-poland-against-former-party/)*
-
-**波兰议会议长为服役八年的导盲犬举办退休仪式**
-波兰议会议长为一只服役八年的导盲犬举办正式退休仪式。
-*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/speaker-of-polish-parliament-signs-off-on-service-dogs-retirement-after-eight-years/)*
-
-**美国驻波兰大使为克拉科夫的美波中心揭幕**
-美国驻波兰大使在克拉科夫为新建的美波中心主持揭幕仪式。
-*Notes From Poland · 2026-09-30 · [原文 →](https://notesfrompoland.com/2026/09/30/us-ambassador-inaugurates-planned-polish-american-centre-at-krakows-kosciuszko-monument/)*
+*（本期无）*
 
 ---
 
 ## ◇ Cool Finds
 
-*（本期无）*
+**华沙美食指南**
+Usta Magazine 发布华沙餐饮和美食场景综合指南，为食客介绍城市各地特色餐厅和用餐热点。
+*03_ustamagazyn.xml · 2026-09-30 · [原文 →](https://ustamagazyn.pl/2026/09/przewodnik-po-warszawie/)*
 
 ---
 
 ## ▸ New Spots
 
-**Il Pastaiolo——新绫芭士涅街（Nowy Świat）的意大利餐厅** （新绫芭士涅街）
-意大利面专门餐厅 Il Pastaiolo 在华沙中心新绫芭士涅街开业。
-*Warsaw Foodie · 2026-09-30 · [原文 →](https://warsawfoodie.pl/2026/09/pastaiolo-nowa-wloska-restauracja-na-nowym-swiecie/)*
-
-**芝士汉堡新地 The Zulaa 在沃拉区开业** （沃拉区）
-专做 smash burger 的 The Zulaa 在华沙沃拉区（Wola）推出。
-*Warsaw Foodie · 2026-09-30 · [原文 →](https://warsawfoodie.pl/2026/09/the-zulaa-nowy-adres-dla-fanow-smash-burgerow-na-woli/)*
+**Rondo 贝果店：Powiślu 新开业**
+华沙 Powiślu 区新开业的 Rondo Bagels，专营传统贝果面包。
+*02_warsawfoodie.xml · 2026-10-01 · [原文 →](https://warsawfoodie.pl/2026/10/rondo-bagels-nowe-miejsce-z-bajglami-na-powislu/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**《共同梦想》首演——Hoteloko Company 舞台剧** · 10月2日
-Hoteloko Company 剧团推出新舞台剧《共同梦想》的首演。 · Warsaw
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159250-premiera-shared-dreams-hoteloko-company/)*
+**乌尔申诺夫街头美食节闭幕式** · 10月3日
+第十七届乌尔申诺夫街头美食节最终活动，10月3日举行。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159162-xvii-ursynowski-festiwal-streetfoodu-x-zakonczenie-sezonu)*
 
-**普拉哈秋季音乐节——Alicja Majewska 与 Włodzimierz Korc 演出** · 10月3日
-普拉哈（Praga）秋季艺术节在教堂举办，邀请爵士歌手 Alicja Majewska 和钢琴家 Włodzimierz Korc 演出。 · 普拉哈
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159242-praska-jesien-w-swiatyniach-alicja-majewska/)*
+**斯卡日舍夫斯基公园导览步行** · 10月3日
+有专业导游带领的公园步行导览，10月3日开展。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159796-spacer-po-parku-skaryszewskim-z-przewodnikiem)*
 
-**「认真观看」摄影工作坊——与 Filip Springer 探寻本地性** · 10月5日
-摄影师 Filip Springer 主讲工作坊，帮助学员通过摄影发现华沙的本地特色。 · Warsaw
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-159493-uwazne-spojrzenie-warsztaty-z-filipem-springerem/)*
+**人工智能时代的信息验证讲座** · 10月3日
+关于如何在 AI 时代识别真假信息和数字内容的讨论会，10月3日举办。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159649-prawda-w-erze-ai-weryfikacja-informacji-i-tresci-cyfrowych)*
+
+**萨斯卡肯帕区导览步行** · 10月3日
+体验华沙独特街区萨斯卡肯帕的导览步行，10月3日出发。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159598-ach-saska-kepa-spacer-z-przewodnikiem)*
+
+**90年代华沙历史步行导览** · 10月3日
+沿着华沙90年代的变革足迹进行步行导览，10月3日举行。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159807-transformacja-spacer-po-warszawie-lat-90)*
+
+**《共享梦想》舞台表演** · 10月3日
+霍特洛科剧团创作的舞台表演《共享梦想》，10月3日演出。
+*waw4free.pl · [原文 →](https://waw4free.pl/wydarzenie-159497-spektakl-shared-dreams-hoteloko-company)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰通胀率升至 4%，燃料价格飙升** — 波兰九月通胀率达到 4%，主要受燃料价格上升驱动。 (Notes From Poland, 9/30)
+- **乌克兰发现115名波兰二战士兵遗骨** — 乌克兰发掘工作中发现了115名波兰二战阵亡士兵的遗骸，这些士兵将获得妥善安葬。 (01_notesfrompoland.xml, 10/02)
+
+- **波兰煤矿巨头 JSW 大规模裁员** — 波兰煤炭公司 JSW 宣布裁员 4200 人，占员工总数 21%，反映欧洲能源转型压力。 (01_notesfrompoland.xml, 10/02)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ❌ Polskie Radio · ❌ Waw4Free · ❌ MNW · ❌ Zachęta · ⚠️ CSW Ujazdowski · ❌ Filharmonia · ❌ Teatr Wielki · ❌ Kinoteka · ❌ NASK · ❌ IDEAS NCBR
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazine · ✅ Polskie Radio · ✅ WAW4Free · ❌ MNW · ❌ Zachęta · ❌ U-Jazdowski · ✅ Filharmonia · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ✅ IDEAS NCBR
+
+*11/13 sources succeeded. Zachęta (connection reset), U-Jazdowski (301 redirect), MNW (no events in window) had no usable data.*
