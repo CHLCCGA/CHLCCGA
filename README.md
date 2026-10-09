@@ -23,16 +23,16 @@ Multi-agent AI security · LLM evaluation
 
 #### ──── news ────
 
-
-*updated 2026-10-07*
+*updated 2026-10-09*
 
-▸ 瑞典向波兰部署爱国者防空系统
-▸ 波兰检控Orlen石油公司高管
-▸ 波兰与立陶宛计划应对百万难民
-▸ 特朗普涉嫌干预波兰政局
-▸ 波兰教堂外爆发抗议
+▸ 波兰政府推动审查 Paramount 对电视台 TVN 的控制权
+▸ Rondo Bagels ── 波兰面包房登陆 Powiśle
+▸ 阿莲娜·萨波奇尼科夫 / 奈里·巴格拉姆扬 ── 联合展览
+▸ XIV 皇家光影节
+▸ Giselle 芭蕾舞剧
+▸ 波兰推出 1.14 亿欧元空间技术基金
 
-
+[Full digest →](NEWS.md)
 
 #### ──── elsewhere ────
 
