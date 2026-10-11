@@ -23,14 +23,14 @@ Multi-agent AI security · LLM evaluation
 
 #### ──── news ────
 
-*updated 2026-10-09*
+*updated 2026-10-11*
 
-▸ 波兰政府推动审查 Paramount 对电视台 TVN 的控制权
-▸ Rondo Bagels ── 波兰面包房登陆 Powiśle
-▸ 阿莲娜·萨波奇尼科夫 / 奈里·巴格拉姆扬 ── 联合展览
-▸ XIV 皇家光影节
-▸ Giselle 芭蕾舞剧
-▸ 波兰推出 1.14 亿欧元空间技术基金
+▸ 第十四届皇家光影节
+▸ 歌剧《赫尔松之母》首演
+▸ 《水之语言》展览
+▸ 普契尼歌剧《蝴蝶夫人》
+▸ Il Pastaiolo 意面餐厅
+▸ 直觉舞蹈工作坊
 
 [Full digest →](NEWS.md)
 
