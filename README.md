@@ -2,25 +2,6 @@
 <!-- card-href:start --><a href="https://www.alphaxiv.org/"><img src="assets/status-card.svg" alt="Xinyu Geng — status card" /></a><!-- card-href:end -->
 </p>
 
-#### ──── research ────
-
-Adversarial robustness of LLMs · Jailbreaking · Red-teaming
-Multi-agent AI security · LLM evaluation
-
-#### ──── papers ────
-
-<!-- papers:start -->
-- **▸ wip** — Jailbreak transferability across MoE
-- **▸ wip** — Multi-agent prompt injection
-- **▸ under review** — Eval harness for safety alignment
-<!-- papers:end -->
-
-#### ──── building ────
-
-- **◇ autoresearch** — multi-agent eval orchestrator
-- **◇ rl-safety** — RL with safety reward models
-- **◇ pipeline** — transformer pipeline framework
-
 #### ──── news ────
 <!--news:start-->
 

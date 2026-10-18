@@ -1,9 +1,9 @@
-"""Regenerate profile status card SVG + inject papers block into README.
+"""Regenerate profile status card SVG + update the card link in README.
 
 Reads data/status.yaml as the single source of manual data, fetches Warsaw
 weather and GitHub commit stats from public APIs, then writes:
   - assets/status-card.svg
-  - README.md  (papers block between <!-- papers:start --> markers)
+  - README.md  (card link between <!-- card-href:start --> markers)
 
 Run with --dry-run to print outputs to stdout without writing files.
 """
@@ -289,37 +289,6 @@ def render_svg(
     )
 
 
-_PAPERS_START = "<!-- papers:start -->"
-_PAPERS_END   = "<!-- papers:end -->"
-_PAPERS_RE    = re.compile(
-    rf"{re.escape(_PAPERS_START)}.*?{re.escape(_PAPERS_END)}",
-    re.DOTALL,
-)
-
-
-def _format_papers_block(papers: list[dict]) -> str:
-    """Render the papers list as the markdown that goes between markers."""
-    lines = [_PAPERS_START]
-    for p in papers:
-        status_label = p["status"]
-        title = p["title"]
-        lines.append(f"- **▸ {status_label}** — {title}")
-    lines.append(_PAPERS_END)
-    return "\n".join(lines)
-
-
-def update_readme_papers(papers: list[dict]) -> str:
-    """Replace the papers block inside README.md. Returns the new README content."""
-    readme = README_PATH.read_text(encoding="utf-8")
-    new_block = _format_papers_block(papers)
-    if not _PAPERS_RE.search(readme):
-        raise RuntimeError(
-            f"papers markers not found in README.md; expected '{_PAPERS_START}' "
-            f"and '{_PAPERS_END}' on their own lines"
-        )
-    return _PAPERS_RE.sub(new_block, readme)
-
-
 _CARD_HREF_START = "<!-- card-href:start -->"
 _CARD_HREF_END   = "<!-- card-href:end -->"
 _CARD_HREF_RE    = re.compile(
@@ -367,14 +336,13 @@ def main(dry_run: bool = False) -> None:
     )
 
     svg = render_svg(status, weather, gh, reading_str)
-    new_readme = update_readme_papers(status["papers"])
-    new_readme = update_card_href(new_readme, card_url)
+    new_readme = update_card_href(README_PATH.read_text(encoding="utf-8"), card_url)
 
     if dry_run:
         print("=== status-card.svg ===")
         print(svg)
         print()
-        print("=== README.md (after papers + card-href injection) ===")
+        print("=== README.md (after card-href injection) ===")
         print(new_readme)
         return
 
