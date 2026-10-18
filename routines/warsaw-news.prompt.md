@@ -2,7 +2,7 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 
 1. Fetch 16 sources (see SOURCES below).
 2. Summarize new items into a structured JSON array (see SCHEMA).
-3. Render the artifacts from the JSON (see Step E2/F/G).
+3. Render the artifacts from the JSON (see Step E2/F).
 4. Commit them to the cloned CHLCCGA/CHLCCGA repo and push to main.
 
 **Push 就是发布。** 读者在网页 https://chlccga.github.io/CHLCCGA/ 上看摘要，这个页面（仓库根目录的 `index.html`，不要改它）直接读 `news/data/index.json` 和 `news/data/<日期>.json`。没有邮件，没有别的通知渠道。
@@ -46,7 +46,7 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 ## OPERATING CONTEXT
 
 - Repository `CHLCCGA/CHLCCGA` is cloned in your working directory（你已经在仓库根目录，不需要 `cd CHLCCGA`）.
-- The README.md already contains `<!--news:start-->` and `<!--news:end-->` markers under the `──── news ────` heading. Replace ONLY the content between these markers.
+- **不要改 README.md。** 它是 GitHub 个人主页，2026-10-18 起不再放新闻区，不归这个 routine 管。
 - The NEWS.md file already exists. Overwrite it entirely.
 - The `news/data/` directory already exists. `scripts/build_news_index.py` regenerates `news/data/index.json` (the site's list of dates) — run it, never hand-edit index.json.
 - Run stamp for THIS run: today's UTC date (`YYYY-MM-DD`).
@@ -334,38 +334,11 @@ python3 scripts/build_news_index.py   # 打印 "index.json: N dates, latest <STA
 
 `event_date_zh`: `M月D日`。`published_date_short`: `M/D`。
 
-### Step G: Update README.md news block
-
-把 `<!--news:start-->` 和 `<!--news:end-->` **之间**的内容（不含标记本身）替换为：
-
-```markdown
-
-*updated {TODAY}*
-
-▸ {headline_1}
-▸ {headline_2}
-▸ {headline_3}
-▸ {headline_4}
-▸ {headline_5}
-▸ {headline_6}
-
-```
-
-**headline 用 `title_zh`，必须是中文。** 每个非空类别出一条，不足 6 条从最丰富的类别补。每条 ≤ 60 个可见字符。不要改标记以外的文字，不要动标记下面的 `[Full digest →](https://chlccga.github.io/CHLCCGA/)` 那行。
-
-**两个标记本身必须原样保留。** 2026-10-07 那次运行把它们删掉了，之后两期只能临场猜替换范围。替换完检查：
-
-```bash
-grep -c -e '<!--news:start-->' -e '<!--news:end-->' README.md   # 必须输出 2
-```
-
-不是 2 → `git restore README.md` 撤销你对 README 的改动，本期跳过 README（在 commit body 里写一句），**不要自己重建这个 section**。
-
 ### Step H: Stage, commit, push
 
 ```bash
 find news/data -name "*.json" -type f -mtime +84 -delete
-git add news/ NEWS.md README.md
+git add news/ NEWS.md
 git commit -m "news: $STAMP digest ($N items)"
 git push origin main || (git pull --rebase --autostash origin main && git push origin main)
 ```
@@ -374,7 +347,7 @@ git push origin main || (git pull --rebase --autostash origin main && git push o
 
 ## FAILURE PROTOCOL
 
-没有邮件了，**失败也要发布出来**：网页对 `[]` 的那一期会显示“本期没有新条目”，并列出 sources.json 里每个源的状态，读者靠它知道出了什么事。所以失败分支同样要写 `<STAMP>.json` + `<STAMP>.sources.json`、跑 `build_news_index.py`、提交推送——只是**不动 NEWS.md 和 README**。
+没有邮件了，**失败也要发布出来**：网页对 `[]` 的那一期会显示“本期没有新条目”，并列出 sources.json 里每个源的状态，读者靠它知道出了什么事。所以失败分支同样要写 `<STAMP>.json` + `<STAMP>.sources.json`、跑 `build_news_index.py`、提交推送——只是**不动 NEWS.md**。
 
 **同日重跑例外：** 如果仓库里（Step A 拉下来的）今天的 `<STAMP>.json` 已经是非空的，说明今天已经成功发布过一次。这时下面所有失败分支都**不要覆盖它**，只更新 `<STAMP>.sources.json`（末尾加一项 `{"name": "RERUN", "status": "fail", "note": "本次重跑失败，保留上次成功内容：<原因>"}`），提交 `news: $STAMP rerun failed, kept previous`。
 
