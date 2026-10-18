@@ -67,7 +67,7 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 8. https://pik.warszawa.pl/feed/ — PIK Warszawa（商业票务 / 活动门户，**不是市政府网站**）。⚠ **feed 的 `pubDate` 和首页显示的日期都是发帖日期，不是活动日期。** 活动日期只在条目页上，形如 `niedziela, 20.12.2026`（DD.MM.YYYY）。做法：从 feed 里挑最多 4 个看起来像近期活动的候选（跳过标题带 Sylwester / 明显是远期的），逐个 WebFetch 条目页读活动日期和场地，只保留落在活动窗口内的，最多 2 条，归 upcoming_events。条目页读不到活动日期就丢弃，**不要拿 pubDate 顶替**。
 
 ### C. 博物馆 / 画廊 / 音乐厅 / 歌剧院 / 影院 (HTML — 场次归 Upcoming Events，展览归 Cool Finds)
-9. https://www.mnw.art.pl/wydarzenia/kalendarium/ — Muzeum Narodowe（国家博物馆）
+9. https://mnw.pl/wydarzenia — Muzeum Narodowe（国家博物馆；旧域名 mnw.art.pl 已 301 跳到这里）
 10. https://zacheta.art.pl/pl/kalendarz/ — Zachęta（国家画廊）
 11. https://www.u-jazdowski.pl/program/wystawy — CSW Zamek Ujazdowski（当代艺术中心），展览带起止日期
 12. https://filharmonia.pl/repertuar — Filharmonia Narodowa（国家爱乐）
@@ -131,7 +131,7 @@ printf '%s' "$URL" | sha1sum | cut -c1-10
 | u-jazdowski.pl | `/program/wystawy/...` | `https://www.u-jazdowski.pl<path>` |
 | filharmonia.pl | `/repertuar/...` | `https://filharmonia.pl<path>` |
 | teatrwielki.pl | `/kalendarium/...` | `https://teatrwielki.pl<path>` |
-| mnw.art.pl | `/wydarzenia/kalendarium/9262,wydarzenie.html` | `https://www.mnw.art.pl<path>` |
+| mnw.pl | `/wydarzenia/<slug>` | `https://mnw.pl<path>` |
 | polskieradio.pl | `/395/7785/Artykul/3718111,...` | `https://www.polskieradio.pl<path>` |
 | zacheta.art.pl / nask.pl / kinoteka.pl / warsawinsider.pl / dlastudenta.pl / pik.warszawa.pl | 已是绝对 URL | 原样使用 |
 
