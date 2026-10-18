@@ -22,6 +22,7 @@ Multi-agent AI security · LLM evaluation
 - **◇ pipeline** — transformer pipeline framework
 
 #### ──── news ────
+<!--news:start-->
 
 *updated 2026-10-11*
 
@@ -32,7 +33,9 @@ Multi-agent AI security · LLM evaluation
 ▸ Il Pastaiolo 意面餐厅
 ▸ 直觉舞蹈工作坊
 
-[Full digest →](NEWS.md)
+<!--news:end-->
+
+[Full digest →](https://chlccga.github.io/CHLCCGA/)
 
 #### ──── elsewhere ────
 

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>华沙新闻摘要</title>
+<style>
+  :root {
+    --bg: #faf9f6; --fg: #1f2328; --muted: #6b7280; --line: #e5e2db;
+    --card: #ffffff; --accent: #2f4858; --weekend: #fff4e0; --weekend-line: #e8b964;
+    --ok: #2e7d32; --bad: #c62828; --warn: #b26a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181b; --fg: #e6e6e6; --muted: #9aa0a6; --line: #2c3036;
+      --card: #1e2125; --accent: #8fb3c9; --weekend: #2a2418; --weekend-line: #a07a2c;
+      --ok: #81c784; --bad: #ef9a9a; --warn: #ffb74d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  header h1 { font-size: 22px; margin: 0 0 4px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  nav { display: flex; gap: 8px; align-items: center; margin: 14px 0 8px; flex-wrap: wrap; font-size: 14px; }
+  nav a, nav span { color: var(--accent); text-decoration: none; padding: 4px 0; }
+  nav span.off { color: var(--muted); opacity: .5; }
+  nav select { font: inherit; padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--fg); }
+  h2 { font-size: 17px; color: var(--accent); margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  h2 small { color: var(--muted); font-weight: normal; font-size: 13px; margin-left: 6px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
+  .card h3 { font-size: 16px; margin: 0 0 2px; }
+  .card .when { color: var(--accent); font-weight: 600; font-size: 14px; margin-right: 6px; }
+  .card .orig { color: var(--muted); font-size: 13px; margin: 0 0 6px; overflow-wrap: anywhere; }
+  .card p.sum { margin: 4px 0 6px; }
+  .card .src { font-size: 13px; color: var(--muted); }
+  .card .src a { color: var(--muted); }
+  .weekend .card { background: var(--weekend); border-left-color: var(--weekend-line); }
+  ul.brief { padding-left: 18px; margin: 0; }
+  ul.brief li { margin-bottom: 8px; }
+  ul.brief .src { font-size: 13px; color: var(--muted); }
+  ul.brief a { color: var(--muted); }
+  .empty { color: var(--muted); font-style: italic; }
+  details { margin-top: 32px; font-size: 14px; color: var(--muted); }
+  details li.ok::marker { color: var(--ok); }
+  details li.fail::marker { color: var(--bad); }
+  details li.warn::marker { color: var(--warn); }
+  footer { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  footer a { color: var(--muted); }
+  .error { color: var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>华沙 · 波兰新闻摘要</h1>
+    <div class="meta" id="meta">加载中…</div>
+    <nav id="nav"></nav>
+  </header>
+  <div id="content"></div>
+  <footer>
+    由云端 routine 自动生成 · <a id="json-link" href="news/data/">JSON</a> · <a href="https://github.com/CHLCCGA/CHLCCGA">GitHub</a>
+  </footer>
+</main>
+<script>
+const CATEGORIES = [
+  ["warsaw_now", "◆ Warsaw Now", "华沙动态"],
+  ["cool_finds", "◇ Cool Finds", "展览与发现"],
+  ["new_spots", "▸ New Spots", "新店"],
+  ["upcoming_events", "⤷ Upcoming Events", "近期活动"],
+  ["poland_brief", "· Poland Brief", "波兰简讯"],
+];
+const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+function link(href, text) {
+  if (!/^https?:\/\//.test(href || "")) return el("span", null, text);
+  const a = el("a", null, text);
+  a.href = href; a.target = "_blank"; a.rel = "noopener";
+  return a;
+}
+function parseDate(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+  return m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])) : null;
+}
+function zhDate(s, withWeekday) {
+  const d = parseDate(s);
+  if (!d) return s || "";
+  const t = `${d.getUTCMonth() + 1}月${d.getUTCDate()}日`;
+  return withWeekday ? `${t} ${WEEKDAYS[d.getUTCDay()]}` : t;
+}
+function shortDate(s) {
+  const d = parseDate(s);
+  return d ? `${d.getUTCMonth() + 1}/${d.getUTCDate()}` : (s || "");
+}
+function minusDays(s, n) {
+  const d = parseDate(s);
+  if (!d) return "";
+  d.setUTCDate(d.getUTCDate() - n);
+  return d.toISOString().slice(0, 10);
+}
+
+function card(item, showWhen) {
+  const c = el("div", "card");
+  const h = el("h3");
+  if (showWhen && item.event_date) h.append(el("span", "when", zhDate(item.event_date, true)));
+  h.append(item.title_zh || item.title_original || "");
+  c.append(h);
+  if (item.title_original && item.title_original !== item.title_zh) c.append(el("div", "orig", item.title_original));
+  if (item.summary_zh) c.append(el("p", "sum", item.summary_zh));
+  const src = el("div", "src");
+  const bits = [item.source_name];
+  if (item.venue) bits.push(item.venue);
+  if (!showWhen && item.published_date) bits.push(item.published_date);
+  src.append(bits.filter(Boolean).join(" · ") + " · ", link(item.source_url, "原文 →"));
+  c.append(src);
+  return c;
+}
+
+function render(date, dates, items, sources) {
+  const content = document.getElementById("content");
+  content.replaceChildren();
+  document.getElementById("meta").textContent =
+    `${date} · 覆盖 ${minusDays(date, 3)} — ${date} · 本期 ${items.length} 条`;
+  document.getElementById("json-link").href = `news/data/${date}.json`;
+  document.title = `华沙新闻摘要 · ${date}`;
+
+  const nav = document.getElementById("nav");
+  nav.replaceChildren();
+  const i = dates.indexOf(date);
+  const older = dates[i + 1], newer = dates[i - 1];
+  nav.append(older ? Object.assign(el("a", null, "← 上一期"), { href: `?d=${older}` }) : el("span", "off", "← 上一期"));
+  const sel = el("select");
+  for (const d of dates) sel.append(Object.assign(el("option", null, d), { value: d, selected: d === date }));
+  sel.onchange = () => { location.search = `?d=${sel.value}`; };
+  nav.append(sel);
+  nav.append(newer ? Object.assign(el("a", null, "下一期 →"), { href: `?d=${newer}` }) : el("span", "off", "下一期 →"));
+
+  if (!items.length) content.append(el("p", "empty", "本期没有新条目（可能是去重后为空，或抓取失败，见下方数据源状态）。"));
+
+  const weekend = items.filter(it => (it.tags || []).includes("weekend"));
+  if (weekend.length) {
+    const sec = el("section", "weekend");
+    const h = el("h2", null, "★ 本周末");
+    h.append(el("small", null, "周末活动清单"));
+    sec.append(h);
+    weekend.forEach(it => sec.append(card(it, true)));
+    content.append(sec);
+  }
+
+  for (const [key, label, zh] of CATEGORIES) {
+    let list = items.filter(it => it.category === key && !weekend.includes(it));
+    const sec = el("section");
+    const h = el("h2", null, label);
+    h.append(el("small", null, zh));
+    sec.append(h);
+    if (!list.length) {
+      sec.append(el("p", "empty", "（本期无）"));
+    } else if (key === "poland_brief") {
+      const ul = el("ul", "brief");
+      for (const it of list) {
+        const li = el("li");
+        li.append(el("strong", null, it.title_zh || ""), " — " + (it.summary_zh || "") + " ");
+        const s = el("span", "src", `(${it.source_name}, ${shortDate(it.published_date)}) `);
+        s.append(link(it.source_url, "原文"));
+        li.append(s);
+        ul.append(li);
+      }
+      sec.append(ul);
+    } else {
+      if (key === "upcoming_events") list = list.slice().sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
+      list.forEach(it => sec.append(card(it, key === "upcoming_events")));
+    }
+    content.append(sec);
+  }
+
+  if (sources && sources.length) {
+    const det = el("details");
+    const failed = sources.filter(s => s.status !== "ok").length;
+    det.append(el("summary", null, `本期数据源：${sources.length} 个，${failed ? failed + " 个有问题" : "全部正常"}`));
+    const ul = el("ul");
+    for (const s of sources) {
+      const li = el("li", s.status, s.name + (s.note ? ` — ${s.note}` : ""));
+      ul.append(li);
+    }
+    det.append(ul);
+    content.append(det);
+  }
+}
+
+async function main() {
+  try {
+    const dates = await fetch("news/data/index.json", { cache: "no-cache" }).then(r => r.json());
+    const q = new URLSearchParams(location.search).get("d");
+    const date = dates.includes(q) ? q : dates[0];
+    const items = await fetch(`news/data/${date}.json`, { cache: "no-cache" }).then(r => r.json());
+    let sources = null;
+    const r = await fetch(`news/data/${date}.sources.json`, { cache: "no-cache" });
+    if (r.ok) sources = await r.json();
+    render(date, dates, items, sources);
+  } catch (e) {
+    document.getElementById("meta").replaceChildren(el("span", "error", "加载失败：" + e.message));
+  }
+}
+main();
+</script>
+</body>
+</html>
