@@ -34,6 +34,7 @@
   .card { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
   .card h3 { font-size: 16px; margin: 0 0 2px; }
   .card .when { color: var(--accent); font-weight: 600; font-size: 14px; margin-right: 6px; }
+  .card .since { color: var(--accent); font-weight: normal; font-size: 14px; }
   .card .orig { color: var(--muted); font-size: 13px; margin: 0 0 6px; overflow-wrap: anywhere; }
   .card p.sum { margin: 4px 0 6px; }
   .card .src { font-size: 13px; color: var(--muted); }
@@ -113,12 +114,13 @@ function card(item, showWhen) {
   const h = el("h3");
   if (showWhen && item.event_date) h.append(el("span", "when", zhDate(item.event_date, true)));
   h.append(item.title_zh || item.title_original || "");
+  if (!showWhen && item.category === "cool_finds" && item.event_date) h.append(el("span", "since", ` · ${zhDate(item.event_date)}起`));
   c.append(h);
   if (item.title_original && item.title_original !== item.title_zh) c.append(el("div", "orig", item.title_original));
   if (item.summary_zh) c.append(el("p", "sum", item.summary_zh));
   const src = el("div", "src");
   const bits = [item.source_name];
-  if (item.venue) bits.push(item.venue);
+  if (item.venue && item.venue !== item.source_name) bits.push(item.venue);
   if (!showWhen && item.published_date) bits.push(item.published_date);
   src.append(bits.filter(Boolean).join(" · ") + " · ", link(item.source_url, "原文 →"));
   c.append(src);
@@ -183,11 +185,16 @@ function render(date, dates, items, sources) {
   }
 
   if (sources && sources.length) {
+    // GATE / RERUN entries are run errors appended by the routine, not sites.
+    const runErrors = sources.filter(s => s.name === "GATE" || s.name === "RERUN");
+    const sites = sources.filter(s => !runErrors.includes(s));
+    for (const s of runErrors) content.prepend(el("p", "error", `运行出错：${s.note}`));
     const det = el("details");
-    const failed = sources.filter(s => s.status !== "ok").length;
-    det.append(el("summary", null, `本期数据源：${sources.length} 个，${failed ? failed + " 个有问题" : "全部正常"}`));
+    const failed = sites.filter(s => s.status === "fail").length;
+    const warned = sites.filter(s => s.status === "warn").length;
+    det.append(el("summary", null, `本期数据源：${sites.length} 个，失败 ${failed} 个，提示 ${warned} 个`));
     const ul = el("ul");
-    for (const s of sources) {
+    for (const s of sites) {
       const li = el("li", s.status, s.name + (s.note ? ` — ${s.note}` : ""));
       ul.append(li);
     }
