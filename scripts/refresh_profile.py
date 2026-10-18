@@ -1,7 +1,7 @@
 """Regenerate profile status card SVG + update the card link in README.
 
 Reads data/status.yaml as the single source of manual data, fetches Warsaw
-weather and GitHub commit stats from public APIs, then writes:
+weather, the last GitHub push and the top alphaXiv paper from public APIs, then writes:
   - assets/status-card.svg
   - README.md  (card link between <!-- card-href:start --> markers)
 
@@ -16,9 +16,11 @@ import re
 import sys
 import urllib.request
 from dataclasses import dataclass
-from datetime import datetime, timezone, date
+from datetime import datetime, date
+from html import unescape
 from pathlib import Path
 from typing import Optional
+from xml.sax.saxutils import escape
 from zoneinfo import ZoneInfo
 
 import yaml
@@ -36,12 +38,6 @@ def load_status() -> dict:
     """Load the hand-maintained status YAML."""
     with STATUS_YAML.open(encoding="utf-8") as f:
         return yaml.safe_load(f)
-
-
-def format_warsaw_time() -> str:
-    """Return current Warsaw time as 'HH:MM CET' or 'HH:MM CEST'."""
-    now = datetime.now(WARSAW_TZ)
-    return now.strftime("%H:%M %Z")
 
 
 # Open-Meteo WMO weather codes → single glyph.
@@ -82,42 +78,8 @@ def fetch_weather() -> Optional[tuple[float, str]]:
     return (temp, _WEATHER_GLYPHS.get(code, "·"))
 
 
-@dataclass
-class GithubStats:
-    streak_days: int
-    last_commit_relative: str   # e.g. "2h ago", "3d ago"
-
-
-def _relative_time(then_utc: datetime) -> str:
-    """Format a UTC datetime as relative-from-now."""
-    delta = datetime.now(timezone.utc) - then_utc
-    if delta.days >= 1:
-        return f"{delta.days}d ago"
-    hours = delta.seconds // 3600
-    if hours >= 1:
-        return f"{hours}h ago"
-    minutes = max(delta.seconds // 60, 1)
-    return f"{minutes}m ago"
-
-
-def _streak_from_dates(push_dates_utc: list[date]) -> int:
-    """Count consecutive days backwards from the most recent push date."""
-    if not push_dates_utc:
-        return 0
-    sorted_dates = sorted(set(push_dates_utc), reverse=True)
-    streak = 1
-    prev = sorted_dates[0]
-    for d in sorted_dates[1:]:
-        if (prev - d).days == 1:
-            streak += 1
-            prev = d
-        else:
-            break
-    return streak
-
-
-def fetch_github_stats() -> Optional[GithubStats]:
-    """Pull the last 100 public events for the user and compute streak + last push."""
+def fetch_last_push() -> Optional[date]:
+    """Warsaw-local date of the user's most recent public push, or None on failure / no pushes."""
     url = f"https://api.github.com/users/{GITHUB_USER}/events/public?per_page=100"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "refresh_profile/1.0"})
@@ -129,17 +91,9 @@ def fetch_github_stats() -> Optional[GithubStats]:
 
     pushes = [e for e in events if e.get("type") == "PushEvent"]
     if not pushes:
-        return GithubStats(streak_days=0, last_commit_relative="no commits")
-
+        return None
     last_push_utc = datetime.fromisoformat(pushes[0]["created_at"].replace("Z", "+00:00"))
-    push_dates = [
-        datetime.fromisoformat(e["created_at"].replace("Z", "+00:00")).date()
-        for e in pushes
-    ]
-    return GithubStats(
-        streak_days=_streak_from_dates(push_dates),
-        last_commit_relative=_relative_time(last_push_utc),
-    )
+    return last_push_utc.astimezone(WARSAW_TZ).date()
 
 
 @dataclass
@@ -175,118 +129,97 @@ def fetch_alphaxiv_trending() -> Optional[TrendingPaper]:
     arxiv_id = href_m.group(1)
 
     window = html[href_m.end():href_m.end() + 4000]
-    title_m = re.search(
-        r'<div class="tiptap html-renderer[^"]*font-bold[^"]*"[^>]*>([^<]+)</div>',
-        window,
-    )
+    title_m = re.search(r'<h2 class="[^"]*font-title[^"]*"[^>]*>([^<]+)</h2>', window)
     if not title_m:
+        print("warning: alphaxiv layout changed, no title found", file=sys.stderr)
         return None
-    title = title_m.group(1).strip()
+    title = unescape(title_m.group(1)).strip()
 
     display = title
+    # First author is either a plain <button> or a linked profile <a rel="author">…<span>Name</span>
     author_m = re.search(
-        r'<div class="flex items-center gap-1\.5 font-normal"[^>]*type="button"[^>]*>([^<]+)</div>',
+        r'<button[^>]*type="button"[^>]*>([^<]+)</button>|<a rel="author"[^>]*>.*?<span[^>]*>([^<]+)</span>',
         window[title_m.end():],
     )
     if author_m:
-        combined = f"{title} · {author_m.group(1).strip()} et al."
-        # If combined overflows the card, drop the author tail rather than chop the title mid-word
-        if len(combined) <= 60:
+        combined = f"{title} · {unescape(author_m.group(1) or author_m.group(2)).strip()} et al."
+        # If combined overflows the two value lines, drop the author tail rather than the title
+        if len(combined) <= 2 * _VALUE_CHARS:
             display = combined
 
     return TrendingPaper(display=display, arxiv_id=arxiv_id)
 
 
-_SVG_TEMPLATE = """\
+# Card geometry. 480 wide so the text stays readable when GitHub mobile scales the
+# image down; the background is transparent so it sits on GitHub's own light/dark page.
+_CARD_W      = 480
+_LABEL_X     = 64
+_VALUE_X     = 144
+_ROW_TOP     = 112   # baseline of the first data row
+_ROW_STEP    = 24
+_VALUE_CHARS = 40    # ~312px of 13px monospace between _VALUE_X and the right padding
+
+_SVG_HEAD = """\
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="Xinyu Geng status card">
+<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Xinyu Geng status card">
   <style>
-    .bg            {{ fill: #FAFAF7; }}
-    .text-primary  {{ fill: #1A1A1A; font-family: Georgia, 'Times New Roman', serif; }}
-    .text-muted    {{ fill: #6B6B6B; font-family: Georgia, 'Times New Roman', serif; }}
-    .mono          {{ fill: #1A1A1A; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
-    .mono-muted    {{ fill: #6B6B6B; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
-    .accent        {{ fill: #2F4858; }}
+    .text-primary  {{ fill: #24292F; font-family: Georgia, 'Times New Roman', serif; }}
+    .text-muted    {{ fill: #57606A; font-family: Georgia, 'Times New Roman', serif; }}
+    .mono          {{ fill: #24292F; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
+    .mono-muted    {{ fill: #57606A; font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }}
     @media (prefers-color-scheme: dark) {{
-      .bg           {{ fill: #0F1014; }}
-      .text-primary {{ fill: #E8E8E2; }}
-      .text-muted   {{ fill: #8A8A85; }}
-      .mono         {{ fill: #E8E8E2; }}
-      .mono-muted   {{ fill: #8A8A85; }}
-      .accent       {{ fill: #8FA8B5; }}
+      .text-primary {{ fill: #E6EDF3; }}
+      .text-muted   {{ fill: #9DA7B3; }}
+      .mono         {{ fill: #E6EDF3; }}
+      .mono-muted   {{ fill: #9DA7B3; }}
     }}
   </style>
 
-  <rect class="bg" width="640" height="240"/>
-
-  <!-- Title block -->
-  <text x="320" y="48" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
-  <text x="320" y="72" text-anchor="middle" class="text-muted"   font-size="13">PhD · AI Security · AGH Krakow</text>
-
-  <!-- Divider: ◆ ── ◇ ── ◆  (center ◇ breathes) -->
-  <text x="320" y="98" text-anchor="middle" font-size="14" class="text-muted" letter-spacing="3">
-    <tspan class="accent">◆</tspan>
-    <tspan>──</tspan>
-    <tspan class="accent" opacity="0.3">◇<animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></tspan>
-    <tspan>──</tspan>
-    <tspan class="accent">◆</tspan>
-  </text>
-
-  <!-- Data rows -->
-  <text x="100" y="134" class="mono-muted" font-size="13">⤷ now</text>
-  <text x="195" y="134" class="mono"       font-size="13">{now}</text>
-
-  <text x="100" y="160" class="mono-muted" font-size="13">⤷ reading</text>
-  <text x="195" y="160" class="mono"       font-size="13">{reading}</text>
-
-  <text x="100" y="186" class="mono-muted" font-size="13">⤷ warsaw</text>
-  <text x="195" y="186" class="mono"       font-size="13">{warsaw}</text>
-
-  <text x="100" y="212" class="mono-muted" font-size="13">⤷ github</text>
-  <text x="195" y="212" class="mono"       font-size="13">{github}</text>
-
-  <!-- Live indicator (bottom right) -->
-  <text x="590" y="228" class="accent"     font-size="12" font-weight="bold">·<animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></text>
-  <text x="600" y="228" class="mono-muted" font-size="10">live</text>
-</svg>
+  <text x="{cx}" y="46" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
+  <text x="{cx}" y="70" text-anchor="middle" class="text-muted"   font-size="14">PhD · AI Security · AGH Krakow</text>
 """
 
 
-def _truncate(text: str, max_chars: int = 62) -> str:
-    """Trim text to fit inside the card without overflowing.
-
-    62 chars fits comfortably in 445px (640 viewBox - x=195 start) at 13px monospace.
-    """
-    return text if len(text) <= max_chars else text[: max_chars - 1].rstrip() + "…"
+def _wrap(text: str, width: int = _VALUE_CHARS, max_lines: int = 2) -> list[str]:
+    """Greedy word wrap into at most `max_lines` lines; the last line gets an ellipsis if cut."""
+    lines: list[str] = []
+    for word in text.split():
+        if lines and len(lines[-1]) + 1 + len(word) <= width:
+            lines[-1] += " " + word
+        else:
+            lines.append(word)
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        lines[-1] = lines[-1][: width - 1].rstrip() + "…"
+    return [line if len(line) <= width else line[: width - 1] + "…" for line in lines]
 
 
 def render_svg(
-    status: dict,
     weather: Optional[tuple[float, str]],
-    gh: Optional[GithubStats],
-    reading: str,
+    last_push: Optional[date],
+    reading: Optional[str],
 ) -> str:
-    """Return the complete SVG string. `reading` is already resolved (yaml literal or alphaxiv)."""
-    # Warsaw value: "14:23 CET · ☁ 12°C"  (weather optional)
-    warsaw = format_warsaw_time()
+    """Return the complete SVG string. Rows whose data could not be fetched are left out."""
+    rows: list[tuple[str, list[str]]] = []
+    if reading:
+        rows.append(("reading", _wrap(reading)))
     if weather is not None:
         temp, glyph = weather
-        warsaw = f"{warsaw} · {glyph} {round(temp)}°C"
+        rows.append(("warsaw", [f"{glyph} {round(temp)}°C"]))
+    if last_push is not None:
+        rows.append(("github", [f"last push {last_push.strftime('%b')} {last_push.day}"]))
 
-    # GitHub value: "12d streak · last commit 2h ago" or "(offline)"
-    if gh is None:
-        github_value = "(offline)"
-    elif gh.streak_days == 0:
-        github_value = f"last commit {gh.last_commit_relative}"
-    else:
-        github_value = f"{gh.streak_days}d streak · last commit {gh.last_commit_relative}"
+    body = []
+    y = _ROW_TOP
+    for label, lines in rows:
+        body.append(f'  <text x="{_LABEL_X}" y="{y}" class="mono-muted" font-size="13">{label}</text>')
+        for line in lines:
+            body.append(f'  <text x="{_VALUE_X}" y="{y}" class="mono" font-size="13">{escape(line)}</text>')
+            y += _ROW_STEP
+    height = (y - _ROW_STEP + 26) if rows else 90
 
-    return _SVG_TEMPLATE.format(
-        now=_truncate(status["now"]),
-        reading=_truncate(reading),
-        warsaw=warsaw,
-        github=github_value,
-    )
+    head = _SVG_HEAD.format(w=_CARD_W, h=height, cx=_CARD_W // 2)
+    return head + "\n".join(body) + "\n</svg>\n"
 
 
 _CARD_HREF_START = "<!-- card-href:start -->"
@@ -319,14 +252,14 @@ def update_card_href(readme: str, card_url: str) -> str:
 def main(dry_run: bool = False) -> None:
     status = load_status()
     weather = fetch_weather()
-    gh = fetch_github_stats()
+    last_push = fetch_last_push()
 
     # Resolve reading: 'auto' triggers alphaxiv fetch (string + arxiv id); else use literal
     yaml_reading = (status.get("reading") or "").strip()
     trending: Optional[TrendingPaper] = None
     if yaml_reading.lower() == "auto":
         trending = fetch_alphaxiv_trending()
-        reading_str = trending.display if trending else "(offline)"
+        reading_str = trending.display if trending else None
     else:
         reading_str = yaml_reading
 
@@ -335,7 +268,7 @@ def main(dry_run: bool = False) -> None:
         if trending else "https://www.alphaxiv.org/"
     )
 
-    svg = render_svg(status, weather, gh, reading_str)
+    svg = render_svg(weather, last_push, reading_str)
     new_readme = update_card_href(README_PATH.read_text(encoding="utf-8"), card_url)
 
     if dry_run:
