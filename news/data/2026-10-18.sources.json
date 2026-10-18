@@ -1,82 +1,82 @@
 [
  {
   "name": "Notes From Poland",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Warsaw Foodie",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Usta Magazyn",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Warsaw Insider",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": "窗口内无可用新条目"
  },
  {
   "name": "Polskie Radio",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "waw4free",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "dlastudenta 周末清单",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "PIK Warszawa",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Muzeum Narodowe",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "warn",
+  "note": "重定向到 mnw.pl，已抓取，窗口内无入选条目"
  },
  {
   "name": "Zachęta",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "CSW Zamek Ujazdowski",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Filharmonia Narodowa",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Teatr Wielki",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "Kinoteka",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "warn",
+  "note": "仅见常规排片，无明确艺术片特别场次"
  },
  {
   "name": "NASK",
-  "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "status": "ok",
+  "note": ""
  },
  {
   "name": "IDEAS NCBR",
   "status": "fail",
-  "note": "云端出口被封（DNS 解析失败 / 代理 403）"
+  "note": "503"
  }
 ]

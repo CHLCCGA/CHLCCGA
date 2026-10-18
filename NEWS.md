@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-11 (Europe/Warsaw) · 覆盖 2026-10-08 — 2026-10-11
-> 数据源：13 个站点 · 本期 10 条 · [JSON](news/data/2026-10-11.json)
+> 自动生成于 2026-10-18 (Europe/Warsaw) · 覆盖 2026-10-15 — 2026-10-18
+> 数据源：16 个站点 · 本期 14 条 · [JSON](news/data/2026-10-18.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -13,65 +13,65 @@
 
 ## ◇ Cool Finds
 
-**《水之语言》展览** · 5月9日起
+**Acephala 推出首个手袋系列 DRUTT**
+Acephala 推出处女系列 DRUTT，为可收藏手袋，采用手染面料，配可更换的不锈钢提手。
+*Usta Magazyn · 10月15日 · [原文 →](https://ustamagazyn.pl/2026/10/awangarda-do-reki/)*
 
-波兰馆参展第61届威尼斯双年展,呈现博格纳·伯斯卡和丹尼尔·科托夫斯基的音视频装置艺术作品。
-*Zachęta · 2026-10-11 · [原文 →](https://zacheta.art.pl/pl/wystawy/jezyki-z-wody-61-miedzynarodowa-wystawa-sztuki-w-wenecji)*
+**Zachęta 新展：Karolina Grzywnowicz《Odwrażliwianie》 · 10月16日 起**
+10月16日开展，至2027年1月10日。展览探讨权力如何作用于身体与感官，以及抵抗的形式。
+*Zachęta · 10月18日 · [原文 →](https://zacheta.art.pl/pl/wystawy/odwrazliwianie)*
 
-**《追踪白虎》——古斯蒙作品展** · 8月28日起
-
-当代艺术家约翰·玛丽亚·古斯蒙的作品展正在扎切塔画廊展出,8月至10月期间向公众开放。
-*Zachęta · 2026-10-11 · [原文 →](https://zacheta.art.pl/pl/wystawy/joao-maria-gusmao-sladami-bialego-tygrysa)*
+**CSW 新展：Anna Baumgart《HEM》 · 10月24日 起**
+Anna Baumgart 的展览，10月24日起展至2027年2月28日，10月23日19:00 开幕。
+*CSW Zamek Ujazdowski · 10月18日 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/hem)*
 
 ---
 
 ## ▸ New Spots
 
-**Il Pastaiolo 意面餐厅** （Śródmieście, Nowy Świat）
-
-新市街新开的意大利餐厅,主要提供意面和披萨。
-*Warsaw Foodie · 2026-09-29 · [原文 →](https://warsawfoodie.pl/2026/09/pastaiolo-nowa-wloska-restauracja-na-nowym-swiecie/)*
+**Seulka：Powiśle 新开的韩式吐司店（Powiśle, ul. Solec）**
+位于 Powiśle 的 Solec 街，7月开业，吐司用日式牛奶面包制作。
+*Warsaw Foodie · 10月17日 · [原文 →](https://warsawfoodie.pl/2026/10/seulka-nowe-miejsce-z-koreanskimi-tostami-na-powislu/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**直觉舞蹈工作坊** · 10月12日
-在普拉格-波比提乌举办的舞蹈表达工作坊,通过身体感知探索内心表达。 · Praga-Południe
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-160187-taniec-intuicyjny-warsztaty-tanecznej-ekspresji-odzyskaj-siebie-nowa-fala-tanca)*
+**本周末华沙做什么（10月16–18日）** · 10月16日
+周六：Simple Plan 在 EXPO XXI（18:00），Gibbs 在 Torwar（20:00）。周日：Plaża Wilanów 的 Królewski Festiwal Światła 16:00 起，Muzeum Historii Polski 18:00 有 Stanisław Soyka 致敬音乐会。
+*Dla Studenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-na-weekend-1618-pazdziernika-2026-simple-plan-gibbs-i-krolewski-festiwal-swiatla,161258.html)*
 
-**认真观察——民族志工作坊** · 10月18日
-探索本地文化与社区的民族志工作坊,附波兰手语翻译服务。 · Białołęka
-*Waw4Free · [原文 →](https://waw4free.pl/wydarzenie-160228-uwazne-spojrzenie-warsztaty-etnograficzne-o-odkrywaniu-lokalnosci-tlumaczenie-pjm)*
+**Bennewitz Quartet 国家爱乐室内乐音乐会** · 10月20日
+10月20日19:00，演出者为 Bennewitz Quartet（Jakub Fišer、Štěpán Ježek、Jiří Pinkas、Štěpán Doležal）。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-kameralny-548809436)*
 
-**第十四届皇家光影节** · 10月17日
-威兰欧王宫举办的大型光影艺术节,呈现沉浸式灯光装置展览。 · Wilanów
-*Waw4Free · [原文 →](https://waw4free.pl/gebeurtenenie-159961-xiv-krolewski-festiwal-swiatla)*
+**大剧院歌剧《Matki Chersonia》** · 10月23日
+10月23日19:00。Maxim Kolomiiets 作曲、George Brant 编剧的两幕歌剧，英语演出，与大都会歌剧院联合制作。 · Teatr Wielki – Sala Moniuszki
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/matki-chersonia/termin/2026-10-23_19-00/)*
 
-**歌剧《赫尔松之母》首演** · 10月16日
-马克西姆·科洛米列茨创作的现代歌剧,在大剧院蒙尼乌什卡厅首演。 · Sala Moniuszki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/matki-chersonia/termin/2026-10-16_19-00/)*
+**Food Town 五周岁庆典** · 10月23日
+Fabryka Norblina 的 Food Town 庆祝五岁生日，10月23–25日三天活动，主题“never alone”。 · Fabryka Norblina, Wola
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/urodziny-food-town-w-fabryce-norblina/)*
 
-**普契尼歌剧《蝴蝶夫人》** · 10月22日
-普契尼经典歌剧《蝴蝶夫人》在华沙大剧院上演。 · Sala Moniuszki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-10-22_19-00/)*
+**Da Pacem 周年音乐会** · 10月24日
+10月24日18:00，Śródmieście。页面列出 S.Oak、D. Rasouli 等参演。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-158978-da-pacem-koncert-jubileuszowy-s-oak-d-rasouli-i-inni)*
 
-**电影《玫瑰》** · 10月11日
-传记类电影《玫瑰》在基诺特克影院放映,呈现独特的历史故事。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/roza/)*
-
-**电影《黄金时段》** · 10月11日
-剧情片《黄金时段》在基诺特克影院多场放映。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/primetime/)*
+**Mokotów 亲子城市游戏 Akademia Strachów** · 10月30日
+10月30日16:00在 Mokotów 举行的亲子城市游戏，页面标为儿童活动。 · Mokotów
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160200-mokotowska-akademia-strachow-rodzinna-gra-miejska)*
 
 ---
 
 ## · Poland Brief
 
-*（本期无）*
+- **波兰谴责以色列定居者袭击含波兰外交官的代表团** — 法国、比利时、欧盟及以色列外长也已谴责。 (Notes From Poland, 10/18)
+- **波兰签署第二座核电站规划协议** — 能源部长称这是对国家安全与主权的投资。 (Notes From Poland, 10/15)
+- **NASK 与 PGE 合作：数据中心余热供暖** — 两家机构拟建数据中心，余热送入暖气。 (NASK, 10/15)
+- **华沙敦促科技公司遏制暴力网络内容** — 数字事务部召见谷歌、Meta 等网络公司。 (Polskie Radio, 10/17)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Ustamagazyn · ✅ Polskie Radio · ✅ Waw4Free · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ U Jazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ❌ IDEAS NCBR (HTTP 503)
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ❌ IDEAS NCBR

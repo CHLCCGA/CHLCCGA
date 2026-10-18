@@ -24,14 +24,14 @@ Multi-agent AI security · LLM evaluation
 #### ──── news ────
 <!--news:start-->
 
-*updated 2026-10-11*
+*updated 2026-10-18*
 
-▸ 第十四届皇家光影节
-▸ 歌剧《赫尔松之母》首演
-▸ 《水之语言》展览
-▸ 普契尼歌剧《蝴蝶夫人》
-▸ Il Pastaiolo 意面餐厅
-▸ 直觉舞蹈工作坊
+▸ Acephala 推出首个手袋系列 DRUTT
+▸ Seulka：Powiśle 新开的韩式吐司店
+▸ 本周末华沙做什么（10月16–18日）
+▸ 波兰谴责以色列定居者袭击含波兰外交官的代表团
+▸ Bennewitz Quartet 国家爱乐室内乐音乐会
+▸ 大剧院歌剧《Matki Chersonia》
 
 <!--news:end-->
 
