@@ -1,77 +1,67 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-18 (Europe/Warsaw) · 覆盖 2026-10-15 — 2026-10-18
-> 数据源：16 个站点 · 本期 14 条 · [JSON](news/data/2026-10-18.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-10-19 (Europe/Warsaw) · 覆盖 2026-10-16 — 2026-10-19
+> 数据源：16 个站点 · 本期 10 条 · [JSON](news/data/2026-10-19.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**华沙展览用气味呈现波白边境危机**
+一场华沙展览借助气味和追踪犬实验，探讨滞留在边境的移民的经历。
+*Polskie Radio · 2026-10-19 · [原文 →](https://www.polskieradio.pl/395/7791/Artykul/3743197,warsaw-exhibition-uses-scent-to-explore-polandbelarus-border-crisis)*
 
 ---
 
 ## ◇ Cool Finds
 
-**Acephala 推出首个手袋系列 DRUTT**
-Acephala 推出处女系列 DRUTT，为可收藏手袋，采用手染面料，配可更换的不锈钢提手。
-*Usta Magazyn · 10月15日 · [原文 →](https://ustamagazyn.pl/2026/10/awangarda-do-reki/)*
-
-**Zachęta 新展：Karolina Grzywnowicz《Odwrażliwianie》 · 10月16日 起**
-10月16日开展，至2027年1月10日。展览探讨权力如何作用于身体与感官，以及抵抗的形式。
-*Zachęta · 10月18日 · [原文 →](https://zacheta.art.pl/pl/wystawy/odwrazliwianie)*
-
-**CSW 新展：Anna Baumgart《HEM》 · 10月24日 起**
-Anna Baumgart 的展览，10月24日起展至2027年2月28日，10月23日19:00 开幕。
-*CSW Zamek Ujazdowski · 10月18日 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/hem)*
+**Zachęta：Susan Hiller 回顾展《Zgubione, znalezione》** · 10月30日 起
+英国艺术家 Susan Hiller（1940–2019）的回顾展，围绕被遗忘的图像、语言与集体记忆的痕迹，10月30日开展，至2027年1月31日。
+*Zachęta · 2026-10-19 · [原文 →](https://zacheta.art.pl/pl/wystawy/susan-hiller-lost-and-found-ikona-brytyjskiego-konceptualizm)*
 
 ---
 
 ## ▸ New Spots
 
-**Seulka：Powiśle 新开的韩式吐司店（Powiśle, ul. Solec）**
-位于 Powiśle 的 Solec 街，7月开业，吐司用日式牛奶面包制作。
-*Warsaw Foodie · 10月17日 · [原文 →](https://warsawfoodie.pl/2026/10/seulka-nowe-miejsce-z-koreanskimi-tostami-na-powislu/)*
+*（本期无）*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**本周末华沙做什么（10月16–18日）** · 10月16日
-周六：Simple Plan 在 EXPO XXI（18:00），Gibbs 在 Torwar（20:00）。周日：Plaża Wilanów 的 Królewski Festiwal Światła 16:00 起，Muzeum Historii Polski 18:00 有 Stanisław Soyka 致敬音乐会。
-*Dla Studenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-na-weekend-1618-pazdziernika-2026-simple-plan-gibbs-i-krolewski-festiwal-swiatla,161258.html)*
+**Kinoteka 纪录片《Pieśni lasu》配香气作曲特别场** · 10月19日
+纪录片特别放映，10月19–20日配有 Alba1913 的香气作曲；19日场次为18:00和20:00。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/piesni-lasu/)*
 
-**Bennewitz Quartet 国家爱乐室内乐音乐会** · 10月20日
-10月20日19:00，演出者为 Bennewitz Quartet（Jakub Fišer、Štěpán Ježek、Jiří Pinkas、Štěpán Doležal）。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-kameralny-548809436)*
+**国家爱乐交响音乐会：Markus Stenz 与 Simone Lamsma** · 10月23日
+10月23日19:30举行交响音乐会，演出者为 Markus Stenz 和 Simone Lamsma；24日18:00另有一场。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-symfoniczny-523014626)*
 
-**大剧院歌剧《Matki Chersonia》** · 10月23日
-10月23日19:00。Maxim Kolomiiets 作曲、George Brant 编剧的两幕歌剧，英语演出，与大都会歌剧院联合制作。 · Teatr Wielki – Sala Moniuszki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/matki-chersonia/termin/2026-10-23_19-00/)*
+**Jazz po polsku 音乐节在 Jassmine Club** · 10月25日
+爵士音乐节在 Jassmine Club 举行，日期为10月18日和25日。 · Jassmine Club
+*Warsaw Insider · [原文 →](https://warsawinsider.pl/jazz-po-polsku-festival-october-18-25-at-jassmine-club/)*
 
-**Food Town 五周岁庆典** · 10月23日
-Fabryka Norblina 的 Food Town 庆祝五岁生日，10月23–25日三天活动，主题“never alone”。 · Fabryka Norblina, Wola
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/urodziny-food-town-w-fabryce-norblina/)*
+**国家博物馆讲座：松本达也谈 urushi 漆艺** · 10月26日
+Matsumoto Tatsuya 就日本传统 urushi 漆举办专家讲座，10月26日，免费入场。 · Muzeum Narodowe
+*Muzeum Narodowe w Warszawie · [原文 →](https://mnw.pl/wydarzenia/9776256)*
 
-**Da Pacem 周年音乐会** · 10月24日
-10月24日18:00，Śródmieście。页面列出 S.Oak、D. Rasouli 等参演。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-158978-da-pacem-koncert-jubileuszowy-s-oak-d-rasouli-i-inni)*
+**Akademia Strachów 十周年亲子城市游戏（Wawer）** · 10月31日
+10月31日16:00在 Wawer 举行的亲子城市游戏，庆祝 Akademia Strachów 十周年。 · Wawer
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160201-akademia-strachow-swietuje-10-lecie-rodzinna-gra-miejska-w-wawrze)*
 
-**Mokotów 亲子城市游戏 Akademia Strachów** · 10月30日
-10月30日16:00在 Mokotów 举行的亲子城市游戏，页面标为儿童活动。 · Mokotów
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160200-mokotowska-akademia-strachow-rodzinna-gra-miejska)*
+**Natalia Dolska 放松音乐会《Gong, koc i święty spokój》** · 10月31日
+10月31日在 Teatr Nowe Formy 举行，观众躺在垫子上盖着毯子，聆听藏钵、锣、水晶钵、风铃和鼓的声音。 · Teatr Nowe Formy, ul. Zakroczymska 11
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/inne/gong-koc-i-swiety-spokoj-koncert-relaksacyjny-natalii-dolskiej/)*
 
 ---
 
 ## · Poland Brief
 
-- **波兰谴责以色列定居者袭击含波兰外交官的代表团** — 法国、比利时、欧盟及以色列外长也已谴责。 (Notes From Poland, 10/18)
-- **波兰签署第二座核电站规划协议** — 能源部长称这是对国家安全与主权的投资。 (Notes From Poland, 10/15)
-- **NASK 与 PGE 合作：数据中心余热供暖** — 两家机构拟建数据中心，余热送入暖气。 (NASK, 10/15)
-- **华沙敦促科技公司遏制暴力网络内容** — 数字事务部召见谷歌、Meta 等网络公司。 (Polskie Radio, 10/17)
+- **波兰放弃将帮助非法移民入罪的提案** — 内务部在人权组织和联合执政部长反对后，撤回对无偿帮助移民者最高判三年的计划。 (Notes From Poland, 10/16)
+- **波兰拟让更多市镇征收游客税** — 修法取消环境条件，克拉科夫等更多市镇可征收，2027年起每晚5兹罗提。 (Notes From Poland, 10/17)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ❌ IDEAS NCBR
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR
