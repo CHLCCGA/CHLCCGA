@@ -1,0 +1,196 @@
+[
+  {
+    "id": "89b7d985d5",
+    "category": "poland_brief",
+    "title_zh": "波兰拘留涉嫌间谍活动的波乌籍预备役军人",
+    "title_original": "Poland detains Polish-Ukrainian military reservist on suspicion of espionage",
+    "summary_zh": "31岁预备役军人被捕。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/10/20/poland-detains-polish-ukrainian-military-reservist-on-suspicion-of-espionage/",
+    "published_date": "2026-10-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "espionage",
+      "security"
+    ]
+  },
+  {
+    "id": "c99416ba8d",
+    "category": "poland_brief",
+    "title_zh": "波兰领导人驳斥赫格塞思有关阿富汗的言论",
+    "title_original": "Polish leaders condemn Hegseth's “scandalous” remarks downplaying role of US allies in Afghanistan",
+    "summary_zh": "图斯克回应美方贬低盟友贡献。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/10/20/polish-leaders-condemn-hegseths-scandalous-remarks-downplaying-role-of-us-allies-in-afghanistan/",
+    "published_date": "2026-10-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "us",
+      "diplomacy"
+    ]
+  },
+  {
+    "id": "394ed4bffa",
+    "category": "poland_brief",
+    "title_zh": "波兰财政部长在不信任动议中过关",
+    "title_original": "Polish finance minister survives no-confidence vote in parliament",
+    "summary_zh": "下院否决针对 Domański 的动议。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3744275,polish-finance-minister-survives%20noconfidence-vote-in%20parliament",
+    "published_date": "2026-10-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "politics",
+      "sejm"
+    ]
+  },
+  {
+    "id": "f9aef7a507",
+    "category": "poland_brief",
+    "title_zh": "NASK 参加波兰互联网治理论坛 IGF Polska",
+    "title_original": "Bezpieczny internet zaczyna się od nas. NASK na IGF Polska",
+    "summary_zh": "NASK 回顾两天的数字峰会讨论。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci/bezpieczny-internet-zaczyna-sie-od-nas-nask-na-igf-polska",
+    "published_date": "2026-10-20",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "cybersecurity",
+      "nask"
+    ]
+  },
+  {
+    "id": "289891ee2d",
+    "category": "new_spots",
+    "title_zh": "Seiryū：Powiśle 新开的亚洲融合餐厅",
+    "title_original": "Seiryū – nowa restauracja z azjatycką kuchnią fusion na Powiślu",
+    "summary_zh": "位于 Solec 街，9月开业，前菜有汤和 gyoza 饺子。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/10/seiryu-nowa-restauracja-z-azjatycka-kuchnia-fusion-na-powislu/",
+    "published_date": "2026-10-20",
+    "event_date": null,
+    "venue": "Powiśle, ul. Solec",
+    "tags": [
+      "asian",
+      "fusion",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "e246689178",
+    "category": "new_spots",
+    "title_zh": "Saikò Ramen：Wola 新开的日式拉面店",
+    "title_original": "Saikò Ramen – nowa japońska restauracja na Woli",
+    "summary_zh": "位于 Towarowa 街，6月开业，主打拉面、炒乌冬和乌冬汤。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/10/saiko-ramen-nowa-japonska-restauracja-na-woli/",
+    "published_date": "2026-10-19",
+    "event_date": null,
+    "venue": "Wola, ul. Towarowa",
+    "tags": [
+      "japanese",
+      "ramen",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "d670f605b9",
+    "category": "cool_finds",
+    "title_zh": "Zachęta 新展：Alina Szapocznikow / Nairy Baghramian",
+    "title_original": "Alina Szapocznikow / Nairy Baghramian",
+    "summary_zh": "纪念 Szapocznikow 诞辰百年，将她的雕塑、素描、版画和摄影与 Baghramian 的新作并置。展期至2027年1月31日。",
+    "source_name": "Zachęta",
+    "source_url": "https://zacheta.art.pl/pl/wystawy/alina-szapocznikow-nairy-baghramian",
+    "published_date": "2026-10-16",
+    "event_date": "2026-10-16",
+    "venue": "Zachęta",
+    "tags": [
+      "exhibition",
+      "sculpture"
+    ]
+  },
+  {
+    "id": "0802e6603f",
+    "category": "cool_finds",
+    "title_zh": "Henryk Guterman（1913–1938）：被夺走的才华",
+    "title_original": "Henryk Guterman (1913–1938) – zabity talent | wystawa w Warszawie",
+    "summary_zh": "展出西班牙内战中阵亡的波兰犹太画家 Guterman 的素描，多描绘战争与平民苦难。10月30日至2027年1月17日，Żoliborz 的 X Pawilon 博物馆。",
+    "source_name": "PIK Warszawa",
+    "source_url": "https://pik.warszawa.pl/art/henryk-guterma-wystawa-warszawa/",
+    "published_date": "2026-10-20",
+    "event_date": "2026-10-30",
+    "venue": "Muzeum X Pawilonu Cytadeli Warszawskiej, ul. Skazańców 25",
+    "tags": [
+      "exhibition",
+      "history"
+    ]
+  },
+  {
+    "id": "6d66ba311a",
+    "category": "upcoming_events",
+    "title_zh": "NYX 酒店万圣节前奏：魔术表演与 DJ",
+    "title_original": "Halloween Prequel One Night at NYX Warsaw",
+    "summary_zh": "10月23日20:00在 NYX Hotel 的 CLASH 酒吧举行，Antirabbity 表演，DJ HotFader 打碟，20:00起设免费恐怖妆容区，免费入场。",
+    "source_name": "PIK Warszawa",
+    "source_url": "https://pik.warszawa.pl/inne/halloween-w-hotelu-nyx-warsaw/",
+    "published_date": "2026-10-19",
+    "event_date": "2026-10-23",
+    "venue": "NYX Hotel Warszawa, ul. Chmielna 71",
+    "tags": [
+      "halloween",
+      "free"
+    ]
+  },
+  {
+    "id": "3564c5ec54",
+    "category": "upcoming_events",
+    "title_zh": "POL-ENG Super Quiz：英语/波兰语酒吧问答",
+    "title_original": "POL-ENG Super Quiz Warsaw (PUB QUIZ)",
+    "summary_zh": "10月25日17:00在 Śródmieście 举行，付费活动，最高 30 zł。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-160369-pol-eng-super-quiz-warsaw-pub-quiz",
+    "published_date": "2026-10-21",
+    "event_date": "2026-10-25",
+    "venue": "Śródmieście",
+    "tags": [
+      "quiz",
+      "english"
+    ]
+  },
+  {
+    "id": "037ffef1eb",
+    "category": "upcoming_events",
+    "title_zh": "Kinoteka 特别场：Pianistka（Kino dyskomfortu 系列）",
+    "title_original": "PIANISTKA | Kino dyskomfortu [seans bez reklam]",
+    "summary_zh": "10月21日20:00的特别放映，属 Kino dyskomfortu 系列，无广告场次。",
+    "source_name": "Kinoteka",
+    "source_url": "https://kinoteka.pl/film/pianistka-kino-dyskomfortu/",
+    "published_date": "2026-10-21",
+    "event_date": "2026-10-21",
+    "venue": "Kinoteka",
+    "tags": [
+      "cinema",
+      "special"
+    ]
+  },
+  {
+    "id": "9a71824560",
+    "category": "upcoming_events",
+    "title_zh": "国家爱乐：第17届维尼亚夫斯基小提琴比赛获奖者音乐会",
+    "title_original": "Koncert laureatów 17. Międzynarodowego Konkursu Skrzypcowego im. Henryka Wieniawskiego",
+    "summary_zh": "10月25日（周日）18:00在国家爱乐举行。",
+    "source_name": "Filharmonia Narodowa",
+    "source_url": "https://filharmonia.pl/repertuar/koncert-laureatow-xvii-miedzynarodowego-konkursu-skrzypcowego-wieniawskiego",
+    "published_date": "2026-10-21",
+    "event_date": "2026-10-25",
+    "venue": "Filharmonia Narodowa",
+    "tags": [
+      "concert",
+      "violin"
+    ]
+  }
+]
