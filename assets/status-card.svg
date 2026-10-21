@@ -16,10 +16,10 @@
   <text x="240" y="46" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
   <text x="240" y="70" text-anchor="middle" class="text-muted"   font-size="14">PhD · AI Security · AGH Krakow</text>
   <text x="64" y="112" class="mono-muted" font-size="13">reading</text>
-  <text x="144" y="112" class="mono" font-size="13">A Language-Informed Loss for Visual</text>
-  <text x="144" y="136" class="mono" font-size="13">Generation · Suchir Agarwal et al.</text>
+  <text x="144" y="112" class="mono" font-size="13">MemT-1.0: Towards Memory-Native</text>
+  <text x="144" y="136" class="mono" font-size="13">Evolution · Zhiyu Li et al.</text>
   <text x="64" y="160" class="mono-muted" font-size="13">warsaw</text>
-  <text x="144" y="160" class="mono" font-size="13">☂ 7°C</text>
+  <text x="144" y="160" class="mono" font-size="13">⛅ 11°C</text>
   <text x="64" y="184" class="mono-muted" font-size="13">github</text>
   <text x="144" y="184" class="mono" font-size="13">last push Oct 18</text>
 </svg>
