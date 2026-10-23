@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-21 (Europe/Warsaw) · 覆盖 2026-10-18 — 2026-10-21
-> 数据源：16 个站点 · 本期 12 条 · [JSON](news/data/2026-10-21.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-10-23 (Europe/Warsaw) · 覆盖 2026-10-20 — 2026-10-23
+> 数据源：16 个站点 · 本期 11 条 · [JSON](news/data/2026-10-23.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -13,60 +13,59 @@
 
 ## ◇ Cool Finds
 
-**Zachęta 新展：Alina Szapocznikow / Nairy Baghramian** · 10月16日 起
-纪念 Szapocznikow 诞辰百年，将她的雕塑、素描、版画和摄影与 Baghramian 的新作并置。展期至2027年1月31日。
-*Zachęta · 2026-10-16 · [原文 →](https://zacheta.art.pl/pl/wystawy/alina-szapocznikow-nairy-baghramian)*
+**Czasorozmycie：Orbaczewska 与 Rukšāne 联展** · 10月24日 起
+Zachęta 的 Miejsce Projektów 10月24日开展，展期至2027年1月10日。
+*Zachęta · 2026-10-23 · [原文 →](https://zacheta.art.pl/pl/wystawy/anna-orbaczewska-i-luze-ruksne-czasorozmycie-rozwazania-nad)*
 
-**Henryk Guterman（1913–1938）：被夺走的才华** · 10月30日 起
-展出西班牙内战中阵亡的波兰犹太画家 Guterman 的素描，多描绘战争与平民苦难。10月30日至2027年1月17日，Żoliborz 的 X Pawilon 博物馆。
-*PIK Warszawa · 2026-10-20 · [原文 →](https://pik.warszawa.pl/art/henryk-guterma-wystawa-warszawa/)*
+**Róża Litwa 展《Czy można zaufać czerwieni》** · 10月24日 起
+Zamek Ujazdowski 当代艺术中心10月24日开展，展期至2027年2月28日。
+*CSW Zamek Ujazdowski · 2026-10-23 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/czy-mozna-zaufac-czerwieni)*
 
 
 ---
 
 ## ▸ New Spots
 
-**Seiryū：Powiśle 新开的亚洲融合餐厅**（Powiśle, ul. Solec）
-位于 Solec 街，9月开业，前菜有汤和 gyoza 饺子。
-*Warsaw Foodie · 2026-10-20 · [原文 →](https://warsawfoodie.pl/2026/10/seiryu-nowa-restauracja-z-azjatycka-kuchnia-fusion-na-powislu/)*
-
-**Saikò Ramen：Wola 新开的日式拉面店**（Wola, ul. Towarowa）
-位于 Towarowa 街，6月开业，主打拉面、炒乌冬和乌冬汤。
-*Warsaw Foodie · 2026-10-19 · [原文 →](https://warsawfoodie.pl/2026/10/saiko-ramen-nowa-japonska-restauracja-na-woli/)*
+**Ryba & Bagiel：沃拉区新开的鱼肉贝果餐车**（Wola, Kolejowa）
+位于 Kolejowa 街的餐车，由 Hala Mirowska 摊位 Nemo 的团队经营，现场制作鱼肉贝果三明治。
+*Warsaw Foodie · 2026-10-22 · [原文 →](https://warsawfoodie.pl/2026/10/ryba-bagiel-rybne-kanapki-w-nowym-miejscu-na-woli/)*
 
 
 ---
 
 ## ⤷ Upcoming Events
 
-**Kinoteka 特别场：Pianistka（Kino dyskomfortu 系列）** · 10月21日
-10月21日20:00的特别放映，属 Kino dyskomfortu 系列，无广告场次。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/pianistka-kino-dyskomfortu/)*
+**本周末华沙做什么（10月23–25日）** · 10月23日
+周五 Klub Stodoła 起有 Jazz Jamboree 2026，COS Torwar 20:00 举行 Polska Noc Kabaretowa；周日 17:30 Legia–Lech 比赛在 Stadion Miejski Legii；周五起 Muzeum Narodowe 的“Nabiści”展开放。 · Warszawa
+*dlastudenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-w-weekend-23-25-pazdziernika-2026-koncerty-polska-noc-kabaretowa-targi-franczyza-i-mecz-legia-lech,161306.html)*
 
-**NYX 酒店万圣节前奏：魔术表演与 DJ** · 10月23日
-10月23日20:00在 NYX Hotel 的 CLASH 酒吧举行，Antirabbity 表演，DJ HotFader 打碟，20:00起设免费恐怖妆容区，免费入场。 · NYX Hotel Warszawa, ul. Chmielna 71
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/inne/halloween-w-hotelu-nyx-warsaw/)*
+**国家歌剧院《罗密欧与朱丽叶》** · 10月24日
+10月24日 19:00 在 Teatr Wielki – Opera Narodowa 演出。 · Teatr Wielki – Opera Narodowa
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/romeo-i-julia/termin/2026-10-24_19-00/)*
 
-**POL-ENG Super Quiz：英语/波兰语酒吧问答** · 10月25日
-10月25日17:00在 Śródmieście 举行，付费活动，最高 30 zł。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160369-pol-eng-super-quiz-warsaw-pub-quiz)*
+**Park Skaryszewski 秋日导览散步** · 10月25日
+10月25日 11:30，Praga-Południe，有导游带领，自愿捐助。 · Praga-Południe
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160674-park-skaryszewski-historycznie-i-artystycznie-jesienny-spacer-z-przewodnikiem)*
 
-**国家爱乐：第17届维尼亚夫斯基小提琴比赛获奖者音乐会** · 10月25日
-10月25日（周日）18:00在国家爱乐举行。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-laureatow-xvii-miedzynarodowego-konkursu-skrzypcowego-wieniawskiego)*
+**Dziady：亲子夜间寻宝游戏与工作坊** · 10月30日
+10月30日 16:30，Śródmieście，面向儿童与青少年的户外游戏和工作坊。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160675-dziady-zjawy-nocy-rodzinna-gra-terenowa-i-tajemnicze-warsztaty)*
+
+**Nagrobki 万圣节音乐会** · 10月31日
+10月31日 20:00 在 Mokotów 的 Klub Mechanik，来自三城的乐队，风格融合嘈杂吉他摇滚、cold wave 与早期黑金属。 · Klub Mechanik, Narbutta 87
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/nagrobki-i-mikolaj-trzaska-koncert/)*
 
 
 ---
 
 ## · Poland Brief
 
-- **波兰拘留涉嫌间谍活动的波乌籍预备役军人** — 31岁预备役军人被捕。 (Notes From Poland, 10/20)
-- **波兰领导人驳斥赫格塞思有关阿富汗的言论** — 图斯克回应美方贬低盟友贡献。 (Notes From Poland, 10/20)
-- **波兰财政部长在不信任动议中过关** — 下院否决针对 Domański 的动议。 (Polskie Radio, 10/20)
-- **NASK 参加波兰互联网治理论坛 IGF Polska** — NASK 回顾两天的数字峰会讨论。 (NASK, 10/20)
+- **图斯克访印：波印目标2030年贸易翻番** — 图斯克与莫迪在新德里会谈，设定2030年双边贸易翻倍目标。 (Notes From Poland, 10/22)
+- **议会通过放宽堕胎法案** — 下院通过两项法案，总统预计否决。 (Notes From Poland, 10/21)
+- **乌克兰小提琴家夺得维尼亚夫斯基大赛冠军** — Bohdan Luts 获第17届国际小提琴比赛冠军。 (Polskie Radio, 10/22)
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR
