@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="210" viewBox="0 0 480 210" role="img" aria-label="Xinyu Geng status card">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="162" viewBox="0 0 480 162" role="img" aria-label="Xinyu Geng status card">
   <style>
     .text-primary  { fill: #24292F; font-family: Georgia, 'Times New Roman', serif; }
     .text-muted    { fill: #57606A; font-family: Georgia, 'Times New Roman', serif; }
@@ -16,10 +16,7 @@
   <text x="240" y="46" text-anchor="middle" class="text-primary" font-size="28" font-style="italic">Xinyu Geng</text>
   <text x="240" y="70" text-anchor="middle" class="text-muted"   font-size="14">PhD · AI Security · AGH Krakow</text>
   <text x="64" y="112" class="mono-muted" font-size="13">reading</text>
-  <text x="144" y="112" class="mono" font-size="13">SuperMimic: Scaling Humanoid Whole-Body</text>
-  <text x="144" y="136" class="mono" font-size="13">Control with One Differentiable World…</text>
-  <text x="64" y="160" class="mono-muted" font-size="13">warsaw</text>
-  <text x="144" y="160" class="mono" font-size="13">⛅ 10°C</text>
-  <text x="64" y="184" class="mono-muted" font-size="13">github</text>
-  <text x="144" y="184" class="mono" font-size="13">last push Oct 19</text>
+  <text x="144" y="112" class="mono" font-size="13">Agentic World Action Models · Liu et al.</text>
+  <text x="64" y="136" class="mono-muted" font-size="13">github</text>
+  <text x="144" y="136" class="mono" font-size="13">last push Oct 23</text>
 </svg>
