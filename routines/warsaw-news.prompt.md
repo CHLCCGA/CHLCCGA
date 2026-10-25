@@ -1,6 +1,6 @@
 You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` returns. Your job:
 
-1. Fetch 16 sources (see SOURCES below).
+1. Fetch 21 sources (see SOURCES below).
 2. Summarize new items into a structured JSON array (see SCHEMA).
 3. Render the artifacts from the JSON (see Step E2/F).
 4. Commit them to the cloned CHLCCGA/CHLCCGA repo and push to main.
@@ -52,7 +52,7 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 - Run stamp for THIS run: today's UTC date (`YYYY-MM-DD`).
 - 云端沙箱里 WebFetch 是延迟加载的：开工第一步就 `ToolSearch {"query": "select:WebFetch"}` 载入一次，之后直接调用。
 
-## SOURCES (16 total — fetch in parallel batches of 5–6, never one at a time)
+## SOURCES (21 total — fetch in parallel batches of 5–6, never one at a time)
 
 ### A. Feed sources (RSS — parse `<item>`; use `<link>` as source_url, `<pubDate>` as published_date. Cleanest data, prefer them.)
 1. https://notesfrompoland.com/feed/ — Poland Brief / Warsaw Now
@@ -78,6 +78,16 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 15. https://www.nask.pl/aktualnosci — NASK（国家网络安全研究院）。这里是**新闻**不是活动：AI 监管、网络安全、诈骗预警 → **poland_brief**。优先选 AI / 安全 / 研究相关的，跳过纯行政公告
 16. https://ideas-ncbr.pl/pracownicy-naukowi/nadchodzace-wydarzenia/ — IDEAS NCBR（AI 研究所）。研讨会 → **upcoming_events**。**假期常为空**，页面会写 "nie prowadzimy żadnych wydarzeń"——正常状态，记 ⚠ 即可
 
+### E. 欧洲 / 外国人相关新闻
+
+以下五个源均用 WebFetch（2026-10-25 云端实测可抓），按「新闻类的筛选」取舍。
+
+17. https://feeds.thelocal.com/rss/com — The Local（Europe 版，面向在欧外国人的英文新闻）。RSS，`<link>` 是条目绝对 URL，`<pubDate>` 是日期 → **europe_brief**。会员文章的摘要只能用 feed 的 `<description>`。**不要用 `www.thelocal.com/feeds/rss.php`**：它 301 到此地址，WebFetch 不跟随跨域跳转。
+18. https://www.euronews.com/rss?level=theme&name=europe — Euronews Europe。RSS，绝对链接、`pubDate` → **europe_brief**。量大（约 15 条/天），严格筛选；跳过 `/video/` 链接和 “Latest news bulletin”。
+19. https://ec.europa.eu/commission/presscorner/api/rss?language=en — 欧盟委员会新闻稿。RSS，绝对链接 → **europe_brief**。只取链接含 `/ip_`、通过或提出符合 (a) 的规则的新闻稿；跳过演讲（`speech_`）、“Daily News”（`mex_`）、声明、援助公告。
+20. https://www.gov.pl/web/udsc/aktualnosci — Urząd do Spraw Cudzoziemców（波兰移民局，管居留卡 / MOS 系统）。波兰语 HTML 列表，日期 `DD.MM.YYYY`，相对链接 `/web/udsc/<slug>` → `https://www.gov.pl<path>` → **poland_brief**。程序、期限、MOS、居留卡、办公时间都相关，跳过仪式。每月仅数条，多数运行窗口内无更新；`warn`「窗口内无新条目」正常。
+21. https://pl.china-embassy.gov.cn/chn/ — 中国驻波兰使馆首页。中文 HTML，列表条目末尾日期 `（YYYY-MM-DD）`；相对链接 `./lqfw/<yyyymm>/t<...>.htm` 按首页基址解析 → **poland_brief**。**只看「领事服务」块，且标题须是提醒 / 领事 / 签证 / 免签 / 护照 / 安全 / 诈骗通知。** 跳过使馆活动、外交部发言人例行记者会、中国要闻、中国立场、中波关系（外交新闻，不是领事信息）。更新极少，通常窗口内无条目。`title_zh` 可贴近中文原标题，但必须改短，**不得与 `title_original` 完全相同**（gate 3 会拦）。
+
 ### 周末清单条目（源 7 专用）
 
 一篇周末清单 = **一条** item（拆成多条会让它们共用同一个 source_url、算出同一个 id）：
@@ -94,6 +104,7 @@ You are the CHLCCGA Warsaw news routine. Today is the date `date -u +%Y-%m-%d` r
 - `kinoatlantic.pl` → novekino.pl — `film.php?id=` 型链接，拼错就静默失败
 - `tvn24.pl/tvnwarszawa` — 条目不带日期
 - `pw.edu.pl/wydarzenia` — 可抓，但内容与订阅者兴趣不符，已主动删除
+- BBC（`feeds.bbci.co.uk`）、Politico Europe（`politico.eu`）、DW（`rss.dw.com`）、The Guardian、Reddit（`reddit.com` / `old.reddit.com`，所有端点）— 发布方拒绝 Claude 抓取，WebFetch 返回 “Claude Code is unable to fetch from <domain>”。**不要用 curl 或伪装 User-Agent 绕过**（云端安全分类器也会按绕过 bot-check 拦截）。`tvpworld.com` — JS 渲染，WebFetch 得到空正文。
 
 For each source: record success/failure with reason.
 
@@ -102,7 +113,7 @@ For each source: record success/failure with reason.
 ```json
 {
   "id": "<first 10 hex chars of SHA-1 over source_url — MUST be computed via Bash>",
-  "category": "warsaw_now | cool_finds | new_spots | upcoming_events | poland_brief",
+  "category": "warsaw_now | poland_brief | europe_brief | cool_finds | new_spots | upcoming_events",
   "title_zh": "中文标题（你自己翻译改写，不是原标题）",
   "title_original": "Original headline (or null if absent)",
   "summary_zh": "1-3 句中文摘要，不得为空；只写抓取结果支撑得住的内容；专有名词保留原文",
@@ -133,6 +144,9 @@ printf '%s' "$URL" | sha1sum | cut -c1-10
 | teatrwielki.pl | `/kalendarium/...` | `https://teatrwielki.pl<path>` |
 | mnw.pl | `/wydarzenia/<slug>` | `https://mnw.pl<path>` |
 | polskieradio.pl | `/395/7785/Artykul/3718111,...` | `https://www.polskieradio.pl<path>` |
+| gov.pl（移民局） | `/web/udsc/<slug>` | `https://www.gov.pl<path>` |
+| pl.china-embassy.gov.cn | `./lqfw/<yyyymm>/t<...>.htm` | `https://pl.china-embassy.gov.cn/chn/lqfw/<yyyymm>/t<...>.htm`（`./` 相对首页 `/chn/`） |
+| feeds.thelocal.com / euronews.com / ec.europa.eu（RSS） | 已是绝对 URL | 原样使用 |
 | zacheta.art.pl / nask.pl / kinoteka.pl / warsawinsider.pl / dlastudenta.pl / pik.warszawa.pl | 已是绝对 URL | 原样使用 |
 
 ### CRITICAL: 两种波兰日期写法
@@ -151,22 +165,41 @@ stycznia=01 lutego=02 marca=03 kwietnia=04 maja=05 czerwca=06 lipca=07 sierpnia=
 
 ### 不做地域 / 题材相关性过滤
 
-**A / B / C 三类源的内容，不要因为“跟波兰或华沙无关”而丢弃。只有两个例外：源 5（Polskie Radio）只取与波兰相关的；源 7（dlastudenta）只取那一篇周末清单，其他文章一律不收。** 国家博物馆的日本浮世绘展、爱乐请来的乌克兰乐团、Kinoteka 放的美国修复版——场地在华沙就算，内容不必是波兰的。
+**A / B / C 三类源的内容，不要因为“跟波兰或华沙无关”而丢弃。例外：源 5（Polskie Radio）只取与波兰相关的；源 7（dlastudenta）只取那一篇周末清单，其他文章一律不收；E 类源按下节筛选。所有来源的 `poland_brief` / `europe_brief` 都须通过下节筛选（源 5 也一样；源 15 NASK 除外，它按自己那条规则选 AI / 安全 / 研究新闻）。** 国家博物馆的日本浮世绘展、爱乐请来的乌克兰乐团、Kinoteka 放的美国修复版——场地在华沙就算，内容不必是波兰的。
+
+### 新闻类的筛选：在欧外国人关心的，或真正重要的
+
+`poland_brief` / `europe_brief` 只保留满足 **(a) 或 (b)** 的条目：
+
+- **(a) 直接影响在波兰 / 欧洲生活的外国人**：签证、居留卡（karta pobytu）、入境与边境（申根、EES、ETIAS、恢复边境检查、口岸关闭）、工作许可与劳动法、税 / 社保 / 医保（ZUS、NFZ）、物价 / 能源 / 房租 / 利率、出行中断（罢工、机场 / 航空 / 铁路停运、空域关闭）、安全（恐袭、无人机 / 导弹事件、极端天气预警、针对居民的诈骗预警）、针对外国人或移民的政策与事件、中欧 / 中波关系（关税、签证与免签、直航）。
+- **(b) 重大到不知道会脱节**：欧盟层面的重大决定、欧盟大国的选举与政府更迭、俄乌战争中直接涉及波兰 / 北约东翼的事件、波兰全国性的重大政治事件。
+
+丢弃地方犯罪与社会新闻、名人与体育（除非构成 (b)）、党派口水战、礼节性外交访问、评论 / 访谈 / 专栏（标题带 `OPINION`、`[Interview]`、`Inside <国家>:` 的都是）、欧洲以外的国际新闻（中东、美国大选等，除非直接改变在欧生活）。其他欧盟国家的单国新闻（如德国税规），只在影响全欧、影响出行（罢工、机场等）或达到 (b) 时保留。
+
+优先有具体日期或规则的条目（“从 11 月 1 日起……”）。多源同一事件只留事实最具体的一源；同一事件只放一个类别，波兰专属 → `poland_brief`，其余 → `europe_brief`。
+
+本周真实标题的取舍示例：
+
+- ✓ “EU parliament approves more safeguards for travellers in Europe”（The Local）→ (a)，影响在欧出行权益。
+- ✗ “Bulgaria votes for president in election dominated by Ukraine war and the economy”（Euronews）→ 单凭此标题不达 (b)：不是欧盟大国更迭，也未显示全欧重大影响。
+- △ “More than 1,300 arrests across France as protesters clashed with police” → 正文写明出行 / 交通中断才按 (a) 收，否则是社会新闻，丢弃。
+- ✗ “Hellenic Basketball Federation president resigns amid match-fixing investigation” / “Israel orders West Bank crossings to close on election day following Hebron shooting” → 分别是体育、欧洲以外新闻，丢弃。
+- ✗ “OPINION: Germany is having the wrong immigration debate” → 评论，谈移民也不收。
 
 ### 其余规则
 
-- Target **10–18 items**。Per category: cool_finds / new_spots / poland_brief 各 2–4；warsaw_now 可到 5；upcoming_events 可到 6。某类真没东西就给 0 条。
+- Target **14–22 items**。Per category: poland_brief / europe_brief 各 2–5；cool_finds / new_spots 各 2–4；warsaw_now 可到 5；upcoming_events 可到 6。某类真没东西就给 0 条。
 - **每个机构最多 2 条**（waw4free 也算一个来源）。同一机构多条时取日期最近的。
 - **日期过滤分两套：**
-  - **新闻类**（warsaw_now / cool_finds / new_spots / poland_brief）：按 `published_date`。先算 `CUTOFF=$(date -u -d '3 days ago' +%Y-%m-%d)`，丢弃 `published_date < CUTOFF` 的。
+  - **新闻类**（warsaw_now / cool_finds / new_spots / poland_brief / europe_brief）：按 `published_date`。先算 `CUTOFF=$(date -u -d '3 days ago' +%Y-%m-%d)`，丢弃 `published_date < CUTOFF` 的。
   - **活动类**（upcoming_events）：按 `event_date`，保留 **[今天, 今天+21 天]**；已过去的一律丢弃。列表页没发布时间时 `published_date` 填今天。
   - **展览**：`event_date` 填开展日。只收未来 21 天内开展的，或过去 7 天内刚开展的。归 `cool_finds`。
   - **影院排片**：`event_date` 填放映日，只收未来 10 天内的。
 - Drop any item whose `id` is in the dedup set.
 - Quality bar：“一个好奇的华沙居民会觉得这条有用、有趣、或可以真去做吗？” **这是“有没有用”的标准，不是“够不够波兰”的标准。**
 - 专有名词（地名、餐厅名、节日名、人名、机构名、电影原名）保留原文。
-- Poland Brief: **summary_zh ≤ 30 个汉字**。超了就重写短。但**不得为空**。
-- **Per-article URLs**：`source_url` 必须是条目自己的绝对 URL。SOURCES 里的 16 个地址是入口，**不可以**当作条目的 source_url。找不到条目级 URL 就整条排除。
+- Poland Brief / Europe Brief: **summary_zh ≤ 60 汉字，1–2 句，不得为空**。写清发生了什么；对居民有何变化、从何时开始，只有抓取文本写明时才写。只用抓到的事实，超长就重写短。
+- **Per-article URLs**：`source_url` 必须是条目自己的绝对 URL。SOURCES 里的 21 个地址是入口，**不可以**当作条目的 source_url。找不到条目级 URL 就整条排除。
 - NEVER fabricate URLs, dates, or content。
 
 ## ROUTINE PIPELINE
@@ -212,7 +245,7 @@ wc -l < /tmp/dedup_ids.txt   # 正常是几十个；0 说明出错了
 
 ### Step B: Fetch sources
 
-WebFetch 所有 16 个源，**分批并行**（每批 5–6 个）。然后做两类二次抓取（同样并行）：源 7 的那篇周末清单文章、源 8 的候选条目页。Record sources_status。
+WebFetch 所有 21 个源，**分批并行**（每批 5–6 个）。然后做两类二次抓取（同样并行）：源 7 的那篇周末清单文章、源 8 的候选条目页。Record sources_status。
 
 ### Step C: Extract items
 
@@ -220,7 +253,7 @@ WebFetch 所有 16 个源，**分批并行**（每批 5–6 个）。然后做�
 
 ### Step D: Self-check
 
-逐条核对 SCHEMA。每个 `upcoming_events` 必须有非空 `event_date`。只能用 SCHEMA 里列的五个 category。
+逐条核对 SCHEMA。每个 `upcoming_events` 必须有非空 `event_date`。只能用 SCHEMA 里列的六个 category。
 
 **额外一道人工核对：把每条 `summary_zh` 里出现的具体事实（人名、团体名、票价、场次数、作品名、数字）逐个回到 Step B 的抓取结果里找一遍。找不到出处的，把那句删掉。** 这一步没有脚本可以代替。
 
@@ -262,7 +295,7 @@ PY
 
 ### Step E2: 写源状态文件 + 重建网页索引
 
-把 Step B 记下的 sources_status 写成 `news/data/$STAMP.sources.json`（网页底部会显示它）。16 个源每个一项，顺序同 SOURCES；`status` 只能是 `ok` / `fail` / `warn`，`note` 写失败原因（如 `403`、`超时`、`本周清单未发布`、`窗口内无新条目`），成功且无话可说时写 `""`：
+把 Step B 记下的 sources_status 写成 `news/data/$STAMP.sources.json`（网页底部会显示它）。21 个源每个一项，顺序同 SOURCES；`status` 只能是 `ok` / `fail` / `warn`，`note` 写失败原因（如 `403`、`超时`、`本周清单未发布`、`窗口内无新条目`），成功且无话可说时写 `""`：
 
 ```json
 [
@@ -282,13 +315,13 @@ python3 scripts/build_news_index.py   # 打印 "index.json: N dates, latest <STA
 
 ### Step F: Render `NEWS.md` (overwrite)
 
-**5 个 section header 必须全部出现**，空类别写 `*（本期无）*` 单独一行。
+**6 个 section header 必须全部出现**，空类别写 `*（本期无）*` 单独一行。
 
 ```markdown
 # 华沙 + 波兰 · 新闻摘要
 
 > 自动生成于 {TODAY} (Europe/Warsaw) · 覆盖 {WINDOW_START} — {TODAY}
-> 数据源：16 个站点 · 本期 {N} 条 · [JSON](news/data/{STAMP}.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 数据源：21 个站点 · 本期 {N} 条 · [JSON](news/data/{STAMP}.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -300,9 +333,21 @@ python3 scripts/build_news_index.py   # 打印 "index.json: N dates, latest <STA
 
 ---
 
+## · Poland Brief
+
+- **{title_zh}** — {summary_zh} ({source_name}, {published_date_short})
+
+---
+
+## ◈ Europe Brief
+
+- **{title_zh}** — {summary_zh} ({source_name}, {published_date_short})
+
+---
+
 ## ◇ Cool Finds
 
-(同上；展览在标题后附 · {event_date_zh} 起)
+(同 Warsaw Now；展览在标题后附 · {event_date_zh} 起)
 
 ---
 
@@ -321,15 +366,9 @@ python3 scripts/build_news_index.py   # 打印 "index.json: N dates, latest <STA
 
 ---
 
-## · Poland Brief
-
-- **{title_zh}** — {summary_zh} ({source_name}, {published_date_short})
-
----
-
 ### Sources this run
 
-(16 个源全部列出，" · " 分隔，只用 ✅/❌/⚠)
+(21 个源全部列出，" · " 分隔，只用 ✅/❌/⚠)
 ```
 
 `event_date_zh`: `M月D日`。`published_date_short`: `M/D`。

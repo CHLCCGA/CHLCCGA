@@ -69,10 +69,11 @@
 <script>
 const CATEGORIES = [
   ["warsaw_now", "◆ Warsaw Now", "华沙动态"],
+  ["poland_brief", "· Poland Brief", "波兰时政"],
+  ["europe_brief", "◈ Europe Brief", "欧洲要闻"],
   ["cool_finds", "◇ Cool Finds", "展览与发现"],
   ["new_spots", "▸ New Spots", "新店"],
   ["upcoming_events", "⤷ Upcoming Events", "近期活动"],
-  ["poland_brief", "· Poland Brief", "波兰简讯"],
 ];
 const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
 
@@ -166,7 +167,7 @@ function render(date, dates, items, sources) {
     sec.append(h);
     if (!list.length) {
       sec.append(el("p", "empty", "（本期无）"));
-    } else if (key === "poland_brief") {
+    } else if (key === "poland_brief" || key === "europe_brief") {
       const ul = el("ul", "brief");
       for (const it of list) {
         const li = el("li");
