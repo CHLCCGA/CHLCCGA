@@ -1,0 +1,129 @@
+[
+ {
+  "id": "cfa0ac94d9",
+  "category": "europe_brief",
+  "title_zh": "泽连斯基确认11月将举行美俄乌三方会谈",
+  "title_original": "Ukraine's Zelenskyy confirms trilateral talks with Russia and US to take place in November",
+  "summary_zh": "泽连斯基确认乌克兰、俄罗斯与美国将于11月举行三方会谈，旨在重启停滞的和平进程。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/10/25/ukraines-zelenskyy-confirms-trilateral-talks-with-russia-and-us-to-take-place-in-november",
+  "published_date": "2026-10-25",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "ukraine",
+   "diplomacy"
+  ]
+ },
+ {
+  "id": "9721c4c123",
+  "category": "europe_brief",
+  "title_zh": "风暴袭击北欧，断电、航班和通讯受影响",
+  "title_original": "Storms batter Europe hitting power supplies, flights and phones",
+  "summary_zh": "北欧风暴造成逾15万户停电，数百架航班取消，手机网络受扰。",
+  "source_name": "The Local",
+  "source_url": "https://www.thelocal.com/20261025/storms-batter-europe-hitting-power-supplies-flights-and-phones",
+  "published_date": "2026-10-25",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "weather",
+   "flights"
+  ]
+ },
+ {
+  "id": "bb0800476f",
+  "category": "new_spots",
+  "title_zh": "La La Mian：沃拉区手工拉面中餐馆",
+  "title_original": "La La Mian – nowa restauracja chińska z ręcznie robionymi makaronami",
+  "summary_zh": "Wola 区新开的中餐馆，主打手工制作的面条。",
+  "source_name": "Warsaw Foodie",
+  "source_url": "https://warsawfoodie.pl/2026/10/la-la-mian-nowa-restauracja-chinska-z-recznie-robionymi-makaronami/",
+  "published_date": "2026-10-25",
+  "event_date": null,
+  "venue": "Wola",
+  "tags": [
+   "chinese",
+   "noodles",
+   "wola"
+  ]
+ },
+ {
+  "id": "c5396c3a0f",
+  "category": "new_spots",
+  "title_zh": "Fermenti：教宗约翰·保罗二世大道的意式街头小吃",
+  "title_original": "Fermenti – nowe włoskie miejsce z włoskim street foodem",
+  "summary_zh": "一对夫妇经营的意式街头小吃店，位于 Aleja Jana Pawła II。",
+  "source_name": "Warsaw Foodie",
+  "source_url": "https://warsawfoodie.pl/2026/10/fermenti-nowe-wloskie-miejsce-z-wloskim-street-foodem/",
+  "published_date": "2026-10-23",
+  "event_date": null,
+  "venue": "Aleja Jana Pawła II",
+  "tags": [
+   "italian",
+   "street-food"
+  ]
+ },
+ {
+  "id": "5815aaebe1",
+  "category": "cool_finds",
+  "title_zh": "Susan Hiller 回顾展在 Zachęta 开幕",
+  "title_original": "Susan Hiller. Zgubione, znalezione",
+  "summary_zh": "Zachęta 的 Susan Hiller 展览10月30日开幕，展期至2027年1月31日。",
+  "source_name": "Zachęta",
+  "source_url": "https://zacheta.art.pl/pl/wystawy/susan-hiller-lost-and-found-ikona-brytyjskiego-konceptualizm",
+  "published_date": "2026-10-26",
+  "event_date": "2026-10-30",
+  "venue": "Zachęta",
+  "tags": [
+   "exhibition",
+   "art"
+  ]
+ },
+ {
+  "id": "ecac328a88",
+  "category": "upcoming_events",
+  "title_zh": "国家歌剧院《蝴蝶夫人》",
+  "title_original": "Madame Butterfly",
+  "summary_zh": "Teatr Wielki 10月30日19:00在 Sala Moniuszki 上演歌剧《Madame Butterfly》。",
+  "source_name": "Teatr Wielki – Opera Narodowa",
+  "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-10-30_19-00/",
+  "published_date": "2026-10-26",
+  "event_date": "2026-10-30",
+  "venue": "Teatr Wielki, Sala Moniuszki",
+  "tags": [
+   "opera"
+  ]
+ },
+ {
+  "id": "474d3eec88",
+  "category": "upcoming_events",
+  "title_zh": "Kinoteka 瓦伊达百年专题：《无麻醉》",
+  "title_original": "BEZ ZNIECZULENIA | WAJDA: re-wizje",
+  "summary_zh": "10月26日 Kinoteka 放映，属纪念 Andrzej Wajda 诞辰100周年的影展特别场次。",
+  "source_name": "Kinoteka",
+  "source_url": "https://kinoteka.pl/film/bez-znieczulenia-wajda-re-wizje-przeglad-filmow-andrzeja-wajdy-w-100-rocznice-urodzin/",
+  "published_date": "2026-10-26",
+  "event_date": "2026-10-26",
+  "venue": "Kinoteka",
+  "tags": [
+   "film",
+   "retrospective"
+  ]
+ },
+ {
+  "id": "f44435db5a",
+  "category": "upcoming_events",
+  "title_zh": "国家歌剧院歌剧《Matki Chersonia》",
+  "title_original": "Matki Chersonia",
+  "summary_zh": "Teatr Wielki 10月27日19:00在 Sala Moniuszki 上演歌剧《Matki Chersonia》。",
+  "source_name": "Teatr Wielki – Opera Narodowa",
+  "source_url": "https://teatrwielki.pl/kalendarium/2026-2027/matki-chersonia/termin/2026-10-27_19-00/",
+  "published_date": "2026-10-26",
+  "event_date": "2026-10-27",
+  "venue": "Teatr Wielki, Sala Moniuszki",
+  "tags": [
+   "opera"
+  ]
+ }
+]
