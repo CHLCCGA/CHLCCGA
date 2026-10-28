@@ -1,0 +1,194 @@
+[
+  {
+    "id": "f6efc534ab",
+    "category": "poland_brief",
+    "title_zh": "美国选定波兰建爱国者导弹维修中心",
+    "title_original": "US chooses Poland to host service facility for Patriot missiles",
+    "summary_zh": "波兰击败德国、荷兰和挪威的竞标，将承接美国爱国者导弹的维修中心。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/10/27/us-chooses-poland-to-host-service-facility-for-patriot-missiles/",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "defence",
+      "patriot"
+    ]
+  },
+  {
+    "id": "f19b058b84",
+    "category": "poland_brief",
+    "title_zh": "欧盟新包裹费：波兰预计小额进口继续减少",
+    "title_original": "Poland expects new EU parcel fee to deepen drop in small imports",
+    "summary_zh": "海关负责人预计，11月1日起对欧盟外低价包裹征收的2欧元处理费将进一步压低小额进口。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7786/Artykul/3746392,poland-expects-new-eu-parcel-fee-to-deepen-drop-in-small-imports",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "parcels",
+      "customs"
+    ]
+  },
+  {
+    "id": "f58266a40a",
+    "category": "poland_brief",
+    "title_zh": "Agnieszka Bartol出任波兰欧盟资金部长",
+    "title_original": "Agnieszka Bartol named as Poland's new minister for EU funds",
+    "summary_zh": "Agnieszka Bartol被任命为波兰新任欧盟资金部长。",
+    "source_name": "Polskie Radio",
+    "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3746464,agnieszka-bartol-named-as-polands-new-minister-for-eu-funds",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "government",
+      "eu-funds"
+    ]
+  },
+  {
+    "id": "36601c831c",
+    "category": "poland_brief",
+    "title_zh": "NASK出席SET Forum：AI如何不失控",
+    "title_original": "AI zmienia zasady gry. NASK na SET Forum 2026",
+    "summary_zh": "NASK参加SET Forum 2026，专家讨论如何在不失控的前提下使用人工智能。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci/ai-zmienia-zasady-gry-nask-na-set-forum-2026",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "ai",
+      "nask"
+    ]
+  },
+  {
+    "id": "125786f016",
+    "category": "europe_brief",
+    "title_zh": "欧委会提议强化Frontex并主导遣返",
+    "title_original": "Commission proposal to reinforce Frontex",
+    "summary_zh": "欧盟委员会提议加强外部边境保护，让Frontex成为欧盟遣返事务的核心机构。",
+    "source_name": "European Commission",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2260",
+    "published_date": "2026-10-26",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "frontex",
+      "border"
+    ]
+  },
+  {
+    "id": "1fe1f86fde",
+    "category": "new_spots",
+    "title_zh": "Em Warsaw：越南咖啡馆与法棍三明治",
+    "title_original": "Em Warsaw – nowa wietnamska kawiarnia z banh mi",
+    "summary_zh": "位于 Aleja Jana Pawła II 的越南咖啡馆，供应咖啡、抹茶饮品、早餐和午餐。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/10/em-warsaw-nowa-wietnamska-kawiarnia-z-banh-mi/",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": "Aleja Jana Pawła II",
+    "tags": [
+      "vietnamese",
+      "cafe"
+    ]
+  },
+  {
+    "id": "09552a122d",
+    "category": "new_spots",
+    "title_zh": "Włoska Chata：Nowogrodzka 的意大利餐厅",
+    "title_original": "Włoska Chata – nowa włoska restauracja przy Nowogrodzkiej",
+    "summary_zh": "位于 Nowogrodzka 的意大利餐厅，菜单有开胃菜、意面、披萨、沙拉和主菜。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/10/wloska-chata-nowa-wloska-restauracja-przy-nowogrodzkiej/",
+    "published_date": "2026-10-26",
+    "event_date": null,
+    "venue": "Nowogrodzka",
+    "tags": [
+      "italian",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "cc66d3af26",
+    "category": "new_spots",
+    "title_zh": "Wazaap：抹茶吧与精品咖啡",
+    "title_original": "Wazaap – Matcha Bar & Specialty Coffee",
+    "summary_zh": "市中心的一家抹茶吧兼精品咖啡店。",
+    "source_name": "Warsaw Insider",
+    "source_url": "https://warsawinsider.pl/wazaap-matcha-bar-specialty-coffee/",
+    "published_date": "2026-10-27",
+    "event_date": null,
+    "venue": "Centre",
+    "tags": [
+      "matcha",
+      "coffee"
+    ]
+  },
+  {
+    "id": "eba8b69b09",
+    "category": "cool_finds",
+    "title_zh": "《Oratorium na konstytucję Ziemi》即将开展",
+    "title_original": "Oratorium na konstytucję Ziemi",
+    "summary_zh": "CSW Zamek Ujazdowski 的新展，11月13日19:00开幕，展期11月14日至2027年3月28日。",
+    "source_name": "CSW Zamek Ujazdowski",
+    "source_url": "https://www.u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi",
+    "published_date": "2026-10-28",
+    "event_date": "2026-11-14",
+    "venue": "CSW Zamek Ujazdowski",
+    "tags": [
+      "exhibition",
+      "contemporary-art"
+    ]
+  },
+  {
+    "id": "d1c282c175",
+    "category": "upcoming_events",
+    "title_zh": "免费会议 Scamming Out! Summit：网络防诈",
+    "title_original": "Bezpłatna konferencja Scamming Out! Summit - CYBERODPORNE SPOŁECZEŃSTWO",
+    "summary_zh": "11月4日9:00在 Śródmieście 举行的免费会议，含工作坊与讲座。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-160378-bezplatna-konferencja-scamming-out-summit-cyberodporne-spoleczenstwo",
+    "published_date": "2026-10-28",
+    "event_date": "2026-11-04",
+    "venue": "Śródmieście",
+    "tags": [
+      "conference",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "923c976d75",
+    "category": "upcoming_events",
+    "title_zh": "国家博物馆讲座：Menzel 的“自我”",
+    "title_original": "„Ja” artysty. Menzla egocentryzm, czyli modelowy realizm",
+    "summary_zh": "11月5日18:00国家博物馆举办关于 Adolph Menzel 的讲座，聚焦他有关自己与亲近圈子的作品，免费入场。",
+    "source_name": "Muzeum Narodowe",
+    "source_url": "https://mnw.pl/wydarzenia/wyklad/ja-artysty-menzla-egocentryzm-czyli-modelowy-realizm-2",
+    "published_date": "2026-10-28",
+    "event_date": "2026-11-05",
+    "venue": "Muzeum Narodowe",
+    "tags": [
+      "lecture",
+      "free"
+    ]
+  },
+  {
+    "id": "d19437e2a6",
+    "category": "upcoming_events",
+    "title_zh": "Ursus 儿童爱国主题美术工作坊",
+    "title_original": "Warsztaty patriotyczne dla dzieci w DK Portiernia",
+    "summary_zh": "11月7日11:00在 Dom Kultury Portiernia（Ursus）举办，儿童通过美术了解波兰的符号、传统与国旗色彩，票价1 PLN起。",
+    "source_name": "PIK Warszawa",
+    "source_url": "https://pik.warszawa.pl/dzieci/warsztaty-patriotyczne-warszawa/",
+    "published_date": "2026-10-28",
+    "event_date": "2026-11-07",
+    "venue": "Dom Kultury Portiernia, ul. Traktorzystów 20",
+    "tags": [
+      "kids",
+      "workshop"
+    ]
+  }
+]
