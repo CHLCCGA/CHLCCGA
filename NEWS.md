@@ -1,74 +1,74 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-28 (Europe/Warsaw) · 覆盖 2026-10-25 — 2026-10-28
-> 数据源：21 个站点 · 本期 12 条 · [JSON](news/data/2026-10-28.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-10-30 (Europe/Warsaw) · 覆盖 2026-10-27 — 2026-10-30
+> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-10-30.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**土耳其工程师制作华沙实时3D像素地图**
+地图包含近20万栋建筑，电车按真实时刻表运行，并显示实时天气。
+*Notes From Poland · 2026-10-28 · [原文 →](https://notesfrompoland.com/2026/10/28/turkish-engineer-creates-live-3d-pixel-map-of-adopted-hometown-warsaw/)*
 
 ---
 
 ## · Poland Brief
 
-- **美国选定波兰建爱国者导弹维修中心** — 波兰击败德国、荷兰和挪威的竞标，将承接美国爱国者导弹的维修中心。 (Notes From Poland, 10/27)
-- **欧盟新包裹费：波兰预计小额进口继续减少** — 海关负责人预计，11月1日起对欧盟外低价包裹征收的2欧元处理费将进一步压低小额进口。 (Polskie Radio, 10/27)
-- **Agnieszka Bartol出任波兰欧盟资金部长** — Agnieszka Bartol被任命为波兰新任欧盟资金部长。 (Polskie Radio, 10/27)
-- **NASK出席SET Forum：AI如何不失控** — NASK参加SET Forum 2026，专家讨论如何在不失控的前提下使用人工智能。 (NASK, 10/27)
+- **卡钦斯基演讲提及欧盟退出谈判，引发争议** — 图斯克指责卡钦斯基企图把波兰推出欧盟；卡钦斯基称法律与公正党希望改革欧盟并“还权于公民”。 (Notes From Poland, 10/29)
+- **NASK发起全国运动，帮助教师应对网络仇恨** — NASK联合数字化部和波兰教师工会发起全国运动，帮助教师识别并应对网络仇恨与激进化。 (NASK, 10/29)
 
 ---
 
 ## ◈ Europe Brief
 
-- **欧委会提议强化Frontex并主导遣返** — 欧盟委员会提议加强外部边境保护，让Frontex成为欧盟遣返事务的核心机构。 (European Commission, 10/26)
+- **欧盟与加拿大拟扩大跨大西洋居住工作机会** — 欧盟与加拿大计划建立新伙伴关系，扩大双方居住、学习和工作的选择。 (The Local, 10/29)
+- **欧洲天然气价格自2022年来首破100欧元** — 基准天然气价格突破每兆瓦时100欧元，欧盟能源专员警告冬季将艰难。 (Euronews, 10/28)
+- **欧洲央行维持利率2.5%，拉加德将提前离任** — 欧洲央行维持存款利率2.5%，通胀3.8%；拉加德将于2027年2月7日离任。 (Euronews, 10/29)
+- **欧委会拟将Frontex人员扩大三倍并扩大遣返权力** — 欧委会提议将Frontex人员增至三倍，并扩大遣返和社交媒体监控权力，引发权利方面的担忧。 (Euronews, 10/29)
 
 ---
 
 ## ◇ Cool Finds
 
-**《Oratorium na konstytucję Ziemi》即将开展** · 11月14日 起
-CSW Zamek Ujazdowski 的新展，11月13日19:00开幕，展期11月14日至2027年3月28日。
-*CSW Zamek Ujazdowski · 2026-10-28 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi)*
-
+**Zachęta：Orbaczewska与Rukšāne联展《Czasorozmycie》** · 10月24日 起
+该展10月24日开幕，展期至2027年1月10日。
+*Zachęta · 2026-10-30 · [原文 →](https://zacheta.art.pl/pl/wystawy/anna-orbaczewska-i-luze-ruksne-czasorozmycie-rozwazania-nad)*
 
 ---
 
 ## ▸ New Spots
 
-**Em Warsaw：越南咖啡馆与法棍三明治**（Aleja Jana Pawła II）
-位于 Aleja Jana Pawła II 的越南咖啡馆，供应咖啡、抹茶饮品、早餐和午餐。
-*Warsaw Foodie · 2026-10-27 · [原文 →](https://warsawfoodie.pl/2026/10/em-warsaw-nowa-wietnamska-kawiarnia-z-banh-mi/)*
+**Dom Figula：维斯瓦河岸的匈牙利餐厅酒庄**（['hungarian', 'restaurant']）
+匈牙利餐厅兼酒庄，9月开业，由一位经营匈牙利葡萄酒进口的波兰人创办。
+*Warsaw Foodie · 2026-10-29 · [原文 →](https://warsawfoodie.pl/2026/10/dom-figula-wegierskie-smaki-z-widokiem-na-wisle/)*
 
-**Włoska Chata：Nowogrodzka 的意大利餐厅**（Nowogrodzka）
-位于 Nowogrodzka 的意大利餐厅，菜单有开胃菜、意面、披萨、沙拉和主菜。
-*Warsaw Foodie · 2026-10-26 · [原文 →](https://warsawfoodie.pl/2026/10/wloska-chata-nowa-wloska-restauracja-przy-nowogrodzkiej/)*
-
-**Wazaap：抹茶吧与精品咖啡**（Centre）
-市中心的一家抹茶吧兼精品咖啡店。
-*Warsaw Insider · 2026-10-27 · [原文 →](https://warsawinsider.pl/wazaap-matcha-bar-specialty-coffee/)*
-
+**Splendido：沃拉区新开意大利餐厅**（['italian', 'restaurant']）
+意大利餐厅，位于Wronia街，7月开业，出自经营多家华沙餐饮场所的团队。
+*Warsaw Foodie · 2026-10-28 · [原文 →](https://warsawfoodie.pl/2026/10/splendido-nowa-wloska-restauracja-na-woli/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**免费会议 Scamming Out! Summit：网络防诈** · 11月4日
-11月4日9:00在 Śródmieście 举行的免费会议，含工作坊与讲座。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160378-bezplatna-konferencja-scamming-out-summit-cyberodporne-spoleczenstwo)*
+**本周末华沙做什么（10月30日–11月1日）** · 10月30日
+周五19:00 Teatr Wielki 上演普契尼《蝴蝶夫人》，周五16:30 Jazdów 有免费的“Dziady: zjawy nocy”家庭活动。周六19:00 Klub Stodoła 的 Perfect 演唱会已售罄，周六 20:00 COS Torwar 有 Legia–Dziki 篮球德比。周五、周六夜间多家影院和俱乐部举办万圣节活动。 · 华沙
+*Dla Studenta Warszawa · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-weekend-w-warszawie-30-pazdziernika1-listopada-2026-koncerty-halloween-i-wydarzenia,161394.html)*
 
-**国家博物馆讲座：Menzel 的“自我”** · 11月5日
-11月5日18:00国家博物馆举办关于 Adolph Menzel 的讲座，聚焦他有关自己与亲近圈子的作品，免费入场。 · Muzeum Narodowe
-*Muzeum Narodowe · [原文 →](https://mnw.pl/wydarzenia/wyklad/ja-artysty-menzla-egocentryzm-czyli-modelowy-realizm-2)*
+**Kinoteka特别场次：《Zobaczysz wszystko》** · 10月30日
+10月30日19:00放映，场次标注为“特别场次”。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/zobaczysz-wszystko/)*
 
-**Ursus 儿童爱国主题美术工作坊** · 11月7日
-11月7日11:00在 Dom Kultury Portiernia（Ursus）举办，儿童通过美术了解波兰的符号、传统与国旗色彩，票价1 PLN起。 · Dom Kultury Portiernia, ul. Traktorzystów 20
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/dzieci/warsztaty-patriotyczne-warszawa/)*
+**Powązki军人公墓夜间漫步** · 10月31日
+10月31日16:00举行的傍晚漫步，参加方式为自愿捐助。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161154-powazki-wojskowe-po-zmroku-wieczorny-spacer-sladami-niezwyklych-ludzi)*
 
+**国家爱乐交响音乐会：Polaris首演** · 11月6日
+11月6日19:30，指挥Christoph König，中提琴独奏Timothy Ridout，首演Grażyna Pstrokońska-Nawratil的《Polaris》。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-symfoniczny-337507716)*
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ✅ European Commission · ⚠ UDSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ⚠ 欧盟委员会新闻稿 · ⚠ 波兰移民局 UdSC · ⚠ 中国驻波兰使馆
