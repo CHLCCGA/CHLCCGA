@@ -1,10 +1,11 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T15:27:13.568382Z",
+ "generated_at": "2026-11-02T15:45:31.896090Z",
  "groups": [
   {
    "id": "focus",
-   "label": "今日焦点"
+   "label": "今日焦点",
+   "layout": "lead"
   },
   {
    "id": "news",
@@ -15,12 +16,12 @@
    "label": "深度与评论"
   },
   {
-   "id": "social",
-   "label": "热议与趋势"
-  },
-  {
    "id": "alltop",
    "label": "Alltop 分类"
+  },
+  {
+   "id": "social",
+   "label": "热议"
   },
   {
    "id": "deals",
@@ -29,14 +30,10 @@
   {
    "id": "money",
    "label": "开户奖励"
-  },
-  {
-   "id": "history",
-   "label": "历史上的今天"
   }
  ],
  "translation": {
-  "done": 190,
+  "done": 191,
   "missing": 0,
   "error": null
  },
@@ -59,8 +56,8 @@
      "source": "Financial Times World",
      "count": 11,
      "id": "alltop_threads-0",
-     "title_zh": "网络攻击致欧洲超市冷柜故障",
-     "summary_zh": "协同网络攻击导致欧洲超市冷柜过热，造成大量食品变质和运营中断。"
+     "title_zh": "网络攻击导致欧洲超市冰柜故障",
+     "summary_zh": "一次协同网络攻击导致欧洲超市冰柜过热，造成大量食品变质和运营中断。"
     },
     {
      "title": "AI Investment and Infrastructure Surge",
@@ -70,7 +67,7 @@
      "count": 5,
      "id": "alltop_threads-1",
      "title_zh": "AI投资与基础设施激增",
-     "summary_zh": "大型科技公司因巨额AI支出股价暴跌；融资轮次和AI芯片交易仍在继续。"
+     "summary_zh": "科技巨头在巨额AI支出中遭遇股价暴跌；融资轮次和AI芯片交易仍在继续。"
     },
     {
      "title": "AI's Growing Threat and Control",
@@ -79,7 +76,7 @@
      "summary": "AI drives cybercrime and deepfakes, while companies seek to control its narrative and ethical use.",
      "count": 5,
      "id": "alltop_threads-2",
-     "title_zh": "AI威胁与控制问题加剧",
+     "title_zh": "AI日益增长的威胁与管控",
      "summary_zh": "AI助长网络犯罪和深度伪造，企业则寻求掌控其叙事与伦理使用。"
     },
     {
@@ -90,7 +87,7 @@
      "count": 5,
      "id": "alltop_threads-3",
      "title_zh": "AI投资与影响",
-     "summary_zh": "AI融资激增，科技股对巨额支出作出反应，新合作不断形成。"
+     "summary_zh": "AI融资激增，科技股对巨额支出作出反应，新合作正在形成。"
     },
     {
      "title": "Midterm Election Battlegrounds",
@@ -100,7 +97,7 @@
      "count": 5,
      "id": "alltop_threads-4",
      "title_zh": "中期选举战场",
-     "summary_zh": "国会控制权悬而未决，关键参众两院选情趋紧。"
+     "summary_zh": "随着参众两院关键选情收紧，国会控制权悬而未决。"
     },
     {
      "title": "Europe Faces Cyberattacks and Economic Woes",
@@ -110,7 +107,7 @@
      "count": 5,
      "id": "alltop_threads-5",
      "title_zh": "欧洲面临网络攻击与经济困境",
-     "summary_zh": "网络攻击致超市冷柜瘫痪，燃料成本飙升和通胀引发加息与抗议。"
+     "summary_zh": "网络攻击使超市冰柜瘫痪，而飙升的燃料成本和通胀引发加息与抗议。"
     },
     {
      "title": "Climate Change Impacts Intensify",
@@ -120,751 +117,54 @@
      "count": 5,
      "id": "alltop_threads-6",
      "title_zh": "气候变化影响加剧",
-     "summary_zh": "科学家警告冰冻圈永久受损，微塑料、雾霾和物种濒危凸显日益加剧的环境问题。"
+     "summary_zh": "科学家警告冰冻圈将遭永久性破坏，同时微塑料、雾霾和物种濒危凸显日益严重的环境问题。"
     }
    ]
   },
   {
-   "id": "readhub",
-   "name": "Readhub 每日早报",
+   "id": "onthisday",
+   "name": "历史上的今天",
    "group": "focus",
-   "kind": "list",
-   "home": "https://readhub.cn/",
-   "lang": "zh",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "马斯克旗下 xAI Grok 支持银联支付宝付款，首月订阅半价",
-     "url": "https://readhub.cn/topic/8xfnEHnU5CI",
-     "source": "中国银联 ‧ 格隆汇",
-     "id": "readhub-0"
-    },
-    {
-     "title": "OpenAI 等四家企业将推行 AI 数据抓取退出统一标准",
-     "url": "https://readhub.cn/topic/8xhgmWJc8XB",
-     "source": "Google ‧ IT 之家",
-     "id": "readhub-1"
-    },
-    {
-     "title": "Meta 拟筹最高 975 亿美元 甲骨文公布本轮最后一笔 200 亿融资上限",
-     "url": "https://readhub.cn/topic/8xhGgxoZous",
-     "source": "Oracle ‧ 创业邦",
-     "id": "readhub-2"
-    },
-    {
-     "title": "苹果CEO：不会为了做AI而做产品",
-     "url": "https://readhub.cn/topic/8xfHmGqG2tU",
-     "source": "人工智能 ‧ 格隆汇",
-     "id": "readhub-3"
-    },
-    {
-     "title": "2026 世界互联网大会乌镇峰会将于 11 月 2 日至 5 日举办",
-     "url": "https://readhub.cn/topic/8xhFyniRx1x",
-     "source": "互联网 ‧ 新浪科技",
-     "id": "readhub-4"
-    },
-    {
-     "title": "法国国民议会通过修正案拟每 GB 征收 0.055 欧元流量税",
-     "url": "https://readhub.cn/topic/8xfjeAMcHCU",
-     "source": "流媒体 ‧ 快科技",
-     "id": "readhub-5"
-    },
-    {
-     "title": "消息称 Meta 与傅利叶合作打造人形机器人原型 为 Muse 模型物理化身",
-     "url": "https://readhub.cn/topic/8xgqbpY12Md",
-     "source": "机器人 ‧ 格隆汇",
-     "id": "readhub-6"
-    },
-    {
-     "title": "Anthropic 确认 Claude Code 禁止复刻特定现有游戏",
-     "url": "https://readhub.cn/topic/8xfgnqvIpzi",
-     "source": "游戏 ‧ 品玩",
-     "id": "readhub-7"
-    },
-    {
-     "title": "消息称华硕可能结束手机业务：现有产品纷纷下市",
-     "url": "https://readhub.cn/topic/8xgs2mQpFFm",
-     "source": "华硕 ‧ 快科技",
-     "id": "readhub-8"
-    },
-    {
-     "title": "消息称特斯拉调整美国推荐计划 取消购车相关奖励",
-     "url": "https://readhub.cn/topic/8xgs2MDlhaI",
-     "source": "汽车 ‧ 快科技",
-     "id": "readhub-9"
-    }
-   ]
-  },
-  {
-   "id": "google_news",
-   "name": "Google News",
-   "group": "focus",
-   "kind": "list",
-   "home": "https://news.google.com/",
+   "kind": "otd",
+   "home": "https://en.wikipedia.org/wiki/Main_Page",
    "lang": "en",
    "status": "ok",
    "error": null,
    "items": [
     {
-     "title": "Lions coach leads locker room prayer for Jack Campbell after linebacker hospitalized with neck injury",
-     "url": "https://www.foxnews.com/outkick-sports/lions-coach-leads-locker-room-prayer-jack-campbell-linebacker-hospitalized-neck-injury",
-     "time": "2026-11-02T15:27:13.568382Z",
-     "id": "google_news-0",
-     "title_zh": "线卫杰克·坎贝尔因颈部受伤住院后，雄狮队教练带领更衣室祈祷。"
+     "year": 1943,
+     "title": "World War II: A U.S. Navy task force turned away an Imperial Japanese Navy formation at the Battle of Empress Augusta Bay, thus protecting the landings at Cape Torokina.",
+     "url": "https://en.wikipedia.org/wiki/Battle_of_Empress_Augusta_Bay",
+     "id": "onthisday-0",
+     "title_zh": "二战：美国海军特遣舰队在奥古斯塔皇后湾海战中击退日本帝国海军编队，从而保护了托罗基纳角的登陆行动。"
     },
     {
-     "title": "Karl Bushby completes 28-year, 31,000-mile walk around world and returns to mother’s house",
-     "url": "https://upstract.com/x/d3af7624e9a9f7c4",
-     "gated": true,
-     "time": "2026-11-02T15:27:13.568382Z",
-     "id": "google_news-1",
-     "title_zh": "卡尔·布什比完成历时28年、3.1万英里的环球徒步，回到母亲家中。"
+     "year": 1963,
+     "title": "South Vietnamese president Ngô Đình Diệm was arrested and assassinated in Saigon, marking the culmination of a coup d'état led by Dương Văn Minh.",
+     "url": "https://en.wikipedia.org/wiki/Arrest_and_assassination_of_Ngo_Dinh_Diem",
+     "id": "onthisday-1",
+     "title_zh": "南越总统吴廷琰在西贡被捕并遭暗杀，标志着杨文明领导的政变达到高潮。"
     },
     {
-     "title": "'Bachelor' alum and 'DWTS' winner Melissa Rycroft arrested for second DWI",
-     "url": "https://upstract.com/x/fbc9c15a170873b1",
-     "gated": true,
-     "time": "2026-11-02T15:27:13.568382Z",
-     "id": "google_news-2",
-     "title_zh": "《单身汉》校友、《与星共舞》冠军梅丽莎·赖克罗夫特因第二次酒驾被捕。"
+     "year": 1984,
+     "title": "Velma Barfield, a convicted serial killer, became the first woman to be executed in the United States since 1962.",
+     "url": "https://en.wikipedia.org/wiki/Velma_Barfield",
+     "id": "onthisday-2",
+     "title_zh": "被判有罪的连环杀手维尔玛·巴菲尔德成为自1962年以来美国首位被处决的女性。"
     },
     {
-     "title": "Sectors bracing for a pivot as US midterm elections loom",
-     "url": "https://www.reuters.com/business/finance/sectors-bracing-pivot-us-midterm-elections-loom-2026-11-02/",
-     "time": "2026-11-02T15:27:13.568382Z",
-     "id": "google_news-3",
-     "title_zh": "美国中期选举临近，各行业准备迎接转向。"
-    },
-    {
-     "title": "Karl Bushby completes 28-year, 31,000-mile walk around world and returns to mother’s house",
-     "url": "https://upstract.com/x/ab30ded98e10dc79",
-     "gated": true,
-     "time": "2026-11-02T15:18:13.568382Z",
-     "id": "google_news-4",
-     "title_zh": "卡尔·布什比完成历时28年、3.1万英里的环球徒步，回到母亲家中。"
-    },
-    {
-     "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-     "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-     "time": "2026-11-02T15:17:13.568382Z",
-     "id": "google_news-5",
-     "title_zh": "欧洲各地超市冷柜遭第二起疑似网络攻击。"
-    },
-    {
-     "title": "Stock Market Today: Oil Slides on Mideast Hopes; Stock Futures Recover After Friday's Selloff — Live Updates",
-     "url": "https://upstract.com/x/26c38e82f895e9f4",
-     "gated": true,
-     "time": "2026-11-02T15:17:13.568382Z",
-     "id": "google_news-6",
-     "title_zh": "今日股市：受中东局势乐观情绪影响，油价下滑；周五抛售后股指期货回升——实时更新。"
-    }
-   ]
-  },
-  {
-   "id": "cnbc",
-   "name": "CNBC",
-   "group": "news",
-   "kind": "list",
-   "home": "https://www.cnbc.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "Fanatics takes bigger NHL design role with all-32 team Hometown Remix jerseys",
-     "url": "https://upstract.com/x/efa66a424bd33c80",
-     "gated": true,
-     "time": "2026-11-02T15:23:13.568382Z",
-     "id": "cnbc-0",
-     "title_zh": "Fanatics通过全部32队“家乡混音”球衣，在NHL设计中承担更大角色。"
-    },
-    {
-     "title": "Anthropic releases amended IPO prospectus with third-quarter financials",
-     "url": "https://upstract.com/x/aee15d802ef4714d",
-     "gated": true,
-     "time": "2026-11-02T14:42:13.568382Z",
-     "id": "cnbc-1",
-     "title_zh": "Anthropic发布修订版IPO招股书，含第三季度财务数据。"
-    },
-    {
-     "title": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
-     "url": "https://upstract.com/x/8c60ae475d56448f",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "cnbc-2",
-     "title_zh": "迈威尔以全股票交易收购朗美通，重注AI连接领域。"
-    },
-    {
-     "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
-     "url": "https://upstract.com/x/9ebaea4bbcc8321f",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "cnbc-3",
-     "title_zh": "甲骨文申请发售200亿美元新股和债券，为AI建设融资。"
-    },
-    {
-     "title": "We're buying the dip in a stock after an expectations reset",
-     "url": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "cnbc-4",
-     "title_zh": "预期重置后，我们正逢低买入一只股票。"
-    },
-    {
-     "title": "Crude prices slide as investors brace for a big week",
-     "url": "https://upstract.com/x/0cae44055fee65f2",
-     "gated": true,
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "cnbc-5",
-     "title_zh": "投资者准备迎接关键一周，原油价格下滑。"
-    },
-    {
-     "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
-     "url": "https://upstract.com/x/b8cefc793ef29f98",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "cnbc-6",
-     "title_zh": "乌克兰出现虚假核警告，莫斯科与基辅分别报告紧急应用遭网络攻击。"
-    }
-   ]
-  },
-  {
-   "id": "aljazeera",
-   "name": "Al Jazeera",
-   "group": "news",
-   "kind": "list",
-   "home": "https://www.aljazeera.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "As Islamophobia ramps up in US midterms, Texas Muslims eye local stakes",
-     "url": "https://www.aljazeera.com/news/2026/11/2/as-islamophobia-ramps-up-in-us-midterms-texas-muslims-eye-local-stakes",
-     "time": "2026-11-02T14:42:13.568382Z",
-     "id": "aljazeera-0",
-     "title_zh": "美国中期选举中伊斯兰恐惧症加剧，得州穆斯林关注地方选情。"
-    },
-    {
-     "title": "How US oil firms profit $130bn from Iran war as household bills surge",
-     "url": "https://upstract.com/x/8cb3cb16bd4013ad",
-     "gated": true,
-     "time": "2026-11-02T14:28:13.568382Z",
-     "id": "aljazeera-1",
-     "title_zh": "家庭账单飙升之际，美国石油公司如何从伊朗战争中获利1300亿美元。"
-    },
-    {
-     "title": "How would Tehran respond if the US and Israel bomb Iran again?",
-     "url": "https://upstract.com/x/27263022ca407ad7",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "aljazeera-2",
-     "title_zh": "若美国和以色列再次轰炸伊朗，德黑兰会如何回应？"
-    },
-    {
-     "title": "US midterms 2026 live: Trump, Democrats make final push amid Michigan rift",
-     "url": "https://upstract.com/x/6773ba22d5b39290",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "aljazeera-3",
-     "title_zh": "2026年美国中期选举直播：密歇根分歧之际，特朗普与民主党人最后冲刺。"
-    },
-    {
-     "title": "Police arrive at German university pro-Palestine protest",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/police-arrive-at-german-university-pro-palestine-protest",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "aljazeera-4",
-     "title_zh": "警方抵达德国大学亲巴勒斯坦抗议现场。"
-    },
-    {
-     "title": "Iran says US talks could resume ‘within a short period’ if demands are met",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/iran-says-us-talks-could-resume-within-a-short-period-if-demands-are-met",
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "aljazeera-5",
-     "title_zh": "伊朗称若要求得到满足，美伊谈判可能“短期内”恢复。"
-    },
-    {
-     "title": "Jordan’s King Abdullah promises to confront ‘terrorists’ after Karak attack",
-     "url": "https://www.aljazeera.com/news/2026/11/2/jordans-king-abdullah-promises-to-confront-terrorists-after-karak-attack",
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "aljazeera-6",
-     "title_zh": "卡拉克袭击后，约旦国王阿卜杜拉承诺对抗“恐怖分子”。"
-    }
-   ]
-  },
-  {
-   "id": "semafor",
-   "name": "Semafor",
-   "group": "news",
-   "kind": "list",
-   "home": "https://www.semafor.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "Kenya’s mobile subscriber base grows amid rising broadband demand",
-     "url": "https://upstract.com/x/a07790e465977e26",
-     "gated": true,
-     "time": "2026-11-02T14:57:13.568382Z",
-     "id": "semafor-0",
-     "title_zh": "宽带需求上升，肯尼亚移动用户规模增长。"
-    },
-    {
-     "title": "Africa needs urban planning investment to deal with rapid city growth",
-     "url": "https://upstract.com/x/57c44cd7f94c1569",
-     "gated": true,
-     "time": "2026-11-02T14:45:13.568382Z",
-     "id": "semafor-1",
-     "title_zh": "非洲需投资城市规划以应对城市快速扩张。"
-    },
-    {
-     "title": "Drilling imminent at Namibia oil deposit, TotalEnergies says",
-     "url": "https://upstract.com/x/cdc0751428158da7",
-     "gated": true,
-     "time": "2026-11-02T14:41:13.568382Z",
-     "id": "semafor-2",
-     "title_zh": "道达尔能源称纳米比亚油田即将开钻。"
-    },
-    {
-     "title": "African lenders launch $5B energy bank",
-     "url": "https://upstract.com/x/e7342ec0c615af7a",
-     "gated": true,
-     "time": "2026-11-02T14:38:13.568382Z",
-     "id": "semafor-3",
-     "title_zh": "非洲贷款机构推出50亿美元能源银行。"
-    },
-    {
-     "title": "OPay’s US IPO withdrawal casts shadow over African fintech",
-     "url": "https://upstract.com/x/7fef9adcfe9d0f80",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "semafor-4",
-     "title_zh": "OPay撤回美国IPO，给非洲金融科技蒙上阴影。"
-    },
-    {
-     "title": "OpenAI's Sam Altman does deals in Abu Dhabi amid fundraising",
-     "url": "https://upstract.com/x/80262679536ceff1",
-     "gated": true,
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "semafor-5",
-     "title_zh": "OpenAI的萨姆·奥特曼在融资之际于阿布扎比达成交易。"
-    },
-    {
-     "title": "Saudi Arabia turns to Aramco to fuel AI ambitions",
-     "url": "https://www.semafor.com/article/11/02/2026/saudi-turns-to-aramco-to-fuel-ai-ambitions",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "semafor-6",
-     "title_zh": "沙特阿拉伯转向沙特阿美，助推AI雄心。"
-    }
-   ]
-  },
-  {
-   "id": "vox",
-   "name": "Vox",
-   "group": "news",
-   "kind": "list",
-   "home": "https://www.vox.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "The Supreme Court could make it impossible to sue federal officers",
-     "url": "https://upstract.com/x/bce9cca95f1f2720",
-     "gated": true,
-     "time": "2026-11-02T12:27:13.568382Z",
-     "id": "vox-0",
-     "title_zh": "最高法院可能让起诉联邦官员变得不可能。"
-    },
-    {
-     "title": "Gen Z can’t afford the culture war",
-     "url": "https://upstract.com/x/f252d2fc5b8a3f30",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "vox-1",
-     "title_zh": "Z世代承受不起文化战争。"
-    },
-    {
-     "title": "The bitter personal feud that could imperil a key Senate race for Democrats",
-     "url": "https://upstract.com/x/1af26535f6980afc",
-     "gated": true,
-     "time": "2026-11-02T01:27:13.568382Z",
-     "id": "vox-2",
-     "title_zh": "可能危及民主党关键参议院选战的激烈私人恩怨。"
-    },
-    {
-     "title": "Can’t commit to vegetarianism but want animals to suffer less? You’ve got options",
-     "url": "https://upstract.com/x/81ccae63e4677027",
-     "gated": true,
-     "id": "vox-3",
-     "title_zh": "无法坚持素食，但想让动物少受苦？你有选择。"
-    },
-    {
-     "title": "Are you over-optimizing your hobbies?",
-     "url": "https://upstract.com/x/932f4ff361a34057",
-     "gated": true,
-     "id": "vox-4",
-     "title_zh": "你是否在过度优化自己的爱好？"
-    },
-    {
-     "title": "Will Melania Trump save Ukraine?",
-     "url": "https://upstract.com/x/bc6e0b59337df284",
-     "gated": true,
-     "time": "2026-10-31T15:27:13.568382Z",
-     "id": "vox-5",
-     "title_zh": "梅拉尼娅·特朗普会拯救乌克兰吗？"
-    },
-    {
-     "title": "Patrick Stewart taught us what good men do with power",
-     "url": "https://upstract.com/x/dbd8c81390dc4d9c",
-     "gated": true,
-     "time": "2026-10-31T15:27:13.568382Z",
-     "id": "vox-6",
-     "title_zh": "帕特里克·斯图尔特让我们明白好人如何运用权力。"
-    }
-   ]
-  },
-  {
-   "id": "atlantic",
-   "name": "The Atlantic",
-   "group": "ideas",
-   "kind": "list",
-   "home": "https://www.theatlantic.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "The Time Is Right for a ‘Great Books’ Revival",
-     "url": "https://www.theatlantic.com/books/2026/11/age-ai-is-the-time-for-a-great-books-revival/689242/",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "atlantic-0",
-     "title_zh": "“伟大经典”复兴正当时。"
-    },
-    {
-     "title": "The Protect College Sports Act Isn’t Enough",
-     "url": "https://www.theatlantic.com/culture/2026/11/protect-college-sports-act/689235/",
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "atlantic-1",
-     "title_zh": "《保护大学体育法案》还不够"
-    },
-    {
-     "title": "DOJ’s Try-Anything Approach",
-     "url": "https://upstract.com/x/9f213435f02bdfda",
-     "gated": true,
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "atlantic-2",
-     "title_zh": "司法部的“什么都试”策略"
-    },
-    {
-     "title": "We Can’t Afford an AI Recession",
-     "url": "https://upstract.com/x/cc031eaa03b1a153",
-     "gated": true,
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "atlantic-3",
-     "title_zh": "我们承受不起AI衰退"
-    },
-    {
-     "title": "A Master of Irony, a Copycat, or Even an Artist at All?",
-     "url": "https://www.theatlantic.com/culture/2026/11/roy-lichtenstein-like-new-whitney-exhibition-review/689215/",
-     "time": "2026-11-02T13:27:13.568382Z",
-     "id": "atlantic-4",
-     "title_zh": "是反讽大师、抄袭者，还是根本不算艺术家？"
-    },
-    {
-     "title": "Republicans Are Closing Ugly",
-     "url": "https://upstract.com/x/8e9b3586a2ef875c",
-     "gated": true,
-     "time": "2026-11-02T12:27:13.568382Z",
-     "id": "atlantic-5",
-     "title_zh": "共和党正以难看的方式收场"
-    },
-    {
-     "title": "The Backlash to Corruption Is Going Global",
-     "url": "https://upstract.com/x/5d5ecab643910dd7",
-     "gated": true,
-     "time": "2026-11-02T12:27:13.568382Z",
-     "id": "atlantic-6",
-     "title_zh": "对腐败的反弹正蔓延全球"
-    }
-   ]
-  },
-  {
-   "id": "newyorker",
-   "name": "The New Yorker",
-   "group": "ideas",
-   "kind": "list",
-   "home": "https://www.newyorker.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "The Telephone’s Tangled History of Intimacy and Control",
-     "url": "https://upstract.com/x/34551e65af6b4ffe",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-0",
-     "title_zh": "电话的亲密与控制纠葛史"
-    },
-    {
-     "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
-     "url": "https://upstract.com/x/5fdccf8802496296",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-1",
-     "title_zh": "罗伊·利希滕斯坦对男性气质的机智批判"
-    },
-    {
-     "title": "The MAGA Faithful Eye the Exits",
-     "url": "https://upstract.com/x/fac5d57b9894d7e6",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-2",
-     "title_zh": "MAGA忠实拥趸正寻找退路"
-    },
-    {
-     "title": "The Best Gifts for Kids Are Small. Or Big. Or Lots. Or Stomp",
-     "url": "https://www.newyorker.com/culture/gift-guides/the-best-gifts-for-kids",
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-3",
-     "title_zh": "给孩子最好的礼物：小的、大的、很多的，或者“Stomp”"
-    },
-    {
-     "title": "Did the World Just Gain Hundreds of Millions of Alzheimer’s Patients?",
-     "url": "https://www.newyorker.com/magazine/2026/11/09/did-the-world-just-gain-hundreds-of-millions-of-alzheimers-patients",
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-4",
-     "title_zh": "世界刚刚多了数亿阿尔茨海默病患者吗？"
-    },
-    {
-     "title": "Daily Cartoon: Monday, November 2nd",
-     "url": "https://upstract.com/x/c623baf06e2e3723",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-5",
-     "title_zh": "每日漫画：11月2日，星期一"
-    },
-    {
-     "title": "Play Catalogues: Monday, November 2, 2026",
-     "url": "https://upstract.com/x/b90c19b3df69856e",
-     "gated": true,
-     "time": "2026-11-02T11:27:13.568382Z",
-     "id": "newyorker-6",
-     "title_zh": "剧目目录：2026年11月2日，星期一"
-    }
-   ]
-  },
-  {
-   "id": "unherd",
-   "name": "UnHerd",
-   "group": "ideas",
-   "kind": "list",
-   "home": "https://unherd.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "Why Iran-Contra still matters",
-     "url": "https://upstract.com/x/fb1b1b9db1ce865e",
-     "gated": true,
-     "time": "2026-11-02T00:27:13.568382Z",
-     "id": "unherd-0",
-     "title_zh": "伊朗门事件为何仍重要"
-    },
-    {
-     "title": "How Pedro Sánchez failed Spain",
-     "url": "https://unherd.com/2026/11/how-pedro-sanchez-failed-spain/?edition=us",
-     "time": "2026-11-02T00:27:13.568382Z",
-     "id": "unherd-1",
-     "title_zh": "佩德罗·桑切斯如何辜负了西班牙"
-    },
-    {
-     "title": "The Obamas never learned their lesson",
-     "url": "https://upstract.com/x/b06a555fd095e514",
-     "gated": true,
-     "time": "2026-11-02T00:27:13.568382Z",
-     "id": "unherd-2",
-     "title_zh": "奥巴马夫妇从未吸取教训"
-    },
-    {
-     "title": "Why German tanks are rolling into Lithuania",
-     "url": "https://upstract.com/x/e3bc98db49bef372",
-     "gated": true,
-     "time": "2026-11-02T00:27:13.568382Z",
-     "id": "unherd-3",
-     "title_zh": "德国坦克为何开进立陶宛"
-    },
-    {
-     "title": "Why Europe’s kids are revolting",
-     "url": "https://upstract.com/x/78f9d03f4785bc96",
-     "gated": true,
-     "id": "unherd-4",
-     "title_zh": "欧洲的孩子们为何造反"
-    },
-    {
-     "title": "A Halloween ghost story",
-     "url": "https://upstract.com/x/6dc2b452341e13b4",
-     "gated": true,
-     "time": "2026-10-31T15:27:13.568382Z",
-     "id": "unherd-5",
-     "title_zh": "一个万圣节鬼故事"
-    },
-    {
-     "title": "Why Europe’s kids are revolting",
-     "url": "https://upstract.com/x/8934144410c56b33",
-     "gated": true,
-     "time": "2026-10-31T15:27:13.568382Z",
-     "id": "unherd-6",
-     "title_zh": "欧洲的孩子们为何造反"
-    }
-   ]
-  },
-  {
-   "id": "commentary",
-   "name": "Commentary",
-   "group": "ideas",
-   "kind": "list",
-   "home": "https://www.commentary.org/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "Sub Parliament",
-     "url": "https://upstract.com/x/90e5c094480753cb",
-     "gated": true,
-     "time": "2026-10-30T15:27:13.568382Z",
-     "id": "commentary-0",
-     "title_zh": "下级议会"
-    },
-    {
-     "title": "‘Training’ A.I. to Be Anti-Zionist",
-     "url": "https://upstract.com/x/4f364751abb73dd0",
-     "gated": true,
-     "time": "2026-10-30T15:27:13.568382Z",
-     "id": "commentary-1",
-     "title_zh": "“训练”AI成为反犹太复国主义者"
-    },
-    {
-     "title": "The Antisemitism Horseshoe",
-     "url": "https://www.commentary.org/noam-blum/the-antisemitism-horseshoe/",
-     "time": "2026-10-29T15:27:13.568382Z",
-     "id": "commentary-2",
-     "title_zh": "反犹主义的马蹄铁"
-    },
-    {
-     "title": "Who Are Jewish Museums For?",
-     "url": "https://www.commentary.org/seth-mandel/who-are-jewish-museums-for/",
-     "time": "2026-10-29T15:27:13.568382Z",
-     "id": "commentary-3",
-     "title_zh": "犹太博物馆为谁而设？"
-    },
-    {
-     "title": "The Anti-Bibi Opposition Contemplates Plan B",
-     "url": "https://www.commentary.org/seth-mandel/the-anti-bibi-opposition-contemplates-plan-b/",
-     "time": "2026-10-29T15:27:13.568382Z",
-     "id": "commentary-4",
-     "title_zh": "反内塔尼亚胡的反对派考虑B计划"
-    },
-    {
-     "title": "Coalition Building",
-     "url": "https://upstract.com/x/2b4ec72a22e13db4",
-     "gated": true,
-     "time": "2026-10-28T15:27:13.568382Z",
-     "id": "commentary-5",
-     "title_zh": "建立联盟"
-    },
-    {
-     "title": "The Anti-Semitic Ad Inspired By Abdul El-Sayed’s Own Words",
-     "url": "https://upstract.com/x/c285f9145c95f3c4",
-     "gated": true,
-     "time": "2026-10-28T15:27:13.568382Z",
-     "id": "commentary-6",
-     "title_zh": "受阿卜杜勒·埃尔-赛义德本人言论启发的反犹广告"
-    }
-   ]
-  },
-  {
-   "id": "reddit",
-   "name": "Reddit",
-   "group": "social",
-   "kind": "list",
-   "home": "https://www.reddit.com/",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "title": "Why do I never hear about trans men?",
-     "url": "https://upstract.com/x/6ac6e3d9a186fc47",
-     "gated": true,
-     "time": "2026-11-02T15:24:13.568382Z",
-     "source": "r/NoStupidQuestions",
-     "id": "reddit-0",
-     "title_zh": "为什么我从没听说过跨性别男性？"
-    },
-    {
-     "title": "Worker accidentally slaps customer",
-     "url": "https://www.reddit.com/r/WatchPeopleDieInside/comments/1xlxmjq/worker_accidentally_slaps_customer/",
-     "time": "2026-11-02T15:14:13.568382Z",
-     "source": "r/WatchPeopleDieInside",
-     "id": "reddit-1",
-     "title_zh": "员工不慎掌掴顾客"
-    },
-    {
-     "title": "Mind blown multiplication",
-     "url": "https://upstract.com/x/5e0924978c969a4e",
-     "gated": true,
-     "time": "2026-11-02T15:02:13.568382Z",
-     "source": "r/interesting",
-     "id": "reddit-2",
-     "title_zh": "令人惊叹的乘法"
-    },
-    {
-     "title": "My stepdad turned garage scrap metal into this amazing birthday gift",
-     "url": "https://upstract.com/x/e59086769ddb79a0",
-     "gated": true,
-     "time": "2026-11-02T15:02:13.568382Z",
-     "source": "r/StarWars",
-     "id": "reddit-3",
-     "title_zh": "我继父把车库废金属变成了这份很棒的生日礼物"
-    },
-    {
-     "title": "me_irl",
-     "url": "https://upstract.com/x/5444c73dbb83d2b3",
-     "gated": true,
-     "time": "2026-11-02T14:52:13.568382Z",
-     "source": "r/me_irl",
-     "id": "reddit-4",
-     "title_zh": "me_irl"
-    },
-    {
-     "title": "Let's goooo",
-     "url": "https://upstract.com/x/c9b214593c0191e5",
-     "gated": true,
-     "time": "2026-11-02T14:42:13.568382Z",
-     "source": "r/TheTeenagerPeople",
-     "id": "reddit-5",
-     "title_zh": "冲啊！"
-    },
-    {
-     "title": "85920",
-     "url": "https://upstract.com/x/01f59a01a3f3a08c",
-     "gated": true,
-     "time": "2026-11-02T14:32:13.568382Z",
-     "source": "r/countwithchickenlady",
-     "id": "reddit-6",
-     "title_zh": "85920"
+     "year": 2008,
+     "title": "Lewis Hamilton overtook Timo Glock in the final corners of the Brazilian Grand Prix to become the Formula One World Drivers' Champion by one point.",
+     "url": "https://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix",
+     "id": "onthisday-3",
+     "title_zh": "刘易斯·汉密尔顿在巴西大奖赛最后几个弯道超越蒂莫·格洛克，以一分优势成为一级方程式世界车手冠军。"
     }
    ]
   },
   {
    "id": "x_trends",
    "name": "X 趋势",
-   "group": "social",
+   "group": "focus",
    "kind": "trends",
    "home": "https://x.com/explore",
    "lang": "en",
@@ -934,62 +234,651 @@
    ]
   },
   {
-   "id": "google_trends",
-   "name": "Google Trends",
-   "group": "social",
+   "id": "google_news",
+   "name": "Google News",
+   "group": "news",
    "kind": "list",
-   "home": "https://trends.google.com/trending?geo=US",
+   "home": "https://news.google.com/",
    "lang": "en",
    "status": "ok",
    "error": null,
    "items": [
     {
-     "title": "Seattle Kraken trade Shane Wright to Nashville Predators for Matthew Wood: Sources",
-     "url": "https://www.nytimes.com/athletic/7452215/2026/11/01/shane-wright-kraken-predators-trade/",
-     "source": "The New York Times",
-     "traffic": "10k+",
-     "id": "google_trends-0",
-     "title_zh": "消息人士：西雅图海怪将谢恩·赖特交易至纳什维尔掠夺者，换回马修·伍德"
+     "title": "Ravens may explore trading for Tyson Bagent",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-may-explore-trading-for-tyson-bagent",
+     "time": "2026-11-02T15:37:31.896090Z",
+     "id": "google_news-0",
+     "title_zh": "乌鸦队可能考虑交易引进泰森·巴金特"
     },
     {
-     "title": "November 3, 2026: Alexander Zverev vs Lorenzo Musetti: Game Spread Tennis Prediction Market",
-     "url": "https://robinhood.com/us/en/prediction-markets/tennis/events/alexander-zverev-vs-lorenzo-musetti-game-spread-nov-03-2026/",
-     "source": "Robinhood",
-     "traffic": "1k+",
-     "id": "google_trends-1",
-     "title_zh": "2026年11月3日：亚历山大·兹维列夫对阵洛伦佐·穆塞蒂：网球局分差预测市场"
+     "title": "Top MLB free agents for the 2026-27 offseason: Tarik Skubal leads a shallow class",
+     "url": "https://upstract.com/x/92ff745787468161",
+     "gated": true,
+     "time": "2026-11-02T15:37:31.896090Z",
+     "id": "google_news-1",
+     "title_zh": "2026-27休赛期MLB顶级自由球员：塔里克·斯库巴尔领衔深度不足的阵容"
     },
     {
-     "title": "Aspen Neuroscience, Inc.(NasdaqGS: ASPE) added to NASDAQ Composite Index",
-     "url": "https://www.marketscreener.com/news/aspen-neuroscience-inc-nasdaqgs-aspe-added-to-nasdaq-composite-index-ce785fd8d188f026",
-     "source": "marketscreener.com",
-     "traffic": "500+",
-     "id": "google_trends-2",
-     "title_zh": "阿斯彭神经科学公司（纳斯达克全球精选市场：ASPE）被纳入纳斯达克综合指数"
+     "title": "Bengals wild overtime win ends with final score that's never happened before in NFL history",
+     "url": "https://www.cbssports.com/nfl/news/bengals-wild-overtime-win-ends-scorigami/",
+     "time": "2026-11-02T15:37:31.896090Z",
+     "id": "google_news-2",
+     "title_zh": "猛虎队一场疯狂的加时胜利，以NFL历史上从未出现过的比分收官。"
     },
     {
-     "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
-     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-     "source": "CNBC",
-     "traffic": "500+",
-     "id": "google_trends-3",
-     "title_zh": "中期选举前伊朗和谈希望令原油跌至盘中低点"
+     "title": "Lions coach leads locker room prayer for Jack Campbell after linebacker hospitalized with neck injury",
+     "url": "https://upstract.com/x/14b340f3958fc826",
+     "gated": true,
+     "time": "2026-11-02T15:27:31.896090Z",
+     "id": "google_news-3",
+     "title_zh": "雄狮队教练带领更衣室为颈部受伤住院的杰克·坎贝尔祈祷。"
     },
     {
-     "title": "Jessica Alba deletes Halloween photos after bloody Nancy Kerrigan costume sparks backlash",
-     "url": "https://pagesix.com/2026/11/02/celebrity-news/jessica-alba-deletes-halloween-photos-after-bloody-nancy-kerrigan-costume-sparks-backlash/",
-     "source": "Page Six",
-     "traffic": "500+",
-     "id": "google_trends-4",
-     "title_zh": "血腥的南希·克里根装扮引发反弹后，杰西卡·阿尔芭删除万圣节照片"
+     "title": "Karl Bushby completes 28-year, 31,000-mile walk around world and returns to mother’s house",
+     "url": "https://upstract.com/x/d3af7624e9a9f7c4",
+     "gated": true,
+     "time": "2026-11-02T15:27:31.896090Z",
+     "id": "google_news-4",
+     "title_zh": "卡尔·布什比完成历时28年、3.1万英里的环球徒步，回到母亲家中。"
     },
     {
-     "title": "Cantor Fitzgerald maintains Palantir Technologies at Neutral, raises price target to $207 from $156",
-     "url": "https://www.tradingview.com/news/tradingview:ca9c09e879441:0-cantor-fitzgerald-maintains-palantir-technologies-at-neutral-raises-price-target-to-207-from-156/",
-     "source": "TradingView",
-     "traffic": "500+",
-     "id": "google_trends-5",
-     "title_zh": "康托·菲茨杰拉德维持Palantir Technologies“中性”评级，将目标价从156美元上调至207美元"
+     "title": "'Bachelor' alum and 'DWTS' winner Melissa Rycroft arrested for second DWI",
+     "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/11/02/melissa-rycroft-arrested-bachelor-dwts-dwi/92560322007/",
+     "time": "2026-11-02T15:27:31.896090Z",
+     "id": "google_news-5",
+     "title_zh": "《单身汉》前嘉宾、《与星共舞》冠军梅丽莎·赖克罗夫特因二次酒驾被捕。"
+    },
+    {
+     "title": "Sectors bracing for a pivot as US midterm elections loom",
+     "url": "https://upstract.com/x/c3137f634470db72",
+     "gated": true,
+     "time": "2026-11-02T15:27:31.896090Z",
+     "id": "google_news-6",
+     "title_zh": "美国中期选举临近，各板块准备迎接转向"
+    }
+   ]
+  },
+  {
+   "id": "cnbc",
+   "name": "CNBC",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.cnbc.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+     "url": "https://upstract.com/x/161c7458e6e96dc4",
+     "gated": true,
+     "time": "2026-11-02T15:31:31.896090Z",
+     "id": "cnbc-0",
+     "title_zh": "华尔街恐惧指数出现异常走势。这对股市意味着什么"
+    },
+    {
+     "title": "Fanatics takes bigger NHL design role with all-32 team Hometown Remix jerseys",
+     "url": "https://upstract.com/x/efa66a424bd33c80",
+     "gated": true,
+     "time": "2026-11-02T15:22:31.896090Z",
+     "id": "cnbc-1",
+     "title_zh": "Fanatics在NHL设计中承担更大角色，推出全部32支球队的Hometown Remix球衣。"
+    },
+    {
+     "title": "Anthropic releases amended IPO prospectus with third-quarter financials",
+     "url": "https://upstract.com/x/aee15d802ef4714d",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "cnbc-2",
+     "title_zh": "Anthropic发布含第三季度财务数据的修订版IPO招股书"
+    },
+    {
+     "title": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
+     "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "cnbc-3",
+     "title_zh": "Marvell将以全股票交易收购Lumentum，押注AI连接性"
+    },
+    {
+     "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+     "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "cnbc-4",
+     "title_zh": "甲骨文申请发行200亿美元新股和债券，为AI建设融资"
+    },
+    {
+     "title": "We're buying the dip in a stock after an expectations reset",
+     "url": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "cnbc-5",
+     "title_zh": "在预期重置后，我们正逢低买入一只股票。"
+    },
+    {
+     "title": "Crude prices slide as investors brace for a big week",
+     "url": "https://upstract.com/x/0cae44055fee65f2",
+     "gated": true,
+     "time": "2026-11-02T13:45:31.896090Z",
+     "id": "cnbc-6",
+     "title_zh": "投资者准备迎接重要一周，原油价格下滑"
+    }
+   ]
+  },
+  {
+   "id": "aljazeera",
+   "name": "Al Jazeera",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.aljazeera.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Al Jazeera condemns Israeli ban extension, calls for its immediate lifting",
+     "url": "https://upstract.com/x/2cc4076aec627e78",
+     "gated": true,
+     "time": "2026-11-02T15:10:31.896090Z",
+     "id": "aljazeera-0",
+     "title_zh": "半岛电视台谴责以色列延长禁令，呼吁立即解除"
+    },
+    {
+     "title": "Arab parties back Eisenkot: What’s the latest in Israel’s coalition talks?",
+     "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks",
+     "time": "2026-11-02T15:00:31.896090Z",
+     "id": "aljazeera-1",
+     "title_zh": "阿拉伯政党支持艾森科特：以色列组阁谈判最新进展如何？"
+    },
+    {
+     "title": "As Islamophobia ramps up in US midterms, Texas Muslims eye local stakes",
+     "url": "https://upstract.com/x/6e86b0bd090d32fd",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "aljazeera-2",
+     "title_zh": "随着美国中期选举中伊斯兰恐惧症加剧，得州穆斯林关注地方选情"
+    },
+    {
+     "title": "How US oil firms profit $130bn from Iran war as household bills surge",
+     "url": "https://www.aljazeera.com/news/2026/11/2/how-us-oil-firms-profit-130bn-from-iran-war-as-household-bills-surge",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "aljazeera-3",
+     "title_zh": "美国家庭账单飙升之际，美国石油公司如何从伊朗战争中获利1300亿美元"
+    },
+    {
+     "title": "How would Tehran respond if the US and Israel bomb Iran again?",
+     "url": "https://upstract.com/x/27263022ca407ad7",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "aljazeera-4",
+     "title_zh": "如果美国和以色列再次轰炸伊朗，德黑兰将如何回应？"
+    },
+    {
+     "title": "US midterms 2026 live: Trump, Democrats make final push amid Michigan rift",
+     "url": "https://upstract.com/x/6773ba22d5b39290",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "aljazeera-5",
+     "title_zh": "2026美国中期选举直播：密歇根分歧之际，特朗普与民主党人做最后冲刺"
+    },
+    {
+     "title": "Police arrive at German university pro-Palestine protest",
+     "url": "https://upstract.com/x/7d4f2ba0d42e6e2c",
+     "gated": true,
+     "time": "2026-11-02T13:45:31.896090Z",
+     "id": "aljazeera-6",
+     "title_zh": "警方抵达德国大学亲巴勒斯坦抗议现场"
+    }
+   ]
+  },
+  {
+   "id": "semafor",
+   "name": "Semafor",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.semafor.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Kenya’s mobile subscriber base grows amid rising broadband demand",
+     "url": "https://www.semafor.com/article/11/02/2026/kenyas-mobile-subscriber-base-grows-amid-rising-broadband-demand",
+     "time": "2026-11-02T14:56:31.896090Z",
+     "id": "semafor-0",
+     "title_zh": "宽带需求上升，肯尼亚移动用户规模增长"
+    },
+    {
+     "title": "Africa needs urban planning investment to deal with rapid city growth",
+     "url": "https://upstract.com/x/57c44cd7f94c1569",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "semafor-1",
+     "title_zh": "非洲需要城市规划投资以应对城市快速扩张"
+    },
+    {
+     "title": "Drilling imminent at Namibia oil deposit, TotalEnergies says",
+     "url": "https://www.semafor.com/article/11/02/2026/drilling-is-imminent-at-namibias-mopane-oil-deposit-according-to-totalenergies-ceo",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "semafor-2",
+     "title_zh": "道达尔能源称纳米比亚油田即将开钻"
+    },
+    {
+     "title": "African lenders launch $5B energy bank",
+     "url": "https://upstract.com/x/e7342ec0c615af7a",
+     "gated": true,
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "semafor-3",
+     "title_zh": "非洲贷款机构推出50亿美元能源银行"
+    },
+    {
+     "title": "OPay’s US IPO withdrawal casts shadow over African fintech",
+     "url": "https://www.semafor.com/article/11/02/2026/opays-withdrawal-of-304m-us-ipo-casts-shadow-over-african-fintech",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "semafor-4",
+     "title_zh": "OPay撤回美国IPO，给非洲金融科技蒙上阴影"
+    },
+    {
+     "title": "OpenAI's Sam Altman does deals in Abu Dhabi amid fundraising",
+     "url": "https://www.semafor.com/article/11/02/2026/openais-sam-altman-courts-abu-dhabi-ahead-of-ipo",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "semafor-5",
+     "title_zh": "OpenAI的萨姆·奥尔特曼在融资之际于阿布扎比达成交易"
+    },
+    {
+     "title": "Saudi Arabia turns to Aramco to fuel AI ambitions",
+     "url": "https://upstract.com/x/4db7bafc41ea484f",
+     "gated": true,
+     "time": "2026-11-02T13:45:31.896090Z",
+     "id": "semafor-6",
+     "title_zh": "沙特阿拉伯转向沙特阿美，为AI雄心助力"
+    }
+   ]
+  },
+  {
+   "id": "vox",
+   "name": "Vox",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.vox.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "The Supreme Court could make it impossible to sue federal officers",
+     "url": "https://www.vox.com/politics/508219/supreme-court-nielsen-watanabe-bivens-ice",
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "vox-0",
+     "title_zh": "最高法院可能让起诉联邦官员变得不可能"
+    },
+    {
+     "title": "Gen Z can’t afford the culture war",
+     "url": "https://upstract.com/x/f252d2fc5b8a3f30",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "vox-1",
+     "title_zh": "Z世代承受不起文化战争"
+    },
+    {
+     "title": "The bitter personal feud that could imperil a key Senate race for Democrats",
+     "url": "https://upstract.com/x/1af26535f6980afc",
+     "gated": true,
+     "time": "2026-11-02T01:45:31.896090Z",
+     "id": "vox-2",
+     "title_zh": "一场激烈的个人恩怨可能危及民主党关键参议院选战"
+    },
+    {
+     "title": "Can’t commit to vegetarianism but want animals to suffer less? You’ve got options",
+     "url": "https://upstract.com/x/81ccae63e4677027",
+     "gated": true,
+     "id": "vox-3",
+     "title_zh": "无法坚持素食，但想让动物少受痛苦？你有选择"
+    },
+    {
+     "title": "Are you over-optimizing your hobbies?",
+     "url": "https://www.vox.com/explain-it-to-me/508137/hobbies-free-time-optimization-jenny-odell",
+     "id": "vox-4",
+     "title_zh": "你是否在过度优化自己的爱好？"
+    },
+    {
+     "title": "Will Melania Trump save Ukraine?",
+     "url": "https://upstract.com/x/bc6e0b59337df284",
+     "gated": true,
+     "time": "2026-10-31T15:45:31.896090Z",
+     "id": "vox-5",
+     "title_zh": "梅拉尼娅·特朗普会拯救乌克兰吗？"
+    },
+    {
+     "title": "Patrick Stewart taught us what good men do with power",
+     "url": "https://upstract.com/x/dbd8c81390dc4d9c",
+     "gated": true,
+     "time": "2026-10-31T15:45:31.896090Z",
+     "id": "vox-6",
+     "title_zh": "帕特里克·斯图尔特教会我们好人如何运用权力"
+    }
+   ]
+  },
+  {
+   "id": "readhub",
+   "name": "Readhub 每日早报",
+   "group": "news",
+   "kind": "list",
+   "home": "https://readhub.cn/",
+   "lang": "zh",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "马斯克旗下 xAI Grok 支持银联支付宝付款，首月订阅半价",
+     "url": "https://readhub.cn/topic/8xfnEHnU5CI",
+     "id": "readhub-0"
+    },
+    {
+     "title": "OpenAI：12 月起 ChatGPT 将与 Codex 共享使用额度",
+     "url": "https://readhub.cn/topic/8xgs2F1YH6o",
+     "id": "readhub-1"
+    },
+    {
+     "title": "苹果 CEO：不会为了做 AI 而做产品",
+     "url": "https://readhub.cn/topic/8xfHmGqG2tU",
+     "id": "readhub-2"
+    },
+    {
+     "title": "2026 世界互联网大会乌镇峰会将于 11 月 2 日至 5 日举办",
+     "url": "https://readhub.cn/topic/8xhFyniRx1x",
+     "id": "readhub-3"
+    },
+    {
+     "title": "Meta 拟筹最高 975 亿美元 甲骨文公布本轮最后一笔 200 亿融资上限",
+     "url": "https://readhub.cn/topic/8xhGgxoZous",
+     "id": "readhub-4"
+    },
+    {
+     "title": "消息称 Meta 与傅利叶合作打造人形机器人原型 为 Muse 模型物理化身",
+     "url": "https://readhub.cn/topic/8xgqbpY12Md",
+     "id": "readhub-5"
+    },
+    {
+     "title": "消息称华硕可能结束手机业务：现有产品纷纷下市",
+     "url": "https://readhub.cn/topic/8xgs2mQpFFm",
+     "id": "readhub-6"
+    },
+    {
+     "title": "Anthropic 确认 Claude Code 禁止复刻特定现有游戏",
+     "url": "https://readhub.cn/topic/8xfgnqvIpzi",
+     "id": "readhub-7"
+    },
+    {
+     "title": "消息称特斯拉调整美国推荐计划 取消购车相关奖励",
+     "url": "https://readhub.cn/topic/8xgs2MDlhaI",
+     "id": "readhub-8"
+    },
+    {
+     "title": "OpenAI 等四家企业将推行 AI 数据抓取退出统一标准",
+     "url": "https://readhub.cn/topic/8xhgmWJc8XB",
+     "id": "readhub-9"
+    }
+   ]
+  },
+  {
+   "id": "atlantic",
+   "name": "The Atlantic",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.theatlantic.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "The Time Is Right for a ‘Great Books’ Revival",
+     "url": "https://www.theatlantic.com/books/2026/11/age-ai-is-the-time-for-a-great-books-revival/689242/",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "id": "atlantic-0",
+     "title_zh": "“伟大书籍”复兴正当其时"
+    },
+    {
+     "title": "The Protect College Sports Act Isn’t Enough",
+     "url": "https://www.theatlantic.com/culture/2026/11/protect-college-sports-act/689235/",
+     "time": "2026-11-02T13:45:31.896090Z",
+     "id": "atlantic-1",
+     "title_zh": "《保护大学体育法案》还不够"
+    },
+    {
+     "title": "DOJ’s Try-Anything Approach",
+     "url": "https://upstract.com/x/9f213435f02bdfda",
+     "gated": true,
+     "time": "2026-11-02T12:45:31.896090Z",
+     "id": "atlantic-2",
+     "title_zh": "司法部的“无所不试”策略"
+    },
+    {
+     "title": "A Master of Irony, a Copycat, or Even an Artist at All?",
+     "url": "https://upstract.com/x/05498e64627c94e5",
+     "gated": true,
+     "time": "2026-11-02T12:45:31.896090Z",
+     "id": "atlantic-3",
+     "title_zh": "讽刺大师、模仿者，还是根本算不上艺术家？"
+    },
+    {
+     "title": "We Can’t Afford an AI Recession",
+     "url": "https://upstract.com/x/cc031eaa03b1a153",
+     "gated": true,
+     "time": "2026-11-02T12:45:31.896090Z",
+     "id": "atlantic-4",
+     "title_zh": "我们承受不起AI衰退"
+    },
+    {
+     "title": "The Backlash to Corruption Is Going Global",
+     "url": "https://upstract.com/x/5d5ecab643910dd7",
+     "gated": true,
+     "time": "2026-11-02T12:45:31.896090Z",
+     "id": "atlantic-5",
+     "title_zh": "对腐败的反击正在走向全球"
+    },
+    {
+     "title": "Morris Katz’s Second Act",
+     "url": "https://upstract.com/x/ce028d1b4a8236da",
+     "gated": true,
+     "time": "2026-11-02T12:45:31.896090Z",
+     "id": "atlantic-6",
+     "title_zh": "莫里斯·卡茨的第二幕"
+    }
+   ]
+  },
+  {
+   "id": "newyorker",
+   "name": "The New Yorker",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.newyorker.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "The Telephone’s Tangled History of Intimacy and Control",
+     "url": "https://upstract.com/x/34551e65af6b4ffe",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-0",
+     "title_zh": "电话在亲密与控制之间的纠缠史"
+    },
+    {
+     "title": "Roy Lichtenstein’s Witty Critiques of Masculinity",
+     "url": "https://upstract.com/x/5fdccf8802496296",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-1",
+     "title_zh": "罗伊·利希滕斯坦对男子气概的诙谐批判"
+    },
+    {
+     "title": "The MAGA Faithful Eye the Exits",
+     "url": "https://upstract.com/x/fac5d57b9894d7e6",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-2",
+     "title_zh": "MAGA忠实支持者正伺机退出"
+    },
+    {
+     "title": "The Best Gifts for Kids Are Small. Or Big. Or Lots. Or Stomp",
+     "url": "https://upstract.com/x/7baaec67bdd33bb8",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-3",
+     "title_zh": "给孩子最好的礼物：小、大、多，或者Stomp"
+    },
+    {
+     "title": "Did the World Just Gain Hundreds of Millions of Alzheimer’s Patients?",
+     "url": "https://upstract.com/x/37eac3ec33dfb481",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-4",
+     "title_zh": "世界刚刚多出数亿阿尔茨海默病患者吗？"
+    },
+    {
+     "title": "Daily Cartoon: Monday, November 2nd",
+     "url": "https://upstract.com/x/c623baf06e2e3723",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-5",
+     "title_zh": "每日漫画：11月2日，星期一"
+    },
+    {
+     "title": "Play Catalogues: Monday, November 2, 2026",
+     "url": "https://upstract.com/x/b90c19b3df69856e",
+     "gated": true,
+     "time": "2026-11-02T11:45:31.896090Z",
+     "id": "newyorker-6",
+     "title_zh": "剧目目录：2026年11月2日，星期一"
+    }
+   ]
+  },
+  {
+   "id": "unherd",
+   "name": "UnHerd",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://unherd.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Why Iran-Contra still matters",
+     "url": "https://unherd.com/2026/11/why-iran-contra-still-matters/?edition=us",
+     "time": "2026-11-02T00:45:31.896090Z",
+     "id": "unherd-0",
+     "title_zh": "伊朗门事件为何仍然重要"
+    },
+    {
+     "title": "How Pedro Sánchez failed Spain",
+     "url": "https://unherd.com/2026/11/how-pedro-sanchez-failed-spain/?edition=us",
+     "time": "2026-11-02T00:45:31.896090Z",
+     "id": "unherd-1",
+     "title_zh": "佩德罗·桑切斯如何辜负了西班牙"
+    },
+    {
+     "title": "The Obamas never learned their lesson",
+     "url": "https://upstract.com/x/b06a555fd095e514",
+     "gated": true,
+     "time": "2026-11-02T00:45:31.896090Z",
+     "id": "unherd-2",
+     "title_zh": "奥巴马夫妇从未吸取教训"
+    },
+    {
+     "title": "Why German tanks are rolling into Lithuania",
+     "url": "https://upstract.com/x/e3bc98db49bef372",
+     "gated": true,
+     "time": "2026-11-02T00:45:31.896090Z",
+     "id": "unherd-3",
+     "title_zh": "德国坦克为何开进立陶宛"
+    },
+    {
+     "title": "Why Europe’s kids are revolting",
+     "url": "https://unherd.com/2026/11/why-europes-kids-are-revolting/?edition=us",
+     "id": "unherd-4",
+     "title_zh": "欧洲的孩子为何在反抗"
+    },
+    {
+     "title": "A Halloween ghost story",
+     "url": "https://unherd.com/2026/10/a-halloween-ghost-story/?edition=us",
+     "time": "2026-10-31T15:45:31.896090Z",
+     "id": "unherd-5",
+     "title_zh": "一个万圣节鬼故事"
+    },
+    {
+     "title": "Why Europe’s kids are revolting",
+     "url": "https://upstract.com/x/8934144410c56b33",
+     "gated": true,
+     "time": "2026-10-31T15:45:31.896090Z",
+     "id": "unherd-6",
+     "title_zh": "欧洲的孩子为何在反抗"
+    }
+   ]
+  },
+  {
+   "id": "commentary",
+   "name": "Commentary",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.commentary.org/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Sub Parliament",
+     "url": "https://www.commentary.org/noam-blum/sub-parliament/",
+     "time": "2026-10-30T15:45:31.896090Z",
+     "id": "commentary-0",
+     "title_zh": "次级议会"
+    },
+    {
+     "title": "‘Training’ A.I. to Be Anti-Zionist",
+     "url": "https://www.commentary.org/seth-mandel/training-a-i-to-be-anti-zionist/",
+     "time": "2026-10-30T15:45:31.896090Z",
+     "id": "commentary-1",
+     "title_zh": "“训练”AI成为反犹太复国主义者"
+    },
+    {
+     "title": "The Antisemitism Horseshoe",
+     "url": "https://upstract.com/x/c9fa324c619d8bdf",
+     "gated": true,
+     "time": "2026-10-29T15:45:31.896090Z",
+     "id": "commentary-2",
+     "title_zh": "反犹主义的“马蹄铁”"
+    },
+    {
+     "title": "Who Are Jewish Museums For?",
+     "url": "https://upstract.com/x/b9cfbd6c9b8d3aa3",
+     "gated": true,
+     "time": "2026-10-29T15:45:31.896090Z",
+     "id": "commentary-3",
+     "title_zh": "犹太博物馆为谁而设？"
+    },
+    {
+     "title": "The Anti-Bibi Opposition Contemplates Plan B",
+     "url": "https://upstract.com/x/e05c91036e55e45a",
+     "gated": true,
+     "time": "2026-10-29T15:45:31.896090Z",
+     "id": "commentary-4",
+     "title_zh": "反比比反对派考虑B计划"
+    },
+    {
+     "title": "Coalition Building",
+     "url": "https://upstract.com/x/2b4ec72a22e13db4",
+     "gated": true,
+     "time": "2026-10-28T15:45:31.896090Z",
+     "id": "commentary-5",
+     "title_zh": "联盟构建"
+    },
+    {
+     "title": "The Anti-Semitic Ad Inspired By Abdul El-Sayed’s Own Words",
+     "url": "https://upstract.com/x/c285f9145c95f3c4",
+     "gated": true,
+     "time": "2026-10-28T15:45:31.896090Z",
+     "id": "commentary-6",
+     "title_zh": "受阿卜杜勒·埃尔-赛义德本人言论启发的反犹广告"
     }
    ]
   },
@@ -1004,73 +893,73 @@
    "error": null,
    "items": [
     {
+     "title": "Anthropic Revenue Nears $17 Billion Ahead of Potential IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-revenue-hits-nearly-17-billion-before-blockbuster-ipo",
+     "source": "Bailey Lipschultz / Bloomberg",
+     "time": "2026-11-02T15:19:31.896090Z",
+     "count": 5,
+     "id": "alltop_tech-0",
+     "title_zh": "Anthropic收入逼近170亿美元，潜在IPO临近"
+    },
+    {
      "title": "European supermarket freezers malfunction due to cyberattack",
      "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 11,
-     "id": "alltop_tech-0",
-     "title_zh": "网络攻击导致欧洲超市冷柜故障"
-    },
-    {
-     "title": "Anthropic Revenue Nears $17 Billion Ahead of Potential IPO",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-revenue-hits-nearly-17-billion-before-blockbuster-ipo",
-     "source": "Bloomberg",
-     "time": "2026-11-02T15:19:13.568382Z",
-     "count": 5,
      "id": "alltop_tech-1",
-     "title_zh": "Anthropic营收逼近170亿美元，或迎IPO"
+     "title_zh": "欧洲超市冰柜因网络攻击发生故障"
     },
     {
      "title": "Marvell to Acquire Lumentum in $11.5 Billion All-Stock Deal",
      "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings",
      "source": "Bloomberg",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 7,
      "id": "alltop_tech-2",
      "title_zh": "Marvell将以115亿美元全股票交易收购Lumentum"
     },
     {
-     "title": "Binance Covers 90% of $6.3B Hack Losses, Blames North Korean Hackers",
-     "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
-     "source": "Cointelegraph",
-     "time": "2026-11-02T13:27:13.568382Z",
-     "count": 20,
-     "id": "alltop_tech-3",
-     "title_zh": "币安承担63亿美元黑客损失中的90%，归咎朝鲜黑客"
-    },
-    {
-     "title": "Ukraine and Russia report cyberattacks on emergency alert apps",
+     "title": "Ukraine, Russia report cyberattacks on emergency alert apps",
      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
-     "time": "2026-11-02T14:30:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 7,
-     "id": "alltop_tech-4",
+     "id": "alltop_tech-3",
      "title_zh": "乌克兰和俄罗斯报告紧急警报应用遭网络攻击"
     },
     {
-     "title": "Candidates Backing Data Center Pauses Could Win in Up to 15 Governor’s Races",
+     "title": "Binance recovers 90% of $6.3B hack losses, blames North Korea",
+     "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+     "source": "Cointelegraph",
+     "time": "2026-11-02T12:45:31.896090Z",
+     "count": 20,
+     "id": "alltop_tech-4",
+     "title_zh": "Binance追回63亿美元黑客损失中的90%，并归咎朝鲜"
+    },
+    {
+     "title": "Candidates backing data center pauses could win in 15 governor's races",
      "url": "https://www.theinformation.com/articles/candidates-backing-data-center-pauses-win-15-governors-races",
      "source": "The Information",
-     "time": "2026-11-02T15:15:13.568382Z",
+     "time": "2026-11-02T15:15:31.896090Z",
      "count": 3,
      "id": "alltop_tech-5",
-     "title_zh": "支持暂停数据中心的候选人可能在多达15场州长选举中获胜"
+     "title_zh": "支持暂停数据中心的候选人可能在15场州长竞选中获胜"
     },
     {
-     "title": "OpenAI inks four Abu Dhabi deals in energy, government, investment",
+     "title": "OpenAI inks four Abu Dhabi deals spanning energy, government, and investment",
      "url": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
      "source": "The Next Web",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 5,
      "id": "alltop_tech-6",
-     "title_zh": "OpenAI在能源、政府和投资领域签署四项阿布扎比协议"
+     "title_zh": "OpenAI在阿布扎比签署四项协议，涵盖能源、政府和投资"
     },
     {
-     "title": "Chinese AI Startup DeepSeek Unveils Autonomous Coding Agent",
+     "title": "Chinese AI startup DeepSeek unveils autonomous coding agent",
      "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
      "source": "Bloomberg",
-     "time": "2026-11-02T13:27:13.568382Z",
+     "time": "2026-11-02T13:45:31.896090Z",
      "count": 5,
      "id": "alltop_tech-7",
      "title_zh": "中国AI初创公司DeepSeek发布自主编程智能体"
@@ -1079,7 +968,7 @@
      "title": "Hypersonic missile startup Hypersonica raises €100M",
      "url": "https://www.ft.com/content/e43fb9c3-5487-4373-ad4e-16b50a1ac22e?syn-25a6b1a6=1",
      "source": "FT Companies",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 5,
      "id": "alltop_tech-8",
      "title_zh": "高超音速导弹初创公司Hypersonica融资1亿欧元"
@@ -1088,10 +977,10 @@
      "title": "Canva Launches Free Affinity Suite and Sketch Studio for iPad",
      "url": "https://www.macrumors.com/2026/11/02/canva-free-affinity-app-ipad/",
      "source": "MacRumors",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 3,
      "id": "alltop_tech-9",
-     "title_zh": "Canva推出免费Affinity套件和iPad版Sketch Studio"
+     "title_zh": "Canva推出免费Affinity套件及iPad版Sketch Studio"
     }
    ]
   },
@@ -1109,91 +998,91 @@
      "title": "European supermarket freezers malfunction due to cyberattack",
      "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 11,
      "id": "alltop_business-0",
-     "title_zh": "网络攻击导致欧洲超市冷柜故障"
+     "title_zh": "欧洲超市冷柜因网络攻击发生故障"
     },
     {
      "title": "Marvell to Acquire Lumentum in $11.5 Billion All-Stock Deal",
      "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings",
      "source": "Bloomberg",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 7,
      "id": "alltop_business-1",
      "title_zh": "Marvell将以115亿美元全股票交易收购Lumentum"
     },
     {
-     "title": "Binance Covers 90% of $6.3B Hack Losses, Blames North Korean Hackers",
+     "title": "Binance recovers 90% of $6.3B hack losses, blames North Korea",
      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
      "source": "Cointelegraph",
-     "time": "2026-11-02T13:27:13.568382Z",
+     "time": "2026-11-02T12:45:31.896090Z",
      "count": 20,
      "id": "alltop_business-2",
-     "title_zh": "币安承担63亿美元黑客损失中的90%，归咎朝鲜黑客"
+     "title_zh": "币安追回63亿美元黑客攻击损失中的90%，归咎朝鲜"
     },
     {
      "title": "Business jet crashes in Florida, killing all nine onboard",
      "url": "https://www.businessinsider.com/private-jet-crash-florida-2026-11",
      "source": "Business Insider",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 6,
      "id": "alltop_business-3",
-     "title_zh": "佛罗里达商务机坠毁，机上九人全部遇难"
+     "title_zh": "佛罗里达州一架公务机坠毁，机上9人全部遇难"
     },
     {
-     "title": "Candidates Backing Data Center Pauses Could Win in Up to 15 Governor’s Races",
+     "title": "Candidates backing data center pauses could win in 15 governor's races",
      "url": "https://www.theinformation.com/articles/candidates-backing-data-center-pauses-win-15-governors-races",
      "source": "The Information",
-     "time": "2026-11-02T15:15:13.568382Z",
+     "time": "2026-11-02T15:15:31.896090Z",
      "count": 3,
      "id": "alltop_business-4",
-     "title_zh": "支持暂停数据中心的候选人可能在多达15场州长选举中获胜"
+     "title_zh": "支持暂停数据中心的候选人可能在15场州长竞选中获胜"
     },
     {
-     "title": "Big Tech stocks plunge $900bn amid investor fears over soaring AI spending",
+     "title": "Big Tech stocks plunge $900bn on soaring AI spending fears",
      "url": "https://www.scmp.com/tech/big-tech/article/3372737/amid-brutal-sell-what-comes-next-google-amazon-and-other-big-tech-titans",
      "source": "South China Morning Post Tech",
-     "time": "2026-11-01T23:27:13.568382Z",
+     "time": "2026-11-01T22:45:31.896090Z",
      "count": 12,
      "id": "alltop_business-5",
-     "title_zh": "投资者担忧AI支出飙升，大型科技股暴跌9000亿美元"
+     "title_zh": "大型科技股因AI支出飙升担忧暴跌9000亿美元"
     },
     {
-     "title": "OpenAI inks four Abu Dhabi deals in energy, government, investment",
+     "title": "OpenAI inks four Abu Dhabi deals spanning energy, government, and investment",
      "url": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
      "source": "The Next Web",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 5,
      "id": "alltop_business-6",
-     "title_zh": "OpenAI在能源、政府和投资领域签署四项阿布扎比协议"
+     "title_zh": "OpenAI签署四项阿布扎比协议，涵盖能源、政府和投资"
     },
     {
-     "title": "Ryanair considers pay freezes, hiring cuts, AI adoption amid soaring fuel costs",
+     "title": "Ryanair considers pay freezes, hiring cuts amid €2B fuel cost surge",
      "url": "https://seekingalpha.com/news/4661919-ryanair-reviews-costs-considers-pay-freeze-as-fuel-costs-squeeze-profit?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-02T13:27:13.568382Z",
+     "time": "2026-11-02T12:45:31.896090Z",
      "count": 5,
      "id": "alltop_business-7",
-     "title_zh": "燃料成本飙升，瑞安航空考虑冻结薪酬、削减招聘并采用AI"
+     "title_zh": "瑞安航空因燃料成本激增20亿欧元考虑冻结工资、削减招聘"
     },
     {
      "title": "Hypersonic missile startup Hypersonica raises €100M",
      "url": "https://www.ft.com/content/e43fb9c3-5487-4373-ad4e-16b50a1ac22e?syn-25a6b1a6=1",
      "source": "FT Companies",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 5,
      "id": "alltop_business-8",
      "title_zh": "高超音速导弹初创公司Hypersonica融资1亿欧元"
     },
     {
-     "title": "SpaceX reportedly eyes Boost Mobile for $1 trillion cellular market play",
-     "url": "https://www.marketwatch.com/story/in-the-hunt-for-1-trillion-of-revenue-spacex-reportedly-targets-boost-mobile-for-a-deal-7eb4ea49?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "time": "2026-11-02T14:34:13.568382Z",
+     "title": "Apple Earnings Face Scrutiny Amid Tech Sector Downturn",
+     "url": "https://www.fastcompany.com/91634042/apple-q4-earnings-preview-tech-giant-save-brutal-ai-sell-off-today",
+     "source": "Fast Company",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 2,
      "id": "alltop_business-9",
-     "title_zh": "报道称SpaceX瞄准Boost Mobile，布局万亿美元移动通信市场"
+     "title_zh": "科技行业低迷之际，苹果财报面临审视"
     }
    ]
   },
@@ -1211,91 +1100,91 @@
      "title": "European supermarket freezers malfunction due to cyberattack",
      "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 11,
      "id": "alltop_world-0",
-     "title_zh": "网络攻击导致欧洲超市冷柜故障"
+     "title_zh": "欧洲超市冷柜因网络攻击发生故障"
     },
     {
-     "title": "Binance Covers 90% of $6.3B Hack Losses, Blames North Korean Hackers",
+     "title": "Binance recovers 90% of $6.3B hack losses, blames North Korea",
      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
      "source": "Cointelegraph",
-     "time": "2026-11-02T13:27:13.568382Z",
+     "time": "2026-11-02T12:45:31.896090Z",
      "count": 20,
      "id": "alltop_world-1",
-     "title_zh": "币安承担63亿美元黑客损失中的90%，归咎朝鲜黑客"
+     "title_zh": "币安追回63亿美元黑客攻击损失中的90%，归咎朝鲜"
     },
     {
-     "title": "Ukraine and Russia report cyberattacks on emergency alert apps",
+     "title": "Ukraine, Russia report cyberattacks on emergency alert apps",
      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
-     "time": "2026-11-02T14:30:13.568382Z",
+     "time": "2026-11-02T14:45:31.896090Z",
      "count": 7,
      "id": "alltop_world-2",
      "title_zh": "乌克兰和俄罗斯报告紧急警报应用遭网络攻击"
     },
     {
-     "title": "Business jet crashes in Florida, killing all nine onboard",
-     "url": "https://www.businessinsider.com/private-jet-crash-florida-2026-11",
-     "source": "Business Insider",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "count": 6,
-     "id": "alltop_world-3",
-     "title_zh": "佛罗里达商务机坠毁，机上九人全部遇难"
-    },
-    {
      "title": "Netanyahu poised to return to power after Israeli election deadlock",
      "url": "https://www.wsj.com/opinion/benjamin-netanyahu-israel-election-result-gadi-eisenkot-196bff9b?mod=rss_worldnews",
      "source": "WSJ World",
-     "time": "2026-11-02T11:27:13.568382Z",
+     "time": "2026-11-02T10:45:31.896090Z",
      "count": 14,
-     "id": "alltop_world-4",
+     "id": "alltop_world-3",
      "title_zh": "以色列选举僵局后内塔尼亚胡准备重新掌权"
     },
     {
-     "title": "Ryanair considers pay freezes, hiring cuts, AI adoption amid soaring fuel costs",
+     "title": "Business jet crashes in Florida, killing all nine onboard",
+     "url": "https://www.businessinsider.com/private-jet-crash-florida-2026-11",
+     "source": "Business Insider",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "count": 6,
+     "id": "alltop_world-4",
+     "title_zh": "佛罗里达州一架公务机坠毁，机上9人全部遇难"
+    },
+    {
+     "title": "Ryanair considers pay freezes, hiring cuts amid €2B fuel cost surge",
      "url": "https://seekingalpha.com/news/4661919-ryanair-reviews-costs-considers-pay-freeze-as-fuel-costs-squeeze-profit?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-02T13:27:13.568382Z",
+     "time": "2026-11-02T12:45:31.896090Z",
      "count": 5,
      "id": "alltop_world-5",
-     "title_zh": "燃料成本飙升，瑞安航空考虑冻结薪酬、削减招聘并采用AI"
+     "title_zh": "瑞安航空因燃料成本激增20亿欧元考虑冻结工资、削减招聘"
+    },
+    {
+     "title": "Fox News Ratings Plummet Ahead of US Elections, Cites 'Viewer Fatigue'",
+     "url": "https://www.ft.com/content/f1d46023-f199-4822-bd76-293afde613b3?syn-25a6b1a6=1",
+     "source": "Financial Times World",
+     "time": "2026-11-02T15:33:31.896090Z",
+     "count": 2,
+     "id": "alltop_world-6",
+     "title_zh": "美国大选前福克斯新闻收视率暴跌，称“观众疲劳”"
     },
     {
      "title": "Cost of living protests spread across Europe, reigniting in France",
      "url": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween",
      "source": "NYT World",
-     "time": "2026-11-02T00:27:13.568382Z",
+     "time": "2026-11-02T00:45:31.896090Z",
      "count": 7,
-     "id": "alltop_world-6",
-     "title_zh": "生活成本抗议席卷欧洲，法国再度爆发"
-    },
-    {
-     "title": "Gulf nations brace for US-Iran conflict escalation",
-     "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
-     "source": "Financial Times World",
-     "time": "2026-11-02T14:53:13.568382Z",
-     "count": 2,
      "id": "alltop_world-7",
-     "title_zh": "海湾国家准备应对美伊冲突升级"
+     "title_zh": "生活成本抗议蔓延欧洲，法国再度爆发"
     },
     {
      "title": "Palisades Fire arson trial begins again after mistrial",
      "url": "https://www.npr.org/2026/11/02/nx-s1-6019291/second-trial-for-man-accused-of-starting-deadly-palisades-fire-to-begin",
      "source": "NPR Politics",
-     "time": "2026-11-02T15:01:13.568382Z",
+     "time": "2026-11-02T15:01:31.896090Z",
      "count": 2,
      "id": "alltop_world-8",
-     "title_zh": "帕利塞兹火灾纵火案审判在流审后重新开始"
+     "title_zh": "帕利塞兹大火纵火案在无效审判后重新开审"
     },
     {
-     "title": "China pulls Real Madrid match from TV amid Mbappe controversy",
+     "title": "China Pulls Real Madrid Match from TV Amid Mbappe Controversy",
      "url": "https://sports.yahoo.com/articles/china-follows-threat-real-madrid-124200366.html",
      "source": "Yahoo Sports",
-     "time": "2026-11-02T09:27:13.568382Z",
+     "time": "2026-11-02T09:45:31.896090Z",
      "count": 3,
      "id": "alltop_world-9",
-     "title_zh": "姆巴佩争议中中国电视台停播皇马比赛"
+     "title_zh": "因姆巴佩争议，中国撤下皇家马德里比赛的电视转播"
     }
    ]
   },
@@ -1313,84 +1202,221 @@
      "title": "First resident crew arrives at International Space Station on Nov. 2, 2000",
      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-2-2026",
      "source": "Hanneke Weitering / Space.com",
-     "time": "2026-11-02T15:00:13.568382Z",
+     "time": "2026-11-02T15:00:31.896090Z",
      "id": "alltop_science-0",
-     "title_zh": "2000年11月2日首批常驻乘组抵达国际空间站"
+     "title_zh": "首批常驻宇航员于2000年11月2日抵达国际空间站"
     },
     {
-     "title": "NASA's Swift Telescope Set for Earth Re-entry",
+     "title": "NASA's Swift Telescope Set for Earth Re-entry; Impact Zone Unknown",
      "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall",
      "source": "Space.com",
-     "time": "2026-11-02T09:27:13.568382Z",
+     "time": "2026-11-02T09:45:31.896090Z",
      "count": 2,
      "id": "alltop_science-1",
-     "title_zh": "NASA的Swift望远镜将再入地球大气层"
+     "title_zh": "NASA的Swift望远镜将再入地球；撞击区域未知"
     },
     {
-     "title": "IceCube telescope detects ghost particles with 10 billion times energy of solar neutrinos",
+     "title": "IceCube telescope detects neutrinos with 10 billion times solar energy",
      "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
      "source": "Science Daily",
-     "time": "2026-11-02T14:27:13.568382Z",
+     "time": "2026-11-02T13:45:31.896090Z",
      "id": "alltop_science-2",
-     "title_zh": "IceCube望远镜探测到能量为太阳中微子100亿倍的幽灵粒子"
+     "title_zh": "IceCube望远镜探测到能量达太阳100亿倍的中微子"
     },
     {
      "title": "Hubble and Webb Telescopes Reveal Ghostly Structures in Cat's Eye Nebula",
      "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
      "source": "Science Daily",
-     "time": "2026-11-02T03:27:13.568382Z",
+     "time": "2026-11-02T03:45:31.896090Z",
      "count": 4,
      "id": "alltop_science-3",
      "title_zh": "哈勃和韦布望远镜揭示猫眼星云中的幽灵状结构"
     },
     {
-     "title": "Two new bandicoot species discovered in Australian museum collections",
-     "url": "https://phys.org/news/2026-11-bandicoot-species-trawling-museum-drawers.html",
-     "source": "Phys.org",
-     "time": "2026-11-02T15:00:13.568382Z",
+     "title": "New dinosaur species 'Invictibellatrix amberina' named from 1924 fossil",
+     "url": "https://www.smithsonianmag.com/smart-news/after-sitting-in-a-london-museum-since-1924-this-dinosaur-fossil-was-named-a-new-predatory-species-an-unconquered-female-warrior-180989683/",
+     "source": "Smithsonian Magazine",
+     "time": "2026-11-02T15:00:31.896090Z",
      "id": "alltop_science-4",
-     "title_zh": "澳大利亚博物馆藏品中发现两个新的袋狸物种"
+     "title_zh": "根据1924年化石命名新恐龙物种“Invictibellatrix amberina”"
+    },
+    {
+     "title": "Early humans settled ancient Arabia despite water scarcity",
+     "url": "https://phys.org/news/2026-11-early-humans-access-ancient-arabian.html",
+     "source": "Phys.org",
+     "time": "2026-11-02T15:20:31.896090Z",
+     "id": "alltop_science-5",
+     "title_zh": "早期人类在缺水情况下定居古阿拉伯"
+    },
+    {
+     "title": "Childhood poverty linked to 5x higher risk of adult poverty",
+     "url": "https://phys.org/news/2026-11-children-poverty-poor-young-adults.html",
+     "source": "Phys.org",
+     "time": "2026-11-02T15:20:31.896090Z",
+     "id": "alltop_science-6",
+     "title_zh": "童年贫困与成年贫困风险高5倍有关"
+    },
+    {
+     "title": "Consciousness may originate in the brain's core, new research suggests",
+     "url": "https://medicalxpress.com/news/2026-11-consciousness-deep-brain-case.html",
+     "source": "Medical Xpress",
+     "time": "2026-11-02T15:20:31.896090Z",
+     "id": "alltop_science-7",
+     "title_zh": "新研究表明意识可能起源于大脑核心"
+    },
+    {
+     "title": "Mechanical thrombectomy significantly cuts intermediate-risk PE mortality",
+     "url": "https://medicalxpress.com/news/2026-11-mechanical-thrombectomy-linked-mortality-intermediate.html",
+     "source": "Medical Xpress",
+     "time": "2026-11-02T15:20:31.896090Z",
+     "id": "alltop_science-8",
+     "title_zh": "机械取栓显著降低中危肺栓塞死亡率"
     },
     {
      "title": "Astronomy guide reflects on how a child's black hole question changed his explanations",
      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/03/a-job-that-changed-me-astronomy-guide-black-holes",
      "source": "Guardian Science",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "alltop_science-5",
-     "title_zh": "天文指南作者反思一个孩子的黑洞问题如何改变了他的讲解方式"
-    },
-    {
-     "title": "Cancer survivors' lived experiences shift focus beyond survival rates",
-     "url": "https://www.theguardian.com/australia-news/commentisfree/2026/nov/03/as-cancer-treatments-become-more-effective-we-must-ask-what-is-life-like-for-the-people-who-receive-them",
-     "source": "Guardian Science",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "alltop_science-6",
-     "title_zh": "癌症幸存者的亲身经历使关注点超越生存率"
-    },
-    {
-     "title": "Children's e-bike injuries up 33% quarterly; e-scooter injuries up 15%",
-     "url": "https://medicalxpress.com/news/2026-10-children-bike-injuries-quarter-scooter.html",
-     "source": "Medical Xpress",
-     "time": "2026-11-02T15:00:13.568382Z",
-     "id": "alltop_science-7",
-     "title_zh": "儿童电动自行车伤害季度环比增33%；电动滑板车伤害增15%"
-    },
-    {
-     "title": "Melting permafrost spawns new type of large landslide",
-     "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
-     "source": "Science News",
-     "time": "2026-11-02T14:27:13.568382Z",
-     "id": "alltop_science-8",
-     "title_zh": "永久冻土融化催生新型大型滑坡"
-    },
-    {
-     "title": "Cambridge scientist among 69 killed in Spanish train crash",
-     "url": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
-     "source": "The Guardian World",
-     "time": "2026-11-02T01:27:13.568382Z",
-     "count": 2,
+     "time": "2026-11-02T14:45:31.896090Z",
      "id": "alltop_science-9",
-     "title_zh": "剑桥科学家在西班牙火车事故中遇难，共69人死亡"
+     "title_zh": "天文讲解员反思一个孩子的黑洞问题如何改变了他的讲解方式"
+    }
+   ]
+  },
+  {
+   "id": "reddit",
+   "name": "Reddit",
+   "group": "social",
+   "kind": "list",
+   "home": "https://www.reddit.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "People who lost an entire group of friends, what happened?",
+     "url": "https://www.reddit.com/r/AskReddit/comments/1xlmbb6/people_who_lost_an_entire_group_of_friends_what/",
+     "time": "2026-11-02T15:36:31.896090Z",
+     "source": "r/AskReddit",
+     "id": "reddit-0",
+     "title_zh": "失去整个朋友圈的人，后来发生了什么？"
+    },
+    {
+     "title": "\"Who ya gonna call?\"",
+     "url": "https://v.redd.it/tc1jaqd6k7zh1",
+     "time": "2026-11-02T15:36:31.896090Z",
+     "source": "r/nextfuckinglevel",
+     "id": "reddit-1",
+     "title_zh": "“你要打给谁？”"
+    },
+    {
+     "title": "Why do I never hear about trans men?",
+     "url": "https://upstract.com/x/6ac6e3d9a186fc47",
+     "gated": true,
+     "time": "2026-11-02T15:24:31.896090Z",
+     "source": "r/NoStupidQuestions",
+     "id": "reddit-2",
+     "title_zh": "为什么我从未听说过跨性别男性？"
+    },
+    {
+     "title": "Worker accidentally slaps customer",
+     "url": "https://upstract.com/x/5cd090b7cfed78c4",
+     "gated": true,
+     "time": "2026-11-02T15:14:31.896090Z",
+     "source": "r/WatchPeopleDieInside",
+     "id": "reddit-3",
+     "title_zh": "员工不小心扇了顾客一巴掌"
+    },
+    {
+     "title": "Mind blown multiplication",
+     "url": "https://www.reddit.com/r/interesting/comments/1xlvfmf/mind_blown_multiplication/",
+     "time": "2026-11-02T15:02:31.896090Z",
+     "source": "r/interesting",
+     "id": "reddit-4",
+     "title_zh": "烧脑的乘法"
+    },
+    {
+     "title": "My stepdad turned garage scrap metal into this amazing birthday gift",
+     "url": "https://www.reddit.com/r/StarWars/comments/1xlwr5b/my_stepdad_turned_garage_scrap_metal_into_this/",
+     "time": "2026-11-02T15:02:31.896090Z",
+     "source": "r/StarWars",
+     "id": "reddit-5",
+     "title_zh": "我继父把车库废金属变成了这份惊人的生日礼物"
+    },
+    {
+     "title": "me_irl",
+     "url": "https://www.reddit.com/r/me_irl/comments/1xlx3zh/me_irl/",
+     "time": "2026-11-02T14:51:31.896090Z",
+     "source": "r/me_irl",
+     "id": "reddit-6",
+     "title_zh": "me_irl"
+    },
+    {
+     "title": "Let's goooo",
+     "url": "https://www.reddit.com/r/TheTeenagerPeople/comments/1xltrzc/lets_goooo/",
+     "time": "2026-11-02T14:45:31.896090Z",
+     "source": "r/TheTeenagerPeople",
+     "id": "reddit-7",
+     "title_zh": "冲啊"
+    }
+   ]
+  },
+  {
+   "id": "google_trends",
+   "name": "Google Trends",
+   "group": "social",
+   "kind": "list",
+   "home": "https://trends.google.com/trending?geo=US",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "William Blair refreshes stock Conviction List with 5 additions, 3 removals (SPY:NYSEARCA)",
+     "url": "https://seekingalpha.com/news/4662169-william-blair-refreshes-stock-conviction-list-with-5-additions-3-removals",
+     "source": "Seeking Alpha",
+     "traffic": "2k+",
+     "id": "google_trends-0",
+     "title_zh": "威廉·布莱尔更新股票“高信心名单”，新增5只、剔除3只（SPY:NYSEARCA）"
+    },
+    {
+     "title": "First Tick: Top global cues to watch in today's trade",
+     "url": "https://www.moneycontrol.com/news/business/markets/first-tick-top-global-cues-to-watch-in-today-s-trade-28-14063342.html",
+     "source": "Moneycontrol.com",
+     "traffic": "2k+",
+     "id": "google_trends-1",
+     "title_zh": "开盘速览：今日交易需关注的全球主要线索"
+    },
+    {
+     "title": "Aspen Neuroscience, Inc.(NasdaqGS: ASPE) added to NASDAQ Composite Index",
+     "url": "https://www.marketscreener.com/news/aspen-neuroscience-inc-nasdaqgs-aspe-added-to-nasdaq-composite-index-ce785fd8d188f026",
+     "source": "marketscreener.com",
+     "traffic": "500+",
+     "id": "google_trends-2",
+     "title_zh": "Aspen Neuroscience, Inc.（NasdaqGS: ASPE）被纳入纳斯达克综合指数"
+    },
+    {
+     "title": "How Trump’s economic promises are holding up so far",
+     "url": "https://www.cnn.com/2026/11/02/economy/trump-economic-scorecard-so-far-vis",
+     "source": "CNN",
+     "traffic": "500+",
+     "id": "google_trends-3",
+     "title_zh": "特朗普的经济承诺目前兑现得如何"
+    },
+    {
+     "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
+     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+     "source": "CNBC",
+     "traffic": "500+",
+     "id": "google_trends-4",
+     "title_zh": "中期选举前伊朗和谈希望令原油跌至盘中低点"
+    },
+    {
+     "title": "Cantor Fitzgerald maintains Palantir Technologies at Neutral, raises price target to $207 from $156",
+     "url": "https://www.tradingview.com/news/tradingview:ca9c09e879441:0-cantor-fitzgerald-maintains-palantir-technologies-at-neutral-raises-price-target-to-207-from-156/",
+     "source": "TradingView",
+     "traffic": "500+",
+     "id": "google_trends-5",
+     "title_zh": "Cantor Fitzgerald维持Palantir Technologies“中性”评级，将目标价从156美元上调至207美元"
     }
    ]
   },
@@ -1405,121 +1431,107 @@
    "error": null,
    "items": [
     {
-     "title": "Cupra Formentor 1,5 TSI 150 KM. Rok modelowy 2027",
-     "url": "https://www.pepper.pl/promocje/cupra-formentor-15-tsi-150-km-rok-modelowy-2027-1379950",
-     "temperature": 1877,
-     "price_old": 145000,
-     "currency": "PLN",
-     "expired": false,
-     "comments": 142,
-     "type": "Deal",
-     "price": 119900,
-     "merchant": "www.cupra.com",
-     "id": "pepper-0",
-     "title_zh": "Cupra Formentor 1.5 TSI 150马力，2027款"
-    },
-    {
      "title": "Odkurzacz bezprzewodowy DYSON V8 Absolute Srebrny/Nikiel",
      "url": "https://www.pepper.pl/promocje/odkurzacz-bezprzewodowy-dyson-v8-absolute-srebrnynikiel-1380194",
-     "temperature": 1856,
+     "temperature": 1904,
      "price_old": 1658.04,
      "currency": "PLN",
      "expired": false,
-     "comments": 86,
+     "comments": 87,
      "type": "Deal",
      "price": 999,
      "merchant": "MediaMarkt",
+     "id": "pepper-0",
+     "title_zh": "戴森 V8 Absolute 无线吸尘器，银色/镍色"
+    },
+    {
+     "title": "Cupra Formentor 1,5 TSI 150 KM. Rok modelowy 2027",
+     "url": "https://www.pepper.pl/promocje/cupra-formentor-15-tsi-150-km-rok-modelowy-2027-1379950",
+     "temperature": 1902,
+     "price_old": 145000,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 143,
+     "type": "Deal",
+     "price": 119900,
+     "merchant": "www.cupra.com",
      "id": "pepper-1",
-     "title_zh": "戴森V8 Absolute无线吸尘器 银色/镍色"
+     "title_zh": "Cupra Formentor 1.5 TSI 150马力，2027款"
     },
     {
      "title": "Czapka zimowa WOOLCANO 100% WEŁNA MERINO",
      "url": "https://www.pepper.pl/promocje/czapka-zimowa-woolcano-100-welna-merino-1380380",
-     "temperature": 1410,
+     "temperature": 1491,
      "price_old": 39.99,
      "currency": "PLN",
      "expired": false,
-     "comments": 60,
+     "comments": 61,
      "type": "Deal",
      "price": 35.41,
      "merchant": "Allegro",
      "id": "pepper-2",
-     "title_zh": "WOOLCANO冬季帽 100%美利奴羊毛"
+     "title_zh": "WOOLCANO 冬季帽 100% 美利奴羊毛"
     },
     {
      "title": "Playstation 5 825GB digital + naped optyczny",
      "url": "https://www.pepper.pl/promocje/playstation-5-825gb-digital-naped-optyczny-1380265",
-     "temperature": 1293,
+     "temperature": 1370,
      "price_old": 3349.98,
      "currency": "PLN",
      "expired": false,
-     "comments": 154,
+     "comments": 168,
      "type": "Deal",
      "price": 2899.98,
      "merchant": "Media Expert",
      "id": "pepper-3",
-     "title_zh": "PlayStation 5 825GB数字版 + 光驱"
+     "title_zh": "PlayStation 5 825GB 数字版 + 光驱"
     },
     {
      "title": "Samochód - KIA K4 1.6 T-GDI 150 KM, automat ( wyposażenie M+Winter )",
      "url": "https://www.pepper.pl/promocje/samochod-kia-k4-16-t-gdi-150-km-automat-wyposazenie-mwinter-1380410",
-     "temperature": 1091,
+     "temperature": 1181,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
-     "comments": 80,
+     "comments": 85,
      "type": "Deal",
      "price": 96900,
      "merchant": "OTOMOTO",
      "id": "pepper-4",
-     "title_zh": "汽车 - 起亚K4 1.6 T-GDI 150马力，自动挡（M+Winter配置）"
+     "title_zh": "汽车 - 起亚 K4 1.6 T-GDI 150马力，自动挡（M+Winter配置）"
     },
     {
      "title": "Powerbank Baseus 20000 mAh czarny",
      "url": "https://www.pepper.pl/promocje/powerbank-baseus-20000-mah-czarny-1380175",
-     "temperature": 959,
+     "temperature": 984,
      "price_old": 69.99,
      "currency": "PLN",
      "expired": false,
-     "comments": 20,
+     "comments": 21,
      "type": "Deal",
      "price": 49.99,
      "merchant": "Allegro",
      "id": "pepper-5",
-     "title_zh": "倍思20000mAh黑色移动电源"
+     "title_zh": "Baseus 20000 mAh 黑色移动电源"
     },
     {
      "title": "Telewizor XIAOMI S MINI 55 144Hz QD-Mini LED Dolby Vision IQ, Dolby Atmos Google TV $404.30",
      "url": "https://www.pepper.pl/promocje/telewizor-xiaomi-s-mini-55-144hz-qd-mini-led-dolby-vision-iq-dolby-atmos-google-tv-1380043",
-     "temperature": 951,
+     "temperature": 960,
      "price_old": 1902.59,
      "currency": "PLN",
      "expired": false,
-     "comments": 97,
+     "comments": 98,
      "type": "Deal",
      "price": 1597.45,
      "merchant": "AliExpress",
      "id": "pepper-6",
-     "title_zh": "小米S Mini 55电视 144Hz QD-Mini LED，支持Dolby Vision IQ、Dolby Atmos，Google TV，$404.30"
-    },
-    {
-     "title": "Globalna wersja Xiaomi MIX Flip Dragon 8 Gen 3, aparat Leica 50MP, Hyper Charger, ekran 6,86 cala, 67 W, 12GB 512GB Black",
-     "url": "https://www.pepper.pl/promocje/globalna-wersja-xiaomi-mix-flip-dragon-8-gen-3-aparat-leica-50mp-hyper-charger-ekran-686-cala-67-w-12gb-512gb-black-1379928",
-     "temperature": 905,
-     "price_old": 2187.72,
-     "currency": "PLN",
-     "expired": false,
-     "comments": 38,
-     "type": "Deal",
-     "price": 1877.72,
-     "merchant": "AliExpress",
-     "id": "pepper-7",
-     "title_zh": "全球版小米MIX Flip 骁龙8 Gen 3，徕卡50MP相机，Hyper Charger，6.86英寸屏幕，67W，12GB 512GB 黑色"
+     "title_zh": "小米 S MINI 55 144Hz QD-Mini LED 电视，Dolby Vision IQ、Dolby Atmos、Google TV，$404.30"
     },
     {
      "title": "Kod zniżkowy Koleo.pl, Zniżka 15zł, MWZ 20zł - kod dla nowych",
      "url": "https://www.pepper.pl/kupony/kod-znizkowy-koleopl-znizka-15zl-mwz-20zl-1380228",
-     "temperature": 889,
+     "temperature": 902,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
@@ -1527,22 +1539,36 @@
      "type": "Voucher",
      "price": 15,
      "merchant": "Koleo",
+     "id": "pepper-7",
+     "title_zh": "Koleo.pl 优惠码：减 15zł，最低消费 20zł - 新用户专享码"
+    },
+    {
+     "title": "Toyota Yaris Silnik hybrydowy 1,5 VVT-i H 116 KM Bezstopniowa automatyczna (4X2) 2026",
+     "url": "https://www.pepper.pl/promocje/toyota-yaris-silnik-hybrydowy-15-vvt-i-h-116-km-bezstopniowa-automatyczna-4x2-2026-1380574",
+     "temperature": 857,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 50,
+     "type": "Deal",
+     "price": 87900,
+     "merchant": "toyota-wyprzedaz.pl",
      "id": "pepper-8",
-     "title_zh": "Koleo.pl优惠码：立减15兹罗提，MWZ立减20兹罗提——新用户专享"
+     "title_zh": "Toyota Yaris 1.5 VVT-i H 混动发动机 116 马力，CVT 自动（4X2），2026"
     },
     {
      "title": "Zestaw hantli żeliwnych 2x 7,5 kg, gumowane hantle HEX do ćwiczeń / fitness , w opisie również 1 x 7,5 kg za 31,45 zł",
      "url": "https://www.pepper.pl/promocje/zestaw-hantli-zeliwnych-2x-75-kg-gumowane-hantle-hex-do-cwiczen-fitness-w-opisie-rowniez-1-x-75-kg-za-3145-zl-1380196",
-     "temperature": 841,
+     "temperature": 855,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
-     "comments": 20,
+     "comments": 21,
      "type": "Deal",
      "price": 62.91,
      "merchant": "Allegro",
      "id": "pepper-9",
-     "title_zh": "铸铁哑铃套装2x7.5公斤，橡胶包覆HEX训练/健身哑铃，说明中另有1 x 7.5公斤售价31.45兹罗提"
+     "title_zh": "铸铁哑铃套装 2x 7.5 kg，橡胶包覆 HEX 健身哑铃；描述中另有 1 x 7.5 kg 售价 31.45 zł"
     }
    ]
   },
@@ -1559,20 +1585,20 @@
     {
      "title": "Shoop: 1 € Bonus ab 5 € MBW (aktivieren am 02.11.) | Black November Gewinnspiel mit über 900 Preisen im Wert von rund 55.555 €",
      "url": "https://www.mydealz.de/deals/shoop-1-eur-bonus-ab-5-eur-mbw-black-november-gewinnspiel-preise-im-wert-von-55000-eur-2861487",
-     "temperature": 5613,
+     "temperature": 5689,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 104,
+     "comments": 105,
      "type": "Deal",
      "merchant": "Shoop",
      "id": "mydealz-0",
-     "title_zh": "Shoop：满5欧元最低消费享1欧元奖励（11月2日激活）｜黑色十一月抽奖，900多项奖品总值约55,555欧元"
+     "title_zh": "Shoop：满 5 € 返 1 € 奖励（11 月 2 日激活）| Black November 抽奖，900 多个奖品总值约 55,555 €"
     },
     {
      "title": "[Shoop X IKEA] 7% Sofort-Cashback auf IKEA Geschenkkarten zum Ende der Kooperation | Angebot gültig bis 3.11.",
      "url": "https://www.mydealz.de/deals/shoop-x-ikea-7-sofort-cashback-auf-ikea-geschenkkarten-zum-ende-der-kooperation-angebot-gultig-bis-16-oktober-2852302",
-     "temperature": 1970,
+     "temperature": 1990,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1580,51 +1606,51 @@
      "type": "Deal",
      "merchant": "IKEA",
      "id": "mydealz-1",
-     "title_zh": "[Shoop X IKEA] 合作结束前，IKEA礼品卡即时返现7%｜优惠有效期至11月3日"
+     "title_zh": "[Shoop X IKEA] IKEA 礼品卡 7% 即时返现，合作结束前 | 优惠截至 11 月 3 日"
     },
     {
      "title": "[ING] Black Weeks: 200 € Bonus fürs Girokonto + Tagesgeld 4 % für 4 Monate + 150 € Wunschgutschein fürs Depot + 75 € KWK (bis 30.11.)",
      "url": "https://www.mydealz.de/deals/ing-black-weeks-200-eur-bonus-furs-girokonto-150-eur-wunschgutschein-furs-depot-75-eur-freunde-werben-bis-3011-2863082",
-     "temperature": 1879,
+     "temperature": 1953,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 147,
+     "comments": 160,
      "type": "Deal",
      "merchant": "ING",
      "id": "mydealz-2",
-     "title_zh": "[ING] 黑色周：活期账户200欧元奖励 + 4个月活期存款4% + 证券账户150欧元心愿券 + 75欧元推荐奖励（截至11月30日）"
-    },
-    {
-     "title": "[Magenta Moments] RYD: 3 Cent pro Liter Rabatt bei Aral und Esso",
-     "url": "https://www.mydealz.de/deals/magenta-moments-ryd-3-cent-pro-liter-rabatt-bei-aral-und-esso-2824097",
-     "temperature": 1737,
-     "price_old": null,
-     "currency": "EUR",
-     "expired": false,
-     "comments": 125,
-     "type": "Deal",
-     "merchant": "ryd",
-     "id": "mydealz-3",
-     "title_zh": "[Magenta Moments] RYD：在Aral和Esso每升优惠3欧分"
+     "title_zh": "[ING] Black Weeks：活期账户 200 € 奖励 + 4 个月活期存款 4% + 证券账户 150 € 自选代金券 + 75 € KWK（截至 11 月 30 日）"
     },
     {
      "title": "100 % Geld zurück auf AXE Fine Fragrance Premium Body Wash!",
      "url": "https://www.mydealz.de/deals/100-geld-zuruck-auf-axe-fine-fragrance-premium-body-wash-2863200",
-     "temperature": 1715,
+     "temperature": 1780,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 82,
+     "comments": 84,
      "type": "Deal",
      "merchant": "axe-fine-fragrance-bodywash-zufriedenheitsgarantie.de",
+     "id": "mydealz-3",
+     "title_zh": "AXE Fine Fragrance Premium 沐浴露 100% 返现！"
+    },
+    {
+     "title": "[Magenta Moments] RYD: 3 Cent pro Liter Rabatt bei Aral und Esso",
+     "url": "https://www.mydealz.de/deals/magenta-moments-ryd-3-cent-pro-liter-rabatt-bei-aral-und-esso-2824097",
+     "temperature": 1753,
+     "price_old": null,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 127,
+     "type": "Deal",
+     "merchant": "ryd",
      "id": "mydealz-4",
-     "title_zh": "AXE Fine Fragrance 高级沐浴露全额返现！"
+     "title_zh": "[Magenta Moments] RYD：Aral 和 Esso 每升优惠 3 欧分"
     },
     {
      "title": "Ryanair Fantastische Entdeckungen - Flüge ab 15€ (London, Dublin, Mallorca, Barcelona uvm)(von Berlin, Köln, uvm) Flüge bis 17.12 (oneway)",
      "url": "https://www.mydealz.de/deals/ryanair-fantastische-entdeckungen-fluge-ab-15eur-london-dublin-mallorca-barcelona-uvmvon-berlin-koln-uvm-fluge-bis-1712-oneway-2847378",
-     "temperature": 1470,
+     "temperature": 1482,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1633,12 +1659,12 @@
      "price": 14.99,
      "merchant": "Ryanair",
      "id": "mydealz-5",
-     "title_zh": "Ryanair 奇妙发现——航班15欧元起（伦敦、都柏林、马略卡、巴塞罗那等）（从柏林、科隆等出发），航班截至12月17日（单程）"
+     "title_zh": "Ryanair 精彩发现 - 15€ 起航班（伦敦、都柏林、马略卡、巴塞罗那等）（从柏林、科隆等出发），航班至 12 月 17 日（单程）"
     },
     {
      "title": "Preisvergleich.de & Shoop - 40€ Cashback auf valide Vertragsabschlüsse für Strom und Gas ab 3 Monate Laufzeit",
      "url": "https://www.mydealz.de/deals/preisvergleichde-shoop-40eur-cashback-auf-valide-vertragsabschlusse-fur-strom-und-gas-ab-3-monate-laufzeit-2852674",
-     "temperature": 1446,
+     "temperature": 1450,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1646,12 +1672,12 @@
      "type": "Deal",
      "merchant": "Shoop",
      "id": "mydealz-6",
-     "title_zh": "Preisvergleich.de & Shoop——电力和燃气合同（期限至少3个月）有效签约返现40欧元"
+     "title_zh": "Preisvergleich.de & Shoop - 电力与燃气合同有效签约返现 40€，合同期至少 3 个月"
     },
     {
      "title": "[Shoop] Freunde werben Freunde Aktion (KwK) · 30€ Prämie für Werber + 20€ Bonus für Geworbenen",
      "url": "https://www.mydealz.de/deals/shoop-freunde-werben-freunde-aktion-kwk-30eur-pramie-fur-werber-20eur-bonus-fur-geworbenen-2820261",
-     "temperature": 1374,
+     "temperature": 1382,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1659,12 +1685,12 @@
      "type": "Deal",
      "merchant": "Shoop",
      "id": "mydealz-7",
-     "title_zh": "[Shoop] 好友推荐活动（KwK）· 推荐人奖励30欧元 + 被推荐人奖励20欧元"
+     "title_zh": "[Shoop] 好友推荐好友活动（KwK）· 推荐人 30€ 奖励 + 被推荐人 20€ 奖励"
     },
     {
      "title": "Anker 100W USB C Ladegerät 736 Charger (Nano II) Schnellladegerät 3-Port Netzteil MacBook ThinkPad Dell iPad Samsung iPhone (Amazon Prime)",
      "url": "https://www.mydealz.de/deals/anker-100w-usb-c-ladegerat-736-charger-nano-ii-schnellladegerat-3-port-netzteil-macbook-thinkpad-dell-ipad-samsung-iphone-amazon-prime-2851014",
-     "temperature": 1317,
+     "temperature": 1341,
      "price_old": 34.59,
      "currency": "EUR",
      "expired": false,
@@ -1673,21 +1699,20 @@
      "price": 22.98,
      "merchant": "Amazon",
      "id": "mydealz-8",
-     "title_zh": "Anker 100W USB-C充电器 736 Charger（Nano II）快充 3口电源适配器 MacBook ThinkPad Dell iPad Samsung iPhone（Amazon Prime）"
+     "title_zh": "Anker 100W USB-C 充电器 736 Charger（Nano II）快充 3 口电源适配器，适用于 MacBook ThinkPad Dell iPad Samsung iPhone（Amazon Prime）"
     },
     {
-     "title": "Philips Bodygroom 3000er-Serie BG3480/15 Body&Balls 30,99€, 5000er BG5480/15 49,99€/OneBlade 360 Face 2x360 Klingen Li-Ion 34,99€ QP2734/30",
-     "url": "https://www.mydealz.de/deals/philips-bodygroom-3000er-serie-bodyballs-bg348015-3099-philips-oneblade-360-face-inkl-2x-360-klingen-liion-akku-3499eur-prime-2842474",
-     "temperature": 1296,
-     "price_old": 39.99,
+     "title": "Bambu Lab: 2000 Credits in drei Schritten für Log-In und Werbeeinwilligung Wert 20€ ohne MBW (bis 30% der Bestellsumme) oder 50€ ab 900€ MBW",
+     "url": "https://www.mydealz.de/deals/bambu-lab-2000-credits-wert-20eur-fur-log-in-und-werbeeinwilligung-in-drei-schritten-2863240",
+     "temperature": 1317,
+     "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 37,
+     "comments": 28,
      "type": "Deal",
-     "price": 30.99,
-     "merchant": "Amazon",
+     "merchant": "Bambu Lab",
      "id": "mydealz-9",
-     "title_zh": "飞利浦 Bodygroom 3000系列 BG3480/15 Body&Balls 30.99欧元，5000系列 BG5480/15 49.99欧元／OneBlade 360 Face 2x360刀片 锂电池 34.99欧元 QP2734/30"
+     "title_zh": "Bambu Lab：三步登录并同意广告送 2000 Credits，价值 20€，无最低消费（最高为订单金额的 30%）；或满 900€ 最低消费送 50€"
     }
    ]
   },
@@ -1714,7 +1739,7 @@
      "url": "https://www.bankier.pl/e/lead/2195/label=PPF/?source=wpkb",
      "id": "bankier-0",
      "title_zh": "Bank Millennium - Millennium 360°",
-     "bonus_zh": "开Millennium 360并同意营销，14天内注册BLIK、入账1500/3000zł、5笔手机支付得200zł；后6个月每月入账达标且交易满1000zł得300zł。"
+     "bonus_zh": "开Millennium 360°并同意营销，14天内BLIK入账1500/3000兹、5笔手机支付得200兹；6个月每月入账达标且交易1000兹得300兹。"
     },
     {
      "rank": 2,
@@ -1727,23 +1752,23 @@
      "bonus_text": "Aby otrzymać 1300 zł premii w promocji Alior Banku, należy wpisać kod PREMIA800 podczas wypełniania wniosku i spełnić warunki. Premia: 1. Nagroda na start - jeżeli założysz konto w Alior Online lub w Alior Mobile oraz w ciągu 10 dni od otwarcia konta dodasz kartę do portfela elektronicznego i zrobisz nią transakcję na dowolną kwotę: - 200 zł - na start - 500 zł – obrączka płatnicza: 2. Nagroda drugiego stopnia: - 200 zł – jeśli w kolejnym miesiącu, który nastąpi po miesiącu, w którym podpiszesz Umowę o Konto i Kartę spełnisz łącznie następujące warunki: - wykonasz 3 transakcje Kartą lub BLIKIE",
      "url": "https://www.bankier.pl/e/lead/3154/label=PPF/?source=wpkb",
      "id": "bankier-1",
-     "title_zh": "Alior Bank - Alior账户",
-     "bonus_zh": "Alior填PREMIA800；10天内绑卡消费得200zł，支付环500zł；次月3笔卡/BLIK再得200zł，总计1300zł。"
+     "title_zh": "Alior Bank - Alior 账户",
+     "bonus_zh": "Alior填码PREMIA800开户，10天内绑卡消费得200+500兹；次月3笔卡/BLIK交易再得200兹，总奖1300兹。"
     },
     {
      "rank": 3,
-     "title": "Revolut - Konto osobiste (Plan Standard)",
-     "bank": "Revolut",
-     "product": "Konto osobiste (Plan Standard)",
-     "promoted": true,
-     "bonus_max": 100,
-     "label": "Oferta promowana - 100 zł premii",
-     "account_fee": "0 zł",
-     "bonus_text": "Zgarnij nagrodę w wysokości 100 zł. Oferta wyłącznie dla nowych klientów z wybranych krajów, którzy ukończyli 18 lat. Aby otrzymać premię powitalną, należy wydać 100 zł w ciągu miesiąca od otwarcia konta i przed 31 grudnia 2026. Więcej informacji w Regulaminie.",
-     "url": "https://www.bankier.pl/e/lead/3191/label=PPF/?source=wpkb",
+     "title": "Erste Bank Polska - Konto Smart",
+     "bank": "Erste Bank Polska",
+     "product": "Konto Smart",
+     "promoted": false,
+     "bonus_max": 700,
+     "label": "700 zł premii i 4,5% na Lokacie na powitanie",
+     "account_fee": "0 - 6 zł",
+     "bonus_text": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. 3 x 200 zł premii za aktywność W promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: - zapewnisz min. 1000 zł wpływu na konto otwarte w promocji; - zapłacisz min. 7 razy kartą debetową lub BLIKIEM; - dodasz min",
+     "url": "https://www.bankier.pl/e/lead/2765/label=PPF/?source=wpkb",
      "id": "bankier-2",
-     "title_zh": "Revolut - 个人账户（Standard方案）",
-     "bonus_zh": "新客户满18岁，开户后1个月内消费100zł，且在2026-12-31前，得100zł。"
+     "title_zh": "Erste Bank Polska - Smart 账户",
+     "bonus_zh": "2026-11-30前开Erste账户并同意条款；连续3个月每月入账1000兹、7笔卡/BLIK支付并绑卡，每月得200兹共600兹。"
     },
     {
      "rank": 4,
@@ -1757,8 +1782,8 @@
      "bonus_text": "Zyskaj do 900 zł: - 75 zł za każdy miesiąc, w którym zapewnisz wpływ na konto min. 1500 zł, wykonasz min. 10 transakcji bezgotówkowych kartą oraz min. 1 zalogujesz się do aplikacji mobilnej GOmobile; - warunki należy spełniać przez maksymalnie 12 kolejnych miesięcy; - w całym okresie musisz mieć wyrażone zgody marketingowe oraz nie możesz złożyć sprzeciwu na przetwarzanie swoich danych osobowych i profilowanie Zyskaj 200 zł za: - otwórz Konto Lokacyjne lub Konto Pełne Marzeń. - na koniec 12. pełnego miesiąca od otwarcia konta posiadaj dostępne środki w kwocie min. 500zł Szczegóły w regulaminie",
      "url": "https://www.bankier.pl/e/lead/1665/label=PPF/?source=wpkb",
      "id": "bankier-3",
-     "title_zh": "BNP Paribas Bank Polska - 为你而开账户",
-     "bonus_zh": "最高900zł：同意营销，每月入账1500zł、10笔卡消费并登录App得75zł，最多12个月；另开储蓄账户且第12月末存500zł得200zł。"
+     "title_zh": "BNP Paribas Bank Polska - Otwarte na Ciebie 账户",
+     "bonus_zh": "月入账1500兹、10笔卡消费并登录GOmobile得75兹，最多12月共900兹；开储蓄账户满12月留500兹得200兹。"
     },
     {
      "rank": 5,
@@ -1772,8 +1797,8 @@
      "bonus_text": "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, kawiarniach i punktach gastronomicznych. Maksymalnie możesz zyskać 100 zł miesięcznie przez 10 miesięcy. Wymagane jest utrzymanie zgód marketingowych. - 500 zł - za codzienne zakupy (promocja alternatywna) - zamiast zwrotów za gastronomię możesz wybrać zwrot 3% wartości za codzienne zakupy kartą lub BLIKIEM. Zyskasz do 50 zł miesięcznie przez 10 miesięcy, pod warunkiem wykonania min. 10 transakcji w miesiącu.",
      "url": "https://www.bankier.pl/e/lead/2885/label=PPF/?source=wpkb",
      "id": "bankier-4",
-     "title_zh": "Crédit Agricole - 为你 MAX 账户",
-     "bonus_zh": "餐饮返现：卡/BLIK每50zł返10zł，月上限100zł共10个月，需营销同意；或日常购物返3%，月上限50zł共10个月，需月10笔。"
+     "title_zh": "Crédit Agricole - dla Ciebie MAX 账户",
+     "bonus_zh": "餐饮每50兹返10兹，月上限100兹×10月得1000兹；或日常购物返3%，月上限50兹×10月得500兹，需月10笔。"
     },
     {
      "rank": 6,
@@ -1786,25 +1811,10 @@
      "account_fee": "0 zł",
      "url": "https://www.bankier.pl/e/lead/3231/label=PPF/?source=wpkb",
      "id": "bankier-5",
-     "title_zh": "UniCredit - 个人账户（Easy套餐）"
+     "title_zh": "UniCredit - 个人账户（Easy 套餐）"
     },
     {
      "rank": 7,
-     "title": "Erste Bank Polska - Konto Smart",
-     "bank": "Erste Bank Polska",
-     "product": "Konto Smart",
-     "promoted": false,
-     "bonus_max": 700,
-     "label": "700 zł premii i 4,5% na Lokacie na powitanie",
-     "account_fee": "0 - 6 zł",
-     "bonus_text": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. 3 x 200 zł premii za aktywność W promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: - zapewnisz min. 1000 zł wpływu na konto otwarte w promocji; - zapłacisz min. 7 razy kartą debetową lub BLIKIEM; - dodasz min",
-     "url": "https://www.bankier.pl/e/lead/2765/label=PPF/?source=wpkb",
-     "id": "bankier-6",
-     "title_zh": "Erste Bank Polska - Smart账户",
-     "bonus_zh": "2026-11-30前开Erste账户并同意；申请后首3个月每月入账1000zł、卡/BLIK支付7笔等，各得200zł，共600zł。"
-    },
-    {
-     "rank": 8,
      "title": "mBank - eKonto do usług",
      "bank": "mBank",
      "product": "eKonto do usług",
@@ -1813,26 +1823,26 @@
      "account_fee": "0 zł",
      "bonus_text": "Zyskaj nawet 1300 zł i 5,3% na oszczędnościach: - do 300 zł w bonach do Biedronki, jeśli zapiszesz się do promocji i spełnisz warunki - do 500 zł – za otwarcie eKonta do usług wraz z kartą oraz aktywne korzystanie z konta (szczegółowe warunki wpływów i transakcji kartą w kolejnych miesiącach) - 100 zł – jeśli otworzysz konto przez selfie, e-dowód lub z aplikacją mObywatel (pod warunkiem spełnienia pozostałych wymogów aktywności) - 300 zł – jeśli zapewnisz wpływy wynagrodzenia na konto otwarte w okresie trwania promocji - 100 zł – za otwarcie konta dla dziecka (eKonto Junior lub eKonto możliwoś",
      "url": "https://www.bankier.pl/e/lead/3330/label=PPF/?source=wpkb",
-     "id": "bankier-7",
-     "title_zh": "mBank - 服务e账户",
-     "bonus_zh": "最高1300zł+5.3%储蓄：报名得最高300购物券；开eKonto并活跃得500；自拍/电子证件开户100；工资入账300；开儿童账户100。"
+     "id": "bankier-6",
+     "title_zh": "mBank - eKonto 服务账户",
+     "bonus_zh": "最高1300兹：报名并达标得300购物券；开eKonto+卡并活跃得500；自拍/电子证件开户得100；工资入账得300；开儿童账户得100。"
     },
     {
-     "rank": 9,
+     "rank": 8,
      "title": "Bank Pekao - Konto Przekorzystne",
      "bank": "Bank Pekao",
      "product": "Konto Przekorzystne",
      "promoted": false,
      "bonus_max": 2700,
      "account_fee": "0 zł",
-     "bonus_text": "- 100 zł - za otwarcie i aktywność na koncie: otwarcie konta z kartą do tego konta, aplikacją PeoPay i Pekao24, zalogowanie się do jednego z nich, złożenie oświadczenia i zgód marketingowe oraz wykonanie min. 10 transakcji bezgotówkowych kartą do tego konta do końca miesiąca następującego po miesiącu otwarcia - 200 zł za zrobienie min. 10 transakcji bezgotówkowych kartą do Konta Przekorzystnego w 2. i 3. miesiącu kalendarzowym po miesiącu otwarcia konta - do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podr",
+     "bonus_text": "- 100 zł - za otwarcie konta. Otwórz konto z kartą, apką PeoPay lub Pekao24, wyraź zgody marketingowe - 200 zł za spełnienie warunków aktywności. Zrób min. 5 transakcji bezgotówkowych kartą do Konta Przekorzystnego w każdym z 2 miesięcy kalendarzowych po miesiącu otwarcia konta.. - do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podróżne. Szczegóły dostępne w regulaminie Promocji Podróżnej.",
      "url": "https://www.bankier.pl/e/lead/3297/label=PPF/?source=wpkb",
-     "id": "bankier-8",
-     "title_zh": "Bank Pekao - Przekorzystne账户",
-     "bonus_zh": "开Pekao账户并同意，登录App且月底前10笔卡消费得100zł；开户后第2、3月各10笔得200zł；旅行促销返现最高2400zł。"
+     "id": "bankier-7",
+     "title_zh": "Bank Pekao - Przekorzystne 账户",
+     "bonus_zh": "开Pekao账户+卡/App并同意营销得100兹；开户后2个月每月5笔卡交易得200兹；旅行促销刷卡/BLIK可返最高2400兹。"
     },
     {
-     "rank": 10,
+     "rank": 9,
      "title": "ING Bank Śląski - Konto w Planie ING Go",
      "bank": "ING Bank Śląski",
      "product": "Konto w Planie ING Go",
@@ -1841,12 +1851,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- do 800 zł premii za założenie konta osobistego z kontem oszczędnościowym i kartą do konta w aplikacji Moje ING i spełnienie wszystkich warunków promocji \"Konta pełne korzyści\" - 100 zł premii gdy w trakcie zakładania konta osobistego w apce Moje ING wpiszesz kod od znajomego i spełnisz wszystkie warunki promocji \"Poleć ING\"",
      "url": "https://www.bankier.pl/e/lead/1675/label=PPF/?source=wpkb",
-     "id": "bankier-9",
+     "id": "bankier-8",
      "title_zh": "ING Bank Śląski - ING Go 计划账户",
-     "bonus_zh": "开ING个人账户+储蓄账户+卡并满足条件最高得800zł；开户时填好友码并满足推荐条件再得100zł。"
+     "bonus_zh": "在Moje ING开个人+储蓄账户及卡并满足活动条件，最高得800兹；开户时填朋友推荐码并达标再得100兹。"
     },
     {
-     "rank": 11,
+     "rank": 10,
      "title": "PKO Bank Polski - Konto za Zero",
      "bank": "PKO Bank Polski",
      "product": "Konto za Zero",
@@ -1855,12 +1865,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod PROSTO i spełnij pozostałe warunki promocji „Prosty zwrot” - do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod PROSTO i spełnijcie pozostałe warunki promocji „Prosty zwrot”",
      "url": "https://www.bankier.pl/e/lead/2832/label=PPF/?source=wpkb",
-     "id": "bankier-10",
+     "id": "bankier-9",
      "title_zh": "PKO Bank Polski - 零费用账户",
-     "bonus_zh": "在线开PKO Za Zero+Visa，填PROSTO并满足条件最高600zł；在线开儿童/青少年账户填PROSTO最高300zł。"
+     "bonus_zh": "在线开PKO Konto za Zero+Visa，填码PROSTO并满足活动，最高600兹；在线开儿童/青少年账户填码PROSTO，最高300兹。"
     },
     {
-     "rank": 12,
+     "rank": 11,
      "title": "VeloBank - VeloKonto",
      "bank": "VeloBank",
      "product": "VeloKonto",
@@ -1869,12 +1879,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu). - Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.",
      "url": "https://www.bankier.pl/e/lead/1561/label=PPF/?source=wpkb",
-     "id": "bankier-11",
+     "id": "bankier-10",
      "title_zh": "VeloBank - VeloKonto",
-     "bonus_zh": "Velo最高600zł：活跃用账户及买票/停车/高速等，12个月每月最高返50zł；可提现，未用12个月后过期。"
+     "bonus_zh": "VeloBank活跃使用账户及购票/停车/收费公路，每月最高返50兹，持续12月共最高600兹；返现可提现，12月后过期。"
     },
     {
-     "rank": 13,
+     "rank": 12,
      "title": "Nest Bank - Nest Konto",
      "bank": "Nest Bank",
      "product": "Nest Konto",
@@ -1883,9 +1893,23 @@
      "account_fee": "0 zł",
      "bonus_text": "1200 zł - premii za wynagrodzenie: 200 zł za pierwszy wpływ wynagrodzenia. 50 zł za każdy kolejny wpływ wynagrodzenia (maksymalnie do 10 miesięcy) do 360 zł - zwrot za zakupy: 2% zwrotu za płatności kartą lub BLIKIEM, jeśli w tym samym miesiącu zapewnisz wpływ wynagrodzenia. Maksymalnie 30 zł miesięcznie przez 12 miesięcy.",
      "url": "https://www.bankier.pl/e/lead/3022/label=PPF/?source=wpkb",
+     "id": "bankier-11",
+     "title_zh": "Nest Bank - Nest 账户",
+     "bonus_zh": "工资首次入账200兹、后续每笔50兹最多10月；同月工资入账时消费返2%，月上限30兹×12月，总最高1200兹。"
+    },
+    {
+     "rank": 13,
+     "title": "Revolut - Konto osobiste (Plan Standard)",
+     "bank": "Revolut",
+     "product": "Konto osobiste (Plan Standard)",
+     "promoted": false,
+     "bonus_max": 100,
+     "account_fee": "0 zł",
+     "bonus_text": "Zgarnij nagrodę w wysokości 100 zł. Utwórz kartę wirtualną lub zamów kartę fizyczną, zasil konto i wydaj co najmniej 100 zł, aby otrzymać nagrodę w wysokości 100 zł. Więcej informacji w Regulaminie.",
+     "url": "https://www.bankier.pl/e/lead/3191/label=PPF/?source=wpkb",
      "id": "bankier-12",
-     "title_zh": "Nest Bank - Nest账户",
-     "bonus_zh": "工资奖励最高1200zł：首笔工资入账200zł，后续每笔50zł最多10个月；同月有工资消费返2%，月上限30zł共12个月，返现至360zł。"
+     "title_zh": "Revolut - 个人账户（Standard 计划）",
+     "bonus_zh": "开通虚拟或实体卡，充值并消费至少100兹，得100兹奖励。"
     },
     {
      "rank": 14,
@@ -1897,7 +1921,7 @@
      "account_fee": "0 zł",
      "url": "https://www.bankier.pl/e/lead/37/label=PPF/?source=wpkb",
      "id": "bankier-13",
-     "title_zh": "Volkswagen Bank - e-direct个人账户"
+     "title_zh": "Volkswagen Bank - e-direct 个人账户"
     }
    ],
    "changes": {
@@ -1907,46 +1931,6 @@
     "moved": [],
     "bonus": []
    }
-  },
-  {
-   "id": "onthisday",
-   "name": "On This Day",
-   "group": "history",
-   "kind": "otd",
-   "home": "https://en.wikipedia.org/wiki/Main_Page",
-   "lang": "en",
-   "status": "ok",
-   "error": null,
-   "items": [
-    {
-     "year": 1943,
-     "title": "World War II: A U.S. Navy task force turned away an Imperial Japanese Navy formation at the Battle of Empress Augusta Bay, thus protecting the landings at Cape Torokina.",
-     "url": "https://en.wikipedia.org/wiki/Battle_of_Empress_Augusta_Bay",
-     "id": "onthisday-0",
-     "title_zh": "二战：美国海军特遣舰队在奥古斯塔皇后湾海战中击退日本帝国海军编队，从而保护了托罗基纳角登陆行动。"
-    },
-    {
-     "year": 1963,
-     "title": "South Vietnamese president Ngô Đình Diệm was arrested and assassinated in Saigon, marking the culmination of a coup d'état led by Dương Văn Minh.",
-     "url": "https://en.wikipedia.org/wiki/Arrest_and_assassination_of_Ngo_Dinh_Diem",
-     "id": "onthisday-1",
-     "title_zh": "南越总统吴廷琰在西贡被捕并遇刺，标志着杨文明领导的政变达到高潮。"
-    },
-    {
-     "year": 1984,
-     "title": "Velma Barfield, a convicted serial killer, became the first woman to be executed in the United States since 1962.",
-     "url": "https://en.wikipedia.org/wiki/Velma_Barfield",
-     "id": "onthisday-2",
-     "title_zh": "被判有罪的连环杀手维尔玛·巴菲尔德成为自1962年以来美国首位被处决的女性。"
-    },
-    {
-     "year": 2008,
-     "title": "Lewis Hamilton overtook Timo Glock in the final corners of the Brazilian Grand Prix to become the Formula One World Drivers' Champion by one point.",
-     "url": "https://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix",
-     "id": "onthisday-3",
-     "title_zh": "刘易斯·汉密尔顿在巴西大奖赛最后几个弯道超越蒂莫·格洛克，以一分优势成为一级方程式世界车手冠军。"
-    }
-   ]
   }
  ]
 }
