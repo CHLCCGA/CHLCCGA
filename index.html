@@ -4,78 +4,58 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>华沙新闻摘要</title>
+<link rel="stylesheet" href="assets/site.css">
 <style>
-  :root {
-    --bg: #faf9f6; --fg: #1f2328; --muted: #6b7280; --line: #e5e2db;
-    --card: #ffffff; --accent: #2f4858; --weekend: #fff4e0; --weekend-line: #e8b964;
-    --ok: #2e7d32; --bad: #c62828; --warn: #b26a00;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #16181b; --fg: #e6e6e6; --muted: #9aa0a6; --line: #2c3036;
-      --card: #1e2125; --accent: #8fb3c9; --weekend: #2a2418; --weekend-line: #a07a2c;
-      --ok: #81c784; --bad: #ef9a9a; --warn: #ffb74d;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--fg);
-    font: 16px/1.65 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
-  header h1 { font-size: 22px; margin: 0 0 4px; }
-  .meta { color: var(--muted); font-size: 14px; }
-  nav { display: flex; gap: 8px; align-items: center; margin: 14px 0 8px; flex-wrap: wrap; font-size: 14px; }
-  nav a, nav span { color: var(--accent); text-decoration: none; padding: 4px 0; }
-  nav span.off { color: var(--muted); opacity: .5; }
-  nav select { font: inherit; padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--fg); }
-  h2 { font-size: 17px; color: var(--accent); margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
-  h2 small { color: var(--muted); font-weight: normal; font-size: 13px; margin-left: 6px; }
-  .card { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; padding: 12px 14px; margin-bottom: 10px; }
-  .card h3 { font-size: 16px; margin: 0 0 2px; }
-  .card .when { color: var(--accent); font-weight: 600; font-size: 14px; margin-right: 6px; }
-  .card .since { color: var(--accent); font-weight: normal; font-size: 14px; }
-  .card .orig { color: var(--muted); font-size: 13px; margin: 0 0 6px; overflow-wrap: anywhere; }
-  .card p.sum { margin: 4px 0 6px; }
-  .card .src { font-size: 13px; color: var(--muted); }
-  .card .src a { color: var(--muted); }
-  .weekend .card { background: var(--weekend); border-left-color: var(--weekend-line); }
-  ul.brief { padding-left: 18px; margin: 0; }
-  ul.brief li { margin-bottom: 8px; }
-  ul.brief .src { font-size: 13px; color: var(--muted); }
-  ul.brief a { color: var(--muted); }
-  .empty { color: var(--muted); font-style: italic; }
-  details { margin-top: 32px; font-size: 14px; color: var(--muted); }
-  details li.ok::marker { color: var(--ok); }
-  details li.fail::marker { color: var(--bad); }
-  details li.warn::marker { color: var(--warn); }
-  footer { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
-  footer a { color: var(--muted); }
-  .error { color: var(--bad); }
+  .weekend.card { background: var(--accent-soft); box-shadow: none; }
+  .when { color: var(--accent); font-weight: 600; margin-right: 6px; }
+  .product { color: var(--text-2); font-weight: 400; }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <h1>华沙 · 波兰新闻摘要</h1>
-    <div class="meta" id="meta">加载中…</div>
-    <nav id="nav"></nav>
-  </header>
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">CHLCCGA</span>
+    <nav class="tabs">
+      <a href="brief/">全球速览</a>
+      <a href="./" class="on">华沙摘要</a>
+    </nav>
+    <span class="spacer"></span>
+    <div class="seg" id="lang">
+      <button data-lang="zh">中文</button>
+      <button data-lang="orig">原文</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <p class="eyebrow">华沙 · 波兰 · 欧洲 · 每周一、三、五更新</p>
+    <h1><span class="grad">华沙摘要</span></h1>
+    <p class="sub" id="meta">加载中…</p>
+    <div class="issue-nav" id="nav"></div>
+    <div id="errors"></div>
+  </div>
   <div id="content"></div>
-  <footer>
+  <details class="status" id="status" hidden></details>
+  <footer class="site">
     由云端 routine 自动生成 · <a id="json-link" href="news/data/">JSON</a> · <a href="https://github.com/CHLCCGA/CHLCCGA">GitHub</a>
   </footer>
 </main>
+
 <script>
 const CATEGORIES = [
-  ["warsaw_now", "◆ Warsaw Now", "华沙动态"],
-  ["poland_brief", "· Poland Brief", "波兰时政"],
-  ["europe_brief", "◈ Europe Brief", "欧洲要闻"],
-  ["cool_finds", "◇ Cool Finds", "展览与发现"],
-  ["new_spots", "▸ New Spots", "新店"],
-  ["upcoming_events", "⤷ Upcoming Events", "近期活动"],
+  ["warsaw_now", "华沙动态"],
+  ["poland_brief", "波兰时政"],
+  ["europe_brief", "欧洲要闻"],
+  ["cool_finds", "展览与发现"],
+  ["new_spots", "新店"],
+  ["upcoming_events", "近期活动"],
 ];
 const WEEKDAYS = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+
+let LANG = "zh";
+try { LANG = localStorage.getItem("brief-lang") === "orig" ? "orig" : "zh"; } catch (e) {}
+let STATE = null;
 
 function el(tag, cls, text) {
   const e = document.createElement(tag);
@@ -83,10 +63,9 @@ function el(tag, cls, text) {
   if (text != null) e.textContent = text;
   return e;
 }
-function link(href, text) {
-  if (!/^https?:\/\//.test(href || "")) return el("span", null, text);
-  const a = el("a", null, text);
-  a.href = href; a.target = "_blank"; a.rel = "noopener";
+function link(href, cls, text) {
+  const a = el(/^https?:\/\//.test(href || "") ? "a" : "span", cls, text);
+  if (a.tagName === "A") { a.href = href; a.target = "_blank"; a.rel = "noopener"; }
   return a;
 }
 function parseDate(s) {
@@ -109,30 +88,43 @@ function minusDays(s, n) {
   d.setUTCDate(d.getUTCDate() - n);
   return d.toISOString().slice(0, 10);
 }
+const title = it => (LANG === "orig" && it.title_original) || it.title_zh || it.title_original || "";
 
-function card(item, showWhen) {
-  const c = el("div", "card");
-  const h = el("h3");
-  if (showWhen && item.event_date) h.append(el("span", "when", zhDate(item.event_date, true)));
-  h.append(item.title_zh || item.title_original || "");
-  if (!showWhen && item.category === "cool_finds" && item.event_date) h.append(el("span", "since", ` · ${zhDate(item.event_date)}起`));
-  c.append(h);
-  if (item.title_original && item.title_original !== item.title_zh) c.append(el("div", "orig", item.title_original));
-  if (item.summary_zh) c.append(el("p", "sum", item.summary_zh));
-  const src = el("div", "src");
-  const bits = [item.source_name];
-  if (item.venue && item.venue !== item.source_name) bits.push(item.venue);
-  if (!showWhen && item.published_date) bits.push(item.published_date);
-  src.append(bits.filter(Boolean).join(" · ") + " · ", link(item.source_url, "原文 →"));
-  c.append(src);
+function item(it, showWhen) {
+  const li = el("li");
+  const b = el("div", "body");
+  const t = link(it.source_url, "t", null);
+  t.style.fontWeight = "600";
+  if (showWhen && it.event_date) t.append(el("span", "when", zhDate(it.event_date, true)));
+  t.append(title(it));
+  if (!showWhen && it.category === "cool_finds" && it.event_date) t.append(el("span", "product", ` · ${zhDate(it.event_date)}起`));
+  b.append(t);
+  if (it.summary_zh) b.append(el("div", "summary", it.summary_zh));
+  const bits = [it.source_name];
+  if (it.venue && it.venue !== it.source_name) bits.push(it.venue);
+  if (!showWhen && it.published_date) bits.push(shortDate(it.published_date));
+  b.append(el("div", "meta", bits.filter(Boolean).join(" · ")));
+  li.append(b);
+  return li;
+}
+function card(name, list, showWhen, cls) {
+  const c = el("article", "card" + (cls ? " " + cls : ""));
+  const head = el("div", "card-head");
+  head.append(el("h3", null, name));
+  c.append(head);
+  if (!list.length) { c.append(el("p", "empty", "本期无")); return c; }
+  const ol = el("ol", "items");
+  list.forEach(it => ol.append(item(it, showWhen)));
+  c.append(ol);
   return c;
 }
 
-function render(date, dates, items, sources) {
-  const content = document.getElementById("content");
-  content.replaceChildren();
+function render() {
+  const { date, dates, items, sources } = STATE;
+  document.querySelectorAll("#lang button").forEach(b => b.classList.toggle("on", b.dataset.lang === LANG));
+  const d = parseDate(date);
   document.getElementById("meta").textContent =
-    `${date} · 覆盖 ${minusDays(date, 3)} — ${date} · 本期 ${items.length} 条`;
+    `${d.getUTCFullYear()}年${zhDate(date, true)} · 覆盖 ${shortDate(minusDays(date, 3))} — ${shortDate(date)} · 本期 ${items.length} 条`;
   document.getElementById("json-link").href = `news/data/${date}.json`;
   document.title = `华沙新闻摘要 · ${date}`;
 
@@ -140,71 +132,66 @@ function render(date, dates, items, sources) {
   nav.replaceChildren();
   const i = dates.indexOf(date);
   const older = dates[i + 1], newer = dates[i - 1];
-  nav.append(older ? Object.assign(el("a", null, "← 上一期"), { href: `?d=${older}` }) : el("span", "off", "← 上一期"));
+  const step = (x, text) => Object.assign(el("a", "pill-btn" + (x ? "" : " off"), text), x ? { href: `?d=${x}` } : {});
   const sel = el("select");
-  for (const d of dates) sel.append(Object.assign(el("option", null, d), { value: d, selected: d === date }));
+  for (const x of dates) sel.append(Object.assign(el("option", null, x), { value: x, selected: x === date }));
   sel.onchange = () => { location.search = `?d=${sel.value}`; };
-  nav.append(sel);
-  nav.append(newer ? Object.assign(el("a", null, "下一期 →"), { href: `?d=${newer}` }) : el("span", "off", "下一期 →"));
+  nav.append(step(older, "‹ 上一期"), sel, step(newer, "下一期 ›"));
 
-  if (!items.length) content.append(el("p", "empty", "本期没有新条目（可能是去重后为空，或抓取失败，见下方数据源状态）。"));
+  const content = document.getElementById("content");
+  content.replaceChildren();
+  if (!items.length) content.append(el("p", "notice", "本期没有新条目（可能是去重后为空，或抓取失败，见下方数据源状态）。"));
 
   const weekend = items.filter(it => (it.tags || []).includes("weekend"));
   if (weekend.length) {
-    const sec = el("section", "weekend");
-    const h = el("h2", null, "★ 本周末");
-    h.append(el("small", null, "周末活动清单"));
-    sec.append(h);
-    weekend.forEach(it => sec.append(card(it, true)));
+    const sec = el("section", "group");
+    sec.append(el("h2", null, "本周末"));
+    const grid = el("div", "grid");
+    grid.append(card("周末活动清单", weekend, true, "weekend full"));
+    sec.append(grid);
     content.append(sec);
   }
 
-  for (const [key, label, zh] of CATEGORIES) {
+  const sec = el("section", "group");
+  sec.append(el("h2", null, "本期内容"));
+  const grid = el("div", "grid");
+  const none = [];
+  for (const [key, zh] of CATEGORIES) {
     let list = items.filter(it => it.category === key && !weekend.includes(it));
-    const sec = el("section");
-    const h = el("h2", null, label);
-    h.append(el("small", null, zh));
-    sec.append(h);
-    if (!list.length) {
-      sec.append(el("p", "empty", "（本期无）"));
-    } else if (key === "poland_brief" || key === "europe_brief") {
-      const ul = el("ul", "brief");
-      for (const it of list) {
-        const li = el("li");
-        li.append(el("strong", null, it.title_zh || ""), " — " + (it.summary_zh || "") + " ");
-        const s = el("span", "src", `(${it.source_name}, ${shortDate(it.published_date)}) `);
-        s.append(link(it.source_url, "原文"));
-        li.append(s);
-        ul.append(li);
-      }
-      sec.append(ul);
-    } else {
-      if (key === "upcoming_events") list = list.slice().sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
-      list.forEach(it => sec.append(card(it, key === "upcoming_events")));
-    }
-    content.append(sec);
+    if (!list.length) { none.push(zh); continue; }
+    if (key === "upcoming_events") list = list.slice().sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
+    grid.append(card(zh, list, key === "upcoming_events"));
   }
+  sec.append(grid);
+  if (none.length) sec.append(el("p", "empty", `本期无：${none.join("、")}`));
+  content.append(sec);
 
+  const errors = document.getElementById("errors");
+  errors.replaceChildren();
+  const st = document.getElementById("status");
+  st.replaceChildren();
+  st.hidden = !(sources && sources.length);
   if (sources && sources.length) {
     // GATE / RERUN entries are run errors appended by the routine, not sites.
     const runErrors = sources.filter(s => s.name === "GATE" || s.name === "RERUN");
     const sites = sources.filter(s => !runErrors.includes(s));
-    for (const s of runErrors) content.prepend(el("p", "error", `运行出错：${s.note}`));
-    const det = el("details");
+    for (const s of runErrors) errors.append(el("div", "notice bad", `运行出错：${s.note}`));
     const failed = sites.filter(s => s.status === "fail").length;
     const warned = sites.filter(s => s.status === "warn").length;
-    det.append(el("summary", null, `本期数据源：${sites.length} 个，失败 ${failed} 个，提示 ${warned} 个`));
+    st.append(el("summary", null, `本期数据源：${sites.length} 个，失败 ${failed} 个，提示 ${warned} 个`));
     const ul = el("ul");
-    for (const s of sites) {
-      const li = el("li", s.status, s.name + (s.note ? ` — ${s.note}` : ""));
-      ul.append(li);
-    }
-    det.append(ul);
-    content.append(det);
+    for (const s of sites) ul.append(el("li", s.status, s.name + (s.note ? ` — ${s.note}` : "")));
+    st.append(ul);
   }
 }
 
-async function main() {
+document.querySelectorAll("#lang button").forEach(b => b.onclick = () => {
+  LANG = b.dataset.lang;
+  try { localStorage.setItem("brief-lang", LANG); } catch (e) {}
+  if (STATE) render();
+});
+
+(async function main() {
   try {
     const dates = await fetch("news/data/index.json", { cache: "no-cache" }).then(r => r.json());
     const q = new URLSearchParams(location.search).get("d");
@@ -213,12 +200,12 @@ async function main() {
     let sources = null;
     const r = await fetch(`news/data/${date}.sources.json`, { cache: "no-cache" });
     if (r.ok) sources = await r.json();
-    render(date, dates, items, sources);
+    STATE = { date, dates, items, sources };
+    render();
   } catch (e) {
     document.getElementById("meta").replaceChildren(el("span", "error", "加载失败：" + e.message));
   }
-}
-main();
+})();
 </script>
 </body>
 </html>

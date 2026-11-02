@@ -1,0 +1,50 @@
+name: brief
+
+on:
+  schedule:
+    # Mon & Sat 07:17 UTC, Wed 19:17 UTC → 60h / 60h / 48h apart.
+    # Warsaw time 08:17 / 20:17 / 08:17 in winter (one hour later in summer).
+    # Keep in sync with SLOTS in brief/index.html.
+    - cron: '17 7 * * 1,6'
+    - cron: '17 19 * * 3'
+  workflow_dispatch:
+    inputs:
+      translate_only:
+        description: 'Only fill in missing translations of the latest issue (no fetching)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brief
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install requests beautifulsoup4 pyyaml
+
+      - name: Fetch, parse and translate a new issue
+        if: ${{ !inputs.translate_only }}
+        run: python scripts/brief/build.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - name: Translate the latest issue only
+        if: ${{ inputs.translate_only }}
+        run: python scripts/brief/build.py --translate-only "$(python -c 'import json; print(json.load(open("brief/data/index.json"))[0])')"
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ inputs.translate_only && 'brief: translate latest issue' || 'brief: new issue' }}
+          file_pattern: 'brief/data/*.json'
