@@ -22,17 +22,15 @@ def _needed(issue):
     return fields
 
 
+INSTRUCTIONS = {
+    "headline": "Translate each string into concise natural Simplified Chinese. Keep well-known names in their standard Chinese form or original. "
+                "Hashtags or handles written in Latin letters that are names or brands may stay as they are; translate those in any other script (e.g. Arabic) into Chinese, keeping a leading #. ",
+    "bonus": "For each Polish bank bonus description, write a concise Simplified Chinese summary (at most 60 Chinese characters) containing the bonus amount(s) and main conditions. ",
+}
+
+
 def _request(strings, style, key):
-    instruction = (
-        "Translate each string into concise natural Simplified Chinese. Keep well-known names in their standard Chinese form or original. "
-        "Hashtags or handles written in Latin letters that are names or brands may stay as they are; translate those in any other script (e.g. Arabic) into Chinese, keeping a leading #. "
-        "Return only JSON object {\"t\":[...]} in the same order, with no commentary."
-    )
-    if style == "bonus":
-        instruction = (
-            "For each Polish bank bonus description, write a concise Simplified Chinese summary (at most 60 Chinese characters) containing the bonus amount(s) and main conditions. "
-            "Return only JSON object {\"t\":[...]} in the same order, with no commentary."
-        )
+    instruction = INSTRUCTIONS[style] + "Return only JSON object {\"t\":[...]} in the same order, with no commentary."
     response = requests.post(
         ENDPOINT,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
@@ -62,7 +60,7 @@ def translate_issue(issue):
         issue["translation"] = {"done": 0, "missing": len(needed), "error": "DEEPSEEK_API_KEY is not set"}
         return issue["translation"]
     first_error = None
-    for style in ("headline", "bonus"):
+    for style in INSTRUCTIONS:
         entries = [entry for entry in needed if entry[3] == style]
         for start in range(0, len(entries), 50):
             batch = entries[start:start + 50]

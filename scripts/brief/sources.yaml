@@ -1,42 +1,44 @@
-# What the brief page (brief/index.html) shows, in order. The page itself never changes:
+# What the home page (index.html) shows from the aggregators, in order. The page never changes:
 # build.py turns this list into brief/data/<date>.json and the page renders whatever is there.
+# The Warsaw digest (news/data/, written by the Claude routine) is inserted after the first group.
 #
-# - groups: the page sections (order + title).
+# - groups: the page sections (order + title). layout: lead = first card two columns wide, the
+#   other cards stacked in the third column. Otherwise the page picks 4/3/2 columns from the card count,
+#   so keep each group at 2, 3, 4 or 6 cards to fill whole rows.
 # - blocks: one card each. To add another upstract box, copy an upstract line and set `section`
 #   to the box's heading on upstract.com; other sites need a parser function in parsers.py.
 #   kind = list | threads | trends | deals | bank | otd decides how the card is drawn.
-#   lang: zh blocks are not translated.
-# Schedule: .github/workflows/brief.yml (and SLOTS in brief/index.html for the "next issue" hint).
+#   lang: the source language; non-zh blocks get Chinese translations (the page can switch back to the original).
+# Schedule: .github/workflows/brief.yml (and SLOTS in index.html for the "next issue" hint).
 groups:
-  - {id: focus, label: 今日焦点}
+  - {id: focus, label: 今日焦点, layout: lead}
   - {id: news, label: 新闻}
   - {id: ideas, label: 深度与评论}
-  - {id: social, label: 热议与趋势}
   - {id: alltop, label: Alltop 分类}
+  - {id: social, label: 热议}
   - {id: deals, label: 折扣热榜}
   - {id: money, label: 开户奖励}
-  - {id: history, label: 历史上的今天}
 
 blocks:
   - {id: alltop_threads, name: "Alltop 今日话题", group: focus, kind: threads, parser: alltop_threads, url: "https://www.alltop.com/", home: "https://www.alltop.com/", lang: en}
-  - {id: readhub, name: "Readhub 每日早报", group: focus, kind: list, parser: tophub, url: "https://tophub.today/n/b0vmbqAdB1", home: "https://readhub.cn/", lang: zh, limit: 10}
-  - {id: google_news, name: "Google News", group: focus, kind: list, parser: upstract, section: "Google News", url: "https://upstract.com/", home: "https://news.google.com/", lang: en}
+  - {id: onthisday, name: "历史上的今天", group: focus, kind: otd, parser: upstract_otd, section: "On This Day", url: "https://upstract.com/", home: "https://en.wikipedia.org/wiki/Main_Page", lang: en}
+  - {id: x_trends, name: "X 趋势", group: focus, kind: trends, parser: upstract_x_trends, section: "X Trends", url: "https://upstract.com/", home: "https://x.com/explore", lang: en}
+  - {id: google_news, name: "Google News", group: news, kind: list, parser: upstract, section: "Google News", url: "https://upstract.com/", home: "https://news.google.com/", lang: en}
   - {id: cnbc, name: "CNBC", group: news, kind: list, parser: upstract, section: "CNBC", url: "https://upstract.com/", home: "https://www.cnbc.com/", lang: en}
   - {id: aljazeera, name: "Al Jazeera", group: news, kind: list, parser: upstract, section: "Al Jazeera", url: "https://upstract.com/", home: "https://www.aljazeera.com/", lang: en}
   - {id: semafor, name: "Semafor", group: news, kind: list, parser: upstract, section: "Semafor", url: "https://upstract.com/", home: "https://www.semafor.com/", lang: en}
   - {id: vox, name: "Vox", group: news, kind: list, parser: upstract, section: "Vox", url: "https://upstract.com/", home: "https://www.vox.com/", lang: en}
+  - {id: readhub, name: "Readhub 每日早报", group: news, kind: list, parser: tophub, url: "https://tophub.today/n/b0vmbqAdB1", home: "https://readhub.cn/", lang: zh, limit: 10}
   - {id: atlantic, name: "The Atlantic", group: ideas, kind: list, parser: upstract, section: "The Atlantic", url: "https://upstract.com/", home: "https://www.theatlantic.com/", lang: en}
   - {id: newyorker, name: "The New Yorker", group: ideas, kind: list, parser: upstract, section: "New Yorker", url: "https://upstract.com/", home: "https://www.newyorker.com/", lang: en}
   - {id: unherd, name: "UnHerd", group: ideas, kind: list, parser: upstract, section: "Unherd", url: "https://upstract.com/", home: "https://unherd.com/", lang: en}
   - {id: commentary, name: "Commentary", group: ideas, kind: list, parser: upstract, section: "Commentary Magazine", url: "https://upstract.com/", home: "https://www.commentary.org/", lang: en}
-  - {id: reddit, name: "Reddit", group: social, kind: list, parser: upstract, section: "Reddit", url: "https://upstract.com/", home: "https://www.reddit.com/", lang: en}
-  - {id: x_trends, name: "X 趋势", group: social, kind: trends, parser: upstract_x_trends, section: "X Trends", url: "https://upstract.com/", home: "https://x.com/explore", lang: en}
-  - {id: google_trends, name: "Google Trends", group: social, kind: list, parser: upstract_google_trends, section: "Google Trends", url: "https://upstract.com/", home: "https://trends.google.com/trending?geo=US", lang: en}
   - {id: alltop_tech, name: "科技", group: alltop, kind: list, parser: alltop_section, url: "https://www.alltop.com/tech", home: "https://www.alltop.com/tech", lang: en, limit: 10}
   - {id: alltop_business, name: "商业", group: alltop, kind: list, parser: alltop_section, url: "https://www.alltop.com/business", home: "https://www.alltop.com/business", lang: en, limit: 10}
   - {id: alltop_world, name: "世界", group: alltop, kind: list, parser: alltop_section, url: "https://www.alltop.com/world", home: "https://www.alltop.com/world", lang: en, limit: 10}
   - {id: alltop_science, name: "科学", group: alltop, kind: list, parser: alltop_section, url: "https://www.alltop.com/science", home: "https://www.alltop.com/science", lang: en, limit: 10}
+  - {id: reddit, name: "Reddit", group: social, kind: list, parser: upstract, section: "Reddit", url: "https://upstract.com/", home: "https://www.reddit.com/", lang: en}
+  - {id: google_trends, name: "Google Trends", group: social, kind: list, parser: upstract_google_trends, section: "Google Trends", url: "https://upstract.com/", home: "https://trends.google.com/trending?geo=US", lang: en}
   - {id: pepper, name: "Pepper.pl", group: deals, kind: deals, parser: pepper, url: "https://www.pepper.pl/najgoretsze", home: "https://www.pepper.pl/najgoretsze", lang: pl, limit: 10, currency: PLN}
   - {id: mydealz, name: "mydealz", group: deals, kind: deals, parser: pepper, url: "https://www.mydealz.de/heisseste", home: "https://www.mydealz.de/heisseste", lang: de, limit: 10, currency: EUR}
   - {id: bankier, name: "Bankier 开户奖励榜", group: money, kind: bank, parser: bankier, url: "https://www.bankier.pl/smart/konta-z-premia-ranking", home: "https://www.bankier.pl/smart/konta-z-premia-ranking", lang: pl}
-  - {id: onthisday, name: "On This Day", group: history, kind: otd, parser: upstract_otd, section: "On This Day", url: "https://upstract.com/", home: "https://en.wikipedia.org/wiki/Main_Page", lang: en}

@@ -11,7 +11,7 @@ import requests
 import yaml
 
 import parsers
-from translate import translate_issue
+from translate import _needed, translate_issue
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_DIR = SCRIPT_DIR.parents[1]
@@ -133,8 +133,7 @@ def build(args):
         blocks.append(block)
     issue = {"date": issue_date, "generated_at": fetched_at.isoformat().replace("+00:00", "Z"), "groups": config["groups"], "translation": {}, "blocks": blocks}
     if args.no_translate:
-        missing = sum(1 for block in blocks if block["status"] == "ok" and block["lang"] != "zh" for item in block["items"] for field in ("title", "summary", "bonus_text") if item.get(field))
-        issue["translation"] = {"done": 0, "missing": missing, "error": "skipped"}
+        issue["translation"] = {"done": 0, "missing": len(_needed(issue)), "error": "skipped"}
     else:
         translate_issue(issue)
     _write_json(out / f"{issue_date}.json", issue)
