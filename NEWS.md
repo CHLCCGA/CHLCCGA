@@ -1,74 +1,76 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-10-30 (Europe/Warsaw) · 覆盖 2026-10-27 — 2026-10-30
-> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-10-30.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-02 (Europe/Warsaw) · 覆盖 2026-10-30 — 2026-11-02
+> 数据源：21 个站点 · 本期 13 条 · [JSON](news/data/2026-11-02.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
 ## ◆ Warsaw Now
 
-**土耳其工程师制作华沙实时3D像素地图**
-地图包含近20万栋建筑，电车按真实时刻表运行，并显示实时天气。
-*Notes From Poland · 2026-10-28 · [原文 →](https://notesfrompoland.com/2026/10/28/turkish-engineer-creates-live-3d-pixel-map-of-adopted-hometown-warsaw/)*
+*（本期无）*
 
 ---
 
 ## · Poland Brief
 
-- **卡钦斯基演讲提及欧盟退出谈判，引发争议** — 图斯克指责卡钦斯基企图把波兰推出欧盟；卡钦斯基称法律与公正党希望改革欧盟并“还权于公民”。 (Notes From Poland, 10/29)
-- **NASK发起全国运动，帮助教师应对网络仇恨** — NASK联合数字化部和波兰教师工会发起全国运动，帮助教师识别并应对网络仇恨与激进化。 (NASK, 10/29)
+- **总统与法官在宪法法庭门前发生肢体冲突** — 总统 Nawrocki 在宪法法庭入口与法官发生肢体冲突，政府支持的法官正谋求罢免庭长。 (Notes From Poland, 10/31)
+- **波兰10月通胀初值为3.5%** — 统计局公布10月通胀率初步估计为同比3.5%。 (Polskie Radio, 10/30)
+- **NASK 与金融监管局加强金融业网络防护** — NASK 与 KNF 将联手加强负责金融业网络安全的 CSIRT KNF，文中提到攻击可能导致账户被锁、支付延迟。 (NASK, 10/30)
 
 ---
 
 ## ◈ Europe Brief
 
-- **欧盟与加拿大拟扩大跨大西洋居住工作机会** — 欧盟与加拿大计划建立新伙伴关系，扩大双方居住、学习和工作的选择。 (The Local, 10/29)
-- **欧洲天然气价格自2022年来首破100欧元** — 基准天然气价格突破每兆瓦时100欧元，欧盟能源专员警告冬季将艰难。 (Euronews, 10/28)
-- **欧洲央行维持利率2.5%，拉加德将提前离任** — 欧洲央行维持存款利率2.5%，通胀3.8%；拉加德将于2027年2月7日离任。 (Euronews, 10/29)
-- **欧委会拟将Frontex人员扩大三倍并扩大遣返权力** — 欧委会提议将Frontex人员增至三倍，并扩大遣返和社交媒体监控权力，引发权利方面的担忧。 (Euronews, 10/29)
+- **欧盟自11月1日起对欧洲以外网购包裹加收2欧元** — 自11月1日起进口包裹加收2欧元处理费，叠加现有的3欧元小包裹税。 (The Local, 10/30)
+- **报告：夏季法国机场未现EES大混乱** — 一份追踪乘客行政延误的报告称，欧盟新入境系统 EES 预期的出行大混乱并未在机场出现。 (The Local, 10/30)
+- **欧盟11国承诺2050万桶柴油应对冬季供应担忧** — 11个国家承诺提供柴油储备，并要求布鲁塞尔确保炼油厂正常运转。 (Euronews, 10/30)
 
 ---
 
 ## ◇ Cool Finds
 
-**Zachęta：Orbaczewska与Rukšāne联展《Czasorozmycie》** · 10月24日 起
-该展10月24日开幕，展期至2027年1月10日。
-*Zachęta · 2026-10-30 · [原文 →](https://zacheta.art.pl/pl/wystawy/anna-orbaczewska-i-luze-ruksne-czasorozmycie-rozwazania-nad)*
+*（本期无）*
 
 ---
 
 ## ▸ New Spots
 
-**Dom Figula：维斯瓦河岸的匈牙利餐厅酒庄**（['hungarian', 'restaurant']）
-匈牙利餐厅兼酒庄，9月开业，由一位经营匈牙利葡萄酒进口的波兰人创办。
-*Warsaw Foodie · 2026-10-29 · [原文 →](https://warsawfoodie.pl/2026/10/dom-figula-wegierskie-smaki-z-widokiem-na-wisle/)*
+**Leśny Bar Mleczny：莫克图夫的森林风味牛奶吧（Puławska, Mokotów）**
+位于 Mokotów 的 Puławska 街，波兰家常菜配森林食材和野味，菜单每日更换，有炸猪排和汤等经典菜。
+*Warsaw Foodie · 2026-10-30 · [原文 →](https://warsawfoodie.pl/2026/10/lesny-bar-mleczny-lesne-smaki-na-mokotowie/)*
 
-**Splendido：沃拉区新开意大利餐厅**（['italian', 'restaurant']）
-意大利餐厅，位于Wronia街，7月开业，出自经营多家华沙餐饮场所的团队。
-*Warsaw Foodie · 2026-10-28 · [原文 →](https://warsawfoodie.pl/2026/10/splendido-nowa-wloska-restauracja-na-woli/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**本周末华沙做什么（10月30日–11月1日）** · 10月30日
-周五19:00 Teatr Wielki 上演普契尼《蝴蝶夫人》，周五16:30 Jazdów 有免费的“Dziady: zjawy nocy”家庭活动。周六19:00 Klub Stodoła 的 Perfect 演唱会已售罄，周六 20:00 COS Torwar 有 Legia–Dziki 篮球德比。周五、周六夜间多家影院和俱乐部举办万圣节活动。 · 华沙
-*Dla Studenta Warszawa · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-weekend-w-warszawie-30-pazdziernika1-listopada-2026-koncerty-halloween-i-wydarzenia,161394.html)*
+**PGE Narodowy 植物节** · 11月7日
+11月7–8日在 Praga-Południe 举行的植物市集，免费入场。 · PGE Narodowy, Praga-Południe
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-159890-festiwal-roslin-na-pge-narodowym-wielki-market-roslin-w-supercenach)*
 
-**Kinoteka特别场次：《Zobaczysz wszystko》** · 10月30日
-10月30日19:00放映，场次标注为“特别场次”。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/zobaczysz-wszystko/)*
+**独立日节：Krakowskie Przedmieście 游行与博物馆长廊** · 11月11日
+11月11日14:00–19:00，第八届免费庆典：街头游行、音乐舞蹈与历史重现团体、老爷车；Aleja Muzeów 有华沙文化机构的摊位和工作坊。 · Krakowskie Przedmieście
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/festiwal/festiwal-niepodlegla/)*
 
-**Powązki军人公墓夜间漫步** · 10月31日
-10月31日16:00举行的傍晚漫步，参加方式为自愿捐助。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161154-powazki-wojskowe-po-zmroku-wieczorny-spacer-sladami-niezwyklych-ludzi)*
+**免费音乐会《Wspólna Niepodległa 2026》** · 11月11日
+11月11日17:15在 Żoliborz 举行的免费音乐会。 · Żoliborz
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161212-koncert-wspolna-niepodlegla-2026)*
 
-**国家爱乐交响音乐会：Polaris首演** · 11月6日
-11月6日19:30，指挥Christoph König，中提琴独奏Timothy Ridout，首演Grażyna Pstrokońska-Nawratil的《Polaris》。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-symfoniczny-337507716)*
+**国家爱乐钢琴二重奏：Lucas 与 Arthur Jussen** · 11月15日
+11月15日18:00，钢琴演奏会，演出者为 Lucas Jussen 和 Arthur Jussen。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-kameralny-496843422)*
+
+**大剧院首演歌剧《魔山》（Mykietyn）** · 11月20日
+Mykietyn 的两幕歌剧，德语演出，11月20日19:00在 Nowy Teatr 首演，21、22日加演。 · Nowy Teatr
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/czarodziejska-gora/termin/2026-11-20_19-00/)*
+
+**大剧院首演施特劳斯《Salome》** · 11月22日
+单幕音乐剧，德语演出，与马德里皇家剧院联合制作；11月22日18:00首演。 · Sala Moniuszki
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/salome/termin/2026-11-22_18-00/)*
+
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ⚠ 欧盟委员会新闻稿 · ⚠ 波兰移民局 UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ⚠ UdSC 移民局 · ⚠ 中国驻波兰使馆
