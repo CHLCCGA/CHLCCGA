@@ -34,7 +34,10 @@ def _request(strings, style, key):
     response = requests.post(
         ENDPOINT,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-        json={"model": "deepseek-v4-flash", "response_format": {"type": "json_object"}, "messages": [
+        # Headlines translate as well without thinking at ~1/7 of the tokens; the bank summaries
+        # keep it, since without it they drop the conditions (measured 2026-11-02).
+        json={"model": "deepseek-flash", "thinking": {"type": "disabled" if style == "headline" else "enabled"},
+              "response_format": {"type": "json_object"}, "messages": [
             {"role": "system", "content": instruction},
             {"role": "user", "content": json.dumps(strings, ensure_ascii=False)},
         ]},
