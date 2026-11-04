@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T14:07:03.909871Z",
+ "generated_at": "2026-11-04T14:09:32.154399Z",
  "groups": [
   {
    "id": "focus",
@@ -58,6 +58,7 @@
  ],
  "translation": {
   "done": 385,
+  "reused": 383,
   "missing": 0,
   "error": null
  },
@@ -80,7 +81,7 @@
      "source": "Oliver Knight / CoinDesk",
      "count": 26,
      "id": "alltop_threads-0",
-     "title_zh": "FBI指责朝鲜黑客制造币安63亿美元创纪录盗窃案",
+     "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录",
      "summary_zh": "FBI认定朝鲜黑客应对币安创纪录的63亿美元加密货币盗窃案负责，朝鲜对此予以否认。"
     },
     {
@@ -269,8 +270,9 @@
    "items": [
     {
      "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-     "url": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate",
-     "time": "2026-11-04T13:54:03.909871Z",
+     "url": "https://upstract.com/x/d58af1d4f6fa69a9",
+     "gated": true,
+     "time": "2026-11-04T13:54:32.154399Z",
      "id": "google_news-0",
      "title_zh": "进步派阿卜杜勒·埃尔-赛义德赢得密歇根州参议院选举，成为美国首位穆斯林参议员"
     },
@@ -278,7 +280,7 @@
      "title": "\"What we just witnessed was an AI earthquake\": Voters revolt against tech at polls",
      "url": "https://upstract.com/x/fd37d64e3bdd897b",
      "gated": true,
-     "time": "2026-11-04T13:54:03.909871Z",
+     "time": "2026-11-04T13:53:32.154399Z",
      "id": "google_news-1",
      "title_zh": "“我们刚刚目睹的是一场AI地震”：选民在投票站对科技业发起反抗"
     },
@@ -286,7 +288,7 @@
      "title": "OpenAI says ChatGPT is catching up to Google in search",
      "url": "https://upstract.com/x/db804247cdb6d6ae",
      "gated": true,
-     "time": "2026-11-04T13:53:03.909871Z",
+     "time": "2026-11-04T13:53:32.154399Z",
      "id": "google_news-2",
      "title_zh": "OpenAI称ChatGPT在搜索领域正迎头赶上谷歌"
     },
@@ -294,7 +296,7 @@
      "title": "Ohio elects Amy Acton first woman governor",
      "url": "https://upstract.com/x/820cb18ce83bc8a3",
      "gated": true,
-     "time": "2026-11-04T13:43:03.909871Z",
+     "time": "2026-11-04T13:43:32.154399Z",
      "id": "google_news-3",
      "title_zh": "俄亥俄州选出艾米·阿克顿，成为首位女性州长"
     },
@@ -302,22 +304,21 @@
      "title": "James Talarico wins Texas 2026 Senate election, flipping seat for Democrats",
      "url": "https://upstract.com/x/d540daa6d4320741",
      "gated": true,
-     "time": "2026-11-04T13:43:03.909871Z",
+     "time": "2026-11-04T13:43:32.154399Z",
      "id": "google_news-4",
      "title_zh": "詹姆斯·塔拉里科赢得得克萨斯州2026年参议院选举，为民主党翻转该席位"
     },
     {
      "title": "CFP rankings: Notre Dame faces sudden death, SEC feeling, and Big Ten close to hitting the panic button",
      "url": "https://www.foxnews.com/outkick-sports/cfp-rankings-notre-dame-faces-sudden-death-sec-feeling-big-ten-close-hitting-panic-button",
-     "time": "2026-11-04T13:43:03.909871Z",
+     "time": "2026-11-04T13:43:32.154399Z",
      "id": "google_news-5",
      "title_zh": "大学橄榄球季后赛排名：圣母大学面临突然死亡，SEC感受压力，十大联盟濒临恐慌"
     },
     {
      "title": "2026 NFL trade deadline: Players to watch, buzz and goals for all 32 teams",
-     "url": "https://upstract.com/x/a27497ac9ce6bab3",
-     "gated": true,
-     "time": "2026-11-04T13:43:03.909871Z",
+     "url": "https://www.espn.com/nfl/story/_/id/50370030/trade-deadline-team-preview-goals-buzz-players-deals-2026",
+     "time": "2026-11-04T13:43:32.154399Z",
      "id": "google_news-6",
      "title_zh": "2026年NFL交易截止日：值得关注的球员、传闻以及全部32支球队的目标"
     }
@@ -337,7 +338,7 @@
      "title": "SpaceX signs deal with Qualcomm to provide network technology for U.S. mobile service",
      "url": "https://upstract.com/x/4458c8b50acc6e83",
      "gated": true,
-     "time": "2026-11-04T13:30:03.909871Z",
+     "time": "2026-11-04T13:30:32.154399Z",
      "id": "cnbc-0",
      "title_zh": "SpaceX与高通签署协议，为其美国移动服务提供网络技术"
     },
@@ -345,15 +346,14 @@
      "title": "Uber beats on revenue even as mobility and delivery units miss estimates",
      "url": "https://upstract.com/x/72e99d85ed0db0ae",
      "gated": true,
-     "time": "2026-11-04T13:27:03.909871Z",
+     "time": "2026-11-04T13:27:32.154399Z",
      "id": "cnbc-1",
      "title_zh": "优步营收超预期，但出行和配送部门未达预期"
     },
     {
      "title": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
-     "url": "https://upstract.com/x/05c1011713a5d03c",
-     "gated": true,
-     "time": "2026-11-04T13:15:03.909871Z",
+     "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
+     "time": "2026-11-04T13:15:32.154399Z",
      "id": "cnbc-2",
      "title_zh": "ADP称10月私营企业新增8.6万个就业岗位，略高于预期"
     },
@@ -361,21 +361,22 @@
      "title": "China expands overseas mining stakes, tightening grip on critical minerals",
      "url": "https://upstract.com/x/18a40cb89abaeb3e",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "cnbc-3",
      "title_zh": "中国扩大海外矿业持股，加强对关键矿产的掌控"
     },
     {
      "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
-     "url": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "url": "https://upstract.com/x/6c56036dd55726d1",
+     "gated": true,
+     "time": "2026-11-04T12:09:32.154399Z",
      "id": "cnbc-4",
      "title_zh": "Wayfair销售额跃升10%，这家家具零售商称正在疲软市场中抢占份额"
     },
     {
      "title": "Mortgage rates drop for the third straight week, but homebuyers are still leaving the market",
      "url": "https://www.cnbc.com/2026/11/04/mortgage-rates-dropped-homebuyers-still-leaving.html",
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "id": "cnbc-5",
      "title_zh": "抵押贷款利率连续第三周下降，但购房者仍在退出市场"
     },
@@ -383,7 +384,7 @@
      "title": "CVS to split off drugstore business in major breakup of healthcare giant",
      "url": "https://upstract.com/x/c3f45907e8030e4c",
      "gated": true,
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "id": "cnbc-6",
      "title_zh": "CVS将分拆药房业务，这家医疗巨头大规模拆分"
     }
@@ -401,9 +402,8 @@
    "items": [
     {
      "title": "Hebron’s Israeli rooftop settlers threaten the city’s Palestinian identity",
-     "url": "https://upstract.com/x/d1b1d13abd5480df",
-     "gated": true,
-     "time": "2026-11-04T13:41:03.909871Z",
+     "url": "https://www.aljazeera.com/news/2026/11/4/hebrons-israeli-rooftop-settlers-threaten-the-citys-palestinian-identity",
+     "time": "2026-11-04T13:41:32.154399Z",
      "id": "aljazeera-0",
      "title_zh": "希伯伦的以色列屋顶定居者威胁该市的巴勒斯坦身份认同"
     },
@@ -411,30 +411,29 @@
      "title": "Gaza volunteer Adam Hamawy wins historic US Congress seat",
      "url": "https://upstract.com/x/c048482eada41fa0",
      "gated": true,
-     "time": "2026-11-04T13:33:03.909871Z",
+     "time": "2026-11-04T13:33:32.154399Z",
      "id": "aljazeera-1",
      "title_zh": "加沙志愿者亚当·哈马维赢得历史性的美国国会席位"
     },
     {
      "title": "Jerusalem Daily: Mass arrests across occupied West Bank",
-     "url": "https://upstract.com/x/aa7a0e01400b438c",
-     "gated": true,
-     "time": "2026-11-04T13:30:03.909871Z",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/jerusalem-daily-mass-arrests-across-occupied-west-bank",
+     "time": "2026-11-04T13:30:32.154399Z",
      "id": "aljazeera-2",
      "title_zh": "《耶路撒冷日报》：被占领的约旦河西岸各地发生大规模逮捕"
     },
     {
      "title": "Iran hails US voters rejecting war while Khamenei warns hostility won’t end",
-     "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end",
-     "time": "2026-11-04T13:27:03.909871Z",
+     "url": "https://upstract.com/x/1cefbcc3d481fccc",
+     "gated": true,
+     "time": "2026-11-04T13:27:32.154399Z",
      "id": "aljazeera-3",
      "title_zh": "伊朗赞扬美国选民拒绝战争，而哈梅内伊警告敌意不会结束"
     },
     {
      "title": "Why are Europe’s governments struggling to respond to growing protests?",
-     "url": "https://upstract.com/x/723f5e3dce53ef4e",
-     "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "url": "https://www.aljazeera.com/news/2026/11/4/why-are-europes-governments-struggling-to-respond-to-growing-protests",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "aljazeera-4",
      "title_zh": "为何欧洲各国政府难以应对日益增多的抗议？"
     },
@@ -442,7 +441,7 @@
      "title": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
      "url": "https://upstract.com/x/a2f53846cdc1fdcd",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "aljazeera-5",
      "title_zh": "民主党能否在赢得中期选举后阻止伊朗战争、撤销特朗普的关税？"
     },
@@ -450,7 +449,7 @@
      "title": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
      "url": "https://upstract.com/x/4519d4fecfc19569",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "aljazeera-6",
      "title_zh": "特朗普承认伊朗战争损害了共和党选票，誓言否决“疯狂”法案"
     }
@@ -470,14 +469,14 @@
      "title": "US voters roundly reject data centers in ballot measures",
      "url": "https://upstract.com/x/8305c6abb0ae1a83",
      "gated": true,
-     "time": "2026-11-04T13:54:03.909871Z",
+     "time": "2026-11-04T13:54:32.154399Z",
      "id": "semafor-0",
      "title_zh": "美国选民在公投措施中普遍否决数据中心"
     },
     {
      "title": "Prediction markets win big on election night",
      "url": "https://www.semafor.com/article/11/04/2026/prediction-markets-win-big-on-election-night",
-     "time": "2026-11-04T13:53:03.909871Z",
+     "time": "2026-11-04T13:53:32.154399Z",
      "id": "semafor-1",
      "title_zh": "预测市场在选举之夜大获全胜"
     },
@@ -485,14 +484,15 @@
      "title": "How big money lost the 2026 midterms",
      "url": "https://upstract.com/x/79e8b4de45b13ed1",
      "gated": true,
-     "time": "2026-11-04T13:44:03.909871Z",
+     "time": "2026-11-04T13:44:32.154399Z",
      "id": "semafor-2",
      "title_zh": "大笔资金如何在2026年中期选举中落败"
     },
     {
      "title": "Democrats’ win won’t mean a major US-Africa shift",
-     "url": "https://www.semafor.com/article/11/04/2026/democrats-win-wont-mean-a-major-us-africa-shift",
-     "time": "2026-11-04T13:41:03.909871Z",
+     "url": "https://upstract.com/x/34db6b1f516e5c99",
+     "gated": true,
+     "time": "2026-11-04T13:41:32.154399Z",
      "id": "semafor-3",
      "title_zh": "民主党的胜利并不意味着美国对非政策重大转变"
     },
@@ -500,14 +500,15 @@
      "title": "Riyadh parents stuck in war-time limbo",
      "url": "https://upstract.com/x/0270eb1229938b4a",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "semafor-4",
      "title_zh": "利雅得父母困于战时困境"
     },
     {
      "title": "AI-generated data found on Nigeria voter roll",
-     "url": "https://www.semafor.com/article/11/04/2026/ai-generated-data-found-on-nigeria-voter-roll",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "url": "https://upstract.com/x/5699bceb8d26917a",
+     "gated": true,
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "semafor-5",
      "title_zh": "尼日利亚选民名册上发现AI生成数据"
     },
@@ -515,7 +516,7 @@
      "title": "South Africa downplays AGOA blow",
      "url": "https://upstract.com/x/a770be1661866152",
      "gated": true,
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "id": "semafor-6",
      "title_zh": "南非淡化AGOA打击"
     }
@@ -535,7 +536,7 @@
      "title": "How one US city cut its infant mortality rate by half",
      "url": "https://upstract.com/x/e708628626a64989",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "vox-0",
      "title_zh": "美国一座城市如何将婴儿死亡率减半"
     },
@@ -543,23 +544,21 @@
      "title": "How Abdul El-Sayed won the Michigan Senate race",
      "url": "https://upstract.com/x/fe1d184b2c3d68c3",
      "gated": true,
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "vox-1",
      "title_zh": "阿卜杜勒·埃尔-赛义德如何赢得密歇根州参议院选举"
     },
     {
      "title": "hand Trump a historic defeat?",
-     "url": "https://upstract.com/x/b902e9f09c19977e",
-     "gated": true,
-     "time": "2026-11-04T07:07:03.909871Z",
+     "url": "https://www.vox.com/politics/508952/2026-midterm-elections-democrats-republicans-trump",
+     "time": "2026-11-04T07:09:32.154399Z",
      "id": "vox-2",
      "title_zh": "让特朗普遭遇历史性失败？"
     },
     {
      "title": "The two issues that finally brought down Susan Collins",
-     "url": "https://upstract.com/x/c80795037d634997",
-     "gated": true,
-     "time": "2026-11-04T06:07:03.909871Z",
+     "url": "https://www.vox.com/politics/508884/susan-collins-election-senate-midterms-2026-politics",
+     "time": "2026-11-04T06:09:32.154399Z",
      "id": "vox-3",
      "title_zh": "最终扳倒苏珊·柯林斯的两大议题"
     },
@@ -567,7 +566,7 @@
      "title": "A massive blue wave just hit America. Here’s what it could bring next",
      "url": "https://upstract.com/x/e883435ab1f0e244",
      "gated": true,
-     "time": "2026-11-04T06:07:03.909871Z",
+     "time": "2026-11-04T06:09:32.154399Z",
      "id": "vox-4",
      "title_zh": "一场大规模蓝色浪潮刚刚席卷美国。接下来可能带来什么"
     },
@@ -575,15 +574,14 @@
      "title": "The Christian left is here",
      "url": "https://upstract.com/x/72e84aa3df3063de",
      "gated": true,
-     "time": "2026-11-04T05:07:03.909871Z",
+     "time": "2026-11-04T05:09:32.154399Z",
      "id": "vox-5",
      "title_zh": "基督教左翼来了"
     },
     {
      "title": "What a blue wave could actually do",
-     "url": "https://upstract.com/x/8ca0cd2df1f9c82d",
-     "gated": true,
-     "time": "2026-11-03T22:07:03.909871Z",
+     "url": "https://www.vox.com/today-explained-newsletter/508653/blue-wave-midterms-election-day-2026",
+     "time": "2026-11-03T22:09:32.154399Z",
      "id": "vox-6",
      "title_zh": "蓝色浪潮究竟能做什么"
     }
@@ -665,31 +663,28 @@
      "title": "The Blue Wave Is Real",
      "url": "https://upstract.com/x/747f57d849e26e4c",
      "gated": true,
-     "time": "2026-11-04T06:07:03.909871Z",
+     "time": "2026-11-04T06:09:32.154399Z",
      "id": "atlantic-0",
      "title_zh": "蓝色浪潮是真的"
     },
     {
      "title": "The Unlikeliest Democratic Win of All",
-     "url": "https://upstract.com/x/e9c9420cbe6161c8",
-     "gated": true,
-     "time": "2026-11-04T06:07:03.909871Z",
+     "url": "https://www.theatlantic.com/politics/2026/11/andrews-graham-south-carolina-democrat/689275/",
+     "time": "2026-11-04T06:09:32.154399Z",
      "id": "atlantic-1",
      "title_zh": "最出人意料的民主党胜利"
     },
     {
      "title": "How the Democrats Beat Trump",
-     "url": "https://upstract.com/x/54fe08b968dbe850",
-     "gated": true,
-     "time": "2026-11-04T06:07:03.909871Z",
+     "url": "https://www.theatlantic.com/politics/2026/11/trump-jeffries-democrats-midterms/689266/",
+     "time": "2026-11-04T05:09:32.154399Z",
      "id": "atlantic-2",
      "title_zh": "民主党如何击败特朗普"
     },
     {
      "title": "How Texas Turned Blue",
-     "url": "https://upstract.com/x/f4174a4ee44b1d61",
-     "gated": true,
-     "time": "2026-11-04T05:07:03.909871Z",
+     "url": "https://www.theatlantic.com/politics/2026/11/talarico-hinojosa-texas-musk/689268/",
+     "time": "2026-11-04T05:09:32.154399Z",
      "id": "atlantic-3",
      "title_zh": "得克萨斯如何变蓝"
     },
@@ -697,21 +692,22 @@
      "title": "Why Republicans Lost So Big",
      "url": "https://upstract.com/x/c6ec214af5d79b48",
      "gated": true,
-     "time": "2026-11-04T05:07:03.909871Z",
+     "time": "2026-11-04T05:09:32.154399Z",
      "id": "atlantic-4",
      "title_zh": "共和党为何惨败"
     },
     {
      "title": "Trump’s Lame-Duck Era Begins",
-     "url": "https://www.theatlantic.com/politics/2026/11/trump-midterms-lame-duck/689265/",
-     "time": "2026-11-04T04:07:03.909871Z",
+     "url": "https://upstract.com/x/ea7cb385025b5a50",
+     "gated": true,
+     "time": "2026-11-04T04:09:32.154399Z",
      "id": "atlantic-5",
      "title_zh": "特朗普的跛脚鸭时代开始"
     },
     {
      "title": "Donald Trump Is Bad at Politics",
      "url": "https://www.theatlantic.com/ideas/2026/11/trump-midterm-losses-winners-losers/689262/",
-     "time": "2026-11-04T04:07:03.909871Z",
+     "time": "2026-11-04T04:09:32.154399Z",
      "id": "atlantic-6",
      "title_zh": "唐纳德·特朗普不擅长政治"
     }
@@ -731,7 +727,7 @@
      "title": "Three Novels that Stuck with Chad Harbach",
      "url": "https://upstract.com/x/4d11a745bdc6f62e",
      "gated": true,
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "id": "newyorker-0",
      "title_zh": "查德·哈巴赫难忘的三部小说"
     },
@@ -739,43 +735,45 @@
      "title": "Play Catalogues: Wednesday, November 4, 2026",
      "url": "https://upstract.com/x/cd2aa8bb4bd224b6",
      "gated": true,
-     "time": "2026-11-04T11:07:03.909871Z",
+     "time": "2026-11-04T11:09:32.154399Z",
      "id": "newyorker-1",
      "title_zh": "玩填字游戏：2026年11月4日，星期三"
     },
     {
      "title": "Play Shuffalo: Wednesday, November 4, 2026",
-     "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo/2026/11/04",
-     "time": "2026-11-04T11:07:03.909871Z",
+     "url": "https://upstract.com/x/a862b058097bb689",
+     "gated": true,
+     "time": "2026-11-04T11:09:32.154399Z",
      "id": "newyorker-2",
      "title_zh": "玩Shuffalo：2026年11月4日，星期三"
     },
     {
      "title": "Daily Cartoon: Wednesday, November 4th",
-     "url": "https://www.newyorker.com/cartoons/daily-cartoon/wednesday-november-4th-leaf-piles",
-     "time": "2026-11-04T11:07:03.909871Z",
+     "url": "https://upstract.com/x/5cb8e31e84dea976",
+     "gated": true,
+     "time": "2026-11-04T11:09:32.154399Z",
      "id": "newyorker-3",
      "title_zh": "每日漫画：11月4日，星期三"
     },
     {
      "title": "Play Laugh Lines: Wednesday, November 4, 2026",
      "url": "https://www.newyorker.com/puzzles-and-games-dept/laugh-lines/2026/11/04",
-     "time": "2026-11-04T11:07:03.909871Z",
+     "time": "2026-11-04T11:09:32.154399Z",
      "id": "newyorker-4",
      "title_zh": "玩笑点填空：2026年11月4日，星期三"
     },
     {
      "title": "Emmanuel Carrère Untangles His Russian Roots",
-     "url": "https://upstract.com/x/0a45b5832601dd36",
-     "gated": true,
-     "time": "2026-11-04T11:07:03.909871Z",
+     "url": "https://www.newyorker.com/books/under-review/in-kolkhoz-emmanuel-carrere-untangles-his-russian-roots",
+     "time": "2026-11-04T11:09:32.154399Z",
      "id": "newyorker-5",
      "title_zh": "埃马纽埃尔·卡雷尔梳理他的俄罗斯根源"
     },
     {
      "title": "A Blue Wave Just Crashed on Trump",
-     "url": "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump",
-     "time": "2026-11-04T07:07:03.909871Z",
+     "url": "https://upstract.com/x/dcaad42c249a8bcd",
+     "gated": true,
+     "time": "2026-11-04T07:09:32.154399Z",
      "id": "newyorker-6",
      "title_zh": "蓝色浪潮刚刚冲击了特朗普"
     }
@@ -795,7 +793,7 @@
      "title": "It’s the war, stupid",
      "url": "https://upstract.com/x/85fd3fead5293eab",
      "gated": true,
-     "time": "2026-11-04T08:07:03.909871Z",
+     "time": "2026-11-04T08:09:32.154399Z",
      "id": "unherd-0",
      "title_zh": "是战争，笨蛋"
     },
@@ -803,7 +801,7 @@
      "title": "The far-Right leader coming for Britons’ litter",
      "url": "https://upstract.com/x/1a7f48c61f9b4fba",
      "gated": true,
-     "time": "2026-11-04T00:07:03.909871Z",
+     "time": "2026-11-04T00:09:32.154399Z",
      "id": "unherd-1",
      "title_zh": "盯上英国人垃圾的极右翼领袖"
     },
@@ -811,15 +809,14 @@
      "title": "Why Gen Z loves horny fanfiction",
      "url": "https://upstract.com/x/de6e59147892af09",
      "gated": true,
-     "time": "2026-11-04T00:07:03.909871Z",
+     "time": "2026-11-04T00:09:32.154399Z",
      "id": "unherd-2",
      "title_zh": "Z世代为何爱看情色同人小说"
     },
     {
      "title": "After Manchester City, why care?",
-     "url": "https://upstract.com/x/7f658c5f64d41dcc",
-     "gated": true,
-     "time": "2026-11-04T00:07:03.909871Z",
+     "url": "https://unherd.com/2026/11/after-man-city-why-care/?edition=us",
+     "time": "2026-11-04T00:09:32.154399Z",
      "id": "unherd-3",
      "title_zh": "曼城之后，为何还要关心？"
     },
@@ -832,14 +829,14 @@
     },
     {
      "title": "Let’s decolonise the Commonwealth",
-     "url": "https://unherd.com/2026/11/lets-decolonise-the-commonwealth/",
+     "url": "https://upstract.com/x/8d5cd98e15eaeb23",
+     "gated": true,
      "id": "unherd-5",
      "title_zh": "让我们让英联邦去殖民化"
     },
     {
      "title": "Why British Jews prefer a London suburb to New York",
-     "url": "https://upstract.com/x/87139b86612fb6b3",
-     "gated": true,
+     "url": "https://unherd.com/2026/11/why-british-jews-prefer-elstree-to-new-york/?edition=us",
      "id": "unherd-6",
      "title_zh": "英国犹太人为何偏爱伦敦郊区而非纽约"
     }
@@ -858,21 +855,19 @@
     {
      "title": "Wave Watch",
      "url": "https://www.commentary.org/noam-blum/wave-watch/",
-     "time": "2026-11-03T16:07:03.909871Z",
+     "time": "2026-11-03T16:09:32.154399Z",
      "id": "commentary-0",
      "title_zh": "浪潮观察"
     },
     {
      "title": "Democrats’ Day of Rage",
-     "url": "https://upstract.com/x/d1a64b4fee1999f4",
-     "gated": true,
+     "url": "https://www.commentary.org/seth-mandel/democrats-day-of-rage/",
      "id": "commentary-1",
      "title_zh": "民主党的愤怒之日"
     },
     {
      "title": "Even Stevens",
-     "url": "https://upstract.com/x/9805b175bdad9bf3",
-     "gated": true,
+     "url": "https://www.commentary.org/noam-blum/even-stevens/",
      "id": "commentary-2",
      "title_zh": "势均力敌"
     },
@@ -880,29 +875,30 @@
      "title": "Sub Parliament",
      "url": "https://upstract.com/x/90e5c094480753cb",
      "gated": true,
-     "time": "2026-10-31T14:07:03.909871Z",
+     "time": "2026-10-31T14:09:32.154399Z",
      "id": "commentary-3",
-     "title_zh": "替补议会"
+     "title_zh": "次级议会"
     },
     {
      "title": "‘Training’ A.I. to Be Anti-Zionist",
      "url": "https://www.commentary.org/seth-mandel/training-a-i-to-be-anti-zionist/",
-     "time": "2026-10-30T14:07:03.909871Z",
+     "time": "2026-10-30T14:09:32.154399Z",
      "id": "commentary-4",
      "title_zh": "“训练”AI成为反犹太复国主义者"
     },
     {
      "title": "The Antisemitism Horseshoe",
-     "url": "https://www.commentary.org/noam-blum/the-antisemitism-horseshoe/",
-     "time": "2026-10-30T14:07:03.909871Z",
+     "url": "https://upstract.com/x/c9fa324c619d8bdf",
+     "gated": true,
+     "time": "2026-10-30T14:09:32.154399Z",
      "id": "commentary-5",
-     "title_zh": "反犹主义的马蹄铁"
+     "title_zh": "反犹主义的“马蹄铁”"
     },
     {
      "title": "Who Are Jewish Museums For?",
      "url": "https://upstract.com/x/b9cfbd6c9b8d3aa3",
      "gated": true,
-     "time": "2026-10-29T14:07:03.909871Z",
+     "time": "2026-10-29T14:09:32.154399Z",
      "id": "commentary-6",
      "title_zh": "犹太博物馆为谁而设？"
     }
@@ -922,7 +918,7 @@
      "title": "FBI Blames North Korean Hackers for Record $6.3 Billion Binance Theft",
      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
      "source": "Oliver Knight / CoinDesk",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 26,
      "id": "alltop_tech-0",
      "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录"
@@ -931,7 +927,7 @@
      "title": "Midterm Elections: Energy Policy, AI Regulation, and Data Centers on the Ballot",
      "url": "https://www.axios.com/2026/11/03/election-night-midterms-energy",
      "source": "Axios",
-     "time": "2026-11-04T13:14:03.909871Z",
+     "time": "2026-11-04T13:13:32.154399Z",
      "count": 8,
      "id": "alltop_tech-1",
      "title_zh": "中期选举：能源政策、AI监管和数据中心列入选票"
@@ -940,7 +936,7 @@
      "title": "Google Threatens to Disable Search for Schools That Reject AI Tools",
      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
      "source": "TechCrunch",
-     "time": "2026-11-04T10:07:03.909871Z",
+     "time": "2026-11-04T10:09:32.154399Z",
      "count": 17,
      "id": "alltop_tech-2",
      "title_zh": "谷歌威胁对拒绝AI工具的学校禁用搜索"
@@ -949,7 +945,7 @@
      "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand, Stock Jumps",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
      "source": "Bloomberg",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 9,
      "id": "alltop_tech-3",
      "title_zh": "AMD销售预测超预期，AI芯片需求飙升，股价大涨"
@@ -958,7 +954,7 @@
      "title": "Tesla, SpaceX Shares Fall After Elon Musk's Midterm Election Bets Backfire",
      "url": "https://seekingalpha.com/news/4664448-musks-tesla-and-spacex-slip-as-early-us-midterm-results-point-to-democratic-wins?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:41:03.909871Z",
+     "time": "2026-11-04T13:41:32.154399Z",
      "count": 5,
      "id": "alltop_tech-4",
      "title_zh": "马斯克中期选举押注失败后，特斯拉、SpaceX股价下跌"
@@ -967,7 +963,7 @@
      "title": "Canva Lays Off 22% of Global Workforce Amid Slowed Growth and AI Issues",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
      "source": "Bloomberg",
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "count": 7,
      "id": "alltop_tech-5",
      "title_zh": "Canva因增长放缓和AI问题裁员全球员工22%"
@@ -976,7 +972,7 @@
      "title": "AI Inference Startup Fal Raises $1.3B at $16B Valuation",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation",
      "source": "Bloomberg",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 6,
      "id": "alltop_tech-6",
      "title_zh": "AI推理初创公司Fal以160亿美元估值融资13亿美元"
@@ -985,7 +981,7 @@
      "title": "Hackers Target French Blood Banks, Attempting to Overheat Refrigeration Systems",
      "url": "https://www.businessinsider.com/blood-plasma-fridge-hack-france-efs-cyberattack-2026-11",
      "source": "Business Insider",
-     "time": "2026-11-04T13:45:03.909871Z",
+     "time": "2026-11-04T13:45:32.154399Z",
      "count": 3,
      "id": "alltop_tech-7",
      "title_zh": "黑客攻击法国血库，试图使制冷系统过热"
@@ -994,7 +990,7 @@
      "title": "AI chatbots enter political advisory role, raising concerns about voter misinformation",
      "url": "https://phys.org/news/2026-11-qa-hey-ai-vote-year.html",
      "source": "Phys.org",
-     "time": "2026-11-04T02:07:03.909871Z",
+     "time": "2026-11-04T02:09:32.154399Z",
      "count": 10,
      "id": "alltop_tech-8",
      "title_zh": "AI聊天机器人进入政治咨询角色，引发对选民虚假信息的担忧"
@@ -1003,7 +999,7 @@
      "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
      "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:14:03.909871Z",
+     "time": "2026-11-04T13:14:32.154399Z",
      "count": 5,
      "id": "alltop_tech-9",
      "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
@@ -1024,7 +1020,7 @@
      "title": "Democrats Gain Control of Congress as Midterm Vote Counting Continues",
      "url": "https://www.ft.com/content/7906251c-c903-4e4d-88db-cfe104271b0a?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-04T13:13:03.909871Z",
+     "time": "2026-11-04T13:12:32.154399Z",
      "count": 20,
      "id": "alltop_business-0",
      "title_zh": "民主党在中期选举计票持续中赢得国会控制权"
@@ -1033,7 +1029,7 @@
      "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand, Stock Jumps",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
      "source": "Bloomberg",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 9,
      "id": "alltop_business-1",
      "title_zh": "AMD销售预测超预期，AI芯片需求飙升，股价大涨"
@@ -1042,7 +1038,7 @@
      "title": "Google Threatens to Disable Search for Schools That Reject AI Tools",
      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
      "source": "TechCrunch",
-     "time": "2026-11-04T10:07:03.909871Z",
+     "time": "2026-11-04T10:09:32.154399Z",
      "count": 17,
      "id": "alltop_business-2",
      "title_zh": "谷歌威胁对拒绝AI工具的学校禁用搜索"
@@ -1051,7 +1047,7 @@
      "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
      "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:14:03.909871Z",
+     "time": "2026-11-04T13:13:32.154399Z",
      "count": 5,
      "id": "alltop_business-3",
      "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
@@ -1060,7 +1056,7 @@
      "title": "Democrats Win Congress and Statehouses on Economic Discontent",
      "url": "https://insideclimatenews.org/news/04112026/democrats-seize-congress-statehouses-in-referendum-on-the-economy/",
      "source": "Inside Climate News",
-     "time": "2026-11-04T13:17:03.909871Z",
+     "time": "2026-11-04T13:16:32.154399Z",
      "count": 2,
      "id": "alltop_business-4",
      "title_zh": "民主党因经济不满赢得国会和州议会"
@@ -1069,7 +1065,7 @@
      "title": "OpenAI Hires Former Army Secretary Dan Driscoll for National Security AI Efforts",
      "url": "https://www.ft.com/content/e6b8fd40-ef92-46e8-aeaf-f98dade55a67?syn-25a6b1a6=1",
      "source": "FT Companies",
-     "time": "2026-11-03T23:07:03.909871Z",
+     "time": "2026-11-03T23:09:32.154399Z",
      "count": 12,
      "id": "alltop_business-5",
      "title_zh": "OpenAI聘请前陆军部长丹·德里斯科尔负责国家安全AI事务"
@@ -1078,7 +1074,7 @@
      "title": "Texas Election Results Raise Concerns for Data Center and AI Infrastructure",
      "url": "https://www.theinformation.com/briefings/stunning-democrat-victories-texas-bring-uncertainty-data-centers-musk",
      "source": "The Information",
-     "time": "2026-11-04T10:07:03.909871Z",
+     "time": "2026-11-04T10:09:32.154399Z",
      "count": 5,
      "id": "alltop_business-6",
      "title_zh": "得州选举结果引发对数据中心和AI基础设施的担忧"
@@ -1087,7 +1083,7 @@
      "title": "Eurozone Inflation Rises to 4% in October, Driven by Energy Costs",
      "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_worldnews",
      "source": "WSJ World",
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "count": 3,
      "id": "alltop_business-7",
      "title_zh": "欧元区10月通胀率升至4%，受能源成本推动"
@@ -1096,7 +1092,7 @@
      "title": "Uber Beats Q4 Earnings Estimates on Strong Delivery Growth",
      "url": "https://seekingalpha.com/news/4664606-uber-non-gaap-eps-of-0_88-beats-by-0_01-revenue-of-14_77b-beats-by-100m?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:27:03.909871Z",
+     "time": "2026-11-04T13:27:32.154399Z",
      "count": 2,
      "id": "alltop_business-8",
      "title_zh": "优步第四季度盈利超预期，配送业务强劲增长"
@@ -1105,7 +1101,7 @@
      "title": "Apple's iPad Mini gets powerful upgrade but comes with steep price tag",
      "url": "https://www.wired.com/review/ipad-mini-2026/",
      "source": "Wired",
-     "time": "2026-11-04T05:07:03.909871Z",
+     "time": "2026-11-04T05:09:32.154399Z",
      "count": 5,
      "id": "alltop_business-9",
      "title_zh": "苹果iPad Mini获强力升级但价格高昂"
@@ -1126,7 +1122,7 @@
      "title": "FBI Blames North Korean Hackers for Record $6.3 Billion Binance Theft",
      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
      "source": "Oliver Knight / CoinDesk",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 26,
      "id": "alltop_world-0",
      "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录"
@@ -1135,7 +1131,7 @@
      "title": "World Leaders Assess US Midterm Election Results, Weighing Impact",
      "url": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
      "source": "NYT World",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 4,
      "id": "alltop_world-1",
      "title_zh": "世界领导人评估美国中期选举结果及其影响"
@@ -1144,7 +1140,7 @@
      "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
      "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:14:03.909871Z",
+     "time": "2026-11-04T13:13:32.154399Z",
      "count": 5,
      "id": "alltop_world-2",
      "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
@@ -1153,7 +1149,7 @@
      "title": "European Supermarket Freezers Destroyed by Cyberattack",
      "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-04T02:07:03.909871Z",
+     "time": "2026-11-04T02:09:32.154399Z",
      "count": 22,
      "id": "alltop_world-3",
      "title_zh": "欧洲超市冷柜遭网络攻击损毁"
@@ -1162,7 +1158,7 @@
      "title": "Trump to End $4 Billion in Annual Military Aid to Israel by Year's End",
      "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end?traffic_source=rss",
      "source": "Al Jazeera English",
-     "time": "2026-11-04T02:07:03.909871Z",
+     "time": "2026-11-04T02:09:32.154399Z",
      "count": 10,
      "id": "alltop_world-4",
      "title_zh": "特朗普将于年底前终止对以色列每年40亿美元军事援助"
@@ -1171,7 +1167,7 @@
      "title": "US military strikes Iran's Qeshm Island ahead of midterms",
      "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews",
      "source": "WSJ World",
-     "time": "2026-11-04T05:07:03.909871Z",
+     "time": "2026-11-04T05:09:32.154399Z",
      "count": 8,
      "id": "alltop_world-5",
      "title_zh": "美国在中期选举前打击伊朗格什姆岛"
@@ -1180,7 +1176,7 @@
      "title": "Hackers Target French Blood Banks, Attempting to Overheat Refrigeration Systems",
      "url": "https://www.businessinsider.com/blood-plasma-fridge-hack-france-efs-cyberattack-2026-11",
      "source": "Business Insider",
-     "time": "2026-11-04T13:45:03.909871Z",
+     "time": "2026-11-04T13:45:32.154399Z",
      "count": 3,
      "id": "alltop_world-6",
      "title_zh": "黑客攻击法国血库，试图使制冷系统过热"
@@ -1189,7 +1185,7 @@
      "title": "Iran Hails US Election Outcome as Rejection of War, Warns Hostility Will Persist",
      "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end?traffic_source=rss",
      "source": "Al Jazeera English",
-     "time": "2026-11-04T13:44:03.909871Z",
+     "time": "2026-11-04T13:44:32.154399Z",
      "count": 2,
      "id": "alltop_world-7",
      "title_zh": "伊朗称美国选举结果是对战争的拒绝，警告敌意将持续"
@@ -1198,7 +1194,7 @@
      "title": "Netanyahu Faces Coalition Challenges After Israeli Election Results Confirmed",
      "url": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims?traffic_source=rss",
      "source": "Al Jazeera English",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 3,
      "id": "alltop_world-8",
      "title_zh": "内塔尼亚胡在以色列选举结果确认后面临联盟挑战"
@@ -1207,7 +1203,7 @@
      "title": "UK PM Open to Formal Slavery Apology, Rules Out Reparations",
      "url": "https://www.theguardian.com/world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
      "source": "The Guardian World",
-     "time": "2026-11-03T22:07:03.909871Z",
+     "time": "2026-11-03T21:09:32.154399Z",
      "count": 6,
      "id": "alltop_world-9",
      "title_zh": "英国首相愿就奴隶制正式道歉，但排除赔偿"
@@ -1228,7 +1224,7 @@
      "title": "Incan children consumed alcohol and hallucinogens before ritual sacrifice",
      "url": "https://www.scientificamerican.com/article/incan-children-were-given-hallucinogens-before-they-were-sacrificed-to-the-gods/",
      "source": "Scientific American",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "count": 2,
      "id": "alltop_science-0",
      "title_zh": "印加儿童在祭祀前饮用酒精和致幻剂"
@@ -1237,7 +1233,7 @@
      "title": "NASA seeks industry ideas to extend Hubble Telescope's mission",
      "url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope",
      "source": "Space.com",
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "count": 2,
      "id": "alltop_science-1",
      "title_zh": "NASA寻求业界方案延长哈勃望远镜任务"
@@ -1246,7 +1242,7 @@
      "title": "Taurid meteor shower peaks tonight with potential for bright fireballs",
      "url": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show",
      "source": "Space.com",
-     "time": "2026-11-04T12:07:03.909871Z",
+     "time": "2026-11-04T12:09:32.154399Z",
      "count": 2,
      "id": "alltop_science-2",
      "title_zh": "金牛座流星雨今晚达到峰值，可能出现明亮火球"
@@ -1255,7 +1251,7 @@
      "title": "NASA's Swift Observatory re-enters Earth's atmosphere after 22-year mission",
      "url": "https://www.cnet.com/science/space/neil-gehrels-swift-observatory-drops-back-to-earth/",
      "source": "CNET",
-     "time": "2026-11-03T23:07:03.909871Z",
+     "time": "2026-11-03T23:09:32.154399Z",
      "count": 9,
      "id": "alltop_science-3",
      "title_zh": "NASA的Swift天文台在22年任务后重返地球大气层"
@@ -1264,7 +1260,7 @@
      "title": "Anthrax outbreak kills dozens of hippos in Congo's Virunga National Park",
      "url": "https://www.nytimes.com/2026/11/03/world/africa/congo-anthrax-hippos-virunga-park.html",
      "source": "NYT World",
-     "time": "2026-11-04T01:07:03.909871Z",
+     "time": "2026-11-04T01:09:32.154399Z",
      "count": 2,
      "id": "alltop_science-4",
      "title_zh": "炭疽疫情导致刚果维龙加国家公园数十头河马死亡"
@@ -1273,7 +1269,7 @@
      "title": "Scientists trace brain's left-right cross-wiring to ancient fish",
      "url": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
      "source": "Science Daily",
-     "time": "2026-11-04T13:25:03.909871Z",
+     "time": "2026-11-04T13:25:32.154399Z",
      "id": "alltop_science-5",
      "title_zh": "科学家将大脑左右交叉连接追溯至远古鱼类"
     },
@@ -1281,7 +1277,7 @@
      "title": "Virtual lifeless Earth model aids search for exoplanet life",
      "url": "https://www.universetoday.com/articles/a-virtual-lifeless-earth-will-help-scientists-find-life-on-exoplanets",
      "source": "Universe Today",
-     "time": "2026-11-04T13:23:03.909871Z",
+     "time": "2026-11-04T13:22:32.154399Z",
      "id": "alltop_science-6",
      "title_zh": "虚拟无生命地球模型助力寻找系外行星生命"
     },
@@ -1289,7 +1285,7 @@
      "title": "Biotech startups skip AI for drug discovery, favoring traditional methods",
      "url": "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/",
      "source": "STAT",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "alltop_science-7",
      "title_zh": "生物技术初创公司跳过AI药物发现，倾向传统方法"
     },
@@ -1297,7 +1293,7 @@
      "title": "New research suggests age may influence the link between psychedelic use and mental health",
      "url": "https://medicalxpress.com/news/2026-11-age-links-psychedelic-mental-health.html",
      "source": "Medical Xpress",
-     "time": "2026-11-04T13:20:03.909871Z",
+     "time": "2026-11-04T13:20:32.154399Z",
      "id": "alltop_science-8",
      "title_zh": "新研究提示年龄可能影响致幻剂使用与心理健康的关联"
     },
@@ -1305,7 +1301,7 @@
      "title": "New proof emerges for century-old Four-Color Theorem math puzzle",
      "url": "https://www.smithsonianmag.com/science-nature/the-four-color-theorem-has-haunted-mathematicians-for-decades-it-just-got-a-rare-new-proof-but-some-still-long-for-a-simpler-solution-180989799/",
      "source": "Smithsonian Magazine",
-     "time": "2026-11-04T13:07:03.909871Z",
+     "time": "2026-11-04T13:09:32.154399Z",
      "id": "alltop_science-9",
      "title_zh": "百年四色定理数学难题出现新证明"
     }
@@ -1325,7 +1321,7 @@
      "title": "How a tourist from Japan greets the Royal Guard",
      "url": "https://upstract.com/x/411f17fdc9c0a1f8",
      "gated": true,
-     "time": "2026-11-04T14:07:03.909871Z",
+     "time": "2026-11-04T14:05:32.154399Z",
      "source": "r/interesting",
      "id": "reddit-0",
      "title_zh": "日本游客如何向皇家卫队致意"
@@ -1333,15 +1329,15 @@
     {
      "title": "Megathread: Gina Hinojosa has been declared the winner of the Texas Governor Race",
      "url": "https://www.reddit.com/r/texas/comments/1xneen8/megathread_gina_hinojosa_has_been_declared_the/",
-     "time": "2026-11-04T13:55:03.909871Z",
+     "time": "2026-11-04T13:55:32.154399Z",
      "source": "r/texas",
      "id": "reddit-1",
      "title_zh": "大讨论：吉娜·伊诺霍萨被宣布赢得得州州长选举"
     },
     {
      "title": "Republican Susan Collins loses seat, ending almost 30 years in the Senate",
-     "url": "https://www.reddit.com/r/politics/comments/1xnja42/republican_susan_collins_loses_seat_ending_almost/",
-     "time": "2026-11-04T13:45:03.909871Z",
+     "url": "https://www.bbc.com/news/articles/cred3jj69jvqo",
+     "time": "2026-11-04T13:45:32.154399Z",
      "id": "reddit-2",
      "title_zh": "共和党人苏珊·柯林斯失去席位，结束近30年参议院生涯"
     },
@@ -1349,41 +1345,39 @@
      "title": "FIRST BLACK GOVERNER FIRST MUSLIM SENATOR TEXAS IS BLUE AMERICA IS WOOOKE!",
      "url": "https://upstract.com/x/c54332c1305d084a",
      "gated": true,
-     "time": "2026-11-04T13:45:03.909871Z",
+     "time": "2026-11-04T13:45:32.154399Z",
      "source": "r/BlackPeopleofReddit",
      "id": "reddit-3",
      "title_zh": "首位黑人州长、首位穆斯林参议员，得州变蓝，美国觉醒了！"
     },
     {
      "title": "What happens to Elon musk now that blue won?",
-     "url": "https://upstract.com/x/2d1e483cd94d2646",
-     "gated": true,
-     "time": "2026-11-04T13:35:03.909871Z",
+     "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1xnfc8s/what_happens_to_elon_musk_now_that_blue_won/",
+     "time": "2026-11-04T13:35:32.154399Z",
      "source": "r/NoStupidQuestions",
      "id": "reddit-4",
      "title_zh": "蓝色阵营获胜后，埃隆·马斯克会怎样？"
     },
     {
      "title": "Let the reckoning begin",
-     "url": "https://www.reddit.com/r/PoursTea/comments/1xnmiow/let_the_reckoning_begin/",
-     "time": "2026-11-04T13:25:03.909871Z",
+     "url": "https://upstract.com/x/ebc0d788f4c10a59",
+     "gated": true,
+     "time": "2026-11-04T13:25:32.154399Z",
      "source": "r/PoursTea",
      "id": "reddit-5",
      "title_zh": "清算开始吧"
     },
     {
      "title": "Vivek Ramaswamy’s Concession to Amy Acton Went to Voicemail",
-     "url": "https://upstract.com/x/87a8b5479a27b8dd",
-     "gated": true,
-     "time": "2026-11-04T13:25:03.909871Z",
+     "url": "https://www.reddit.com/r/Ohio/comments/1xnlau9/vivek_ramaswamys_concession_to_amy_acton_went_to/",
+     "time": "2026-11-04T13:25:32.154399Z",
      "id": "reddit-6",
      "title_zh": "维韦克·拉马斯瓦米对艾米·阿克顿的认输电话转入了语音信箱"
     },
     {
      "title": "Racist Lives Don’t Matter (OC)",
-     "url": "https://upstract.com/x/b5976f3d1b39da7b",
-     "gated": true,
-     "time": "2026-11-04T13:15:03.909871Z",
+     "url": "https://i.redd.it/dy1ff7l82lzh1.jpeg",
+     "time": "2026-11-04T13:15:32.154399Z",
      "source": "r/pics",
      "id": "reddit-7",
      "title_zh": "种族主义者的命不重要（原创内容）"
@@ -1463,7 +1457,7 @@
     {
      "title": "Darmowe akcesoria Škody i wiecej do druku 3D na Printables.com. Oficjalne konto Skoda udostępnia za darmo modele do druku 3D.",
      "url": "https://www.pepper.pl/promocje/darmowe-akcesoria-skody-i-wiecej-do-druku-3d-na-printablescom-oficjalne-konto-skoda-udostepnia-za-darmo-modele-do-druku-3d-1382247",
-     "temperature": 2526,
+     "temperature": 2530,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
@@ -1476,11 +1470,11 @@
     {
      "title": "Kup doładowanie PlayStation za min. 329 zł i zgarnij kolejne doładowanie na 100 zł - żabka",
      "url": "https://www.pepper.pl/promocje/kup-doladowanie-playstation-za-min-329-zl-i-zgarnij-kolejne-doladowanie-na-100-zl-zabka-1382052",
-     "temperature": 1775,
+     "temperature": 1779,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
-     "comments": 380,
+     "comments": 381,
      "type": "Deal",
      "merchant": "Żabka",
      "id": "pepper-1",
@@ -1503,7 +1497,7 @@
     {
      "title": "Spodnie męskie Wrangler. Szeroki wybór rozmiarów",
      "url": "https://www.pepper.pl/promocje/spodnie-meskie-wrangler-szeroki-wybor-rozmiarow-1381860",
-     "temperature": 1413,
+     "temperature": 1415,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
@@ -1535,7 +1529,7 @@
      "price_old": 75,
      "currency": "PLN",
      "expired": false,
-     "comments": 38,
+     "comments": 39,
      "type": "Deal",
      "price": 59.93,
      "merchant": "Allegro",
@@ -1627,7 +1621,7 @@
     {
      "title": "Ultra Luxus Suite: 11 Nächte Antarktis Expeditions Kreuzfahrt mit der Scenic Eclipse II ab 15.145€ p.P. inkl. Vorübernachtung & Inlandsflug",
      "url": "https://www.mydealz.de/deals/ultra-luxus-11-nachte-antarktis-expeditions-kreuzfahrt-mit-der-scenic-eclipse-ii-ab-15145eur-pp-inkl-vorubernachtung-und-inlandsflug-2844835",
-     "temperature": 1831,
+     "temperature": 1835,
      "price_old": 38200,
      "currency": "EUR",
      "expired": false,
@@ -1641,7 +1635,7 @@
     {
      "title": "[Shoop & CHECK24] 30€ Cashback für Strom- oder Gasanbieter-Wechsel/Auftrag",
      "url": "https://www.mydealz.de/deals/shoop-check24-30eur-cashback-fur-strom-oder-gasanbieter-wechselauftrag-2855848",
-     "temperature": 1757,
+     "temperature": 1762,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1668,7 +1662,7 @@
     {
      "title": "Victorinox Swiss Classic Faltbares Picknick-Messer gerader Schliff 11,91€ / Wellenschliff gelb 13,34€ (Prime/Joybuy)",
      "url": "https://www.mydealz.de/deals/victorinox-swiss-classic-faltbares-picknick-messer-gerader-schliff-1295eur-wellenschliff-gelb-1357eur-primejoybuy-2843322",
-     "temperature": 1286,
+     "temperature": 1290,
      "price_old": 17.95,
      "currency": "EUR",
      "expired": false,
@@ -1682,7 +1676,7 @@
     {
      "title": "Humble Choice November – Mafia The Old Country, Yakuza 6: The Song of Life, SHINOBI: Art of Vengeance, Dysmantle | Steam - PC",
      "url": "https://www.mydealz.de/deals/humble-choice-november-2864329",
-     "temperature": 1135,
+     "temperature": 1139,
      "price_old": 116.04,
      "currency": "EUR",
      "expired": false,
@@ -1710,7 +1704,7 @@
     {
      "title": "[Ab 1.11.] XIAOMI TV S Mini LED 55\" (140 cm) TV [2025] | 144Hz, 1.200cd/m² max. Helligkeit, Dolby Vision IQ & Dolby Atmos",
      "url": "https://www.mydealz.de/deals/ab-111-xiaomi-tv-s-mini-led-55-140-cm-tv-2025-144hz-1200cdm2-max-helligkeit-dolby-vision-iq-dolby-atmos-2861702",
-     "temperature": 1015,
+     "temperature": 1020,
      "price_old": 454.98,
      "currency": "EUR",
      "expired": false,
@@ -1772,8 +1766,8 @@
      "bonus_text": "- 200 zł za otwarcie konta Millennium 360° z kartą debetową, wyrażenie zgód marketingowych oraz w ciągu 14 dni od otwarcia: rejestrację numeru do przelewów BLIK w aplikacji, zapewnienie wpływów min. 1500 zł (dla osób w wieku 18–25 lat) lub 3000 zł (26+) i wykonanie min. 5 płatności portfelem mobilnym (np. Apple Pay, Google Pay) w sklepach stacjonarnych - 300 zł za wpływy min. 1500 zł (18–25 lat) lub 3000 zł (26+) oraz transakcje na łączną kwotę min. 1000 zł (kartą debetową stacjonarnie/online lub portfelem mobilnym wyłącznie stacjonarnie) w każdym z 6 kolejnych miesięcy po miesiącu otwarcia ko",
      "url": "https://www.bankier.pl/e/lead/2195/label=PPF/?source=wpkb",
      "id": "bankier-0",
-     "title_zh": "Millennium银行 - Millennium 360°",
-     "bonus_zh": "200兹开户+14天BLIK登记、入账1500/3000及5笔手机钱包店内支付；另300兹连续6月入账同额且交易1000"
+     "title_zh": "Bank Millennium - Millennium 360°",
+     "bonus_zh": "开Millennium 360°并同意营销，14天内BLIK入账1500/3000兹、5笔手机支付得200兹；6个月每月入账达标且交易1000兹得300兹。"
     },
     {
      "rank": 2,
@@ -1786,23 +1780,23 @@
      "bonus_text": "Aby otrzymać 1300 zł premii w promocji Alior Banku, należy wpisać kod PREMIA800 podczas wypełniania wniosku i spełnić warunki. Premia: 1. Nagroda na start - jeżeli założysz konto w Alior Online lub w Alior Mobile oraz w ciągu 10 dni od otwarcia konta dodasz kartę do portfela elektronicznego i zrobisz nią transakcję na dowolną kwotę: - 200 zł - na start - 500 zł – obrączka płatnicza: 2. Nagroda drugiego stopnia: - 200 zł – jeśli w kolejnym miesiącu, który nastąpi po miesiącu, w którym podpiszesz Umowę o Konto i Kartę spełnisz łącznie następujące warunki: - wykonasz 3 transakcje Kartą lub BLIKIE",
      "url": "https://www.bankier.pl/e/lead/3154/label=PPF/?source=wpkb",
      "id": "bankier-1",
-     "title_zh": "Alior银行 - Alior账户",
-     "bonus_zh": "填码PREMIA800开Alior账户，10天内绑卡钱包并交易；次月3笔卡/BLIK交易，总奖1300兹"
+     "title_zh": "Alior Bank - Alior 账户",
+     "bonus_zh": "Alior填码PREMIA800开户，10天内绑卡消费得200+500兹；次月3笔卡/BLIK交易再得200兹，总奖1300兹。"
     },
     {
      "rank": 3,
-     "title": "Erste Bank Polska - Konto Smart",
-     "bank": "Erste Bank Polska",
-     "product": "Konto Smart",
-     "promoted": false,
-     "bonus_max": 700,
-     "label": "700 zł premii i 4,5% na Lokacie na powitanie",
-     "account_fee": "0 - 6 zł",
-     "bonus_text": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. 3 x 200 zł premii za aktywność W promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: - zapewnisz min. 1000 zł wpływu na konto otwarte w promocji; - zapłacisz min. 7 razy kartą debetową lub BLIKIEM; - dodasz min",
-     "url": "https://www.bankier.pl/e/lead/2765/label=PPF/?source=wpkb",
+     "title": "Revolut - Konto osobiste (Plan Standard)",
+     "bank": "Revolut",
+     "product": "Konto osobiste (Plan Standard)",
+     "promoted": true,
+     "bonus_max": 100,
+     "label": "Oferta promowana - 100 zł premii",
+     "account_fee": "0 zł",
+     "bonus_text": "Zgarnij nagrodę w wysokości 100 zł. Oferta wyłącznie dla nowych klientów z wybranych krajów, którzy ukończyli 18 lat. Aby otrzymać premię powitalną, należy wydać 100 zł w ciągu miesiąca od otwarcia konta i przed 31 grudnia 2026. Więcej informacji w Regulaminie.",
+     "url": "https://www.bankier.pl/e/lead/3191/label=PPF/?source=wpkb",
      "id": "bankier-2",
-     "title_zh": "Erste Bank Polska - Smart账户",
-     "bonus_zh": "2026年前申请Erste账户+借记卡并同意；连续3月每月入账1000、7笔卡/BLIK及绑定条件，每月200共600"
+     "title_zh": "Revolut - 个人账户（Standard 计划）",
+     "bonus_zh": "选定国家18岁以上新客户开户后1个月内消费100兹罗提，2026-12-31前可获100兹罗提奖励。"
     },
     {
      "rank": 4,
@@ -1816,8 +1810,8 @@
      "bonus_text": "Zyskaj do 900 zł: - 75 zł za każdy miesiąc, w którym zapewnisz wpływ na konto min. 1500 zł, wykonasz min. 10 transakcji bezgotówkowych kartą oraz min. 1 zalogujesz się do aplikacji mobilnej GOmobile; - warunki należy spełniać przez maksymalnie 12 kolejnych miesięcy; - w całym okresie musisz mieć wyrażone zgody marketingowe oraz nie możesz złożyć sprzeciwu na przetwarzanie swoich danych osobowych i profilowanie Zyskaj 200 zł za: - otwórz Konto Lokacyjne lub Konto Pełne Marzeń. - na koniec 12. pełnego miesiąca od otwarcia konta posiadaj dostępne środki w kwocie min. 500zł Szczegóły w regulaminie",
      "url": "https://www.bankier.pl/e/lead/1665/label=PPF/?source=wpkb",
      "id": "bankier-3",
-     "title_zh": "BNP Paribas Bank Polska - Konto Otwarte na Ciebie",
-     "bonus_zh": "最高900：月入账1500+10卡交易+登录GOmobile，月75共12月；另储蓄/梦想账户满12月留500得200"
+     "title_zh": "BNP Paribas Bank Polska - Otwarte na Ciebie 账户",
+     "bonus_zh": "月入账1500兹、10笔卡消费并登录GOmobile得75兹，最多12月共900兹；开储蓄账户满12月留500兹得200兹。"
     },
     {
      "rank": 5,
@@ -1831,8 +1825,8 @@
      "bonus_text": "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, kawiarniach i punktach gastronomicznych. Maksymalnie możesz zyskać 100 zł miesięcznie przez 10 miesięcy. Wymagane jest utrzymanie zgód marketingowych. - 500 zł - za codzienne zakupy (promocja alternatywna) - zamiast zwrotów za gastronomię możesz wybrać zwrot 3% wartości za codzienne zakupy kartą lub BLIKIEM. Zyskasz do 50 zł miesięcznie przez 10 miesięcy, pod warunkiem wykonania min. 10 transakcji w miesiącu.",
      "url": "https://www.bankier.pl/e/lead/2885/label=PPF/?source=wpkb",
      "id": "bankier-4",
-     "title_zh": "Crédit Agricole - Konto dla Ciebie MAX",
-     "bonus_zh": "餐饮每消费50返10，月最高100共10月得1000；或日常购物3%返现，月最高50共10月得500，需月10笔交易"
+     "title_zh": "Crédit Agricole - dla Ciebie MAX 账户",
+     "bonus_zh": "餐饮每50兹返10兹，月上限100兹×10月得1000兹；或日常购物返3%，月上限50兹×10月得500兹，需月10笔。"
     },
     {
      "rank": 6,
@@ -1845,10 +1839,25 @@
      "account_fee": "0 zł",
      "url": "https://www.bankier.pl/e/lead/3231/label=PPF/?source=wpkb",
      "id": "bankier-5",
-     "title_zh": "UniCredit - 个人账户（Easy套餐）"
+     "title_zh": "UniCredit - 个人账户（Easy 套餐）"
     },
     {
      "rank": 7,
+     "title": "Erste Bank Polska - Konto Smart",
+     "bank": "Erste Bank Polska",
+     "product": "Konto Smart",
+     "promoted": false,
+     "bonus_max": 700,
+     "label": "700 zł premii i 4,5% na Lokacie na powitanie",
+     "account_fee": "0 - 6 zł",
+     "bonus_text": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. 3 x 200 zł premii za aktywność W promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: - zapewnisz min. 1000 zł wpływu na konto otwarte w promocji; - zapłacisz min. 7 razy kartą debetową lub BLIKIEM; - dodasz min",
+     "url": "https://www.bankier.pl/e/lead/2765/label=PPF/?source=wpkb",
+     "id": "bankier-6",
+     "title_zh": "Erste Bank Polska - Smart 账户",
+     "bonus_zh": "2026-11-30前开Erste账户并同意条款；连续3个月每月入账1000兹、7笔卡/BLIK支付并绑卡，每月得200兹共600兹。"
+    },
+    {
+     "rank": 8,
      "title": "mBank - eKonto do usług",
      "bank": "mBank",
      "product": "eKonto do usług",
@@ -1857,26 +1866,26 @@
      "account_fee": "0 zł",
      "bonus_text": "Zyskaj nawet 1300 zł i 5,3% na oszczędnościach: - do 300 zł w bonach do Biedronki, jeśli zapiszesz się do promocji i spełnisz warunki - do 500 zł – za otwarcie eKonta do usług wraz z kartą oraz aktywne korzystanie z konta (szczegółowe warunki wpływów i transakcji kartą w kolejnych miesiącach) - 100 zł – jeśli otworzysz konto przez selfie, e-dowód lub z aplikacją mObywatel (pod warunkiem spełnienia pozostałych wymogów aktywności) - 300 zł – jeśli zapewnisz wpływy wynagrodzenia na konto otwarte w okresie trwania promocji - 100 zł – za otwarcie konta dla dziecka (eKonto Junior lub eKonto możliwoś",
      "url": "https://www.bankier.pl/e/lead/3330/label=PPF/?source=wpkb",
-     "id": "bankier-6",
-     "title_zh": "mBank - eKonto do usług",
-     "bonus_zh": "最高1300兹：活动券300、eKonto+卡活跃500、自拍开户100、工资入账300、儿童账户100"
+     "id": "bankier-7",
+     "title_zh": "mBank - eKonto 服务账户",
+     "bonus_zh": "最高1300兹：报名并达标得300购物券；开eKonto+卡并活跃得500；自拍/电子证件开户得100；工资入账得300；开儿童账户得100。"
     },
     {
-     "rank": 8,
+     "rank": 9,
      "title": "Bank Pekao - Konto Przekorzystne",
      "bank": "Bank Pekao",
      "product": "Konto Przekorzystne",
      "promoted": false,
      "bonus_max": 2700,
      "account_fee": "0 zł",
-     "bonus_text": "- 100 zł - za otwarcie konta. Otwórz konto z kartą, apką PeoPay lub Pekao24, wyraź zgody marketingowe - 200 zł za spełnienie warunków aktywności. Zrób min. 5 transakcji bezgotówkowych kartą do Konta Przekorzystnego w każdym z 2 miesięcy kalendarzowych po miesiącu otwarcia konta.. - do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podróżne. Szczegóły dostępne w regulaminie Promocji Podróżnej.",
+     "bonus_text": "- 100 zł - za otwarcie i aktywność na koncie: otwarcie konta z kartą do tego konta, aplikacją PeoPay i Pekao24, zalogowanie się do jednego z nich, złożenie oświadczenia i zgód marketingowe oraz wykonanie min. 10 transakcji bezgotówkowych kartą do tego konta do końca miesiąca następującego po miesiącu otwarcia - 200 zł za zrobienie min. 10 transakcji bezgotówkowych kartą do Konta Przekorzystnego w 2. i 3. miesiącu kalendarzowym po miesiącu otwarcia konta - do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podr",
      "url": "https://www.bankier.pl/e/lead/3297/label=PPF/?source=wpkb",
-     "id": "bankier-7",
-     "title_zh": "Bank Pekao - Konto Przekorzystne",
-     "bonus_zh": "开户+卡/PeoPay同意得100；连续2月每月5笔卡交易得200；旅行活动用金卡/BLIK消费最高返2400"
+     "id": "bankier-8",
+     "title_zh": "Bank Pekao - Przekorzystne 账户",
+     "bonus_zh": "开户并满足登录/营销同意及首月后10笔卡消费得100；第2、3月各10笔得200；旅行促销金卡/BLIK最高返2400。"
     },
     {
-     "rank": 9,
+     "rank": 10,
      "title": "ING Bank Śląski - Konto w Planie ING Go",
      "bank": "ING Bank Śląski",
      "product": "Konto w Planie ING Go",
@@ -1885,12 +1894,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- do 800 zł premii za założenie konta osobistego z kontem oszczędnościowym i kartą do konta w aplikacji Moje ING i spełnienie wszystkich warunków promocji \"Konta pełne korzyści\" - 100 zł premii gdy w trakcie zakładania konta osobistego w apce Moje ING wpiszesz kod od znajomego i spełnisz wszystkie warunki promocji \"Poleć ING\"",
      "url": "https://www.bankier.pl/e/lead/1675/label=PPF/?source=wpkb",
-     "id": "bankier-8",
-     "title_zh": "ING Bank Śląski - Konto w Planie ING Go",
-     "bonus_zh": "开Moje ING个人账户+储蓄账户及卡并满足条件最高800；开户时填朋友码并满足推荐条件再得100"
+     "id": "bankier-9",
+     "title_zh": "ING Bank Śląski - ING Go 计划账户",
+     "bonus_zh": "在Moje ING开个人+储蓄账户及卡并满足活动条件，最高得800兹；开户时填朋友推荐码并达标再得100兹。"
     },
     {
-     "rank": 10,
+     "rank": 11,
      "title": "PKO Bank Polski - Konto za Zero",
      "bank": "PKO Bank Polski",
      "product": "Konto za Zero",
@@ -1899,12 +1908,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod PROSTO i spełnij pozostałe warunki promocji „Prosty zwrot” - do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod PROSTO i spełnijcie pozostałe warunki promocji „Prosty zwrot”",
      "url": "https://www.bankier.pl/e/lead/2832/label=PPF/?source=wpkb",
-     "id": "bankier-9",
-     "title_zh": "PKO Bank Polski - Konto za Zero",
-     "bonus_zh": "线上开PKO账户+Visa填PROSTO达条件最高600；开儿童/青少年账户填PROSTO最高300"
+     "id": "bankier-10",
+     "title_zh": "PKO Bank Polski - 零费用账户",
+     "bonus_zh": "在线开PKO Konto za Zero+Visa，填码PROSTO并满足活动，最高600兹；在线开儿童/青少年账户填码PROSTO，最高300兹。"
     },
     {
-     "rank": 11,
+     "rank": 12,
      "title": "VeloBank - VeloKonto",
      "bank": "VeloBank",
      "product": "VeloKonto",
@@ -1913,12 +1922,12 @@
      "account_fee": "0 zł",
      "bonus_text": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu). - Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.",
      "url": "https://www.bankier.pl/e/lead/1561/label=PPF/?source=wpkb",
-     "id": "bankier-10",
+     "id": "bankier-11",
      "title_zh": "VeloBank - VeloKonto",
-     "bonus_zh": "最高600兹：12个月内活跃使用账户及购票/停车/高速等，每月最多50，可提现，未用12个月过期"
+     "bonus_zh": "VeloBank活跃使用账户及购票/停车/收费公路，每月最高返50兹，持续12月共最高600兹；返现可提现，12月后过期。"
     },
     {
-     "rank": 12,
+     "rank": 13,
      "title": "Nest Bank - Nest Konto",
      "bank": "Nest Bank",
      "product": "Nest Konto",
@@ -1927,23 +1936,9 @@
      "account_fee": "0 zł",
      "bonus_text": "1200 zł - premii za wynagrodzenie: 200 zł za pierwszy wpływ wynagrodzenia. 50 zł za każdy kolejny wpływ wynagrodzenia (maksymalnie do 10 miesięcy) do 360 zł - zwrot za zakupy: 2% zwrotu za płatności kartą lub BLIKIEM, jeśli w tym samym miesiącu zapewnisz wpływ wynagrodzenia. Maksymalnie 30 zł miesięcznie przez 12 miesięcy.",
      "url": "https://www.bankier.pl/e/lead/3022/label=PPF/?source=wpkb",
-     "id": "bankier-11",
-     "title_zh": "Nest Bank - Nest账户",
-     "bonus_zh": "工资入账首笔200，后续每笔50共10月；同月工资入账卡/BLIK返2%，月最高30共12月，总最高1200"
-    },
-    {
-     "rank": 13,
-     "title": "Revolut - Konto osobiste (Plan Standard)",
-     "bank": "Revolut",
-     "product": "Konto osobiste (Plan Standard)",
-     "promoted": false,
-     "bonus_max": 100,
-     "account_fee": "0 zł",
-     "bonus_text": "Zgarnij nagrodę w wysokości 100 zł. Utwórz kartę wirtualną lub zamów kartę fizyczną, zasil konto i wydaj co najmniej 100 zł, aby otrzymać nagrodę w wysokości 100 zł. Więcej informacji w Regulaminie.",
-     "url": "https://www.bankier.pl/e/lead/3191/label=PPF/?source=wpkb",
      "id": "bankier-12",
-     "title_zh": "Revolut - 个人账户（Standard计划）",
-     "bonus_zh": "创建虚拟卡或申请实体卡，充值并消费至少100兹，得100兹奖励"
+     "title_zh": "Nest Bank - Nest 账户",
+     "bonus_zh": "工资首次入账200兹、后续每笔50兹最多10月；同月工资入账时消费返2%，月上限30兹×12月，总最高1200兹。"
     },
     {
      "rank": 14,
@@ -1955,14 +1950,55 @@
      "account_fee": "0 zł",
      "url": "https://www.bankier.pl/e/lead/37/label=PPF/?source=wpkb",
      "id": "bankier-13",
-     "title_zh": "Volkswagen Bank - e-direct个人账户"
+     "title_zh": "Volkswagen Bank - e-direct 个人账户"
     }
    ],
    "changes": {
     "prev": "2026-11-02",
     "added": [],
     "removed": [],
-    "moved": [],
+    "moved": [
+     {
+      "title": "Revolut - Konto osobiste (Plan Standard)",
+      "from": 13,
+      "to": 3
+     },
+     {
+      "title": "Erste Bank Polska - Konto Smart",
+      "from": 3,
+      "to": 7
+     },
+     {
+      "title": "mBank - eKonto do usług",
+      "from": 7,
+      "to": 8
+     },
+     {
+      "title": "Bank Pekao - Konto Przekorzystne",
+      "from": 8,
+      "to": 9
+     },
+     {
+      "title": "ING Bank Śląski - Konto w Planie ING Go",
+      "from": 9,
+      "to": 10
+     },
+     {
+      "title": "PKO Bank Polski - Konto za Zero",
+      "from": 10,
+      "to": 11
+     },
+     {
+      "title": "VeloBank - VeloKonto",
+      "from": 11,
+      "to": 12
+     },
+     {
+      "title": "Nest Bank - Nest Konto",
+      "from": 12,
+      "to": 13
+     }
+    ],
     "bonus": []
    }
   },
@@ -1989,8 +2025,8 @@
       }
      ],
      "id": "piecsmakow-0",
-     "summary_zh": "导演：Bùi Thạc Chuyên / 越南 2025，128分钟",
-     "title_zh": "隧道里的太阳"
+     "title_zh": "隧道里的太阳",
+     "summary_zh": "导演：Bùi Thạc Chuyên / 越南 2025，128分钟"
     },
     {
      "title": "Memorizu",
@@ -2008,8 +2044,8 @@
       }
      ],
      "id": "piecsmakow-1",
-     "summary_zh": "导演：Miiku Sakanishi / 日本 2026，98分钟",
-     "title_zh": "记忆"
+     "title_zh": "记忆",
+     "summary_zh": "导演：Miiku Sakanishi / 日本 2026，98分钟"
     },
     {
      "title": "Po życiu",
@@ -2027,8 +2063,8 @@
       }
      ],
      "id": "piecsmakow-2",
-     "summary_zh": "导演：是枝裕和 / 日本 1998，119分钟",
-     "title_zh": "下一站，天国"
+     "title_zh": "下一站，天国",
+     "summary_zh": "导演：是枝裕和 / 日本 1998，119分钟"
     },
     {
      "title": "Kaczka po pekińsku",
@@ -2043,8 +2079,8 @@
       }
      ],
      "id": "piecsmakow-3",
-     "summary_zh": "导演：徐克 / 香港 1986，104分钟",
-     "title_zh": "北京烤鸭"
+     "title_zh": "北京烤鸭",
+     "summary_zh": "导演：徐克 / 香港 1986，104分钟"
     },
     {
      "title": "Morte Cucina",
@@ -2059,8 +2095,8 @@
       }
      ],
      "id": "piecsmakow-4",
-     "summary_zh": "导演：彭力·云旦拿域安 / 泰国、美国、新加坡、台湾、卢森堡、加拿大 2025，96分钟",
-     "title_zh": "死亡食谱"
+     "title_zh": "死亡食谱",
+     "summary_zh": "导演：彭力·云旦拿域安 / 泰国、美国、新加坡、台湾、卢森堡、加拿大 2025，96分钟"
     },
     {
      "title": "Pod dachem Ky Nam",
@@ -2078,8 +2114,8 @@
       }
      ],
      "id": "piecsmakow-5",
-     "summary_zh": "导演：Leon Lê / 越南 2025，139分钟",
-     "title_zh": "在Ky Nam的屋檐下"
+     "title_zh": "在Ky Nam的屋檐下",
+     "summary_zh": "导演：Leon Lê / 越南 2025，139分钟"
     },
     {
      "title": "Witajcie w Hope",
@@ -2094,8 +2130,8 @@
       }
      ],
      "id": "piecsmakow-6",
-     "summary_zh": "导演：罗泓轸 / 韩国 2026，156分钟",
-     "title_zh": "欢迎来到希望"
+     "title_zh": "欢迎来到希望",
+     "summary_zh": "导演：罗泓轸 / 韩国 2026，156分钟"
     },
     {
      "title": "Chińska uczta",
@@ -2110,8 +2146,8 @@
       }
      ],
      "id": "piecsmakow-7",
-     "summary_zh": "导演：徐克 / 香港 1995，107分钟",
-     "title_zh": "满汉全席"
+     "title_zh": "满汉全席",
+     "summary_zh": "导演：徐克 / 香港 1995，107分钟"
     },
     {
      "title": "Niebezpieczne spotkania pierwszego stopnia",
@@ -2126,8 +2162,8 @@
       }
      ],
      "id": "piecsmakow-8",
-     "summary_zh": "导演：徐克 / 香港 1980，96分钟",
-     "title_zh": "第一类危险接触"
+     "title_zh": "第一类危险接触",
+     "summary_zh": "导演：徐克 / 香港 1980，96分钟"
     },
     {
      "title": "A Annie dalej swoje",
@@ -2142,8 +2178,8 @@
       }
      ],
      "id": "piecsmakow-9",
-     "summary_zh": "导演：Pradip Krishen / 印度 1989，112分钟",
-     "title_zh": "安妮仍我行我素"
+     "title_zh": "安妮仍我行我素",
+     "summary_zh": "导演：Pradip Krishen / 印度 1989，112分钟"
     },
     {
      "title": "Dawno temu w Chinach",
@@ -2158,8 +2194,8 @@
       }
      ],
      "id": "piecsmakow-10",
-     "summary_zh": "导演：徐克 / 香港 1991，134分钟",
-     "title_zh": "黄飞鸿"
+     "title_zh": "黄飞鸿",
+     "summary_zh": "导演：徐克 / 香港 1991，134分钟"
     },
     {
      "title": "Kształt momo",
@@ -2174,8 +2210,8 @@
       }
      ],
      "id": "piecsmakow-11",
-     "summary_zh": "导演：Tribeny Rai / 印度、尼泊尔、韩国 2025，114分钟",
-     "title_zh": "momo的形状"
+     "title_zh": "momo的形状",
+     "summary_zh": "导演：Tribeny Rai / 印度、尼泊尔、韩国 2025，114分钟"
     }
    ]
   },
@@ -2219,8 +2255,8 @@
      "start": "2026-10-03",
      "end": "2026-12-31",
      "id": "muranow_fest-0",
-     "tag_zh": "电影节",
-     "title_zh": "永恒之秋"
+     "title_zh": "永恒之秋",
+     "tag_zh": "电影节"
     },
     {
      "title": "WAJDA: re-wizje",
@@ -2229,8 +2265,8 @@
      "start": "2026-03-22",
      "end": "2026-12-06",
      "id": "muranow_fest-1",
-     "tag_zh": "电影节",
-     "title_zh": "瓦伊达：重见"
+     "title_zh": "瓦伊达：重见",
+     "tag_zh": "电影节"
     },
     {
      "title": "20. Festiwal Filmów Azjatyckich Pięć Smaków",
@@ -2239,8 +2275,8 @@
      "start": "2026-11-10",
      "end": "2026-11-17",
      "id": "muranow_fest-2",
-     "tag_zh": "电影节",
-     "title_zh": "第20届亚洲电影节五味道"
+     "title_zh": "第20届亚洲电影节五味道",
+     "tag_zh": "电影节"
     }
    ]
   },
@@ -2265,8 +2301,8 @@
       }
      ],
      "id": "iluzjon-0",
-     "tag_zh": "第21届默片节 第4届Anna Sienkiewicz-Rogowska Sounds of Silents",
-     "title_zh": "讲座 | Monika Supruniuk / 发明还是巧妙的结合？从缝纫机到电影。卢米埃尔兄弟的电影放映机"
+     "title_zh": "讲座 | Monika Supruniuk / 发明还是巧妙的结合？从缝纫机到电影。卢米埃尔兄弟的电影放映机",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Szkice z Polski",
@@ -2280,8 +2316,8 @@
       }
      ],
      "id": "iluzjon-1",
-     "tag_zh": "第21届默片节 第4届Anna Sienkiewicz-Rogowska Sounds of Silents",
-     "title_zh": "波兰素描"
+     "title_zh": "波兰素描",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "GALA OTWARCIA | Mocny człowiek + Zestaw krótkich metraży",
@@ -2296,9 +2332,9 @@
       }
      ],
      "id": "iluzjon-2",
+     "title_zh": "开幕盛典 | 强者 + 短片集",
      "summary_zh": "《强人》·《通往胜利之路》·“电力”举重俱乐部 · 镜头边缘",
-     "tag_zh": "第21届默片节 第4届Anna Sienkiewicz-Rogowska Sounds of Silents",
-     "title_zh": "开幕盛典 | 强者 + 短片集"
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Kult ciała + Zestaw krótkich metraży",
@@ -2313,9 +2349,9 @@
       }
      ],
      "id": "iluzjon-3",
+     "title_zh": "身体崇拜 + 短片集",
      "summary_zh": "《身体崇拜》·琴斯托霍瓦维多利亚体育俱乐部三周年庆典 ·“电力”俱乐部举重运动员训练 · 拳击比赛",
-     "tag_zh": "第21届默片节 第4届Anna Sienkiewicz-Rogowska Sounds of Silents",
-     "title_zh": "身体崇拜 + 短片集"
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Wykład | Stefan Drössler / Looking for the Golem (pl. W poszukiwaniu Golema)",
@@ -2328,8 +2364,8 @@
       }
      ],
      "id": "iluzjon-4",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "讲座 | Stefan Drössler / 寻找魔像"
+     "title_zh": "讲座 | Stefan Drössler / 寻找魔像",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Golem + Krótki metraż",
@@ -2344,9 +2380,9 @@
       }
      ],
      "id": "iluzjon-5",
+     "title_zh": "魔像 + 短片",
      "summary_zh": "泥人 · 小城“猎鹰”成员棍棒操练",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "魔像 + 短片"
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Raskolnikow + Krótki metraż",
@@ -2361,9 +2397,9 @@
       }
      ],
      "id": "iluzjon-6",
+     "title_zh": "拉斯柯尔尼科夫 + 短片",
      "summary_zh": "拉斯柯尔尼科夫 · 1900年奥运会",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "拉斯柯尔尼科夫 + 短片"
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Sportowiec z miłości",
@@ -2377,8 +2413,8 @@
       }
      ],
      "id": "iluzjon-7",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "因爱而成的运动员"
+     "title_zh": "因爱而成的运动员",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "Wykład | Laurent Mannoni / Étienne Jules Marey i narodziny zapisu ruchu",
@@ -2391,8 +2427,8 @@
       }
      ],
      "id": "iluzjon-8",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "讲座 | Laurent Mannoni / 艾蒂安·朱尔·马雷与运动记录的诞生"
+     "title_zh": "讲座 | Laurent Mannoni / 艾蒂安·朱尔·马雷与运动记录的诞生",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     },
     {
      "title": "4. SOUNDS OF SILENTS | Wykład + Projekcja",
@@ -2405,8 +2441,8 @@
       }
      ],
      "id": "iluzjon-9",
-     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”",
-     "title_zh": "第4届无声之声 | 讲座 + 放映"
+     "title_zh": "第4届无声之声 | 讲座 + 放映",
+     "tag_zh": "第21届默片电影节 4. 安娜·谢恩凯维奇-罗戈夫斯卡“默片之声”"
     }
    ]
   },
@@ -2444,9 +2480,9 @@
       }
      ],
      "id": "teatrwielki-0",
+     "title_zh": "行走",
      "summary_zh": "观众积极参与的特定场地演出",
-     "tag_zh": "特别活动",
-     "title_zh": "行走"
+     "tag_zh": "特别活动"
     },
     {
      "title": "María de Buenos Aires",
@@ -2463,9 +2499,9 @@
       }
      ],
      "id": "teatrwielki-1",
+     "title_zh": "布宜诺斯艾利斯的玛丽亚",
      "summary_zh": "阿斯特尔·皮亚佐拉 · 两部分探戈歌剧",
-     "tag_zh": "歌剧",
-     "title_zh": "布宜诺斯艾利斯的玛丽亚"
+     "tag_zh": "歌剧"
     },
     {
      "title": "Symfonia tańca bis",
@@ -2482,9 +2518,9 @@
       }
      ],
      "id": "teatrwielki-2",
+     "title_zh": "舞蹈交响曲 返场",
      "summary_zh": "乔治·比才 / 乔治·巴兰钦 | 弗里德里克·肖邦 / 爱德华·克卢格 | 莫里斯·拉威尔 / 克日什托夫·帕斯托尔 · 三部分芭蕾之夜",
-     "tag_zh": "芭蕾",
-     "title_zh": "舞蹈交响曲 返场"
+     "tag_zh": "芭蕾"
     },
     {
      "title": "Romeo i Julia",
@@ -2499,9 +2535,9 @@
       }
      ],
      "id": "teatrwielki-3",
+     "title_zh": "罗密欧与朱丽叶",
      "summary_zh": "夏尔·古诺 · 五幕歌剧",
-     "tag_zh": "歌剧",
-     "title_zh": "罗密欧与朱丽叶"
+     "tag_zh": "歌剧"
     },
     {
      "title": "Kopciuszek",
@@ -2524,9 +2560,9 @@
       }
      ],
      "id": "teatrwielki-4",
+     "title_zh": "灰姑娘",
      "summary_zh": "根据儒勒·马斯内音乐创作的儿童芭蕾演出 · 6岁以上儿童芭蕾演出",
-     "tag_zh": "教育",
-     "title_zh": "灰姑娘"
+     "tag_zh": "教育"
     },
     {
      "title": "Uszyte na miarę historii",
@@ -2540,9 +2576,9 @@
       }
      ],
      "id": "teatrwielki-5",
+     "title_zh": "量身定制的历史",
      "summary_zh": "每月聚会",
-     "tag_zh": "特别活动",
-     "title_zh": "量身定制的历史"
+     "tag_zh": "特别活动"
     }
    ]
   },
@@ -2727,8 +2763,8 @@
       }
      ],
      "id": "tr-0",
-     "tag_zh": "聚会",
-     "title_zh": "与艾琳·迈尔斯见面"
+     "title_zh": "与艾琳·迈尔斯见面",
+     "tag_zh": "聚会"
     }
    ]
   },
@@ -2760,9 +2796,9 @@
       }
      ],
      "id": "nowy-0",
+     "title_zh": "主的晚餐宾客",
      "summary_zh": "英格玛·伯格曼 | 托马什·弗雷泽尔",
-     "tag_zh": "戏剧",
-     "title_zh": "主的晚餐宾客"
+     "tag_zh": "戏剧"
     },
     {
      "title": "Wspólne paczkowanie",
@@ -2774,8 +2810,8 @@
       }
      ],
      "id": "nowy-1",
-     "summary_zh": "款待旅人",
-     "title_zh": "共同打包"
+     "title_zh": "共同打包",
+     "summary_zh": "款待旅人"
     },
     {
      "title": "Nowa książka: Lewy bilet Thomas Pynchon",
@@ -2787,8 +2823,8 @@
       }
      ],
      "id": "nowy-2",
-     "tag_zh": "文学 / 聚会",
-     "title_zh": "新书：《左票》托马斯·品钦"
+     "title_zh": "新书：《左票》托马斯·品钦",
+     "tag_zh": "文学 / 聚会"
     },
     {
      "title": "Nowa książka: Gorszy syn Maciej Marcisz",
@@ -2800,8 +2836,8 @@
       }
      ],
      "id": "nowy-3",
-     "tag_zh": "文学 / 聚会",
-     "title_zh": "新书：《更差的儿子》Maciej Marcisz"
+     "title_zh": "新书：《更差的儿子》Maciej Marcisz",
+     "tag_zh": "文学 / 聚会"
     },
     {
      "title": "Rodzinne spotkania z Nową Muzyką",
@@ -2817,9 +2853,9 @@
       }
      ],
      "id": "nowy-4",
+     "title_zh": "家庭新音乐聚会",
      "summary_zh": "维托尔德·卢托斯瓦夫斯基协会",
-     "tag_zh": "音乐 / 工作坊",
-     "title_zh": "家庭新音乐聚会"
+     "tag_zh": "音乐 / 工作坊"
     }
    ]
   },
@@ -2853,8 +2889,8 @@
       }
      ],
      "id": "polski-0",
-     "summary_zh": "根据奥尔加·托卡尔丘克短篇小说改编",
-     "title_zh": "睁开眼"
+     "title_zh": "睁开眼",
+     "summary_zh": "根据奥尔加·托卡尔丘克短篇小说改编"
     },
     {
      "title": "Horacjusz",
@@ -2916,9 +2952,9 @@
       }
      ],
      "id": "polski-4",
+     "title_zh": "诗歌沙龙：欧洲诗歌地图——意大利",
      "summary_zh": "“美、阳光与渴望”",
-     "tag_zh": "诗歌沙龙",
-     "title_zh": "诗歌沙龙：欧洲诗歌地图——意大利"
+     "tag_zh": "诗歌沙龙"
     },
     {
      "title": "Jak Wam się podoba?",
@@ -2932,9 +2968,9 @@
       }
      ],
      "id": "polski-5",
+     "title_zh": "您喜欢吗？",
      "summary_zh": "演出后与观众见面",
-     "tag_zh": "波兰语教育",
-     "title_zh": "您喜欢吗？"
+     "tag_zh": "波兰语教育"
     },
     {
      "title": "Charków! Charków!",
@@ -3001,8 +3037,8 @@
       }
      ],
      "id": "polski-8",
-     "summary_zh": "波兰剧院献给儿童",
-     "title_zh": "小王子"
+     "title_zh": "小王子",
+     "summary_zh": "波兰剧院献给儿童"
     },
     {
      "title": "Klub Rozmów Poetyckich",
@@ -3015,8 +3051,8 @@
       }
      ],
      "id": "polski-9",
-     "tag_zh": "波兰语教育",
-     "title_zh": "诗歌对话俱乐部"
+     "title_zh": "诗歌对话俱乐部",
+     "tag_zh": "波兰语教育"
     }
    ]
   },
@@ -3126,9 +3162,9 @@
       }
      ],
      "id": "filharmonia-0",
+     "title_zh": "“渗透地带”——音乐之家",
      "summary_zh": "与玛乌戈热塔·奥米拉诺夫斯卡教授的签售见面会。对谈由菲利普·施普林格主持。",
-     "tag_zh": "渗透地带",
-     "title_zh": "“渗透地带”——音乐之家"
+     "tag_zh": "渗透地带"
     },
     {
      "title": "„O czym gramy?” - Beata Bolesławska-Lewandowska",
@@ -3142,9 +3178,9 @@
       }
      ],
      "id": "filharmonia-1",
+     "title_zh": "“我们演奏什么？”——贝亚塔·博莱斯瓦夫斯卡-莱万多夫斯卡",
      "summary_zh": "贝娅塔·博莱斯瓦夫斯卡-莱万多夫斯卡（音乐学家，波兰科学院，波兰作曲家联盟主席）——特邀嘉宾：格拉日娜·普斯特罗孔斯卡-纳夫拉蒂尔",
-     "tag_zh": "我们演奏什么？——音乐会导赏",
-     "title_zh": "“我们演奏什么？”——贝亚塔·博莱斯瓦夫斯卡-莱万多夫斯卡"
+     "tag_zh": "我们演奏什么？——音乐会导赏"
     },
     {
      "title": "Koncert symfoniczny",
@@ -3161,9 +3197,9 @@
       }
      ],
      "id": "filharmonia-2",
+     "title_zh": "交响音乐会",
      "summary_zh": "格拉日娜·普斯特罗孔斯卡-纳夫拉蒂尔的《北极星》将由克里斯托夫·柯尼希指挥国家爱乐乐团首演。当晚独奏嘉宾为蒂莫西·里道特。",
-     "tag_zh": "交响",
-     "title_zh": "交响音乐会"
+     "tag_zh": "交响"
     },
     {
      "title": "Czasomierz kompozytora",
@@ -3180,9 +3216,9 @@
       }
      ],
      "id": "filharmonia-3",
+     "title_zh": "作曲家的时间仪",
      "summary_zh": "费内克音乐会指南……脉搏与节奏",
-     "tag_zh": "与费内克共度早晨（3–6岁儿童），周日家庭音乐会，面向儿童",
-     "title_zh": "作曲家的时间仪"
+     "tag_zh": "与费内克共度早晨（3–6岁儿童），周日家庭音乐会，面向儿童"
     },
     {
      "title": "„O czym gramy?” - Szymon Paczkowski",
@@ -3196,9 +3232,9 @@
       }
      ],
      "id": "filharmonia-4",
+     "title_zh": "“我们演奏什么？”——希蒙·帕奇科夫斯基",
      "summary_zh": "希蒙·帕奇科夫斯基（华沙大学）。",
-     "tag_zh": "我们演奏什么？——音乐会导赏",
-     "title_zh": "“我们演奏什么？”——希蒙·帕奇科夫斯基"
+     "tag_zh": "我们演奏什么？——音乐会导赏"
     },
     {
      "title": "Koncert oratoryjny",
@@ -3215,9 +3251,9 @@
       }
      ],
      "id": "filharmonia-5",
+     "title_zh": "清唱剧音乐会",
      "summary_zh": "国家爱乐乐团各乐团与独奏家由尼古拉斯·麦吉根指挥，演奏亨德尔的《快乐的人、沉思的人与温和的人》。",
-     "tag_zh": "清唱剧",
-     "title_zh": "清唱剧音乐会"
+     "tag_zh": "清唱剧"
     },
     {
      "title": "Recital fortepianowy",
@@ -3231,9 +3267,9 @@
       }
      ],
      "id": "filharmonia-6",
+     "title_zh": "钢琴独奏会",
      "summary_zh": "卢卡斯·尤森与阿图尔·尤森演奏巴赫、勃拉姆斯、卢托斯瓦夫斯基和格什温等人的作品。",
-     "tag_zh": "独奏会",
-     "title_zh": "钢琴独奏会"
+     "tag_zh": "独奏会"
     },
     {
      "title": "Scena Muzyki Polskiej",
@@ -3247,9 +3283,9 @@
       }
      ],
      "id": "filharmonia-7",
+     "title_zh": "波兰音乐舞台",
      "summary_zh": "安东尼·弗罗纳与武卡什·赫任什奇克。",
-     "tag_zh": "波兰音乐舞台，室内乐",
-     "title_zh": "波兰音乐舞台"
+     "tag_zh": "波兰音乐舞台，室内乐"
     },
     {
      "title": "Eufonie - Krauze | Mahler | Shemet",
@@ -3263,9 +3299,9 @@
       }
      ],
      "id": "filharmonia-8",
+     "title_zh": "Eufonie——克劳泽 | 马勒 | 谢梅特",
      "summary_zh": "雅罗斯拉夫·舍梅特执棒的西里西亚爱乐乐团以及独奏家：Joanna Kędzior 和 Zygmunt Krauze，后者还将以作曲家身份登台。",
-     "tag_zh": "Eufonie，交响乐",
-     "title_zh": "Eufonie——克劳泽 | 马勒 | 谢梅特"
+     "tag_zh": "Eufonie，交响乐"
     }
    ]
   },
@@ -3565,9 +3601,9 @@
      "start": "2026-11-07",
      "end": "2026-11-08",
      "id": "pik-0",
+     "title_zh": "2026华沙植物节——PGE国家体育场",
      "summary_zh": "植物节，即波兰同类活动中规模最大的一场，重返 PGE 国家体育场。",
-     "tag_zh": "免费",
-     "title_zh": "2026华沙植物节——PGE国家体育场"
+     "tag_zh": "免费"
     },
     {
      "title": "Festiwal Niepodległa | Scena Taneczna",
@@ -3580,9 +3616,9 @@
       }
      ],
      "id": "pik-1",
+     "title_zh": "独立节 | 舞蹈舞台",
      "summary_zh": "华沙大学庭院将有一天变身波兰舞蹈空间！",
-     "tag_zh": "免费",
-     "title_zh": "独立节 | 舞蹈舞台"
+     "tag_zh": "免费"
     },
     {
      "title": "Festiwal Niepodległa | Scena dla dzieci",
@@ -3595,9 +3631,9 @@
       }
      ],
      "id": "pik-2",
+     "title_zh": "独立节 | 儿童舞台",
      "summary_zh": "华沙美术学院的庭院将有一天变身游戏、比赛和表演的空间……",
-     "tag_zh": "免费",
-     "title_zh": "独立节 | 儿童舞台"
+     "tag_zh": "免费"
     },
     {
      "title": "Festiwal Niepodległa na Krakowskim Przedmieściu",
@@ -3610,9 +3646,9 @@
       }
      ],
      "id": "pik-3",
+     "title_zh": "克拉科夫郊区街独立节",
      "summary_zh": "为庆祝独立日周年纪念，诚邀您来到华沙克拉科夫郊区街！11 月 11 日即将……",
-     "tag_zh": "免费",
-     "title_zh": "克拉科夫郊区街独立节"
+     "tag_zh": "免费"
     },
     {
      "title": "🎄Jarmark Bożonarodzeniowy 2026 w Warszawie na Placu Defilad",
@@ -3622,9 +3658,9 @@
      "start": "2026-11-20",
      "end": "2027-01-06",
      "id": "pik-4",
+     "title_zh": "2026华沙圣诞集市（阅兵广场）",
      "summary_zh": "2026 年华沙文化宫前的圣诞集市——日期、开放时间、活动和价格。",
-     "tag_zh": "免费",
-     "title_zh": "2026华沙圣诞集市（阅兵广场）"
+     "tag_zh": "免费"
     },
     {
      "title": "Międzynarodowa Wystawa Kotów Rasowych w Warszawie",
@@ -3636,8 +3672,8 @@
       }
      ],
      "id": "pik-5",
-     "summary_zh": "华沙国际纯种猫展——2026 年 11 月 21–22 日！认识非凡品种，结识繁育者，探索……",
-     "title_zh": "华沙国际纯种猫展"
+     "title_zh": "华沙国际纯种猫展",
+     "summary_zh": "华沙国际纯种猫展——2026 年 11 月 21–22 日！认识非凡品种，结识繁育者，探索……"
     },
     {
      "title": "Targi Młodej Sztuki w Warszawie",
@@ -3646,8 +3682,8 @@
      "start": "2026-12-05",
      "end": "2026-12-06",
      "id": "pik-6",
-     "summary_zh": "华沙青年艺术博览会是将您带入现代表现形式世界的绝佳机会——从雕塑、绘……",
-     "title_zh": "华沙青年艺术博览会"
+     "title_zh": "华沙青年艺术博览会",
+     "summary_zh": "华沙青年艺术博览会是将您带入现代表现形式世界的绝佳机会——从雕塑、绘……"
     },
     {
      "title": "Warszawskie Targi Fantastyki 2026",
@@ -3656,8 +3692,8 @@
      "start": "2026-12-05",
      "end": "2026-12-06",
      "id": "pik-7",
-     "summary_zh": "12 月 5–6 日，华沙奇幻博览会将在 EXPO XXI 诚邀您度过一个充满 cosplay、游戏、工作坊和独特……的周末",
-     "title_zh": "2026华沙奇幻博览会"
+     "title_zh": "2026华沙奇幻博览会",
+     "summary_zh": "12 月 5–6 日，华沙奇幻博览会将在 EXPO XXI 诚邀您度过一个充满 cosplay、游戏、工作坊和独特……的周末"
     }
    ]
   },
@@ -3678,8 +3714,8 @@
      "start": "2026-11-22",
      "end": "2026-11-23",
      "id": "drinks-0",
-     "summary_zh": "在 PGE 国家体育场品尝来自世界各地的葡萄酒。",
-     "title_zh": "华沙葡萄酒体验"
+     "title_zh": "华沙葡萄酒体验",
+     "summary_zh": "在 PGE 国家体育场品尝来自世界各地的葡萄酒。"
     },
     {
      "title": "Festiwal Whisky Freedom",
@@ -3691,8 +3727,8 @@
       }
      ],
      "id": "drinks-1",
-     "summary_zh": "数十家参展商和门票价格内含 20 种德拉姆酒。在节庆上，您将可以品鉴来自最佳生产商和装瓶商的威士忌和朗姆酒。",
-     "title_zh": "威士忌自由节"
+     "title_zh": "威士忌自由节",
+     "summary_zh": "数十家参展商和门票价格内含 20 种德拉姆酒。在节庆上，您将可以品鉴来自最佳生产商和装瓶商的威士忌和朗姆酒。"
     },
     {
      "title": "Wine Expo Poland",
@@ -3701,8 +3737,8 @@
      "start": "2027-02-26",
      "end": "2027-02-27",
      "id": "drinks-2",
-     "summary_zh": "我国最大的行业盛会，面向专业人士：葡萄酒、苹果酒的生产商、进口商、经销商、侍酒师和爱好者",
-     "title_zh": "波兰葡萄酒博览会"
+     "title_zh": "波兰葡萄酒博览会",
+     "summary_zh": "我国最大的行业盛会，面向专业人士：葡萄酒、苹果酒的生产商、进口商、经销商、侍酒师和爱好者"
     },
     {
      "title": "Wine Warsaw Expo",
@@ -3711,8 +3747,8 @@
      "start": "2027-03-09",
      "end": "2027-03-11",
      "id": "drinks-3",
-     "summary_zh": "该活动既面向专业人士、葡萄酒进口商和经销商、葡萄园主、餐厅经营者、侍酒师和主厨，也面向……",
-     "title_zh": "华沙葡萄酒博览会"
+     "title_zh": "华沙葡萄酒博览会",
+     "summary_zh": "该活动既面向专业人士、葡萄酒进口商和经销商、葡萄园主、餐厅经营者、侍酒师和主厨，也面向……"
     },
     {
      "title": "Beer Warsaw Expo",
@@ -3721,8 +3757,8 @@
      "start": "2027-03-09",
      "end": "2027-03-11",
      "id": "drinks-4",
-     "summary_zh": "该活动既面向专业人士、啤酒进口商和经销商，也面向啤酒爱好者。",
-     "title_zh": "华沙啤酒博览会"
+     "title_zh": "华沙啤酒博览会",
+     "summary_zh": "该活动既面向专业人士、啤酒进口商和经销商，也面向啤酒爱好者。"
     },
     {
      "title": "Warszawski Festiwal Piwa",
