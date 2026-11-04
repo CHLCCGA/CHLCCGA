@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T14:09:32.154399Z",
+ "generated_at": "2026-11-04T14:20:18.049977Z",
  "groups": [
   {
    "id": "focus",
@@ -57,8 +57,8 @@
   }
  ],
  "translation": {
-  "done": 385,
-  "reused": 383,
+  "done": 395,
+  "reused": 345,
   "missing": 0,
   "error": null
  },
@@ -74,15 +74,15 @@
    "error": null,
    "items": [
     {
-     "title": "FBI Blames North Korean Hackers for Record $6.3 Billion Binance Theft",
+     "title": "FBI blames North Korean hackers for record $6.3 billion Binance theft",
      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
      "tag": "Story of the Day",
      "summary": "The FBI has identified North Korean hackers as responsible for the record $6.3 billion crypto theft from Binance, an accusation North Korea denies.",
      "source": "Oliver Knight / CoinDesk",
      "count": 26,
      "id": "alltop_threads-0",
-     "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录",
-     "summary_zh": "FBI认定朝鲜黑客应对币安创纪录的63亿美元加密货币盗窃案负责，朝鲜对此予以否认。"
+     "summary_zh": "FBI认定朝鲜黑客应对币安创纪录的63亿美元加密货币盗窃案负责，朝鲜对此予以否认。",
+     "title_zh": "FBI将创纪录的63亿美元币安被盗案归咎于朝鲜黑客"
     },
     {
      "title": "AI Hardware and Infrastructure Boom",
@@ -269,58 +269,58 @@
    "error": null,
    "items": [
     {
-     "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-     "url": "https://upstract.com/x/d58af1d4f6fa69a9",
-     "gated": true,
-     "time": "2026-11-04T13:54:32.154399Z",
+     "title": "Drone strikes warehouse in southern Russia, online retailer Ozon claims",
+     "url": "https://kyivindependent.com/drone-strikes-warehouse-in-southern-russia-online-retailer-ozon-claims/",
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-0",
-     "title_zh": "进步派阿卜杜勒·埃尔-赛义德赢得密歇根州参议院选举，成为美国首位穆斯林参议员"
+     "title_zh": "无人机袭击俄罗斯南部一仓库，在线零售商Ozon声称"
     },
     {
-     "title": "\"What we just witnessed was an AI earthquake\": Voters revolt against tech at polls",
-     "url": "https://upstract.com/x/fd37d64e3bdd897b",
+     "title": "Jesus de Miguel, the Spanish striker whose tragic death has shocked football",
+     "url": "https://upstract.com/x/bf1630b014f04391",
      "gated": true,
-     "time": "2026-11-04T13:53:32.154399Z",
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-1",
-     "title_zh": "“我们刚刚目睹的是一场AI地震”：选民在投票站对科技业发起反抗"
+     "title_zh": "西班牙前锋赫苏斯·德米格尔的悲剧性死亡震惊足坛"
     },
     {
-     "title": "OpenAI says ChatGPT is catching up to Google in search",
-     "url": "https://upstract.com/x/db804247cdb6d6ae",
+     "title": "Oil Prices to Come Under Pressure if Midterms Outcome Halts Iran Escalation",
+     "url": "https://upstract.com/x/2df2bdc2d2f4fd35",
      "gated": true,
-     "time": "2026-11-04T13:53:32.154399Z",
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-2",
-     "title_zh": "OpenAI称ChatGPT在搜索领域正迎头赶上谷歌"
+     "title_zh": "若中期选举结果阻止伊朗局势升级，油价将面临压力"
     },
     {
-     "title": "Ohio elects Amy Acton first woman governor",
-     "url": "https://upstract.com/x/820cb18ce83bc8a3",
+     "title": "World reacts to Democrats’ midterm elections victory",
+     "url": "https://upstract.com/x/cfc7eed674040f5b",
      "gated": true,
-     "time": "2026-11-04T13:43:32.154399Z",
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-3",
-     "title_zh": "俄亥俄州选出艾米·阿克顿，成为首位女性州长"
+     "title_zh": "世界对民主党中期选举胜利作出反应"
     },
     {
-     "title": "James Talarico wins Texas 2026 Senate election, flipping seat for Democrats",
-     "url": "https://upstract.com/x/d540daa6d4320741",
-     "gated": true,
-     "time": "2026-11-04T13:43:32.154399Z",
+     "title": "macOS 27.3 includes cool-looking ‘Pro’ screensaver from new touchscreen MacBook Pro",
+     "url": "https://9to5mac.com/2026/11/03/macos-27-3-includes-cool-looking-pro-screensaver-from-new-touchscreen-macbook-pro/",
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-4",
-     "title_zh": "詹姆斯·塔拉里科赢得得克萨斯州2026年参议院选举，为民主党翻转该席位"
+     "title_zh": "macOS 27.3包含来自新款触屏MacBook Pro的酷炫“Pro”屏幕保护程序"
     },
     {
-     "title": "CFP rankings: Notre Dame faces sudden death, SEC feeling, and Big Ten close to hitting the panic button",
-     "url": "https://www.foxnews.com/outkick-sports/cfp-rankings-notre-dame-faces-sudden-death-sec-feeling-big-ten-close-hitting-panic-button",
-     "time": "2026-11-04T13:43:32.154399Z",
+     "title": "Trump hand-picked Senate candidates. Republicans paid the price",
+     "url": "https://upstract.com/x/2fbebdc922cc379d",
+     "gated": true,
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-5",
-     "title_zh": "大学橄榄球季后赛排名：圣母大学面临突然死亡，SEC感受压力，十大联盟濒临恐慌"
+     "title_zh": "特朗普亲自挑选参议院候选人，共和党付出代价"
     },
     {
-     "title": "2026 NFL trade deadline: Players to watch, buzz and goals for all 32 teams",
-     "url": "https://www.espn.com/nfl/story/_/id/50370030/trade-deadline-team-preview-goals-buzz-players-deals-2026",
-     "time": "2026-11-04T13:43:32.154399Z",
+     "title": "What will Tarik Skubal and other MLB free agents make this offseason?",
+     "url": "https://upstract.com/x/6f4647818929425d",
+     "gated": true,
+     "time": "2026-11-04T14:14:18.049977Z",
      "id": "google_news-6",
-     "title_zh": "2026年NFL交易截止日：值得关注的球员、传闻以及全部32支球队的目标"
+     "title_zh": "塔里克·斯库巴尔和其他MLB自由球员这个休赛期能拿多少？"
     }
    ]
   },
@@ -336,9 +336,8 @@
    "items": [
     {
      "title": "SpaceX signs deal with Qualcomm to provide network technology for U.S. mobile service",
-     "url": "https://upstract.com/x/4458c8b50acc6e83",
-     "gated": true,
-     "time": "2026-11-04T13:30:32.154399Z",
+     "url": "https://www.cnbc.com/2026/11/04/spacex-strikes-deal-with-qualcomm-for-mobile-network-infrastructure.html",
+     "time": "2026-11-04T13:30:18.049977Z",
      "id": "cnbc-0",
      "title_zh": "SpaceX与高通签署协议，为其美国移动服务提供网络技术"
     },
@@ -346,14 +345,15 @@
      "title": "Uber beats on revenue even as mobility and delivery units miss estimates",
      "url": "https://upstract.com/x/72e99d85ed0db0ae",
      "gated": true,
-     "time": "2026-11-04T13:27:32.154399Z",
+     "time": "2026-11-04T13:27:18.049977Z",
      "id": "cnbc-1",
      "title_zh": "优步营收超预期，但出行和配送部门未达预期"
     },
     {
      "title": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
-     "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
-     "time": "2026-11-04T13:15:32.154399Z",
+     "url": "https://upstract.com/x/05c1011713a5d03c",
+     "gated": true,
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "cnbc-2",
      "title_zh": "ADP称10月私营企业新增8.6万个就业岗位，略高于预期"
     },
@@ -361,7 +361,7 @@
      "title": "China expands overseas mining stakes, tightening grip on critical minerals",
      "url": "https://upstract.com/x/18a40cb89abaeb3e",
      "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "cnbc-3",
      "title_zh": "中国扩大海外矿业持股，加强对关键矿产的掌控"
     },
@@ -369,14 +369,15 @@
      "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
      "url": "https://upstract.com/x/6c56036dd55726d1",
      "gated": true,
-     "time": "2026-11-04T12:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "cnbc-4",
      "title_zh": "Wayfair销售额跃升10%，这家家具零售商称正在疲软市场中抢占份额"
     },
     {
      "title": "Mortgage rates drop for the third straight week, but homebuyers are still leaving the market",
-     "url": "https://www.cnbc.com/2026/11/04/mortgage-rates-dropped-homebuyers-still-leaving.html",
-     "time": "2026-11-04T12:09:32.154399Z",
+     "url": "https://upstract.com/x/9d70f9529b0365b4",
+     "gated": true,
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "cnbc-5",
      "title_zh": "抵押贷款利率连续第三周下降，但购房者仍在退出市场"
     },
@@ -384,7 +385,7 @@
      "title": "CVS to split off drugstore business in major breakup of healthcare giant",
      "url": "https://upstract.com/x/c3f45907e8030e4c",
      "gated": true,
-     "time": "2026-11-04T12:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "cnbc-6",
      "title_zh": "CVS将分拆药房业务，这家医疗巨头大规模拆分"
     }
@@ -401,57 +402,58 @@
    "error": null,
    "items": [
     {
-     "title": "Hebron’s Israeli rooftop settlers threaten the city’s Palestinian identity",
-     "url": "https://www.aljazeera.com/news/2026/11/4/hebrons-israeli-rooftop-settlers-threaten-the-citys-palestinian-identity",
-     "time": "2026-11-04T13:41:32.154399Z",
+     "title": "How big is the Republican midterms loss, and is there a silver lining?",
+     "url": "https://upstract.com/x/741b38f00b9ab497",
+     "gated": true,
+     "time": "2026-11-04T13:59:18.049977Z",
      "id": "aljazeera-0",
+     "title_zh": "共和党中期选举失利有多大，是否有光明面？"
+    },
+    {
+     "title": "Spanish Transport Minister resigns over train crash disasters",
+     "url": "https://upstract.com/x/94b39e12ec03d32e",
+     "gated": true,
+     "time": "2026-11-04T13:52:18.049977Z",
+     "id": "aljazeera-1",
+     "title_zh": "西班牙交通大臣因列车事故灾难辞职"
+    },
+    {
+     "title": "Hebron’s Israeli rooftop settlers threaten the city’s Palestinian identity",
+     "url": "https://upstract.com/x/d1b1d13abd5480df",
+     "gated": true,
+     "time": "2026-11-04T13:41:18.049977Z",
+     "id": "aljazeera-2",
      "title_zh": "希伯伦的以色列屋顶定居者威胁该市的巴勒斯坦身份认同"
     },
     {
      "title": "Gaza volunteer Adam Hamawy wins historic US Congress seat",
-     "url": "https://upstract.com/x/c048482eada41fa0",
-     "gated": true,
-     "time": "2026-11-04T13:33:32.154399Z",
-     "id": "aljazeera-1",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/gaza-volunteer-adam-hamawy-wins-historic-us-congress-seat",
+     "time": "2026-11-04T13:33:18.049977Z",
+     "id": "aljazeera-3",
      "title_zh": "加沙志愿者亚当·哈马维赢得历史性的美国国会席位"
     },
     {
      "title": "Jerusalem Daily: Mass arrests across occupied West Bank",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/jerusalem-daily-mass-arrests-across-occupied-west-bank",
-     "time": "2026-11-04T13:30:32.154399Z",
-     "id": "aljazeera-2",
+     "url": "https://upstract.com/x/aa7a0e01400b438c",
+     "gated": true,
+     "time": "2026-11-04T13:30:18.049977Z",
+     "id": "aljazeera-4",
      "title_zh": "《耶路撒冷日报》：被占领的约旦河西岸各地发生大规模逮捕"
     },
     {
      "title": "Iran hails US voters rejecting war while Khamenei warns hostility won’t end",
-     "url": "https://upstract.com/x/1cefbcc3d481fccc",
-     "gated": true,
-     "time": "2026-11-04T13:27:32.154399Z",
-     "id": "aljazeera-3",
+     "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end",
+     "time": "2026-11-04T13:27:18.049977Z",
+     "id": "aljazeera-5",
      "title_zh": "伊朗赞扬美国选民拒绝战争，而哈梅内伊警告敌意不会结束"
     },
     {
      "title": "Why are Europe’s governments struggling to respond to growing protests?",
-     "url": "https://www.aljazeera.com/news/2026/11/4/why-are-europes-governments-struggling-to-respond-to-growing-protests",
-     "time": "2026-11-04T13:09:32.154399Z",
-     "id": "aljazeera-4",
-     "title_zh": "为何欧洲各国政府难以应对日益增多的抗议？"
-    },
-    {
-     "title": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
-     "url": "https://upstract.com/x/a2f53846cdc1fdcd",
+     "url": "https://upstract.com/x/723f5e3dce53ef4e",
      "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
-     "id": "aljazeera-5",
-     "title_zh": "民主党能否在赢得中期选举后阻止伊朗战争、撤销特朗普的关税？"
-    },
-    {
-     "title": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
-     "url": "https://upstract.com/x/4519d4fecfc19569",
-     "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "aljazeera-6",
-     "title_zh": "特朗普承认伊朗战争损害了共和党选票，誓言否决“疯狂”法案"
+     "title_zh": "为何欧洲各国政府难以应对日益增多的抗议？"
     }
    ]
   },
@@ -466,59 +468,57 @@
    "error": null,
    "items": [
     {
+     "title": "CVS confirms it will split pharmacy business from insurance",
+     "url": "https://www.semafor.com/article/11/04/2026/cvs-confirms-it-will-split-pharmacy-business-from-insurance",
+     "time": "2026-11-04T14:05:18.049977Z",
+     "id": "semafor-0",
+     "title_zh": "CVS确认将把药房业务与保险业务分拆"
+    },
+    {
      "title": "US voters roundly reject data centers in ballot measures",
      "url": "https://upstract.com/x/8305c6abb0ae1a83",
      "gated": true,
-     "time": "2026-11-04T13:54:32.154399Z",
-     "id": "semafor-0",
+     "time": "2026-11-04T13:54:18.049977Z",
+     "id": "semafor-1",
      "title_zh": "美国选民在公投措施中普遍否决数据中心"
     },
     {
      "title": "Prediction markets win big on election night",
      "url": "https://www.semafor.com/article/11/04/2026/prediction-markets-win-big-on-election-night",
-     "time": "2026-11-04T13:53:32.154399Z",
-     "id": "semafor-1",
+     "time": "2026-11-04T13:54:18.049977Z",
+     "id": "semafor-2",
      "title_zh": "预测市场在选举之夜大获全胜"
     },
     {
      "title": "How big money lost the 2026 midterms",
      "url": "https://upstract.com/x/79e8b4de45b13ed1",
      "gated": true,
-     "time": "2026-11-04T13:44:32.154399Z",
-     "id": "semafor-2",
+     "time": "2026-11-04T13:44:18.049977Z",
+     "id": "semafor-3",
      "title_zh": "大笔资金如何在2026年中期选举中落败"
     },
     {
      "title": "Democrats’ win won’t mean a major US-Africa shift",
      "url": "https://upstract.com/x/34db6b1f516e5c99",
      "gated": true,
-     "time": "2026-11-04T13:41:32.154399Z",
-     "id": "semafor-3",
+     "time": "2026-11-04T13:41:18.049977Z",
+     "id": "semafor-4",
      "title_zh": "民主党的胜利并不意味着美国对非政策重大转变"
     },
     {
      "title": "Riyadh parents stuck in war-time limbo",
      "url": "https://upstract.com/x/0270eb1229938b4a",
      "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
-     "id": "semafor-4",
+     "time": "2026-11-04T13:20:18.049977Z",
+     "id": "semafor-5",
      "title_zh": "利雅得父母困于战时困境"
     },
     {
      "title": "AI-generated data found on Nigeria voter roll",
-     "url": "https://upstract.com/x/5699bceb8d26917a",
-     "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
-     "id": "semafor-5",
-     "title_zh": "尼日利亚选民名册上发现AI生成数据"
-    },
-    {
-     "title": "South Africa downplays AGOA blow",
-     "url": "https://upstract.com/x/a770be1661866152",
-     "gated": true,
-     "time": "2026-11-04T12:09:32.154399Z",
+     "url": "https://www.semafor.com/article/11/04/2026/ai-generated-data-found-on-nigeria-voter-roll",
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "semafor-6",
-     "title_zh": "南非淡化AGOA打击"
+     "title_zh": "尼日利亚选民名册上发现AI生成数据"
     }
    ]
   },
@@ -536,52 +536,51 @@
      "title": "How one US city cut its infant mortality rate by half",
      "url": "https://upstract.com/x/e708628626a64989",
      "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "vox-0",
      "title_zh": "美国一座城市如何将婴儿死亡率减半"
     },
     {
      "title": "How Abdul El-Sayed won the Michigan Senate race",
-     "url": "https://upstract.com/x/fe1d184b2c3d68c3",
-     "gated": true,
-     "time": "2026-11-04T13:09:32.154399Z",
+     "url": "https://www.vox.com/politics/508901/abdul-el-sayed-wins-michigan-senate",
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "vox-1",
      "title_zh": "阿卜杜勒·埃尔-赛义德如何赢得密歇根州参议院选举"
     },
     {
      "title": "hand Trump a historic defeat?",
      "url": "https://www.vox.com/politics/508952/2026-midterm-elections-democrats-republicans-trump",
-     "time": "2026-11-04T07:09:32.154399Z",
+     "time": "2026-11-04T07:20:18.049977Z",
      "id": "vox-2",
      "title_zh": "让特朗普遭遇历史性失败？"
     },
     {
      "title": "The two issues that finally brought down Susan Collins",
-     "url": "https://www.vox.com/politics/508884/susan-collins-election-senate-midterms-2026-politics",
-     "time": "2026-11-04T06:09:32.154399Z",
+     "url": "https://upstract.com/x/c80795037d634997",
+     "gated": true,
+     "time": "2026-11-04T06:20:18.049977Z",
      "id": "vox-3",
      "title_zh": "最终扳倒苏珊·柯林斯的两大议题"
     },
     {
      "title": "A massive blue wave just hit America. Here’s what it could bring next",
-     "url": "https://upstract.com/x/e883435ab1f0e244",
-     "gated": true,
-     "time": "2026-11-04T06:09:32.154399Z",
+     "url": "https://www.vox.com/politics/508927/midterms-blue-wave-democrats-win-texas",
+     "time": "2026-11-04T06:20:18.049977Z",
      "id": "vox-4",
      "title_zh": "一场大规模蓝色浪潮刚刚席卷美国。接下来可能带来什么"
     },
     {
      "title": "The Christian left is here",
-     "url": "https://upstract.com/x/72e84aa3df3063de",
-     "gated": true,
-     "time": "2026-11-04T05:09:32.154399Z",
+     "url": "https://www.vox.com/politics/508840/james-talarico-adam-hamilton-win-christian-left-religious-democrats",
+     "time": "2026-11-04T05:20:18.049977Z",
      "id": "vox-5",
      "title_zh": "基督教左翼来了"
     },
     {
      "title": "What a blue wave could actually do",
-     "url": "https://www.vox.com/today-explained-newsletter/508653/blue-wave-midterms-election-day-2026",
-     "time": "2026-11-03T22:09:32.154399Z",
+     "url": "https://upstract.com/x/8ca0cd2df1f9c82d",
+     "gated": true,
+     "time": "2026-11-03T22:20:18.049977Z",
      "id": "vox-6",
      "title_zh": "蓝色浪潮究竟能做什么"
     }
@@ -660,56 +659,59 @@
    "error": null,
    "items": [
     {
+     "title": "The Socializing That’s Replacing Friend Time",
+     "url": "https://upstract.com/x/2ecb01da194d41ee",
+     "gated": true,
+     "time": "2026-11-04T14:00:18.049977Z",
+     "id": "atlantic-0",
+     "title_zh": "取代朋友时光的社交活动"
+    },
+    {
      "title": "The Blue Wave Is Real",
      "url": "https://upstract.com/x/747f57d849e26e4c",
      "gated": true,
-     "time": "2026-11-04T06:09:32.154399Z",
-     "id": "atlantic-0",
+     "time": "2026-11-04T06:20:18.049977Z",
+     "id": "atlantic-1",
      "title_zh": "蓝色浪潮是真的"
     },
     {
      "title": "The Unlikeliest Democratic Win of All",
-     "url": "https://www.theatlantic.com/politics/2026/11/andrews-graham-south-carolina-democrat/689275/",
-     "time": "2026-11-04T06:09:32.154399Z",
-     "id": "atlantic-1",
+     "url": "https://upstract.com/x/e9c9420cbe6161c8",
+     "gated": true,
+     "time": "2026-11-04T06:20:18.049977Z",
+     "id": "atlantic-2",
      "title_zh": "最出人意料的民主党胜利"
     },
     {
      "title": "How the Democrats Beat Trump",
      "url": "https://www.theatlantic.com/politics/2026/11/trump-jeffries-democrats-midterms/689266/",
-     "time": "2026-11-04T05:09:32.154399Z",
-     "id": "atlantic-2",
+     "time": "2026-11-04T05:20:18.049977Z",
+     "id": "atlantic-3",
      "title_zh": "民主党如何击败特朗普"
     },
     {
      "title": "How Texas Turned Blue",
-     "url": "https://www.theatlantic.com/politics/2026/11/talarico-hinojosa-texas-musk/689268/",
-     "time": "2026-11-04T05:09:32.154399Z",
-     "id": "atlantic-3",
+     "url": "https://upstract.com/x/f4174a4ee44b1d61",
+     "gated": true,
+     "time": "2026-11-04T05:20:18.049977Z",
+     "id": "atlantic-4",
      "title_zh": "得克萨斯如何变蓝"
     },
     {
      "title": "Why Republicans Lost So Big",
      "url": "https://upstract.com/x/c6ec214af5d79b48",
      "gated": true,
-     "time": "2026-11-04T05:09:32.154399Z",
-     "id": "atlantic-4",
+     "time": "2026-11-04T05:20:18.049977Z",
+     "id": "atlantic-5",
      "title_zh": "共和党为何惨败"
     },
     {
      "title": "Trump’s Lame-Duck Era Begins",
      "url": "https://upstract.com/x/ea7cb385025b5a50",
      "gated": true,
-     "time": "2026-11-04T04:09:32.154399Z",
-     "id": "atlantic-5",
-     "title_zh": "特朗普的跛脚鸭时代开始"
-    },
-    {
-     "title": "Donald Trump Is Bad at Politics",
-     "url": "https://www.theatlantic.com/ideas/2026/11/trump-midterm-losses-winners-losers/689262/",
-     "time": "2026-11-04T04:09:32.154399Z",
+     "time": "2026-11-04T04:20:18.049977Z",
      "id": "atlantic-6",
-     "title_zh": "唐纳德·特朗普不擅长政治"
+     "title_zh": "特朗普的跛脚鸭时代开始"
     }
    ]
   },
@@ -727,23 +729,21 @@
      "title": "Three Novels that Stuck with Chad Harbach",
      "url": "https://upstract.com/x/4d11a745bdc6f62e",
      "gated": true,
-     "time": "2026-11-04T12:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "id": "newyorker-0",
      "title_zh": "查德·哈巴赫难忘的三部小说"
     },
     {
      "title": "Play Catalogues: Wednesday, November 4, 2026",
-     "url": "https://upstract.com/x/cd2aa8bb4bd224b6",
-     "gated": true,
-     "time": "2026-11-04T11:09:32.154399Z",
+     "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues/2026/11/04",
+     "time": "2026-11-04T11:20:18.049977Z",
      "id": "newyorker-1",
      "title_zh": "玩填字游戏：2026年11月4日，星期三"
     },
     {
      "title": "Play Shuffalo: Wednesday, November 4, 2026",
-     "url": "https://upstract.com/x/a862b058097bb689",
-     "gated": true,
-     "time": "2026-11-04T11:09:32.154399Z",
+     "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo/2026/11/04",
+     "time": "2026-11-04T11:20:18.049977Z",
      "id": "newyorker-2",
      "title_zh": "玩Shuffalo：2026年11月4日，星期三"
     },
@@ -751,21 +751,21 @@
      "title": "Daily Cartoon: Wednesday, November 4th",
      "url": "https://upstract.com/x/5cb8e31e84dea976",
      "gated": true,
-     "time": "2026-11-04T11:09:32.154399Z",
+     "time": "2026-11-04T11:20:18.049977Z",
      "id": "newyorker-3",
      "title_zh": "每日漫画：11月4日，星期三"
     },
     {
      "title": "Play Laugh Lines: Wednesday, November 4, 2026",
      "url": "https://www.newyorker.com/puzzles-and-games-dept/laugh-lines/2026/11/04",
-     "time": "2026-11-04T11:09:32.154399Z",
+     "time": "2026-11-04T11:20:18.049977Z",
      "id": "newyorker-4",
      "title_zh": "玩笑点填空：2026年11月4日，星期三"
     },
     {
      "title": "Emmanuel Carrère Untangles His Russian Roots",
      "url": "https://www.newyorker.com/books/under-review/in-kolkhoz-emmanuel-carrere-untangles-his-russian-roots",
-     "time": "2026-11-04T11:09:32.154399Z",
+     "time": "2026-11-04T11:20:18.049977Z",
      "id": "newyorker-5",
      "title_zh": "埃马纽埃尔·卡雷尔梳理他的俄罗斯根源"
     },
@@ -773,7 +773,7 @@
      "title": "A Blue Wave Just Crashed on Trump",
      "url": "https://upstract.com/x/dcaad42c249a8bcd",
      "gated": true,
-     "time": "2026-11-04T07:09:32.154399Z",
+     "time": "2026-11-04T06:20:18.049977Z",
      "id": "newyorker-6",
      "title_zh": "蓝色浪潮刚刚冲击了特朗普"
     }
@@ -791,17 +791,15 @@
    "items": [
     {
      "title": "It’s the war, stupid",
-     "url": "https://upstract.com/x/85fd3fead5293eab",
-     "gated": true,
-     "time": "2026-11-04T08:09:32.154399Z",
+     "url": "https://unherd.com/2026/11/its-the-war-stupid/?edition=us",
+     "time": "2026-11-04T08:20:18.049977Z",
      "id": "unherd-0",
      "title_zh": "是战争，笨蛋"
     },
     {
      "title": "The far-Right leader coming for Britons’ litter",
-     "url": "https://upstract.com/x/1a7f48c61f9b4fba",
-     "gated": true,
-     "time": "2026-11-04T00:09:32.154399Z",
+     "url": "https://unherd.com/2026/11/rupert-lowe-is-coming-for-your-litter/?edition=us",
+     "time": "2026-11-04T00:20:18.049977Z",
      "id": "unherd-1",
      "title_zh": "盯上英国人垃圾的极右翼领袖"
     },
@@ -809,34 +807,35 @@
      "title": "Why Gen Z loves horny fanfiction",
      "url": "https://upstract.com/x/de6e59147892af09",
      "gated": true,
-     "time": "2026-11-04T00:09:32.154399Z",
+     "time": "2026-11-04T00:20:18.049977Z",
      "id": "unherd-2",
      "title_zh": "Z世代为何爱看情色同人小说"
     },
     {
      "title": "After Manchester City, why care?",
-     "url": "https://unherd.com/2026/11/after-man-city-why-care/?edition=us",
-     "time": "2026-11-04T00:09:32.154399Z",
+     "url": "https://upstract.com/x/7f658c5f64d41dcc",
+     "gated": true,
+     "time": "2026-11-04T00:20:18.049977Z",
      "id": "unherd-3",
      "title_zh": "曼城之后，为何还要关心？"
-    },
-    {
-     "title": "Britain should decolonize the Commonwealth",
-     "url": "https://upstract.com/x/61d55e6c8ddd5f38",
-     "gated": true,
-     "id": "unherd-4",
-     "title_zh": "英国应让英联邦去殖民化"
     },
     {
      "title": "Let’s decolonise the Commonwealth",
      "url": "https://upstract.com/x/8d5cd98e15eaeb23",
      "gated": true,
-     "id": "unherd-5",
+     "id": "unherd-4",
      "title_zh": "让我们让英联邦去殖民化"
     },
     {
+     "title": "Britain should decolonize the Commonwealth",
+     "url": "https://unherd.com/2026/11/lets-decolonise-the-commonwealth/?edition=us",
+     "id": "unherd-5",
+     "title_zh": "英国应让英联邦去殖民化"
+    },
+    {
      "title": "Why British Jews prefer a London suburb to New York",
-     "url": "https://unherd.com/2026/11/why-british-jews-prefer-elstree-to-new-york/?edition=us",
+     "url": "https://upstract.com/x/87139b86612fb6b3",
+     "gated": true,
      "id": "unherd-6",
      "title_zh": "英国犹太人为何偏爱伦敦郊区而非纽约"
     }
@@ -855,7 +854,7 @@
     {
      "title": "Wave Watch",
      "url": "https://www.commentary.org/noam-blum/wave-watch/",
-     "time": "2026-11-03T16:09:32.154399Z",
+     "time": "2026-11-03T16:20:18.049977Z",
      "id": "commentary-0",
      "title_zh": "浪潮观察"
     },
@@ -875,14 +874,14 @@
      "title": "Sub Parliament",
      "url": "https://upstract.com/x/90e5c094480753cb",
      "gated": true,
-     "time": "2026-10-31T14:09:32.154399Z",
+     "time": "2026-10-31T14:20:18.049977Z",
      "id": "commentary-3",
      "title_zh": "次级议会"
     },
     {
      "title": "‘Training’ A.I. to Be Anti-Zionist",
      "url": "https://www.commentary.org/seth-mandel/training-a-i-to-be-anti-zionist/",
-     "time": "2026-10-30T14:09:32.154399Z",
+     "time": "2026-10-30T14:20:18.049977Z",
      "id": "commentary-4",
      "title_zh": "“训练”AI成为反犹太复国主义者"
     },
@@ -890,7 +889,7 @@
      "title": "The Antisemitism Horseshoe",
      "url": "https://upstract.com/x/c9fa324c619d8bdf",
      "gated": true,
-     "time": "2026-10-30T14:09:32.154399Z",
+     "time": "2026-10-30T14:20:18.049977Z",
      "id": "commentary-5",
      "title_zh": "反犹主义的“马蹄铁”"
     },
@@ -898,7 +897,7 @@
      "title": "Who Are Jewish Museums For?",
      "url": "https://upstract.com/x/b9cfbd6c9b8d3aa3",
      "gated": true,
-     "time": "2026-10-29T14:09:32.154399Z",
+     "time": "2026-10-29T14:20:18.049977Z",
      "id": "commentary-6",
      "title_zh": "犹太博物馆为谁而设？"
     }
@@ -915,94 +914,94 @@
    "error": null,
    "items": [
     {
-     "title": "FBI Blames North Korean Hackers for Record $6.3 Billion Binance Theft",
+     "title": "FBI blames North Korean hackers for record $6.3 billion Binance theft",
      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
      "source": "Oliver Knight / CoinDesk",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 26,
      "id": "alltop_tech-0",
-     "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录"
+     "title_zh": "FBI将创纪录的63亿美元币安被盗案归咎于朝鲜黑客"
     },
     {
-     "title": "Midterm Elections: Energy Policy, AI Regulation, and Data Centers on the Ballot",
+     "title": "Midterm Elections: Energy Policy, AI Regulation, and Data Centers on Ballot",
      "url": "https://www.axios.com/2026/11/03/election-night-midterms-energy",
      "source": "Axios",
-     "time": "2026-11-04T13:13:32.154399Z",
-     "count": 8,
+     "time": "2026-11-04T13:54:18.049977Z",
+     "count": 9,
      "id": "alltop_tech-1",
-     "title_zh": "中期选举：能源政策、AI监管和数据中心列入选票"
+     "title_zh": "中期选举：能源政策、AI监管和数据中心登上选票"
     },
     {
-     "title": "Google Threatens to Disable Search for Schools That Reject AI Tools",
-     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-     "source": "TechCrunch",
-     "time": "2026-11-04T10:09:32.154399Z",
-     "count": 17,
-     "id": "alltop_tech-2",
-     "title_zh": "谷歌威胁对拒绝AI工具的学校禁用搜索"
-    },
-    {
-     "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand, Stock Jumps",
+     "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
      "source": "Bloomberg",
-     "time": "2026-11-04T13:09:32.154399Z",
-     "count": 9,
+     "time": "2026-11-04T13:42:18.049977Z",
+     "count": 10,
+     "id": "alltop_tech-2",
+     "title_zh": "AMD销售预测超预期，AI芯片需求飙升"
+    },
+    {
+     "title": "Google Threatens to Disable Search for Schools Rejecting AI Tools",
+     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+     "source": "TechCrunch",
+     "time": "2026-11-04T10:20:18.049977Z",
+     "count": 17,
      "id": "alltop_tech-3",
-     "title_zh": "AMD销售预测超预期，AI芯片需求飙升，股价大涨"
-    },
-    {
-     "title": "Tesla, SpaceX Shares Fall After Elon Musk's Midterm Election Bets Backfire",
-     "url": "https://seekingalpha.com/news/4664448-musks-tesla-and-spacex-slip-as-early-us-midterm-results-point-to-democratic-wins?feed_item_type=news",
-     "source": "Seeking Alpha",
-     "time": "2026-11-04T13:41:32.154399Z",
-     "count": 5,
-     "id": "alltop_tech-4",
-     "title_zh": "马斯克中期选举押注失败后，特斯拉、SpaceX股价下跌"
-    },
-    {
-     "title": "Canva Lays Off 22% of Global Workforce Amid Slowed Growth and AI Issues",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
-     "source": "Bloomberg",
-     "time": "2026-11-04T12:09:32.154399Z",
-     "count": 7,
-     "id": "alltop_tech-5",
-     "title_zh": "Canva因增长放缓和AI问题裁员全球员工22%"
-    },
-    {
-     "title": "AI Inference Startup Fal Raises $1.3B at $16B Valuation",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation",
-     "source": "Bloomberg",
-     "time": "2026-11-04T13:09:32.154399Z",
-     "count": 6,
-     "id": "alltop_tech-6",
-     "title_zh": "AI推理初创公司Fal以160亿美元估值融资13亿美元"
+     "title_zh": "谷歌威胁对拒绝AI工具的学校禁用搜索"
     },
     {
      "title": "Hackers Target French Blood Banks, Attempting to Overheat Refrigeration Systems",
      "url": "https://www.businessinsider.com/blood-plasma-fridge-hack-france-efs-cyberattack-2026-11",
      "source": "Business Insider",
-     "time": "2026-11-04T13:45:32.154399Z",
-     "count": 3,
-     "id": "alltop_tech-7",
+     "time": "2026-11-04T13:59:18.049977Z",
+     "count": 4,
+     "id": "alltop_tech-4",
      "title_zh": "黑客攻击法国血库，试图使制冷系统过热"
     },
     {
-     "title": "AI chatbots enter political advisory role, raising concerns about voter misinformation",
-     "url": "https://phys.org/news/2026-11-qa-hey-ai-vote-year.html",
-     "source": "Phys.org",
-     "time": "2026-11-04T02:09:32.154399Z",
-     "count": 10,
-     "id": "alltop_tech-8",
-     "title_zh": "AI聊天机器人进入政治咨询角色，引发对选民虚假信息的担忧"
+     "title": "SpaceX and Qualcomm Partner to Build Terrestrial 5G Mobile Network",
+     "url": "https://www.lightreading.com/5g/spacex-boldly-goes-into-huge-5g-network-rollout-with-qualcomm",
+     "source": "Light Reading",
+     "time": "2026-11-04T14:07:18.049977Z",
+     "count": 4,
+     "id": "alltop_tech-5",
+     "title_zh": "SpaceX与高通合作建设地面5G移动网络"
     },
     {
-     "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
-     "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
+     "title": "Tesla, SpaceX Shares Fall After Elon Musk's Midterm Election Bets Backfire",
+     "url": "https://seekingalpha.com/news/4664448-musks-tesla-and-spacex-slip-as-early-us-midterm-results-point-to-democratic-wins?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:14:32.154399Z",
+     "time": "2026-11-04T13:41:18.049977Z",
      "count": 5,
+     "id": "alltop_tech-6",
+     "title_zh": "马斯克中期选举押注失败后，特斯拉、SpaceX股价下跌"
+    },
+    {
+     "title": "Canva Lays Off 22% of Global Workforce, Over 1,200 Employees",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
+     "source": "Bloomberg",
+     "time": "2026-11-04T12:20:18.049977Z",
+     "count": 7,
+     "id": "alltop_tech-7",
+     "title_zh": "Canva裁员全球员工22%，逾1200人"
+    },
+    {
+     "title": "AI chatbots enter political advisory role, raising misinformation concerns",
+     "url": "https://phys.org/news/2026-11-qa-hey-ai-vote-year.html",
+     "source": "Phys.org",
+     "time": "2026-11-04T02:20:18.049977Z",
+     "count": 10,
+     "id": "alltop_tech-8",
+     "title_zh": "AI聊天机器人进入政治咨询角色，引发虚假信息担忧"
+    },
+    {
+     "title": "AI Inference Startup Fal Raises $1.3B at $16B Valuation",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation",
+     "source": "Bloomberg",
+     "time": "2026-11-04T12:20:18.049977Z",
+     "count": 6,
      "id": "alltop_tech-9",
-     "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
+     "title_zh": "AI推理初创公司Fal以160亿美元估值融资13亿美元"
     }
    ]
   },
@@ -1020,25 +1019,25 @@
      "title": "Democrats Gain Control of Congress as Midterm Vote Counting Continues",
      "url": "https://www.ft.com/content/7906251c-c903-4e4d-88db-cfe104271b0a?syn-25a6b1a6=1",
      "source": "Financial Times World",
-     "time": "2026-11-04T13:12:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 20,
      "id": "alltop_business-0",
      "title_zh": "民主党在中期选举计票持续中赢得国会控制权"
     },
     {
-     "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand, Stock Jumps",
+     "title": "AMD Sales Forecast Beats Estimates on Soaring AI Chip Demand",
      "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
      "source": "Bloomberg",
-     "time": "2026-11-04T13:09:32.154399Z",
-     "count": 9,
+     "time": "2026-11-04T13:42:18.049977Z",
+     "count": 10,
      "id": "alltop_business-1",
-     "title_zh": "AMD销售预测超预期，AI芯片需求飙升，股价大涨"
+     "title_zh": "AMD销售预测超预期，AI芯片需求飙升"
     },
     {
-     "title": "Google Threatens to Disable Search for Schools That Reject AI Tools",
+     "title": "Google Threatens to Disable Search for Schools Rejecting AI Tools",
      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
      "source": "TechCrunch",
-     "time": "2026-11-04T10:09:32.154399Z",
+     "time": "2026-11-04T10:20:18.049977Z",
      "count": 17,
      "id": "alltop_business-2",
      "title_zh": "谷歌威胁对拒绝AI工具的学校禁用搜索"
@@ -1047,25 +1046,25 @@
      "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
      "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
      "source": "Seeking Alpha",
-     "time": "2026-11-04T13:13:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 5,
      "id": "alltop_business-3",
      "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
     },
     {
-     "title": "Democrats Win Congress and Statehouses on Economic Discontent",
-     "url": "https://insideclimatenews.org/news/04112026/democrats-seize-congress-statehouses-in-referendum-on-the-economy/",
-     "source": "Inside Climate News",
-     "time": "2026-11-04T13:16:32.154399Z",
-     "count": 2,
+     "title": "CVS Health to Spin Off Retail Pharmacy Business Amid Political Pressure",
+     "url": "https://www.ft.com/content/2478a5ea-263a-4f4f-ac96-7d619fb39bb8?syn-25a6b1a6=1",
+     "source": "FT Companies",
+     "time": "2026-11-04T14:05:18.049977Z",
+     "count": 3,
      "id": "alltop_business-4",
-     "title_zh": "民主党因经济不满赢得国会和州议会"
+     "title_zh": "CVS Health将在政治压力下分拆零售药房业务"
     },
     {
      "title": "OpenAI Hires Former Army Secretary Dan Driscoll for National Security AI Efforts",
      "url": "https://www.ft.com/content/e6b8fd40-ef92-46e8-aeaf-f98dade55a67?syn-25a6b1a6=1",
      "source": "FT Companies",
-     "time": "2026-11-03T23:09:32.154399Z",
+     "time": "2026-11-03T23:20:18.049977Z",
      "count": 12,
      "id": "alltop_business-5",
      "title_zh": "OpenAI聘请前陆军部长丹·德里斯科尔负责国家安全AI事务"
@@ -1074,7 +1073,7 @@
      "title": "Texas Election Results Raise Concerns for Data Center and AI Infrastructure",
      "url": "https://www.theinformation.com/briefings/stunning-democrat-victories-texas-bring-uncertainty-data-centers-musk",
      "source": "The Information",
-     "time": "2026-11-04T10:09:32.154399Z",
+     "time": "2026-11-04T10:20:18.049977Z",
      "count": 5,
      "id": "alltop_business-6",
      "title_zh": "得州选举结果引发对数据中心和AI基础设施的担忧"
@@ -1083,28 +1082,28 @@
      "title": "Eurozone Inflation Rises to 4% in October, Driven by Energy Costs",
      "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_worldnews",
      "source": "WSJ World",
-     "time": "2026-11-04T12:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "count": 3,
      "id": "alltop_business-7",
      "title_zh": "欧元区10月通胀率升至4%，受能源成本推动"
     },
     {
-     "title": "Uber Beats Q4 Earnings Estimates on Strong Delivery Growth",
-     "url": "https://seekingalpha.com/news/4664606-uber-non-gaap-eps-of-0_88-beats-by-0_01-revenue-of-14_77b-beats-by-100m?feed_item_type=news",
-     "source": "Seeking Alpha",
-     "time": "2026-11-04T13:27:32.154399Z",
-     "count": 2,
-     "id": "alltop_business-8",
-     "title_zh": "优步第四季度盈利超预期，配送业务强劲增长"
-    },
-    {
      "title": "Apple's iPad Mini gets powerful upgrade but comes with steep price tag",
      "url": "https://www.wired.com/review/ipad-mini-2026/",
      "source": "Wired",
-     "time": "2026-11-04T05:09:32.154399Z",
+     "time": "2026-11-04T04:20:18.049977Z",
      "count": 5,
-     "id": "alltop_business-9",
+     "id": "alltop_business-8",
      "title_zh": "苹果iPad Mini获强力升级但价格高昂"
+    },
+    {
+     "title": "Uber Beats Q4 Earnings Estimates on Strong Delivery Growth",
+     "url": "https://seekingalpha.com/news/4664606-uber-non-gaap-eps-of-0_88-beats-by-0_01-revenue-of-14_77b-beats-by-100m?feed_item_type=news",
+     "source": "Seeking Alpha",
+     "time": "2026-11-04T13:27:18.049977Z",
+     "count": 2,
+     "id": "alltop_business-9",
+     "title_zh": "优步第四季度盈利超预期，配送业务强劲增长"
     }
    ]
   },
@@ -1119,94 +1118,94 @@
    "error": null,
    "items": [
     {
-     "title": "FBI Blames North Korean Hackers for Record $6.3 Billion Binance Theft",
+     "title": "FBI blames North Korean hackers for record $6.3 billion Binance theft",
      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
      "source": "Oliver Knight / CoinDesk",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 26,
      "id": "alltop_world-0",
-     "title_zh": "FBI指责朝鲜黑客窃取币安63亿美元创纪录"
+     "title_zh": "FBI将创纪录的63亿美元币安被盗案归咎于朝鲜黑客"
     },
     {
-     "title": "World Leaders Assess US Midterm Election Results, Weighing Impact",
+     "title": "World leaders assess US midterm election results' global policy impact",
      "url": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
      "source": "NYT World",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 4,
      "id": "alltop_world-1",
-     "title_zh": "世界领导人评估美国中期选举结果及其影响"
-    },
-    {
-     "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
-     "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
-     "source": "Seeking Alpha",
-     "time": "2026-11-04T13:13:32.154399Z",
-     "count": 5,
-     "id": "alltop_world-2",
-     "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
-    },
-    {
-     "title": "European Supermarket Freezers Destroyed by Cyberattack",
-     "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
-     "source": "Financial Times World",
-     "time": "2026-11-04T02:09:32.154399Z",
-     "count": 22,
-     "id": "alltop_world-3",
-     "title_zh": "欧洲超市冷柜遭网络攻击损毁"
-    },
-    {
-     "title": "Trump to End $4 Billion in Annual Military Aid to Israel by Year's End",
-     "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end?traffic_source=rss",
-     "source": "Al Jazeera English",
-     "time": "2026-11-04T02:09:32.154399Z",
-     "count": 10,
-     "id": "alltop_world-4",
-     "title_zh": "特朗普将于年底前终止对以色列每年40亿美元军事援助"
-    },
-    {
-     "title": "US military strikes Iran's Qeshm Island ahead of midterms",
-     "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews",
-     "source": "WSJ World",
-     "time": "2026-11-04T05:09:32.154399Z",
-     "count": 8,
-     "id": "alltop_world-5",
-     "title_zh": "美国在中期选举前打击伊朗格什姆岛"
+     "title_zh": "世界领导人评估美国中期选举结果对全球政策的影响"
     },
     {
      "title": "Hackers Target French Blood Banks, Attempting to Overheat Refrigeration Systems",
      "url": "https://www.businessinsider.com/blood-plasma-fridge-hack-france-efs-cyberattack-2026-11",
      "source": "Business Insider",
-     "time": "2026-11-04T13:45:32.154399Z",
-     "count": 3,
-     "id": "alltop_world-6",
+     "time": "2026-11-04T13:58:18.049977Z",
+     "count": 4,
+     "id": "alltop_world-2",
      "title_zh": "黑客攻击法国血库，试图使制冷系统过热"
     },
     {
-     "title": "Iran Hails US Election Outcome as Rejection of War, Warns Hostility Will Persist",
-     "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end?traffic_source=rss",
-     "source": "Al Jazeera English",
-     "time": "2026-11-04T13:44:32.154399Z",
-     "count": 2,
-     "id": "alltop_world-7",
-     "title_zh": "伊朗称美国选举结果是对战争的拒绝，警告敌意将持续"
+     "title": "European supermarket freezers destroyed in cyberattack, wasting food stock",
+     "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
+     "source": "Financial Times World",
+     "time": "2026-11-04T02:20:18.049977Z",
+     "count": 22,
+     "id": "alltop_world-3",
+     "title_zh": "欧洲超市冷柜遭网络攻击摧毁，浪费食品库存"
     },
     {
-     "title": "Netanyahu Faces Coalition Challenges After Israeli Election Results Confirmed",
+     "title": "Trump says US will end $4 billion in military aid to Israel by year's end",
+     "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end?traffic_source=rss",
+     "source": "Al Jazeera English",
+     "time": "2026-11-04T01:20:18.049977Z",
+     "count": 10,
+     "id": "alltop_world-4",
+     "title_zh": "特朗普称美国将在年底前终止对以色列40亿美元军事援助"
+    },
+    {
+     "title": "US military strikes Iran's Qeshm Island day before midterms",
+     "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews",
+     "source": "WSJ World",
+     "time": "2026-11-04T05:20:18.049977Z",
+     "count": 8,
+     "id": "alltop_world-5",
+     "title_zh": "美国在中期选举前一天打击伊朗格什姆岛"
+    },
+    {
+     "title": "Oracle Cancels $7 Billion AI Chip Deal with Tencent Amid US Pressure",
+     "url": "https://seekingalpha.com/news/4664456-oracle-cancels-7b-ai-chip-lease-with-tencent-amid-us-concerns-ft?feed_item_type=news",
+     "source": "Seeking Alpha",
+     "time": "2026-11-04T13:20:18.049977Z",
+     "count": 5,
+     "id": "alltop_world-6",
+     "title_zh": "甲骨文因美国压力取消与腾讯70亿美元AI芯片交易"
+    },
+    {
+     "title": "Israel election results confirmed, Netanyahu faces coalition challenges",
      "url": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims?traffic_source=rss",
      "source": "Al Jazeera English",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "count": 3,
-     "id": "alltop_world-8",
-     "title_zh": "内塔尼亚胡在以色列选举结果确认后面临联盟挑战"
+     "id": "alltop_world-7",
+     "title_zh": "以色列选举结果确认，内塔尼亚胡面临组阁挑战"
     },
     {
      "title": "UK PM Open to Formal Slavery Apology, Rules Out Reparations",
      "url": "https://www.theguardian.com/world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
      "source": "The Guardian World",
-     "time": "2026-11-03T21:09:32.154399Z",
+     "time": "2026-11-03T21:20:18.049977Z",
      "count": 6,
-     "id": "alltop_world-9",
+     "id": "alltop_world-8",
      "title_zh": "英国首相愿就奴隶制正式道歉，但排除赔偿"
+    },
+    {
+     "title": "Spain's Transport Minister resigns after deadly high-speed rail crash",
+     "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "time": "2026-11-04T13:52:18.049977Z",
+     "count": 4,
+     "id": "alltop_world-9",
+     "title_zh": "西班牙交通大臣在致命高铁事故后辞职"
     }
    ]
   },
@@ -1221,89 +1220,90 @@
    "error": null,
    "items": [
     {
-     "title": "Incan children consumed alcohol and hallucinogens before ritual sacrifice",
-     "url": "https://www.scientificamerican.com/article/incan-children-were-given-hallucinogens-before-they-were-sacrificed-to-the-gods/",
-     "source": "Scientific American",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "title": "One-Third of Babies Outgrow Peanut Allergy Within a Year",
+     "url": "https://www.newscientist.com/article/2597292-a-third-of-babies-with-peanut-allergy-grow-out-of-it-by-1-year-old/",
+     "source": "Alice Klein / New Scientist",
+     "time": "2026-11-04T14:01:18.049977Z",
      "count": 2,
      "id": "alltop_science-0",
-     "title_zh": "印加儿童在祭祀前饮用酒精和致幻剂"
+     "title_zh": "三分之一婴儿在一年内摆脱花生过敏"
     },
     {
-     "title": "NASA seeks industry ideas to extend Hubble Telescope's mission",
-     "url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope",
-     "source": "Space.com",
-     "time": "2026-11-04T12:09:32.154399Z",
+     "title": "Incan Children Consumed Hallucinogens Before Ritual Sacrifice",
+     "url": "https://www.scientificamerican.com/article/incan-children-were-given-hallucinogens-before-they-were-sacrificed-to-the-gods/",
+     "source": "Scientific American",
+     "time": "2026-11-04T13:20:18.049977Z",
      "count": 2,
      "id": "alltop_science-1",
-     "title_zh": "NASA寻求业界方案延长哈勃望远镜任务"
+     "title_zh": "印加儿童在祭祀牺牲前服用致幻剂"
     },
     {
-     "title": "Taurid meteor shower peaks tonight with potential for bright fireballs",
-     "url": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show",
+     "title": "NASA Seeks Industry Ideas to Extend Hubble Telescope's Mission",
+     "url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope",
      "source": "Space.com",
-     "time": "2026-11-04T12:09:32.154399Z",
+     "time": "2026-11-04T12:20:18.049977Z",
      "count": 2,
      "id": "alltop_science-2",
-     "title_zh": "金牛座流星雨今晚达到峰值，可能出现明亮火球"
+     "title_zh": "NASA寻求业界意见以延长哈勃望远镜任务"
     },
     {
-     "title": "NASA's Swift Observatory re-enters Earth's atmosphere after 22-year mission",
+     "title": "NASA's Swift Observatory Re-enters Earth's Atmosphere After 22-Year Mission",
      "url": "https://www.cnet.com/science/space/neil-gehrels-swift-observatory-drops-back-to-earth/",
      "source": "CNET",
-     "time": "2026-11-03T23:09:32.154399Z",
+     "time": "2026-11-03T22:20:18.049977Z",
      "count": 9,
      "id": "alltop_science-3",
      "title_zh": "NASA的Swift天文台在22年任务后重返地球大气层"
     },
     {
-     "title": "Anthrax outbreak kills dozens of hippos in Congo's Virunga National Park",
+     "title": "Anthrax Outbreak Kills Dozens of Hippos in Congo's Virunga National Park",
      "url": "https://www.nytimes.com/2026/11/03/world/africa/congo-anthrax-hippos-virunga-park.html",
      "source": "NYT World",
-     "time": "2026-11-04T01:09:32.154399Z",
+     "time": "2026-11-04T01:20:18.049977Z",
      "count": 2,
      "id": "alltop_science-4",
      "title_zh": "炭疽疫情导致刚果维龙加国家公园数十头河马死亡"
     },
     {
-     "title": "Scientists trace brain's left-right cross-wiring to ancient fish",
+     "title": "Scientists Trace Brain's Cross-Wiring to Ancient Fish Visual Systems",
      "url": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
      "source": "Science Daily",
-     "time": "2026-11-04T13:25:32.154399Z",
+     "time": "2026-11-04T13:24:18.049977Z",
      "id": "alltop_science-5",
-     "title_zh": "科学家将大脑左右交叉连接追溯至远古鱼类"
+     "title_zh": "科学家追溯大脑交叉连接到古代鱼类的视觉系统"
+    },
+    {
+     "title": "Taurid meteor shower peaks tonight with potential for bright fireballs",
+     "url": "https://www.space.com/stargazing/meteor-showers/the-taurid-meteor-shower-2026-peaks-tonight-and-fireballs-could-steal-the-show",
+     "source": "Space.com",
+     "time": "2026-11-04T12:20:18.049977Z",
+     "count": 2,
+     "id": "alltop_science-6",
+     "title_zh": "金牛座流星雨今晚达到峰值，可能出现明亮火球"
     },
     {
      "title": "Virtual lifeless Earth model aids search for exoplanet life",
      "url": "https://www.universetoday.com/articles/a-virtual-lifeless-earth-will-help-scientists-find-life-on-exoplanets",
      "source": "Universe Today",
-     "time": "2026-11-04T13:22:32.154399Z",
-     "id": "alltop_science-6",
+     "time": "2026-11-04T13:22:18.049977Z",
+     "id": "alltop_science-7",
      "title_zh": "虚拟无生命地球模型助力寻找系外行星生命"
     },
     {
-     "title": "Biotech startups skip AI for drug discovery, favoring traditional methods",
+     "title": "Biotech Startups Prioritize Non-AI Approaches for Drug Discovery",
      "url": "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/",
      "source": "STAT",
-     "time": "2026-11-04T13:09:32.154399Z",
-     "id": "alltop_science-7",
-     "title_zh": "生物技术初创公司跳过AI药物发现，倾向传统方法"
-    },
-    {
-     "title": "New research suggests age may influence the link between psychedelic use and mental health",
-     "url": "https://medicalxpress.com/news/2026-11-age-links-psychedelic-mental-health.html",
-     "source": "Medical Xpress",
-     "time": "2026-11-04T13:20:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "alltop_science-8",
-     "title_zh": "新研究提示年龄可能影响致幻剂使用与心理健康的关联"
+     "title_zh": "生物技术初创公司优先采用非AI方法进行药物发现"
     },
     {
-     "title": "New proof emerges for century-old Four-Color Theorem math puzzle",
+     "title": "New Proof Emerges for the Four-Color Theorem, a Century-Old Math Puzzle",
      "url": "https://www.smithsonianmag.com/science-nature/the-four-color-theorem-has-haunted-mathematicians-for-decades-it-just-got-a-rare-new-proof-but-some-still-long-for-a-simpler-solution-180989799/",
      "source": "Smithsonian Magazine",
-     "time": "2026-11-04T13:09:32.154399Z",
+     "time": "2026-11-04T13:20:18.049977Z",
      "id": "alltop_science-9",
-     "title_zh": "百年四色定理数学难题出现新证明"
+     "title_zh": "四色定理迎来新证明，这一百年数学难题再获突破"
     }
    ]
   },
@@ -1318,69 +1318,72 @@
    "error": null,
    "items": [
     {
+     "title": "Last night was so good it feels like 2008",
+     "url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xnnbnl/last_night_was_so_good_it_feels_like_2008/",
+     "time": "2026-11-04T14:15:18.049977Z",
+     "source": "r/BlackPeopleTwitter",
+     "id": "reddit-0",
+     "title_zh": "昨晚太棒了，感觉像回到了2008年"
+    },
+    {
+     "title": "Rules for thee, the joke's on me, 'cause I can't read y'all",
+     "url": "https://upstract.com/x/7e01f4acee865edb",
+     "gated": true,
+     "time": "2026-11-04T14:15:18.049977Z",
+     "source": "r/SipsTea",
+     "id": "reddit-1",
+     "title_zh": "只许州官放火，笑话落在我身上，因为我看不懂你们的话"
+    },
+    {
      "title": "How a tourist from Japan greets the Royal Guard",
      "url": "https://upstract.com/x/411f17fdc9c0a1f8",
      "gated": true,
-     "time": "2026-11-04T14:05:32.154399Z",
+     "time": "2026-11-04T14:05:18.049977Z",
      "source": "r/interesting",
-     "id": "reddit-0",
+     "id": "reddit-2",
      "title_zh": "日本游客如何向皇家卫队致意"
     },
     {
      "title": "Megathread: Gina Hinojosa has been declared the winner of the Texas Governor Race",
      "url": "https://www.reddit.com/r/texas/comments/1xneen8/megathread_gina_hinojosa_has_been_declared_the/",
-     "time": "2026-11-04T13:55:32.154399Z",
+     "time": "2026-11-04T13:55:18.049977Z",
      "source": "r/texas",
-     "id": "reddit-1",
+     "id": "reddit-3",
      "title_zh": "大讨论：吉娜·伊诺霍萨被宣布赢得得州州长选举"
     },
     {
      "title": "Republican Susan Collins loses seat, ending almost 30 years in the Senate",
      "url": "https://www.bbc.com/news/articles/cred3jj69jvqo",
-     "time": "2026-11-04T13:45:32.154399Z",
-     "id": "reddit-2",
+     "time": "2026-11-04T13:45:18.049977Z",
+     "id": "reddit-4",
      "title_zh": "共和党人苏珊·柯林斯失去席位，结束近30年参议院生涯"
     },
     {
      "title": "FIRST BLACK GOVERNER FIRST MUSLIM SENATOR TEXAS IS BLUE AMERICA IS WOOOKE!",
      "url": "https://upstract.com/x/c54332c1305d084a",
      "gated": true,
-     "time": "2026-11-04T13:45:32.154399Z",
+     "time": "2026-11-04T13:45:18.049977Z",
      "source": "r/BlackPeopleofReddit",
-     "id": "reddit-3",
+     "id": "reddit-5",
      "title_zh": "首位黑人州长、首位穆斯林参议员，得州变蓝，美国觉醒了！"
     },
     {
      "title": "What happens to Elon musk now that blue won?",
-     "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1xnfc8s/what_happens_to_elon_musk_now_that_blue_won/",
-     "time": "2026-11-04T13:35:32.154399Z",
+     "url": "https://upstract.com/x/2d1e483cd94d2646",
+     "gated": true,
+     "time": "2026-11-04T13:35:18.049977Z",
      "source": "r/NoStupidQuestions",
-     "id": "reddit-4",
+     "id": "reddit-6",
      "title_zh": "蓝色阵营获胜后，埃隆·马斯克会怎样？"
     },
     {
      "title": "Let the reckoning begin",
      "url": "https://upstract.com/x/ebc0d788f4c10a59",
      "gated": true,
-     "time": "2026-11-04T13:25:32.154399Z",
+     "time": "2026-11-04T13:25:18.049977Z",
      "source": "r/PoursTea",
-     "id": "reddit-5",
-     "title_zh": "清算开始吧"
-    },
-    {
-     "title": "Vivek Ramaswamy’s Concession to Amy Acton Went to Voicemail",
-     "url": "https://www.reddit.com/r/Ohio/comments/1xnlau9/vivek_ramaswamys_concession_to_amy_acton_went_to/",
-     "time": "2026-11-04T13:25:32.154399Z",
-     "id": "reddit-6",
-     "title_zh": "维韦克·拉马斯瓦米对艾米·阿克顿的认输电话转入了语音信箱"
-    },
-    {
-     "title": "Racist Lives Don’t Matter (OC)",
-     "url": "https://i.redd.it/dy1ff7l82lzh1.jpeg",
-     "time": "2026-11-04T13:15:32.154399Z",
-     "source": "r/pics",
      "id": "reddit-7",
-     "title_zh": "种族主义者的命不重要（原创内容）"
+     "title_zh": "清算开始吧"
     }
    ]
   },
@@ -1403,11 +1406,19 @@
      "title_zh": "本周造型：格伦·克洛斯和她的六英尺模仿者引人注目"
     },
     {
+     "title": "The Gilded Age's Carrie Coon Shares How Her Marriage to Tracy Letts Stays Golden",
+     "url": "https://www.eonline.com/news/1437777/carrie-coon-shares-how-marriage-to-tracy-letts-stays-golden",
+     "source": "E! News",
+     "traffic": "500+",
+     "id": "google_trends-1",
+     "title_zh": "《镀金时代》的凯莉·库恩分享她与特雷西·莱茨的婚姻如何保持黄金般美好"
+    },
+    {
      "title": "Stocks making the biggest moves premarket: Trump Media, Tesla, CoreWeave, Novo Nordisk and more",
      "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html",
      "source": "CNBC",
      "traffic": "500+",
-     "id": "google_trends-1",
+     "id": "google_trends-2",
      "title_zh": "盘前涨幅最大的股票：特朗普媒体、特斯拉、CoreWeave、诺和诺德等"
     },
     {
@@ -1415,7 +1426,7 @@
      "url": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
      "source": "ESPN",
      "traffic": "500+",
-     "id": "google_trends-2",
+     "id": "google_trends-3",
      "title_zh": "常见问题：为何兹维列夫升至世界第一引发复杂情绪"
     },
     {
@@ -1423,7 +1434,7 @@
      "url": "https://www.investing.com/news/stock-market-news/premarket-movers-trump-media-ai-infrastructure-stocks-fall-amd-jumps-4998777",
      "source": "Investing.com",
      "traffic": "200+",
-     "id": "google_trends-3",
+     "id": "google_trends-4",
      "title_zh": "盘前异动：特朗普媒体、AI基础设施股下跌；AMD大涨"
     },
     {
@@ -1431,16 +1442,8 @@
      "url": "https://www.guitarworld.com/artists/guitarists/crossroads-sequel-in-the-works",
      "source": "Guitar World",
      "traffic": "200+",
-     "id": "google_trends-4",
-     "title_zh": "“拉尔夫·马奇奥和我谈过。我们有计划”：邪典吉他电影《十字路口》续集正在筹备，史蒂夫·瓦伊愿意重演其角色"
-    },
-    {
-     "title": "‘Today’ Star Sheinelle Jones Shares Poignant Note About Her Latest Accomplishment",
-     "url": "https://www.goodhousekeeping.com/entertainment/celebrity-news/a74322223/today-show-sheinelle-jones-northwestern-university-2026-instagram/",
-     "source": "Good Housekeeping",
-     "traffic": "200+",
      "id": "google_trends-5",
-     "title_zh": "《今日》明星谢内尔·琼斯分享关于最新成就的感人留言"
+     "title_zh": "“拉尔夫·马奇奥和我谈过。我们有计划”：邪典吉他电影《十字路口》续集正在筹备，史蒂夫·瓦伊愿意重演其角色"
     }
    ]
   },
@@ -1457,7 +1460,7 @@
     {
      "title": "Darmowe akcesoria Škody i wiecej do druku 3D na Printables.com. Oficjalne konto Skoda udostępnia za darmo modele do druku 3D.",
      "url": "https://www.pepper.pl/promocje/darmowe-akcesoria-skody-i-wiecej-do-druku-3d-na-printablescom-oficjalne-konto-skoda-udostepnia-za-darmo-modele-do-druku-3d-1382247",
-     "temperature": 2530,
+     "temperature": 2609,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
@@ -1470,11 +1473,11 @@
     {
      "title": "Kup doładowanie PlayStation za min. 329 zł i zgarnij kolejne doładowanie na 100 zł - żabka",
      "url": "https://www.pepper.pl/promocje/kup-doladowanie-playstation-za-min-329-zl-i-zgarnij-kolejne-doladowanie-na-100-zl-zabka-1382052",
-     "temperature": 1779,
+     "temperature": 1809,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
-     "comments": 381,
+     "comments": 392,
      "type": "Deal",
      "merchant": "Żabka",
      "id": "pepper-1",
@@ -1483,7 +1486,7 @@
     {
      "title": "Męska kurtka zimowa z naturalnym wypełnieniem (90% puch, 10% pierze) - MWZ. 300 zł @Medicine",
      "url": "https://www.pepper.pl/promocje/meska-kurtka-zimowa-z-naturalnym-wypelnieniem-90-puch-10-pierze-at-medicine-1376134",
-     "temperature": 1534,
+     "temperature": 1545,
      "price_old": 599.99,
      "currency": "PLN",
      "expired": false,
@@ -1497,7 +1500,7 @@
     {
      "title": "Spodnie męskie Wrangler. Szeroki wybór rozmiarów",
      "url": "https://www.pepper.pl/promocje/spodnie-meskie-wrangler-szeroki-wybor-rozmiarow-1381860",
-     "temperature": 1415,
+     "temperature": 1420,
      "price_old": null,
      "currency": "PLN",
      "expired": false,
@@ -1511,7 +1514,7 @@
     {
      "title": "Fiat Pandina 1,0 Hybrid Pop. 8 lat gwarancji",
      "url": "https://www.pepper.pl/promocje/fiat-pandina-10-hybrid-pop-8-lat-gwarancji-1381734",
-     "temperature": 971,
+     "temperature": 975,
      "price_old": 64100,
      "currency": "PLN",
      "expired": false,
@@ -1525,7 +1528,7 @@
     {
      "title": "Kawa ziarnista Beskidzka Palarnia Kawy Etiopia Djimmah 100% Arabica 1 kg",
      "url": "https://www.pepper.pl/promocje/kawa-ziarnista-beskidzka-palarnia-kawy-etiopia-djimmah-100-arabica-1-kg-1381717",
-     "temperature": 821,
+     "temperature": 828,
      "price_old": 75,
      "currency": "PLN",
      "expired": false,
@@ -1539,7 +1542,7 @@
     {
      "title": "Klocki LEGO Speed Champions 77256 Wehikuł czasu z Powrotu do przyszłości [start 4.11 o 19:00]",
      "url": "https://www.pepper.pl/promocje/klocki-lego-speed-champions-77256-wehikul-czasu-z-powrotu-do-przyszlosci-start-411-o-1900-1381354",
-     "temperature": 799,
+     "temperature": 801,
      "price_old": 75.58,
      "currency": "PLN",
      "expired": false,
@@ -1553,7 +1556,7 @@
     {
      "title": "Rogal świętomarciński 200g | cena przy zakupie 3 szt. | Dino",
      "url": "https://www.pepper.pl/promocje/rogal-swietomarcinski-200g-cena-przy-zakupie-3-szt-dino-1381810",
-     "temperature": 755,
+     "temperature": 757,
      "price_old": 5.99,
      "currency": "PLN",
      "expired": false,
@@ -1567,7 +1570,7 @@
     {
      "title": "Yeezy Boost 350 Steel Grey od 249 / Bone od 399 - stacjonarnie w Sports Direct",
      "url": "https://www.pepper.pl/promocje/yeezy-boost-350-steel-grey-bone-1381997",
-     "temperature": 740,
+     "temperature": 743,
      "price_old": 699,
      "currency": "PLN",
      "expired": false,
@@ -1581,11 +1584,11 @@
     {
      "title": "KFC Grander 1+1 gratis za 100 serc w Magenta Moments",
      "url": "https://www.pepper.pl/promocje/kfc-grander-11-gratis-za-100-serc-w-magenta-moments-1381854",
-     "temperature": 695,
+     "temperature": 703,
      "price_old": 49.98,
      "currency": "PLN",
      "expired": false,
-     "comments": 23,
+     "comments": 24,
      "type": "Deal",
      "price": 24.99,
      "merchant": "T-Mobile",
@@ -1607,11 +1610,11 @@
     {
      "title": "HP EliteBook 840 G6, 14\" Laptop - 1000 Nits SV | Intel i5-8265U | 16 GB RAM | 256 GB SSD | IR-Cam | LTE | USB-C, Thunderbolt - refurbished",
      "url": "https://www.mydealz.de/deals/hp-elitebook-840-g6-14-laptop-1000-nits-sv-intel-i5-8265u-16-gb-ram-256-gb-ssd-ir-cam-lte-usb-c-thunderbolt-refurbished-2835966",
-     "temperature": 3166,
+     "temperature": 3195,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 141,
+     "comments": 143,
      "type": "Deal",
      "price": 199,
      "merchant": "www.extranotebook.de",
@@ -1635,7 +1638,7 @@
     {
      "title": "[Shoop & CHECK24] 30€ Cashback für Strom- oder Gasanbieter-Wechsel/Auftrag",
      "url": "https://www.mydealz.de/deals/shoop-check24-30eur-cashback-fur-strom-oder-gasanbieter-wechselauftrag-2855848",
-     "temperature": 1762,
+     "temperature": 1764,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
@@ -1648,7 +1651,7 @@
     {
      "title": "[Nintendo eShop] FINAL FANTASY VII Rebirth ~ 8,99€ / Deluxe ~ 11,99€ | Nintendo Switch 2 | AUS 8,02€ || Epic Games 7,49€ / 10,49€ PC",
      "url": "https://www.mydealz.de/deals/nintendo-eshop-final-fantasy-vii-remake-intergrade-999eur-rebirth-899eur-nintendo-switch-2-2863516",
-     "temperature": 1323,
+     "temperature": 1325,
      "price_old": 59.99,
      "currency": "EUR",
      "expired": false,
@@ -1662,7 +1665,7 @@
     {
      "title": "Victorinox Swiss Classic Faltbares Picknick-Messer gerader Schliff 11,91€ / Wellenschliff gelb 13,34€ (Prime/Joybuy)",
      "url": "https://www.mydealz.de/deals/victorinox-swiss-classic-faltbares-picknick-messer-gerader-schliff-1295eur-wellenschliff-gelb-1357eur-primejoybuy-2843322",
-     "temperature": 1290,
+     "temperature": 1294,
      "price_old": 17.95,
      "currency": "EUR",
      "expired": false,
@@ -1676,7 +1679,7 @@
     {
      "title": "Humble Choice November – Mafia The Old Country, Yakuza 6: The Song of Life, SHINOBI: Art of Vengeance, Dysmantle | Steam - PC",
      "url": "https://www.mydealz.de/deals/humble-choice-november-2864329",
-     "temperature": 1139,
+     "temperature": 1148,
      "price_old": 116.04,
      "currency": "EUR",
      "expired": false,
@@ -1690,7 +1693,7 @@
     {
      "title": "Final Fantasy VII Remake Intergrade ►9,99 | Deluxe ►13,99€ | Nintendo Switch 2 | Nintendo eShop | TH ►6,63€€ | Epic Games ►7,19€ PC",
      "url": "https://www.mydealz.de/deals/final-fantasy-vii-remake-intergrade-999eur-nintendo-switch-2-nintendo-eshop-2863515",
-     "temperature": 1091,
+     "temperature": 1092,
      "price_old": 49.99,
      "currency": "EUR",
      "expired": false,
@@ -1704,11 +1707,11 @@
     {
      "title": "[Ab 1.11.] XIAOMI TV S Mini LED 55\" (140 cm) TV [2025] | 144Hz, 1.200cd/m² max. Helligkeit, Dolby Vision IQ & Dolby Atmos",
      "url": "https://www.mydealz.de/deals/ab-111-xiaomi-tv-s-mini-led-55-140-cm-tv-2025-144hz-1200cdm2-max-helligkeit-dolby-vision-iq-dolby-atmos-2861702",
-     "temperature": 1020,
+     "temperature": 1030,
      "price_old": 454.98,
      "currency": "EUR",
      "expired": false,
-     "comments": 102,
+     "comments": 103,
      "type": "Deal",
      "price": 349.01,
      "merchant": "AliExpress",
@@ -1718,11 +1721,11 @@
     {
      "title": "[Müller + CB] Geschenkgutscheine mit 11 % Rabatt (ONLINE und OFFLINE einsetzbar)",
      "url": "https://www.mydealz.de/deals/muller-cb-geschenkgutscheine-mit-11-rabatt-2864323",
-     "temperature": 970,
+     "temperature": 983,
      "price_old": null,
      "currency": "EUR",
      "expired": false,
-     "comments": 74,
+     "comments": 75,
      "type": "Deal",
      "merchant": "Müller",
      "id": "mydealz-8",
@@ -1731,7 +1734,7 @@
     {
      "title": "[CB] Adidas 2026/27 Trikots • Schalke • 1. FC Köln • Ajax • Aston Villa • Celtic FC • Leeds United • River Plate (eff. 57,40€ 10x Payback)",
      "url": "https://www.mydealz.de/deals/cb-adidas-202627-trikots-schalke-1-fc-koln-ajax-aston-villa-celtic-fc-leeds-united-river-plate-eff-5810eur-8fach-payback-2834558",
-     "temperature": 968,
+     "temperature": 971,
      "price_old": 99.95,
      "currency": "EUR",
      "expired": false,
@@ -3579,9 +3582,133 @@
    "kind": "events",
    "home": "https://palladium.pl/",
    "lang": "pl",
-   "status": "fail",
-   "error": "403 Client Error: Forbidden for url: https://palladium.pl/",
-   "items": []
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Gloryhammer",
+     "url": "https://klubproxima.pl/2026/07/gloryhammer/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-04T18:00"
+      }
+     ],
+     "id": "palladium-0",
+     "title_zh": "Gloryhammer"
+    },
+    {
+     "title": "Zimmer90",
+     "url": "https://hybrydy.pl/2026/08/zimmer90/",
+     "place": "Hybrydy",
+     "shows": [
+      {
+       "at": "2026-11-05T18:00"
+      }
+     ],
+     "id": "palladium-1",
+     "title_zh": "Zimmer90"
+    },
+    {
+     "title": "Musical Era Rocka",
+     "url": "https://palladium.pl/2026/06/musical-era-rocka/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-05T19:00"
+      }
+     ],
+     "id": "palladium-2",
+     "title_zh": "摇滚音乐剧时代"
+    },
+    {
+     "title": "Trasa Illusion, Hostia, Iron Head",
+     "url": "https://klubproxima.pl/2026/03/trasa-illusion-hostia-iron-head/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-06T19:00"
+      }
+     ],
+     "id": "palladium-3",
+     "title_zh": "Illusion、Hostia、Iron Head 巡演"
+    },
+    {
+     "title": "Closterkeller",
+     "url": "https://klubproxima.pl/2026/10/closterkeller-4/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-07T00:00"
+      }
+     ],
+     "id": "palladium-4",
+     "title_zh": "Closterkeller"
+    },
+    {
+     "title": "HARD ZONE",
+     "url": "https://hybrydy.pl/2026/10/hard-zone-21/",
+     "place": "Hybrydy",
+     "shows": [
+      {
+       "at": "2026-11-07T22:00"
+      }
+     ],
+     "id": "palladium-5",
+     "title_zh": "HARD ZONE"
+    },
+    {
+     "title": "SQUIRT – niezapomniane widowisko erotyczne 18+",
+     "url": "https://palladium.pl/2026/08/squirt-niezapomniane-widowisko-erotyczne-18/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-08T18:00"
+      },
+      {
+       "at": "2026-11-08T20:30"
+      }
+     ],
+     "id": "palladium-6",
+     "title_zh": "SQUIRT——难忘的情色表演 18+"
+    },
+    {
+     "title": "SPIKE AND THE GIMMIE GIMMES",
+     "url": "https://klubproxima.pl/2026/04/spike-and-the-gimmie-gimmes/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-08T19:30"
+      }
+     ],
+     "id": "palladium-7",
+     "title_zh": "SPIKE AND THE GIMMIE GIMMES"
+    },
+    {
+     "title": "Premiera Magazynu Prześwity",
+     "url": "https://hybrydy.pl/2026/11/premiera-magazynu-przeswity/",
+     "place": "Hybrydy",
+     "shows": [
+      {
+       "at": "2026-11-09T16:00"
+      }
+     ],
+     "id": "palladium-8",
+     "title_zh": "《Prześwity》杂志首映"
+    },
+    {
+     "title": "Machine Girl",
+     "url": "https://klubproxima.pl/2026/06/9549/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-09T18:00"
+      }
+     ],
+     "id": "palladium-9",
+     "title_zh": "Machine Girl"
+    }
+   ]
   },
   {
    "id": "pik",
@@ -3770,6 +3897,77 @@
      "title_zh": "华沙啤酒节"
     }
    ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "utopias",
+   "name": "《变态者乌托邦指南》The Pervert's Guide to Utopias",
+   "link": "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias",
+   "asof": "2026-11-04",
+   "note": "Sophie Fiennes 执导、Žižek「变态者指南」三部曲的终章，133 分钟。9 月 7 日在威尼斯（非竞赛）首映，之后在多伦多、汉堡、雅典、圣保罗、里斯本 Doclisboa 等影展放映；11 月 14、16 日在纽约 DOC NYC 美国首映。还没有在任何流媒体上线，JustWatch 波兰区没有条目；波兰发行方和华沙排片都未公布。",
+   "sources": [
+    [
+     "维基百科",
+     "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias"
+    ],
+    [
+     "DOC NYC",
+     "https://www.docnyc.net/film/the-perverts-guide-to-utopias/"
+    ],
+    [
+     "Hollywood Reporter",
+     "https://www.hollywoodreporter.com/movies/movie-news/slavoj-zizek-perverts-guide-to-utopias-exclusive-trailer-1236687802/"
+    ]
+   ],
+   "checked": [
+    {
+     "name": "Muranów 排片",
+     "url": "https://kinomuranow.pl/repertuar",
+     "ok": true
+    },
+    {
+     "name": "Muranów 即将上映",
+     "url": "https://kinomuranow.pl/zapowiedzi",
+     "ok": true
+    },
+    {
+     "name": "Kinoteka 排片",
+     "url": "https://kinoteka.pl/repertuar/",
+     "ok": true
+    },
+    {
+     "name": "Iluzjon 排片",
+     "url": "https://www.iluzjon.fn.org.pl/repertuar.html",
+     "ok": true
+    },
+    {
+     "name": "Kino Elektronik",
+     "url": "https://kinoelektronik.pl/",
+     "ok": true
+    },
+    {
+     "name": "Kino Kultura",
+     "url": "https://www.kinokultura.pl/",
+     "ok": true
+    },
+    {
+     "name": "Kino Amondo",
+     "url": "https://kinoamondo.pl/",
+     "ok": true
+    },
+    {
+     "name": "Against Gravity 片单",
+     "url": "https://againstgravity.pl/filmy/",
+     "ok": true
+    },
+    {
+     "name": "Millennium Docs Against Gravity",
+     "url": "https://mdag.pl/",
+     "ok": true
+    }
+   ],
+   "hits": []
   }
  ]
 }
