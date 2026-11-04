@@ -12,11 +12,14 @@ def _needed(issue):
     for block in issue["blocks"]:
         if block["lang"] == "zh" or block["status"] != "ok":
             continue
+        events = block["kind"] == "events"
         for item in block["items"]:
             if "title_zh" not in item:
-                fields.append((item, "title", "title_zh", "headline"))
+                fields.append((item, "title", "title_zh", "event" if events else "headline"))
             if item.get("summary") and "summary_zh" not in item:
                 fields.append((item, "summary", "summary_zh", "headline"))
+            if events and item.get("tag") and "tag_zh" not in item:
+                fields.append((item, "tag", "tag_zh", "headline"))
             if block["kind"] == "bank" and item.get("bonus_text") and "bonus_zh" not in item:
                 fields.append((item, "bonus_text", "bonus_zh", "bonus"))
     return fields
@@ -25,6 +28,11 @@ def _needed(issue):
 INSTRUCTIONS = {
     "headline": "Translate each string into concise natural Simplified Chinese. Keep well-known names in their standard Chinese form or original. "
                 "Hashtags or handles written in Latin letters that are names or brands may stay as they are; translate those in any other script (e.g. Arabic) into Chinese, keeping a leading #. ",
+    # Titles of films, plays, operas and concerts at Warsaw venues, sent with their description (director,
+    # composer...) so a known work gets its usual Chinese title rather than a word-for-word one.
+    "event": "Each string is the Polish title of a film, play, opera, ballet or concert in Warsaw, possibly followed by ' — ' and a short description. "
+             "Return only the title in Simplified Chinese. If it is a well-known work and you are sure of its usual Chinese title, use that; otherwise translate the title naturally. "
+             "Keep names of people, bands and brands as they are. ",
     "bonus": "For each Polish bank bonus description, write a concise Simplified Chinese summary (at most 60 Chinese characters) containing the bonus amount(s) and main conditions. ",
 }
 
@@ -34,9 +42,9 @@ def _request(strings, style, key):
     response = requests.post(
         ENDPOINT,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-        # Headlines translate as well without thinking at ~1/7 of the tokens; the bank summaries
+        # Headlines (and event titles) translate as well without thinking at ~1/7 of the tokens; the bank summaries
         # keep it, since without it they drop the conditions (measured 2026-11-02).
-        json={"model": "deepseek-flash", "thinking": {"type": "disabled" if style == "headline" else "enabled"},
+        json={"model": "deepseek-flash", "thinking": {"type": "enabled" if style == "bonus" else "disabled"},
               "response_format": {"type": "json_object"}, "messages": [
             {"role": "system", "content": instruction},
             {"role": "user", "content": json.dumps(strings, ensure_ascii=False)},
@@ -55,6 +63,13 @@ def _request(strings, style, key):
     return translated
 
 
+def _source(entry):
+    item, field, _target, style = entry
+    if style == "event" and item.get("summary"):
+        return f"{item[field]} — {item['summary']}"
+    return item[field]
+
+
 def translate_issue(issue):
     """Fill translations in place and set the contract's translation summary."""
     needed = _needed(issue)
@@ -67,7 +82,7 @@ def translate_issue(issue):
         entries = [entry for entry in needed if entry[3] == style]
         for start in range(0, len(entries), 50):
             batch = entries[start:start + 50]
-            strings = [entry[0][entry[1]] for entry in batch]
+            strings = [_source(entry) for entry in batch]
             translations = None
             for attempt in range(2):
                 try:

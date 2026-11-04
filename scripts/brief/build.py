@@ -1,9 +1,10 @@
 """Build one CHLCCGA brief JSON issue."""
 import argparse
+import calendar
 import json
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -39,8 +40,56 @@ def _fetch(url):
     raise error
 
 
-def _load_pages(config, fixtures):
-    urls = {block["url"] for block in config["blocks"]}
+def _urls(block, issue_date):
+    """A url with {y}/{m}/{mm}/{last} placeholders is fetched for the issue's month and the next one;
+    a list of urls is fetched as it is (one parser reads them all)."""
+    if isinstance(block["url"], list):
+        return block["url"]
+    if "{" not in block["url"]:
+        return [block["url"]]
+    day = date.fromisoformat(issue_date)
+    urls = []
+    for k in range(2):
+        y, m = day.year + (day.month - 1 + k) // 12, (day.month - 1 + k) % 12 + 1
+        urls.append(block["url"].format(y=y, m=m, mm=f"{m:02d}", last=calendar.monthrange(y, m)[1]))
+    return urls
+
+
+def _events(entries, issue_date, cfg):
+    """Keep one venue's performances in the next `days` days and merge repeats of a work into one item.
+
+    A parser returns performances {title, url, at: "YYYY-MM-DD[THH:MM]", en?} or runs
+    {title, url, start, end} (festivals), with optional place / tag / summary. Same title and summary =
+    same work (a hall's "Koncert symfoniczny" on two dates is two programmes, told apart by the summary);
+    same title and start = same run (one festival listed on two pages)."""
+    first = date.fromisoformat(issue_date)
+    last = first + timedelta(days=cfg.get("days", 14))
+    works = {}
+    for entry in entries:
+        if entry.get("start"):
+            if (entry.get("end") or entry["start"]) < first.isoformat() or entry["start"] > last.isoformat():
+                continue
+            key = ("run", entry["title"].casefold(), entry["start"])
+        else:
+            if not first.isoformat() <= entry["at"][:10] <= last.isoformat():
+                continue
+            key = ("show", entry["title"].casefold(), (entry.get("summary") or "").casefold())
+        work = works.get(key)
+        if work is None:
+            work = works[key] = {k: entry[k] for k in ("title", "url", "place", "tag", "summary", "start", "end") if entry.get(k)}
+        if "at" in entry:
+            shows = work.setdefault("shows", [])
+            if all(show["at"] != entry["at"] for show in shows):
+                shows.append({"at": entry["at"], **({"en": True} if entry.get("en") else {})})
+    items = list(works.values())
+    for work in items:
+        work.get("shows", []).sort(key=lambda show: show["at"])
+    items.sort(key=lambda work: work["shows"][0]["at"] if "shows" in work else max(work["start"], issue_date))
+    return items[:cfg.get("limit", 10)]
+
+
+def _load_pages(config, fixtures, issue_date):
+    urls = {url for block in config["blocks"] for url in _urls(block, issue_date)}
     pages, errors = {}, {}
     if fixtures:
         fixtures = Path(fixtures).resolve()
@@ -111,19 +160,25 @@ def build(args):
     config = yaml.safe_load((SCRIPT_DIR / "sources.yaml").read_text(encoding="utf-8"))
     issue_date = args.date or datetime.now(ZoneInfo("Europe/Warsaw")).date().isoformat()
     fetched_at = datetime.now(timezone.utc)
-    pages, fetch_errors = _load_pages(config, args.fixtures)
+    pages, fetch_errors = _load_pages(config, args.fixtures, issue_date)
     blocks = []
     for cfg in config["blocks"]:
         block = {key: cfg[key] for key in ("id", "name", "group", "kind", "home", "lang")}
         block.update({"status": "ok", "error": None, "items": []})
-        if cfg["url"] in fetch_errors:
-            block.update({"status": "fail", "error": fetch_errors[cfg["url"]]})
+        urls = [url for url in _urls(cfg, issue_date) if url in pages]
+        if not urls:
+            block.update({"status": "fail", "error": fetch_errors[_urls(cfg, issue_date)[0]]})
         else:
             try:
-                items = getattr(parsers, cfg["parser"])(pages[cfg["url"]], cfg, fetched_at)
+                # Parsers resolve links against cfg["url"], so give them the page actually fetched.
+                items = [item for url in urls for item in getattr(parsers, cfg["parser"])(pages[url], dict(cfg, url=url), fetched_at)]
+                if cfg["kind"] == "events":
+                    found, items = bool(items), _events(items, issue_date, cfg)
+                    if not items and (found or cfg.get("seasonal")):
+                        block["status"] = "idle"   # nothing in the next two weeks (or festival off-season)
                 for index, item in enumerate(items):
                     item["id"] = f"{cfg['id']}-{index}"
-                if not items:
+                if not items and block["status"] != "idle":
                     raise RuntimeError("parsed 0 items (page layout may have changed)")
                 block["items"] = items
             except Exception as exc:

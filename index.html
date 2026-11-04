@@ -32,8 +32,8 @@
   <details class="status" id="status" hidden></details>
   <footer class="site">
     世界部分每周一 08:17、周三 20:17、周六 08:17（华沙冬令时，夏令时晚 1 小时）由 GitHub Actions 抓取、DeepSeek 翻译；
-    华沙部分每周一、三、五由 Claude routine 整理；汇率每个工作日从 NBP（波兰国家银行）A 表取中间价。<br>
-    数据来自 upstract.com、alltop.com、tophub.today、pepper.pl、mydealz.de、bankier.pl 及华沙各信息源，版权归原站。
+    华沙部分每周一、三、五由 Claude routine 整理；电影、舞台、音乐、节庆四栏随世界部分一起抓取：前三栏来自各影院、剧院和演出场馆官网的节目页（未来两周），节庆来自 PIK Warszawa 的节庆/市集/展会分类、facetpo40.pl 的酒类节庆日历和华沙啤酒节官网；汇率每个工作日从 NBP（波兰国家银行）A 表取中间价。<br>
+    数据来自 upstract.com、alltop.com、tophub.today、pepper.pl、mydealz.de、bankier.pl、pik.warszawa.pl、facetpo40.pl、华沙各信息源及各场馆官网，版权归原站。
     JSON：<a id="json-brief" href="brief/data/">世界</a> · <a id="json-warsaw" href="news/data/">华沙</a> · <a href="fx/data/rates.json">汇率</a> · <a href="https://github.com/CHLCCGA/CHLCCGA">GitHub</a>
   </footer>
 </main>
@@ -255,6 +255,52 @@ function renderBank(block, card, ol) {
     ol.append(li);
   });
 }
+// ---------- Warsaw what's-on (kind: events): items are works with shows, or festival runs ----------
+// Latest issue: EV_NOW = now on the Warsaw clock, EV_TODAY = today. Older issue: EV_NOW = "", EV_TODAY = its date.
+let EV_NOW = "", EV_TODAY = "";
+function nowWarsaw() {   // "YYYY-MM-DDTHH:MM" on the Warsaw clock
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Warsaw", year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit" }).format(new Date()).replace(" ", "T");
+}
+// An issue is read for up to two and a half days: on the latest one, drop shows that have already started.
+function upcoming(block) {
+  if (block.kind !== "events" || block.status !== "ok" || !EV_NOW) return block;
+  const items = block.items
+    .map(it => it.shows ? { ...it, shows: it.shows.filter(s => s.at.length > 10 ? s.at >= EV_NOW : s.at >= EV_TODAY) } : it)
+    .filter(it => it.shows ? it.shows.length : it.end >= EV_TODAY);
+  return { ...block, items };
+}
+const wd = s => WD[parseDate(s.slice(0, 10)).getUTCDay()];
+function renderEvents(items, ol) {
+  items.forEach(it => {
+    const li = el("li");
+    const day = el("div", "evd");
+    if (it.shows) day.append(el("b", null, shortDate(it.shows[0].at.slice(0, 10))), el("small", null, wd(it.shows[0].at)));
+    else if (it.start > EV_TODAY) day.append(el("b", null, shortDate(it.start)), el("small", null, wd(it.start)));
+    else day.append(el("b", null, "进行中"), el("small", null, `至 ${shortDate(it.end)}`));
+    li.append(day);
+    const b = el("div", "body");
+    b.append(link(it.url, "t", zh(it, "title")));
+    const m = el("div", "meta ev-meta");
+    if (it.tag) m.append(el("span", "tag gray", zh(it, "tag")), " ");
+    m.append([it.place, !it.shows && `${dateText(it.start, false)}–${dateText(it.end, false)}`].filter(Boolean).join(" · "));
+    if (m.textContent.trim()) b.append(m);
+    if (it.shows) {
+      const sh = el("div", "shows");
+      it.shows.slice(0, 5).forEach((s, i) => {
+        if (i) sh.append(" · ");
+        sh.append(`${shortDate(s.at.slice(0, 10))} ${wd(s.at)}${s.at.length > 10 ? " " + s.at.slice(11, 16) : ""}`);
+        if (s.en) sh.append(" ", el("span", "tag en", "英字幕"));
+      });
+      if (it.shows.length > 5) sh.append(` 等 ${it.shows.length} 场`);
+      b.append(sh);
+    }
+    if (it.summary) b.append(el("div", "summary ev-sum", zh(it, "summary")));
+    li.append(b);
+    ol.append(li);
+  });
+}
+
 function renderBlock(block, limit, cls) {
   const card = cardShell(block.name, block.home, cls);
   card.id = `b-${block.id}`;
@@ -276,7 +322,7 @@ function renderBlock(block, limit, cls) {
   const ol = el("ol", "items");
   card.append(ol);
   if (block.kind === "bank") renderBank(block, card, ol);
-  else ({ threads: renderThreads, deals: renderDeals, otd: renderOtd }[block.kind] || renderList)(items, ol);
+  else ({ threads: renderThreads, deals: renderDeals, otd: renderOtd, events: renderEvents }[block.kind] || renderList)(items, ol);
   return card;
 }
 
@@ -292,8 +338,8 @@ function section(id, label, note) {
   document.getElementById("secnav").append(Object.assign(el("a", null, label), { href: `#${id}` }));
   return sec;
 }
-function renderGroup(g, blocks) {
-  const sec = section(`g-${g.id}`, g.label);
+function renderGroup(g, blocks, note) {
+  const sec = section(`g-${g.id}`, g.label, note);
   if (g.layout === "lead") {
     const grid = el("div", "grid c3 lead");
     grid.append(renderBlock(blocks[0], null, "span2"));
@@ -533,16 +579,24 @@ function render() {
   document.getElementById("secnav").replaceChildren();
   const content = document.getElementById("content");
   content.replaceChildren();
-  const groups = brief ? brief.groups.filter(g => brief.blocks.some(b => b.group === g.id)) : [];
+  // What's-on cards with nothing in the next two weeks (status idle, or all shows past) are left out.
+  EV_NOW = latest ? nowWarsaw() : "";
+  EV_TODAY = latest ? EV_NOW.slice(0, 10) : (brief ? brief.date : "");
+  const blocks = brief ? brief.blocks.map(upcoming).filter(b => b.kind !== "events" || b.status === "fail" || b.items.length) : [];
+  const groups = brief ? brief.groups.filter(g => blocks.some(b => b.group === g.id)) : [];
+  const groupOf = g => renderGroup(g, blocks.filter(b => b.group === g.id), g.note);
+  // Warsaw: the digest, then the local what's-on groups, then exchange rates — all after the first world group.
   const afterFirst = () => {
     if (w) content.append(renderWarsaw(w));
+    groups.filter(g => g.local).forEach(g => content.append(groupOf(g)));
     if (fx) content.append(renderFx(fx));
   };
-  groups.forEach((g, k) => {
-    content.append(renderGroup(g, brief.blocks.filter(b => b.group === g.id)));
+  const world = groups.filter(g => !g.local);
+  world.forEach((g, k) => {
+    content.append(groupOf(g));
     if (k === 0) afterFirst();
   });
-  if (!groups.length) afterFirst();
+  if (!world.length) afterFirst();
   if (fx) drawFx();
 
   document.getElementById("json-brief").href = brief ? `brief/data/${brief.date}.json` : "brief/data/";
@@ -553,7 +607,7 @@ function render() {
   st.hidden = false;
   const sum = [];
   if (brief) {
-    const failed = brief.blocks.filter(b => b.status !== "ok").length;
+    const failed = brief.blocks.filter(b => b.status === "fail").length;
     sum.push(`世界 ${brief.blocks.length} 块，失败 ${failed}`);
     if (tr.done != null) sum.push(`已翻译 ${tr.done} 条${tr.missing ? `，未翻译 ${tr.missing} 条` : ""}`);
   }
@@ -563,7 +617,8 @@ function render() {
   if (brief) {
     st.append(el("h4", null, "世界"));
     const ul = el("ul");
-    brief.blocks.forEach(b => ul.append(el("li", b.status === "ok" ? "ok" : "fail", `${b.name}：${b.status === "ok" ? `${b.items.length} 条` : b.error}`)));
+    brief.blocks.forEach(b => ul.append(el("li", b.status === "fail" ? "fail" : "ok",
+      `${b.name}：${b.status === "ok" ? `${b.items.length} 条` : b.status === "idle" ? "近两周没有场次" : b.error}`)));
     if (tr.error) ul.append(el("li", "warn", `翻译：${tr.error}`));
     st.append(ul);
   }

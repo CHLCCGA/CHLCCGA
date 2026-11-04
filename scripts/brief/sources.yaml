@@ -1,17 +1,28 @@
 # What the home page (index.html) shows from the aggregators, in order. The page never changes:
 # build.py turns this list into brief/data/<date>.json and the page renders whatever is there.
-# The Warsaw digest (news/data/, written by the Claude routine) is inserted after the first group.
+# The Warsaw digest (news/data/, written by the Claude routine) is inserted after the first group,
+# followed by the groups marked `local: true` (Warsaw what's-on) and then the exchange rates.
 #
-# - groups: the page sections (order + title). layout: lead = first card two columns wide, the
+# - groups: the page sections (order + title; note = small text after the title). layout: lead = first card two columns wide, the
 #   other cards stacked in the third column. Otherwise the page picks 4/3/2 columns from the card count,
 #   so keep each group at 2, 3, 4 or 6 cards to fill whole rows.
 # - blocks: one card each. To add another upstract box, copy an upstract line and set `section`
 #   to the box's heading on upstract.com; other sites need a parser function in parsers.py.
-#   kind = list | threads | trends | deals | bank | otd decides how the card is drawn.
+#   kind = list | threads | trends | deals | bank | otd | events decides how the card is drawn.
+# - kind: events (Warsaw venues' own program pages): a parser returns single performances or runs
+#   (festivals); build.py keeps the next `days` days (default 14), merges repeat performances of a title
+#   and keeps the first `limit` titles (default 10). A url with {y} {m} {mm} {last} placeholders is fetched
+#   for this month and the next; a list of urls is fetched as it is and read by the one parser.
+#   Nothing on in the window is not an error: the card is hidden (status idle).
+#   seasonal: true = an empty program is normal too (a festival outside its dates).
 #   lang: the source language; non-zh blocks get Chinese translations (the page can switch back to the original).
 # Schedule: .github/workflows/brief.yml (and SLOTS in index.html for the "next issue" hint).
 groups:
   - {id: focus, label: 今日焦点, layout: lead}
+  - {id: film, label: 电影, local: true, note: "华沙 · 未来两周"}
+  - {id: stage, label: 舞台, local: true, note: "华沙 · 未来两周"}
+  - {id: music, label: 音乐, local: true, note: "华沙 · 未来两周"}
+  - {id: fest, label: 节庆与市集, local: true, note: "华沙 · 未来一个月；酒类节庆看五个月"}
   - {id: news, label: 新闻}
   - {id: ideas, label: 深度与评论}
   - {id: alltop, label: Alltop 分类}
@@ -42,3 +53,20 @@ blocks:
   - {id: pepper, name: "Pepper.pl", group: deals, kind: deals, parser: pepper, url: "https://www.pepper.pl/najgoretsze", home: "https://www.pepper.pl/najgoretsze", lang: pl, limit: 10, currency: PLN}
   - {id: mydealz, name: "mydealz", group: deals, kind: deals, parser: pepper, url: "https://www.mydealz.de/heisseste", home: "https://www.mydealz.de/heisseste", lang: de, limit: 10, currency: EUR}
   - {id: bankier, name: "Bankier 开户奖励榜", group: money, kind: bank, parser: bankier, url: "https://www.bankier.pl/smart/konta-z-premia-ranking", home: "https://www.bankier.pl/smart/konta-z-premia-ranking", lang: pl}
+  # Warsaw what's-on, from the venues' own program pages
+  - {id: piecsmakow, name: "Pięć Smaków 亚洲电影节", group: film, kind: events, parser: piecsmakow, url: "https://www.piecsmakow.pl/program/index", home: "https://www.piecsmakow.pl/program/kalendarz", lang: pl, seasonal: true, limit: 12}
+  - {id: muranow_en, name: "Kino Muranów · 英文字幕场", group: film, kind: events, parser: muranow_cycle, url: "https://kinomuranow.pl/cykle-filmowe/english-friendly-screenings-english-subtitles-seans-z-polskimi-i-angielskimi-napisami", home: "https://kinomuranow.pl/cykle-filmowe/english-friendly-screenings-english-subtitles-seans-z-polskimi-i-angielskimi-napisami", lang: pl}
+  - {id: muranow_fest, name: "Kino Muranów · 影展与专题", group: film, kind: events, parser: muranow_festivals, url: "https://kinomuranow.pl/festiwale-i-przeglady", home: "https://kinomuranow.pl/festiwale-i-przeglady", lang: pl}
+  - {id: iluzjon, name: "Iluzjon 国家电影资料馆", group: film, kind: events, parser: iluzjon, url: "https://www.iluzjon.fn.org.pl/repertuar.html", home: "https://www.iluzjon.fn.org.pl/repertuar.html", lang: pl}
+  - {id: teatrwielki, name: "大剧院 · 国家歌剧院", group: stage, kind: events, parser: teatrwielki, url: "https://teatrwielki.pl/kalendarium/data/{y}/{mm}/", home: "https://teatrwielki.pl/kalendarium/", lang: pl}
+  - {id: narodowy, name: "Teatr Narodowy 国家剧院", group: stage, kind: events, parser: narodowy, url: "https://www.narodowy.pl/repertuar,kalendarium.html?month={m}&year={y}", home: "https://www.narodowy.pl/repertuar,kalendarium.html", lang: pl}
+  - {id: tr, name: "TR Warszawa", group: stage, kind: events, parser: trwarszawa, url: "https://trwarszawa.pl/kalendarz/?view=list&trw_month={y}-{mm}", home: "https://trwarszawa.pl/kalendarz/", lang: pl}
+  - {id: nowy, name: "Nowy Teatr", group: stage, kind: events, parser: nowyteatr, url: "https://nowyteatr.org/pl/kalendarz?date_from={y}-{mm}-01&date_to={y}-{mm}-{last}", home: "https://nowyteatr.org/pl/kalendarz", lang: pl}
+  - {id: polski, name: "Teatr Polski", group: stage, kind: events, parser: teatrpolski, url: "https://teatrpolski.waw.pl/repertuar", home: "https://teatrpolski.waw.pl/repertuar", lang: pl}
+  - {id: roma, name: "Teatr Roma 音乐剧", group: stage, kind: events, parser: roma, url: "https://www.teatrroma.pl/", home: "https://www.teatrroma.pl/", lang: pl}
+  - {id: filharmonia, name: "国家爱乐 Filharmonia Narodowa", group: music, kind: events, parser: filharmonia, url: "https://filharmonia.pl/repertuar", home: "https://filharmonia.pl/repertuar", lang: pl}
+  - {id: progresja, name: "Progresja", group: music, kind: events, parser: progresja, url: "https://progresja.com/wydarzenia/", home: "https://progresja.com/wydarzenia/", lang: pl}
+  - {id: stodola, name: "Klub Stodoła", group: music, kind: events, parser: stodola, url: "https://www.stodola.pl/koncerty", home: "https://www.stodola.pl/koncerty", lang: pl}
+  - {id: palladium, name: "Palladium", group: music, kind: events, parser: palladium, url: "https://palladium.pl/", home: "https://palladium.pl/", lang: pl}
+  - {id: pik, name: "节庆 · 市集 · 展会", group: fest, kind: events, parser: pik, url: ["https://pik.warszawa.pl/festiwal/", "https://pik.warszawa.pl/jarmark/", "https://pik.warszawa.pl/targi/"], home: "https://pik.warszawa.pl/festiwal/", lang: pl, days: 31, limit: 12}
+  - {id: drinks, name: "葡萄酒 · 威士忌 · 啤酒节", group: fest, kind: events, parser: drink_festivals, url: ["https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", "https://warszawskifestiwalpiwa.pl/"], home: "https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", lang: pl, days: 150}
