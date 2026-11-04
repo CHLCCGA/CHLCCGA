@@ -34,7 +34,6 @@ def main():
     dates = sorted(set.intersection(*(set(s) for s in series.values())))
     out = {
         "source": "NBP Table A (mid rate, PLN per 1 unit)",
-        "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "dates": dates,
         **{code: [series[code][d] for d in dates] for code in CODES},
     }
