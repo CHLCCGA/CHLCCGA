@@ -16,7 +16,6 @@
 #   Nothing on in the window is not an error: the card is hidden (status idle).
 #   seasonal: true = an empty program is normal too (a festival outside its dates).
 #   lang: the source language; non-zh blocks get Chinese translations (the page can switch back to the original).
-#   translate: headline = translate event titles as plain text (they are not names of works, e.g. addresses).
 # - quiet: true (kind: list): an empty result is normal, the card is hidden (status idle). The parser's items from
 #   all urls are merged (one per link, soonest `at` first, `limit`). names: url part → source name shown on each item.
 # Schedule: .github/workflows/brief.yml (and SLOTS in index.html for the "next issue" hint).
@@ -93,27 +92,8 @@ blocks:
     names: {"solidarnosc.org.pl/ksn": "团结工会科学分部", "solidarnosc.org.pl": "团结工会", "znp.edu.pl": "ZNP 教师工会", "3procentnanauke.pl": "3% 给科学"}
     home: "https://www.solidarnosc.org.pl/ksn/"
     lang: pl
-  # The city's register (BIP) of every notified assembly: start and place, no topic, so only places that tell the
-  # topic are kept: the science ministry (Wspólna 1/3, entrance Hoża 20), the education ministry (al. Szucha 25),
-  # universities, PAN, NCBR. 25 a page, latest start first; assemblies are notified 6-30 days ahead, so four
-  # pages reach back past today.
-  - id: zgromadzenia
-    name: "华沙已申报集会 · 科学部、教育部、高校门前"
-    group: protest
-    kind: events
-    parser: bip_assemblies
-    places: "Wspóln\\w* 1/3|Hoż\\w* 20\\b|Szucha 25\\b|Ministerstw\\w* (Nauki|Edukacji)|Uniwersytet|Politechni|Akademi\\w* Nauk|Centrum Bada"
-    seasonal: true
-    days: 30
-    translate: headline
-    limit: 12
-    url:
-      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=1"
-      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=2"
-      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=3"
-      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=4"
-    home: "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?scope=Zgromadzenia+publiczne"
-    lang: pl
+  # Not here: the city's register of notified assemblies (bip.warszawa.pl, Zgromadzenia publiczne) answers
+  # GitHub Actions with 403 (2026-11-04; 200 from a home connection). It lists start and place only, no topic.
 
 # Films to keep an eye on: a card at the top of the film section. Every issue searches the visible text of
 # `urls` (Warsaw cinemas, the likely Polish distributor) for `pattern` (case-insensitive) and shows any hit.

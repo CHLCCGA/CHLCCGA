@@ -194,7 +194,7 @@ def build(args):
     pages, fetch_errors = _load_pages(config, args.fixtures, issue_date)
     blocks = []
     for cfg in config["blocks"]:
-        block = {key: cfg[key] for key in ("id", "name", "group", "kind", "home", "lang", "translate") if key in cfg}
+        block = {key: cfg[key] for key in ("id", "name", "group", "kind", "home", "lang")}
         block.update({"status": "ok", "error": None, "items": []})
         urls = [url for url in _urls(cfg, issue_date) if url in pages]
         if not urls:

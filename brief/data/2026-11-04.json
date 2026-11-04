@@ -3875,18 +3875,6 @@
    "status": "idle",
    "error": null,
    "items": []
-  },
-  {
-   "id": "zgromadzenia",
-   "name": "华沙已申报集会 · 科学部、教育部、高校门前",
-   "group": "protest",
-   "kind": "events",
-   "home": "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?scope=Zgromadzenia+publiczne",
-   "lang": "pl",
-   "translate": "headline",
-   "status": "fail",
-   "error": "403 Client Error: Forbidden for url: https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=1",
-   "items": []
   }
  ],
  "watch": [

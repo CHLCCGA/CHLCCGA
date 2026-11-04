@@ -613,9 +613,9 @@ function render() {
   // A protest coming up is the one thing worth a notice at the top.
   const protests = latest ? blocks.filter(b => b.group === "protest" && b.status === "ok" && b.items.length) : [];
   if (protests.length) {
-    const days = protests.flatMap(b => b.items.map(it => it.at || (it.shows && it.shows[0].at) || "")).filter(d => d >= EV_TODAY).sort();
+    const days = protests.flatMap(b => b.items.map(it => it.at || "")).filter(Boolean).sort();
     const n = el("div", "notice");
-    n.append(`教育与科研界有抗议即将举行${days.length ? `（最近一场 ${shortDate(days[0].slice(0, 10))} ${wd(days[0])}）` : ""}，`,
+    n.append(`教育与科研界有抗议即将举行${days.length ? `（最近一场 ${shortDate(days[0])} ${wd(days[0])}）` : ""}，`,
       Object.assign(el("a", null, "看「集会与抗议」"), { href: "#g-protest" }));
     notices.append(n);
   }

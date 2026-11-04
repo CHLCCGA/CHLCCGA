@@ -957,29 +957,3 @@ def protest_feed(html, block_cfg, fetched_at):
             items.append({"title": title, "url": node.findtext("link").strip(), "source": source,
                           "time": _utc(written), "at": day})
     return items
-
-
-def bip_assemblies(html, block_cfg, fetched_at):
-    """Warsaw's register of notified public assemblies (BIP, newest start first, 25 a page): start, place and
-    status only - the register names no topic or organiser. Status other than accepted becomes the tag.
-    `places` (a regex) keeps the assemblies held there; nothing there is normal, an empty page is not."""
-    soup = BeautifulSoup(html, "html.parser")
-    entries = soup.select("li.bip-zgromadzenie-publiczne-list-item")
-    if not entries:
-        raise ValueError("no assemblies on the page (layout may have changed)")
-    items = []
-    for entry in entries:
-        rows = {_text(row.select_one(".search-entry-data-label")): [_text(p) for p in row.select("dd p")]
-                for row in entry.select(".search-entry-data-row")}
-        start = rows.get("Rozpoczęcie", [])
-        place = " ".join(rows.get("Adres", []))
-        status = rows.get("Kategorie", [])[1:]
-        link = entry.select_one("a[href]")
-        if not start or not place or not link or not re.search(block_cfg.get("places", ""), place, re.I):
-            continue
-        item = {"title": place, "url": _event_url(link["href"], block_cfg),
-                "at": start[0] + (f"T{start[1]}" if len(start) > 1 else "")}
-        if status and status[0] != "Przyjęte":
-            item["tag"] = status[0]
-        items.append(item)
-    return items
