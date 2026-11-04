@@ -194,7 +194,7 @@ def build(args):
     pages, fetch_errors = _load_pages(config, args.fixtures, issue_date)
     blocks = []
     for cfg in config["blocks"]:
-        block = {key: cfg[key] for key in ("id", "name", "group", "kind", "home", "lang")}
+        block = {key: cfg[key] for key in ("id", "name", "group", "kind", "home", "lang", "translate") if key in cfg}
         block.update({"status": "ok", "error": None, "items": []})
         urls = [url for url in _urls(cfg, issue_date) if url in pages]
         if not urls:
@@ -207,6 +207,13 @@ def build(args):
                     found, items = bool(items), _events(items, issue_date, cfg)
                     if not items and (found or cfg.get("seasonal")):
                         block["status"] = "idle"   # nothing in the next two weeks (or festival off-season)
+                elif cfg.get("quiet"):
+                    # several feeds read by one parser: one entry per link, soonest day (`at`) first, then newest
+                    # post; nothing lately is normal
+                    items = sorted({item["url"]: item for item in items}.values(), key=lambda item: item["time"], reverse=True)
+                    items = sorted(items, key=lambda item: item.get("at", ""))[:cfg.get("limit", 8)]
+                    if not items:
+                        block["status"] = "idle"
                 for index, item in enumerate(items):
                     item["id"] = f"{cfg['id']}-{index}"
                 if not items and block["status"] != "idle":

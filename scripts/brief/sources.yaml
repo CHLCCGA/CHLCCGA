@@ -16,6 +16,9 @@
 #   Nothing on in the window is not an error: the card is hidden (status idle).
 #   seasonal: true = an empty program is normal too (a festival outside its dates).
 #   lang: the source language; non-zh blocks get Chinese translations (the page can switch back to the original).
+#   translate: headline = translate event titles as plain text (they are not names of works, e.g. addresses).
+# - quiet: true (kind: list): an empty result is normal, the card is hidden (status idle). The parser's items from
+#   all urls are merged (one per link, soonest `at` first, `limit`). names: url part → source name shown on each item.
 # Schedule: .github/workflows/brief.yml (and SLOTS in index.html for the "next issue" hint).
 groups:
   - {id: focus, label: 今日焦点, layout: lead}
@@ -23,6 +26,7 @@ groups:
   - {id: stage, label: 舞台, local: true, note: "华沙 · 未来两周"}
   - {id: music, label: 音乐, local: true, note: "华沙 · 未来两周"}
   - {id: fest, label: 节庆与市集, local: true, note: "华沙 · 未来一个月；酒类节庆看五个月"}
+  - {id: protest, label: 集会与抗议, local: true, note: "教育与科研界 · 只列还没举行的；没有就不显示"}
   - {id: news, label: 新闻}
   - {id: ideas, label: 深度与评论}
   - {id: alltop, label: Alltop 分类}
@@ -70,6 +74,46 @@ blocks:
   - {id: palladium, name: "Palladium", group: music, kind: events, parser: palladium, url: "https://palladium.pl/", home: "https://palladium.pl/", lang: pl}
   - {id: pik, name: "节庆 · 市集 · 展会", group: fest, kind: events, parser: pik, url: ["https://pik.warszawa.pl/festiwal/", "https://pik.warszawa.pl/jarmark/", "https://pik.warszawa.pl/targi/"], home: "https://pik.warszawa.pl/festiwal/", lang: pl, days: 31, limit: 12}
   - {id: drinks, name: "葡萄酒 · 威士忌 · 啤酒节", group: fest, kind: events, parser: drink_festivals, url: ["https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", "https://warszawskifestiwalpiwa.pl/"], home: "https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", lang: pl, days: 150}
+  # Protests. Unions announce their Warsaw rallies 2-3 weeks ahead (Solidarność's 17 Oct 2026 rally: 28 Sep);
+  # Solidarność's national site posts too much for its plain feed, so its keyword searches are read instead.
+  # 3procentnanauke.pl (the researchers' "3% for science" campaign) has no posts, only a landing page.
+  - id: edu_protest
+    name: "教育与科研界 · 抗议公告"
+    group: protest
+    kind: list
+    parser: protest_feed
+    quiet: true
+    url:
+      - "https://www.solidarnosc.org.pl/ksn/feed/"
+      - "https://www.solidarnosc.org.pl/?s=manifestac&feed=rss2"
+      - "https://www.solidarnosc.org.pl/?s=protest&feed=rss2"
+      - "https://znp.edu.pl/?s=manifestac&feed=rss2"
+      - "https://znp.edu.pl/?s=protest&feed=rss2"
+      - "https://3procentnanauke.pl/"
+    names: {"solidarnosc.org.pl/ksn": "团结工会科学分部", "solidarnosc.org.pl": "团结工会", "znp.edu.pl": "ZNP 教师工会", "3procentnanauke.pl": "3% 给科学"}
+    home: "https://www.solidarnosc.org.pl/ksn/"
+    lang: pl
+  # The city's register (BIP) of every notified assembly: start and place, no topic, so only places that tell the
+  # topic are kept: the science ministry (Wspólna 1/3, entrance Hoża 20), the education ministry (al. Szucha 25),
+  # universities, PAN, NCBR. 25 a page, latest start first; assemblies are notified 6-30 days ahead, so four
+  # pages reach back past today.
+  - id: zgromadzenia
+    name: "华沙已申报集会 · 科学部、教育部、高校门前"
+    group: protest
+    kind: events
+    parser: bip_assemblies
+    places: "Wspóln\\w* 1/3|Hoż\\w* 20\\b|Szucha 25\\b|Ministerstw\\w* (Nauki|Edukacji)|Uniwersytet|Politechni|Akademi\\w* Nauk|Centrum Bada"
+    seasonal: true
+    days: 30
+    translate: headline
+    limit: 12
+    url:
+      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=1"
+      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=2"
+      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=3"
+      - "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?p_p_id=web_content_search_portlet_INSTANCE_vyis&p_p_lifecycle=0&_web_content_search_portlet_INSTANCE_vyis_mvcPath=%2Fview.jsp&_web_content_search_portlet_INSTANCE_vyis_sortType=date&_web_content_search_portlet_INSTANCE_vyis_orderByType=desc&scope=Zgromadzenia+publiczne&_web_content_search_portlet_INSTANCE_vyis_cur=4"
+    home: "https://bip.warszawa.pl/ogloszenia-obwieszczenia-zawiadomienia?scope=Zgromadzenia+publiczne"
+    lang: pl
 
 # Films to keep an eye on: a card at the top of the film section. Every issue searches the visible text of
 # `urls` (Warsaw cinemas, the likely Polish distributor) for `pattern` (case-insensitive) and shows any hit.

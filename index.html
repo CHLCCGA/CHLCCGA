@@ -157,6 +157,7 @@ function renderList(items, ol) {
     const b = el("div", "body");
     b.append(link(it.url, "t", zh(it, "title")));
     const parts = [
+      it.at && `${shortDate(it.at)} ${wd(it.at)}举行`,
       it.source,
       it.traffic && `${it.traffic} 次搜索`,
       it.count && `${it.count} 个来源`,
@@ -264,6 +265,7 @@ function nowWarsaw() {   // "YYYY-MM-DDTHH:MM" on the Warsaw clock
 }
 // An issue is read for up to two and a half days: on the latest one, drop shows that have already started.
 function upcoming(block) {
+  if (block.kind === "list" && block.status === "ok" && EV_NOW) return { ...block, items: block.items.filter(it => !it.at || it.at >= EV_TODAY) };
   if (block.kind !== "events" || block.status !== "ok" || !EV_NOW) return block;
   const items = block.items
     .map(it => it.shows ? { ...it, shows: it.shows.filter(s => s.at.length > 10 ? s.at >= EV_NOW : s.at >= EV_TODAY) } : it)
@@ -603,10 +605,20 @@ function render() {
   document.getElementById("secnav").replaceChildren();
   const content = document.getElementById("content");
   content.replaceChildren();
-  // What's-on cards with nothing in the next two weeks (status idle, or all shows past) are left out.
+  // Cards with nothing to show are left out: what's-on with nothing in the next two weeks, protest notices with
+  // nothing coming up (status idle, or everything already past).
   EV_NOW = latest ? nowWarsaw() : "";
   EV_TODAY = latest ? EV_NOW.slice(0, 10) : (brief ? brief.date : "");
-  const blocks = brief ? brief.blocks.map(upcoming).filter(b => b.kind !== "events" || b.status === "fail" || b.items.length) : [];
+  const blocks = brief ? brief.blocks.map(upcoming).filter(b => b.status === "fail" || b.items.length) : [];
+  // A protest coming up is the one thing worth a notice at the top.
+  const protests = latest ? blocks.filter(b => b.group === "protest" && b.status === "ok" && b.items.length) : [];
+  if (protests.length) {
+    const days = protests.flatMap(b => b.items.map(it => it.at || (it.shows && it.shows[0].at) || "")).filter(d => d >= EV_TODAY).sort();
+    const n = el("div", "notice");
+    n.append(`教育与科研界有抗议即将举行${days.length ? `（最近一场 ${shortDate(days[0].slice(0, 10))} ${wd(days[0])}）` : ""}，`,
+      Object.assign(el("a", null, "看「集会与抗议」"), { href: "#g-protest" }));
+    notices.append(n);
+  }
   const groups = brief ? brief.groups.filter(g => blocks.some(b => b.group === g.id)) : [];
   const groupOf = g => renderGroup(g, blocks.filter(b => b.group === g.id), g.note);
   // Warsaw: the digest, then the local what's-on groups, then exchange rates — all after the first world group.
@@ -646,7 +658,7 @@ function render() {
     st.append(el("h4", null, "世界"));
     const ul = el("ul");
     brief.blocks.forEach(b => ul.append(el("li", b.status === "fail" ? "fail" : "ok",
-      `${b.name}：${b.status === "ok" ? `${b.items.length} 条` : b.status === "idle" ? "近两周没有场次" : b.error}`)));
+      `${b.name}：${b.status === "ok" ? `${b.items.length} 条` : b.status === "idle" ? (b.group === "protest" ? "目前没有将要举行的" : "近两周没有场次") : b.error}`)));
     (brief.watch || []).forEach(w => ul.append(el("li", w.checked.every(c => c.ok) ? "ok" : "warn",
       `追踪 ${w.name}：${w.checked.filter(c => c.ok).length}/${w.checked.length} 个页面，命中 ${w.hits.length} 处`)));
     if (tr.error) ul.append(el("li", "warn", `翻译：${tr.error}`));

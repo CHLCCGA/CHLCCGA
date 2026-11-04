@@ -1,7 +1,9 @@
 """Small parsers for the source pages configured in sources.yaml."""
 import json
 import re
-from datetime import timedelta, timezone
+import xml.etree.ElementTree as ET
+from datetime import date, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
@@ -900,4 +902,84 @@ def drink_festivals(html, block_cfg, fetched_at):
         span = _event_span(where.split(" - ", 1)[1], fetched_at)
         if span:
             items.append(_event_span_entry(_text(heading), url or block_cfg["url"], span, summary=_event_summary(summary)))
+    return items
+
+
+# Protest notices from education and science unions (kind: list, quiet). A post counts when its title names a
+# protest, its title or excerpt is about schools or science, and it names a day still to come (`at`, the first
+# such day). Announcements name the day ("w sobotę 17 października"); reports afterwards name a past one or none.
+_PROTEST = re.compile(r"protest|manifestac|demonstrac|pikiet|strajk|na ulic|\bmarsz(?:u|em)?\b|zgromadzeni", re.I)
+_EDU = re.compile(r"nauk|uczel|akadem|szkolnictw|oświat|nauczyc|edukac|szkoł|doktoran|badacz", re.I)
+_ANNIVERSARY = re.compile(r"rocznic|mija \d+ lat", re.I)   # commemorations of past strikes
+_PL_DATE = re.compile(r"\b(\d{1,2})\s+(stycznia|lutego|marca|kwietnia|maja|czerwca|lipca|sierpnia|września|"
+                      r"października|listopada|grudnia)(?:\s+(\d{4}))?", re.I)
+
+
+def _utc(value):
+    return value.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def _next_day(text, written, fetched_at):
+    """The first day still to come (within 90 days) that a Polish text written at `written` names, or None."""
+    days = [_event_day(m.group(1), _event_month(m.group(2)), written, m.group(3)) for m in _PL_DATE.finditer(text)]
+    if re.search(r"\bjutro\b", text, re.I):
+        days.append((written + timedelta(days=1)).date().isoformat())
+    today = fetched_at.date()
+    days = [day for day in days if day and 0 <= (date.fromisoformat(day) - today).days <= 90]
+    return min(days, default=None)
+
+
+def protest_feed(html, block_cfg, fetched_at):
+    """Union RSS feeds (WordPress, some of them keyword searches) and a campaign's landing page (not RSS:
+    it counts when its text names a day still to come)."""
+    source = next((name for prefix, name in sorted(block_cfg["names"].items(), key=lambda kv: -len(kv[0]))
+                   if prefix in block_cfg["url"]), "")
+    if "<rss" not in html[:1000]:
+        text = page_text(html)
+        for match in _PL_DATE.finditer(text):
+            day = _next_day(match.group(0), fetched_at, fetched_at)
+            if day:
+                return [{"title": text[max(0, match.start() - 60):match.end() + 40].strip(), "url": block_cfg["url"],
+                         "source": source, "time": _utc(fetched_at), "at": day}]
+        return []
+    channel = ET.fromstring(html).find("channel")
+    if channel is None:
+        raise ValueError("not an RSS feed")
+    items = []
+    for node in channel.findall("item"):
+        title = " ".join((node.findtext("title") or "").split())
+        excerpt = page_text(node.findtext("description") or "")
+        written = parsedate_to_datetime(node.findtext("pubDate"))
+        if not _PROTEST.search(title) or _ANNIVERSARY.search(title) or not _EDU.search(f"{title} {excerpt}"):
+            continue
+        day = _next_day(f"{title} {excerpt}", written, fetched_at)
+        if day:
+            items.append({"title": title, "url": node.findtext("link").strip(), "source": source,
+                          "time": _utc(written), "at": day})
+    return items
+
+
+def bip_assemblies(html, block_cfg, fetched_at):
+    """Warsaw's register of notified public assemblies (BIP, newest start first, 25 a page): start, place and
+    status only - the register names no topic or organiser. Status other than accepted becomes the tag.
+    `places` (a regex) keeps the assemblies held there; nothing there is normal, an empty page is not."""
+    soup = BeautifulSoup(html, "html.parser")
+    entries = soup.select("li.bip-zgromadzenie-publiczne-list-item")
+    if not entries:
+        raise ValueError("no assemblies on the page (layout may have changed)")
+    items = []
+    for entry in entries:
+        rows = {_text(row.select_one(".search-entry-data-label")): [_text(p) for p in row.select("dd p")]
+                for row in entry.select(".search-entry-data-row")}
+        start = rows.get("Rozpoczęcie", [])
+        place = " ".join(rows.get("Adres", []))
+        status = rows.get("Kategorie", [])[1:]
+        link = entry.select_one("a[href]")
+        if not start or not place or not link or not re.search(block_cfg.get("places", ""), place, re.I):
+            continue
+        item = {"title": place, "url": _event_url(link["href"], block_cfg),
+                "at": start[0] + (f"T{start[1]}" if len(start) > 1 else "")}
+        if status and status[0] != "Przyjęte":
+            item["tag"] = status[0]
+        items.append(item)
     return items

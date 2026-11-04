@@ -102,6 +102,7 @@ button, select { font: inherit; color: inherit; }
 }
 .notice { margin: 12px 0 0; padding: 10px 14px; border-radius: 12px; font-size: 14px; background: var(--accent-soft); color: var(--text-2); }
 .notice.bad { background: rgba(217, 48, 37, .08); color: var(--bad); }
+.notice a { color: var(--accent); font-weight: 500; }
 
 /* ---------- sections and grid ----------
    Each section sets its column count from its card count (.c1–.c4) so rows are always full;

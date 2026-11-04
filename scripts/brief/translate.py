@@ -14,7 +14,7 @@ def _fields(issue):
             continue
         events = block["kind"] == "events"
         for item in block["items"]:
-            yield item, "title", "title_zh", "event" if events else "headline"
+            yield item, "title", "title_zh", block.get("translate") or ("event" if events else "headline")
             if item.get("summary"):
                 yield item, "summary", "summary_zh", "headline"
             if events and item.get("tag"):
