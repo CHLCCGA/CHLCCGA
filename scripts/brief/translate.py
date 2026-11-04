@@ -63,7 +63,7 @@ def _request(strings, style, key):
     return translated
 
 
-def _source(entry):
+def _sent_text(entry):
     item, field, _target, style = entry
     if style == "event" and item.get("summary"):
         return f"{item[field]} — {item['summary']}"
@@ -82,7 +82,7 @@ def translate_issue(issue):
         entries = [entry for entry in needed if entry[3] == style]
         for start in range(0, len(entries), 50):
             batch = entries[start:start + 50]
-            strings = [_source(entry) for entry in batch]
+            strings = [_sent_text(entry) for entry in batch]
             translations = None
             for attempt in range(2):
                 try:
