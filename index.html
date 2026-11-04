@@ -609,7 +609,7 @@ function render() {
   if (brief) {
     const failed = brief.blocks.filter(b => b.status === "fail").length;
     sum.push(`世界 ${brief.blocks.length} 块，失败 ${failed}`);
-    if (tr.done != null) sum.push(`已翻译 ${tr.done} 条${tr.missing ? `，未翻译 ${tr.missing} 条` : ""}`);
+    if (tr.done != null) sum.push(`已翻译 ${tr.done} 条${tr.reused ? `（${tr.reused} 条沿用前几期）` : ""}${tr.missing ? `，未翻译 ${tr.missing} 条` : ""}`);
   }
   const sites = ((w && w.sources) || []).filter(s => !runErrors.includes(s));
   if (sites.length) sum.push(`华沙 ${sites.length} 个源，失败 ${sites.filter(s => s.status === "fail").length}，提示 ${sites.filter(s => s.status === "warn").length}`);

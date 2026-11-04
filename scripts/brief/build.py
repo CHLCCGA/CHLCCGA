@@ -147,13 +147,24 @@ def _index(out):
     _write_json(out / "index.json", dates)
 
 
+def _recent(out, count=3):
+    """The newest issues already written (about a week), whose translations the new issue reuses."""
+    issues = []
+    for path in sorted(out.glob("????-??-??.json"), reverse=True)[:count]:
+        try:
+            issues.append(json.loads(path.read_text(encoding="utf-8")))
+        except (OSError, ValueError):
+            continue
+    return issues
+
+
 def build(args):
     out = Path(args.out).resolve() if args.out else REPO_DIR / "brief" / "data"
     out.mkdir(parents=True, exist_ok=True)
     if args.translate_only:
         path = out / f"{args.translate_only}.json"
         issue = json.loads(path.read_text(encoding="utf-8"))
-        translate_issue(issue)
+        translate_issue(issue, _recent(out))
         _write_json(path, issue)
         _index(out)
         return 0
@@ -190,7 +201,7 @@ def build(args):
     if args.no_translate:
         issue["translation"] = {"done": 0, "missing": len(_needed(issue)), "error": "skipped"}
     else:
-        translate_issue(issue)
+        translate_issue(issue, _recent(out))
     _write_json(out / f"{issue_date}.json", issue)
     _index(out)
     return 0 if any(block["status"] == "ok" for block in blocks) else 1

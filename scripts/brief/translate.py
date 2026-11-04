@@ -7,22 +7,40 @@ import requests
 ENDPOINT = "https://api.deepseek.com/chat/completions"
 
 
-def _needed(issue):
-    fields = []
+def _fields(issue):
+    """Every translatable field of an issue, translated or not: (item, source field, target field, style)."""
     for block in issue["blocks"]:
         if block["lang"] == "zh" or block["status"] != "ok":
             continue
         events = block["kind"] == "events"
         for item in block["items"]:
-            if "title_zh" not in item:
-                fields.append((item, "title", "title_zh", "event" if events else "headline"))
-            if item.get("summary") and "summary_zh" not in item:
-                fields.append((item, "summary", "summary_zh", "headline"))
-            if events and item.get("tag") and "tag_zh" not in item:
-                fields.append((item, "tag", "tag_zh", "headline"))
-            if block["kind"] == "bank" and item.get("bonus_text") and "bonus_zh" not in item:
-                fields.append((item, "bonus_text", "bonus_zh", "bonus"))
-    return fields
+            yield item, "title", "title_zh", "event" if events else "headline"
+            if item.get("summary"):
+                yield item, "summary", "summary_zh", "headline"
+            if events and item.get("tag"):
+                yield item, "tag", "tag_zh", "headline"
+            if block["kind"] == "bank" and item.get("bonus_text"):
+                yield item, "bonus_text", "bonus_zh", "bonus"
+
+
+def _needed(issue):
+    return [entry for entry in _fields(issue) if entry[2] not in entry[0]]
+
+
+def _key(entry):
+    return entry[3], json.dumps(_sent_text(entry), ensure_ascii=False)
+
+
+def reuse(issue, previous):
+    """Copy translations of strings unchanged since earlier issues, so a long-running show or an unchanged bank
+    bonus keeps the same Chinese text and is not paid for again. Returns how many were filled."""
+    known = {_key(entry): entry[0][entry[2]] for old in previous for entry in _fields(old) if entry[2] in entry[0]}
+    count = 0
+    for entry in _needed(issue):
+        if _key(entry) in known:
+            entry[0][entry[2]] = known[_key(entry)]
+            count += 1
+    return count
 
 
 INSTRUCTIONS = {
@@ -72,12 +90,13 @@ def _sent_text(entry):
     return item[field]
 
 
-def translate_issue(issue):
-    """Fill translations in place and set the contract's translation summary."""
+def translate_issue(issue, previous=()):
+    """Fill translations in place (reusing those of `previous` issues first) and set the translation summary."""
+    reused = reuse(issue, previous)
     needed = _needed(issue)
     key = os.environ.get("DEEPSEEK_API_KEY")
     if not key:
-        issue["translation"] = {"done": 0, "missing": len(needed), "error": "DEEPSEEK_API_KEY is not set"}
+        issue["translation"] = {"done": reused, "reused": reused, "missing": len(needed), "error": "DEEPSEEK_API_KEY is not set"}
         return issue["translation"]
     first_error = None
     for style in INSTRUCTIONS:
@@ -101,6 +120,6 @@ def translate_issue(issue):
                     if isinstance(translated, str) and translated.strip():
                         item[target] = translated.strip()
     missing = len(_needed(issue))
-    total = len(needed)
-    issue["translation"] = {"done": total - missing, "missing": missing, "error": first_error if missing else None}
+    total = len(needed) + reused
+    issue["translation"] = {"done": total - missing, "reused": reused, "missing": missing, "error": first_error if missing else None}
     return issue["translation"]
