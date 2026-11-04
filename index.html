@@ -32,9 +32,9 @@
   <details class="status" id="status" hidden></details>
   <footer class="site">
     世界部分每周一 08:17、周三 20:17、周六 08:17（华沙冬令时，夏令时晚 1 小时）由 GitHub Actions 抓取、DeepSeek 翻译；
-    华沙部分每周一、三、五由 Claude routine 整理。<br>
+    华沙部分每周一、三、五由 Claude routine 整理；汇率每个工作日从 NBP（波兰国家银行）A 表取中间价。<br>
     数据来自 upstract.com、alltop.com、tophub.today、pepper.pl、mydealz.de、bankier.pl 及华沙各信息源，版权归原站。
-    JSON：<a id="json-brief" href="brief/data/">世界</a> · <a id="json-warsaw" href="news/data/">华沙</a> · <a href="https://github.com/CHLCCGA/CHLCCGA">GitHub</a>
+    JSON：<a id="json-brief" href="brief/data/">世界</a> · <a id="json-warsaw" href="news/data/">华沙</a> · <a href="fx/data/rates.json">汇率</a> · <a href="https://github.com/CHLCCGA/CHLCCGA">GitHub</a>
   </footer>
 </main>
 
@@ -53,6 +53,16 @@ const W_CATS = [
   ["upcoming_events", "近期活动"], ["poland_brief", "波兰时政"], ["europe_brief", "欧洲要闻"],
 ];
 const WD = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+// Exchange rates (fx/data/rates.json, NBP mid rates, PLN per 1 unit), shown after the Warsaw part.
+// Levels to watch when buying the currency with złoty — lower is better. Set by hand on FX_SET
+// from the 2024–2026 NBP data; the distance to the current rate is computed live.
+const FX_SET = "2026-11-04";
+const FX_TIERS = ["开始分批换", "好价，可多换", "低位，少见"];
+const FX = [
+  { code: "USD", name: "美元", levels: [["3.80", "2024–26 中位数，也是 9 月的水平"], ["3.70", "2026 年中位数，年中的常见水平"], ["3.60", "2025 年底到 2026 年初的低位区"]] },
+  { code: "EUR", name: "欧元", levels: [["4.35", "9 月的水平，10 月急升之前"], ["4.27", "2024–26 中位数"], ["4.22", "2025 年底到 2026 年初的低位区"]] },
+  { code: "CNY", name: "人民币", levels: [["0.565", "9 月的水平，10 月急升之前"], ["0.543", "2024–26 中位数"], ["0.515", "2025 下半年到 2026 年初的低位区"]] },
+];
 
 let LANG = "zh";
 try { LANG = localStorage.getItem("brief-lang") === "orig" ? "orig" : "zh"; } catch (e) {}
@@ -341,9 +351,155 @@ function renderWarsaw(w) {
   return sec;
 }
 
+// ---------- exchange rates ----------
+const DAY = 86400000;
+const NS = "http://www.w3.org/2000/svg";
+function svg(tag, attrs, text) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text != null) e.textContent = text;
+  return e;
+}
+const pct = (a, b) => `${a >= b ? "+" : "−"}${Math.abs((a / b - 1) * 100).toFixed(1)}%`;
+const fullDate = t => { const d = new Date(t); return `${d.getUTCFullYear()}年${d.getUTCMonth() + 1}月${d.getUTCDate()}日`; };
+// Clean y ticks: a 1/2/2.5/5 × 10^k step giving about four lines.
+function niceTicks(lo, hi) {
+  const raw = (hi - lo) / 3, mag = 10 ** Math.floor(Math.log10(raw));
+  const m = [1, 2, 2.5, 5, 10].find(m => m * mag >= raw), step = m * mag;
+  const dec = Math.max(0, -Math.floor(Math.log10(mag)) + (m === 2.5 ? 1 : 0));
+  const ticks = [];
+  for (let v = Math.floor(lo / step) * step; v <= hi + step * 1e-9; v += step) ticks.push(+v.toFixed(dec));
+  if (ticks[ticks.length - 1] < hi) ticks.push(+(ticks[ticks.length - 1] + step).toFixed(dec));
+  return { ticks, dec };
+}
+// One line chart: pts = [{t, v, label}]. Drawn (and redrawn on resize) once the card is in the page.
+const FX_CHARTS = [];
+function fxChart(pts, { h, xTicks, levels }) {
+  const box = el("div", "fx-chart");
+  box.style.height = `${h}px`;
+  const tip = el("div", "fx-tip");
+  tip.hidden = true;
+  const draw = () => {
+    const W = box.clientWidth;
+    if (!W) return;
+    const L = 40, R = levels ? 52 : 6, T = 6, B = 20, pw = W - L - R, ph = h - T - B;
+    const t0 = pts[0].t, t1 = pts[pts.length - 1].t;
+    const vals = pts.map(p => p.v).concat(levels ? levels.map(l => +l[0]) : []);
+    const { ticks, dec } = niceTicks(Math.min(...vals), Math.max(...vals));
+    const y0 = ticks[0], y1 = ticks[ticks.length - 1];
+    const X = t => L + (t - t0) / (t1 - t0) * pw, Y = v => T + (1 - (v - y0) / (y1 - y0)) * ph;
+    const s = svg("svg", { width: W, height: h, viewBox: `0 0 ${W} ${h}` });
+    for (const v of ticks) {
+      s.append(svg("line", { class: "grid", x1: L, x2: L + pw, y1: Y(v), y2: Y(v) }));
+      s.append(svg("text", { x: L - 6, y: Y(v) + 4, "text-anchor": "end" }, v.toFixed(dec)));
+    }
+    // x labels sit just right of the start of each year / month (the data starts a day or two
+    // after 1 January, or on the Monday before it for weekly points)
+    const xs = [];
+    const y = new Date(t0 + 7 * DAY).getUTCFullYear();
+    if (xTicks === "year") for (let k = y; k <= new Date(t1).getUTCFullYear(); k++) xs.push([Date.UTC(k, 0, 1), String(k)]);
+    else for (let m = 0; m < 12; m++) { const t = Date.UTC(y, m, 1); if (t <= t1) xs.push([t, `${m + 1}月`]); }
+    const every = pw / xs.length < (xTicks === "year" ? 36 : 30) ? 2 : 1;
+    xs.forEach(([t, text], i) => {
+      if (i % every) return;
+      const x = X(Math.max(t, t0));
+      s.append(svg("line", { class: "grid", x1: x, x2: x, y1: T + ph, y2: T + ph + 4 }));
+      s.append(svg("text", { x: x + 3, y: h - 4 }, text));
+    });
+    (levels || []).forEach(([v], i) => {
+      s.append(svg("line", { class: "level", x1: L, x2: L + pw, y1: Y(+v), y2: Y(+v) }));
+      s.append(svg("text", { class: "level-t", x: L + pw + 4, y: Y(+v) + 4 }, `${"①②③"[i]} ${v}`));
+    });
+    s.append(svg("path", { class: "line", d: "M" + pts.map(p => `${X(p.t).toFixed(1)},${Y(p.v).toFixed(1)}`).join("L") }));
+    const last = pts[pts.length - 1];
+    s.append(svg("circle", { class: "dot", cx: X(last.t), cy: Y(last.v), r: 4 }));
+    // hover: crosshair snaps to the nearest point
+    const cross = svg("line", { class: "cross", y1: T, y2: T + ph, visibility: "hidden" });
+    const hot = svg("circle", { class: "dot", r: 4, visibility: "hidden" });
+    s.append(cross, hot);
+    const show = e => {
+      const r = s.getBoundingClientRect(), t = t0 + (e.clientX - r.left - L) / pw * (t1 - t0);
+      let lo = 0, hi = pts.length - 1;
+      while (hi - lo > 1) { const mid = (lo + hi) >> 1; (pts[mid].t < t ? lo = mid : hi = mid); }
+      const p = t - pts[lo].t < pts[hi].t - t ? pts[lo] : pts[hi];
+      const x = X(p.t);
+      cross.setAttribute("x1", x); cross.setAttribute("x2", x); cross.setAttribute("visibility", "visible");
+      hot.setAttribute("cx", x); hot.setAttribute("cy", Y(p.v)); hot.setAttribute("visibility", "visible");
+      tip.replaceChildren(el("b", null, p.v.toFixed(4)), el("span", null, p.label));
+      tip.hidden = false;
+      const tw = tip.offsetWidth;
+      tip.style.left = `${Math.min(Math.max(x - tw / 2, 0), W - tw)}px`;
+    };
+    const hide = () => { cross.setAttribute("visibility", "hidden"); hot.setAttribute("visibility", "hidden"); tip.hidden = true; };
+    s.addEventListener("pointermove", show);
+    s.addEventListener("pointerdown", show);
+    s.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") hide(); });   // a tap keeps its readout
+    box.replaceChildren(s, tip);
+  };
+  FX_CHARTS.push(draw);
+  return box;
+}
+function drawFx() { FX_CHARTS.forEach(d => d()); }
+let fxFrame = 0;
+window.addEventListener("resize", () => { cancelAnimationFrame(fxFrame); fxFrame = requestAnimationFrame(drawFx); });
+
+function renderFx(fx) {
+  FX_CHARTS.length = 0;
+  const times = fx.dates.map(d => parseDate(d).getTime());
+  const lastT = times[times.length - 1];
+  const yearStart = Date.UTC(new Date(lastT).getUTCFullYear(), 0, 1);
+  const sec = section("g-fx", "汇率", `NBP 中间价 · 截至 ${dateText(fx.dates[fx.dates.length - 1])}`);
+  const grid = el("div", "grid c3");
+  for (const c of FX) {
+    const v = fx[c.code];
+    if (!v) continue;
+    const cur = v[v.length - 1];
+    const card = cardShell(`${c.name} ${c.code}`, null, "fx-card");
+    card.querySelector(".card-head").append(el("span", "home", `1 PLN = ${(1 / cur).toFixed(4)} ${c.code}`));
+    const now = el("div", "fx-now");
+    now.append(el("span", "fx-val", cur.toFixed(4)), el("span", "fx-unit", ` PLN / 1 ${c.code}`));
+    const iy = times.findIndex(t => t >= yearStart), im = times.findIndex(t => t >= lastT - 30 * DAY);
+    now.append(el("div", "meta", `较年初 ${pct(cur, v[iy])} · 近 30 天 ${pct(cur, v[im])}`));
+    card.append(now);
+
+    // 2019–: weekly averages (Monday-keyed), daily would be several points per pixel
+    const weeks = new Map();
+    times.forEach((t, i) => {
+      const mon = t - ((new Date(t).getUTCDay() + 6) % 7) * DAY;
+      const wk = weeks.get(mon) || weeks.set(mon, { s: 0, n: 0 }).get(mon);
+      wk.s += v[i]; wk.n++;
+    });
+    const long = [...weeks].map(([t, wk]) => ({ t, v: wk.s / wk.n, label: `${fullDate(t)}起一周均值` }));
+    card.append(el("p", "sub-h", `${fx.dates[0].slice(0, 4)}–${new Date(lastT).getUTCFullYear()} · 周均值`));
+    card.append(fxChart(long, { h: 130, xTicks: "year" }));
+
+    const year = times.map((t, i) => ({ t, v: v[i], label: fullDate(t) })).filter(p => p.t >= yearStart);
+    card.append(el("p", "sub-h", `${new Date(lastT).getUTCFullYear()} 年 · 每日 · 虚线为下面三档价位`));
+    card.append(fxChart(year, { h: 160, xTicks: "month", levels: c.levels }));
+
+    const ol = el("ol", "items fx-levels");
+    c.levels.forEach(([lv, why], i) => {
+      const li = el("li");
+      li.append(el("span", "rank", "①②③"[i]));
+      const b = el("div", "body");
+      const t = el("div", "t");
+      t.append(el("b", null, lv), el("span", "dim", ` · ${FX_TIERS[i]}`));
+      b.append(t, el("div", "meta", `1 PLN ≈ ${(1 / lv).toFixed(c.code === "CNY" ? 3 : 4)} ${c.code} · ${why}`));
+      li.append(b);
+      li.append(el("span", "fx-gap", cur <= +lv ? "已到" : pct(+lv, cur)));
+      ol.append(li);
+    });
+    card.append(ol);
+    grid.append(card);
+  }
+  sec.append(grid);
+  sec.append(el("p", "fx-note", `三档价位是 ${dateText(FX_SET, false)}按 2024–2026 年的 NBP 中间价定的，右侧百分比是离现价还差多少。用兹罗提买外币，数值越低越划算；银行、kantor、Revolut 等的实际成交价在中间价上另有点差。`));
+  return sec;
+}
+
 // ---------- page ----------
 function render() {
-  const { date, dates, brief, w } = S;
+  const { date, dates, brief, w, fx } = S;
   document.querySelectorAll("#lang button").forEach(b => b.classList.toggle("on", b.dataset.lang === LANG));
   document.title = `速览 · ${date}`;
 
@@ -378,11 +534,16 @@ function render() {
   const content = document.getElementById("content");
   content.replaceChildren();
   const groups = brief ? brief.groups.filter(g => brief.blocks.some(b => b.group === g.id)) : [];
+  const afterFirst = () => {
+    if (w) content.append(renderWarsaw(w));
+    if (fx) content.append(renderFx(fx));
+  };
   groups.forEach((g, k) => {
     content.append(renderGroup(g, brief.blocks.filter(b => b.group === g.id)));
-    if (k === 0 && w) content.append(renderWarsaw(w));
+    if (k === 0) afterFirst();
   });
-  if (!groups.length && w) content.append(renderWarsaw(w));
+  if (!groups.length) afterFirst();
+  if (fx) drawFx();
 
   document.getElementById("json-brief").href = brief ? `brief/data/${brief.date}.json` : "brief/data/";
   document.getElementById("json-warsaw").href = w ? `news/data/${w.date}.json` : "news/data/";
@@ -424,9 +585,10 @@ const getJSON = url => fetch(url, { cache: "no-cache" }).then(r => { if (!r.ok) 
 
 (async function main() {
   try {
-    const [bDates, wDates] = await Promise.all([
+    const [bDates, wDates, fx] = await Promise.all([
       getJSON("brief/data/index.json").catch(() => []),
       getJSON("news/data/index.json").catch(() => []),
+      getJSON("fx/data/rates.json").catch(() => null),
     ]);
     const dates = [...new Set([...bDates, ...wDates])].sort().reverse();
     const q = new URLSearchParams(location.search).get("d");
@@ -438,7 +600,7 @@ const getJSON = url => fetch(url, { cache: "no-cache" }).then(r => { if (!r.ok) 
       wDate ? getJSON(`news/data/${wDate}.json`) : null,
       wDate ? getJSON(`news/data/${wDate}.sources.json`).catch(() => null) : null,
     ]);
-    S = { date, dates, brief, w: wDate ? { date: wDate, items: wItems, sources: wSources } : null };
+    S = { date, dates, brief, w: wDate ? { date: wDate, items: wItems, sources: wSources } : null, fx };
     render();
     if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
   } catch (e) {

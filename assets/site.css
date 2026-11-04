@@ -193,6 +193,31 @@ ol.bank > li:first-child, ol.bank > li:nth-child(8) { border-top: 0; }
 .flow > .w-item:first-child { padding-top: 2px; }
 .w-item .sub-h { margin: 0 0 6px; }
 
+/* Exchange rates: one card per currency, two line charts each */
+.fx-now { padding: 2px 0 2px; }
+.fx-val { font-size: 30px; font-weight: 600; letter-spacing: -.02em; }
+.fx-unit { color: var(--text-2); font-size: 13px; }
+.fx-chart { position: relative; margin: 4px 0 2px; }
+.fx-chart svg { display: block; overflow: visible; touch-action: pan-y; }
+.fx-chart text { font-size: 11px; fill: var(--text-3); font-variant-numeric: tabular-nums; }
+.fx-chart .grid { stroke: var(--sep); stroke-width: 1; }
+.fx-chart .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.fx-chart .dot { fill: var(--accent); stroke: var(--card); stroke-width: 2; }
+.fx-chart .level { stroke: var(--text-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.fx-chart .level-t { fill: var(--text-2); }
+.fx-chart .cross { stroke: var(--text-3); stroke-width: 1; }
+.fx-tip {
+  position: absolute; top: -6px; pointer-events: none; white-space: nowrap; font-size: 12px;
+  background: var(--card); border: 1px solid var(--sep); border-radius: 8px; padding: 3px 8px; box-shadow: var(--shadow);
+}
+.fx-tip b { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.fx-tip span { color: var(--text-2); margin-left: 6px; }
+.fx-levels { margin-top: 4px; }
+.fx-levels .rank { color: var(--accent); }
+.fx-levels .t b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.fx-gap { flex: none; color: var(--text-2); font-size: 14px; font-variant-numeric: tabular-nums; line-height: 21px; }
+.fx-note { color: var(--text-3); font-size: 13px; margin: 10px 2px 0; }
+
 /* ---------- footer ---------- */
 details.status { margin-top: 28px; font-size: 13px; color: var(--text-2); }
 details.status summary { cursor: pointer; }

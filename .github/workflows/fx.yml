@@ -1,0 +1,32 @@
+name: fx
+
+on:
+  schedule:
+    # Weekdays 11:37 UTC. NBP publishes Table A between 11:45 and 12:15 Warsaw time,
+    # i.e. by 11:15 UTC in winter and 10:15 UTC in summer.
+    - cron: '37 11 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fx
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch NBP rates
+        run: python scripts/fx/build.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'fx: update NBP rates'
+          file_pattern: 'fx/data/rates.json'
