@@ -1,0 +1,274 @@
+[
+  {
+    "id": "e4942413c9",
+    "category": "poland_brief",
+    "title_zh": "宪法法院易主后首次开会，对院长启动纪律程序",
+    "title_original": "Disputed Polish constitutional court holds first meeting after takeover by government-backed judges",
+    "summary_zh": "接管法院的政府支持法官召开首次会议，并对院长 Bogdan Święczkowski 启动纪律程序。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/11/03/disputed-polish-constitutional-court-holds-first-meeting-after-takeover-by-government-backed-judges/",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "politics",
+      "court"
+    ]
+  },
+  {
+    "id": "a321d994eb",
+    "category": "poland_brief",
+    "title_zh": "波兰在俄罗斯边境展开行动，防范破坏活动",
+    "title_original": "Poland launches operation along Russian border in response to reports of planned sabotage",
+    "summary_zh": "警方向边境地区增派警力（含反恐部队），起因是情报警告加里宁格勒附近可能发生破坏。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/11/02/poland-launches-operation-along-russian-border-in-response-to-reports-of-planned-sabotage/",
+    "published_date": "2026-11-02",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "security",
+      "border"
+    ]
+  },
+  {
+    "id": "959f602601",
+    "category": "poland_brief",
+    "title_zh": "按生活成本折算，波兰电价居欧盟第二高",
+    "title_original": "Poland has EU's second-highest electricity prices accounting for cost of living",
+    "summary_zh": "2026年上半年按生活成本调整后，波兰居民电价为欧盟第二高，涨幅也高于多数成员国。",
+    "source_name": "Notes From Poland",
+    "source_url": "https://notesfrompoland.com/2026/11/03/poland-has-eus-second-highest-electricity-prices-accounting-for-cost-of-living/",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "energy",
+      "prices"
+    ]
+  },
+  {
+    "id": "c0f07a4ecf",
+    "category": "poland_brief",
+    "title_zh": "NASK 推出公共服务漏洞赏金平台，总奖池100万兹罗提",
+    "title_original": "NASK rzuca rękawicę. Milion złotych za znalezienie podatności",
+    "summary_zh": "波兰上线面向公共服务的 Bug Bounty 平台，单个已确认漏洞最高奖励2万兹罗提，首批涵盖 gov.pl 等。",
+    "source_name": "NASK",
+    "source_url": "https://www.nask.pl/aktualnosci/nask-rzuca-rekawice-milion-zlotych-za-znalezienie-podatnosci",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "cybersecurity",
+      "nask"
+    ]
+  },
+  {
+    "id": "ff17cd2a8c",
+    "category": "poland_brief",
+    "title_zh": "移民局通报：MOS 系统10月27日晚至28日晨一度故障",
+    "title_original": "Informacja o nieprawidłowości w działaniu portalu Moduł Obsługi Spraw (MOS) 27/28 października br.",
+    "summary_zh": "10月27日18:25起 MOS 技术故障导致无法递交申请，10月28日08:36修复。",
+    "source_name": "Urząd do Spraw Cudzoziemców",
+    "source_url": "https://www.gov.pl/web/udsc/informacja-o-nieprawidlowosci-w-dzialaniu-portalu-modul-obslugi-spraw-mos-2728-pazdziernika-br",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "residence",
+      "mos"
+    ]
+  },
+  {
+    "id": "50957d176a",
+    "category": "europe_brief",
+    "title_zh": "炸弹恐吓搅乱欧洲航班，华沙一机场曾短暂关闭",
+    "title_original": "UPDATE: Hoax bomb threats disrupt flights around Europe",
+    "summary_zh": "约十个欧洲航班遭遇假炸弹警报，华沙一机场曾短暂关闭，罗马出动空军战机。",
+    "source_name": "The Local",
+    "source_url": "https://www.thelocal.com/20261103/hoax-bomb-threats-disrupt-flights-in-europe",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "travel",
+      "flights"
+    ]
+  },
+  {
+    "id": "17cd17a6c9",
+    "category": "europe_brief",
+    "title_zh": "疑似网络攻击波及至少九国超市冷柜，欧盟发出警告",
+    "title_original": "'Whole food supply chain': European countries snared in freezer cyberattacks",
+    "summary_zh": "至少九个欧洲国家的超市受疑似网络攻击影响，欧盟警告这可能是蓄意扰乱食品供应。",
+    "source_name": "The Local",
+    "source_url": "https://www.thelocal.com/20261103/fridge-cyberattack-on-supermarkets-across-europe-prompts-eu-warning",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "cyberattack",
+      "eu"
+    ]
+  },
+  {
+    "id": "4ecb7e47c9",
+    "category": "europe_brief",
+    "title_zh": "瑞安航空称明年欧洲票价将两位数上涨",
+    "title_original": "Ryanair to hit passengers in Europe with 'double-digit' hikes in air fares",
+    "summary_zh": "瑞安航空计划削减成本并提价，以抵消与中东战争相关的航油上涨。",
+    "source_name": "The Local",
+    "source_url": "https://www.thelocal.com/20261102/ryanair-to-hit-passengers-in-europe-with-double-digit-hikes-in-air-fares",
+    "published_date": "2026-11-02",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "travel",
+      "prices"
+    ]
+  },
+  {
+    "id": "d816d05933",
+    "category": "europe_brief",
+    "title_zh": "欧央行行长人选提名启动，财长11月9日审议",
+    "title_original": "Who will replace Lagarde? Eurozone picks nominees as race for ECB top job begins",
+    "summary_zh": "欧元区国家须在周五前提名拉加德继任人选，财长们11月9日审议。",
+    "source_name": "Euronews",
+    "source_url": "https://www.euronews.com/2026/11/03/who-will-replace-lagarde-eurozone-picks-nominees-as-race-for-ecb-top-job-begins",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "ecb",
+      "eu"
+    ]
+  },
+  {
+    "id": "3e499780d2",
+    "category": "europe_brief",
+    "title_zh": "欧洲多国数千名士兵将在波兰演练战后乌克兰部署",
+    "title_original": "Thousands of troops from Europe to rehearse post-war Ukraine deployment in Poland",
+    "summary_zh": "这支欧洲部队不属于北约行动，美国参与很少，将演练可能的战后赴乌部署。",
+    "source_name": "Euronews",
+    "source_url": "https://www.euronews.com/2026/11/03/thousands-of-troops-from-europe-to-rehearse-post-war-ukraine-deployment-in-poland",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": null,
+    "tags": [
+      "defence",
+      "ukraine"
+    ]
+  },
+  {
+    "id": "801ff8da5c",
+    "category": "new_spots",
+    "title_zh": "WU Baozi：Aleja Wyzwolenia 的中式包子与面食",
+    "title_original": "WU Baozi – chińskie makarony i bułeczki na parze",
+    "summary_zh": "主打中式蒸包和面食，馅料有红烧猪肉、芥菜等，店在 Aleja Wyzwolenia。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/11/wu-baozi-chinskie-makarony-i-buleczki-na-parze/",
+    "published_date": "2026-11-03",
+    "event_date": null,
+    "venue": "Aleja Wyzwolenia",
+    "tags": [
+      "chinese",
+      "baozi"
+    ]
+  },
+  {
+    "id": "7076274986",
+    "category": "new_spots",
+    "title_zh": "Klara Buns Club：Marszałkowska 上的新面包咖啡店",
+    "title_original": "Klara Buns Club – nowa piekarnia i kawiarnia przy Marszałkowskiej",
+    "summary_zh": "带乌克兰背景的面包店兼咖啡馆，以松软的甜咸馅小面包见长。",
+    "source_name": "Warsaw Foodie",
+    "source_url": "https://warsawfoodie.pl/2026/11/klara-buns-club-nowa-piekarnia-i-kawiarnia-przy-marszalkowskiej/",
+    "published_date": "2026-11-02",
+    "event_date": null,
+    "venue": "Marszałkowska",
+    "tags": [
+      "bakery",
+      "cafe"
+    ]
+  },
+  {
+    "id": "5815aaebe1",
+    "category": "cool_finds",
+    "title_zh": "Susan Hiller 回顾展《Zgubione, znalezione》在 Zachęta 开幕",
+    "title_original": "Susan Hiller. Zgubione, znalezione",
+    "summary_zh": "展期2026年10月30日至2027年1月31日，回顾这位美国出生的英国艺术家（1940–2019），聚焦被遗忘的图像与集体记忆。",
+    "source_name": "Zachęta",
+    "source_url": "https://zacheta.art.pl/pl/wystawy/susan-hiller-lost-and-found-ikona-brytyjskiego-konceptualizm",
+    "published_date": "2026-11-04",
+    "event_date": "2026-10-30",
+    "venue": "Zachęta",
+    "tags": [
+      "exhibition",
+      "art"
+    ]
+  },
+  {
+    "id": "566ec829ed",
+    "category": "upcoming_events",
+    "title_zh": "Werner Herzog 十一月放映：《阿基尔，上帝之怒》（1972）",
+    "title_original": "Werner Herzog - pokazy filmów w listopadzie | Aguirre, Gniew boży (1972)",
+    "summary_zh": "11月5日18:30在 Śródmieście 放映，属 Herzog 十一月影展。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-160845-werner-herzog-pokazy-filmow-w-listopadzie-aguirre-gniew-bozy-1972",
+    "published_date": "2026-11-04",
+    "event_date": "2026-11-05",
+    "venue": "Śródmieście",
+    "tags": [
+      "film",
+      "herzog"
+    ]
+  },
+  {
+    "id": "624acb4bed",
+    "category": "upcoming_events",
+    "title_zh": "Kinoteka 特别场：《Hedwig and the Angry Inch》放映加讨论",
+    "title_original": "Hedwig and the Angry Inch | Sounds gay, I'm in [pokaz z dyskusją]",
+    "summary_zh": "11月4日19:00特别放映，映后有讨论。",
+    "source_name": "Kinoteka",
+    "source_url": "https://kinoteka.pl/film/hedwig-and-the-angry-inch/",
+    "published_date": "2026-11-04",
+    "event_date": "2026-11-04",
+    "venue": "Kinoteka",
+    "tags": [
+      "film",
+      "screening"
+    ]
+  },
+  {
+    "id": "d0d5ea5590",
+    "category": "upcoming_events",
+    "title_zh": "独立纪念馆11月11日免费开放，办系列独立日活动",
+    "title_original": "Dzień Niepodległości w Muzeum Niepodległości w Warszawie",
+    "summary_zh": "11月11日10:00–17:00，Muzeum Niepodległości 当天免费入场；整个11月都有庆祝独立的活动。",
+    "source_name": "PIK Warszawa",
+    "source_url": "https://pik.warszawa.pl/art/dzien-niepodleglosci-w-muzeum-niepodleglosci-w-warszawie/",
+    "published_date": "2026-11-04",
+    "event_date": "2026-11-11",
+    "venue": "Muzeum Niepodległości, Solidarności 62",
+    "tags": [
+      "independence-day",
+      "free"
+    ]
+  },
+  {
+    "id": "5d6d2d4239",
+    "category": "upcoming_events",
+    "title_zh": "WJFF 2026 闭幕式并放映《Przeżyj to sam》",
+    "title_original": "WJFF 2026: Gala zamknięcia i pokaz filmu „Przeżyj to sam”",
+    "summary_zh": "11月8日19:00在 Śródmieście 举行，页面标明收费，最高20兹罗提。",
+    "source_name": "waw4free",
+    "source_url": "https://waw4free.pl/wydarzenie-160217-wjff-2026-gala-zamkniecia-i-pokaz-filmu-przezyj-to-sam",
+    "published_date": "2026-11-04",
+    "event_date": "2026-11-08",
+    "venue": "Śródmieście",
+    "tags": [
+      "film",
+      "festival"
+    ]
+  }
+]
