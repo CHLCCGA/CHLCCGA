@@ -2,6 +2,7 @@
 import argparse
 import calendar
 import json
+import re
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -88,8 +89,27 @@ def _events(entries, issue_date, cfg):
     return items[:cfg.get("limit", 10)]
 
 
+def _watch(config, pages):
+    """For each watched film, look for its pattern in the visible text of its pages (Warsaw cinemas, distributor)."""
+    result = []
+    for watch in config.get("watch", []):
+        pattern = re.compile(watch["pattern"], re.I)
+        checked, hits = [], []
+        for name, url in watch["urls"].items():
+            checked.append({"name": name, "url": url, "ok": url in pages})
+            if url not in pages:
+                continue
+            text = parsers.page_text(pages[url])
+            for match in list(pattern.finditer(text))[:2]:
+                hits.append({"name": name, "url": url, "text": text[max(0, match.start() - 80):match.end() + 80]})
+        result.append({**{key: watch[key] for key in ("id", "name", "link", "asof", "note", "sources") if key in watch},
+                       "checked": checked, "hits": hits[:6]})
+    return result
+
+
 def _load_pages(config, fixtures, issue_date):
     urls = {url for block in config["blocks"] for url in _urls(block, issue_date)}
+    urls |= {url for watch in config.get("watch", []) for url in watch["urls"].values()}
     pages, errors = {}, {}
     if fixtures:
         fixtures = Path(fixtures).resolve()
@@ -197,7 +217,8 @@ def build(args):
         if cfg["id"] == "bankier" and block["status"] == "ok":
             _bank_changes(block, out, issue_date)
         blocks.append(block)
-    issue = {"date": issue_date, "generated_at": fetched_at.isoformat().replace("+00:00", "Z"), "groups": config["groups"], "translation": {}, "blocks": blocks}
+    issue = {"date": issue_date, "generated_at": fetched_at.isoformat().replace("+00:00", "Z"), "groups": config["groups"], "translation": {},
+             "blocks": blocks, "watch": _watch(config, pages)}
     if args.no_translate:
         issue["translation"] = {"done": 0, "missing": len(_needed(issue)), "error": "skipped"}
     else:

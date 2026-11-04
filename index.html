@@ -543,6 +543,30 @@ function renderFx(fx) {
   return sec;
 }
 
+// ---------- watched films (brief.watch): this issue's check of Warsaw cinema pages + news written by hand ----------
+function renderWatch(w) {
+  const card = cardShell(`追踪 · ${w.name}`, w.link, "watch");
+  const auto = el("p", "watch-line");
+  const ok = w.checked.filter(c => c.ok);
+  if (w.hits.length) {
+    auto.append(el("span", "tag en", "华沙有动静"), ` 本期在 ${[...new Set(w.hits.map(h => h.name))].join("、")} 的页面里搜到了：`);
+    card.append(auto);
+    const ul = el("ul", "watch-hits");
+    w.hits.forEach(h => { const li = el("li"); li.append(link(h.url, null, h.name), `：…${h.text}…`); ul.append(li); });
+    card.append(ul);
+  } else {
+    auto.append(el("span", "tag gray", "华沙暂无"), ` 本期查了 ${ok.length} 个页面（${ok.map(c => c.name).join("、")}），都还没有这部片。`);
+    card.append(auto);
+  }
+  const failed = w.checked.filter(c => !c.ok);
+  if (failed.length) card.append(el("p", "watch-line dim", `本期没抓到：${failed.map(c => c.name).join("、")}`));
+  const note = el("p", "watch-line");
+  note.append(el("b", null, `${dateText(w.asof, false)}查到的消息：`), w.note);
+  (w.sources || []).forEach(([name, url], i) => note.append(i ? " · " : " 来源：", link(url, null, name)));
+  card.append(note);
+  return card;
+}
+
 // ---------- page ----------
 function render() {
   const { date, dates, brief, w, fx } = S;
@@ -588,7 +612,11 @@ function render() {
   // Warsaw: the digest, then the local what's-on groups, then exchange rates — all after the first world group.
   const afterFirst = () => {
     if (w) content.append(renderWarsaw(w));
-    groups.filter(g => g.local).forEach(g => content.append(groupOf(g)));
+    groups.filter(g => g.local).forEach(g => {
+      const sec = groupOf(g);
+      if (g.id === "film") (brief.watch || []).forEach(w => sec.insertBefore(renderWatch(w), sec.lastChild));
+      content.append(sec);
+    });
     if (fx) content.append(renderFx(fx));
   };
   const world = groups.filter(g => !g.local);
@@ -619,6 +647,8 @@ function render() {
     const ul = el("ul");
     brief.blocks.forEach(b => ul.append(el("li", b.status === "fail" ? "fail" : "ok",
       `${b.name}：${b.status === "ok" ? `${b.items.length} 条` : b.status === "idle" ? "近两周没有场次" : b.error}`)));
+    (brief.watch || []).forEach(w => ul.append(el("li", w.checked.every(c => c.ok) ? "ok" : "warn",
+      `追踪 ${w.name}：${w.checked.filter(c => c.ok).length}/${w.checked.length} 个页面，命中 ${w.hits.length} 处`)));
     if (tr.error) ul.append(el("li", "warn", `翻译：${tr.error}`));
     st.append(ul);
   }

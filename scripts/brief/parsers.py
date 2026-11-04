@@ -11,6 +11,14 @@ def _text(node):
     return " ".join(node.get_text(" ", strip=True).split()) if node else ""
 
 
+def page_text(html):
+    """A page's visible text on one line (no scripts or styles), for keyword watches."""
+    soup = BeautifulSoup(html, "html.parser")
+    for node in soup(["script", "style", "noscript"]):
+        node.decompose()
+    return " ".join(soup.get_text(" ").split())
+
+
 def _absolute(url, base):
     return urljoin(base, url) if url else ""
 

@@ -70,3 +70,29 @@ blocks:
   - {id: palladium, name: "Palladium", group: music, kind: events, parser: palladium, url: "https://palladium.pl/", home: "https://palladium.pl/", lang: pl}
   - {id: pik, name: "节庆 · 市集 · 展会", group: fest, kind: events, parser: pik, url: ["https://pik.warszawa.pl/festiwal/", "https://pik.warszawa.pl/jarmark/", "https://pik.warszawa.pl/targi/"], home: "https://pik.warszawa.pl/festiwal/", lang: pl, days: 31, limit: 12}
   - {id: drinks, name: "葡萄酒 · 威士忌 · 啤酒节", group: fest, kind: events, parser: drink_festivals, url: ["https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", "https://warszawskifestiwalpiwa.pl/"], home: "https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/", lang: pl, days: 150}
+
+# Films to keep an eye on: a card at the top of the film section. Every issue searches the visible text of
+# `urls` (Warsaw cinemas, the likely Polish distributor) for `pattern` (case-insensitive) and shows any hit.
+# Streaming can't be checked this way (JustWatch answers scripts with 404), so `note` is the news written
+# by hand, as of `asof`, with its `sources`; update those three when there is news.
+watch:
+  - id: utopias
+    name: "《变态者乌托邦指南》The Pervert's Guide to Utopias"
+    link: "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias"
+    pattern: "[žz]i[žz]e?k|pervert.?s guide"
+    asof: "2026-11-04"
+    note: "Sophie Fiennes 执导、Žižek「变态者指南」三部曲的终章，133 分钟。9 月 7 日在威尼斯（非竞赛）首映，之后在多伦多、汉堡、雅典、圣保罗、里斯本 Doclisboa 等影展放映；11 月 14、16 日在纽约 DOC NYC 美国首映。还没有在任何流媒体上线，JustWatch 波兰区没有条目；波兰发行方和华沙排片都未公布。"
+    sources:
+      - [维基百科, "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias"]
+      - [DOC NYC, "https://www.docnyc.net/film/the-perverts-guide-to-utopias/"]
+      - [Hollywood Reporter, "https://www.hollywoodreporter.com/movies/movie-news/slavoj-zizek-perverts-guide-to-utopias-exclusive-trailer-1236687802/"]
+    urls:
+      Muranów 排片: "https://kinomuranow.pl/repertuar"
+      Muranów 即将上映: "https://kinomuranow.pl/zapowiedzi"
+      Kinoteka 排片: "https://kinoteka.pl/repertuar/"
+      Iluzjon 排片: "https://www.iluzjon.fn.org.pl/repertuar.html"
+      Kino Elektronik: "https://kinoelektronik.pl/"
+      Kino Kultura: "https://www.kinokultura.pl/"
+      Kino Amondo: "https://kinoamondo.pl/"
+      Against Gravity 片单: "https://againstgravity.pl/filmy/"
+      Millennium Docs Against Gravity: "https://mdag.pl/"
