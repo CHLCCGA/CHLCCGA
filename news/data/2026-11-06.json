@@ -1,0 +1,219 @@
+[
+ {
+  "id": "59a5765e4b",
+  "category": "poland_brief",
+  "title_zh": "炸弹威胁致华沙机场一度关闭",
+  "title_original": "Hoax bomb threats target four European flights as scares spread across the continent",
+  "summary_zh": "欧洲航班连续第三天遭遇炸弹威胁，华沙机场关闭，一架瑞安航空客机在西班牙降落。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/03/bomb-threats-target-four-european-flights-as-scares-spread-across-the-continent",
+  "published_date": "2026-11-03",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "flights",
+   "security"
+  ]
+ },
+ {
+  "id": "317b7f2b8e",
+  "category": "poland_brief",
+  "title_zh": "波兰新规：职场霸凌与骚扰保护扩大",
+  "title_original": "Poland introduces new rules on workplace bullying and harassment",
+  "summary_zh": "更广泛的职场霸凌保护规定周四起生效，骚扰的定义也更明确。",
+  "source_name": "Polskie Radio",
+  "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3749813,poland-introduces-new-rules-on-workplace-bullying-and-harassment",
+  "published_date": "2026-11-05",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "labour-law"
+  ]
+ },
+ {
+  "id": "0d36f0943e",
+  "category": "europe_brief",
+  "title_zh": "欧洲议会放宽汽车排放目标，2035年禁售燃油车被推翻",
+  "title_original": "MEPs deal another blow to Green Deal with softer car emissions targets",
+  "summary_zh": "欧洲议会在产业压力下放宽汽车二氧化碳规则，取消2035年停售汽油车和柴油车的安排。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/04/meps-deal-another-blow-to-green-deal-with-softer-car-emissions-targets",
+  "published_date": "2026-11-04",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "eu",
+   "cars"
+  ]
+ },
+ {
+  "id": "37169902d8",
+  "category": "europe_brief",
+  "title_zh": "欧盟与英国有望恢复宠物护照",
+  "title_original": "Pet passports set to be restored between the EU and the UK",
+  "summary_zh": "即将举行的欧盟—英国峰会预计达成协议，带宠物出行者可望重新用上宠物护照。",
+  "source_name": "The Local",
+  "source_url": "https://www.thelocal.com/20261104/pet-passports-set-to-be-restored-between-the-eu-and-the-uk",
+  "published_date": "2026-11-04",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "travel",
+   "uk"
+  ]
+ },
+ {
+  "id": "74bd5d5cee",
+  "category": "europe_brief",
+  "title_zh": "欧委会向乌克兰拨付43.6亿欧元",
+  "title_original": "Commission disburses €4.36 billion to Ukraine under the €90 billion Ukraine Support Loan",
+  "summary_zh": "拨款含37亿欧元宏观金融援助和6.58亿欧元国防部分，来自900亿欧元援乌贷款。",
+  "source_name": "European Commission",
+  "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2349",
+  "published_date": "2026-11-05",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "ukraine",
+   "eu"
+  ]
+ },
+ {
+  "id": "1c4427af6c",
+  "category": "new_spots",
+  "title_zh": "Messy Jesse：Chmielna 街的 smash burger 新店",
+  "title_original": "Messy Jesse – smash burgery od influencera Adiego Foxxa",
+  "summary_zh": "influencer Adi Foxx 开的 smash burger 店，位于 Chmielna 街，10月开业。",
+  "source_name": "Warsaw Foodie",
+  "source_url": "https://warsawfoodie.pl/2026/11/messy-jesse-smash-burgery-od-influencera-adiego-foxxa/",
+  "published_date": "2026-11-05",
+  "event_date": null,
+  "venue": "Chmielna",
+  "tags": [
+   "burger",
+   "opening"
+  ]
+ },
+ {
+  "id": "eba8b69b09",
+  "category": "cool_finds",
+  "title_zh": "Zamek Ujazdowski：《Oratorium na konstytucję Ziemi》11月14日开展",
+  "title_original": "Oratorium na konstytucję Ziemi",
+  "summary_zh": "当代艺术中心 Zamek Ujazdowski 的新展，11月14日开幕，展至2027年3月28日。",
+  "source_name": "CSW Zamek Ujazdowski",
+  "source_url": "https://www.u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi",
+  "published_date": "2026-11-06",
+  "event_date": "2026-11-14",
+  "venue": "CSW Zamek Ujazdowski",
+  "tags": [
+   "exhibition"
+  ]
+ },
+ {
+  "id": "5faaa2f805",
+  "category": "cool_finds",
+  "title_zh": "Zachęta：Tobias Zielony 展《Jak widzieć w ciemności?》",
+  "title_original": "Tobias Zielony. Jak widzieć w ciemności?",
+  "summary_zh": "Zachęta 的新展，11月27日开幕，展期至2027年2月9日。",
+  "source_name": "Zachęta",
+  "source_url": "https://zacheta.art.pl/pl/wystawy/tobias-zielony-jak-widziec-w-ciemnosci",
+  "published_date": "2026-11-06",
+  "event_date": "2026-11-27",
+  "venue": "Zachęta",
+  "tags": [
+   "exhibition"
+  ]
+ },
+ {
+  "id": "85de577a70",
+  "category": "upcoming_events",
+  "title_zh": "本周末华沙做什么（11月6–8日）",
+  "title_original": "Co robić w Warszawie w weekend 6–8 listopada 2026? Koncerty, spektakle i wydarzenia",
+  "summary_zh": "周六（7日）19:00 Monolord + Mars Red Sky 在 Hydrozagadka 演出；周日（8日）18:00 Teatr Wielki 上演古诺《Romeo i Julia》；周日10:00–16:00 OSiR Praga-Południe 有 ZooEgzotyka 展会。",
+  "source_name": "dlastudenta",
+  "source_url": "https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-w-weekend-68-listopada-2026-koncerty-spektakle-i-wydarzenia,161449.html",
+  "published_date": "2026-11-06",
+  "event_date": "2026-11-06",
+  "venue": null,
+  "tags": [
+   "weekend"
+  ]
+ },
+ {
+  "id": "b237b916ad",
+  "category": "upcoming_events",
+  "title_zh": "Kinoteka 放映修复版《Diabły》（魔鬼）",
+  "title_original": "Diabły",
+  "summary_zh": "Ken Russell 执导，Vanessa Redgrave 与 Oliver Reed 主演，4K 修复版，11月6日起多场放映。",
+  "source_name": "Kinoteka",
+  "source_url": "https://kinoteka.pl/film/diably/",
+  "published_date": "2026-11-06",
+  "event_date": "2026-11-06",
+  "venue": "Kinoteka",
+  "tags": [
+   "cinema",
+   "restored"
+  ]
+ },
+ {
+  "id": "a9f7bb0357",
+  "category": "upcoming_events",
+  "title_zh": "国家爱乐交响音乐会（11月7日）",
+  "title_original": "Koncert symfoniczny",
+  "summary_zh": "国家爱乐乐团演出，指挥 Christoph König，独奏 Timothy Ridout。",
+  "source_name": "Filharmonia Narodowa",
+  "source_url": "https://filharmonia.pl/repertuar/koncert-symfoniczny-493254796",
+  "published_date": "2026-11-06",
+  "event_date": "2026-11-07",
+  "venue": "Filharmonia Narodowa",
+  "tags": [
+   "concert"
+  ]
+ },
+ {
+  "id": "20388d4f2f",
+  "category": "upcoming_events",
+  "title_zh": "立陶宛新电影展在 Kino Muranów",
+  "title_original": "Przegląd Nowego Kina Litewskiego w Warszawie",
+  "summary_zh": "首届展映，11月25–29日共五天、六部影片，其中两场有映后交流。",
+  "source_name": "PIK Warszawa",
+  "source_url": "https://pik.warszawa.pl/kino/przeglad-nowego-kina-litewskiego-w-warszawie/",
+  "published_date": "2026-11-05",
+  "event_date": "2026-11-25",
+  "venue": "Kino Muranów",
+  "tags": [
+   "cinema",
+   "lithuania"
+  ]
+ },
+ {
+  "id": "f5cf03f810",
+  "category": "poland_brief",
+  "title_zh": "波兰央行维持基准利率3.75%不变",
+  "title_original": "Poland leaves interest rates unchanged",
+  "summary_zh": "波兰央行将基准利率维持在3.75%。",
+  "source_name": "Polskie Radio",
+  "source_url": "https://www.polskieradio.pl/395/7786/Artykul/3749627,poland-leaves-interest-rates-unchanged",
+  "published_date": "2026-11-04",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "rates"
+  ]
+ },
+ {
+  "id": "af7500eb35",
+  "category": "poland_brief",
+  "title_zh": "移民局：Profil Zaufany 将有计划技术维护",
+  "title_original": "Planowana przerwa techniczna w dostępie do Profilu Zaufanego",
+  "summary_zh": "波兰移民局发布通知，提醒 Profil Zaufany 将有计划的技术中断。",
+  "source_name": "Urząd do Spraw Cudzoziemców",
+  "source_url": "https://www.gov.pl/web/udsc/planowana-przerwa-techniczna-w-dostepie-do-profilu-zaufanego",
+  "published_date": "2026-11-05",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "immigration"
+  ]
+ }
+]

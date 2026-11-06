@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-04 (Europe/Warsaw) · 覆盖 2026-11-01 — 2026-11-04
-> 数据源：21 个站点 · 本期 17 条 · [JSON](news/data/2026-11-04.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-06 (Europe/Warsaw) · 覆盖 2026-11-03 — 2026-11-06
+> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-11-06.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -13,64 +13,61 @@
 
 ## · Poland Brief
 
-- **宪法法院易主后首次开会，对院长启动纪律程序** — 接管法院的政府支持法官召开首次会议，并对院长 Bogdan Święczkowski 启动纪律程序。 (Notes From Poland, 11/3)
-- **波兰在俄罗斯边境展开行动，防范破坏活动** — 警方向边境地区增派警力（含反恐部队），起因是情报警告加里宁格勒附近可能发生破坏。 (Notes From Poland, 11/2)
-- **按生活成本折算，波兰电价居欧盟第二高** — 2026年上半年按生活成本调整后，波兰居民电价为欧盟第二高，涨幅也高于多数成员国。 (Notes From Poland, 11/3)
-- **NASK 推出公共服务漏洞赏金平台，总奖池100万兹罗提** — 波兰上线面向公共服务的 Bug Bounty 平台，单个已确认漏洞最高奖励2万兹罗提，首批涵盖 gov.pl 等。 (NASK, 11/3)
-- **移民局通报：MOS 系统10月27日晚至28日晨一度故障** — 10月27日18:25起 MOS 技术故障导致无法递交申请，10月28日08:36修复。 (Urząd do Spraw Cudzoziemców, 11/3)
+- **炸弹威胁致华沙机场一度关闭** — 欧洲航班连续第三天遭遇炸弹威胁，华沙机场关闭，一架瑞安航空客机在西班牙降落。 (Euronews, 11/3)
+- **波兰新规：职场霸凌与骚扰保护扩大** — 更广泛的职场霸凌保护规定周四起生效，骚扰的定义也更明确。 (Polskie Radio, 11/5)
+- **波兰央行维持基准利率3.75%不变** — 波兰央行将基准利率维持在3.75%。 (Polskie Radio, 11/4)
+- **移民局：Profil Zaufany 将有计划技术维护** — 波兰移民局发布通知，提醒 Profil Zaufany 将有计划的技术中断。 (Urząd do Spraw Cudzoziemców, 11/5)
 
 ---
 
 ## ◈ Europe Brief
 
-- **炸弹恐吓搅乱欧洲航班，华沙一机场曾短暂关闭** — 约十个欧洲航班遭遇假炸弹警报，华沙一机场曾短暂关闭，罗马出动空军战机。 (The Local, 11/3)
-- **疑似网络攻击波及至少九国超市冷柜，欧盟发出警告** — 至少九个欧洲国家的超市受疑似网络攻击影响，欧盟警告这可能是蓄意扰乱食品供应。 (The Local, 11/3)
-- **瑞安航空称明年欧洲票价将两位数上涨** — 瑞安航空计划削减成本并提价，以抵消与中东战争相关的航油上涨。 (The Local, 11/2)
-- **欧央行行长人选提名启动，财长11月9日审议** — 欧元区国家须在周五前提名拉加德继任人选，财长们11月9日审议。 (Euronews, 11/3)
-- **欧洲多国数千名士兵将在波兰演练战后乌克兰部署** — 这支欧洲部队不属于北约行动，美国参与很少，将演练可能的战后赴乌部署。 (Euronews, 11/3)
+- **欧洲议会放宽汽车排放目标，2035年禁售燃油车被推翻** — 欧洲议会在产业压力下放宽汽车二氧化碳规则，取消2035年停售汽油车和柴油车的安排。 (Euronews, 11/4)
+- **欧盟与英国有望恢复宠物护照** — 即将举行的欧盟—英国峰会预计达成协议，带宠物出行者可望重新用上宠物护照。 (The Local, 11/4)
+- **欧委会向乌克兰拨付43.6亿欧元** — 拨款含37亿欧元宏观金融援助和6.58亿欧元国防部分，来自900亿欧元援乌贷款。 (European Commission, 11/5)
 
 ---
 
 ## ◇ Cool Finds
 
-**Susan Hiller 回顾展《Zgubione, znalezione》在 Zachęta 开幕 · 10月30日 起**
-展期2026年10月30日至2027年1月31日，回顾这位美国出生的英国艺术家（1940–2019），聚焦被遗忘的图像与集体记忆。
-*Zachęta · 2026-11-04 · [原文 →](https://zacheta.art.pl/pl/wystawy/susan-hiller-lost-and-found-ikona-brytyjskiego-konceptualizm)*
+**Zamek Ujazdowski：《Oratorium na konstytucję Ziemi》11月14日开展 · 11月14日 起**
+当代艺术中心 Zamek Ujazdowski 的新展，11月14日开幕，展至2027年3月28日。
+*CSW Zamek Ujazdowski · 2026-11-06 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi)*
+
+**Zachęta：Tobias Zielony 展《Jak widzieć w ciemności?》 · 11月27日 起**
+Zachęta 的新展，11月27日开幕，展期至2027年2月9日。
+*Zachęta · 2026-11-06 · [原文 →](https://zacheta.art.pl/pl/wystawy/tobias-zielony-jak-widziec-w-ciemnosci)*
 
 ---
 
 ## ▸ New Spots
 
-**WU Baozi：Aleja Wyzwolenia 的中式包子与面食（Aleja Wyzwolenia）**
-主打中式蒸包和面食，馅料有红烧猪肉、芥菜等，店在 Aleja Wyzwolenia。
-*Warsaw Foodie · 2026-11-03 · [原文 →](https://warsawfoodie.pl/2026/11/wu-baozi-chinskie-makarony-i-buleczki-na-parze/)*
-
-**Klara Buns Club：Marszałkowska 上的新面包咖啡店（Marszałkowska）**
-带乌克兰背景的面包店兼咖啡馆，以松软的甜咸馅小面包见长。
-*Warsaw Foodie · 2026-11-02 · [原文 →](https://warsawfoodie.pl/2026/11/klara-buns-club-nowa-piekarnia-i-kawiarnia-przy-marszalkowskiej/)*
+**Messy Jesse：Chmielna 街的 smash burger 新店（Chmielna）**
+influencer Adi Foxx 开的 smash burger 店，位于 Chmielna 街，10月开业。
+*Warsaw Foodie · 2026-11-05 · [原文 →](https://warsawfoodie.pl/2026/11/messy-jesse-smash-burgery-od-influencera-adiego-foxxa/)*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**Kinoteka 特别场：《Hedwig and the Angry Inch》放映加讨论** · 11月4日
-11月4日19:00特别放映，映后有讨论。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/hedwig-and-the-angry-inch/)*
+**本周末华沙做什么（11月6–8日）** · 11月6日
+周六（7日）19:00 Monolord + Mars Red Sky 在 Hydrozagadka 演出；周日（8日）18:00 Teatr Wielki 上演古诺《Romeo i Julia》；周日10:00–16:00 OSiR Praga-Południe 有 ZooEgzotyka 展会。
+*dlastudenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-w-weekend-68-listopada-2026-koncerty-spektakle-i-wydarzenia,161449.html)*
 
-**Werner Herzog 十一月放映：《阿基尔，上帝之怒》（1972）** · 11月5日
-11月5日18:30在 Śródmieście 放映，属 Herzog 十一月影展。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160845-werner-herzog-pokazy-filmow-w-listopadzie-aguirre-gniew-bozy-1972)*
+**Kinoteka 放映修复版《Diabły》（魔鬼）** · 11月6日
+Ken Russell 执导，Vanessa Redgrave 与 Oliver Reed 主演，4K 修复版，11月6日起多场放映。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/diably/)*
 
-**WJFF 2026 闭幕式并放映《Przeżyj to sam》** · 11月8日
-11月8日19:00在 Śródmieście 举行，页面标明收费，最高20兹罗提。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160217-wjff-2026-gala-zamkniecia-i-pokaz-filmu-przezyj-to-sam)*
+**国家爱乐交响音乐会（11月7日）** · 11月7日
+国家爱乐乐团演出，指挥 Christoph König，独奏 Timothy Ridout。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-symfoniczny-493254796)*
 
-**独立纪念馆11月11日免费开放，办系列独立日活动** · 11月11日
-11月11日10:00–17:00，Muzeum Niepodległości 当天免费入场；整个11月都有庆祝独立的活动。 · Muzeum Niepodległości, Solidarności 62
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/art/dzien-niepodleglosci-w-muzeum-niepodleglosci-w-warszawie/)*
+**立陶宛新电影展在 Kino Muranów** · 11月25日
+首届展映，11月25–29日共五天、六部影片，其中两场有映后交流。 · Kino Muranów
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/kino/przeglad-nowego-kina-litewskiego-w-warszawie/)*
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ✅ USTA · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ✅ 波兰移民局 UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ✅ European Commission · ✅ Urząd do Spraw Cudzoziemców · ⚠ 驻波兰使馆
