@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-06 (Europe/Warsaw) · 覆盖 2026-11-03 — 2026-11-06
-> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-11-06.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-09 (Europe/Warsaw) · 覆盖 2026-11-06 — 2026-11-09
+> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-11-09.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -13,61 +13,63 @@
 
 ## · Poland Brief
 
-- **炸弹威胁致华沙机场一度关闭** — 欧洲航班连续第三天遭遇炸弹威胁，华沙机场关闭，一架瑞安航空客机在西班牙降落。 (Euronews, 11/3)
-- **波兰新规：职场霸凌与骚扰保护扩大** — 更广泛的职场霸凌保护规定周四起生效，骚扰的定义也更明确。 (Polskie Radio, 11/5)
-- **波兰央行维持基准利率3.75%不变** — 波兰央行将基准利率维持在3.75%。 (Polskie Radio, 11/4)
-- **移民局：Profil Zaufany 将有计划技术维护** — 波兰移民局发布通知，提醒 Profil Zaufany 将有计划的技术中断。 (Urząd do Spraw Cudzoziemców, 11/5)
+- **克拉科夫枪击案被按恐怖主义立案调查** — 检方将克拉科夫袭击及 Ostrowiec Świętokrzyski 相关命案按恐怖主义立案调查，死亡人数升至九人。 (Notes From Poland, 11/8)
+- **众议院通过个税档次调整法案** — 下院通过法案，新增 24% 个税税率并调整税档门槛。 (Polskie Radio, 11/6)
+- **标普将波兰评级展望调为负面** — 标普把波兰信用展望调为负面并下调本币评级，理由是财政急剧恶化和政治对立。 (Notes From Poland, 11/7)
+- **移民局将于11月28日举办信息开放日** — 波兰移民局公告 11 月 28 日举办“信息星期六”（Sobota informacyjna）。 (Urząd do Spraw Cudzoziemców, 11/9)
 
 ---
 
 ## ◈ Europe Brief
 
-- **欧洲议会放宽汽车排放目标，2035年禁售燃油车被推翻** — 欧洲议会在产业压力下放宽汽车二氧化碳规则，取消2035年停售汽油车和柴油车的安排。 (Euronews, 11/4)
-- **欧盟与英国有望恢复宠物护照** — 即将举行的欧盟—英国峰会预计达成协议，带宠物出行者可望重新用上宠物护照。 (The Local, 11/4)
-- **欧委会向乌克兰拨付43.6亿欧元** — 拨款含37亿欧元宏观金融援助和6.58亿欧元国防部分，来自900亿欧元援乌贷款。 (European Commission, 11/5)
+- **欧洲航班炸弹威胁持续** — 一架飞往里斯本的瑞安航空航班再遭威胁，此前周四至少 25 个航班受影响。 (Euronews, 11/6)
+- **欧盟拒绝特朗普的对俄安全协议构想** — 欧洲领导人反对美方支持的安全框架，乌克兰谈判即将在阿布扎比恢复。 (Euronews, 11/6)
+- **欧委会启动第二轮年度移民管理周期** — 欧盟委员会启动《移民与庇护公约》下的第二个年度移民管理周期。 (European Commission, 11/6)
 
 ---
 
 ## ◇ Cool Finds
 
-**Zamek Ujazdowski：《Oratorium na konstytucję Ziemi》11月14日开展 · 11月14日 起**
-当代艺术中心 Zamek Ujazdowski 的新展，11月14日开幕，展至2027年3月28日。
-*CSW Zamek Ujazdowski · 2026-11-06 · [原文 →](https://www.u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi)*
-
-**Zachęta：Tobias Zielony 展《Jak widzieć w ciemności?》 · 11月27日 起**
-Zachęta 的新展，11月27日开幕，展期至2027年2月9日。
-*Zachęta · 2026-11-06 · [原文 →](https://zacheta.art.pl/pl/wystawy/tobias-zielony-jak-widziec-w-ciemnosci)*
+**“魔幻植物园”灯光园在华沙大学植物园开放 · 11月7日 起**
+第六届 Lumagica 灯光园，以异域旅行为主题，超过 40 个灯光站点；11 月 7 日至 2027 年 2 月 14 日，票价 35 PLN 起。
+*PIK Warszawa · 2026-11-08 · [原文 →](https://pik.warszawa.pl/art/park-iluminacji-w-warszawskim-ogrodzie-botanicznym/)*
 
 ---
 
 ## ▸ New Spots
 
-**Messy Jesse：Chmielna 街的 smash burger 新店（Chmielna）**
-influencer Adi Foxx 开的 smash burger 店，位于 Chmielna 街，10月开业。
-*Warsaw Foodie · 2026-11-05 · [原文 →](https://warsawfoodie.pl/2026/11/messy-jesse-smash-burgery-od-influencera-adiego-foxxa/)*
+*（本期无）*
 
 ---
 
 ## ⤷ Upcoming Events
 
-**本周末华沙做什么（11月6–8日）** · 11月6日
-周六（7日）19:00 Monolord + Mars Red Sky 在 Hydrozagadka 演出；周日（8日）18:00 Teatr Wielki 上演古诺《Romeo i Julia》；周日10:00–16:00 OSiR Praga-Południe 有 ZooEgzotyka 展会。
-*dlastudenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-warszawie-w-weekend-68-listopada-2026-koncerty-spektakle-i-wydarzenia,161449.html)*
+**Kinoteka 特别场：《Służący》** · 11月9日
+Kinoteka 11 月 9 日 20:00 的“特别场”（Splat!FilmFest 经典系列）。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/sluzacy-kultowe-klasyki-od-splatfilmfest/)*
 
-**Kinoteka 放映修复版《Diabły》（魔鬼）** · 11月6日
-Ken Russell 执导，Vanessa Redgrave 与 Oliver Reed 主演，4K 修复版，11月6日起多场放映。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/diably/)*
+**独立日“Wspólna Niepodległa”节在 Krakowskie Przedmieście** · 11月11日
+11 月 11 日 12:00 起，含音乐会、工作坊、展览，面向儿童与青少年。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161168-festiwal-wspolna-niepodlegla-na-krakowskim-przedmiesciu)*
 
-**国家爱乐交响音乐会（11月7日）** · 11月7日
-国家爱乐乐团演出，指挥 Christoph König，独奏 Timothy Ridout。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-symfoniczny-493254796)*
+**独立日“Wspólna Niepodległa”节在华沙城堡 Cytadela** · 11月11日
+11 月 11 日 10:00 起，含音乐会、戏剧、工作坊与展览。 · Cytadela Warszawska, Żoliborz
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161152-festiwal-wspolna-niepodlegla-na-cytadeli-warszawskiej)*
 
-**立陶宛新电影展在 Kino Muranów** · 11月25日
-首届展映，11月25–29日共五天、六部影片，其中两场有映后交流。 · Kino Muranów
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/kino/przeglad-nowego-kina-litewskiego-w-warszawie/)*
+**国家爱乐清唱剧音乐会** · 11月13日
+11 月 13 日 19:30，国家爱乐乐团与独唱者在 Nicholas McGegan 指挥下演出；14 日 18:00 加演一场。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-oratoryjny-99656683)*
+
+**大剧院上演《Madame Butterfly》** · 11月21日
+大剧院-国家歌剧院 11 月 21 日 19:00 演出。 · Teatr Wielki – Opera Narodowa
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-11-21_19-00/)*
+
+**UP Festival 第二届地下说唱节** · 11月27日
+11 月 27 日 19:00 在 Klub Proxima，kidzlori、Coldlone、god.wifi 为压轴；票价 94.34 PLN 起。 · Klub Proxima, Ochota
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/festiwal/up-festival-warszawa/)*
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ⚠ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ✅ European Commission · ✅ Urząd do Spraw Cudzoziemców · ⚠ 驻波兰使馆
+✅ Notes From Poland · ❌ Warsaw Foodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ✅ European Commission · ✅ UdSC · ⚠ 中国驻波兰使馆
