@@ -1,75 +1,75 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-09 (Europe/Warsaw) · 覆盖 2026-11-06 — 2026-11-09
-> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-11-09.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-11 (Europe/Warsaw) · 覆盖 2026-11-08 — 2026-11-11
+> 数据源：21 个站点 · 本期 13 条 · [JSON](news/data/2026-11-11.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**11月11日独立日：华沙封路与公共交通调整**
+独立游行14:00从Rondo Dmowskiego出发，经耶路撒冷大道、Poniatowski桥，终点在国家体育场一带。Krakowskie Przedmieście 14:00–20:00封闭；中央区电车分阶段停运，多条公交改线，建议乘地铁M1、M2。
+*PIK Warszawa · 2026-11-09 · [原文 →](https://pik.warszawa.pl/press-room/11-listopada-w-warszawie-informator-drogowy/)*
+
 
 ---
 
 ## · Poland Brief
 
-- **克拉科夫枪击案被按恐怖主义立案调查** — 检方将克拉科夫袭击及 Ostrowiec Świętokrzyski 相关命案按恐怖主义立案调查，死亡人数升至九人。 (Notes From Poland, 11/8)
-- **众议院通过个税档次调整法案** — 下院通过法案，新增 24% 个税税率并调整税档门槛。 (Polskie Radio, 11/6)
-- **标普将波兰评级展望调为负面** — 标普把波兰信用展望调为负面并下调本币评级，理由是财政急剧恶化和政治对立。 (Notes From Poland, 11/7)
-- **移民局将于11月28日举办信息开放日** — 波兰移民局公告 11 月 28 日举办“信息星期六”（Sobota informacyjna）。 (Urząd do Spraw Cudzoziemców, 11/9)
+- **波兰指控两名乌克兰人为俄罗斯从事间谍与破坏** — 两名乌克兰男子被拘并被控为俄罗斯情报机构从事间谍和破坏活动，包括侦察基础设施、纵火焚烧车辆。 (Notes From Poland, 11/10)
+- **美军事存在：五角大楼支持在波兰长期驻军** — 波兰国防部长称，华盛顿会谈后，五角大楼支持美军在波兰长期驻扎。 (Polskie Radio, 11/10)
+- **波兰拟加入欧盟免签旅客入境前审查系统** — 波兰正推动加入欧盟针对免签旅客的入境前审查系统。 (Polskie Radio, 11/10)
 
 ---
 
 ## ◈ Europe Brief
 
-- **欧洲航班炸弹威胁持续** — 一架飞往里斯本的瑞安航空航班再遭威胁，此前周四至少 25 个航班受影响。 (Euronews, 11/6)
-- **欧盟拒绝特朗普的对俄安全协议构想** — 欧洲领导人反对美方支持的安全框架，乌克兰谈判即将在阿布扎比恢复。 (Euronews, 11/6)
-- **欧委会启动第二轮年度移民管理周期** — 欧盟委员会启动《移民与庇护公约》下的第二个年度移民管理周期。 (European Commission, 11/6)
+- **在法国如何查询EES 90天停留额度** — The Local 介绍如何核对欧盟新生物识别入境系统下的90天额度，以及早期系统故障导致计算有误时怎么办。 (The Local, 11/10)
+- **默茨将欧盟预算与乌克兰援助挂钩，四国反对** — 默茨要求新增乌克兰援助，否则不批准欧盟预算；四个成员国拒绝将长期预算与此挂钩，菲佐称其为勒索。 (Euronews, 11/10)
+- **阿布扎比乌俄谈判开启，欧盟派联合团队参与** — 九个月来的首轮乌俄谈判在阿布扎比举行，欧盟派出联合团队加入。 (Euronews, 11/10)
 
 ---
 
 ## ◇ Cool Finds
 
-**“魔幻植物园”灯光园在华沙大学植物园开放 · 11月7日 起**
-第六届 Lumagica 灯光园，以异域旅行为主题，超过 40 个灯光站点；11 月 7 日至 2027 年 2 月 14 日，票价 35 PLN 起。
-*PIK Warszawa · 2026-11-08 · [原文 →](https://pik.warszawa.pl/art/park-iluminacji-w-warszawskim-ogrodzie-botanicznym/)*
+*（本期无）*
 
 ---
 
 ## ▸ New Spots
 
-*（本期无）*
+**Stacja Wilanów：老火车站里的新咖啡馆（Wilanów）**
+9月开业的咖啡馆，位于1926年建成、已修缮的前火车站建筑内，供应早餐、午餐和咖啡。
+*Warsaw Foodie · 2026-11-10 · [原文 →](https://warsawfoodie.pl/2026/11/stacja-wilanow-nowa-kawiarnia-w-zabytkowym-budynku-dawnego-dworca/)*
+
+**Thai na Placu：Mokotowska街新泰餐厅（ul. Mokotowska）**
+10月开业的泰国餐厅，主打炒菜、咖喱和汤，前菜有 som tum 等。
+*Warsaw Foodie · 2026-11-09 · [原文 →](https://warsawfoodie.pl/2026/11/thai-na-placu-nowa-tajska-restauracja-na-mokotowskiej/)*
+
 
 ---
 
 ## ⤷ Upcoming Events
 
-**Kinoteka 特别场：《Służący》** · 11月9日
-Kinoteka 11 月 9 日 20:00 的“特别场”（Splat!FilmFest 经典系列）。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/sluzacy-kultowe-klasyki-od-splatfilmfest/)*
+**赫尔佐格影展：《诺斯费拉图：夜晚的幽灵》（1979）** · 11月12日
+11月12日18:30放映，属赫尔佐格11月影展系列。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160846-werner-herzog-pokazy-filmow-w-listopadzie-nosferatu-wampir-1979)*
 
-**独立日“Wspólna Niepodległa”节在 Krakowskie Przedmieście** · 11月11日
-11 月 11 日 12:00 起，含音乐会、工作坊、展览，面向儿童与青少年。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161168-festiwal-wspolna-niepodlegla-na-krakowskim-przedmiesciu)*
+**华沙纪念碑的秘密：Aleje Ujazdowskie 步行游** · 11月14日
+11月14日13:00在Śródmieście举行的纪念碑主题步行或骑行之旅，费用为自愿凑份子。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161313-tajemnice-warszawskich-pomnikow-aleje-ujazdowskie)*
 
-**独立日“Wspólna Niepodległa”节在华沙城堡 Cytadela** · 11月11日
-11 月 11 日 10:00 起，含音乐会、戏剧、工作坊与展览。 · Cytadela Warszawska, Żoliborz
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161152-festiwal-wspolna-niepodlegla-na-cytadeli-warszawskiej)*
+**大剧院《Kopciuszek》11月14日日场** · 11月14日
+大剧院-国家歌剧院11月14日12:00在 Sala Młynarskiego 演出《Kopciuszek》；14日15:00及15日12:00、15:00另有场次。 · Teatr Wielki, Sala Młynarskiego
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/kopciuszek/termin/2026-11-14_12-00/)*
 
-**国家爱乐清唱剧音乐会** · 11月13日
-11 月 13 日 19:30，国家爱乐乐团与独唱者在 Nicholas McGegan 指挥下演出；14 日 18:00 加演一场。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-oratoryjny-99656683)*
+**国家爱乐：Jussen 兄弟钢琴独奏会** · 11月15日
+11月15日18:00在 Sala Koncertowa，Lucas Jussen 与 Arthur Jussen 演奏巴赫、勃拉姆斯、卢托斯瓦夫斯基、格什温等作品。 · Filharmonia Narodowa, Sala Koncertowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/koncert-kameralny-496843422)*
 
-**大剧院上演《Madame Butterfly》** · 11月21日
-大剧院-国家歌剧院 11 月 21 日 19:00 演出。 · Teatr Wielki – Opera Narodowa
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-11-21_19-00/)*
-
-**UP Festival 第二届地下说唱节** · 11月27日
-11 月 27 日 19:00 在 Klub Proxima，kidzlori、Coldlone、god.wifi 为压轴；票价 94.34 PLN 起。 · Klub Proxima, Ochota
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/festiwal/up-festival-warszawa/)*
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ❌ Warsaw Foodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews · ✅ European Commission · ✅ UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ✅ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ✅ UdSC 移民局 · ⚠ 中国驻波兰使馆
