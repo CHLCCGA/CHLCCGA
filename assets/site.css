@@ -254,3 +254,25 @@ footer.site a:hover { color: var(--accent); }
   .hero { padding-top: 20px; }
   .card { padding: 14px 14px 4px; }
 }
+
+/* ---------- Black Friday guide link in the hero: flowing gradient, glow, light sweep ---------- */
+.bf-link {
+  position: relative; overflow: hidden; isolation: isolate;
+  display: inline-flex; align-items: center; margin-top: 12px; padding: 7px 16px; border-radius: 999px;
+  font-size: 14px; font-weight: 600; color: #fff; white-space: nowrap;
+  background: linear-gradient(90deg, #1a73e8, #6f5bd6, #c25a8f, #6f5bd6, #1a73e8) 0 50% / 200% 100%;
+  animation: bf-flow 5s linear infinite, bf-glow 2.4s ease-in-out infinite;
+}
+.bf-link:hover { color: #fff; transform: translateY(-1px); }
+.bf-link::after {
+  content: ""; position: absolute; z-index: -1; top: 0; left: -60%; width: 40%; height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, .75), transparent);
+  transform: skewX(-20deg); animation: bf-sweep 2.6s ease-in-out infinite;
+}
+@keyframes bf-flow { to { background-position: 200% 50%; } }
+@keyframes bf-glow {
+  0%, 100% { box-shadow: 0 2px 8px rgba(26, 115, 232, .25); }
+  50% { box-shadow: 0 0 20px 3px rgba(194, 90, 143, .5), 0 2px 8px rgba(26, 115, 232, .3); }
+}
+@keyframes bf-sweep { 0% { left: -60%; } 55%, 100% { left: 130%; } }
+@media (prefers-reduced-motion: reduce) { .bf-link, .bf-link::after { animation: none; } }
