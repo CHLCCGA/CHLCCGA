@@ -1,5 +1,5 @@
 <p align="center">
-<!-- card-href:start --><a href="https://www.alphaxiv.org/abs/2611.12177"><img src="assets/status-card.svg" alt="Xinyu Geng — status card" /></a><!-- card-href:end -->
+<!-- card-href:start --><a href="https://www.alphaxiv.org/abs/2611.14440"><img src="assets/status-card.svg" alt="Xinyu Geng — status card" /></a><!-- card-href:end -->
 </p>
 
 <p align="center">
