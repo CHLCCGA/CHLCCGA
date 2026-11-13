@@ -60,7 +60,7 @@
 11 月 15 日 18:00，Jagoda Rall 演绎 Kalina Jędrusik，演唱其歌曲并讲述生平轶事。 · Wawerskie Centrum Kultury – Filia Radość
 *PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/kalina-monodram-muzyczny-warszawa/)*
 
-**Eufonie：Krauze | Mahler | Shemet** · 11月18日
+**Eufonie 音乐节：Krauze | Mahler | Shemet** · 11月18日
 国家爱乐 11 月 18 日 19:00 举行第 8 届中东欧音乐节 Eufonie 的一场音乐会。 · Filharmonia Narodowa
 *Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/8-miedzynarodowy-festiwal-muzyki-nbsp-europy-srodkowo-wschodniej-eufonie-874109323)*
 
