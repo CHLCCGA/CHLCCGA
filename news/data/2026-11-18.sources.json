@@ -1,0 +1,23 @@
+[
+{"name":"Notes From Poland","status":"ok","note":""},
+{"name":"Warsawfoodie","status":"ok","note":""},
+{"name":"Usta Magazyn","status":"fail","note":"503"},
+{"name":"Warsaw Insider","status":"warn","note":"窗口内无新条目"},
+{"name":"Polskie Radio","status":"ok","note":""},
+{"name":"waw4free","status":"ok","note":""},
+{"name":"dlastudenta 周末清单","status":"warn","note":"本周清单未发布（最新为 13–15 日，已过期）"},
+{"name":"PIK Warszawa","status":"warn","note":"候选活动均在窗口外（2027年）"},
+{"name":"Muzeum Narodowe","status":"ok","note":"近期条目无合适项"},
+{"name":"Zachęta","status":"ok","note":""},
+{"name":"CSW Zamek Ujazdowski","status":"ok","note":""},
+{"name":"Filharmonia Narodowa","status":"ok","note":""},
+{"name":"Teatr Wielki","status":"ok","note":""},
+{"name":"Kinoteka","status":"ok","note":""},
+{"name":"NASK","status":"ok","note":""},
+{"name":"IDEAS NCBR","status":"fail","note":"503"},
+{"name":"The Local","status":"ok","note":""},
+{"name":"Euronews Europe","status":"ok","note":""},
+{"name":"欧盟委员会新闻稿","status":"warn","note":"窗口内无符合筛选的条目"},
+{"name":"UDSC 移民局","status":"fail","note":"503"},
+{"name":"中国驻波兰使馆","status":"warn","note":"窗口内无新条目"}
+]
