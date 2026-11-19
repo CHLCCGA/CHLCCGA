@@ -1,0 +1,3946 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T01:13:46.487308Z",
+ "groups": [
+  {
+   "id": "focus",
+   "label": "今日焦点",
+   "layout": "lead"
+  },
+  {
+   "id": "film",
+   "label": "电影",
+   "local": true,
+   "note": "华沙 · 未来两周"
+  },
+  {
+   "id": "stage",
+   "label": "舞台",
+   "local": true,
+   "note": "华沙 · 未来两周"
+  },
+  {
+   "id": "music",
+   "label": "音乐",
+   "local": true,
+   "note": "华沙 · 未来两周"
+  },
+  {
+   "id": "fest",
+   "label": "节庆与市集",
+   "local": true,
+   "note": "华沙 · 未来一个月；酒类节庆看五个月"
+  },
+  {
+   "id": "protest",
+   "label": "集会与抗议",
+   "local": true,
+   "note": "教育与科研界 · 只列还没举行的；没有就不显示"
+  },
+  {
+   "id": "news",
+   "label": "新闻"
+  },
+  {
+   "id": "ideas",
+   "label": "深度与评论"
+  },
+  {
+   "id": "alltop",
+   "label": "Alltop 分类"
+  },
+  {
+   "id": "social",
+   "label": "热议"
+  },
+  {
+   "id": "deals",
+   "label": "折扣热榜"
+  },
+  {
+   "id": "money",
+   "label": "开户奖励"
+  }
+ ],
+ "translation": {
+  "done": 385,
+  "reused": 189,
+  "missing": 0,
+  "error": null
+ },
+ "blocks": [
+  {
+   "id": "alltop_threads",
+   "name": "Alltop 今日话题",
+   "group": "focus",
+   "kind": "threads",
+   "home": "https://www.alltop.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "US loses measles elimination status after 26 years",
+     "url": "https://www.nytimes.com/2026/11/17/science/the-virus-that-makes-your-immune-system-forget.html",
+     "tag": "Story of the Day",
+     "summary": "After 26 years, the US has lost its measles elimination status due to the worst outbreak in decades, signifying a major public health setback.",
+     "source": "David Quammen / NYT Science",
+     "count": 15,
+     "id": "alltop_threads-0",
+     "title_zh": "美国失去麻疹消除状态已26年",
+     "summary_zh": "26年后，由于数十年来最严重的疫情，美国失去了麻疹消除状态，标志着公共卫生的重大挫折。"
+    },
+    {
+     "title": "AI Funding Frenzy Continues",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-video",
+     "tag": "Tech",
+     "summary": "AI companies secure major funding rounds, testing market valuations and driving innovation in various sectors.",
+     "count": 5,
+     "id": "alltop_threads-1",
+     "title_zh": "AI融资热潮持续",
+     "summary_zh": "AI公司获得大规模融资，考验市场估值并推动各行业创新。"
+    },
+    {
+     "title": "AI Funding Frenzy Continues",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-video",
+     "tag": "Business",
+     "summary": "AI startups like Anthropic and Genesis AI are securing major funding rounds, while established players like Google and P",
+     "count": 5,
+     "id": "alltop_threads-2",
+     "title_zh": "AI融资热潮持续",
+     "summary_zh": "Anthropic和Genesis AI等AI初创公司正获得大规模融资，而谷歌和P等老牌企业"
+    },
+    {
+     "title": "Middle East Tensions Flare",
+     "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss",
+     "tag": "World",
+     "summary": "Iran targets US radar in Bahrain, Kuwait reports repelled drone, Israel advances in Gaza.",
+     "count": 5,
+     "id": "alltop_threads-3",
+     "title_zh": "中东紧张局势升级",
+     "summary_zh": "伊朗瞄准美国在巴林的雷达，科威特报告击落无人机，以色列在加沙推进。"
+    },
+    {
+     "title": "MLB Offseason Trade Frenzy",
+     "url": "https://www.nytimes.com/athletic/7740198/2026/11/18/sonny-gray-signs-with-twins/",
+     "tag": "Sports",
+     "summary": "Top pitchers and infielders move as MLB teams gear up for next season.",
+     "count": 5,
+     "id": "alltop_threads-4",
+     "title_zh": "MLB休赛期交易热潮",
+     "summary_zh": "顶级投手和内野手转会，MLB球队为下赛季做准备。"
+    },
+    {
+     "title": "Nvidia Leadership and Strategy",
+     "url": "https://www.alltop.com/tech",
+     "tag": "Tech",
+     "summary": "Internal shifts at Nvidia, including leadership changes and board committees, reflect the company's response to global m",
+     "count": 4,
+     "id": "alltop_threads-5",
+     "title_zh": "英伟达的领导层与战略",
+     "summary_zh": "英伟达内部变动，包括领导层更迭和董事会委员会，反映公司对全球m的回应"
+    },
+    {
+     "title": "US Tech Outages Spark Paranoia",
+     "url": "https://thehill.com/policy/technology/6225734-lawmakers-skepticism-tech-outages/",
+     "tag": "Politics",
+     "summary": "Widespread tech disruptions fuel public skepticism, with officials denying coordinated cyberattacks.",
+     "count": 4,
+     "id": "alltop_threads-6",
+     "title_zh": "美国科技故障引发偏执",
+     "summary_zh": "大范围技术中断加剧公众疑虑，官员否认存在协同网络攻击。"
+    }
+   ]
+  },
+  {
+   "id": "onthisday",
+   "name": "历史上的今天",
+   "group": "focus",
+   "kind": "otd",
+   "home": "https://en.wikipedia.org/wiki/Main_Page",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "year": 1863,
+     "title": "American Civil War: Confederate forces began the Siege of Knoxville against Union fortifications.",
+     "url": "https://en.wikipedia.org/wiki/Siege_of_Knoxville",
+     "id": "onthisday-0",
+     "title_zh": "美国内战：邦联军队开始对联邦防御工事发起诺克斯维尔围城战。"
+    },
+    {
+     "year": 1941,
+     "title": "World War II: The Australian light cruiser and the German auxiliary cruiser Kormoran destroyed each other in the Indian Ocean.",
+     "url": "https://en.wikipedia.org/wiki/Sinking_of_HMAS_Sydney",
+     "id": "onthisday-1",
+     "title_zh": "第二次世界大战：澳大利亚轻巡洋舰与德国辅助巡洋舰鸬鹚号在印度洋相互摧毁。"
+    },
+    {
+     "year": 1969,
+     "title": "Playing for Santos against Vasco da Gama in the Maracanã Stadium in Rio de Janeiro, Brazilian footballer Pelé scored his thousandth goal (commemorative stamp pictured).",
+     "url": "https://en.wikipedia.org/wiki/Pelé",
+     "id": "onthisday-2",
+     "title_zh": "巴西足球运动员贝利在里约热内卢马拉卡纳体育场代表桑托斯对阵瓦斯科达伽马时打入第1000个进球（图为纪念邮票）。"
+    },
+    {
+     "year": 1991,
+     "title": "Mexican singer Luis Miguel released the album Romance, which led to a revival of interest in bolero music.",
+     "url": "https://en.wikipedia.org/wiki/Romance_(Luis_Miguel_album)",
+     "id": "onthisday-3",
+     "title_zh": "墨西哥歌手路易斯·米格尔发行专辑《Romance》，引发了对博莱罗音乐的兴趣复兴。"
+    }
+   ]
+  },
+  {
+   "id": "x_trends",
+   "name": "X 趋势",
+   "group": "focus",
+   "kind": "trends",
+   "home": "https://x.com/explore",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "GTA 6",
+     "url": "https://x.com/search?q=GTA%206",
+     "id": "x_trends-0",
+     "title_zh": "GTA 6"
+    },
+    {
+     "title": "GTA VI",
+     "url": "https://x.com/search?q=GTA%20VI",
+     "id": "x_trends-1",
+     "title_zh": "GTA VI"
+    },
+    {
+     "title": "#CMAawards",
+     "url": "https://x.com/search?q=%23CMAawards",
+     "id": "x_trends-2",
+     "title_zh": "#CMAawards"
+    },
+    {
+     "title": "Marlon Humphrey",
+     "url": "https://x.com/search?q=Marlon%20Humphrey",
+     "id": "x_trends-3",
+     "title_zh": "马龙·汉弗莱"
+    },
+    {
+     "title": "Lucia",
+     "url": "https://x.com/search?q=Lucia",
+     "id": "x_trends-4",
+     "title_zh": "露西亚"
+    },
+    {
+     "title": "Merry Christmas",
+     "url": "https://x.com/search?q=Merry%20Christmas",
+     "id": "x_trends-5",
+     "title_zh": "圣诞快乐"
+    },
+    {
+     "title": "Houston",
+     "url": "https://x.com/search?q=Houston",
+     "id": "x_trends-6",
+     "title_zh": "休斯顿"
+    },
+    {
+     "title": "Gemini 4 Neon",
+     "url": "https://x.com/search?q=Gemini%204%20Neon",
+     "id": "x_trends-7",
+     "title_zh": "Gemini 4 Neon"
+    },
+    {
+     "title": "Rockstar",
+     "url": "https://x.com/search?q=Rockstar",
+     "id": "x_trends-8",
+     "title_zh": "Rockstar"
+    },
+    {
+     "title": "Ponzi",
+     "url": "https://x.com/search?q=Ponzi",
+     "id": "x_trends-9",
+     "title_zh": "庞氏"
+    }
+   ]
+  },
+  {
+   "id": "google_news",
+   "name": "Google News",
+   "group": "news",
+   "kind": "list",
+   "home": "https://news.google.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Attorney says Boyd, Williams indicted on murder charges in Scott Spivey’s death",
+     "url": "https://upstract.com/x/2bb12fc89b641659",
+     "gated": true,
+     "time": "2026-11-19T01:09:46.487308Z",
+     "id": "google_news-0",
+     "title_zh": "律师称博伊德、威廉姆斯因斯科特·斯派维之死被控谋杀罪"
+    },
+    {
+     "title": "Observation of tunable superradiant frequency combs",
+     "url": "https://www.nature.com/articles/s41586-026-11289-7",
+     "time": "2026-11-19T01:09:46.487308Z",
+     "id": "google_news-1",
+     "title_zh": "可调谐超辐射频率梳的观测"
+    },
+    {
+     "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+     "url": "https://upstract.com/x/b11fedb6456b7348",
+     "gated": true,
+     "time": "2026-11-19T00:57:46.487308Z",
+     "id": "google_news-2",
+     "title_zh": "缅甸在联合国法院面临罗兴亚大屠杀的历史性种族灭绝裁决"
+    },
+    {
+     "title": "Newsom proposes sweeping AI rules as ‘template’ for Washington",
+     "url": "https://upstract.com/x/3f4a68acc9b95509",
+     "gated": true,
+     "time": "2026-11-19T00:57:46.487308Z",
+     "id": "google_news-3",
+     "title_zh": "纽森提出全面AI规则，作为华盛顿的“模板”"
+    },
+    {
+     "title": "Target price cuts help retailer post strongest sales growth in years heading into holidays",
+     "url": "https://www.foxbusiness.com/retail/target-price-cuts-help-retailer-post-strongest-sales-growth-years-heading-holidays",
+     "time": "2026-11-19T00:47:46.487308Z",
+     "id": "google_news-4",
+     "title_zh": "塔吉特降价帮助零售商在假日季前实现多年来最强销售增长"
+    },
+    {
+     "title": "Cybersecurity experts share why people should have a 'digital disaster plan'",
+     "url": "https://upstract.com/x/509dc7f4e9e232bd",
+     "gated": true,
+     "time": "2026-11-19T00:47:46.487308Z",
+     "id": "google_news-5",
+     "title_zh": "网络安全专家分享人们为何应制定“数字灾难计划”"
+    },
+    {
+     "title": "Was ‘Grand Theft Auto VI’ worth the 13-year wait? The reviews are in | CNN Business",
+     "url": "https://upstract.com/x/8eba05df129a1333",
+     "gated": true,
+     "time": "2026-11-19T00:47:46.487308Z",
+     "id": "google_news-6",
+     "title_zh": "《侠盗猎车手VI》值得13年的等待吗？评论已出炉 | CNN Business"
+    }
+   ]
+  },
+  {
+   "id": "cnbc",
+   "name": "CNBC",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.cnbc.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "One of the world's most contested seas is proving too much for Asia's leaders to resolve",
+     "url": "https://www.cnbc.com/2026/11/19/south-china-sea-china-asean-coc.html",
+     "time": "2026-11-19T00:31:46.487308Z",
+     "id": "cnbc-0",
+     "title_zh": "世界上最受争议的海域之一让亚洲领导人难以解决"
+    },
+    {
+     "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
+     "url": "https://upstract.com/x/aba37d7c1472f52c",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "cnbc-1",
+     "title_zh": "卡什·帕特尔在与海湖庄园5万美元准入晚宴后跳过众议院听证会"
+    },
+    {
+     "title": "Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+     "url": "https://upstract.com/x/19cae5733b94c330",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "cnbc-2",
+     "title_zh": "印度内部通讯：外资流入帮助市场复苏，现在面临通胀考验"
+    },
+    {
+     "title": "Microsoft had rallied back to record highs. Then came the election and Outlook outage",
+     "url": "https://upstract.com/x/4afa55e527bcd9ff",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "cnbc-3",
+     "title_zh": "微软曾反弹至历史高点。随后选举和Outlook故障到来"
+    },
+    {
+     "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 8% on earnings",
+     "url": "https://upstract.com/x/5950c19c97d00943",
+     "gated": true,
+     "time": "2026-11-18T22:13:46.487308Z",
+     "id": "cnbc-4",
+     "title_zh": "帕洛阿尔托以45亿美元收购AI初创公司Applied Compute，财报后股价上涨8%"
+    },
+    {
+     "title": "CEO turned informant: How the FDA built a case against executives promising cheap medications",
+     "url": "https://upstract.com/x/590dd2124bfdaeb5",
+     "gated": true,
+     "time": "2026-11-18T21:13:46.487308Z",
+     "id": "cnbc-5",
+     "title_zh": "CEO变身线人：FDA如何构建针对承诺廉价药物的高管案件"
+    },
+    {
+     "title": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
+     "url": "https://www.cnbc.com/investingclub/2026/11/18/why-anthropics-hot-ipo-is-bringing-out-sellers-plus-a-down-market-silver-lining.html",
+     "time": "2026-11-18T20:13:46.487308Z",
+     "id": "cnbc-6",
+     "title_zh": "为什么Anthropic火爆的IPO引来卖家——以及下跌市场的一线希望"
+    }
+   ]
+  },
+  {
+   "id": "aljazeera",
+   "name": "Al Jazeera",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.aljazeera.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Kenya’s milk shortage deepens as drought hits farmers and pushes up prices",
+     "url": "https://upstract.com/x/5edd7254d6cc9e5c",
+     "gated": true,
+     "time": "2026-11-19T00:40:46.487308Z",
+     "id": "aljazeera-0",
+     "title_zh": "肯尼亚牛奶短缺加剧，干旱打击农民并推高价格"
+    },
+    {
+     "title": "Somalia’s constitutional overhaul tests its fragile federal bargain",
+     "url": "https://upstract.com/x/0c78fefdd00e1a4c",
+     "gated": true,
+     "time": "2026-11-19T00:37:46.487308Z",
+     "id": "aljazeera-1",
+     "title_zh": "索马里的宪法改革考验其脆弱的联邦协议"
+    },
+    {
+     "title": "Anthropic raises $81.3bn in biggest IPO of all-time",
+     "url": "https://upstract.com/x/0882931096927876",
+     "gated": true,
+     "time": "2026-11-19T00:20:46.487308Z",
+     "id": "aljazeera-2",
+     "title_zh": "Anthropic在史上最大IPO中融资813亿美元"
+    },
+    {
+     "title": "Unvaccinated Pennsylvania resident dies amid historic US measles resurgence",
+     "url": "https://upstract.com/x/e044ac95a109f41b",
+     "gated": true,
+     "time": "2026-11-19T00:14:46.487308Z",
+     "id": "aljazeera-3",
+     "title_zh": "未接种疫苗的宾夕法尼亚州居民在美国历史性麻疹疫情中死亡"
+    },
+    {
+     "title": "EU governments approve trade deal with Indonesia to offset Trump tariffs",
+     "url": "https://upstract.com/x/59179ef2139d93d3",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "aljazeera-4",
+     "title_zh": "欧盟各国政府批准与印尼的贸易协议以抵消特朗普关税"
+    },
+    {
+     "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "aljazeera-5",
+     "title_zh": "伊朗战争直播：沙特领导的联军打击也门；霍尔木兹海峡船只起火"
+    },
+    {
+     "title": "Israel uses Gaza swimming video to minimise winter hardships",
+     "url": "https://upstract.com/x/63da70c693939a27",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "aljazeera-6",
+     "title_zh": "以色列利用加沙游泳视频淡化冬季困境"
+    }
+   ]
+  },
+  {
+   "id": "semafor",
+   "name": "Semafor",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.semafor.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Big Republican donor pitches Trump to save $5 billion deal",
+     "url": "https://upstract.com/x/407c257660a89139",
+     "gated": true,
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-0",
+     "title_zh": "共和党大金主游说特朗普拯救50亿美元交易"
+    },
+    {
+     "title": "Nvidia halts sale of US-approved H200 chips to China",
+     "url": "https://upstract.com/x/5ebad34562912426",
+     "gated": true,
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-1",
+     "title_zh": "英伟达停止向中国出售美国批准的H200芯片"
+    },
+    {
+     "title": "Nvidia shares fall despite bumper earnings",
+     "url": "https://upstract.com/x/f2b342aa637f2fa3",
+     "gated": true,
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-2",
+     "title_zh": "英伟达业绩亮眼但股价仍下跌"
+    },
+    {
+     "title": "Nations push to develop Starlink alternatives",
+     "url": "https://www.semafor.com/article/11/18/2026/nations-push-to-develop-starlink-alternatives",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-3",
+     "title_zh": "各国推动开发星链替代方案"
+    },
+    {
+     "title": "Anthropic prices IPO above target range",
+     "url": "https://www.semafor.com/article/11/18/2026/anthropic-prices-ipo-above-target-range",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-4",
+     "title_zh": "Anthropic的IPO定价高于目标区间"
+    },
+    {
+     "title": "Putin eyes ‘benefit' in meeting Trump, Xi at APEC",
+     "url": "https://www.semafor.com/article/11/18/2026/putin-eyes-benefit-in-meeting-trump-xi-at-apec",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-5",
+     "title_zh": "普京希望在APEC与特朗普、习近平会晤中寻求“利益”"
+    },
+    {
+     "title": "Republicans warily eye Trump’s meeting with Putin, Xi",
+     "url": "https://upstract.com/x/5d67b47b37a4fa9c",
+     "gated": true,
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "semafor-6",
+     "title_zh": "共和党人警惕看待特朗普与普京、习近平的会晤"
+    }
+   ]
+  },
+  {
+   "id": "vox",
+   "name": "Vox",
+   "group": "news",
+   "kind": "list",
+   "home": "https://www.vox.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Anthropic’s early birds are getting very rich",
+     "url": "https://upstract.com/x/8202989473e77d9b",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "vox-0",
+     "title_zh": "Anthropic的早期投资者正变得非常富有"
+    },
+    {
+     "title": "Trump’s looming nominations crunch",
+     "url": "https://www.vox.com/the-logoff-newsletter-trump/511207/trump-senate-nominations-fda-nsf-overton",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "vox-1",
+     "title_zh": "特朗普迫在眉睫的提名危机"
+    },
+    {
+     "title": "The router that took down America’s antique air traffic system, explained",
+     "url": "https://upstract.com/x/b99c3c8aba4c769b",
+     "gated": true,
+     "time": "2026-11-18T20:13:46.487308Z",
+     "id": "vox-2",
+     "title_zh": "导致美国古董级空中交通系统瘫痪的路由器，详解"
+    },
+    {
+     "title": "Who gets to decide Venezuela’s future?",
+     "url": "https://upstract.com/x/b45966603d0514e9",
+     "gated": true,
+     "time": "2026-11-18T13:13:46.487308Z",
+     "id": "vox-3",
+     "title_zh": "谁来决定委内瑞拉的未来？"
+    },
+    {
+     "title": "The US helped the world rein in nuclear weapons. Could it do the same for AI?",
+     "url": "https://www.vox.com/future-perfect/511092/nuclear-weapons-ai-nonproliferation-safety-regulation",
+     "time": "2026-11-18T13:13:46.487308Z",
+     "id": "vox-4",
+     "title_zh": "美国曾帮助世界遏制核武器。它能否对AI做同样的事？"
+    },
+    {
+     "title": "A perfect storm is descending on the AI industry",
+     "url": "https://upstract.com/x/29c4f2252eb0ebec",
+     "gated": true,
+     "time": "2026-11-18T11:13:46.487308Z",
+     "id": "vox-5",
+     "title_zh": "一场完美风暴正降临AI行业"
+    },
+    {
+     "title": "The case for new Democratic leadership",
+     "url": "https://upstract.com/x/4c36b739d935f334",
+     "gated": true,
+     "id": "vox-6",
+     "title_zh": "支持新民主党领导层的理由"
+    }
+   ]
+  },
+  {
+   "id": "readhub",
+   "name": "Readhub 每日早报",
+   "group": "news",
+   "kind": "list",
+   "home": "https://readhub.cn/",
+   "lang": "zh",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "腾讯：WorkBuddy 日活超千万",
+     "url": "https://readhub.cn/topic/8y9hdxcYm81",
+     "id": "readhub-0"
+    },
+    {
+     "title": "英伟达临时 CEO：不再向中国销售 H200 芯片",
+     "url": "https://readhub.cn/topic/8y98yex7li1",
+     "id": "readhub-1"
+    },
+    {
+     "title": "Anthropic 更新招股书：估值或升至 1.6 万亿美元 亚马逊谷歌合持近三成股份",
+     "url": "https://readhub.cn/topic/8y9DGQiSrmJ",
+     "id": "readhub-2"
+    },
+    {
+     "title": "英伟达：安全问题是 CEO 遴选的关键关注点",
+     "url": "https://readhub.cn/topic/8y953dDc6c1",
+     "id": "readhub-3"
+    },
+    {
+     "title": "OpenAI 推出 GPT-6.2 Astra 和 Sol",
+     "url": "https://readhub.cn/topic/8y8ffwz632H",
+     "id": "readhub-4"
+    },
+    {
+     "title": "苹果破例签长约：拟与三星达成 4 至 5 年 DRAM 供货",
+     "url": "https://readhub.cn/topic/8y97CYEH8GB",
+     "id": "readhub-5"
+    },
+    {
+     "title": "Salesforce 拟设 AI 使用预算：员工每月烧掉数千美元 Token",
+     "url": "https://readhub.cn/topic/8y9dODo0e4Q",
+     "id": "readhub-6"
+    },
+    {
+     "title": "马斯克：预计 SpaceX 不会向 OpenAI 出售任何算力",
+     "url": "https://readhub.cn/topic/8y9k8ixyxQQ",
+     "id": "readhub-7"
+    },
+    {
+     "title": "英特尔启动新一轮裁员，波及全球 IT 部门",
+     "url": "https://readhub.cn/topic/8y9k8XZTMfn",
+     "id": "readhub-8"
+    },
+    {
+     "title": "豆包工作日活破 800 万 企业客户 ARR 突破 20 亿元",
+     "url": "https://readhub.cn/topic/8y9ztTN8mwa",
+     "source": "投资界",
+     "id": "readhub-9"
+    }
+   ]
+  },
+  {
+   "id": "atlantic",
+   "name": "The Atlantic",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.theatlantic.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "‘No Take, Only Throw’ Politics",
+     "url": "https://upstract.com/x/f572dae8bb7b4ee7",
+     "gated": true,
+     "time": "2026-11-18T23:13:46.487308Z",
+     "id": "atlantic-0",
+     "title_zh": "“不准拿，只能扔”政治"
+    },
+    {
+     "title": "Jared Kushner Is Negotiating for Peace While Profiting From War",
+     "url": "https://upstract.com/x/1ad56cc473a011c3",
+     "gated": true,
+     "time": "2026-11-18T22:13:46.487308Z",
+     "id": "atlantic-1",
+     "title_zh": "贾里德·库什纳一边谈判和平一边从战争中获利"
+    },
+    {
+     "title": "Election Denialism Is All but Dead",
+     "url": "https://upstract.com/x/fe1dcd14cb84a021",
+     "gated": true,
+     "time": "2026-11-18T21:13:46.487308Z",
+     "id": "atlantic-2",
+     "title_zh": "否认选举结果主义几乎已死"
+    },
+    {
+     "title": "Can Pope Leo Bridge the Church’s Demographic Divide?",
+     "url": "https://upstract.com/x/e16ba60af8c3c790",
+     "gated": true,
+     "time": "2026-11-18T21:13:46.487308Z",
+     "id": "atlantic-3",
+     "title_zh": "教皇利奥能否弥合教会的人口结构鸿沟？"
+    },
+    {
+     "title": "After the Blue Wave, What Comes Next?",
+     "url": "https://www.theatlantic.com/podcasts/2026/11/david-frum-show-neera-tanden-post-blue-wave/689490/",
+     "time": "2026-11-18T19:13:46.487308Z",
+     "id": "atlantic-4",
+     "title_zh": "蓝色浪潮之后，接下来会发生什么？"
+    },
+    {
+     "title": "What on Earth Is Going On?",
+     "url": "https://upstract.com/x/763835df295308ab",
+     "gated": true,
+     "time": "2026-11-18T17:13:46.487308Z",
+     "id": "atlantic-5",
+     "title_zh": "到底发生了什么？"
+    },
+    {
+     "title": "Anthropic is the Reluctant Winner of the AI Race",
+     "url": "https://upstract.com/x/6d7a802385d26d18",
+     "gated": true,
+     "time": "2026-11-18T16:13:46.487308Z",
+     "id": "atlantic-6",
+     "title_zh": "Anthropic是AI竞赛中不情愿的赢家"
+    }
+   ]
+  },
+  {
+   "id": "newyorker",
+   "name": "The New Yorker",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.newyorker.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Anyone Can Dissect a Human Body",
+     "url": "https://upstract.com/x/ce076ccccd7ca9fe",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "newyorker-0",
+     "title_zh": "任何人都能解剖人体"
+    },
+    {
+     "title": "Laura Kolbe Reads Robyn Schiff",
+     "url": "https://www.newyorker.com/podcast/poetry/laura-kolbe-reads-robyn-schiff",
+     "time": "2026-11-18T20:13:46.487308Z",
+     "id": "newyorker-1",
+     "title_zh": "劳拉·科尔比读罗宾·希夫"
+    },
+    {
+     "title": "“Sense of Water” Is an Iranian Exile’s Love Letter to Farsi",
+     "url": "https://upstract.com/x/eead922c21b4d599",
+     "gated": true,
+     "time": "2026-11-18T17:13:46.487308Z",
+     "id": "newyorker-2",
+     "title_zh": "《水之感》是一位伊朗流亡者对波斯语的情书"
+    },
+    {
+     "title": "Daily Cartoon: Wednesday, November 18th",
+     "url": "https://www.newyorker.com/cartoons/daily-cartoon/wednesday-november-18th-greg-outage",
+     "time": "2026-11-18T17:13:46.487308Z",
+     "id": "newyorker-3",
+     "title_zh": "每日漫画：11月18日星期三"
+    },
+    {
+     "title": "The Best Books of 2026 So Far",
+     "url": "https://www.newyorker.com/best-books-2026",
+     "time": "2026-11-18T16:13:46.487308Z",
+     "id": "newyorker-4",
+     "title_zh": "2026年迄今最佳图书"
+    },
+    {
+     "title": "“On the Calculation of Volume” Enters a New Phase",
+     "url": "https://upstract.com/x/5078ebfea2af1597",
+     "gated": true,
+     "time": "2026-11-18T12:13:46.487308Z",
+     "id": "newyorker-5",
+     "title_zh": "《论体积的计算》进入新阶段"
+    },
+    {
+     "title": "Trump’s Bogus Yalta Moment",
+     "url": "https://upstract.com/x/9142256d23a40256",
+     "gated": true,
+     "time": "2026-11-18T11:13:46.487308Z",
+     "id": "newyorker-6",
+     "title_zh": "特朗普虚假的雅尔塔时刻"
+    }
+   ]
+  },
+  {
+   "id": "unherd",
+   "name": "UnHerd",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://unherd.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Grand Theft Autopen",
+     "url": "https://unherd.com/2026/11/grand-theft-autopen/?edition=us",
+     "time": "2026-11-18T06:13:46.487308Z",
+     "id": "unherd-0",
+     "title_zh": "大盗自动笔"
+    },
+    {
+     "title": "Milburn has buried Starmerism",
+     "url": "https://upstract.com/x/dacc7302211f8c20",
+     "gated": true,
+     "id": "unherd-1",
+     "title_zh": "米尔本埋葬了斯塔默主义"
+    },
+    {
+     "title": "How Britain led America down the K-hole",
+     "url": "https://upstract.com/x/34a3e63554d33a28",
+     "gated": true,
+     "id": "unherd-2",
+     "title_zh": "英国如何把美国带进K洞"
+    },
+    {
+     "title": "Inside the AI surveillance state",
+     "url": "https://upstract.com/x/f0716e75fdbb0cb2",
+     "gated": true,
+     "id": "unherd-3",
+     "title_zh": "AI监控国家内幕"
+    },
+    {
+     "title": "The sorry decline of Central Park",
+     "url": "https://unherd.com/2026/11/the-sorry-decline-of-central-park/",
+     "time": "2026-11-17T01:13:46.487308Z",
+     "id": "unherd-4",
+     "title_zh": "中央公园令人遗憾的衰落"
+    },
+    {
+     "title": "The sorry decline of Central Park",
+     "url": "https://upstract.com/x/43c9e970923b3e5f",
+     "gated": true,
+     "time": "2026-11-17T01:13:46.487308Z",
+     "id": "unherd-5",
+     "title_zh": "中央公园令人遗憾的衰落"
+    },
+    {
+     "title": "What #MeThree gets wrong",
+     "url": "https://upstract.com/x/7f7f22cb3f7789ea",
+     "gated": true,
+     "time": "2026-11-17T01:13:46.487308Z",
+     "id": "unherd-6",
+     "title_zh": "#MeThree错在哪里"
+    }
+   ]
+  },
+  {
+   "id": "commentary",
+   "name": "Commentary",
+   "group": "ideas",
+   "kind": "list",
+   "home": "https://www.commentary.org/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "El-Sayed Comes Clean",
+     "url": "https://upstract.com/x/070559dc7d1a7c44",
+     "gated": true,
+     "time": "2026-11-18T22:13:46.487308Z",
+     "id": "commentary-0",
+     "title_zh": "埃尔-赛义德坦白交代"
+    },
+    {
+     "title": "The Chips are Down",
+     "url": "https://upstract.com/x/b9ae7017e77abf28",
+     "gated": true,
+     "time": "2026-11-18T17:13:46.487308Z",
+     "id": "commentary-1",
+     "title_zh": "芯片陷入困境"
+    },
+    {
+     "title": "Israeli Hostage Families Beat the ICC in (Real) Court",
+     "url": "https://upstract.com/x/e5fef91050ddd846",
+     "gated": true,
+     "id": "commentary-2",
+     "title_zh": "以色列人质家属在（真正的）法庭上击败国际刑事法院"
+    },
+    {
+     "title": "The UK’s Lies About ‘Green Line Israel’",
+     "url": "https://upstract.com/x/08986f7f02f9e62a",
+     "gated": true,
+     "id": "commentary-3",
+     "title_zh": "英国关于“绿线以色列”的谎言"
+    },
+    {
+     "title": "Down and Outage",
+     "url": "https://www.commentary.org/noam-blum/down-and-outage/",
+     "id": "commentary-4",
+     "title_zh": "低落与断网"
+    },
+    {
+     "title": "The Fallout from Slotkin’s Embrace of El-Sayed",
+     "url": "https://www.commentary.org/seth-mandel/the-fallout-from-slotkins-embrace-of-el-sayed/",
+     "time": "2026-11-17T01:13:46.487308Z",
+     "id": "commentary-5",
+     "title_zh": "斯洛特金拥抱埃尔-赛义德的后果"
+    },
+    {
+     "title": "Woke 2: Palestine Boogaloo",
+     "url": "https://www.commentary.org/seth-mandel/woke-2-palestine-boogaloo/",
+     "time": "2026-11-17T01:13:46.487308Z",
+     "id": "commentary-6",
+     "title_zh": "觉醒2：巴勒斯坦风波"
+    }
+   ]
+  },
+  {
+   "id": "alltop_tech",
+   "name": "科技",
+   "group": "alltop",
+   "kind": "list",
+   "home": "https://www.alltop.com/tech",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Anthropic IPO set to test AI market, Nvidia valuation",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-video",
+     "source": "Bloomberg",
+     "time": "2026-11-19T01:09:46.487308Z",
+     "count": 24,
+     "id": "alltop_tech-0",
+     "title_zh": "Anthropic的IPO将考验AI市场和英伟达估值"
+    },
+    {
+     "title": "US charges Russian national with spying on Palantir",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-charges-russian-as-foreign-agent-targeting-palantir-workers",
+     "source": "Bloomberg",
+     "time": "2026-11-19T00:32:46.487308Z",
+     "count": 6,
+     "id": "alltop_tech-1",
+     "title_zh": "美国指控俄罗斯公民间谍活动针对Palantir"
+    },
+    {
+     "title": "Nvidia interim CEO boosts pay and equity for employees",
+     "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+     "source": "Wired",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 9,
+     "id": "alltop_tech-2",
+     "title_zh": "英伟达临时CEO提高员工薪酬和股权"
+    },
+    {
+     "title": "California bans Waymo from state freeways over safety",
+     "url": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
+     "source": "The Verge",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 13,
+     "id": "alltop_tech-3",
+     "title_zh": "加州以安全为由禁止Waymo进入州内高速公路"
+    },
+    {
+     "title": "AI-found software flaws cause US tech outages",
+     "url": "https://www.wsj.com/tech/cybersecurity/outages-bug-patches-microsoft-faa-apple-nsa-5a0b1ea5?mod=rss_Technology",
+     "source": "Wall Street Journal",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 12,
+     "id": "alltop_tech-4",
+     "title_zh": "AI发现的软件漏洞导致美国科技中断"
+    },
+    {
+     "title": "Voyager 1 reaches one light-day distance from Earth",
+     "url": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day?traffic_source=rss",
+     "source": "Al Jazeera English",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 15,
+     "id": "alltop_tech-5",
+     "title_zh": "旅行者1号达到距地球一光日的距离"
+    },
+    {
+     "title": "AI helps discover critical Java4Shell vulnerability",
+     "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
+     "source": "NYT Politics",
+     "time": "2026-11-18T18:13:46.487308Z",
+     "count": 10,
+     "id": "alltop_tech-6",
+     "title_zh": "AI帮助发现关键的Java4Shell漏洞"
+    },
+    {
+     "title": "Google makes Gemini AI agent Tasks free in six countries",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+     "source": "Google Blog",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 10,
+     "id": "alltop_tech-7",
+     "title_zh": "谷歌在六国免费提供Gemini AI代理Tasks"
+    },
+    {
+     "title": "Palo Alto Networks Buys AI Startup Applied Compute for $4.5 Billion",
+     "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=rss_Technology",
+     "source": "Wall Street Journal",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_tech-8",
+     "title_zh": "Palo Alto Networks以45亿美元收购AI初创公司Applied Compute"
+    },
+    {
+     "title": "ULA Vulcan rocket fails, destroying 40 Amazon satellites",
+     "url": "https://www.geekwire.com/2026/early-data-points-to-vulcans-first-stage-in-launch-failure-that-cost-amazon-40-leo-satellites/",
+     "source": "GeekWire",
+     "time": "2026-11-18T18:13:46.487308Z",
+     "count": 11,
+     "id": "alltop_tech-9",
+     "title_zh": "ULA火神火箭发射失败，摧毁40颗亚马逊卫星"
+    }
+   ]
+  },
+  {
+   "id": "alltop_business",
+   "name": "商业",
+   "group": "alltop",
+   "kind": "list",
+   "home": "https://www.alltop.com/business",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Anthropic IPO set to test AI market, Nvidia valuation",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-video",
+     "source": "Bloomberg",
+     "time": "2026-11-19T01:09:46.487308Z",
+     "count": 24,
+     "id": "alltop_business-0",
+     "title_zh": "Anthropic IPO将考验AI市场与英伟达估值"
+    },
+    {
+     "title": "Nvidia interim CEO boosts pay and equity for employees",
+     "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+     "source": "Wired",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 9,
+     "id": "alltop_business-1",
+     "title_zh": "英伟达临时CEO提高员工薪酬与股权"
+    },
+    {
+     "title": "Trump, Putin, Xi to hold first trilateral meeting in China",
+     "url": "https://www.nytimes.com/2026/11/15/us/politics/nvidia-trump-huang-china-xi.html",
+     "source": "NYT Politics",
+     "time": "2026-11-18T18:13:46.487308Z",
+     "count": 20,
+     "id": "alltop_business-2",
+     "title_zh": "特朗普、普京、习近平将在中国举行首次三边会晤"
+    },
+    {
+     "title": "California bans Waymo from state freeways over safety",
+     "url": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
+     "source": "The Verge",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 13,
+     "id": "alltop_business-3",
+     "title_zh": "加州以安全为由禁止Waymo驶入州内高速公路"
+    },
+    {
+     "title": "AI-found software flaws cause US tech outages",
+     "url": "https://www.wsj.com/tech/cybersecurity/outages-bug-patches-microsoft-faa-apple-nsa-5a0b1ea5?mod=rss_Technology",
+     "source": "Wall Street Journal",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 12,
+     "id": "alltop_business-4",
+     "title_zh": "AI发现的软件漏洞导致美国科技服务中断"
+    },
+    {
+     "title": "Google makes Gemini AI agent Tasks free in six countries",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+     "source": "Google Blog",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 10,
+     "id": "alltop_business-5",
+     "title_zh": "谷歌在六国免费开放Gemini AI代理Tasks"
+    },
+    {
+     "title": "Palo Alto Networks Buys AI Startup Applied Compute for $4.5 Billion",
+     "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=rss_Technology",
+     "source": "Wall Street Journal",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_business-6",
+     "title_zh": "Palo Alto Networks以45亿美元收购AI初创公司Applied Compute"
+    },
+    {
+     "title": "Sources: White House withdraws Heidi Overton FDA nomination amid Republican opposition",
+     "url": "https://www.axios.com/2026/11/17/heidi-overton-fda-nomination-dropped",
+     "source": "Axios",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 7,
+     "id": "alltop_business-7",
+     "title_zh": "消息人士：白宫因共和党反对撤回Heidi Overton的FDA提名"
+    },
+    {
+     "title": "Kalshi halts Trump mention contracts after CFTC order",
+     "url": "https://www.coindesk.com/policy/2026/11/17/predictions-platform-kalshi-complies-with-order-to-halt-trump-mention-contracts",
+     "source": "CoinDesk",
+     "time": "2026-11-18T19:13:46.487308Z",
+     "count": 7,
+     "id": "alltop_business-8",
+     "title_zh": "Kalshi在CFTC命令后停止特朗普提及相关合约"
+    },
+    {
+     "title": "GTA VI budget reaches $1.5B, poised to shatter entertainment records",
+     "url": "https://www.thewrap.com/culture-lifestyle/culture/grand-theft-auto-gta-vi-impact-on-film-tv-streaming/",
+     "source": "TheWrap",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 4,
+     "id": "alltop_business-9",
+     "title_zh": "《GTA VI》预算达15亿美元，有望刷新娱乐业纪录"
+    }
+   ]
+  },
+  {
+   "id": "alltop_world",
+   "name": "世界",
+   "group": "alltop",
+   "kind": "list",
+   "home": "https://www.alltop.com/world",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "US charges Russian national with spying on Palantir",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-charges-russian-as-foreign-agent-targeting-palantir-workers",
+     "source": "Chris Strohm and David Voreacos / Bloomberg",
+     "time": "2026-11-19T00:31:46.487308Z",
+     "count": 6,
+     "id": "alltop_world-0",
+     "title_zh": "美国指控一名俄罗斯公民为Palantir从事间谍活动"
+    },
+    {
+     "title": "Trump, Putin, Xi to hold first trilateral meeting in China",
+     "url": "https://www.nytimes.com/2026/11/15/us/politics/nvidia-trump-huang-china-xi.html",
+     "source": "NYT Politics",
+     "time": "2026-11-18T18:13:46.487308Z",
+     "count": 20,
+     "id": "alltop_world-1",
+     "title_zh": "特朗普、普京、习近平将在中国举行首次三边会晤"
+    },
+    {
+     "title": "Isolated Awá Tribe emerges from Amazon, highlighting threats",
+     "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
+     "source": "The Guardian World",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 4,
+     "id": "alltop_world-2",
+     "title_zh": "与世隔绝的Awá部落现身亚马逊，凸显威胁"
+    },
+    {
+     "title": "Ukraine drone attack severs key Russian supply line to Crimea",
+     "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea",
+     "source": "The Guardian World",
+     "time": "2026-11-18T17:13:46.487308Z",
+     "count": 7,
+     "id": "alltop_world-3",
+     "title_zh": "乌克兰无人机袭击切断了俄罗斯通往克里米亚的关键补给线"
+    },
+    {
+     "title": "Iran targets US radar in Bahrain with drone strike",
+     "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss",
+     "source": "Al Jazeera English",
+     "time": "2026-11-18T09:13:46.487308Z",
+     "count": 9,
+     "id": "alltop_world-4",
+     "title_zh": "伊朗以无人机袭击巴林境内美军雷达"
+    },
+    {
+     "title": "US Defense Secretary Hegseth visits Venezuela to deepen military partnership",
+     "url": "https://thehill.com/policy/defense/6228102-hegseth-meets-venezuela-rodriquez/",
+     "source": "The Hill",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_world-5",
+     "title_zh": "美国国防部长赫格塞思访问委内瑞拉以深化军事伙伴关系"
+    },
+    {
+     "title": "World Court rules on Myanmar genocide case",
+     "url": "https://www.nytimes.com/2026/11/18/world/asia/myanmar-rohingya-muslim-genocide-world-court.html",
+     "source": "NYT World",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "count": 3,
+     "id": "alltop_world-6",
+     "title_zh": "世界法院就缅甸种族灭绝案作出裁决"
+    },
+    {
+     "title": "US Secretary of State Rubio: Recent tech outages unrelated and not hostile acts",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/rubio-says-recent-us-tech-outages-unrelated-not-hostile-acts",
+     "source": "Bloomberg",
+     "time": "2026-11-18T15:13:46.487308Z",
+     "count": 6,
+     "id": "alltop_world-7",
+     "title_zh": "美国国务卿鲁比奥：近期科技中断互不相关，并非敌对行为"
+    },
+    {
+     "title": "Israeli tanks cross Gaza cease-fire line in limited incursion",
+     "url": "https://www.nytimes.com/2026/11/18/world/middleeast/israeli-tanks-advance-across-gaza-cease-fire-line-in-rare-incursion.html",
+     "source": "NYT World",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 3,
+     "id": "alltop_world-8",
+     "title_zh": "以色列坦克越过加沙停火线进行有限入侵"
+    },
+    {
+     "title": "Atmospheric Rivers Unleash Torrential Rain and Massive Waves on West Coast",
+     "url": "https://www.foxweather.com/weather-news/storms-atmospheric-rivers-northwest-wind-waves-snow",
+     "source": "Fox Weather",
+     "time": "2026-11-18T20:13:46.487308Z",
+     "count": 6,
+     "id": "alltop_world-9",
+     "title_zh": "大气河流在西海岸引发暴雨和巨浪"
+    }
+   ]
+  },
+  {
+   "id": "alltop_science",
+   "name": "科学",
+   "group": "alltop",
+   "kind": "list",
+   "home": "https://www.alltop.com/science",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "US loses measles elimination status after 26 years",
+     "url": "https://www.nytimes.com/2026/11/17/science/the-virus-that-makes-your-immune-system-forget.html",
+     "source": "David Quammen / NYT Science",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 15,
+     "id": "alltop_science-0",
+     "title_zh": "美国在26年后失去麻疹消除地位"
+    },
+    {
+     "title": "Voyager 1 reaches one light-day distance from Earth",
+     "url": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day?traffic_source=rss",
+     "source": "Al Jazeera English",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 15,
+     "id": "alltop_science-1",
+     "title_zh": "旅行者1号距离地球达一光日"
+    },
+    {
+     "title": "Sources: White House withdraws Heidi Overton FDA nomination amid Republican opposition",
+     "url": "https://www.axios.com/2026/11/17/heidi-overton-fda-nomination-dropped",
+     "source": "Axios",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "count": 7,
+     "id": "alltop_science-2",
+     "title_zh": "消息人士：白宫因共和党反对撤回Heidi Overton的FDA提名"
+    },
+    {
+     "title": "Senate committee rejects Trump nominee for NSF leadership",
+     "url": "https://www.scientificamerican.com/article/key-senate-committee-refuses-to-vote-on-trumps-nominee-to-lead-the-national-science-foundation-jim-oneill/",
+     "source": "Scientific American",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_science-3",
+     "title_zh": "参议院委员会否决特朗普的NSF领导人提名人"
+    },
+    {
+     "title": "Homo erectus survived in China 200,000 years longer than thought",
+     "url": "https://phys.org/news/2026-11-ancient-teeth-homo-erectus-survived.html",
+     "source": "Phys.org",
+     "time": "2026-11-18T23:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_science-4",
+     "title_zh": "直立人在中国存活的时间比此前认为的长20万年"
+    },
+    {
+     "title": "ULA Vulcan rocket fails, destroying 40 Amazon satellites",
+     "url": "https://www.geekwire.com/2026/early-data-points-to-vulcans-first-stage-in-launch-failure-that-cost-amazon-40-leo-satellites/",
+     "source": "GeekWire",
+     "time": "2026-11-18T18:13:46.487308Z",
+     "count": 11,
+     "id": "alltop_science-5",
+     "title_zh": "ULA火神火箭发射失败，摧毁40颗亚马逊卫星"
+    },
+    {
+     "title": "Isolated Awá Tribe emerges from Amazon, highlighting threats",
+     "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
+     "source": "The Guardian World",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 4,
+     "id": "alltop_science-6",
+     "title_zh": "与世隔绝的Awá部落现身亚马逊，凸显威胁"
+    },
+    {
+     "title": "Voyager 1 Space Probe Reaches One Light-Day Distance From Earth",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space?traffic_source=rss",
+     "source": "Al Jazeera English",
+     "time": "2026-11-19T00:46:46.487308Z",
+     "count": 2,
+     "id": "alltop_science-7",
+     "title_zh": "旅行者1号探测器距地球达一光日"
+    },
+    {
+     "title": "Neanderthal gene variant linked to human brain size, schizophrenia risk",
+     "url": "https://www.scientificamerican.com/article/neanderthal-dna-linked-to-lower-risk-of-schizophrenia-in-modern-humans/",
+     "source": "Scientific American",
+     "time": "2026-11-18T22:13:46.487308Z",
+     "count": 5,
+     "id": "alltop_science-8",
+     "title_zh": "尼安德特人基因变异与人类脑容量及精神分裂症风险相关"
+    },
+    {
+     "title": "Tunable superradiant frequency comb observed in spin-resonator systems",
+     "url": "https://www.nature.com/articles/s41586-026-11289-7",
+     "source": "Nature",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "count": 2,
+     "id": "alltop_science-9",
+     "title_zh": "在自旋谐振器系统中观测到可调谐超辐射频率梳"
+    }
+   ]
+  },
+  {
+   "id": "reddit",
+   "name": "Reddit",
+   "group": "social",
+   "kind": "list",
+   "home": "https://www.reddit.com/",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "US Carrier Sails From Persian Gulf, Leaving Two in Region",
+     "url": "https://upstract.com/x/4cb7400a483c8162",
+     "gated": true,
+     "time": "2026-11-19T01:06:46.487308Z",
+     "source": "r/worldnews",
+     "id": "reddit-0",
+     "title_zh": "美国航母驶离波斯湾，该地区仅剩两艘"
+    },
+    {
+     "title": "Waymo pulls driverless taxis from freeways across the US after California ban",
+     "url": "https://www.reddit.com/r/news/comments/1xzvo6s/waymo_pulls_driverless_taxis_from_freeways_across/",
+     "time": "2026-11-19T00:57:46.487308Z",
+     "id": "reddit-1",
+     "title_zh": "加州禁令后Waymo在全美撤出高速公路上的无人驾驶出租车"
+    },
+    {
+     "title": "In rare encounter, Brazil's isolated Awa tribe seeks food as outsiders breach land",
+     "url": "https://www.reddit.com/r/worldnews/comments/1xzrfy9/in_rare_encounter_brazils_isolated_awa_tribe/",
+     "time": "2026-11-19T00:56:46.487308Z",
+     "id": "reddit-2",
+     "title_zh": "罕见接触：巴西与世隔绝的Awá部落因外人侵入土地而寻求食物"
+    },
+    {
+     "title": "The head of Israel's Mossad spy agency, advocated and lobbied for joint US-Israeli strikes on Iran during meetings with US…",
+     "url": "https://upstract.com/x/575abab05fde941c",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "source": "r/worldnews",
+     "id": "reddit-3",
+     "title_zh": "以色列摩萨德间谍机构负责人与美方会晤期间主张并游说美以联合打击伊朗"
+    },
+    {
+     "title": "Iran Fires Missiles and Drones at Gulf Arab States as Peace Talks Falter",
+     "url": "https://www.reddit.com/r/worldnews/comments/1xzu8ef/iran_fires_missiles_and_drones_at_gulf_arab/",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "source": "r/worldnews",
+     "id": "reddit-4",
+     "title_zh": "和谈受挫之际伊朗向海湾阿拉伯国家发射导弹和无人机"
+    },
+    {
+     "title": "European Commission calls for accountability over Russia's chemical weapons use in Ukraine",
+     "url": "https://www.reddit.com/r/worldnews/comments/1xztp3c/european_commission_calls_for_accountability_over/",
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "reddit-5",
+     "title_zh": "欧盟委员会呼吁追究俄罗斯在乌克兰使用化学武器的责任"
+    },
+    {
+     "title": "Coalition of the Willing in Berlin to discuss deployment of multinational forces in Ukraine",
+     "url": "https://upstract.com/x/40028e80c2c67f4b",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "id": "reddit-6",
+     "title_zh": "“意愿联盟”在柏林讨论向乌克兰部署多国部队"
+    },
+    {
+     "title": "Moldovan president says Russian drone flew over capital",
+     "url": "https://upstract.com/x/3b5549559d502528",
+     "gated": true,
+     "time": "2026-11-19T00:13:46.487308Z",
+     "source": "r/worldnews",
+     "id": "reddit-7",
+     "title_zh": "摩尔多瓦总统称俄罗斯无人机飞越首都"
+    }
+   ]
+  },
+  {
+   "id": "google_trends",
+   "name": "Google Trends",
+   "group": "social",
+   "kind": "list",
+   "home": "https://trends.google.com/trending?geo=US",
+   "lang": "en",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Lu Dort knows his first return to Oklahoma City will be emotional and 'surreal'",
+     "url": "https://www.nba.com/news/atlanta-hawks-dort-wiggins-face-oklahoma-city-thunder",
+     "source": "NBA.com",
+     "traffic": "2k+",
+     "id": "google_trends-0",
+     "title_zh": "吕冈茨·多尔特知道首次重返俄克拉荷马城将充满情感且“如梦似幻”"
+    },
+    {
+     "title": "The Hunger Games: Sunrise on the Reaping First Reviews: A Familiar but Thrilling Return to Form",
+     "url": "https://editorial.rottentomatoes.com/article/the-hunger-games-sunrise-on-the-reaping-first-reviews/",
+     "source": "Rotten Tomatoes",
+     "traffic": "1k+",
+     "id": "google_trends-1",
+     "title_zh": "《饥饿游戏：收割日出》首批影评：似曾相识却惊险刺激的回归之作"
+    },
+    {
+     "title": "Game Recap: Grizzlies 136, Wizards 120 (Nov. 16)",
+     "url": "https://www.nba.com/watch/video/game-recap-grizzlies-136-wizards-120-nov-16",
+     "source": "NBA.com",
+     "traffic": "500+",
+     "id": "google_trends-2",
+     "title_zh": "比赛回顾：灰熊136比120奇才（11月16日）"
+    },
+    {
+     "title": "Gordon Ramsay Says He’s ‘a Couple of Days’ Away from Becoming a Grandpa During Walk of Fame Ceremony",
+     "url": "https://people.com/gordon-ramsay-says-he-s-a-couple-of-days-away-from-becoming-a-grandpa-during-walk-of-fame-ceremony-12263473",
+     "source": "People.com",
+     "traffic": "500+",
+     "id": "google_trends-3",
+     "title_zh": "戈登·拉姆齐在星光大道仪式上称自己“再过几天”就要当爷爷了"
+    },
+    {
+     "title": "43 soldiers said yes to more Army if they could play ‘GTA VI’",
+     "url": "https://taskandpurpose.com/culture/army-reenlistment-gta-vi/",
+     "source": "Task & Purpose",
+     "traffic": "500+",
+     "id": "google_trends-4",
+     "title_zh": "43名士兵表示若能玩《GTA VI》就愿意继续服役"
+    },
+    {
+     "title": "New York U.S. House Midterm Election 2026: Live Results",
+     "url": "https://www.nbcnews.com/politics/2026-elections/new-york-house-results",
+     "source": "NBC News",
+     "traffic": "500+",
+     "id": "google_trends-5",
+     "title_zh": "2026年纽约州美国众议院中期选举：实时结果"
+    }
+   ]
+  },
+  {
+   "id": "pepper",
+   "name": "Pepper.pl",
+   "group": "deals",
+   "kind": "deals",
+   "home": "https://www.pepper.pl/najgoretsze",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Połówka choinki 180 cm, 240 LED, ciepła biel, PE/PVC",
+     "url": "https://www.pepper.pl/promocje/polowka-choinki-180-cm-240-led-ciepla-biel-pepvc-1393250",
+     "temperature": 2507,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 183,
+     "type": "Deal",
+     "price": 92.99,
+     "merchant": "Allegro",
+     "id": "pepper-0",
+     "title_zh": "180厘米半圣诞树，240颗LED，暖白光，PE/PVC"
+    },
+    {
+     "title": "Minecraft (Android i iOS)",
+     "url": "https://www.pepper.pl/promocje/minecraft-android-i-ios-1392900",
+     "temperature": 1515,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 50,
+     "type": "Deal",
+     "price": 16.99,
+     "merchant": "Google Play",
+     "id": "pepper-1",
+     "title_zh": "我的世界（Android和iOS）"
+    },
+    {
+     "title": "Monitor LG MyView Smart All-in-One 34\" QHD (3440x1440), 5ms, GtG, 100Hz, sRGB99% 34SR65QC-B.AEU",
+     "url": "https://www.pepper.pl/promocje/monitor-lg-myview-smart-all-in-one-34-qhd-3440x1440-5ms-gtg-100hz-srgb99-34sr65qc-baeu-1393388",
+     "temperature": 1514,
+     "price_old": 1519.66,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 49,
+     "type": "Deal",
+     "price": 884.12,
+     "merchant": "Amazon.pl",
+     "id": "pepper-2",
+     "title_zh": "LG MyView Smart All-in-One 34英寸QHD显示器（3440x1440），5ms，GtG，100Hz，sRGB99% 34SR65QC-B.AEU"
+    },
+    {
+     "title": "LEGO Speed Champions Wehikuł czasu z Powrotu do przyszłości 77256 | w opisie LEGO Speed Champions Zygzak McQueen 77255",
+     "url": "https://www.pepper.pl/promocje/lego-speed-champions-wehikul-czasu-z-powrotu-do-przyszlosci-77256-1393000",
+     "temperature": 1336,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 40,
+     "type": "Deal",
+     "price": 61.99,
+     "merchant": "Amazon.pl",
+     "id": "pepper-3",
+     "title_zh": "LEGO Speed Champions《回到未来》时光机77256 | 描述中含LEGO Speed Champions闪电麦昆77255"
+    },
+    {
+     "title": "Buty męskie Adidas Break Start Mid Winterized",
+     "url": "https://www.pepper.pl/promocje/buty-meskie-adidas-break-start-mid-winterized-1393301",
+     "temperature": 1172,
+     "price_old": 239.2,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 44,
+     "type": "Deal",
+     "price": 149.5,
+     "merchant": "adidas",
+     "id": "pepper-4",
+     "title_zh": "Adidas Break Start Mid Winterized男鞋"
+    },
+    {
+     "title": "Victorinox Nóż pikutek uniwersalny czarny/niebieski (możliwe 14zł/szt i darmowa dostawa)",
+     "url": "https://www.pepper.pl/promocje/victorinox-noz-pikutek-uniwersalny-czarny-mozliwe-14zlszt-i-darmowa-dostawa-1392890",
+     "temperature": 1129,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 34,
+     "type": "Deal",
+     "price": 17.83,
+     "merchant": "InPost",
+     "id": "pepper-5",
+     "title_zh": "Victorinox多功能小刀黑/蓝色（可能14兹罗提/件并免运费）"
+    },
+    {
+     "title": "Buty męskie Nike Air Max 90 (2 kolory , niepełna rozmiarówka)",
+     "url": "https://www.pepper.pl/promocje/buty-meskie-nike-air-max-90-2-kolory-niepelna-rozmiarowka-1392904",
+     "temperature": 1129,
+     "price_old": 649.99,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 47,
+     "type": "Deal",
+     "price": 389.99,
+     "merchant": "Nike",
+     "id": "pepper-6",
+     "title_zh": "Nike Air Max 90 男士运动鞋（2 种颜色，尺码不全）"
+    },
+    {
+     "title": "Banany @Biedronka CAŁA ULOTKA - np. banany 2,99 zł/kg",
+     "url": "https://www.pepper.pl/promocje/banany-at-biedronka-cala-ulotka-1393348",
+     "temperature": 1064,
+     "price_old": 6.99,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 21,
+     "type": "Deal",
+     "price": 2.99,
+     "merchant": "Biedronka",
+     "id": "pepper-7",
+     "title_zh": "Biedronka 香蕉 完整传单 - 例如香蕉 2.99 兹罗提/公斤"
+    },
+    {
+     "title": "Kurtka męska puchowa Alpinus Kiruna / wypełnienie naturalne CIUN FP700 (90% puch, 10% pierze) / 3 kolory",
+     "url": "https://www.pepper.pl/promocje/kurtka-meska-puchowa-alpinus-kiruna-wypelnienie-naturalna-ciun-fp700-90-puch-10-pierze-3-kolory-1393054",
+     "temperature": 994,
+     "price_old": 279,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 83,
+     "type": "Deal",
+     "price": 239.4,
+     "merchant": "Alpinus",
+     "id": "pepper-8",
+     "title_zh": "Alpinus Kiruna 男士羽绒服 / 天然填充 CIUN FP700（90% 羽绒，10% 羽毛）/ 3 种颜色"
+    },
+    {
+     "title": "Lavazza Crema e Aroma Kawa ziarnista 2x1 kg 51,69zł/kg",
+     "url": "https://www.pepper.pl/promocje/lavazza-crema-e-aroma-kawa-ziarnista-2x1-kg-5169zlkg-1392903",
+     "temperature": 988,
+     "price_old": null,
+     "currency": "PLN",
+     "expired": false,
+     "comments": 59,
+     "type": "Deal",
+     "price": 103.38,
+     "merchant": "InPost",
+     "id": "pepper-9",
+     "title_zh": "Lavazza Crema e Aroma 咖啡豆 2x1 公斤 51.69 兹罗提/公斤"
+    }
+   ]
+  },
+  {
+   "id": "mydealz",
+   "name": "mydealz",
+   "group": "deals",
+   "kind": "deals",
+   "home": "https://www.mydealz.de/heisseste",
+   "lang": "de",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Magenta Moments Anker Nano Powerbank USB C",
+     "url": "https://www.mydealz.de/deals/magenta-moments-anker-nano-powerbank-usb-c-2874432",
+     "temperature": 6059,
+     "price_old": 18.97,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 720,
+     "type": "Deal",
+     "price": 7,
+     "merchant": "Telekom",
+     "id": "mydealz-0",
+     "title_zh": "Magenta Moments Anker Nano USB-C 移动电源"
+    },
+    {
+     "title": "Leifheit Flügel-Wäscheständer Pegasus 180 Solid (Bauhaus TPG)",
+     "url": "https://www.mydealz.de/deals/leifheit-flugel-waschestander-pegasus-180-solid-bauhaus-tpg-2874333",
+     "temperature": 3501,
+     "price_old": 34.95,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 97,
+     "type": "Deal",
+     "price": 13.2,
+     "merchant": "BAUHAUS",
+     "id": "mydealz-1",
+     "title_zh": "Leifheit Pegasus 180 Solid 翼型晾衣架（Bauhaus TPG）"
+    },
+    {
+     "title": "Pokemon Center: Pokémon-Sammelkartenspiel: Boosterbundle Mega-Entwicklung – Dunkelnacht (6 Boosterpacks) o. Display 165,99 +VSK",
+     "url": "https://www.mydealz.de/deals/pokemon-center-pokemon-sammelkartenspiel-boosterbundle-mega-entwicklung-dunkelnacht-6-boosterpacks-o-display-16599-vsk-2857190",
+     "temperature": 2375,
+     "price_old": null,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 89,
+     "type": "Deal",
+     "price": 33.42,
+     "merchant": "www.pokemoncenter.com",
+     "id": "mydealz-2",
+     "title_zh": "Pokemon Center：宝可梦集换式卡牌游戏：补充包套装 超级进化 – 暗夜（6 包补充包）或展示盒 165.99 +VSK"
+    },
+    {
+     "title": "Victorinox Schweizer Taschenmesser Klein, Escort, 6 Funktionen, Klinge, Pinzette, Zahnstocher, Schraubendreher 2.5 mm, (Spar-Abo Prime)",
+     "url": "https://www.mydealz.de/deals/victorinox-schweizer-taschenmesser-klein-escort-6-funktionen-klinge-pinzette-zahnstocher-schraubendreher-25-mm-spar-abo-prime-2844793",
+     "temperature": 2158,
+     "price_old": 11,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 42,
+     "type": "Deal",
+     "price": 8.51,
+     "merchant": "Amazon",
+     "id": "mydealz-3",
+     "title_zh": "Victorinox 瑞士小刀 小型，Escort，6 项功能，刀刃、镊子、牙签、2.5 毫米螺丝刀，（省钱订阅 Prime）"
+    },
+    {
+     "title": "Lidl Plus Black Week: Crivit Kinderfahrrad Light 20“ - 7,6kg - Woom 4 Alternative",
+     "url": "https://www.mydealz.de/deals/lidl-plus-black-week-crivit-kinderfahrrad-light-20-2872204",
+     "temperature": 2126,
+     "price_old": 299,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 153,
+     "type": "Deal",
+     "price": 199,
+     "merchant": "Lidl",
+     "id": "mydealz-4",
+     "title_zh": "Lidl Plus 黑色星期五：Crivit 儿童自行车 Light 20 英寸 - 7.6 公斤 - Woom 4 替代品"
+    },
+    {
+     "title": "Grand Theft Auto VI (PS5 & XBOX) GTA 6 für nur 60€ | Grenzgänger Frankreich [E.Leclerc]",
+     "url": "https://www.mydealz.de/deals/grand-theft-auto-vi-ps5-xbox-gta-6-fur-nur-60eur-grenzganger-frankreich-eleclerc-2874347",
+     "temperature": 1859,
+     "price_old": 79.99,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 140,
+     "type": "Deal",
+     "price": 60,
+     "merchant": "www.e.leclerc",
+     "id": "mydealz-5",
+     "title_zh": "《侠盗猎车手 VI》（PS5 与 XBOX）GTA 6 仅 60 欧元 | 跨境法国 [E.Leclerc]"
+    },
+    {
+     "title": "Istanbul (Türkei) Günstiger Citytrip ab 175€ p.P. | 3 Nächte im 4* Hotel für 73€ + Flüge für 102€ p.P. | Dez",
+     "url": "https://www.mydealz.de/deals/istanbul-turkei-gunstiger-citytrip-ab-187eur-pp-3-nachte-im-4-hotel-fur-82eur-fluge-fur-104eur-pp-sep-2831894",
+     "temperature": 1826,
+     "price_old": null,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 89,
+     "type": "Deal",
+     "price": 349,
+     "merchant": "Urlaubspiraten",
+     "id": "mydealz-6",
+     "title_zh": "伊斯坦布尔（土耳其）实惠城市游每人 175 欧元起 | 4 星级酒店 3 晚 73 欧元 + 机票每人 102 欧元 | 12 月"
+    },
+    {
+     "title": "Magenta Pay (vormals Payzy) 30€ Cashback über Moments und 10 Euro für den Werber und Geworbenen",
+     "url": "https://www.mydealz.de/deals/magenta-pay-vormals-payzy-30eur-cashback-uber-moments-und-10-euro-fur-den-werber-und-geworbenen-2874286",
+     "temperature": 1504,
+     "price_old": null,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 510,
+     "type": "Deal",
+     "merchant": "Magenta Pay",
+     "id": "mydealz-7",
+     "title_zh": "Magenta Pay（原 Payzy）通过 Moments 返现 30 欧元，推荐人和被推荐人各得 10 欧元"
+    },
+    {
+     "title": "24-teiliges Ibiza Steingut Geschirrset 6 Personen- Schüssel- und Teller Set, versch. Farben [Prime] / 12tlg 49,95€ / Black Friday Sale",
+     "url": "https://www.mydealz.de/deals/24-teiliges-ibiza-steingut-geschirrset-6-personen-schussel-und-teller-set-versch-farben-prime-black-friday-sale-2871928",
+     "temperature": 1451,
+     "price_old": 149.99,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 50,
+     "type": "Deal",
+     "price": 99.95,
+     "merchant": "Amazon",
+     "id": "mydealz-8",
+     "title_zh": "24 件套伊比萨陶瓷餐具套装 6 人份 - 碗和盘套装，多种颜色 [Prime] / 12 件套 49.95 欧元 / 黑色星期五促销"
+    },
+    {
+     "title": "Telekom MagentaTV MegaStream für eff. 17,50€ pro Monat: 6x 0€ + 18x 25€ - 30€ Cashback, inkl. Apple TV, Disney+, Netflix & RTL+ Premium",
+     "url": "https://www.mydealz.de/deals/telekom-magentatv-megastream-2874268",
+     "temperature": 1235,
+     "price_old": 450,
+     "currency": "EUR",
+     "expired": false,
+     "comments": 108,
+     "type": "Deal",
+     "price": 420,
+     "merchant": "LogiTel",
+     "id": "mydealz-9",
+     "title_zh": "Telekom MagentaTV MegaStream 实际每月 17.50 欧元：6 个月 0 欧元 + 18 个月 25 欧元 - 30 欧元返现，含 Apple TV、Disney+、Netflix 和 RTL+ Premium"
+    }
+   ]
+  },
+  {
+   "id": "bankier",
+   "name": "Bankier 开户奖励榜",
+   "group": "money",
+   "kind": "bank",
+   "home": "https://www.bankier.pl/smart/konta-z-premia-ranking",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Bank Millennium - Millennium 360°",
+     "bank": "Bank Millennium",
+     "product": "Millennium 360°",
+     "promoted": false,
+     "bonus_max": 1000,
+     "label": "Zwycięzca rankingu „Złoty Bankier 2026” - najlepsze konto osobiste",
+     "account_fee": "0 zł",
+     "bonus_text": "- 200 zł za otwarcie konta Millennium 360° z kartą debetową, wyrażenie zgód marketingowych oraz w ciągu 14 dni od otwarcia: rejestrację numeru do przelewów BLIK w aplikacji, zapewnienie wpływów min. 1500 zł (dla osób w wieku 18–25 lat) lub 3000 zł (26+) i wykonanie min. 5 płatności portfelem mobilnym (np. Apple Pay, Google Pay) w sklepach stacjonarnych - 300 zł za wpływy min. 1500 zł (18–25 lat) lub 3000 zł (26+) oraz transakcje na łączną kwotę min. 1000 zł (kartą debetową stacjonarnie/online lub portfelem mobilnym wyłącznie stacjonarnie) w każdym z 6 kolejnych miesięcy po miesiącu otwarcia ko",
+     "url": "https://www.bankier.pl/e/lead/2195/label=PPF/?source=wpkb",
+     "id": "bankier-0",
+     "title_zh": "Bank Millennium - Millennium 360°",
+     "bonus_zh": "开Millennium 360°并同意营销，14天内BLIK入账1500/3000兹、5笔手机支付得200兹；6个月每月入账达标且交易1000兹得300兹。"
+    },
+    {
+     "rank": 2,
+     "title": "Alior Bank - Alior Konto",
+     "bank": "Alior Bank",
+     "product": "Alior Konto",
+     "promoted": false,
+     "bonus_max": 1300,
+     "account_fee": "0 zł",
+     "bonus_text": "Aby otrzymać 1300 zł premii w promocji Alior Banku, należy wpisać kod PREMIA800 podczas wypełniania wniosku i spełnić warunki. Premia: 1. Nagroda na start - jeżeli założysz konto w Alior Online lub w Alior Mobile oraz w ciągu 10 dni od otwarcia konta dodasz kartę do portfela elektronicznego i zrobisz nią transakcję na dowolną kwotę: - 200 zł - na start - 500 zł – obrączka płatnicza: 2. Nagroda drugiego stopnia: - 200 zł – jeśli w kolejnym miesiącu, który nastąpi po miesiącu, w którym podpiszesz Umowę o Konto i Kartę spełnisz łącznie następujące warunki: - wykonasz 3 transakcje Kartą lub BLIKIE",
+     "url": "https://www.bankier.pl/e/lead/3154/label=PPF/?source=wpkb",
+     "id": "bankier-1",
+     "title_zh": "Alior Bank - Alior 账户",
+     "bonus_zh": "Alior填码PREMIA800开户，10天内绑卡消费得200+500兹；次月3笔卡/BLIK交易再得200兹，总奖1300兹。"
+    },
+    {
+     "rank": 3,
+     "title": "Revolut - Konto osobiste (Plan Standard)",
+     "bank": "Revolut",
+     "product": "Konto osobiste (Plan Standard)",
+     "promoted": true,
+     "bonus_max": 100,
+     "label": "Oferta promowana - 100 zł premii",
+     "account_fee": "0 zł",
+     "bonus_text": "Zgarnij nagrodę w wysokości 100 zł. Oferta wyłącznie dla nowych klientów z wybranych krajów, którzy ukończyli 18 lat. Aby otrzymać premię powitalną, należy wydać 100 zł w ciągu miesiąca od otwarcia konta i przed 31 grudnia 2026. Więcej informacji w Regulaminie.",
+     "url": "https://www.bankier.pl/e/lead/3191/label=PPF/?source=wpkb",
+     "id": "bankier-2",
+     "title_zh": "Revolut - 个人账户（Standard 计划）",
+     "bonus_zh": "指定国家18+新客户开户后1月内消费100兹罗提，且须在2026-12-31前，获100兹罗提。"
+    },
+    {
+     "rank": 4,
+     "title": "BNP Paribas Bank Polska - Konto Otwarte na Ciebie",
+     "bank": "BNP Paribas Bank Polska",
+     "product": "Konto Otwarte na Ciebie",
+     "promoted": true,
+     "bonus_max": 1100,
+     "label": "Oferta promowana do 1100 zł premii i do 8% na lokacie z rosnącym oprocentowaniem",
+     "account_fee": "0 zł",
+     "bonus_text": "Zyskaj do 900 zł: - 75 zł za każdy miesiąc, w którym zapewnisz wpływ na konto min. 1500 zł, wykonasz min. 10 transakcji bezgotówkowych Kartą Otwartą na Świat (nie wliczają się płatności BLIK) oraz min. 1 raz zalogujesz się do aplikacji mobilnej GOmobile; - warunki należy spełniać przez maksymalnie 12 kolejnych miesięcy (kartę debetową należy zamówić w dniu otwarcia konta); - na koniec każdego badanego miesiąca musisz mieć wyrażone zgody na marketing elektroniczny i telefoniczny oraz brak sprzeciwu na przetwarzanie danych osobowych i profilowanie. Zyskaj 200 zł za: - otwarcie Konta Lokacyjnego ",
+     "url": "https://www.bankier.pl/e/lead/1665/label=PPF/?source=wpkb",
+     "id": "bankier-3",
+     "title_zh": "BNP Paribas Bank Polska - Otwarte na Ciebie 账户",
+     "bonus_zh": "最高900兹罗提：每月入账≥1500兹罗提、10笔非现金卡交易并登录App，持续最多12个月；另开存款账户得200兹罗提。"
+    },
+    {
+     "rank": 5,
+     "title": "Crédit Agricole - Konto dla Ciebie MAX",
+     "bank": "Crédit Agricole",
+     "product": "Konto dla Ciebie MAX",
+     "promoted": true,
+     "bonus_max": 1000,
+     "label": "Oferta promowana - do 1000 zł premii + 6,5 % na Rachunku Oszczędzam Plus",
+     "account_fee": "0 zł",
+     "bonus_text": "- 1000 zł - za płatności w gastronomii - bank zwróci Ci 10 zł za każde wydane 50 zł kartą lub BLIKIEM w restauracjach, kawiarniach i punktach gastronomicznych. Maksymalnie możesz zyskać 100 zł miesięcznie przez 10 miesięcy. Wymagane jest utrzymanie zgód marketingowych. - 500 zł - za codzienne zakupy (promocja alternatywna) - zamiast zwrotów za gastronomię możesz wybrać zwrot 3% wartości za codzienne zakupy kartą lub BLIKIEM. Zyskasz do 50 zł miesięcznie przez 10 miesięcy, pod warunkiem wykonania min. 10 transakcji w miesiącu.",
+     "url": "https://www.bankier.pl/e/lead/2885/label=PPF/?source=wpkb",
+     "id": "bankier-4",
+     "title_zh": "Crédit Agricole - dla Ciebie MAX 账户",
+     "bonus_zh": "餐饮每50兹返10兹，月上限100兹×10月得1000兹；或日常购物返3%，月上限50兹×10月得500兹，需月10笔。"
+    },
+    {
+     "rank": 6,
+     "title": "UniCredit - Konto osobiste (Pakiet Easy)",
+     "bank": "UniCredit",
+     "product": "Konto osobiste (Pakiet Easy)",
+     "promoted": true,
+     "bonus_max": null,
+     "label": "Oferta promowana - 2,5% na koncie oszczędnościowym i 3,5% na lokacie!",
+     "account_fee": "0 zł",
+     "url": "https://www.bankier.pl/e/lead/3231/label=PPF/?source=wpkb",
+     "id": "bankier-5",
+     "title_zh": "UniCredit - 个人账户（Easy 套餐）"
+    },
+    {
+     "rank": 7,
+     "title": "Erste Bank Polska - Konto Smart",
+     "bank": "Erste Bank Polska",
+     "product": "Konto Smart",
+     "promoted": false,
+     "bonus_max": 700,
+     "label": "700 zł premii i 4,5% na Lokacie na powitanie",
+     "account_fee": "0 - 6 zł",
+     "bonus_text": "Do 30 listopada 2026 r. złóż wniosek i zawrzyj umowę o konto z kartą debetową oraz usługami Erste online i podczas składania wniosku wyraź zgodę na przystąpienie do promocji, zaakceptuj regulamin oraz pozostałe wymagane zgody. 3 x 200 zł premii za aktywność W promocji możesz otrzymać trzy nagrody po 200 zł za każdy miesiąc, jeśli w pierwszym i dwóch kolejnych miesiącach kalendarzowych następujących po miesiącu złożenia wniosku o konto, spełnisz łącznie poniższe warunki: - zapewnisz min. 1000 zł wpływu na konto otwarte w promocji; - zapłacisz min. 7 razy kartą debetową lub BLIKIEM; - dodasz min",
+     "url": "https://www.bankier.pl/e/lead/2765/label=PPF/?source=wpkb",
+     "id": "bankier-6",
+     "title_zh": "Erste Bank Polska - Smart 账户",
+     "bonus_zh": "2026-11-30前开Erste账户并同意条款；连续3个月每月入账1000兹、7笔卡/BLIK支付并绑卡，每月得200兹共600兹。"
+    },
+    {
+     "rank": 8,
+     "title": "mBank - eKonto do usług",
+     "bank": "mBank",
+     "product": "eKonto do usług",
+     "promoted": false,
+     "bonus_max": 1310,
+     "account_fee": "0 zł",
+     "bonus_text": "- 10 zł – za zapis do promocji, otwarcie konta tego samego dnia przez selfie lub e-dowód i płatności kartą na min. 350 zł do końca 1. pełnego miesiąca - do 500 zł – za otwarcie eKonta z kartą i rachunkiem Moje cele oraz regularną aktywność przez 6 miesięcy (wpływ min. 2000 zł, płatności kartą min. 350 zł i wzrost salda na Moich celach o min. 100 zł miesięcznie) - 100 zł – za otwarcie konta przez selfie, e-dowód lub mObywatel i spełnienie warunków premii 500 zł - 300 zł – za wpływy wynagrodzenia min. 2000 zł w min. 4 z 6 pierwszych pełnych miesięcy - 100 zł – za otwarcie eKonta Junior lub eKont",
+     "url": "https://www.bankier.pl/e/lead/3330/label=PPF/?source=wpkb",
+     "id": "bankier-7",
+     "title_zh": "mBank - eKonto 服务账户",
+     "bonus_zh": "10报名当日开户且卡付350；最高500开eKonto+目标户6月月入2000、卡付350、月增100；100开户并达500条件；300工资2000达4/6月；100开Junior"
+    },
+    {
+     "rank": 9,
+     "title": "Bank Pekao - Konto Przekorzystne",
+     "bank": "Bank Pekao",
+     "product": "Konto Przekorzystne",
+     "promoted": false,
+     "bonus_max": 2700,
+     "account_fee": "0 zł",
+     "bonus_text": "- 100 zł - za otwarcie i aktywność na koncie: otwarcie konta z kartą do tego konta, aplikacją PeoPay i Pekao24, zalogowanie się do jednego z nich, złożenie oświadczenia i zgód marketingowe oraz wykonanie min. 10 transakcji bezgotówkowych kartą do tego konta do końca miesiąca następującego po miesiącu otwarcia - 200 zł za zrobienie min. 10 transakcji bezgotówkowych kartą do Konta Przekorzystnego w 2. i 3. miesiącu kalendarzowym po miesiącu otwarcia konta - do 2400 zł zwrotu za przystąpienie do Promocji Podróżnej. Płać swoją złotą kartą do konta lub BLIKIEM i zyskaj nawet 2400 zł na wydatki podr",
+     "url": "https://www.bankier.pl/e/lead/3297/label=PPF/?source=wpkb",
+     "id": "bankier-8",
+     "title_zh": "Bank Pekao - Przekorzystne 账户",
+     "bonus_zh": "开户登录App并同意营销次月底前刷10笔得100；第2-3月各刷10笔得200；旅行促销用金卡/BLIK返最高2400"
+    },
+    {
+     "rank": 10,
+     "title": "ING Bank Śląski - Konto w Planie ING Go",
+     "bank": "ING Bank Śląski",
+     "product": "Konto w Planie ING Go",
+     "promoted": false,
+     "bonus_max": 900,
+     "account_fee": "0 zł",
+     "bonus_text": "- do 800 zł premii za założenie konta osobistego z kontem oszczędnościowym i kartą do konta w aplikacji Moje ING i spełnienie wszystkich warunków promocji \"Konta pełne korzyści\" - 100 zł premii gdy w trakcie zakładania konta osobistego w apce Moje ING wpiszesz kod od znajomego i spełnisz wszystkie warunki promocji \"Poleć ING\"",
+     "url": "https://www.bankier.pl/e/lead/1675/label=PPF/?source=wpkb",
+     "id": "bankier-9",
+     "title_zh": "ING Bank Śląski - ING Go 计划账户",
+     "bonus_zh": "在Moje ING开个人+储蓄账户及卡并满足活动条件，最高得800兹；开户时填朋友推荐码并达标再得100兹。"
+    },
+    {
+     "rank": 11,
+     "title": "PKO Bank Polski - Konto za Zero",
+     "bank": "PKO Bank Polski",
+     "product": "Konto za Zero",
+     "promoted": false,
+     "bonus_max": 900,
+     "account_fee": "0 zł",
+     "bonus_text": "- do 600 zł – otwórz online PKO Konto za Zero z kartą Visa, wpisz kod PROSTO i spełnij pozostałe warunki promocji „Prosty zwrot” - do 300 zł – otwórz online PKO Konto Dziecka (0-12 lat) lub PKO Konto dla Młodych (13-17), wpisz kod PROSTO i spełnijcie pozostałe warunki promocji „Prosty zwrot”",
+     "url": "https://www.bankier.pl/e/lead/2832/label=PPF/?source=wpkb",
+     "id": "bankier-10",
+     "title_zh": "PKO Bank Polski - 零费用账户",
+     "bonus_zh": "在线开PKO Konto za Zero+Visa，填码PROSTO并满足活动，最高600兹；在线开儿童/青少年账户填码PROSTO，最高300兹。"
+    },
+    {
+     "rank": 12,
+     "title": "VeloBank - VeloKonto",
+     "bank": "VeloBank",
+     "product": "VeloKonto",
+     "promoted": false,
+     "bonus_max": 600,
+     "account_fee": "0 zł",
+     "bonus_text": "- Do 600 zł za aktywność, przez 12 miesięcy (maksymalnie 50 zł w każdym miesiącu). - Cashback naliczany jest od drugiego poziomu programu za aktywne korzystanie z Moich rachunków oraz za zakup biletów, parkingów, E-Winiet i autostrad. Możesz go wypłacić na swoje konto osobiste lub oszczędnościowe w VeloBanku. Kwoty niewykorzystanego cashbacku wygasają po upływie 12 miesięcy od zakończenia miesiąca, w którym dokonano jego naliczenia.",
+     "url": "https://www.bankier.pl/e/lead/1561/label=PPF/?source=wpkb",
+     "id": "bankier-11",
+     "title_zh": "VeloBank - VeloKonto",
+     "bonus_zh": "VeloBank活跃使用账户及购票/停车/收费公路，每月最高返50兹，持续12月共最高600兹；返现可提现，12月后过期。"
+    },
+    {
+     "rank": 13,
+     "title": "Nest Bank - Nest Konto",
+     "bank": "Nest Bank",
+     "product": "Nest Konto",
+     "promoted": false,
+     "bonus_max": 1060,
+     "account_fee": "0 zł",
+     "bonus_text": "Premia za wynagrodzenie – do 700 zł: - 200 zł za pierwszy wpływ wynagrodzenia. 50 zł za każdy kolejny wpływ wynagrodzenia (maksymalnie do 10 miesięcy) Zwrot za zakupy (moneyback) – do 360 zł: - do 360 zł - zwrot za zakupy: 2% zwrotu za płatności kartą lub BLIKIEM, jeśli w tym samym miesiącu zapewnisz wpływ wynagrodzenia. Maksymalnie 30 zł miesięcznie przez 12 miesięcy.",
+     "url": "https://www.bankier.pl/e/lead/3022/label=PPF/?source=wpkb",
+     "id": "bankier-12",
+     "title_zh": "Nest Bank - Nest 账户",
+     "bonus_zh": "工资奖最高700：首笔200，后续每笔50≤10月；卡/BLIK返现最高360：有工资入账返2%，月上限30共12月。"
+    },
+    {
+     "rank": 14,
+     "title": "Volkswagen Bank - Konto osobiste e-direct",
+     "bank": "Volkswagen Bank",
+     "product": "Konto osobiste e-direct",
+     "promoted": false,
+     "bonus_max": null,
+     "account_fee": "0 zł",
+     "url": "https://www.bankier.pl/e/lead/37/label=PPF/?source=wpkb",
+     "id": "bankier-13",
+     "title_zh": "Volkswagen Bank - e-direct 个人账户"
+    }
+   ],
+   "changes": {
+    "prev": "2026-11-16",
+    "added": [],
+    "removed": [],
+    "moved": [],
+    "bonus": [
+     {
+      "title": "mBank - eKonto do usług",
+      "from": 1300,
+      "to": 1310
+     }
+    ]
+   }
+  },
+  {
+   "id": "piecsmakow",
+   "name": "Pięć Smaków 亚洲电影节",
+   "group": "film",
+   "kind": "events",
+   "home": "https://www.piecsmakow.pl/program/kalendarz",
+   "lang": "pl",
+   "status": "idle",
+   "error": null,
+   "items": []
+  },
+  {
+   "id": "muranow_en",
+   "name": "Kino Muranów · 英文字幕场",
+   "group": "film",
+   "kind": "events",
+   "home": "https://kinomuranow.pl/cykle-filmowe/english-friendly-screenings-english-subtitles-seans-z-polskimi-i-angielskimi-napisami",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Kino Muranów",
+     "url": "https://kinomuranow.pl/film/kino-muranow",
+     "shows": [
+      {
+       "at": "2026-11-25T20:30"
+      }
+     ],
+     "id": "muranow_en-0",
+     "title_zh": "Muranów电影院"
+    },
+    {
+     "title": "Ewa chce spać",
+     "url": "https://kinomuranow.pl/film/ewa-chce-spac",
+     "shows": [
+      {
+       "at": "2026-11-30T20:30"
+      }
+     ],
+     "id": "muranow_en-1",
+     "title_zh": "艾娃想睡觉"
+    }
+   ]
+  },
+  {
+   "id": "muranow_fest",
+   "name": "Kino Muranów · 影展与专题",
+   "group": "film",
+   "kind": "events",
+   "home": "https://kinomuranow.pl/festiwale-i-przeglady",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Timeless Autumn",
+     "url": "https://kinomuranow.pl/festiwale-i-przeglady/timeless-autumn-3-pazdziernika-31-grudnia",
+     "tag": "Festiwal",
+     "start": "2026-10-03",
+     "end": "2026-12-31",
+     "id": "muranow_fest-0",
+     "title_zh": "永恒之秋",
+     "tag_zh": "电影节"
+    },
+    {
+     "title": "WAJDA: re-wizje",
+     "url": "https://kinomuranow.pl/festiwale-i-przeglady/wajda-re-wizje-22-marca-6-grudnia",
+     "tag": "Festiwal",
+     "start": "2026-03-22",
+     "end": "2026-12-06",
+     "id": "muranow_fest-1",
+     "title_zh": "瓦伊达：重见",
+     "tag_zh": "电影节"
+    },
+    {
+     "title": "Przegląd Nowego Kina Litewskiego",
+     "url": "https://kinomuranow.pl/festiwale-i-przeglady/przeglad-nowego-kina-litewskiego-25-29-listopada",
+     "tag": "Festiwal",
+     "start": "2026-11-25",
+     "end": "2026-11-29",
+     "id": "muranow_fest-2",
+     "title_zh": "立陶宛新电影展",
+     "tag_zh": "电影节"
+    }
+   ]
+  },
+  {
+   "id": "iluzjon",
+   "name": "Iluzjon 国家电影资料馆",
+   "group": "film",
+   "kind": "events",
+   "home": "https://www.iluzjon.fn.org.pl/repertuar.html",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Everytime",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7986/everytime.html?rep=754",
+     "place": "Mała Czarna",
+     "shows": [
+      {
+       "at": "2026-11-19T16:30"
+      },
+      {
+       "at": "2026-11-22T15:00"
+      },
+      {
+       "at": "2026-11-23T20:00"
+      }
+     ],
+     "id": "iluzjon-0",
+     "title_zh": "每一次"
+    },
+    {
+     "title": "Inni",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/8000/inni.html?rep=755",
+     "place": "Stolica",
+     "shows": [
+      {
+       "at": "2026-11-19T18:00"
+      }
+     ],
+     "id": "iluzjon-1",
+     "title_zh": "他人"
+    },
+    {
+     "title": "Polska jest kobietą 1939-1989",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7996/polska-jest-kobieta-1939-1989.html?rep=743",
+     "place": "Mała Czarna",
+     "tag": "Tęczowy DKF",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      }
+     ],
+     "id": "iluzjon-2",
+     "title_zh": "波兰是女人 1939-1989",
+     "tag_zh": "彩虹DKF"
+    },
+    {
+     "title": "Dziki Koń Dziewięć",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7984/dziki-kon-dziewiec.html?rep=756",
+     "place": "Stolica",
+     "shows": [
+      {
+       "at": "2026-11-19T20:00"
+      },
+      {
+       "at": "2026-11-20T17:30"
+      },
+      {
+       "at": "2026-11-21T15:30"
+      },
+      {
+       "at": "2026-11-22T20:30"
+      },
+      {
+       "at": "2026-11-23T18:00"
+      },
+      {
+       "at": "2026-11-24T20:15"
+      },
+      {
+       "at": "2026-11-25T17:30"
+      },
+      {
+       "at": "2026-11-26T20:30"
+      }
+     ],
+     "id": "iluzjon-3",
+     "title_zh": "野马九号"
+    },
+    {
+     "title": "Tajemnica śpiewających ptaków",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7941/tajemnica-spiewajacych-ptakow.html?rep=758",
+     "place": "Stolica",
+     "shows": [
+      {
+       "at": "2026-11-20T18:00"
+      },
+      {
+       "at": "2026-11-21T11:00"
+      },
+      {
+       "at": "2026-11-29T11:00"
+      }
+     ],
+     "id": "iluzjon-4",
+     "title_zh": "唱歌鸟的秘密"
+    },
+    {
+     "title": "Drapieżne maleństwo",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7987/drapiezne-malenstwo.html?rep=740",
+     "place": "Stolica",
+     "tag": "Klasyka gatunku | Screwball comedy",
+     "shows": [
+      {
+       "at": "2026-11-20T20:00"
+      }
+     ],
+     "id": "iluzjon-5",
+     "tag_zh": "类型经典 | 神经喜剧",
+     "title_zh": "凶猛的幼崽"
+    },
+    {
+     "title": "Złudzenia z Yakushimy",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7989/zludzenia-z-yakushimy.html?rep=759",
+     "place": "Mała Czarna",
+     "shows": [
+      {
+       "at": "2026-11-20T20:15"
+      },
+      {
+       "at": "2026-11-21T18:00"
+      },
+      {
+       "at": "2026-11-22T12:45"
+      },
+      {
+       "at": "2026-11-23T20:15"
+      },
+      {
+       "at": "2026-11-24T18:00"
+      },
+      {
+       "at": "2026-11-25T19:45"
+      },
+      {
+       "at": "2026-11-26T18:00"
+      }
+     ],
+     "id": "iluzjon-6",
+     "title_zh": "屋久岛的幻觉"
+    },
+    {
+     "title": "Nikt nie wie",
+     "url": "https://www.iluzjon.fn.org.pl/filmy/info/7947/nikt-nie-wie.html?rep=761",
+     "place": "Mała Czarna",
+     "shows": [
+      {
+       "at": "2026-11-21T13:00"
+      }
+     ],
+     "id": "iluzjon-7",
+     "title_zh": "无人知晓"
+    },
+    {
+     "title": "Home Movie Day | Francja – Polska. Zapis rodzinny. Ania Szczepańska prezentuje materiały z domowego archiwum Christine Bernard",
+     "url": "https://www.iluzjon.fn.org.pl/repertuar/info/763/home-movie-day-francja-polska-zapis-rodzinny-ania-szczepanska-prezentuje-materialy-z-domowego-archiwum-christine-bernard.html",
+     "place": "Mała Czarna",
+     "tag": "Home Movie Day",
+     "shows": [
+      {
+       "at": "2026-11-21T16:00"
+      }
+     ],
+     "id": "iluzjon-8",
+     "tag_zh": "家庭电影日",
+     "title_zh": "家庭电影日 | 法国—波兰。家庭记录。Ania Szczepańska 呈现 Christine Bernard 的家庭档案素材"
+    },
+    {
+     "title": "Home Movie Day | Goście, turyści, przybysze. Polskie nagrania z zagranicy",
+     "url": "https://www.iluzjon.fn.org.pl/repertuar/info/771/home-movie-day-goscie-turysci-przybysze-polskie-nagrania-z-zagranicy.html",
+     "place": "Stolica",
+     "tag": "Home Movie Day",
+     "shows": [
+      {
+       "at": "2026-11-21T18:00"
+      }
+     ],
+     "id": "iluzjon-9",
+     "tag_zh": "家庭电影日",
+     "title_zh": "家庭电影日 | 客人、游客、来客。来自国外的波兰录音"
+    }
+   ]
+  },
+  {
+   "id": "teatrwielki",
+   "name": "大剧院 · 国家歌剧院",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://teatrwielki.pl/kalendarium/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Juvenalia 5",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/juvenalia-5/termin/2026-11-19_19-00/",
+     "place": "Sala Młynarskiego",
+     "tag": "Balet",
+     "summary": "Polski Balet Narodowy Junior",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      },
+      {
+       "at": "2026-11-20T19:00"
+      },
+      {
+       "at": "2026-11-21T12:00"
+      },
+      {
+       "at": "2026-11-21T18:00"
+      }
+     ],
+     "id": "teatrwielki-0",
+     "title_zh": "青年节5",
+     "summary_zh": "波兰国家芭蕾舞团青年团",
+     "tag_zh": "芭蕾"
+    },
+    {
+     "title": "Czarodziejska góra",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/czarodziejska-gora/termin/2026-11-20_19-00/",
+     "place": "Nowy Teatr",
+     "tag": "Opera",
+     "summary": "Paweł Mykietyn · Opera w dwóch aktach",
+     "shows": [
+      {
+       "at": "2026-11-20T19:00"
+      },
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T19:00"
+      }
+     ],
+     "id": "teatrwielki-1",
+     "title_zh": "魔山",
+     "summary_zh": "帕维尔·米凯滕 · 两幕歌剧",
+     "tag_zh": "歌剧"
+    },
+    {
+     "title": "Dotknąć teatru",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/dotknac-teatru/termin/2026-11-21_12-00/",
+     "place": "III Balkon",
+     "tag": "Wydarzenie specjalne",
+     "summary": "Cykl spotkań o teatrze dla osób z niepełnosprawnością wzroku",
+     "shows": [
+      {
+       "at": "2026-11-21T12:00"
+      }
+     ],
+     "id": "teatrwielki-2",
+     "title_zh": "触摸戏剧",
+     "summary_zh": "面向视力障碍人士的戏剧系列讲座",
+     "tag_zh": "特别活动"
+    },
+    {
+     "title": "Madame Butterfly",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-11-21_19-00/",
+     "place": "Sala Moniuszki",
+     "tag": "Opera",
+     "summary": "Giacomo Puccini · Tragedia japońska w trzech aktach",
+     "shows": [
+      {
+       "at": "2026-11-21T19:00"
+      }
+     ],
+     "id": "teatrwielki-3",
+     "title_zh": "蝴蝶夫人",
+     "summary_zh": "贾科莫·普契尼 · 三幕日本悲剧",
+     "tag_zh": "歌剧"
+    },
+    {
+     "title": "Salome",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/salome/termin/2026-11-22_18-00/",
+     "place": "Sala Moniuszki",
+     "tag": "Opera",
+     "summary": "Richard Strauss · Dramat muzyczny w jednym akcie",
+     "shows": [
+      {
+       "at": "2026-11-22T18:00"
+      },
+      {
+       "at": "2026-11-26T19:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      }
+     ],
+     "id": "teatrwielki-4",
+     "title_zh": "莎乐美",
+     "summary_zh": "理查德·施特劳斯 · 单幕音乐剧",
+     "tag_zh": "歌剧"
+    },
+    {
+     "title": "Dom, w którym śpiewa",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/dom-w-ktorym-spiewa/termin/2026-11-24_19-00/",
+     "place": "Sale Północne",
+     "tag": "Wydarzenie specjalne",
+     "summary": "Spotkanie z Dorotą Kozińską i Borisem Kudličką",
+     "shows": [
+      {
+       "at": "2026-11-24T19:00"
+      }
+     ],
+     "id": "teatrwielki-5",
+     "tag_zh": "特别活动",
+     "summary_zh": "与 Dorota Kozińska 和 Boris Kudlička 会面",
+     "title_zh": "它歌唱的家"
+    },
+    {
+     "title": "Próba otwarta",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/proba-otwarta/termin/2026-11-25_10-00/",
+     "place": "Sala Moniuszki",
+     "tag": "Edukacja",
+     "summary": "obserwacja próby do spektaklu wraz z omówieniem",
+     "shows": [
+      {
+       "at": "2026-11-25T10:00"
+      },
+      {
+       "at": "2026-11-25T12:00"
+      }
+     ],
+     "id": "teatrwielki-6",
+     "title_zh": "公开排练",
+     "summary_zh": "观摩演出排练及讨论",
+     "tag_zh": "教育"
+    },
+    {
+     "title": "Kurtyna wspomnień",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/kurtyna-wspomnien/termin/2026-11-26_11-00/",
+     "place": "Foyer dolne",
+     "tag": "Wydarzenie specjalne",
+     "summary": "Cykl spotkań z historią teatru dla seniorów",
+     "shows": [
+      {
+       "at": "2026-11-26T11:00"
+      }
+     ],
+     "id": "teatrwielki-7",
+     "title_zh": "回忆的帷幕",
+     "summary_zh": "面向老年人的戏剧史系列讲座",
+     "tag_zh": "特别活动"
+    },
+    {
+     "title": "Strauss, Mahler, Morawski-Dąbrowa",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/strauss-mahler-morawski-dabrowa/termin/2026-11-27_18-00/",
+     "place": "Sala Młynarskiego",
+     "tag": "Koncert",
+     "summary": "Koncert Akademii Operowej",
+     "shows": [
+      {
+       "at": "2026-11-27T18:00"
+      }
+     ],
+     "id": "teatrwielki-8",
+     "title_zh": "施特劳斯、马勒、莫拉夫斯基-东布罗瓦",
+     "summary_zh": "歌剧学院音乐会",
+     "tag_zh": "音乐会"
+    },
+    {
+     "title": "Falstaff",
+     "url": "https://teatrwielki.pl/kalendarium/2026-2027/falstaff/termin/2026-11-27_19-00/",
+     "place": "Sala Moniuszki",
+     "tag": "Opera",
+     "summary": "Giuseppe Verdi · Opera w 3 aktach",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-29T18:00"
+      }
+     ],
+     "id": "teatrwielki-9",
+     "title_zh": "法尔斯塔夫",
+     "summary_zh": "朱塞佩·威尔第 · 三幕歌剧",
+     "tag_zh": "歌剧"
+    }
+   ]
+  },
+  {
+   "id": "narodowy",
+   "name": "Teatr Narodowy 国家剧院",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://www.narodowy.pl/repertuar,kalendarium.html",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Słodki ptak młodości",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,457,slodki_ptak_mlodosci.html",
+     "place": "Scena przy Wierzbowej im. Jerzego Grzegorzewskiego",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      }
+     ],
+     "id": "narodowy-0",
+     "title_zh": "甜蜜的青春鸟"
+    },
+    {
+     "title": "Prowadź swój pług przez kości umarłych",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,454,prowadz_swoj_plug_przez_kosci_umarlych.html",
+     "place": "Sala Bogusławskiego",
+     "shows": [
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T17:00"
+      },
+      {
+       "at": "2026-11-24T19:00"
+      }
+     ],
+     "id": "narodowy-1",
+     "title_zh": "犁过死者的骨头"
+    },
+    {
+     "title": "Moralność pani Dulskiej",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,455,moralnosc_pani_dulskiej.html",
+     "place": "Scena przy Wierzbowej im. Jerzego Grzegorzewskiego",
+     "shows": [
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T17:00"
+      },
+      {
+       "at": "2026-11-24T19:00"
+      }
+     ],
+     "id": "narodowy-2",
+     "title_zh": "杜尔斯卡夫人的道德"
+    },
+    {
+     "title": "Sonata jesienna",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,404,sonata_jesienna.html",
+     "place": "Scena Studio",
+     "shows": [
+      {
+       "at": "2026-11-21T19:30"
+      },
+      {
+       "at": "2026-11-22T17:30"
+      },
+      {
+       "at": "2026-11-24T19:30"
+      },
+      {
+       "at": "2026-11-25T19:30"
+      }
+     ],
+     "id": "narodowy-3",
+     "title_zh": "秋日奏鸣曲"
+    },
+    {
+     "title": "Maria Stuart",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,419,maria_stuart.html",
+     "place": "Sala Bogusławskiego",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      },
+      {
+       "at": "2026-11-29T17:00"
+      }
+     ],
+     "id": "narodowy-4",
+     "title_zh": "玛丽·斯图亚特"
+    },
+    {
+     "title": "Czekając na Godota",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,429,czekajac_na_godota.html",
+     "place": "Scena Studio",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      },
+      {
+       "at": "2026-11-29T17:00"
+      }
+     ],
+     "id": "narodowy-5",
+     "title_zh": "等待戈多"
+    },
+    {
+     "title": "Baron Münchhausen dla dorosłych",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,418,baron_mnchhausen_dla_doroslych.html",
+     "place": "Scena przy Wierzbowej im. Jerzego Grzegorzewskiego",
+     "shows": [
+      {
+       "at": "2026-11-27T19:30"
+      },
+      {
+       "at": "2026-11-28T19:30"
+      },
+      {
+       "at": "2026-11-29T17:30"
+      }
+     ],
+     "id": "narodowy-6",
+     "title_zh": "成人版闵希豪森男爵"
+    },
+    {
+     "title": "Ostry dyżur poetycki",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,93,ostry_dyzur_poetycki.html",
+     "place": "Sala Bogusławskiego",
+     "shows": [
+      {
+       "at": "2026-11-29T12:00"
+      }
+     ],
+     "id": "narodowy-7",
+     "title_zh": "诗歌急诊"
+    },
+    {
+     "title": "Tchnienie",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,340,tchnienie.html",
+     "place": "Scena Studio",
+     "shows": [
+      {
+       "at": "2026-12-02T19:00"
+      },
+      {
+       "at": "2026-12-03T19:00"
+      }
+     ],
+     "id": "narodowy-8",
+     "title_zh": "气息"
+    },
+    {
+     "title": "Ułani",
+     "url": "https://www.narodowy.pl/repertuar,spektakle,299,ulani.html",
+     "place": "Scena przy Wierzbowej im. Jerzego Grzegorzewskiego",
+     "shows": [
+      {
+       "at": "2026-12-02T19:30"
+      },
+      {
+       "at": "2026-12-03T19:30"
+      }
+     ],
+     "id": "narodowy-9",
+     "title_zh": "枪骑兵"
+    }
+   ]
+  },
+  {
+   "id": "tr",
+   "name": "TR Warszawa",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://trwarszawa.pl/kalendarz/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "„PLAY BOY” – HISTORIE Z WCZORAJ I Z DZISIAJ",
+     "url": "https://trwarszawa.pl/program/play-boy-historie-z-wczoraj-i-z-dzisiaj/",
+     "place": "Marszałkowska 8",
+     "tag": "Wykład",
+     "shows": [
+      {
+       "at": "2026-11-20T17:00"
+      }
+     ],
+     "id": "tr-0",
+     "title_zh": "《花花公子》——昨日与今日的故事",
+     "tag_zh": "讲座"
+    },
+    {
+     "title": "Love Me Tender",
+     "url": "https://trwarszawa.pl/program/love-me-tender-2/",
+     "place": "Marszałkowska 8",
+     "tag": "Spektakl",
+     "shows": [
+      {
+       "at": "2026-11-20T19:00"
+      },
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T17:00"
+      },
+      {
+       "at": "2026-11-24T19:00"
+      },
+      {
+       "at": "2026-11-25T19:00"
+      }
+     ],
+     "id": "tr-1",
+     "title_zh": "温柔地爱我",
+     "tag_zh": "演出"
+    },
+    {
+     "title": "Kosmiczny Dom",
+     "url": "https://trwarszawa.pl/program/kosmiczny-dom/",
+     "place": "Marszałkowska 8",
+     "tag": "Spektakl",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00",
+       "en": true
+      },
+      {
+       "at": "2026-11-28T19:00",
+       "en": true
+      },
+      {
+       "at": "2026-11-29T17:00",
+       "en": true
+      }
+     ],
+     "id": "tr-2",
+     "title_zh": "宇宙之家",
+     "tag_zh": "演出"
+    },
+    {
+     "title": "Fantazja",
+     "url": "https://trwarszawa.pl/program/fantazja/",
+     "place": "Inna lokalizacja",
+     "tag": "Spektakl",
+     "shows": [
+      {
+       "at": "2026-11-28T19:00"
+      },
+      {
+       "at": "2026-12-01T19:00"
+      },
+      {
+       "at": "2026-12-02T19:00"
+      }
+     ],
+     "id": "tr-3",
+     "title_zh": "幻想曲",
+     "tag_zh": "演出"
+    }
+   ]
+  },
+  {
+   "id": "nowy",
+   "name": "Nowy Teatr",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://nowyteatr.org/pl/kalendarz",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Kofman. Podwójne wiązanie",
+     "url": "https://nowyteatr.org/pl/kalendarz/kofman-podwojne-wiazanie",
+     "summary": "Katarzyna Kalwat",
+     "shows": [
+      {
+       "at": "2026-11-19"
+      }
+     ],
+     "id": "nowy-0",
+     "title_zh": "Kofman. 双重束缚",
+     "summary_zh": "卡塔日娜·卡尔瓦特"
+    },
+    {
+     "title": "Piosenkowzmocnienie: Wyspa",
+     "url": "https://nowyteatr.org/pl/kalendarz/piosenkowzmocnienie-wyspa",
+     "tag": "Akcje 16+",
+     "summary": "Karolina Czarnecka, Młodzież z Młodzieżowego Ośrodka Socjoterapii nr 4 w Warszawie",
+     "shows": [
+      {
+       "at": "2026-11-20T15:00"
+      },
+      {
+       "at": "2026-11-21T18:00"
+      }
+     ],
+     "id": "nowy-1",
+     "title_zh": "歌之力量：岛屿",
+     "summary_zh": "卡罗琳娜·查尔内茨卡，华沙第四青年社会治疗中心的青年",
+     "tag_zh": "16岁以上活动"
+    },
+    {
+     "title": "PREMIERA Czarodziejska góra",
+     "url": "https://nowyteatr.org/pl/kalendarz/czarodziejska-gora-2026",
+     "tag": "Teatr / Muzyka",
+     "summary": "Paweł Mykietyn, Andrzej Chyra",
+     "shows": [
+      {
+       "at": "2026-11-20T19:00"
+      }
+     ],
+     "id": "nowy-2",
+     "title_zh": "首演 魔山",
+     "summary_zh": "帕维尔·米凯滕，安杰伊·希拉",
+     "tag_zh": "戏剧 / 音乐"
+    },
+    {
+     "title": "Nowa książka dla dzieci: Sandra i Kruki Zmartwiuki Agnieszka Misiak, Wydawnictwo Druganoga",
+     "url": "https://nowyteatr.org/pl/kalendarz/nowa-ksiazka-dla-dzieci-sandra-i-kruki-zmartwiuki-agnieszka",
+     "tag": "Literatura / Spotkania / Dla dzieci",
+     "shows": [
+      {
+       "at": "2026-11-21T12:00"
+      }
+     ],
+     "id": "nowy-3",
+     "title_zh": "儿童新书：Sandra i Kruki Zmartwiuki，Agnieszka Misiak 著，Druganoga 出版社",
+     "tag_zh": "文学 / 聚会 / 儿童"
+    },
+    {
+     "title": "Czarodziejska góra",
+     "url": "https://nowyteatr.org/pl/kalendarz/czarodziejska-gora-2026",
+     "tag": "Teatr / Muzyka",
+     "summary": "Paweł Mykietyn, Andrzej Chyra",
+     "shows": [
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T19:00"
+      }
+     ],
+     "id": "nowy-4",
+     "title_zh": "魔山",
+     "summary_zh": "帕维尔·米凯滕，安杰伊·希拉",
+     "tag_zh": "戏剧 / 音乐"
+    },
+    {
+     "title": "Osoby dramatu: Czarodziejska góra",
+     "url": "https://nowyteatr.org/pl/kalendarz/osoby-dramatu-czarodziejska-gora",
+     "tag": "Spotkania",
+     "shows": [
+      {
+       "at": "2026-11-21T21:30"
+      }
+     ],
+     "id": "nowy-5",
+     "title_zh": "戏剧人物：魔山",
+     "tag_zh": "会面"
+    },
+    {
+     "title": "Dyskusyjny Klub Teatralny: Czarodziejska góra",
+     "url": "https://nowyteatr.org/pl/kalendarz/dyskusyjny-klub-teatralny-czarodziejska-gora",
+     "tag": "Spotkania",
+     "summary": "Anna Lewandowska, Piotr Gruszczyński",
+     "shows": [
+      {
+       "at": "2026-11-22T17:00"
+      }
+     ],
+     "id": "nowy-6",
+     "title_zh": "戏剧讨论俱乐部：魔山",
+     "summary_zh": "Anna Lewandowska、Piotr Gruszczyński",
+     "tag_zh": "会面"
+    },
+    {
+     "title": "Nowa książka: Pieśni miasta Ivana Sajko",
+     "url": "https://nowyteatr.org/pl/kalendarz/nowa-ksiazka-piesni-miasta-ivana-sajko",
+     "tag": "Literatura / Spotkania",
+     "shows": [
+      {
+       "at": "2026-11-24T19:00"
+      }
+     ],
+     "id": "nowy-7",
+     "title_zh": "新书：Ivan Sajko的《城市之歌》",
+     "tag_zh": "文学 / 聚会"
+    },
+    {
+     "title": "Baasch – muzyka filmowa",
+     "url": "https://nowyteatr.org/pl/kalendarz/baasch-muzyka-filmowa",
+     "tag": "Muzyka",
+     "summary": "Baasch",
+     "shows": [
+      {
+       "at": "2026-11-25T19:00"
+      }
+     ],
+     "id": "nowy-8",
+     "title_zh": "Baasch——电影音乐",
+     "summary_zh": "Baasch",
+     "tag_zh": "音乐"
+    },
+    {
+     "title": "Małe Eufonie: Maszyny i prędkości",
+     "url": "https://nowyteatr.org/pl/kalendarz/male-eufonie-maszyny-i-predkosci",
+     "tag": "Muzyka / Dla rodzin",
+     "summary": "Chain Ensemble",
+     "shows": [
+      {
+       "at": "2026-11-28T11:30"
+      },
+      {
+       "at": "2026-11-28T13:00"
+      }
+     ],
+     "id": "nowy-9",
+     "title_zh": "小尤福涅：机器与速度",
+     "summary_zh": "Chain Ensemble",
+     "tag_zh": "音乐 / 适合家庭"
+    }
+   ]
+  },
+  {
+   "id": "polski",
+   "name": "Teatr Polski",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://teatrpolski.waw.pl/repertuar",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Lekcja teatru Warsztaty inspiracyjne online",
+     "url": "https://teatrpolski.waw.pl/wydarzenie/lekcja-teatru",
+     "place": "Online",
+     "tag": "Edukacja w Polskim",
+     "shows": [
+      {
+       "at": "2026-11-19T18:00"
+      }
+     ],
+     "id": "polski-0",
+     "title_zh": "戏剧课 线上启发工作坊",
+     "tag_zh": "波兰语教育"
+    },
+    {
+     "title": "Rękopis znaleziony w Saragossie. Dziedzictwo Gomelezów",
+     "url": "https://teatrpolski.waw.pl/spektakl/rekopis-znaleziony-w-saragossie",
+     "place": "Duża Scena",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      },
+      {
+       "at": "2026-11-20T11:00"
+      }
+     ],
+     "id": "polski-1",
+     "title_zh": "在萨拉戈萨发现的手稿：戈梅莱斯家族的遗产"
+    },
+    {
+     "title": "Czekoladki dla Prezesa",
+     "url": "https://teatrpolski.waw.pl/spektakl/czekoladki-dla-prezesa",
+     "place": "Scena Kameralna",
+     "shows": [
+      {
+       "at": "2026-11-20T19:30"
+      },
+      {
+       "at": "2026-11-21T19:30"
+      },
+      {
+       "at": "2026-11-22T18:00"
+      },
+      {
+       "at": "2026-11-24T12:00"
+      }
+     ],
+     "id": "polski-2",
+     "title_zh": "给总裁的巧克力"
+    },
+    {
+     "title": "Klub Rozmów Poetyckich",
+     "url": "https://teatrpolski.waw.pl/wydarzenie/klub-rozmow-poetyckich",
+     "place": "Bufet u Arnolda",
+     "tag": "Edukacja w Polskim",
+     "shows": [
+      {
+       "at": "2026-11-23T17:30"
+      }
+     ],
+     "id": "polski-3",
+     "title_zh": "诗歌对话俱乐部",
+     "tag_zh": "波兰语教育"
+    },
+    {
+     "title": "Separatka",
+     "url": "https://teatrpolski.waw.pl/spektakl/separatka",
+     "place": "Scena Kameralna",
+     "shows": [
+      {
+       "at": "2026-11-25T19:30"
+      },
+      {
+       "at": "2026-11-26T19:30"
+      }
+     ],
+     "id": "polski-4",
+     "title_zh": "Separatka"
+    },
+    {
+     "title": "Konferencja dla nauczycieli „Między sceną a szkolną klasą”",
+     "url": "https://teatrpolski.waw.pl/wydarzenie/konferencja-dla-nauczycieli",
+     "place": "Scena Kameralna",
+     "tag": "Edukacja w Polskim",
+     "shows": [
+      {
+       "at": "2026-11-26T09:00"
+      }
+     ],
+     "id": "polski-5",
+     "title_zh": "教师会议“舞台与课堂之间”",
+     "tag_zh": "波兰语教育"
+    },
+    {
+     "title": "Aktorzy w dobrej wierze i Próba. Dwie jednoaktówki",
+     "url": "https://teatrpolski.waw.pl/spektakl/aktorzy-w-dobrej-wierze-oraz-proba",
+     "place": "Duża Scena",
+     "shows": [
+      {
+       "at": "2026-11-26T19:00"
+      },
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      }
+     ],
+     "id": "polski-6",
+     "title_zh": "善意中的演员与排练。两部独幕剧"
+    },
+    {
+     "title": "ZWYKI Festiwal Wiejskich Teatrów",
+     "url": "https://teatrpolski.waw.pl/wydarzenie/zwyki-festiwal-wiejskich-teatrow",
+     "place": "Scena Kameralna",
+     "tag": "Festiwal",
+     "shows": [
+      {
+       "at": "2026-11-27T17:00"
+      },
+      {
+       "at": "2026-11-28T17:00"
+      }
+     ],
+     "id": "polski-7",
+     "title_zh": "ZWYKI 乡村剧院节",
+     "tag_zh": "电影节"
+    },
+    {
+     "title": "SALON POEZJI: Jesień",
+     "url": "https://teatrpolski.waw.pl/wydarzenie/salon-poezji-jesien",
+     "place": "Duża Scena",
+     "tag": "Salon Poezji",
+     "shows": [
+      {
+       "at": "2026-11-29T12:00"
+      }
+     ],
+     "id": "polski-8",
+     "tag_zh": "诗歌沙龙",
+     "title_zh": "诗歌沙龙：秋天"
+    }
+   ]
+  },
+  {
+   "id": "roma",
+   "name": "Teatr Roma 音乐剧",
+   "group": "stage",
+   "kind": "events",
+   "home": "https://www.teatrroma.pl/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "WICKED",
+     "url": "https://bilety.teatrroma.pl/numerowane.html?id=7343&identyfikator=4b530a2751da0cbe3b81118f76f14106",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      },
+      {
+       "at": "2026-11-20T19:00"
+      },
+      {
+       "at": "2026-11-21T15:00"
+      },
+      {
+       "at": "2026-11-21T19:00"
+      },
+      {
+       "at": "2026-11-22T17:00"
+      },
+      {
+       "at": "2026-11-26T12:00"
+      },
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-28T15:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      },
+      {
+       "at": "2026-11-29T17:00"
+      },
+      {
+       "at": "2026-12-03T19:00"
+      }
+     ],
+     "id": "roma-0",
+     "title_zh": "魔法坏女巫"
+    },
+    {
+     "title": "Do serca tanga",
+     "url": "https://bilety.teatrroma.pl/numerowane.html?id=7449&identyfikator=4db335dcb6cc8f80808b7966b3642533",
+     "shows": [
+      {
+       "at": "2026-11-22T18:00"
+      },
+      {
+       "at": "2026-11-23T19:30"
+      },
+      {
+       "at": "2026-11-24T19:30"
+      },
+      {
+       "at": "2026-11-25T19:30"
+      },
+      {
+       "at": "2026-11-26T19:30"
+      },
+      {
+       "at": "2026-11-27T19:30"
+      }
+     ],
+     "id": "roma-1",
+     "title_zh": "探戈之心"
+    },
+    {
+     "title": "Ania z Zielonego Wzgórza",
+     "url": "https://bilety.teatrroma.pl/numerowane.html?id=7424&identyfikator=1a9756e37e2ac46ad9102e7706912424",
+     "shows": [
+      {
+       "at": "2026-12-03T10:00"
+      }
+     ],
+     "id": "roma-2",
+     "title_zh": "绿山墙的安妮"
+    }
+   ]
+  },
+  {
+   "id": "filharmonia",
+   "name": "国家爱乐 Filharmonia Narodowa",
+   "group": "music",
+   "kind": "events",
+   "home": "https://filharmonia.pl/repertuar",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Folk symfonicznie",
+     "url": "https://filharmonia.pl/repertuar/folk-symfonicznie",
+     "place": "Sala Koncertowa",
+     "tag": "Koncerty Czwartkowe, symfoniczny",
+     "summary": "Mała suita Lutosławskiego, II część III Symfonii Wajnberga i Krzesany Kilara w wykonaniu Orkiestry Filharmonii Narodowej pod dyrekcją Krzysztofa Urbańskiego.",
+     "shows": [
+      {
+       "at": "2026-11-19T19:00"
+      }
+     ],
+     "id": "filharmonia-0",
+     "title_zh": "民间交响",
+     "summary_zh": "卢托斯瓦夫斯基的小组曲、魏因贝格第三交响曲第二乐章和基拉尔的《克热萨尼》，由国家爱乐乐团演奏，克日什托夫·乌尔班斯基指挥。",
+     "tag_zh": "周四音乐会，交响乐"
+    },
+    {
+     "title": "Otwarta Próba Generalna",
+     "url": "https://filharmonia.pl/repertuar/otwarta-proba-generalna-20261120",
+     "place": "Sala Koncertowa",
+     "summary": "Zapraszamy na listopadową Otwartą Próbę Generalną.",
+     "shows": [
+      {
+       "at": "2026-11-20T09:00"
+      }
+     ],
+     "id": "filharmonia-1",
+     "title_zh": "公开总排练",
+     "summary_zh": "诚邀参加十一月的开放彩排。"
+    },
+    {
+     "title": "„O czym gramy?” - Piotr Maculewicz",
+     "url": "https://filharmonia.pl/repertuar/-o-czym-gramy-piotr-maculewicz-20261120",
+     "place": "Sala Kameralna",
+     "tag": "o czym gramy? - wprowadzenia do koncertów",
+     "summary": "Piotr Maculewicz (muzykolog, Uniwersytet Warszawski).",
+     "shows": [
+      {
+       "at": "2026-11-20T18:30"
+      }
+     ],
+     "id": "filharmonia-2",
+     "title_zh": "“我们在演奏什么？”——Piotr Maculewicz",
+     "summary_zh": "彼得·马楚莱维奇（音乐学家，华沙大学）。",
+     "tag_zh": "我们演奏什么？——音乐会导赏"
+    },
+    {
+     "title": "Eufonie - Chór Filharmonii Narodowej",
+     "url": "https://filharmonia.pl/repertuar/8-miedzynarodowy-festiwal-muzyki-nbsp-europy-srodkowo-wschodniej-eufonie-20261120",
+     "place": "Kościół Ewangelicko-Augsburski Świętej...",
+     "tag": "Eufonie, chóralny",
+     "summary": "Chór Filharmonii Narodowej pod dyrekcją Bartosza Michałowskiego.",
+     "shows": [
+      {
+       "at": "2026-11-20T19:00"
+      }
+     ],
+     "id": "filharmonia-3",
+     "title_zh": "Eufonie——华沙国家爱乐合唱团",
+     "summary_zh": "国家爱乐合唱团，由Bartosz Michałowski指挥。",
+     "tag_zh": "Eufonie，合唱"
+    },
+    {
+     "title": "Koncert symfoniczny",
+     "url": "https://filharmonia.pl/repertuar/koncert-symfoniczny-822722532",
+     "place": "Sala Koncertowa",
+     "tag": "symfoniczny",
+     "summary": "Orkiestra Filharmonii Narodowej pod dyrekcją Krzysztofa Urbańskiego oraz María Dueñas w partii solowej w Koncercie skrzypcowym D-dur Brahmsa.",
+     "shows": [
+      {
+       "at": "2026-11-20T19:30"
+      },
+      {
+       "at": "2026-11-21T18:00"
+      }
+     ],
+     "id": "filharmonia-4",
+     "title_zh": "交响音乐会",
+     "summary_zh": "国家爱乐乐团，由Krzysztof Urbański指挥，María Dueñas担任勃拉姆斯D大调小提琴协奏曲独奏。",
+     "tag_zh": "交响"
+    },
+    {
+     "title": "Głowa pełna dźwięków",
+     "url": "https://filharmonia.pl/repertuar/glowa-pelna-dzwiekow",
+     "place": "Sala Kameralna",
+     "tag": "Małe Muzyczne Poranki (dzieci 3-6 lat), niedzielne koncerty familijne, dla dzieci",
+     "summary": "A gdyby tak budzić się co rano z głową pełną dźwięków? Tego z pewnością doświadczał Ludwig van Beethoven.",
+     "shows": [
+      {
+       "at": "2026-11-22T11:00"
+      },
+      {
+       "at": "2026-11-22T14:00"
+      }
+     ],
+     "id": "filharmonia-5",
+     "title_zh": "满脑子的声音",
+     "summary_zh": "如果每天早上醒来时满脑子都是声音会怎样？路德维希·凡·贝多芬肯定有过这样的体验。",
+     "tag_zh": "小小音乐早晨（3-6岁儿童），周日家庭音乐会，为儿童举办"
+    },
+    {
+     "title": "Pinchas Zukerman x Sinfonia Varsovia",
+     "url": "https://filharmonia.pl/repertuar/pinchas-zukerman-x-sinfonia-varsovia",
+     "place": "Sala Koncertowa",
+     "tag": "wydarzenie gościnne",
+     "summary": "Sinfonia Varsovia i Pinchas Zukerman z muzyką Mozarta, Brucha i Dvořáka.",
+     "shows": [
+      {
+       "at": "2026-11-22T19:00"
+      }
+     ],
+     "id": "filharmonia-6",
+     "title_zh": "平夏斯·祖克曼 x 华沙小交响乐团",
+     "summary_zh": "辛丰尼亚·瓦尔索维亚乐团与平夏斯·祖克曼演绎莫扎特、布鲁赫和德沃夏克作品。",
+     "tag_zh": "特邀活动"
+    },
+    {
+     "title": "Portret kompozytora: Ludwig van Beethoven",
+     "url": "https://filharmonia.pl/repertuar/portret-kompozytora-0900",
+     "place": "Sala Kameralna",
+     "tag": "Spotkania z Muzyką w Filharmonii Narodowej 2026/2027",
+     "summary": "grupy przedszkolne (dzieci od 5. roku życia) i klasy I–III szkoły podstawowej",
+     "shows": [
+      {
+       "at": "2026-11-23T09:00"
+      }
+     ],
+     "id": "filharmonia-7",
+     "title_zh": "作曲家肖像：路德维希·凡·贝多芬",
+     "summary_zh": "幼儿园班级（5岁以上儿童）和小学一至三年级",
+     "tag_zh": "2026/2027年国家爱乐乐团音乐之约"
+    },
+    {
+     "title": "Portret kompozytora: Ludwig van Beethoven",
+     "url": "https://filharmonia.pl/repertuar/portret-kompozytora-0900-734310447",
+     "place": "Sala Kameralna",
+     "tag": "Spotkania z Muzyką w Filharmonii Narodowej 2026/2027",
+     "summary": "klasy IV–VIII szkoły podstawowej",
+     "shows": [
+      {
+       "at": "2026-11-23T11:00"
+      }
+     ],
+     "id": "filharmonia-8",
+     "tag_zh": "2026/2027年国家爱乐乐团音乐之约",
+     "summary_zh": "小学四至八年级",
+     "title_zh": "作曲家肖像：Ludwig van Beethoven"
+    },
+    {
+     "title": "Eufonie - Penderecki: Credo | Klauza",
+     "url": "https://filharmonia.pl/repertuar/8-miedzynarodowy-festiwal-muzyki-nbsp-europy-srodkowo-wschodniej-eufonie-378300116",
+     "place": "Sala Koncertowa",
+     "tag": "Eufonie, oratoryjny",
+     "summary": "Credo Krzysztofa Pendereckiego w wykonaniu Zespołów Filharmonii Krakowskiej i solistów pod batutą Michała Klauzy.",
+     "shows": [
+      {
+       "at": "2026-11-23T19:00"
+      }
+     ],
+     "id": "filharmonia-9",
+     "summary_zh": "由米哈乌·克劳扎指挥的克拉科夫爱乐乐团和独奏家演出克里斯托弗·潘德列茨基的《信经》。",
+     "tag_zh": "Eufonie，清唱剧式",
+     "title_zh": "Eufonie - Penderecki：Credo | Klauza"
+    }
+   ]
+  },
+  {
+   "id": "progresja",
+   "name": "Progresja",
+   "group": "music",
+   "kind": "events",
+   "home": "https://progresja.com/wydarzenia/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Lil Peep",
+     "url": "https://progresja.com/wydarzenie/lil-peep-2026/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-20T19:00"
+      }
+     ],
+     "id": "progresja-0",
+     "title_zh": "Lil Peep"
+    },
+    {
+     "title": "Rebzyyx",
+     "url": "https://progresja.com/wydarzenie/rebzyyx-lavendr-vampyx-xnti-cy4ne-disoc8-2026/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-21T17:00"
+      }
+     ],
+     "id": "progresja-1",
+     "title_zh": "Rebzyyx"
+    },
+    {
+     "title": "Sam Garrett",
+     "url": "https://progresja.com/wydarzenie/sam-garrett/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-22T18:00"
+      }
+     ],
+     "id": "progresja-2",
+     "title_zh": "Sam Garrett"
+    },
+    {
+     "title": "Artemas",
+     "url": "https://progresja.com/wydarzenie/artemas/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-23T18:00"
+      }
+     ],
+     "id": "progresja-3",
+     "title_zh": "Artemas"
+    },
+    {
+     "title": "Eluveitie",
+     "url": "https://progresja.com/wydarzenie/eluveitie-pain-wolfheart/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-24T18:30"
+      }
+     ],
+     "id": "progresja-4",
+     "title_zh": "Eluveitie"
+    },
+    {
+     "title": "Kodak Black",
+     "url": "https://progresja.com/wydarzenie/kodak-black-richie-wess-yung-dred-2026/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-25T19:00"
+      }
+     ],
+     "id": "progresja-5",
+     "title_zh": "Kodak Black"
+    },
+    {
+     "title": "MUNA",
+     "url": "https://progresja.com/wydarzenie/muna/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-26T19:00"
+      }
+     ],
+     "id": "progresja-6",
+     "title_zh": "MUNA"
+    },
+    {
+     "title": "Bracia Figo Fagot",
+     "url": "https://progresja.com/wydarzenie/bracia-figo-fagot-urodziny-progresji-2026/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00"
+      },
+      {
+       "at": "2026-11-28T19:00"
+      }
+     ],
+     "id": "progresja-7",
+     "title_zh": "菲戈·法戈特兄弟"
+    },
+    {
+     "title": "Polyphia",
+     "url": "https://progresja.com/wydarzenie/polyphia/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-11-29T18:00"
+      }
+     ],
+     "id": "progresja-8",
+     "title_zh": "Polyphia"
+    },
+    {
+     "title": "Chelsea Wolfe",
+     "url": "https://progresja.com/wydarzenie/chelsea-wolfe-a-a-williams/",
+     "place": "Progresja – Main Stage",
+     "shows": [
+      {
+       "at": "2026-12-03T19:00"
+      }
+     ],
+     "id": "progresja-9",
+     "title_zh": "Chelsea Wolfe"
+    }
+   ]
+  },
+  {
+   "id": "stodola",
+   "name": "Klub Stodoła",
+   "group": "music",
+   "kind": "events",
+   "home": "https://www.stodola.pl/koncerty",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "KULT",
+     "url": "https://www.stodola.pl/koncerty/kult-137050.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-20"
+      },
+      {
+       "at": "2026-11-21"
+      }
+     ],
+     "id": "stodola-0",
+     "title_zh": "KULT"
+    },
+    {
+     "title": "THE DUMPLINGS",
+     "url": "https://www.stodola.pl/koncerty/the-dumplings-137111.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-22"
+      }
+     ],
+     "id": "stodola-1",
+     "title_zh": "THE DUMPLINGS"
+    },
+    {
+     "title": "PORTUGAL. THE MAN",
+     "url": "https://www.stodola.pl/koncerty/portugal-the-man-136856.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-23"
+      }
+     ],
+     "id": "stodola-2",
+     "title_zh": "PORTUGAL. THE MAN"
+    },
+    {
+     "title": "VOLKANOV",
+     "url": "https://www.stodola.pl/koncerty/volkanov-137078.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-24"
+      }
+     ],
+     "id": "stodola-3",
+     "title_zh": "VOLKANOV"
+    },
+    {
+     "title": "KLIMAKTERIUM 2, CZYLI MENOPAUZY SZAŁ",
+     "url": "https://www.stodola.pl/koncerty/klimakterium-2-czyli-menopauzy-szal-137020.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-25"
+      }
+     ],
+     "id": "stodola-4",
+     "title_zh": "更年期2，即更年期的疯狂"
+    },
+    {
+     "title": "IRA",
+     "url": "https://www.stodola.pl/koncerty/ira-137016.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-27"
+      }
+     ],
+     "id": "stodola-5",
+     "title_zh": "IRA"
+    },
+    {
+     "title": "T.LOVE",
+     "url": "https://www.stodola.pl/koncerty/t-love-137003.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-28"
+      }
+     ],
+     "id": "stodola-6",
+     "title_zh": "T.LOVE"
+    },
+    {
+     "title": "KASIA KOWALSKA",
+     "url": "https://www.stodola.pl/koncerty/kasia-kowalska-137012.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-29"
+      }
+     ],
+     "id": "stodola-7",
+     "title_zh": "KASIA KOWALSKA"
+    },
+    {
+     "title": "ANDRZEJKI Z ANDRZEJEM PONIEDZIELSKIM",
+     "url": "https://www.stodola.pl/koncerty/andrzejki-z-andrzejem-poniedzielskim-137037.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-11-30"
+      }
+     ],
+     "id": "stodola-8",
+     "title_zh": "ANDRZEJ PONIEDZIELSKI 的圣安德鲁节"
+    },
+    {
+     "title": "HISTORIA KABARETU \"STODOŁA\" I HISTORIA ŻYCIA ELI JODŁOWSKIEJ",
+     "url": "https://www.stodola.pl/koncerty/historia-kabaretu-stodola-i-historia-zycia-eli-jodlowskiej-137183.html",
+     "place": "Klub Stodoła | Warszawa",
+     "shows": [
+      {
+       "at": "2026-12-03"
+      }
+     ],
+     "id": "stodola-9",
+     "title_zh": "“STODOŁA”歌舞厅的历史与 Ela Jodłowska 的人生故事"
+    }
+   ]
+  },
+  {
+   "id": "palladium",
+   "name": "Palladium",
+   "group": "music",
+   "kind": "events",
+   "home": "https://palladium.pl/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Ruch studencki i absolwencki 1986–2026 (Kamienie milowe)",
+     "url": "https://palladium.pl/2026/11/ruch-studencki-i-absolwencki-1986-2026-kamienie-milowe/",
+     "shows": [
+      {
+       "at": "2026-11-19T13:00"
+      }
+     ],
+     "id": "palladium-0",
+     "title_zh": "学生与毕业生运动 1986–2026（里程碑）"
+    },
+    {
+     "title": "Deloraine, Żniwa i Szlakiem Starych Drzew",
+     "url": "https://klubproxima.pl/2026/11/deloraine-zniwa-i-szlakiem-starych-drzew/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-19T18:00"
+      }
+     ],
+     "id": "palladium-1",
+     "title_zh": "德洛兰、收割与老树之路"
+    },
+    {
+     "title": "BOKKA x SMOLIK / KEV FOX",
+     "url": "https://palladium.pl/2026/08/bokka-x-smolik-kev-fox/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-20T20:00"
+      }
+     ],
+     "id": "palladium-2",
+     "title_zh": "BOKKA x SMOLIK / KEV FOX"
+    },
+    {
+     "title": "600V w Hybrydach – listopad",
+     "url": "https://hybrydy.pl/2026/11/600v-w-hybrydach-listopad/",
+     "place": "Hybrydy",
+     "shows": [
+      {
+       "at": "2026-11-20T21:00"
+      }
+     ],
+     "id": "palladium-3",
+     "title_zh": "Hybrydy 的 600V——十一月"
+    },
+    {
+     "title": "Koncert Pamięci Gosi Mikołajczyk",
+     "url": "https://hybrydy.pl/2026/07/koncert-pamieci-gosi-mikolajczyk/",
+     "place": "Hybrydy",
+     "shows": [
+      {
+       "at": "2026-11-21T15:30"
+      }
+     ],
+     "id": "palladium-4",
+     "title_zh": "戈夏·米科瓦伊奇克纪念音乐会"
+    },
+    {
+     "title": "Gala Jubileuszowa 75-lecia SDP – koncert „Popiół czy diament?”",
+     "url": "https://palladium.pl/2026/10/popiol-czy-diament-koncert-jubileuszowy-75-lecia-stowarzyszenia-dziennikarzy-polskich/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-21T18:00"
+      }
+     ],
+     "id": "palladium-5",
+     "title_zh": "SDP 75 周年庆典晚会——“灰烬还是钻石？”音乐会"
+    },
+    {
+     "title": "Lej Mi Pół",
+     "url": "https://klubproxima.pl/2026/08/lej-mi-pol-2/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-21T20:00"
+      }
+     ],
+     "id": "palladium-6",
+     "title_zh": "Lej Mi Pół"
+    },
+    {
+     "title": "Śpiewające Brzdące: Lisek i Przyjaciele",
+     "url": "https://palladium.pl/2026/05/spiewajace-brzdace-lisek-i-przyjaciele-3/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-22T12:00"
+      }
+     ],
+     "id": "palladium-7",
+     "title_zh": "唱歌的娃娃：Lisek 与朋友们"
+    },
+    {
+     "title": "Goło i wesoło",
+     "url": "https://palladium.pl/2024/04/golo-i-wesolo-4/",
+     "place": "Palladium",
+     "shows": [
+      {
+       "at": "2026-11-22T18:00"
+      }
+     ],
+     "id": "palladium-8",
+     "title_zh": "赤裸又快乐"
+    },
+    {
+     "title": "Anneke Van Giersbergen",
+     "url": "https://klubproxima.pl/2026/03/anneke-van-giersbergen/",
+     "place": "Proxima",
+     "shows": [
+      {
+       "at": "2026-11-22T18:30"
+      }
+     ],
+     "id": "palladium-9",
+     "title_zh": "Anneke Van Giersbergen"
+    }
+   ]
+  },
+  {
+   "id": "pik",
+   "name": "节庆 · 市集 · 展会",
+   "group": "fest",
+   "kind": "events",
+   "home": "https://pik.warszawa.pl/festiwal/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "🎄Jarmark Bożonarodzeniowy 2026 w Warszawie na Placu Defilad",
+     "url": "https://pik.warszawa.pl/inne/jarmark-bozonarodzeniowy-w-warszawie/",
+     "tag": "Za darmo",
+     "summary": "Jarmark Bożonarodzeniowy 2026 w Warszawie pod Pałacem Kultury – termin, godziny otwarcia, atrakcje i ceny.",
+     "start": "2026-11-20",
+     "end": "2027-01-06",
+     "id": "pik-0",
+     "title_zh": "2026华沙圣诞集市（阅兵广场）",
+     "summary_zh": "2026 年华沙文化宫前的圣诞集市——日期、开放时间、活动和价格。",
+     "tag_zh": "免费"
+    },
+    {
+     "title": "Międzynarodowa Wystawa Kotów Rasowych w Warszawie",
+     "url": "https://pik.warszawa.pl/inne/miedzynarodowa-wystawa-kotow-rasowych-w-warszawie/",
+     "summary": "Międzynarodowa Wystawa Kotów Rasowych w Warszawie – 21–22.11.2026! Poznaj niezwykłe rasy, spotkaj hodowców i odkryj k...",
+     "shows": [
+      {
+       "at": "2026-11-21T10:00"
+      }
+     ],
+     "id": "pik-1",
+     "title_zh": "华沙国际纯种猫展",
+     "summary_zh": "华沙国际纯种猫展——2026 年 11 月 21–22 日！认识非凡品种，结识繁育者，探索……"
+    },
+    {
+     "title": "UP Festival w Warszawie",
+     "url": "https://pik.warszawa.pl/festiwal/up-festival-warszawa/",
+     "summary": "Siedmiu reprezentantów polskiego underground rapu na jednej scenie w klubie Proxima.",
+     "shows": [
+      {
+       "at": "2026-11-27T19:00"
+      }
+     ],
+     "id": "pik-2",
+     "title_zh": "华沙 UP 音乐节",
+     "summary_zh": "七位波兰地下说唱代表齐聚Proxima俱乐部同一舞台。"
+    },
+    {
+     "title": "Targi Młodej Sztuki w Warszawie",
+     "url": "https://pik.warszawa.pl/inne/targi-mlodej-sztuki-warszawa/",
+     "summary": "Targi Młodej Sztuki w Warszawie to doskonała okazja, by zanurzyć się w świat nowoczesnych form wyrazu – od rzeźby, ma...",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "id": "pik-3",
+     "title_zh": "华沙青年艺术博览会",
+     "summary_zh": "华沙青年艺术博览会是将您带入现代表现形式世界的绝佳机会——从雕塑、绘……"
+    },
+    {
+     "title": "Warszawskie Targi Fantastyki 2026",
+     "url": "https://pik.warszawa.pl/inne/warszawskie-targi-fantastyki/",
+     "summary": "Już 5–6 grudnia Warszawskie Targi Fantastyki w EXPO XXI zapraszają na weekend pełen cosplayu, gier, warsztatów i wyją...",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "id": "pik-4",
+     "title_zh": "2026华沙奇幻博览会",
+     "summary_zh": "12 月 5–6 日，华沙奇幻博览会将在 EXPO XXI 诚邀您度过一个充满 cosplay、游戏、工作坊和独特……的周末"
+    }
+   ]
+  },
+  {
+   "id": "drinks",
+   "name": "葡萄酒 · 威士忌 · 啤酒节",
+   "group": "fest",
+   "kind": "events",
+   "home": "https://facetpo40.pl/co-gdzie-kiedy/festiwale-alkoholi-kalendarium-aktualizowane/",
+   "lang": "pl",
+   "status": "ok",
+   "error": null,
+   "items": [
+    {
+     "title": "Warsaw Wine Experience",
+     "url": "https://fermentmag.pl/event/warsaw-wine-experience-2026/",
+     "summary": "Degustacje win z całego świata na PGE Narodowym.",
+     "start": "2026-11-22",
+     "end": "2026-11-23",
+     "id": "drinks-0",
+     "title_zh": "华沙葡萄酒体验",
+     "summary_zh": "在 PGE 国家体育场品尝来自世界各地的葡萄酒。"
+    },
+    {
+     "title": "Festiwal Whisky Freedom",
+     "url": "https://whiskyfreedom.pl/",
+     "summary": "Dziesiątki wystawców i 30 dramów w cenie biletu. Na festiwalu udsostępnione będą do degustacji whisky, rumy i inne destylaty od najlepszych producentów i",
+     "shows": [
+      {
+       "at": "2027-01-16"
+      }
+     ],
+     "id": "drinks-1",
+     "title_zh": "威士忌自由节",
+     "summary_zh": "数十家参展商和30种烈酒含在门票内。音乐节上将提供来自最佳生产商的威士忌、朗姆酒和其他蒸馏酒供品鉴，以及"
+    },
+    {
+     "title": "Wine Expo Poland",
+     "url": "https://wineexpopoland.pl/",
+     "summary": "Największe wydarzenie branżowe w naszym kraju, przeznaczone dla profesjonalistów: producentów, importerów, dystrybutorów, sommelierów i miłośników wina, cydrów",
+     "start": "2027-02-26",
+     "end": "2027-02-27",
+     "id": "drinks-2",
+     "title_zh": "波兰葡萄酒博览会",
+     "summary_zh": "我国最大的行业盛会，面向专业人士：葡萄酒、苹果酒的生产商、进口商、经销商、侍酒师和爱好者"
+    },
+    {
+     "title": "Wine Warsaw Expo",
+     "url": "https://winewarsawexpo.com/",
+     "summary": "Impreza skierowana jest zarówno do profesjonalistów, importerów i dystrybutorów win, właścicieli winnic, restauratorów, sommelierów i szefów kuchni, a także",
+     "start": "2027-03-09",
+     "end": "2027-03-11",
+     "id": "drinks-3",
+     "title_zh": "华沙葡萄酒博览会",
+     "summary_zh": "该活动既面向专业人士、葡萄酒进口商和经销商、葡萄园主、餐厅经营者、侍酒师和主厨，也面向……"
+    },
+    {
+     "title": "Beer Warsaw Expo",
+     "url": "https://beerwarsawexpo.com/",
+     "summary": "Impreza skierowana jest zarówno do profesjonalistów, importerów i dystrybutorów piw, jak i do miłośnikow piwa.",
+     "start": "2027-03-09",
+     "end": "2027-03-11",
+     "id": "drinks-4",
+     "title_zh": "华沙啤酒博览会",
+     "summary_zh": "该活动既面向专业人士、啤酒进口商和经销商，也面向啤酒爱好者。"
+    },
+    {
+     "title": "Warszawski Festiwal Piwa",
+     "url": "https://warszawskifestiwalpiwa.pl/",
+     "place": "Stadion Legii",
+     "start": "2027-03-11",
+     "end": "2027-03-13",
+     "id": "drinks-5",
+     "title_zh": "华沙啤酒节"
+    }
+   ]
+  },
+  {
+   "id": "edu_protest",
+   "name": "教育与科研界 · 抗议公告",
+   "group": "protest",
+   "kind": "list",
+   "home": "https://www.solidarnosc.org.pl/ksn/",
+   "lang": "pl",
+   "status": "idle",
+   "error": null,
+   "items": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "utopias",
+   "name": "《变态者乌托邦指南》The Pervert's Guide to Utopias",
+   "link": "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias",
+   "asof": "2026-11-04",
+   "note": "Sophie Fiennes 执导、Žižek「变态者指南」三部曲的终章，133 分钟。9 月 7 日在威尼斯（非竞赛）首映，之后在多伦多、汉堡、雅典、圣保罗、里斯本 Doclisboa 等影展放映；11 月 14、16 日在纽约 DOC NYC 美国首映。还没有在任何流媒体上线，JustWatch 波兰区没有条目；波兰发行方和华沙排片都未公布。",
+   "sources": [
+    [
+     "维基百科",
+     "https://en.wikipedia.org/wiki/The_Pervert%27s_Guide_to_Utopias"
+    ],
+    [
+     "DOC NYC",
+     "https://www.docnyc.net/film/the-perverts-guide-to-utopias/"
+    ],
+    [
+     "Hollywood Reporter",
+     "https://www.hollywoodreporter.com/movies/movie-news/slavoj-zizek-perverts-guide-to-utopias-exclusive-trailer-1236687802/"
+    ]
+   ],
+   "checked": [
+    {
+     "name": "Muranów 排片",
+     "url": "https://kinomuranow.pl/repertuar",
+     "ok": true
+    },
+    {
+     "name": "Muranów 即将上映",
+     "url": "https://kinomuranow.pl/zapowiedzi",
+     "ok": true
+    },
+    {
+     "name": "Kinoteka 排片",
+     "url": "https://kinoteka.pl/repertuar/",
+     "ok": true
+    },
+    {
+     "name": "Iluzjon 排片",
+     "url": "https://www.iluzjon.fn.org.pl/repertuar.html",
+     "ok": true
+    },
+    {
+     "name": "Kino Elektronik",
+     "url": "https://kinoelektronik.pl/",
+     "ok": true
+    },
+    {
+     "name": "Kino Kultura",
+     "url": "https://www.kinokultura.pl/",
+     "ok": true
+    },
+    {
+     "name": "Kino Amondo",
+     "url": "https://kinoamondo.pl/",
+     "ok": true
+    },
+    {
+     "name": "Against Gravity 片单",
+     "url": "https://againstgravity.pl/filmy/",
+     "ok": true
+    },
+    {
+     "name": "Millennium Docs Against Gravity",
+     "url": "https://mdag.pl/",
+     "ok": true
+    }
+   ],
+   "hits": []
+  }
+ ]
+}
