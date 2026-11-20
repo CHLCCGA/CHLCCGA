@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-18 (Europe/Warsaw) · 覆盖 2026-11-15 — 2026-11-18
-> 数据源：21 个站点 · 本期 14 条 · [JSON](news/data/2026-11-18.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-20 (Europe/Warsaw) · 覆盖 2026-11-17 — 2026-11-20
+> 数据源：21 个站点 · 本期 12 条 · [JSON](news/data/2026-11-20.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -9,65 +9,57 @@
 
 *（本期无）*
 
+
 ---
 
 ## · Poland Brief
 
-- **波兰拟将家庭用气价封顶在现有水平至 2027 年** — 政府批准草案，家庭用气每兆瓦时最高 197.29 兹罗提（约 45 欧元）。 (Polskie Radio, 11/17)
-- **波兰央行冻结宪法法庭账户** — 两派争夺宪法法庭控制权，波兰国家银行暂停该法庭账户的付款。 (Notes From Poland, 11/17)
-- **五角大楼支持在波兰设永久美军基地** — 据波兰国防部长表示，五角大楼支持在波兰建立永久性美军基地。 (Polskie Radio, 11/17)
-- **NASK 参加 HackNation 黑客松** — HackNation 第二届 11月21–22日在 Bydgoszcz 举行，公共机构（含 NASK）出题，参赛者 24 小时内解题。 (NASK, 11/17)
+- **波兰政府拟对居民用气设置最高价** — 政府拟对居民用气设最高限价，资金来自对部分能源企业征收的新特别税。 (Notes From Poland, 11/17)
+- **总统签署法律：2027年上调酒类消费税** — 总统 Karol Nawrocki 签署法律，2027年起上调酒精饮料的消费税税率。 (Polskie Radio, 11/19)
+- **宪法法庭称已剥夺院长豁免权，院长称无效** — 有争议的宪法法庭宣布解除院长 Bogdan Święczkowski 的豁免权以便起诉；他表示该决定没有法律效力。 (Notes From Poland, 11/18)
+- **移民局：边境申请国际保护的限制将延长60天** — 自2025年3月27日起，白俄罗斯边境实行暂时限制申请国际保护，下议院（Sejm）同意再延长60天。 (Urząd do Spraw Cudzoziemców, 11/17)
+- **图斯克：E5国家与欧洲机构将代表欧洲参与乌克兰谈判** — 图斯克表示，E5集团五国和欧洲机构将在未来结束战争的谈判中代表欧洲。 (Polskie Radio, 11/19)
 
 ---
 
 ## ◈ Europe Brief
 
-- **瑞士考虑为部分非欧盟旅客设 EES 快速通道** — 瑞士在考虑为部分非欧盟旅客开设更快的边检通道，以缩短 EES 带来的机场排队。 (The Local, 11/17)
-- **五个欧盟国家提出在卢旺达设遣返中心** — 五国提议的移民遣返设施位于卢旺达，将是欧盟境外首个此类设施。 (The Local, 11/17)
-- **10 月以来中东欧遭遇 50 多起非传统安全事件** — Euronews 报道，自 10 月以来中东欧地区发生 50 多起非传统安全事件。 (Euronews, 11/18)
+- **德国2027年下调能源税并延长油价上限** — 德国2027年下调能源税，并续行汽油价格上限；家庭每月约可节省8欧元。 (Euronews, 11/18)
+- **欧盟委员会提出450亿欧元对乌克兰贷款** — 冯德莱恩公布以联合举债方式向基辅提供450亿欧元贷款的方案。 (Euronews, 11/18)
+- **西班牙暂停受理新的外国学历认定申请** — 西班牙已停止受理新的外国学历认定申请。 (Euronews, 11/19)
+- **德国近30万境外儿童领取德国福利，波兰家庭占比最大** — 约30万境外儿童领取德国福利，波兰家庭占最大份额；部分政界人士希望限制向境外发放。 (Euronews, 11/18)
 
 ---
 
 ## ◇ Cool Finds
 
-**《Oratorium na konstytucję Ziemi》展览开幕 · 11月13日 起**
-CSW Zamek Ujazdowski 的新展 11月13日起展出，展期至 2027年3月28日。
-*CSW Zamek Ujazdowski · 11/18 · [原文 →](https://u-jazdowski.pl/program/wystawy/oratorium-na-konstytucje-ziemi)*
+**Project Room 展：Piotr Stechura《Not So Far from Yokohama》 · 11月27日 起**
+Project Room 2025/2026 展览，11月26日有开幕式，11月27日起展出至2027年1月10日。
+*CSW Zamek Ujazdowski · 2026-11-20 · [原文 →](https://www.u-jazdowski.pl/program/project-room/otwarty-nabor-dla-artystek-i-artystow/not-so-far-from-yokohama-)*
+
 
 ---
 
 ## ▸ New Spots
 
-**Chałka Bistro 搬到 plac Defilad（plac Defilad 1, Śródmieście）**
-这家以 chałka（辫子蛋糕面包）为主角的小馆 9 月底从 Saska Kępa 搬进 plac Defilad 1 的 Pałac Młodzieży，菜单有早餐、zapiekanka、热狗、薄饼等。
-*Warsawfoodie · 11/17 · [原文 →](https://warsawfoodie.pl/2026/11/chalka-bistro-na-placu-defilad-chalka-w-roli-glownej/)*
+*（本期无）*
+
 
 ---
 
 ## ⤷ Upcoming Events
 
-**Kinoteka 放映 4K 修复版《Diabły》** · 11月18日
-11月18日 21:30 放映 4K 修复版，讲路易十三时期一名神父打破独身誓言与情人结婚引发丑闻。 · Kinoteka
-*Kinoteka · [原文 →](https://kinoteka.pl/film/diably/)*
+**本周末华沙做什么（11月20–22日）** · 11月20日
+Jarmark Warszawski 在 plac Defilad 连开三天（11:00–22:00，免费入场）；Teatr Polski 周五、周六、周日上演《Rękopis znaleziony w Saragossie》；周六周日在 Wilanów 的 Centrum Sportu 有国际纯种猫展；周六周日 Elektrownia Powiśle 有免费入场的 Targi Wzory。
+*dlastudenta.pl · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-weekend-w-warszawie-2022-listopada-2026-rusza-jarmark-pod-pkin,161577.html)*
 
-**Werner Herzog 11月放映：《Woyzeck》(1979)** · 11月19日
-11月19日 18:30 放映，地区 Śródmieście。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160847-werner-herzog-pokazy-filmow-w-listopadzie-woyzeck-1979)*
+**Women in IT Day（两天）** · 11月26日
+11月26日9:00起在 Ochota 举行，为期两天，形式为工作坊和讲座。 · Ochota
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161895-women-in-it-day)*
 
-**国家爱乐《Folk symfonicznie》音乐会** · 11月19日
-11月19日 19:00，国家爱乐乐团演出，Krzysztof Urbański 指挥。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/folk-symfonicznie)*
-
-**Teatr Wielki 上演《Madame Butterfly》** · 11月21日
-11月21日 19:00 在 Sala Moniuszki 演出。 · Sala Moniuszki
-*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/madame-butterfly/termin/2026-11-21_19-00/)*
-
-**Polonia Warszawa 建队 115 周年主场赛** · 11月21日
-11月21日 15:30 对阵 Stal Mielec，活动页标注为付费。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161789-mecz-polonia-warszawa-stal-mielec-115-lecie-polonii-warszawa)*
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsawfoodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ✅ NASK · ❌ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ❌ UDSC 移民局 · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ⚠ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ✅ 波兰移民局 UdSC · ⚠ 中国驻波兰使馆

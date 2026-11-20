@@ -1,0 +1,193 @@
+[
+ {
+  "id": "b722330469",
+  "category": "poland_brief",
+  "title_zh": "波兰政府拟对居民用气设置最高价",
+  "title_original": "Polish government seeks to introduce maximum gas prices for consumers",
+  "summary_zh": "政府拟对居民用气设最高限价，资金来自对部分能源企业征收的新特别税。",
+  "source_name": "Notes From Poland",
+  "source_url": "https://notesfrompoland.com/2026/11/17/polish-government-seeks-to-introduce-maximum-gas-prices-for-consumers/",
+  "published_date": "2026-11-17",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "gas",
+   "prices"
+  ]
+ },
+ {
+  "id": "7a3dc042f1",
+  "category": "poland_brief",
+  "title_zh": "总统签署法律：2027年上调酒类消费税",
+  "title_original": "Polish president signs law increasing alcohol excise duties in 2027",
+  "summary_zh": "总统 Karol Nawrocki 签署法律，2027年起上调酒精饮料的消费税税率。",
+  "source_name": "Polskie Radio",
+  "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3754783",
+  "published_date": "2026-11-19",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "tax",
+   "prices"
+  ]
+ },
+ {
+  "id": "9035c917a1",
+  "category": "poland_brief",
+  "title_zh": "宪法法庭称已剥夺院长豁免权，院长称无效",
+  "title_original": "Disputed Polish constitutional court announces chief justice stripped of immunity to face charges",
+  "summary_zh": "有争议的宪法法庭宣布解除院长 Bogdan Święczkowski 的豁免权以便起诉；他表示该决定没有法律效力。",
+  "source_name": "Notes From Poland",
+  "source_url": "https://notesfrompoland.com/2026/11/18/polish-constitutional-court-strips-chief-justice-of-immunity-to-face-criminal-charges/",
+  "published_date": "2026-11-18",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "politics",
+   "courts"
+  ]
+ },
+ {
+  "id": "c13f5ea33a",
+  "category": "poland_brief",
+  "title_zh": "移民局：边境申请国际保护的限制将延长60天",
+  "title_original": "Ograniczenie prawa do złożenia wniosku o ochronę międzynarodową",
+  "summary_zh": "自2025年3月27日起，白俄罗斯边境实行暂时限制申请国际保护，下议院（Sejm）同意再延长60天。",
+  "source_name": "Urząd do Spraw Cudzoziemców",
+  "source_url": "https://www.gov.pl/web/udsc/ograniczenie-prawa-do-zlozenia-wniosku-o-ochrone-miedzynarodowa",
+  "published_date": "2026-11-17",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "border",
+   "migration"
+  ]
+ },
+ {
+  "id": "c7eaf8c229",
+  "category": "poland_brief",
+  "title_zh": "图斯克：E5国家与欧洲机构将代表欧洲参与乌克兰谈判",
+  "title_original": "E5 countries to represent Europe in Ukraine peace talks: Poland's Tusk",
+  "summary_zh": "图斯克表示，E5集团五国和欧洲机构将在未来结束战争的谈判中代表欧洲。",
+  "source_name": "Polskie Radio",
+  "source_url": "https://www.polskieradio.pl/395/7784/Artykul/3755041",
+  "published_date": "2026-11-19",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "ukraine",
+   "diplomacy"
+  ]
+ },
+ {
+  "id": "59be2a45a1",
+  "category": "europe_brief",
+  "title_zh": "德国2027年下调能源税并延长油价上限",
+  "title_original": "Germany cuts energy tax and extends fuel price cap in 2027",
+  "summary_zh": "德国2027年下调能源税，并续行汽油价格上限；家庭每月约可节省8欧元。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/18/germany-cuts-energy-tax-and-extends-fuel-price-cap-in-2027",
+  "published_date": "2026-11-18",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "energy",
+   "prices"
+  ]
+ },
+ {
+  "id": "e530fcd7d3",
+  "category": "europe_brief",
+  "title_zh": "欧盟委员会提出450亿欧元对乌克兰贷款",
+  "title_original": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+  "summary_zh": "冯德莱恩公布以联合举债方式向基辅提供450亿欧元贷款的方案。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+  "published_date": "2026-11-18",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "ukraine",
+   "eu"
+  ]
+ },
+ {
+  "id": "7ff8c79f26",
+  "category": "europe_brief",
+  "title_zh": "西班牙暂停受理新的外国学历认定申请",
+  "title_original": "Spain freezes new foreign degree applications as foreign doctors flood residency exam",
+  "summary_zh": "西班牙已停止受理新的外国学历认定申请。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/19/spain-freezes-new-foreign-degree-applications-as-foreign-doctors-flood-residency-exam",
+  "published_date": "2026-11-19",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "spain",
+   "qualifications"
+  ]
+ },
+ {
+  "id": "a5ad4ca6a3",
+  "category": "cool_finds",
+  "title_zh": "Project Room 展：Piotr Stechura《Not So Far from Yokohama》",
+  "title_original": "Not So Far from Yokohama",
+  "summary_zh": "Project Room 2025/2026 展览，11月26日有开幕式，11月27日起展出至2027年1月10日。",
+  "source_name": "CSW Zamek Ujazdowski",
+  "source_url": "https://www.u-jazdowski.pl/program/project-room/otwarty-nabor-dla-artystek-i-artystow/not-so-far-from-yokohama-",
+  "published_date": "2026-11-20",
+  "event_date": "2026-11-27",
+  "venue": "CSW Zamek Ujazdowski",
+  "tags": [
+   "exhibition",
+   "project room"
+  ]
+ },
+ {
+  "id": "79e5dd9287",
+  "category": "upcoming_events",
+  "title_zh": "本周末华沙做什么（11月20–22日）",
+  "title_original": "Co robić w weekend w Warszawie 20–22 listopada 2026? Rusza jarmark pod PKiN",
+  "summary_zh": "Jarmark Warszawski 在 plac Defilad 连开三天（11:00–22:00，免费入场）；Teatr Polski 周五、周六、周日上演《Rękopis znaleziony w Saragossie》；周六周日在 Wilanów 的 Centrum Sportu 有国际纯种猫展；周六周日 Elektrownia Powiśle 有免费入场的 Targi Wzory。",
+  "source_name": "dlastudenta.pl",
+  "source_url": "https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-weekend-w-warszawie-2022-listopada-2026-rusza-jarmark-pod-pkin,161577.html",
+  "published_date": "2026-11-20",
+  "event_date": "2026-11-20",
+  "venue": null,
+  "tags": [
+   "weekend"
+  ]
+ },
+ {
+  "id": "f70d772557",
+  "category": "upcoming_events",
+  "title_zh": "Women in IT Day（两天）",
+  "title_original": "Women in IT Day",
+  "summary_zh": "11月26日9:00起在 Ochota 举行，为期两天，形式为工作坊和讲座。",
+  "source_name": "waw4free",
+  "source_url": "https://waw4free.pl/wydarzenie-161895-women-in-it-day",
+  "published_date": "2026-11-20",
+  "event_date": "2026-11-26",
+  "venue": "Ochota",
+  "tags": [
+   "workshop",
+   "tech"
+  ]
+ },
+ {
+  "id": "1a9ee517b8",
+  "category": "europe_brief",
+  "title_zh": "德国近30万境外儿童领取德国福利，波兰家庭占比最大",
+  "title_original": "Nearly 300,000 children abroad receive German benefits, sparking political backlash",
+  "summary_zh": "约30万境外儿童领取德国福利，波兰家庭占最大份额；部分政界人士希望限制向境外发放。",
+  "source_name": "Euronews",
+  "source_url": "https://www.euronews.com/2026/11/18/nearly-300000-children-abroad-receive-german-benefits-sparking-political-backlash",
+  "published_date": "2026-11-18",
+  "event_date": null,
+  "venue": null,
+  "tags": [
+   "germany",
+   "benefits"
+  ]
+ }
+]
