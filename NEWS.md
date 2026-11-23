@@ -1,7 +1,7 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-20 (Europe/Warsaw) · 覆盖 2026-11-17 — 2026-11-20
-> 数据源：21 个站点 · 本期 12 条 · [JSON](news/data/2026-11-20.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-23 (Europe/Warsaw) · 覆盖 2026-11-20 — 2026-11-23
+> 数据源：21 个站点 · 本期 13 条 · [JSON](news/data/2026-11-23.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
@@ -9,34 +9,29 @@
 
 *（本期无）*
 
-
 ---
 
 ## · Poland Brief
 
-- **波兰政府拟对居民用气设置最高价** — 政府拟对居民用气设最高限价，资金来自对部分能源企业征收的新特别税。 (Notes From Poland, 11/17)
-- **总统签署法律：2027年上调酒类消费税** — 总统 Karol Nawrocki 签署法律，2027年起上调酒精饮料的消费税税率。 (Polskie Radio, 11/19)
-- **宪法法庭称已剥夺院长豁免权，院长称无效** — 有争议的宪法法庭宣布解除院长 Bogdan Święczkowski 的豁免权以便起诉；他表示该决定没有法律效力。 (Notes From Poland, 11/18)
-- **移民局：边境申请国际保护的限制将延长60天** — 自2025年3月27日起，白俄罗斯边境实行暂时限制申请国际保护，下议院（Sejm）同意再延长60天。 (Urząd do Spraw Cudzoziemców, 11/17)
-- **图斯克：E5国家与欧洲机构将代表欧洲参与乌克兰谈判** — 图斯克表示，E5集团五国和欧洲机构将在未来结束战争的谈判中代表欧洲。 (Polskie Radio, 11/19)
+- **两枚俄导弹和一架无人机落入波兰境内** — 俄罗斯对乌克兰发动大规模袭击期间，两枚导弹和一架疑似喷气式无人机击中波兰；图斯克称这是俄方升级的一部分。 (Notes From Poland, 11/20)
+- **北约誓言在领空遭侵犯后保卫波兰每一寸领土** — 北约表示，波兰领空被侵犯后将保卫波兰每一寸领土。 (Polskie Radio, 11/21)
+- **报告：在波外国人超半数遭遇过暴力** — 一份报告发现在波兰的外国人中超过半数经历过暴力，但72.5%的外国人表示在波兰感到安全。 (Polskie Radio, 11/22)
+- **波兰加重铁路道口违规处罚** — 司机闯红灯越过铁路道口，驾照将被暂扣三个月。 (Polskie Radio, 11/21)
 
 ---
 
 ## ◈ Europe Brief
 
-- **德国2027年下调能源税并延长油价上限** — 德国2027年下调能源税，并续行汽油价格上限；家庭每月约可节省8欧元。 (Euronews, 11/18)
-- **欧盟委员会提出450亿欧元对乌克兰贷款** — 冯德莱恩公布以联合举债方式向基辅提供450亿欧元贷款的方案。 (Euronews, 11/18)
-- **西班牙暂停受理新的外国学历认定申请** — 西班牙已停止受理新的外国学历认定申请。 (Euronews, 11/19)
-- **德国近30万境外儿童领取德国福利，波兰家庭占比最大** — 约30万境外儿童领取德国福利，波兰家庭占最大份额；部分政界人士希望限制向境外发放。 (Euronews, 11/18)
+- **爱沙尼亚将自12月1日起关闭对俄边境** — 爱沙尼亚称一起未遂纵火与俄军事情报机构有关，五个口岸12月1日起关闭，六个月后可能复查；铁路不受影响。 (Euronews, 11/20)
+- **五个欧盟国家计划自2027年起把遣返移民送往卢旺达** — 五国同意依据欧盟新遣返条例，自2027年起把被拒的庇护申请人送往卢旺达；条例要求合作方尊重人权。 (Euronews, 11/21)
+- **欧盟与英国峰会达成了哪些协议** — 脱欧后第二次欧英峰会产生了新协议，双方加强合作。 (The Local, 11/20)
+- **欧盟与印尼签署贸易与投资协定** — 欧盟与印尼签署了全面经济伙伴关系协定（CEPA）和投资保护协定（IPA）。 (European Commission, 11/20)
 
 ---
 
 ## ◇ Cool Finds
 
-**Project Room 展：Piotr Stechura《Not So Far from Yokohama》 · 11月27日 起**
-Project Room 2025/2026 展览，11月26日有开幕式，11月27日起展出至2027年1月10日。
-*CSW Zamek Ujazdowski · 2026-11-20 · [原文 →](https://www.u-jazdowski.pl/program/project-room/otwarty-nabor-dla-artystek-i-artystow/not-so-far-from-yokohama-)*
-
+*（本期无）*
 
 ---
 
@@ -44,22 +39,33 @@ Project Room 2025/2026 展览，11月26日有开幕式，11月27日起展出至2
 
 *（本期无）*
 
-
 ---
 
 ## ⤷ Upcoming Events
 
-**本周末华沙做什么（11月20–22日）** · 11月20日
-Jarmark Warszawski 在 plac Defilad 连开三天（11:00–22:00，免费入场）；Teatr Polski 周五、周六、周日上演《Rękopis znaleziony w Saragossie》；周六周日在 Wilanów 的 Centrum Sportu 有国际纯种猫展；周六周日 Elektrownia Powiśle 有免费入场的 Targi Wzory。
-*dlastudenta.pl · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/co-robic-w-weekend-w-warszawie-2022-listopada-2026-rusza-jarmark-pod-pkin,161577.html)*
+**国家爱乐：Cory Henry《A Jam Good Time》** · 11月25日
+国家爱乐11月25日19:30举行 Cory Henry 专场《A Jam Good Time》。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/cory-henry-a-jam-good-time)*
 
-**Women in IT Day（两天）** · 11月26日
-11月26日9:00起在 Ochota 举行，为期两天，形式为工作坊和讲座。 · Ochota
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-161895-women-in-it-day)*
+**大剧院歌剧《莎乐美》** · 11月26日
+11月26日19:00，理查·施特劳斯音乐剧《莎乐美》在 Sala Moniuszki 上演，德语演出，与马德里皇家剧院联合制作。 · Teatr Wielki, Sala Moniuszki
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/salome/termin/2026-11-26_19-00/)*
+
+**Kino Tęcza 开幕：放映《奥兰多》并与 Tilda Swinton 见面** · 11月28日
+11月28日19:00，Kino Tęcza 开幕活动，放映《Orlando》并举行与 Tilda Swinton 的见面会。 · Żoliborz
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-162220-otwarcie-kina-tecza-pokaz-filmu-orlando-i-spotkanie-z-tilda-swinton)*
+
+**移民局信息开放日（11月28日）** · 11月28日
+波兰移民局（UdSC）邀请参加11月28日的“信息周六”。
+*UdSC · [原文 →](https://www.gov.pl/web/udsc/sobota-informacyjna-w-urzedzie-do-spraw-cudzoziemcow---28112026)*
+
+**国家爱乐：Koryfeusz 波兰音乐奖2026颁奖典礼** · 11月30日
+11月30日19:00，国家爱乐举行 Koryfeusz 波兰音乐奖2026颁奖典礼。 · Filharmonia Narodowa
+*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/gala-nagrody-koryfeusz-muzyki-polskiej-2026)*
 
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ⚠ PIK Warszawa · ⚠ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ⚠ 欧盟委员会新闻稿 · ✅ 波兰移民局 UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ✅ European Commission · ✅ UdSC · ⚠ 中国驻波兰使馆

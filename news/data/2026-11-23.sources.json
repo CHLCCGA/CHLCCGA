@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Notes From Poland",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Warsaw Foodie",
+    "status": "ok",
+    "note": "窗口内无新条目"
+  },
+  {
+    "name": "Usta Magazyn",
+    "status": "fail",
+    "note": "503"
+  },
+  {
+    "name": "Warsaw Insider",
+    "status": "ok",
+    "note": "窗口内无新条目"
+  },
+  {
+    "name": "Polskie Radio",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "waw4free",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "dlastudenta 周末清单",
+    "status": "warn",
+    "note": "本周清单未发布（最新一篇为20–22日，已过期）"
+  },
+  {
+    "name": "PIK Warszawa",
+    "status": "warn",
+    "note": "候选活动均在窗口外"
+  },
+  {
+    "name": "Muzeum Narodowe",
+    "status": "ok",
+    "note": "窗口内无合适条目"
+  },
+  {
+    "name": "Zachęta",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "CSW Zamek Ujazdowski",
+    "status": "ok",
+    "note": "窗口内无新条目"
+  },
+  {
+    "name": "Filharmonia Narodowa",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Teatr Wielki",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Kinoteka",
+    "status": "warn",
+    "note": "只取到当日纪录片场次，未收录"
+  },
+  {
+    "name": "NASK",
+    "status": "warn",
+    "note": "窗口内无新条目"
+  },
+  {
+    "name": "IDEAS NCBR",
+    "status": "warn",
+    "note": "暂无活动"
+  },
+  {
+    "name": "The Local",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Euronews Europe",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "European Commission",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "UdSC",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "中国驻波兰使馆",
+    "status": "warn",
+    "note": "窗口内无新条目"
+  }
+]
