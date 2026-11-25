@@ -1,37 +1,47 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-23 (Europe/Warsaw) · 覆盖 2026-11-20 — 2026-11-23
-> 数据源：21 个站点 · 本期 13 条 · [JSON](news/data/2026-11-23.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-25 (Europe/Warsaw) · 覆盖 2026-11-22 — 2026-11-25
+> 数据源：21 个站点 · 本期 16 条 · [JSON](news/data/2026-11-25.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
 ## ◆ Warsaw Now
 
-*（本期无）*
+**华沙开设面向公众的天文台**
+华沙市长 Rafał Trzaskowski 表示，这座天文台让任何人都能通过观测了解太空。
+*Notes From Poland · 2026-11-23 · [原文 →](https://notesfrompoland.com/2026/11/23/public-astronomical-observatory-opens-in-warsaw/)*
+
 
 ---
 
 ## · Poland Brief
 
-- **两枚俄导弹和一架无人机落入波兰境内** — 俄罗斯对乌克兰发动大规模袭击期间，两枚导弹和一架疑似喷气式无人机击中波兰；图斯克称这是俄方升级的一部分。 (Notes From Poland, 11/20)
-- **北约誓言在领空遭侵犯后保卫波兰每一寸领土** — 北约表示，波兰领空被侵犯后将保卫波兰每一寸领土。 (Polskie Radio, 11/21)
-- **报告：在波外国人超半数遭遇过暴力** — 一份报告发现在波兰的外国人中超过半数经历过暴力，但72.5%的外国人表示在波兰感到安全。 (Polskie Radio, 11/22)
-- **波兰加重铁路道口违规处罚** — 司机闯红灯越过铁路道口，驾照将被暂扣三个月。 (Polskie Radio, 11/21)
+- **波兰与美国签署国防技术合作协议** — 协议结束了长达17年的谈判。 (Notes From Poland, 11/24)
+- **欧洲人权法院：波兰侵犯一名被遣返白俄罗斯的阿富汗移民权利** — 欧洲人权法院裁定，波兰2021年将一名阿富汗移民遣返白俄罗斯的做法违反其权利。 (Polskie Radio, 11/24)
+- **波兰就俄导弹侵入领空传召俄罗斯大使** — 波兰周二传召俄罗斯大使，抗议上周俄罗斯导弹侵犯波兰领空。 (Polskie Radio, 11/24)
+- **移民局：MOS 系统将出现短暂访问中断** — 移民局通知，MOS 门户将出现短暂的访问中断。 (Urząd do Spraw Cudzoziemców, 11/23)
+- **NASK 邀请参加 Kongres OSE 2026，讨论学校如何应对 AI 与网络风险** — 专家将讨论 AI 改变年轻人学习方式，以及网络上的操纵、暴力与极端化风险下学校该如何应对。 (NASK, 11/24)
 
 ---
 
 ## ◈ Europe Brief
 
-- **爱沙尼亚将自12月1日起关闭对俄边境** — 爱沙尼亚称一起未遂纵火与俄军事情报机构有关，五个口岸12月1日起关闭，六个月后可能复查；铁路不受影响。 (Euronews, 11/20)
-- **五个欧盟国家计划自2027年起把遣返移民送往卢旺达** — 五国同意依据欧盟新遣返条例，自2027年起把被拒的庇护申请人送往卢旺达；条例要求合作方尊重人权。 (Euronews, 11/21)
-- **欧盟与英国峰会达成了哪些协议** — 脱欧后第二次欧英峰会产生了新协议，双方加强合作。 (The Local, 11/20)
-- **欧盟与印尼签署贸易与投资协定** — 欧盟与印尼签署了全面经济伙伴关系协定（CEPA）和投资保护协定（IPA）。 (European Commission, 11/20)
+- **欧盟委员会对混合动力车进口设临时配额** — 临时保障措施对部分混动乘用车设进口配额，12月1日起生效。 (European Commission, 11/24)
+- **维谢格拉德四国要求推迟 ETS2** — 波兰、匈牙利、斯洛伐克、捷克要求在欧洲理事会前放宽扩大后的碳市场。 (Euronews, 11/24)
+- **欧英协议设青年互相居住工作计划** — 脱欧后新协议设立青年计划，双方各有数万名年轻人可在对方境内居住和工作。 (The Local, 11/23)
 
 ---
 
 ## ◇ Cool Finds
 
-*（本期无）*
+**Tobias Zielony 个展《如何在黑暗中看见？》 · 11月27日 起**
+摄影师 Tobias Zielony 的个展，主题是可见性、排斥与边缘群体的生活。11月27日开展，展至2027年2月14日。
+*Zachęta · 2026-11-25 · [原文 →](https://zacheta.art.pl/pl/wystawy/tobias-zielony-jak-widziec-w-ciemnosci)*
+
+**Piotr Stechura 项目室展览《Not So Far from Yokohama》 · 11月27日 起**
+Piotr Stechura 的 Project Room 展览，11月26日开幕，展期11月27日至2027年1月10日。
+*CSW Zamek Ujazdowski · 2026-11-25 · [原文 →](https://u-jazdowski.pl/program/project-room/otwarty-nabor-dla-artystek-i-artystow/not-so-far-from-yokohama-)*
+
 
 ---
 
@@ -43,29 +53,29 @@
 
 ## ⤷ Upcoming Events
 
-**国家爱乐：Cory Henry《A Jam Good Time》** · 11月25日
-国家爱乐11月25日19:30举行 Cory Henry 专场《A Jam Good Time》。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/cory-henry-a-jam-good-time)*
+**Werner Herzog 影展：《陆上行舟》** · 11月26日
+11月26日18:30放映 Herzog 的《Fitzcarraldo》（1982），属其11月影展，地点在华沙市中心。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160848-werner-herzog-pokazy-filmow-w-listopadzie-fitzcarraldo-1982)*
 
-**大剧院歌剧《莎乐美》** · 11月26日
-11月26日19:00，理查·施特劳斯音乐剧《莎乐美》在 Sala Moniuszki 上演，德语演出，与马德里皇家剧院联合制作。 · Teatr Wielki, Sala Moniuszki
-*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/salome/termin/2026-11-26_19-00/)*
+**国家歌剧院上演《Falstaff》** · 11月27日
+Teatr Wielki 11月27日19:00上演《Falstaff》。 · Teatr Wielki – Opera Narodowa
+*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/falstaff/termin/2026-11-27_19-00/)*
 
-**Kino Tęcza 开幕：放映《奥兰多》并与 Tilda Swinton 见面** · 11月28日
-11月28日19:00，Kino Tęcza 开幕活动，放映《Orlando》并举行与 Tilda Swinton 的见面会。 · Żoliborz
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-162220-otwarcie-kina-tecza-pokaz-filmu-orlando-i-spotkanie-z-tilda-swinton)*
+**Zachęta：与 Wilhelm Sasnal 见面** · 11月30日
+11月30日18:00，Zachęta 举办与 Wilhelm Sasnal 的见面活动。 · Zachęta
+*Zachęta · [原文 →](https://zacheta.art.pl/pl/kalendarz/troche-oddzielny-troche-zaangazowany)*
 
-**移民局信息开放日（11月28日）** · 11月28日
-波兰移民局（UdSC）邀请参加11月28日的“信息周六”。
-*UdSC · [原文 →](https://www.gov.pl/web/udsc/sobota-informacyjna-w-urzedzie-do-spraw-cudzoziemcow---28112026)*
+**国家博物馆 Bestiariusz 电影单元：《Piaffe》** · 12月2日
+12月2日18:00放映 Ann Oren 的长片处女作《Piaffe》，属 Bestiariusz 展览配套电影单元。 · Muzeum Narodowe
+*Muzeum Narodowe · [原文 →](https://mnw.pl/wydarzenia/bestiariusz-program-filmowy/piaffe-bestiariusz-program-filmowy-2)*
 
-**国家爱乐：Koryfeusz 波兰音乐奖2026颁奖典礼** · 11月30日
-11月30日19:00，国家爱乐举行 Koryfeusz 波兰音乐奖2026颁奖典礼。 · Filharmonia Narodowa
-*Filharmonia Narodowa · [原文 →](https://filharmonia.pl/repertuar/gala-nagrody-koryfeusz-muzyki-polskiej-2026)*
+**Anita Lipnicka 华沙演唱会** · 12月6日
+Anita Lipnicka 12月6日在 Teatr Polski 举行演唱会。 · Teatr Polski im. Arnolda Szyfmana
+*PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/anita-lipnicka-koncert/)*
 
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ✅ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ✅ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ✅ European Commission · ✅ UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ❌ USTA Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ⚠ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ✅ 欧盟委员会新闻稿 · ✅ 移民局 UdSC · ⚠ 中国驻波兰使馆

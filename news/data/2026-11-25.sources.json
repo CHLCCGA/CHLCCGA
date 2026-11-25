@@ -1,0 +1,107 @@
+[
+ {
+  "name": "Notes From Poland",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "Warsaw Foodie",
+  "status": "ok",
+  "note": "窗口内无新条目"
+ },
+ {
+  "name": "USTA Magazyn",
+  "status": "fail",
+  "note": "503"
+ },
+ {
+  "name": "Warsaw Insider",
+  "status": "warn",
+  "note": "窗口内仅一篇且无摘要，未收"
+ },
+ {
+  "name": "Polskie Radio",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "waw4free",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "dlastudenta 周末清单",
+  "status": "warn",
+  "note": "本周清单未发布"
+ },
+ {
+  "name": "PIK Warszawa",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "Muzeum Narodowe",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "Zachęta",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "CSW Zamek Ujazdowski",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "Filharmonia Narodowa",
+  "status": "warn",
+  "note": "页面仅显示到11月15日的旧场次"
+ },
+ {
+  "name": "Teatr Wielki",
+  "status": "ok",
+  "note": "日历只到11月29日"
+ },
+ {
+  "name": "Kinoteka",
+  "status": "warn",
+  "note": "仅电视剧集场次，无艺术片特别场次"
+ },
+ {
+  "name": "NASK",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "IDEAS NCBR",
+  "status": "warn",
+  "note": "无活动"
+ },
+ {
+  "name": "The Local",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "Euronews Europe",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "欧盟委员会新闻稿",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "移民局 UdSC",
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "name": "中国驻波兰使馆",
+  "status": "warn",
+  "note": "窗口内无新条目"
+ }
+]
