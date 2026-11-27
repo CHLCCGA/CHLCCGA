@@ -1,81 +1,82 @@
 # 华沙 + 波兰 · 新闻摘要
 
-> 自动生成于 2026-11-25 (Europe/Warsaw) · 覆盖 2026-11-22 — 2026-11-25
-> 数据源：21 个站点 · 本期 16 条 · [JSON](news/data/2026-11-25.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
+> 自动生成于 2026-11-27 (Europe/Warsaw) · 覆盖 2026-11-24 — 2026-11-27
+> 数据源：21 个站点 · 本期 15 条 · [JSON](news/data/2026-11-27.json) · [网页版](https://chlccga.github.io/CHLCCGA/)
 
 ---
 
+
 ## ◆ Warsaw Now
 
-**华沙开设面向公众的天文台**
-华沙市长 Rafał Trzaskowski 表示，这座天文台让任何人都能通过观测了解太空。
-*Notes From Poland · 2026-11-23 · [原文 →](https://notesfrompoland.com/2026/11/23/public-astronomical-observatory-opens-in-warsaw/)*
+**华沙市政府下令终止宪法法庭外的抗议**
+华沙市政府称，宪法法庭外的示威威胁公共安全，下令结束抗议。
+*Notes From Poland · 2026-11-25 · [原文 →](https://notesfrompoland.com/2026/11/25/warsaw-orders-protest-outside-constitutional-court-to-end/)*
 
 
 ---
 
 ## · Poland Brief
 
-- **波兰与美国签署国防技术合作协议** — 协议结束了长达17年的谈判。 (Notes From Poland, 11/24)
-- **欧洲人权法院：波兰侵犯一名被遣返白俄罗斯的阿富汗移民权利** — 欧洲人权法院裁定，波兰2021年将一名阿富汗移民遣返白俄罗斯的做法违反其权利。 (Polskie Radio, 11/24)
-- **波兰就俄导弹侵入领空传召俄罗斯大使** — 波兰周二传召俄罗斯大使，抗议上周俄罗斯导弹侵犯波兰领空。 (Polskie Radio, 11/24)
-- **移民局：MOS 系统将出现短暂访问中断** — 移民局通知，MOS 门户将出现短暂的访问中断。 (Urząd do Spraw Cudzoziemców, 11/23)
-- **NASK 邀请参加 Kongres OSE 2026，讨论学校如何应对 AI 与网络风险** — 专家将讨论 AI 改变年轻人学习方式，以及网络上的操纵、暴力与极端化风险下学校该如何应对。 (NASK, 11/24)
+- **波兰拟在东部边境设禁飞区** — 外长称计划在东部边境设禁飞区以便击落俄罗斯导弹，并提出应获准在乌克兰上空击落俄导弹。 (Notes From Poland, 11/25)
+- **政府责令国有银行为宪法法庭提供资金** — 波兰政府责令国有银行为宪法法庭提供资金。 (Polskie Radio, 11/26)
+- **移民局：不再签发临时保护证明** — 移民局（UdSC）提醒：自2026年3月5日起，局长不再签发确认临时保护的证明。 (Urząd do Spraw Cudzoziemców, 11/25)
 
 ---
 
 ## ◈ Europe Brief
 
-- **欧盟委员会对混合动力车进口设临时配额** — 临时保障措施对部分混动乘用车设进口配额，12月1日起生效。 (European Commission, 11/24)
-- **维谢格拉德四国要求推迟 ETS2** — 波兰、匈牙利、斯洛伐克、捷克要求在欧洲理事会前放宽扩大后的碳市场。 (Euronews, 11/24)
-- **欧英协议设青年互相居住工作计划** — 脱欧后新协议设立青年计划，双方各有数万名年轻人可在对方境内居住和工作。 (The Local, 11/23)
+- **欧盟就消费者保护对 Temu 采取协调行动** — 欧盟委员会与消费者保护合作网络协调行动后，Temu 承诺使多项商业做法符合欧盟消费者保护法，该承诺11月26日获接受。 (European Commission, 11/26)
+- **EES 误判逾期，英国女子被意大利遣返** — 一名英国女子被意大利遣返，原因是 EES 边检系统错误地将她标记为逾期滞留。 (The Local, 11/25)
+- **欧洲之星员工突然罢工，巴黎—伦敦列车停运** — 欧洲之星员工未预先通知即罢工，巴黎—伦敦列车停运，可能还有更多中断。 (Euronews, 11/25)
+- **欧盟峰会在预算与乌克兰援助上出现分歧** — 欧盟领导人在峰会上就预算、国防、农业补贴和乌克兰援助出现分歧。 (Euronews, 11/26)
 
 ---
 
 ## ◇ Cool Finds
 
-**Tobias Zielony 个展《如何在黑暗中看见？》 · 11月27日 起**
-摄影师 Tobias Zielony 的个展，主题是可见性、排斥与边缘群体的生活。11月27日开展，展至2027年2月14日。
-*Zachęta · 2026-11-25 · [原文 →](https://zacheta.art.pl/pl/wystawy/tobias-zielony-jak-widziec-w-ciemnosci)*
-
-**Piotr Stechura 项目室展览《Not So Far from Yokohama》 · 11月27日 起**
-Piotr Stechura 的 Project Room 展览，11月26日开幕，展期11月27日至2027年1月10日。
-*CSW Zamek Ujazdowski · 2026-11-25 · [原文 →](https://u-jazdowski.pl/program/project-room/otwarty-nabor-dla-artystek-i-artystow/not-so-far-from-yokohama-)*
+*（本期无）*
 
 
 ---
 
 ## ▸ New Spots
 
-*（本期无）*
+**Fryday Burgers：来自阿塞拜疆的汉堡店落户 Chmielna（Chmielna）**
+阿塞拜疆汉堡连锁在波兰的首家店开在 Chmielna，菜单简短，主打土豆面包的经典汉堡。
+*Warsaw Foodie · 2026-11-26 · [原文 →](https://warsawfoodie.pl/2026/11/fryday-burgers-nowa-burgerownia-przy-chmielnej/)*
+
+**YUKI：Piękna 街的日式三明治店（Piękna）**
+位于 Piękna 的日式三明治店，主打用 shokupan 吐司做的法式吐司和 Sando。
+*Warsaw Foodie · 2026-11-25 · [原文 →](https://warsawfoodie.pl/2026/11/yuki-nowe-miejsce-z-japonskimi-kanapkami-przy-pieknej/)*
+
 
 ---
 
 ## ⤷ Upcoming Events
 
-**Werner Herzog 影展：《陆上行舟》** · 11月26日
-11月26日18:30放映 Herzog 的《Fitzcarraldo》（1982），属其11月影展，地点在华沙市中心。 · Śródmieście
-*waw4free · [原文 →](https://waw4free.pl/wydarzenie-160848-werner-herzog-pokazy-filmow-w-listopadzie-fitzcarraldo-1982)*
+**本周末华沙做什么（11月27–29日）** · 11月27日
+周五、周六在 Kino Wisła 有 Tilda Swinton 的《Bliss #2》（英语，无翻译）；周六 Jethro Tull 在 Arena Ursynów 演出，周五 IRA 在 Stodoła 开唱；11月27–29日 plac Defilad 的 Jarmark Warszawski 每天11:00–22:00。
+*dlastudenta · [原文 →](https://warszawa.dlastudenta.pl/wiadomosci/artykul/weekend-w-warszawie-2729-listopada-2026-tilda-swinton-jethro-tull-i-jarmark-w-wilanowie,161644.html)*
 
-**国家歌剧院上演《Falstaff》** · 11月27日
-Teatr Wielki 11月27日19:00上演《Falstaff》。 · Teatr Wielki – Opera Narodowa
-*Teatr Wielki – Opera Narodowa · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/falstaff/termin/2026-11-27_19-00/)*
+**Kinoteka 放映《La Gradiva》** · 11月27日
+Kinoteka 11月27日20:00放映《La Gradiva》。 · Kinoteka
+*Kinoteka · [原文 →](https://kinoteka.pl/film/la-gradiva/)*
 
-**Zachęta：与 Wilhelm Sasnal 见面** · 11月30日
-11月30日18:00，Zachęta 举办与 Wilhelm Sasnal 的见面活动。 · Zachęta
-*Zachęta · [原文 →](https://zacheta.art.pl/pl/kalendarz/troche-oddzielny-troche-zaangazowany)*
+**Kościół św. Jacka 室内参观导览** · 11月28日
+11月28日10:00，Śródmieście 的圣雅各教堂内部导览，费用为自愿捐助。 · Śródmieście
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-162333-kosciol-sw-jacka-zwiedzanie-wnetrz-spacer-z-przewodnikiem)*
 
-**国家博物馆 Bestiariusz 电影单元：《Piaffe》** · 12月2日
-12月2日18:00放映 Ann Oren 的长片处女作《Piaffe》，属 Bestiariusz 展览配套电影单元。 · Muzeum Narodowe
-*Muzeum Narodowe · [原文 →](https://mnw.pl/wydarzenia/bestiariusz-program-filmowy/piaffe-bestiariusz-program-filmowy-2)*
+**大剧院《Salome》** · 11月28日
+Teatr Wielki 11月28日19:00 上演《Salome》。 · Teatr Wielki
+*Teatr Wielki · [原文 →](https://teatrwielki.pl/kalendarium/2026-2027/salome/termin/2026-11-28_19-00/)*
 
-**Anita Lipnicka 华沙演唱会** · 12月6日
-Anita Lipnicka 12月6日在 Teatr Polski 举行演唱会。 · Teatr Polski im. Arnolda Szyfmana
-*PIK Warszawa · [原文 →](https://pik.warszawa.pl/muzyka/anita-lipnicka-koncert/)*
+**Golec uOrkiestra 音乐会** · 12月5日
+12月5日19:30，Praga-Północ 举行 Golec uOrkiestra 音乐会。 · Praga-Północ
+*waw4free · [原文 →](https://waw4free.pl/wydarzenie-162322-koncert-golec-uorkiestra)*
 
 
 ---
 
 ### Sources this run
 
-✅ Notes From Poland · ✅ Warsaw Foodie · ❌ USTA Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ⚠ dlastudenta 周末清单 · ✅ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ⚠ Filharmonia Narodowa · ✅ Teatr Wielki · ⚠ Kinoteka · ✅ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ✅ 欧盟委员会新闻稿 · ✅ 移民局 UdSC · ⚠ 中国驻波兰使馆
+✅ Notes From Poland · ✅ Warsaw Foodie · ❌ Usta Magazyn · ⚠ Warsaw Insider · ✅ Polskie Radio · ✅ waw4free · ✅ dlastudenta 周末清单 · ⚠ PIK Warszawa · ✅ Muzeum Narodowe · ✅ Zachęta · ✅ CSW Zamek Ujazdowski · ⚠ Filharmonia Narodowa · ✅ Teatr Wielki · ✅ Kinoteka · ⚠ NASK · ⚠ IDEAS NCBR · ✅ The Local · ✅ Euronews Europe · ✅ 欧盟委员会新闻稿 · ✅ UdSC 移民局 · ⚠ 中国驻波兰使馆

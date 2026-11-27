@@ -1,0 +1,23 @@
+[
+{"name":"Notes From Poland","status":"ok","note":"feed 仅读到前 8 条"},
+{"name":"Warsaw Foodie","status":"ok","note":""},
+{"name":"Usta Magazyn","status":"fail","note":"503"},
+{"name":"Warsaw Insider","status":"warn","note":"窗口内无符合条目"},
+{"name":"Polskie Radio","status":"ok","note":""},
+{"name":"waw4free","status":"ok","note":""},
+{"name":"dlastudenta 周末清单","status":"ok","note":""},
+{"name":"PIK Warszawa","status":"warn","note":"Chopin 系列为区间日期、其余远期，未收"},
+{"name":"Muzeum Narodowe","status":"ok","note":""},
+{"name":"Zachęta","status":"ok","note":""},
+{"name":"CSW Zamek Ujazdowski","status":"ok","note":""},
+{"name":"Filharmonia Narodowa","status":"warn","note":"抓到的曲目仅到11月中旬，无窗口内场次"},
+{"name":"Teatr Wielki","status":"ok","note":"仅显示11月27–29日"},
+{"name":"Kinoteka","status":"ok","note":"仅显示11月27日"},
+{"name":"NASK","status":"warn","note":"窗口内无符合条目"},
+{"name":"IDEAS NCBR","status":"warn","note":"暂无活动"},
+{"name":"The Local","status":"ok","note":""},
+{"name":"Euronews Europe","status":"ok","note":""},
+{"name":"欧盟委员会新闻稿","status":"ok","note":""},
+{"name":"UdSC 移民局","status":"ok","note":""},
+{"name":"中国驻波兰使馆","status":"warn","note":"窗口内无新条目"}
+]
